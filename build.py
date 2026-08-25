@@ -80,32 +80,46 @@ PROJECTS = {
     # The rainbow, in order across its arc — each project one band of it,
     # each with its own symbols and no symbol shared between streams.
     "Buddhism": {
-        "color": "#ff9d76",   # orange band (+ rose)
-        "hues": ["#ff9d76", "#ff8fa3"],
+        # saffron: the kasaya robe, "the Buddha's teachings" in orange;
+        # lotus rose: Amitabha's padma family, compassion magnetizing
+        "color": "#ff9d3f",   # saffron
+        "hues": ["#ff9d3f", "#ff8fa3"],
         "symbols": ["☸", "◯", "無", "空", "禪", "心", "佛", "法", "慈",
                     "悲", "定", "慧", "ॐ", "戒"],
     },
     "Smile": {
-        "color": "#ffe066",   # yellow band (+ amber)
+        # sunshine yellow: Harvey Ball's own reason ("sunshiny and
+        # bright"); Earth-center trust 信; amber the honeyed companion
+        "color": "#ffe066",   # sunshine yellow
         "hues": ["#ffe066", "#ffc94d"],
         "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
                     "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
     },
     "Videogames": {
-        "color": "#8fe39b",   # green band (+ spring)
-        "hues": ["#8fe39b", "#c0f07a"],
+        # spring green: play as the growth phase, Amoghasiddhi's
+        # all-accomplishing action; fantasy purple: games culture's
+        # own color of mystery, fantasy, and the uncanny
+        "color": "#8fe39b",   # spring green
+        "hues": ["#8fe39b", "#c99df5"],
         "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
                     "⬇", "⬅", "➡", "1UP", "XP"],
     },
     "Sacred Travel": {
-        "color": "#7fdfd4",   # turquoise band (+ nile teal)
-        "hues": ["#7fdfd4", "#9be8c0"],
+        # faience turquoise: the Egyptian amulet material of safe
+        # passage; lapis blue: its traditional partner stone, and the
+        # traveler's protection blue (Nazar, Osiris) — lightened to
+        # glow on the black ground
+        "color": "#7fdfd4",   # faience turquoise
+        "hues": ["#7fdfd4", "#5b8bd9"],
         "symbols": ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙",
                     "៚", "𓊽", "𓁹"],
     },
     "Machine Learning": {
-        "color": "#7fb8ff",   # blue band (+ violet)
-        "hues": ["#7fb8ff", "#b39dff"],
+        # sky blue: Water-phase wisdom 智, Akshobhya's mirror-like
+        # wisdom; silver: the color of the machine itself — steel,
+        # technology, the future
+        "color": "#7fb8ff",   # sky blue
+        "hues": ["#7fb8ff", "#ccd6e4"],
         "symbols": ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π",
                     "≈", "∞", "⊕", "01", "110"],
     },
