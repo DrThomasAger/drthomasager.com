@@ -47,6 +47,10 @@ CATEGORIES = {
             "Commentaries": {
                 "children": [],
                 "blurb": "Commentaries on texts worth resting in."},
+            "Sacred Geometry": {
+                "children": [],
+                "blurb": "The forms beneath the forms — drawn, built, "
+                         "and walked into."},
         },
     },
 }
