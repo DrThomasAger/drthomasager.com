@@ -28,6 +28,14 @@ The personal writing home of Dr Thomas Ager. Markdown in, static site out.
   which is the uploadable artifact. `Build DrThomasAger.bat` is the one
   double-click: rebuild + open in browser.
 
+- **Kinds of posts are planned but not yet built**: front-matter will
+  gain `kind` (article / photo / art / video) with media files in
+  `posts/media/`; media posts show their image or video as card tile
+  and page body. The first photo posts will be Instagram posts arriving
+  **through Ekadanta** — an Ekadanta instance is integrating Hanjo's
+  Instagram archive, and this site interfaces with their archive once
+  it is ready. Do not hunt for a raw Instagram export; the door is
+  Ekadanta.
 - **Every post carries a `project` and `tags`** in its front-matter,
   rendered as a tag row on the article. The tags are destined to be
   derived from the Ekadanta document store's tag layer
