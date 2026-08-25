@@ -94,10 +94,10 @@ PROJECTS = {
         # Ratnasambhava, south, Jewel family. Earth; wisdom of
         # equanimity; transforms pride. Gold — the open giving hand,
         # generosity and dignity; second tone gold toward the light.
-        "color": "#ffd24d",   # Ratnasambhava gold
+        "color": "#f5c542",   # Ratnasambhava gold, quieted into the band
         # secondary: the Buddha across the center — Amoghasiddhi's
         # jade, a step quieter (the giving hand met by the fearless)
-        "hues": ["#ffd24d", "#449d6c"],
+        "hues": ["#f5c542", "#4ca373"],
         "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
                     "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
     },
@@ -106,10 +106,10 @@ PROJECTS = {
         # wisdom; transforms jealousy into mastery held lightly —
         # play. Jade green (also the phosphor of the first screens);
         # second tone jade toward the light.
-        "color": "#58c98a",   # Amoghasiddhi jade
+        "color": "#62d194",   # Amoghasiddhi jade, held in the band
         # secondary: Ratnasambhava's gold across the center, a step
         # quieter (accomplishment met by equanimity)
-        "hues": ["#58c98a", "#c7a43c"],
+        "hues": ["#62d194", "#bf9a33"],
         "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
                     "⬇", "⬅", "➡", "1UP", "XP"],
     },
@@ -118,10 +118,10 @@ PROJECTS = {
         # seeing each place as this place; transforms craving. The
         # western Pure Land, destination of pilgrimage; luminous ruby
         # on the black ground; second tone ruby toward the light.
-        "color": "#ff6b7a",   # Amitabha ruby
+        "color": "#ff7f8d",   # Amitabha ruby, lifted into the band
         # secondary: Akshobhya's sapphire across the center, a step
         # quieter (the pilgrim's longing met by the mirror)
-        "hues": ["#ff6b7a", "#476ca9"],
+        "hues": ["#ff7f8d", "#577ab2"],
         "symbols": ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙",
                     "៚", "𓊽", "𓁹"],
     },
@@ -130,15 +130,17 @@ PROJECTS = {
         # a trained model reflects without holding; transforms
         # aversion. Sapphire lifted to be read on black; second tone
         # sapphire toward the light.
-        "color": "#5b8bd9",   # Akshobhya sapphire
+        "color": "#6f9ce4",   # Akshobhya sapphire, lifted into the band
         # secondary: Amitabha's ruby across the center, a step
         # quieter (clarity met by warmth and the particular)
-        "hues": ["#5b8bd9", "#c7535f"],
+        "hues": ["#6f9ce4", "#c7636e"],
         "symbols": ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π",
                     "≈", "∞", "⊕", "01", "110"],
     },
 }
-RESERVE_COLORS = ["#ffb3c9", "#cdb4ff"]
+# No sixth seat exists to be reserved: an unknown project wears the
+# center's white until it is truly seated.
+THREAD = ["#6f9ce4", "#f5c542", "#ff7f8d", "#62d194"]  # sunwise
 
 def _hx(c):
     return tuple(int(c[i:i+2], 16) for i in (1, 3, 5))
@@ -150,7 +152,13 @@ def _mix(c1, c2, t):
 def project_color(name):
     if name in PROJECTS:
         return PROJECTS[name]["color"]
-    return RESERVE_COLORS[sum(map(ord, name)) % len(RESERVE_COLORS)]
+    return "#ffffff"
+
+def shadow_color(name):
+    """The solid shadow below project text. White cannot hold a
+    shadow on the light ground, so the center wears its silver."""
+    c = project_color(name)
+    return "#cfcfcf" if c == "#ffffff" else c
 
 def tag_color(project, tag):
     n = sum(map(ord, tag))
@@ -173,23 +181,25 @@ def stream_svg(h=320):
     strands = []
     for k, (name, st) in enumerate(PROJECTS.items()):
         for v, hue in enumerate(st["hues"]):
-            strands.append((name, st, hue, k * 2 + v))
+            strands.append((name, st, hue, k, v))
     n = len(strands)
     pts = 240
     coils = 3.3
-    # the thread of four: sunwise sapphire, gold, ruby, jade —
-    # carried by Buddhism's thin strand as the center holding the
-    # four directions
-    content = ('<defs><linearGradient id="dta-thread" '
-               'x1="0" y1="0" x2="1" y2="0">'
-               '<stop offset="0" stop-color="#5b8bd9"/>'
-               '<stop offset="0.33" stop-color="#ffd24d"/>'
-               '<stop offset="0.66" stop-color="#ff6b7a"/>'
-               '<stop offset="1" stop-color="#58c98a"/>'
-               '</linearGradient></defs>')
-    for name, st, hue, idx in strands:
-        phase = 2 * math.pi * idx / n
-        thick = 11 if idx % 2 == 0 else 6.5
+    # the thread of four: the sunwise cycle repeated, so any visible
+    # crop of the center's thin strand carries all four directions
+    cycle = THREAD + THREAD
+    stops = "".join(
+        f'<stop offset="{i / (len(cycle) - 1):.3f}" stop-color="{c}"/>'
+        for i, c in enumerate(cycle))
+    content = (f'<defs><linearGradient id="dta-thread" '
+               f'x1="0" y1="0" x2="1" y2="0">{stops}</linearGradient></defs>')
+    for name, st, hue, k, v in strands:
+        # couples: each project's two strands share adjacent coil
+        # phase, so primary and its across-the-center secondary
+        # visibly travel together
+        phase = 2 * math.pi * k / 5 + v * (math.pi / n)
+        idx = k * 2 + v
+        thick = 11 if v == 0 else 6.5
         mid = []
         for i in range(pts + 1):
             u = i / pts
@@ -269,7 +279,7 @@ def dropdown(idp):
                           f'<span class="choice-note">the Smile Prompt '
                           f'Language and Smile Chat</span></label>')
     return (f'<details class="interests" id="{idp}-interests">'
-            f'<summary>Choose which streams you receive</summary>'
+            f'<summary>Choose which projects you receive</summary>'
             f'<div class="interest-grid">{boxes}</div></details>')
 
 def signup_form(idp, button_text):
@@ -301,11 +311,11 @@ def footer():
                 links += (f'<a class="child-link" '
                           f'href="{c["slug"]}.html#{slugify(ch)}">{ch}</a>')
         cols += f'<div><h3>{cat}</h3>{links}</div>'
-    streams = "".join(
-        f'<a href="index.html"><span class="stream-dot" '
-        f'style="background:{st["color"]}"></span> {name}</a>'
+    projects = "".join(
+        f'<a class="ptx-shadow" style="--pc:{st["color"]}" '
+        f'href="index.html">{name}</a>'
         for name, st in PROJECTS.items())
-    cols += f'<div><h3>The Streams</h3>{streams}</div>'
+    cols += f'<div><h3>Projects</h3>{projects}</div>'
     cols += ('<div><h3>Site</h3><a href="index.html">Home</a>'
              '<a href="https://crystallizationculture.com">'
              'Crystallization Culture</a></div>')
@@ -314,7 +324,7 @@ def footer():
             f'<div><p class="eyebrow" '
             f'style="color:{PROJECTS["Smile"]["color"]}">The mailing list</p>'
             f'<h2>New posts arrive by email.</h2>'
-            f'<p>Join once, choose your streams, and each new piece is sent '
+            f'<p>Join once, choose your projects, and each new piece is sent '
             f'when it is published.</p>'
             f'<button class="btn" type="button" data-open-popup>'
             f'Join the Mailing List</button></div>'
@@ -349,11 +359,13 @@ def page(title, body, desc=TAGLINE):
             f'<script src="assets/site.js"></script></body></html>')
 
 def card(p):
+    proj = p.get("project", SITE_NAME)
     return (f'<a class="card" href="{p["slug"]}.html">'
             f'<div class="card-art" aria-hidden="true" style="color:'
-            f'{deep(project_color(p.get("project", SITE_NAME)))}">'
+            f'{deep(project_color(proj))}">'
             f'<span>{p.get("glyph","☀")}</span></div>'
-            f'<h3>{p["title"]}</h3><p>{p["description"]}</p></a>')
+            f'<h3 class="ptx-shadow" style="--pc:{shadow_color(proj)}">'
+            f'{p["title"]}</h3><p>{p["description"]}</p></a>')
 
 def hero(title_html, sub_text, form_id, svg=""):
     return (f'<section class="hero">{svg}<div class="hero-inner"><div class="hero-copy">'
@@ -371,7 +383,7 @@ def index_body(posts, svg_fn=None):
     svg_fn = svg_fn or stream_svg
     n_symbols = sum(len(p["symbols"]) for p in PROJECTS.values())
     stats = [
-        ("☸", "5", "Writing Streams"),
+        ("☸", "5", "Writing Projects"),
         ("✎", str(len(posts)), "Pieces of Writing"),
         ("✳", str(n_symbols), "Symbols in the Weave"),
         ("(-:", "1", "Author"),
@@ -387,9 +399,6 @@ def index_body(posts, svg_fn=None):
     collage = "".join(
         f'<span style="color:{deep(st["color"])}">{s}</span>'
         for st in PROJECTS.values() for s in st["symbols"][:6])
-    dots = "".join(f'<span class="stream-dot" title="{name}" '
-                   f'style="background:{st["color"]}"></span>'
-                   for name, st in PROJECTS.items())
     smile_post = next((p for p in posts if p.get("project") == "Smile"), None)
     feature = (
         f'<section class="feature"><div class="feature-art" aria-hidden="true">'
@@ -400,7 +409,6 @@ def index_body(posts, svg_fn=None):
         f'It is developed here, alongside Smile Chat, the local '
         f'conversation rig it runs in. Posts document the language as it '
         f'develops.</p>'
-        f'<div class="stream-row">{dots}<span>The five streams</span></div>'
         + (f'<a class="btn" href="{smile_post["slug"]}.html">'
            f'Read About Smile</a>' if smile_post else '')
         + '</div></section>')
@@ -484,7 +492,9 @@ def build_posts(posts):
             f'<section class="hero hero-lite">'
             f'{stream_svg(h=140)}'
             f'<div class="hero-inner"></div>{WAVE}</section>'
-            f'<main class="article"><h1 class="post-title">{p["title"]}</h1>'
+            f'<main class="article"><h1 class="post-title ptx-shadow" '
+            f'style="--pc:{shadow_color(p.get("project", SITE_NAME))}">'
+            f'{p["title"]}</h1>'
             f'<div class="byline"><span class="avatar" aria-hidden="true">TA</span>'
             f'<strong>{SITE_NAME}</strong><span class="dot">|</span>'
             f'<span>Updated {p["date"]}</span><span class="dot">|</span>'
@@ -492,8 +502,8 @@ def build_posts(posts):
             f'<a class="pill" href="{CATEGORIES[p["category"]]["slug"]}.html'
             f'#{slugify(p["pill"])}">{p["pill"]}</a></div>'
             f'<div class="post-body">{p["body"]}</div>'
-            f'<div class="tag-row"><span class="tag tag-project" '
-            f'style="background:{project_color(p.get("project", SITE_NAME))}">'
+            f'<div class="tag-row"><span class="tag tag-project ptx-shadow" '
+            f'style="--pc:{shadow_color(p.get("project", SITE_NAME))}">'
             f'Project &mdash; {p.get("project", SITE_NAME)}</span>'
             + "".join(
                 f'<span class="tag" style="border-color:'

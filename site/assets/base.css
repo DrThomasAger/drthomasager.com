@@ -150,6 +150,14 @@ img { max-width: 100%; }
   transform: rotate(-8deg); display: var(--flourish-display);
 }
 
+/* Project text: two types. Regular text is just the surface's own
+   ink. The shadowed type keeps that same standard ink but stands on
+   a small solid shadow below in the project's colour (--pc). */
+.ptx-shadow {
+  color: inherit;
+  text-shadow: 0 .14em 0 var(--pc);
+}
+
 /* Bands and cards */
 main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 .band { margin: 4.2rem 0; }
@@ -235,7 +243,7 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
   border: 1px solid var(--line); padding: .25rem .8rem; font-size: .82rem;
   border-radius: var(--btn-radius); font-family: var(--font-head);
 }
-.tag-project { background: var(--accent); color: var(--accent-ink); }
+.tag-project { font-weight: 700; }
 
 /* Footer */
 .deep { background: var(--page-bg); }

@@ -42,6 +42,15 @@
    planes. White sections stay plain and sit above. */
 .hero, .foot-inner, .midband { position: relative; overflow: hidden; }
 .hero > *, .foot-inner > *, .midband > * { position: relative; z-index: 1; }
+/* The thread of four as signature: sunwise sapphire, gold, ruby,
+   jade under section heads and the footer's mailing band */
+.band-head, .foot-cta {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg,
+    #6f9ce4, #f5c542, #ff7f8d, #62d194, #6f9ce4) 1;
+  padding-bottom: .5rem;
+}
+
 /* Mid band planes: the current fades toward the words on the left */
 .midband .planes {
   -webkit-mask-image: linear-gradient(115deg, transparent 34%, #000 62%);

@@ -150,14 +150,6 @@ img { max-width: 100%; }
   transform: rotate(-8deg); display: var(--flourish-display);
 }
 
-/* Project text: two types. Regular text is just the surface's own
-   ink. The shadowed type keeps that same standard ink but stands on
-   a small solid shadow below in the project's colour (--pc). */
-.ptx-shadow {
-  color: inherit;
-  text-shadow: 0 .14em 0 var(--pc);
-}
-
 /* Bands and cards */
 main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 .band { margin: 4.2rem 0; }
@@ -243,7 +235,7 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
   border: 1px solid var(--line); padding: .25rem .8rem; font-size: .82rem;
   border-radius: var(--btn-radius); font-family: var(--font-head);
 }
-.tag-project { font-weight: 700; }
+.tag-project { background: var(--accent); color: var(--accent-ink); }
 
 /* Footer */
 .deep { background: var(--page-bg); }
@@ -339,4 +331,25 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 }
 @media (max-width: 44rem) {
   .popup-art { display: none; }
+}
+
+/* ---- Consensus signature: the thread of four worn as rules ---- */
+.band-head {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg,
+    #6f9ce4, #f5c542, #ff7f8d, #62d194, #6f9ce4) 1;
+  padding-bottom: .5rem;
+}
+.see-all:hover, .post-body a:hover {
+  text-decoration-color: #ff7f8d;
+}
+.foot-cta {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg,
+    #6f9ce4, #f5c542, #ff7f8d, #62d194, #6f9ce4) 1;
+}
+/* white lives in a bordered chip wherever it must stand as a swatch */
+.stream-dot { border: 1px solid rgba(0,0,0,.35); }
+.foot-grid .stream-dot, .midband .stream-dot {
+  border-color: rgba(255,255,255,.45);
 }
