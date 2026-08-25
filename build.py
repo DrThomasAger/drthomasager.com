@@ -80,46 +80,50 @@ PROJECTS = {
     # The rainbow, in order across its arc — each project one band of it,
     # each with its own symbols and no symbol shared between streams.
     "Buddhism": {
-        # saffron: the kasaya robe, "the Buddha's teachings" in orange;
-        # lotus rose: Amitabha's padma family, compassion magnetizing
-        "color": "#ff9d3f",   # saffron
-        "hues": ["#ff9d3f", "#ff8fa3"],
+        # Vairocana, center, Buddha family. Space; dharmadhatu wisdom;
+        # transforms ignorance. White light in black space — the
+        # source the other four emanate from, barest of the five.
+        "color": "#ffffff",   # Vairocana white
+        "hues": ["#ffffff", "#d4d4d4"],
         "symbols": ["☸", "◯", "無", "空", "禪", "心", "佛", "法", "慈",
                     "悲", "定", "慧", "ॐ", "戒"],
     },
     "Smile": {
-        # sunshine yellow: Harvey Ball's own reason ("sunshiny and
-        # bright"); Earth-center trust 信; amber the honeyed companion
-        "color": "#ffe066",   # sunshine yellow
-        "hues": ["#ffe066", "#ffc94d"],
+        # Ratnasambhava, south, Jewel family. Earth; wisdom of
+        # equanimity; transforms pride. Gold — the open giving hand,
+        # generosity and dignity; second tone gold toward the light.
+        "color": "#ffd24d",   # Ratnasambhava gold
+        "hues": ["#ffd24d", "#ffe699"],
         "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
                     "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
     },
     "Videogames": {
-        # spring green: play as the growth phase, Amoghasiddhi's
-        # all-accomplishing action; fantasy purple: games culture's
-        # own color of mystery, fantasy, and the uncanny
-        "color": "#8fe39b",   # spring green
-        "hues": ["#8fe39b", "#c99df5"],
+        # Amoghasiddhi, north, Karma family. Wind; all-accomplishing
+        # wisdom; transforms jealousy into mastery held lightly —
+        # play. Jade green (also the phosphor of the first screens);
+        # second tone jade toward the light.
+        "color": "#58c98a",   # Amoghasiddhi jade
+        "hues": ["#58c98a", "#9be3bb"],
         "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
                     "⬇", "⬅", "➡", "1UP", "XP"],
     },
     "Sacred Travel": {
-        # faience turquoise: the Egyptian amulet material of safe
-        # passage; lapis blue: its traditional partner stone, and the
-        # traveler's protection blue (Nazar, Osiris) — lightened to
-        # glow on the black ground
-        "color": "#7fdfd4",   # faience turquoise
-        "hues": ["#7fdfd4", "#5b8bd9"],
+        # Amitabha, west, Lotus family. Fire; discriminating wisdom —
+        # seeing each place as this place; transforms craving. The
+        # western Pure Land, destination of pilgrimage; luminous ruby
+        # on the black ground; second tone ruby toward the light.
+        "color": "#ff6b7a",   # Amitabha ruby
+        "hues": ["#ff6b7a", "#ffa3ac"],
         "symbols": ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙",
                     "៚", "𓊽", "𓁹"],
     },
     "Machine Learning": {
-        # sky blue: Water-phase wisdom 智, Akshobhya's mirror-like
-        # wisdom; silver: the color of the machine itself — steel,
-        # technology, the future
-        "color": "#7fb8ff",   # sky blue
-        "hues": ["#7fb8ff", "#ccd6e4"],
+        # Akshobhya, east, Vajra family. Water; mirror-like wisdom —
+        # a trained model reflects without holding; transforms
+        # aversion. Sapphire lifted to be read on black; second tone
+        # sapphire toward the light.
+        "color": "#5b8bd9",   # Akshobhya sapphire
+        "hues": ["#5b8bd9", "#9db9e8"],
         "symbols": ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π",
                     "≈", "∞", "⊕", "01", "110"],
     },
