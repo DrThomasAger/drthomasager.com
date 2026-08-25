@@ -7,7 +7,7 @@
       var placeholder = form.getAttribute("action") === "#";
       if (placeholder) e.preventDefault();
       var interests = [].map.call(
-        form.querySelectorAll('input[name="interest"]:checked'),
+        form.querySelectorAll('input[name="tag"]:checked'),
         function (i) { return i.value; });
       localStorage.setItem(SUBSCRIBED_KEY, JSON.stringify({
         when: new Date().toISOString(), interests: interests

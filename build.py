@@ -18,7 +18,7 @@ TAGLINE = ("Writing on Buddhism, Smile, Videogames, Sacred Travel, "
 # ---------------------------------------------------------------
 # MAILING LIST ENDPOINT — the one line that receives the real
 # provider URL (form POST target) when a provider is chosen.
-MAILING_ENDPOINT = ""  # e.g. "https://buttondown.com/api/emails/embed-subscribe/drthomasager"
+MAILING_ENDPOINT = "https://buttondown.com/api/emails/embed-subscribe/drthomasager"
 # ---------------------------------------------------------------
 
 CATEGORIES = {
@@ -219,14 +219,14 @@ WAVE = ('<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 44" '
 def dropdown(idp):
     boxes = ""
     for cat, c in CATEGORIES.items():
-        boxes += (f'<label><input type="checkbox" name="interest" '
+        boxes += (f'<label><input type="checkbox" name="tag" '
                   f'value="{c["slug"]}" checked> {cat}</label>')
         for sub, s in c["subs"].items():
             boxes += (f'<label class="sub-choice"><input type="checkbox" '
-                      f'name="interest" value="{slugify(sub)}" checked> {sub}</label>')
+                      f'name="tag" value="{slugify(sub)}" checked> {sub}</label>')
             for ch in s["children"]:
                 boxes += (f'<label class="sub-choice child-choice">'
-                          f'<input type="checkbox" name="interest" '
+                          f'<input type="checkbox" name="tag" '
                           f'value="{slugify(ch)}" checked> {ch} '
                           f'<span class="choice-note">the Smile Prompt '
                           f'Language and Smile Chat</span></label>')
@@ -237,7 +237,8 @@ def dropdown(idp):
 def signup_form(idp, button_text):
     return (f'<form class="signup" id="{idp}" method="post" '
             f'action="{MAILING_ENDPOINT or "#"}" data-signup>'
-            f'<input type="text" name="name" placeholder="Name" aria-label="Name">'
+            f'<input type="text" name="metadata-name" placeholder="Name" '
+            f'aria-label="Name">'
             f'<input type="email" name="email" placeholder="Email" aria-label="Email" required>'
             f'{dropdown(idp)}'
             f'<button type="submit" class="btn">{button_text}</button>'
