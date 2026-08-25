@@ -84,7 +84,9 @@ PROJECTS = {
         # transforms ignorance. White light in black space — the
         # source the other four emanate from, barest of the five.
         "color": "#ffffff",   # Vairocana white
-        "hues": ["#ffffff", "#d4d4d4"],
+        # thin strand: the thread of all four directions, sunwise
+        # (sapphire, gold, ruby, jade) — the center contains them
+        "hues": ["#ffffff", "url(#dta-thread)"],
         "symbols": ["☸", "◯", "無", "空", "禪", "心", "佛", "法", "慈",
                     "悲", "定", "慧", "ॐ", "戒"],
     },
@@ -93,7 +95,9 @@ PROJECTS = {
         # equanimity; transforms pride. Gold — the open giving hand,
         # generosity and dignity; second tone gold toward the light.
         "color": "#ffd24d",   # Ratnasambhava gold
-        "hues": ["#ffd24d", "#ffe699"],
+        # secondary: the Buddha across the center — Amoghasiddhi's
+        # jade, a step quieter (the giving hand met by the fearless)
+        "hues": ["#ffd24d", "#449d6c"],
         "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
                     "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
     },
@@ -103,7 +107,9 @@ PROJECTS = {
         # play. Jade green (also the phosphor of the first screens);
         # second tone jade toward the light.
         "color": "#58c98a",   # Amoghasiddhi jade
-        "hues": ["#58c98a", "#9be3bb"],
+        # secondary: Ratnasambhava's gold across the center, a step
+        # quieter (accomplishment met by equanimity)
+        "hues": ["#58c98a", "#c7a43c"],
         "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
                     "⬇", "⬅", "➡", "1UP", "XP"],
     },
@@ -113,7 +119,9 @@ PROJECTS = {
         # western Pure Land, destination of pilgrimage; luminous ruby
         # on the black ground; second tone ruby toward the light.
         "color": "#ff6b7a",   # Amitabha ruby
-        "hues": ["#ff6b7a", "#ffa3ac"],
+        # secondary: Akshobhya's sapphire across the center, a step
+        # quieter (the pilgrim's longing met by the mirror)
+        "hues": ["#ff6b7a", "#476ca9"],
         "symbols": ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙",
                     "៚", "𓊽", "𓁹"],
     },
@@ -123,7 +131,9 @@ PROJECTS = {
         # aversion. Sapphire lifted to be read on black; second tone
         # sapphire toward the light.
         "color": "#5b8bd9",   # Akshobhya sapphire
-        "hues": ["#5b8bd9", "#9db9e8"],
+        # secondary: Amitabha's ruby across the center, a step
+        # quieter (clarity met by warmth and the particular)
+        "hues": ["#5b8bd9", "#c7535f"],
         "symbols": ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π",
                     "≈", "∞", "⊕", "01", "110"],
     },
@@ -167,7 +177,16 @@ def stream_svg(h=320):
     n = len(strands)
     pts = 240
     coils = 3.3
-    content = ""
+    # the thread of four: sunwise sapphire, gold, ruby, jade —
+    # carried by Buddhism's thin strand as the center holding the
+    # four directions
+    content = ('<defs><linearGradient id="dta-thread" '
+               'x1="0" y1="0" x2="1" y2="0">'
+               '<stop offset="0" stop-color="#5b8bd9"/>'
+               '<stop offset="0.33" stop-color="#ffd24d"/>'
+               '<stop offset="0.66" stop-color="#ff6b7a"/>'
+               '<stop offset="1" stop-color="#58c98a"/>'
+               '</linearGradient></defs>')
     for name, st, hue, idx in strands:
         phase = 2 * math.pi * idx / n
         thick = 11 if idx % 2 == 0 else 6.5
@@ -186,7 +205,8 @@ def stream_svg(h=320):
              + " L" + " L".join(f"{x:.0f},{y:.1f}" for x, y in reversed(bots))
              + " Z")
         content += f'<path d="{d}" fill="{hue}" fill-opacity="0.75"/>'
-        ink = _mix(hue, "#000000", 0.6)
+        ink = ("#8a8a8a" if hue.startswith("url")
+               else _mix(hue, "#000000", 0.6))
         j = 0
         u = 0.03 + (idx % 3) * 0.02
         while u < 0.97:
