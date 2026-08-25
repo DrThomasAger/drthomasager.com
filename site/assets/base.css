@@ -242,6 +242,23 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 .foot-inner {
   background: var(--deep-bg); color: var(--deep-ink); padding: 3rem 6vw;
 }
+.foot-cta {
+  display: flex; gap: 3rem; align-items: center; flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 78rem; margin: 0 auto 3.4rem;
+  padding-bottom: 2.6rem; border-bottom: 1px solid rgba(255,255,255,.18);
+}
+.foot-cta h2 { font-size: clamp(1.6rem, 3.4vw, 2.4rem); margin-bottom: .7rem; }
+.foot-cta p { margin-bottom: 1.2rem; max-width: 34rem; }
+.foot-cta-art {
+  font-family: var(--font-head); font-size: clamp(3rem, 7vw, 5.5rem);
+  transform: rotate(-8deg); display: var(--flourish-display);
+}
+.foot-legal {
+  background: var(--deep-bg); color: var(--deep-ink);
+  text-align: center; font-size: .85rem; opacity: .85;
+  padding: 1rem 4vw; border-top: 1px solid rgba(255,255,255,.18);
+}
 .foot-grid {
   display: grid; gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
@@ -256,18 +273,21 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
   display: flex; align-items: flex-end; justify-content: space-between;
   gap: 2rem; flex-wrap: wrap;
 }
-.foot-note { opacity: .8; font-size: .9rem; }
 .buddha-eyes {
   display: block; width: 5.5rem; margin-top: 1.4rem;
   filter: var(--eyes-filter, none);
 }
-/* 信心銘 — the Hsin Hsin Ming, standing small at the bottom right,
-   written downward in the old direction. */
+/* 信心銘 — the Hsin Hsin Ming, standing quietly at the bottom right,
+   written downward in the old direction, held to a small field. */
 .hhm {
   writing-mode: vertical-rl; text-orientation: upright;
-  max-height: 22rem; overflow: hidden;
-  font-size: .6rem; line-height: 2.1; letter-spacing: .12em;
-  opacity: .5; text-align: start; align-self: flex-end;
+  max-height: 11rem; max-width: 22rem; overflow: hidden;
+  font-size: .55rem; line-height: 2.0; letter-spacing: .1em;
+  opacity: .35; text-align: start; align-self: flex-end;
+}
+.foot-grid .stream-dot {
+  width: .7rem; height: .7rem; margin-right: .25rem;
+  display: inline-block; vertical-align: baseline;
 }
 /* Ornament columns — vertical syntax falling like brushwork. */
 .ornament {

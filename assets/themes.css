@@ -53,9 +53,9 @@
 }
 /* Footer planes: a quiet current along the bottom */
 .foot-inner .planes {
-  opacity: .8;
-  -webkit-mask-image: radial-gradient(120% 95% at 28% 100%, #000 38%, transparent 74%);
-  mask-image: radial-gradient(120% 95% at 28% 100%, #000 38%, transparent 74%);
+  opacity: .4;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 42%, #000 88%);
+  mask-image: linear-gradient(to bottom, transparent 42%, #000 88%);
 }
 /* Lite heroes (article, category): the current hugs the lower edge,
    fully beneath the words */

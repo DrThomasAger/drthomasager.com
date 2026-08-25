@@ -262,19 +262,34 @@ def footer():
                 links += (f'<a class="child-link" '
                           f'href="{c["slug"]}.html#{slugify(ch)}">{ch}</a>')
         cols += f'<div><h3>{cat}</h3>{links}</div>'
+    streams = "".join(
+        f'<a href="index.html"><span class="stream-dot" '
+        f'style="background:{st["color"]}"></span> {name}</a>'
+        for name, st in PROJECTS.items())
+    cols += f'<div><h3>The Streams</h3>{streams}</div>'
     cols += ('<div><h3>Site</h3><a href="index.html">Home</a>'
-             '<a href="https://crystallizationculture.com">Crystallization Culture</a></div>')
+             '<a href="https://crystallizationculture.com">'
+             'Crystallization Culture</a></div>')
     return (f'<footer class="deep">{WAVE}<div class="foot-inner">{FOOT_SVG[0]}'
+            f'<div class="foot-cta">'
+            f'<div><p class="eyebrow" '
+            f'style="color:{PROJECTS["Smile"]["color"]}">The mailing list</p>'
+            f'<h2>New posts arrive by email.</h2>'
+            f'<p>Join once, choose your streams, and each new piece is sent '
+            f'when it is published.</p>'
+            f'<button class="btn" type="button" data-open-popup>'
+            f'Join the Mailing List</button></div>'
+            f'<div class="foot-cta-art" aria-hidden="true">(-:</div></div>'
             f'<div class="foot-grid">{cols}</div>'
-            f'<div class="foot-close"><div>'
-            f'<p class="foot-note">&copy; 2026 {SITE_NAME}. May this writing '
-            f'benefit all beings.</p>'
+            f'<div class="foot-close">'
             f'<img class="buddha-eyes" src="assets/buddha_eyes.png" '
-            f'alt="Buddha eyes"></div>'
+            f'alt="Buddha eyes">'
             f'<div class="hhm notranslate" translate="no" lang="zh" '
             f'aria-label="Hsin Hsin Ming, '
             f'the original Chinese">{HSIN_HSIN_MING}</div>'
-            f'</div></div></footer>')
+            f'</div></div>'
+            f'<div class="foot-legal">&copy; 2026 {SITE_NAME}. May this '
+            f'writing benefit all beings.</div></footer>')
 
 def popup():
     return (f'<div class="popup-veil" id="popup" hidden><div class="popup-card">'
