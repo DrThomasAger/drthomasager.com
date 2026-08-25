@@ -167,6 +167,12 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 }
 .band-head h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
 .see-all { color: var(--link); font-weight: 600; text-decoration: underline; }
+/* Quiet wayfinding sentence: only the names inside it are links */
+.see-in { font-size: .95rem; opacity: .9; }
+.see-in a {
+  color: var(--link); text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .band-blurb { margin-bottom: 1.4rem; opacity: .85; }
 .grid {
   display: grid; gap: 2rem;

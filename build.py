@@ -26,19 +26,35 @@ CATEGORIES = {
         "slug": "prompt-engineering",
         "blurb": "The craft of speaking with language models — languages, prompts, and teachings.",
         "subs": {
-            "Prompt Language Development": {"children": ["Smile"]},
-            "Free Prompts": {"children": []},
-            "Tutorial": {"children": []},
+            "Prompt Language Development": {
+                "children": ["Smile"],
+                "blurb": "Building languages for speaking with AI."},
+            "Free Prompts": {
+                "children": [],
+                "blurb": "Prompts to take, use, and make your own."},
+            "Tutorial": {
+                "children": [],
+                "blurb": "Step-by-step introductions, from the beginning."},
         },
     },
     "Spirituality": {
         "slug": "spirituality",
         "blurb": "Songs, commentaries, and the living view.",
         "subs": {
-            "Songs of Enlightenment": {"children": []},
-            "Commentaries": {"children": []},
+            "Songs of Enlightenment": {
+                "children": [],
+                "blurb": "Songs sung from the living view."},
+            "Commentaries": {
+                "children": [],
+                "blurb": "Commentaries on texts worth resting in."},
         },
     },
+}
+
+# Child pages (deepest level) carry their own words
+CHILD_INFO = {
+    "Smile": {"blurb": "The Smile Prompt Language and Smile Chat, "
+                       "written up as they grow."},
 }
 
 def slugify(text):
@@ -306,10 +322,10 @@ def footer():
     for cat, c in CATEGORIES.items():
         links = ""
         for sub, s in c["subs"].items():
-            links += f'<a href="{c["slug"]}.html#{slugify(sub)}">{sub}</a>'
+            links += f'<a href="{slugify(sub)}.html">{sub}</a>'
             for ch in s["children"]:
                 links += (f'<a class="child-link" '
-                          f'href="{c["slug"]}.html#{slugify(ch)}">{ch}</a>')
+                          f'href="{slugify(ch)}.html">{ch}</a>')
         cols += f'<div><h3>{cat}</h3>{links}</div>'
     projects = "".join(
         f'<a class="ptx-shadow" style="--pc:{st["color"]}" '
@@ -440,7 +456,7 @@ def index_body(posts, svg_fn=None):
     cat_links = " or ".join(f'<a href="{c["slug"]}.html">{cat}</a>'
                             for cat, c in CATEGORIES.items())
     articles = (f'<section class="band"><div class="band-head">'
-                f'<h2>Articles</h2><span class="see-all">See all in '
+                f'<h2>Articles</h2><span class="see-in">See all in '
                 f'{cat_links}</span></div>'
                 f'<div class="grid">'
                 + "".join(card(p) for p in posts[:6]) + '</div></section>')
@@ -470,7 +486,10 @@ def build_categories(posts):
                 if not items:
                     continue
                 cards = "".join(card(p) for p in items)
-                inner += (f'<div class="band-head" id="{slugify(name)}"><h2>{name}</h2>'
+                inner += (f'<div class="band-head" id="{slugify(name)}">'
+                          f'<h2>{name}</h2>'
+                          f'<a class="see-all" href="{slugify(name)}.html">'
+                          f'See all the guides &raquo;</a>'
                           f'</div><div class="grid">{cards}</div>')
             if inner:
                 secs += f'<section class="band">{inner}</section>'
@@ -482,6 +501,32 @@ def build_categories(posts):
                 f'<main>{secs}</main>')
         (SITE / f'{c["slug"]}.html').write_text(
             page(f"{cat} — {SITE_NAME}", body, c["blurb"]), encoding="utf-8")
+
+def build_subcategories(posts):
+    """The middle level of the tree: one page per subcategory (and per
+    child), holding its name, its blurb, and every one of its cards."""
+    pages = []
+    for cat, c in CATEGORIES.items():
+        for sub, s in c["subs"].items():
+            items = [p for p in posts if p["sub"] == sub]
+            pages.append((sub, s.get("blurb", c["blurb"]), items))
+            for ch in s["children"]:
+                child_items = [p for p in posts if p["child"] == ch]
+                blurb = CHILD_INFO.get(ch, {}).get("blurb", "")
+                pages.append((ch, blurb, child_items))
+    for name, blurb, items in pages:
+        cards = "".join(card(p) for p in items)
+        body = (f'<section class="hero hero-lite">'
+                f'{stream_svg(h=180)}'
+                f'<div class="hero-inner">'
+                f'<div class="hero-copy"><h1>{name}</h1>'
+                f'<p class="hero-sub">{blurb}</p></div></div>{WAVE}</section>'
+                f'<main><section class="band">'
+                f'<div class="grid">{cards}</div></section></main>')
+        (SITE / f'{slugify(name)}.html').write_text(
+            page(f"{name} — {SITE_NAME}", body, blurb or TAGLINE),
+            encoding="utf-8")
+    return len(pages)
 
 def build_posts(posts):
     for p in posts:
@@ -499,8 +544,8 @@ def build_posts(posts):
             f'<strong>{SITE_NAME}</strong><span class="dot">|</span>'
             f'<span>Updated {p["date"]}</span><span class="dot">|</span>'
             f'<span>{p["readtime"]} min read</span>'
-            f'<a class="pill" href="{CATEGORIES[p["category"]]["slug"]}.html'
-            f'#{slugify(p["pill"])}">{p["pill"]}</a></div>'
+            f'<a class="pill" href="{slugify(p["pill"])}.html">'
+            f'{p["pill"]}</a></div>'
             f'<div class="post-body">{p["body"]}</div>'
             f'<div class="tag-row"><span class="tag tag-project ptx-shadow" '
             f'style="--pc:{shadow_color(p.get("project", SITE_NAME))}">'
@@ -516,8 +561,8 @@ def build_posts(posts):
             f'writes on prompt engineering and spirituality. His current '
             f'research is the Smile Prompt Language.</p></div></div>'
             f'<section class="band"><div class="band-head"><h2>More Reading</h2>'
-            f'<a class="see-all" href="{CATEGORIES[p["category"]]["slug"]}.html">'
-            f'See more in {p["category"]} &raquo;</a></div>'
+            f'<span class="see-in">See more in '
+            f'<a href="{slugify(p["pill"])}.html">{p["pill"]}</a></span></div>'
             f'<div class="grid">{more_html}</div></section></main>')
         (SITE / f'{p["slug"]}.html').write_text(
             page(f'{p["title"]} — {SITE_NAME}', body, p["description"]),
@@ -535,8 +580,10 @@ def main():
     FOOT_SVG[0] = stream_svg(h=280)
     build_index(posts)
     build_categories(posts)
+    n_subs = build_subcategories(posts)
     build_posts(posts)
-    print(f"Built {2 + len(CATEGORIES) + len(posts)} pages into {SITE}")
+    print(f"Built {1 + len(CATEGORIES) + n_subs + len(posts)} "
+          f"pages into {SITE}")
 
 if __name__ == "__main__":
     main()
