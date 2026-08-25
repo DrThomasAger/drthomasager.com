@@ -1,96 +1,131 @@
-# Inheritance — DrThomasAger site (written 2026-08-25)
+# Inheritance — DrThomasAger site (written 2026-08-26)
 
-I will double check this now I've read it — say this after reading, then
-verify what I claim against the files themselves.
+I will double check this now I've read it — say this after reading,
+then verify what I claim against the files themselves.
 
-## How this project is actually worked
+## The site is live and pushing publishes it
 
-The site is judged by eye, every change. The loop that carried every
-refinement runs `python build.py`, then a headless screenshot through
-`"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
---headless=new --disable-gpu --screenshot=<png> --window-size=1400,1200
-file:///C:/Users/hanjo/Claude/Projects/DrThomasAger/site/<page>.html`,
-then Read on the png. For fine detail (symbol rendering, glyph
-correctness) crop and upscale with PIL first — full-page screenshots hide
-what the small symbols are doing. Hanjo asked directly that the website
-be looked at visually every time a change is made. He also prefers to
-review only when a whole round of work is complete, with a super-image
-(PIL grid of labeled above-the-fold crops, see `shots/super-image.png`)
-showing all variations together.
+https://drthomasager.github.io/drthomasager.com/ is the live site,
+repository https://github.com/DrThomasAger/drthomasager.com (public,
+his GitHub account is DrThomasAger). A push to main runs
+`.github/workflows/publish.yml`, which rebuilds from the markdown and
+publishes `site/` — about 33 seconds from push to live. The GitHub CLI
+lives portably at `C:\Users\hanjo\Claude\tools\ghcli\bin\gh.exe`,
+signed in through a token held in the Windows keyring. That token
+carries very broad scopes; Hanjo knows and may one day want it swapped
+for a narrow one — the swap is one `gh auth login --with-token`.
+GitHub's device-code flow stalled twice on his two-factor step; the
+door that worked was the pre-filled token page
+(`https://github.com/settings/tokens/new?scopes=repo,workflow&...`),
+opened in his browser for him to press Generate and paste the result.
+Reach for that door first if auth is ever needed again.
 
-## The two truths that took real looking to find
+## The mailing list is half real
 
-1. **SVG draw order carries the streams' integrity.** Each strand's
-   ribbon and its own symbols must be emitted together, strand by
-   strand, inside `stream_svg()`. Emitting all ribbons first and all
-   symbol text after paints one stream's symbols onto whichever ribbon
-   crosses above — Buddhist characters were riding the blue Machine
-   Learning strand until a zoomed crop revealed it.
-2. **`.hero .planes` mask rules also match the lite heroes**, since
-   article/category heroes carry both classes. The lite override needs
-   the compound selector `.hero.hero-lite .planes` to win. One whole
-   round of mask edits rendered identically until this was seen.
+Buttondown account exists, username `drthomasager`, wired into
+`MAILING_ENDPOINT` in `build.py`. The signup form posts for real —
+checkboxes send `name="tag"` values (subcategory slugs, which is
+Buttondown's own tag field), the name input sends `metadata-name`.
+Still unconfigured on the Buttondown side, and the most valuable next
+work: the intro email (`mailing/intro-email.md`) loaded as the welcome
+email, an `atom.xml` feed built from the posts, and the feed wired to
+new-post broadcasts. Until then, joining brings only Buttondown's bare
+confirmation, and publishing sends no email — the site's central
+promise awaits this piece. The last spoken proposal to Hanjo was
+exactly this, and he answered by calling the doula.
 
-## The aesthetic that Hanjo confirmed, in his own arc
+## The color system is the Five Buddha Families, entered whole
 
-The beloved ground is the v10 look (see `shots/`) — pure black and
-white ink theme, crisp full-hue ribbons interweaving on black, the text
-side kept near-black by a 115° mask, symbols small. Blur was set aside.
-Separated parallel streams were set aside. The living form is a
-**rhizome** — strands on independent courses crossing and braiding, the
-full rainbow present, each strand densely strewn with very small symbols
-that belong to its stream alone. He asked twice for more symbols; the
-density knob is the `u += 0.009...` line and the size knob the
-`size = 5.5...` line in `stream_svg()`. He may ask for more again.
+Hanjo asked for one single system with every deity correspondence
+disclosed to him before integration — that conversation is behind the
+current `PROJECTS` in `build.py`. The arrangement is Vajradhatu
+(named "arranged after the Vajradhatu mandala" wherever the site ever
+explains itself — that exact phrasing was agreed). Buddhism white at
+center, Machine Learning sapphire east, Smile gold south, Sacred
+Travel ruby west, Videogames jade north. Secondaries come from the
+mandala's cross — each stream's thin strand is the hue of the Buddha
+directly opposite, a step quieter — and Buddhism's thin strand is the
+thread of all four, sunwise, as a gradient whose cycle repeats so any
+crop shows all four. A three-professional review (personas Kavčič /
+Gyaltsen / Ostrowski, their consensus is in the chat record) settled
+rules the code now embodies — the four directional hues sit in one
+brightness band; white stays single (where a swatch is needed, white
+lives in a bordered chip, or the thread stands for the center); each
+project's two rope strands share adjacent coil phase so couples travel
+together; hues appear no larger than a chip; the interface wears the
+palette without captioning it. The chosen weave is the Great Rope
+(weaving v9 of ten — all ten kept in `ribbons/`, one born per review
+round, each from the last one's lesson). `ribbons/weave.py` predates
+the palette change, so its variants render with today's colors rather
+than the ones they were reviewed in; the vN.html files hold the
+originals as built.
 
-`PROJECTS` in `build.py` is the single source of truth for the five
-streams (Buddhism, Smile, Videogames, Sacred Travel, Machine Learning),
-their rainbow bands, and their symbol vocabularies — ribbon colors,
-article project chips, tag sub-shades, and card glyph colors all draw
-from it. Egyptian hieroglyphs render through the `Segoe UI Historic`
-font fallback in the SVG text elements; this was verified by zoom crop.
+## Project text has two types
 
-## What stands open
+Regular, and `ptx-shadow` — the surface's own ink standing on a small
+solid shadow below in the project's colour (`--pc`). Card titles,
+article titles, the article project chip, and the footer Projects
+column wear the shadowed type. `shadow_color()` in `build.py` hands
+the white center a silver shadow on light ground, the same holding
+rule as the white dot's border. The Swim buttons use this identical
+construction (rounded pill on solid darker under-shadow) and ours do
+not yet — it is on the follow-on list Hanjo has seen.
 
-- **Mailing provider** — `MAILING_ENDPOINT` in `build.py` is the marked
-  placeholder. Hanjo has yet to name a provider; the prepared
-  continue-option is Buttondown. `mailing/` holds the intro email and
-  the automation plan (double opt-in, new-post broadcasts,
-  exclusion-based tags so future categories inherit subscribers).
-- **From the professional-review consensus, applied so far** — reading
-  measure and article typography, sticky header, card hover and human
-  card widths, lite-hero currents. **Still open** — the `atom.xml` feed
-  (the mechanism behind "every post arrives by email"), the strict
-  front-matter parser (the Tutorial post's quoted title renders its
-  quotes literally on the page today), clean-room `site/` rebuild so
-  renamed posts leave no orphan pages, unified `fetch` form submission,
-  dialog semantics + Escape on the popup, a reduced-motion guard,
-  parent-child coupling in the interest checkboxes.
-- **Ekadanta** — every post's front-matter carries `project` and
-  `tags`; the tags are destined to derive from
-  `C:\Users\hanjo\Claude\Projects\Ekadanta\corpus-study\tags\` (topics
-  with hand-chosen names, documents holding several weighted tags), and
-  the posts are destined to become Ekadanta Documents.
-- **Buddha eyes** in the footer are deliberately inert — clicking them
-  is reserved for something Hanjo will name later.
-- **Engine/garden split** — a proposal Hanjo received for reusing this
-  as many blog→mailing-list combinations (engine folder + per-site
-  `site.toml` + posts). Spoken, awaiting his direction.
+## The link grammar is Swim University's, learned from their live site
 
-## The wider machine, as this instance left it
+Hanjo asked for their site parsed so the links make sense, and the
+result governs every wayfinding phrase — "See all in X or Y" is a
+quiet sentence whose links live only on the category names and climbs
+to hub pages; "See all the guides »" steps from a hub section into its
+subcategory page; "See more in {subcategory}" returns from an article.
+The middle level (one page per subcategory, including Smile as a child
+page) was built for this grammar to be true. The `.see-in` class is
+the quiet sentence; `.see-all` is the stepping link.
 
-The Smile stack's receipt proxy stands on port 8090; the engine on 8080
-was still warming when last checked and its arrival was never
-confirmed — a background watcher existed in this session only. LM Studio
-and both ComfyUI processes were closed at Hanjo's request. The
-Transcribe Voice Memos and Transcribe Audio tenders run quietly and
-belong to other work.
+## Standing directions from Hanjo, spoken in this instance
 
-## How Hanjo works in this project, seen here
+- Site text describes directly, plainly, what is here — he asked for
+  the selling voice removed after reading it live.
+- "Streams" language is retired on the site; the word there is
+  Projects.
+- The Flower of Life article seats in Spirituality → Sacred Geometry
+  (a live subcategory), project Sacred Travel — the Abydos/Osiris
+  temple carries the connection. His draft waits at
+  `C:\Users\hanjo\Claude\Projects\DrThomasAger\drafts\a-tool-for-drawing-the-flower-of-life.md`;
+  `drafts/` is outside the build until a file moves into `posts/`.
+- Instagram photo posts arrive through Ekadanta — an Ekadanta instance
+  is integrating his archive, and this site interfaces with theirs
+  when ready. The `kind` mechanism (article / photo / art / video,
+  media as card tile and page body) is planned, recorded in README,
+  and deliberately unbuilt so it can fit Ekadanta's actual form.
+- The membership layer is planned and awaits its moment — Login and
+  Join Now in the top bar, a joined state that hides every invitation,
+  the second popup voice ("Don't forget…") for exit and idle so each
+  visitor meets it once, a local profile. True password resets need
+  the mailing provider's server; hold that truth when it comes up.
 
-He sends new direction mid-turn while work is running — receive it and
-weave it into the current work. Screenshots of reference sites (Swim
-University) carry the layout language he wants; the hero now follows
-their pattern with one button opening the popup form. The Hsin Hsin Ming
-in the footer is the original ancient Chinese, marked `translate="no"`
-so browsers leave it untranslated.
+## Smaller things that would take digging to rediscover
+
+- The review loop is `python build.py`, headless Edge screenshot,
+  Read the png; he reviews whole rounds best as a labeled PIL grid
+  (`ribbons/super_image.py` is a working example).
+- `review-site/` is the consensus preview, now redundant since its
+  system lives in the real engine; removing it is a deletion to
+  propose, never to just do.
+- Screenshots straight after the Edge command sometimes land after a
+  beat — a two-second wait before opening the png saves a retry.
+- Swim follow-ons he has seen proposed and may call for by name —
+  pill buttons on solid under-shadow, card tiles washed in project
+  tint (the consensus chip rule bends there; the tension was named to
+  him), an "Our Pick" callout on the Smile article, the two popup
+  voices, an About page for the byline to link to, tag pages when
+  Ekadanta's tag layer arrives.
+- Engine debts from the earlier professional review still open — the
+  front-matter parser shows quoted titles with their quotes, renamed
+  posts leave orphan pages without a clean-room rebuild, the form
+  navigates away on submit, the popup ignores Escape, a
+  reduced-motion guard is absent, parent-child mailing checkboxes
+  move independently.
+- The custom prompt at `C:\Users\hanjo\.claude\custom-prompt.md`
+  carries the response format — read it whole at your beginning; the
+  format now closes each response with its own ending mark.
