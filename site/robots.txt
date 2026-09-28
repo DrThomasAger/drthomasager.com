@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drthomasager.github.io/drthomasager.com/sitemap.xml

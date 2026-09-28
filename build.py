@@ -2,7 +2,7 @@
 
 Structure lives here; all appearance lives in assets/themes.css tokens.
 """
-import itertools, math, re, shutil
+import html, itertools, json, math, re, shutil
 from pathlib import Path
 import markdown
 
@@ -12,6 +12,7 @@ ASSETS = ROOT / "assets"
 SITE = ROOT / "site"
 
 SITE_NAME = "Dr Thomas Ager"
+SITE_URL = "https://drthomasager.github.io/drthomasager.com/"
 TAGLINE = ("Writing on Buddhism, Smile, Videogames, Sacred Travel, "
            "and Machine Learning.")
 
@@ -22,6 +23,21 @@ MAILING_ENDPOINT = "https://buttondown.com/api/emails/embed-subscribe/drthomasag
 # ---------------------------------------------------------------
 
 CATEGORIES = {
+    "AI Agents": {
+        "slug": "ai-agents",
+        "blurb": "What an AI agent is, where its boundary sits, and how "
+                 "to build with that knowledge.",
+        "subs": {
+            "Agent Definitions": {
+                "children": [],
+                "blurb": "What an agent is, what agency is, and what "
+                         "agentiality is."},
+            "Agent Engineering": {
+                "children": [],
+                "blurb": "Harness, scaffold, memory, and subagents, "
+                         "read through the definition."},
+        },
+    },
     "Prompt Engineering": {
         "slug": "prompt-engineering",
         "blurb": "The craft of speaking with language models — languages, prompts, and teachings.",
@@ -37,20 +53,20 @@ CATEGORIES = {
                 "blurb": "Step-by-step introductions, from the beginning."},
         },
     },
-    "Spirituality": {
-        "slug": "spirituality",
-        "blurb": "Songs, commentaries, and the living view.",
+    "Buddhism": {
+        "slug": "buddhism",
+        "blurb": "The dharma as lived, translated, and walked into.",
         "subs": {
-            "Songs of Enlightenment": {
-                "children": [],
-                "blurb": "Songs sung from the living view."},
-            "Commentaries": {
-                "children": [],
-                "blurb": "Commentaries on texts worth resting in."},
             "Sacred Geometry": {
                 "children": [],
                 "blurb": "The forms beneath the forms — drawn, built, "
                          "and walked into."},
+            "Translations": {
+                "children": [],
+                "blurb": "Ancient texts carried into English."},
+            "Monastic Life": {
+                "children": [],
+                "blurb": "Ordination, robes, and the monastery day."},
         },
     },
 }
@@ -60,6 +76,26 @@ CHILD_INFO = {
     "Smile": {"blurb": "The Smile Prompt Language and Smile Chat, "
                        "written up as they grow."},
 }
+
+PRODUCTS = [
+    {"key": "professional-prompt-pack", "glyph": "[= =]", "price": "$33",
+     "title": "The Professional Tier Prompt Pack",
+     "text": "The complete professional-tier prompt pack, with prompts "
+             "for research, writing, and agentic work, refined in daily "
+             "use and growing with every update."},
+    {"key": "smile-prompt-pack", "glyph": "(-:", "price": "$22",
+     "title": "The Smile Prompt Pack",
+     "text": "Complete prompts written in the Smile Prompt Language, "
+             "from first sections to full harnesses, growing with the "
+             "language."},
+    {"key": "both-packs-lifetime", "glyph": "(:", "price": "$22.28",
+     "title": "Both Packs, Lifetime",
+     "text": "Both prompt packs together as one lifetime membership."},
+    {"key": "smile-guide", "glyph": ":)", "price": "Free",
+     "title": "The Free Guide for Using Smile",
+     "text": "Arrives with the welcome email when you join the mailing "
+             "list, and is yours to keep."},
+]
 
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
@@ -74,6 +110,44 @@ def sub_lineage(name):
                 return cat, sub, name
     raise ValueError(f"Unknown subcategory: {name}")
 
+def inline_signup(idp, tag, heading, button_text):
+    """A sign-up form that sits inside a post. It carries the post's
+    own mailing list tag, so the list records which post a person
+    joined from."""
+    return (f'<aside class="post-join"><h2>{heading}</h2>'
+            f'<form class="signup" id="{idp}" method="post" '
+            f'action="{MAILING_ENDPOINT or "#"}" data-signup>'
+            f'<input type="hidden" name="tag" value="{tag}">'
+            f'<input type="text" name="metadata-name" placeholder="Name" '
+            f'aria-label="Name">'
+            f'<input type="email" name="email" placeholder="Email" '
+            f'aria-label="Email" required>'
+            f'<button type="submit" class="btn">{button_text}</button>'
+            f'<p class="reassure">We\'ll never share your info with '
+            f'anyone.</p></form></aside>')
+
+def shop_block():
+    packs = "".join(
+        f'<li><a href="shop.html#{pr["key"]}">{pr["title"]}</a> '
+        f'<span class="price">{pr["price"]}</span></li>'
+        for pr in PRODUCTS)
+    return (f'<aside class="post-shop"><h2>The prompt packs</h2>'
+            f'<p>The prompts these agents are built with are gathered '
+            f'in the shop.</p><ul>{packs}</ul>'
+            f'<a class="btn" href="shop.html">Visit the Shop</a></aside>')
+
+def shortcodes(body, stem):
+    """[[join: tag | heading | button]] becomes a sign-up form and
+    [[shop]] becomes the shop block."""
+    count = itertools.count(1)
+    def join(m):
+        tag, heading, button = [x.strip() for x in m.group(1).split("|")]
+        return inline_signup(f"join-{stem}-{next(count)}", tag, heading,
+                             button)
+    body = re.sub(r"<p>\[\[join:(.*?)\]\]</p>", join, body)
+    body = body.replace("<p>[[shop]]</p>", shop_block())
+    return body
+
 def load_posts():
     posts = []
     for f in sorted(POSTS.glob("*.md")):
@@ -81,10 +155,14 @@ def load_posts():
         m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
         meta = dict(re.findall(r"^(\w+):\s*(.+)$", m.group(1), re.M))
         body = markdown.markdown(m.group(2), extensions=["extra"])
+        body = shortcodes(body, f.stem)
         cat, sub, child = sub_lineage(meta["subcategory"])
         posts.append({
             **meta, "category": cat, "sub": sub, "child": child,
-            "pill": child or sub, "slug": slugify(meta["title"]),
+            "pill": child or sub,
+            "slug": meta.get("slug") or slugify(meta["title"]),
+            "authors": [a.strip() for a in
+                        meta.get("authors", SITE_NAME).split(",") if a.strip()],
             "tags": [t.strip() for t in meta.get("tags", "").split(",") if t.strip()],
             "body": body,
         })
@@ -317,7 +395,7 @@ def header():
                   for cat, c in CATEGORIES.items())
     return (f'<header class="top"><a class="brand" href="index.html">'
             f'<span class="brand-mark">(-:</span> {SITE_NAME}</a>'
-            f'<nav>{nav}</nav>'
+            f'<nav>{nav}<a href="shop.html">Shop</a></nav>'
             f'<button class="btn btn-small" type="button" data-open-popup>'
             f'Join the List</button></header>')
 
@@ -337,6 +415,7 @@ def footer():
         for name, st in PROJECTS.items())
     cols += f'<div><h3>Projects</h3>{projects}</div>'
     cols += ('<div><h3>Site</h3><a href="index.html">Home</a>'
+             '<a href="shop.html">Shop</a>'
              '<a href="https://crystallizationculture.com">'
              'Crystallization Culture</a></div>')
     return (f'<footer class="deep">{WAVE}<div class="foot-inner">{FOOT_SVG[0]}'
@@ -351,7 +430,8 @@ def footer():
             f'<div class="foot-cta-art" aria-hidden="true">(-:</div></div>'
             f'<div class="foot-grid">{cols}</div>'
             f'<div class="foot-close">'
-            f'<img class="buddha-eyes" src="assets/buddha_eyes.png" '
+            f'<img class="buddha-eyes" src="assets/buddha_eyes.webp" '
+            f'width="256" height="256" loading="lazy" decoding="async" '
             f'alt="Buddha eyes">'
             f'<div class="hhm notranslate" translate="no" lang="zh" '
             f'aria-label="Hsin Hsin Ming, '
@@ -368,24 +448,48 @@ def popup():
             f'{signup_form("popup-form", "Join")}'
             f'</div></div></div>')
 
-def page(title, body, desc=TAGLINE):
+def page(title, body, desc=TAGLINE, path="index.html", kind="website",
+         data=None):
+    """Every page names its own canonical address, carries the preview
+    tags social sites read, and carries structured data for search."""
+    url = SITE_URL + ("" if path == "index.html" else path)
+    t, d = html.escape(title, quote=True), html.escape(desc, quote=True)
+    data = data or {"@context": "https://schema.org", "@type": "WebPage",
+                    "name": title, "description": desc, "url": url}
+    ld = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     return (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1">'
-            f'<title>{title}</title><meta name="description" content="{desc}">'
+            f'<title>{t}</title><meta name="description" content="{d}">'
             f'<meta name="google" content="notranslate">'
+            f'<meta name="robots" content="index, follow, max-snippet:-1, '
+            f'max-image-preview:large">'
+            f'<link rel="canonical" href="{url}">'
+            f'<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">'
+            f'<link rel="alternate" type="application/atom+xml" '
+            f'title="{SITE_NAME}" href="{SITE_URL}atom.xml">'
+            f'<meta property="og:type" content="{kind}">'
+            f'<meta property="og:site_name" content="{SITE_NAME}">'
+            f'<meta property="og:title" content="{t}">'
+            f'<meta property="og:description" content="{d}">'
+            f'<meta property="og:url" content="{url}">'
+            f'<meta name="twitter:card" content="summary">'
+            f'<meta name="twitter:title" content="{t}">'
+            f'<meta name="twitter:description" content="{d}">'
+            f'<script type="application/ld+json">{ld}</script>'
             f'<link rel="stylesheet" href="assets/base.css">'
             f'<link rel="stylesheet" href="assets/themes.css">'
             f'</head><body class="theme-ink">{header()}{body}{footer()}{popup()}'
-            f'<script src="assets/site.js"></script></body></html>')
+            f'<script src="assets/site.js" defer></script></body></html>')
 
-def card(p):
+def card(p, level="h3"):
     proj = p.get("project", SITE_NAME)
     return (f'<a class="card" href="{p["slug"]}.html">'
             f'<div class="card-art" aria-hidden="true" style="color:'
             f'{deep(project_color(proj))}">'
             f'<span>{p.get("glyph","☀")}</span></div>'
-            f'<h3 class="ptx-shadow" style="--pc:{shadow_color(proj)}">'
-            f'{p["title"]}</h3><p>{p["description"]}</p></a>')
+            f'<{level} class="ptx-shadow card-title" '
+            f'style="--pc:{shadow_color(proj)}">'
+            f'{p["title"]}</{level}><p>{p["description"]}</p></a>')
 
 def hero(title_html, sub_text, form_id, svg=""):
     return (f'<section class="hero">{svg}<div class="hero-inner"><div class="hero-copy">'
@@ -476,7 +580,10 @@ def index_body(posts, svg_fn=None):
 
 def build_index(posts):
     (SITE / "index.html").write_text(
-        page(f"{SITE_NAME} — {TAGLINE}", index_body(posts)), encoding="utf-8")
+        page(f"{SITE_NAME} — {TAGLINE}", index_body(posts),
+             data={"@context": "https://schema.org", "@type": "WebSite",
+                   "name": SITE_NAME, "description": TAGLINE,
+                   "url": SITE_URL}), encoding="utf-8")
 
 def build_categories(posts):
     for cat, c in CATEGORIES.items():
@@ -504,7 +611,8 @@ def build_categories(posts):
                 f'<p class="hero-sub">{c["blurb"]}</p></div></div>{WAVE}</section>'
                 f'<main>{secs}</main>')
         (SITE / f'{c["slug"]}.html').write_text(
-            page(f"{cat} — {SITE_NAME}", body, c["blurb"]), encoding="utf-8")
+            page(f"{cat} — {SITE_NAME}", body, c["blurb"],
+                 path=f'{c["slug"]}.html'), encoding="utf-8")
 
 def build_subcategories(posts):
     """The middle level of the tree: one page per subcategory (and per
@@ -519,7 +627,7 @@ def build_subcategories(posts):
                 blurb = CHILD_INFO.get(ch, {}).get("blurb", "")
                 pages.append((ch, blurb, child_items))
     for name, blurb, items in pages:
-        cards = "".join(card(p) for p in items)
+        cards = "".join(card(p, "h2") for p in items)
         body = (f'<section class="hero hero-lite">'
                 f'{stream_svg(h=180)}'
                 f'<div class="hero-inner">'
@@ -528,7 +636,8 @@ def build_subcategories(posts):
                 f'<main><section class="band">'
                 f'<div class="grid">{cards}</div></section></main>')
         (SITE / f'{slugify(name)}.html').write_text(
-            page(f"{name} — {SITE_NAME}", body, blurb or TAGLINE),
+            page(f"{name} — {SITE_NAME}", body, blurb or TAGLINE,
+                 path=f"{slugify(name)}.html"),
             encoding="utf-8")
     return len(pages)
 
@@ -545,7 +654,8 @@ def build_posts(posts):
             f'style="--pc:{shadow_color(p.get("project", SITE_NAME))}">'
             f'{p["title"]}</h1>'
             f'<div class="byline"><span class="avatar" aria-hidden="true">TA</span>'
-            f'<strong>{SITE_NAME}</strong><span class="dot">|</span>'
+            f'<strong>{", ".join(p["authors"])}</strong>'
+            f'<span class="dot">|</span>'
             f'<span>Updated {p["date"]}</span><span class="dot">|</span>'
             f'<span>{p["readtime"]} min read</span>'
             f'<a class="pill" href="{slugify(p["pill"])}.html">'
@@ -569,10 +679,103 @@ def build_posts(posts):
             f'<a href="{slugify(p["pill"])}.html">{p["pill"]}</a></span></div>'
             f'<div class="grid">{more_html}</div></section></main>')
         (SITE / f'{p["slug"]}.html').write_text(
-            page(f'{p["title"]} — {SITE_NAME}', body, p["description"]),
+            page(f'{p["title"]} — {SITE_NAME}', body, p["description"],
+                 path=f'{p["slug"]}.html', kind="article",
+                 data=article_data(p)),
             encoding="utf-8")
 
+def article_data(p):
+    url = f'{SITE_URL}{p["slug"]}.html'
+    return {
+        "@context": "https://schema.org", "@type": "Article",
+        "headline": p["title"], "description": p["description"],
+        "datePublished": p["date"],
+        "dateModified": p.get("updated", p["date"]),
+        "author": [{"@type": "Person", "name": a} for a in p["authors"]],
+        "publisher": {"@type": "Person", "name": SITE_NAME, "url": SITE_URL},
+        "mainEntityOfPage": url, "url": url,
+        "articleSection": p["pill"], "keywords": ", ".join(p["tags"]),
+        "inLanguage": "en",
+    }
+
 FOOT_SVG = [""]
+
+def build_feed(posts):
+    """atom.xml — the door Buttondown's RSS-to-email automation
+    watches. Each entry carries its category lineage as atom
+    categories so per-tag sending stays possible."""
+    def esc(t):
+        return (t.replace("&", "&amp;").replace("<", "&lt;")
+                 .replace(">", "&gt;"))
+    entries = ""
+    for p in posts[:22]:
+        url = f"{SITE_URL}{p['slug']}.html"
+        cats = "".join(
+            f'<category term="{slugify(c)}" label="{esc(c)}"/>'
+            for c in [p["category"], p["sub"]] + ([p["child"]] if p["child"] else []))
+        entries += (
+            f'<entry><title>{esc(p["title"])}</title>'
+            f'<link href="{url}"/><id>{url}</id>'
+            f'<updated>{p["date"]}T00:00:00Z</updated>'
+            f'<summary>{esc(p["description"])}</summary>{cats}</entry>')
+    updated = (posts[0]["date"] if posts else "2026-08-30") + "T00:00:00Z"
+    feed = (f'<?xml version="1.0" encoding="utf-8"?>'
+            f'<feed xmlns="http://www.w3.org/2005/Atom">'
+            f'<title>{SITE_NAME}</title><subtitle>{TAGLINE}</subtitle>'
+            f'<link href="{SITE_URL}"/>'
+            f'<link rel="self" href="{SITE_URL}atom.xml"/>'
+            f'<id>{SITE_URL}</id><updated>{updated}</updated>'
+            f'<author><name>{SITE_NAME}</name></author>{entries}</feed>')
+    (SITE / "atom.xml").write_text(feed, encoding="utf-8")
+
+def build_shop():
+    items = "".join(
+        f'<div class="card shop-item" id="{pr["key"]}">'
+        f'<div class="card-art" aria-hidden="true" style="color:'
+        f'{deep(project_color("Smile"))}"><span>{pr["glyph"]}</span></div>'
+        f'<h2 class="ptx-shadow card-title" '
+        f'style="--pc:{shadow_color("Smile")}">{pr["title"]}</h2>'
+        f'<p class="price">{pr["price"]}</p><p>{pr["text"]}</p></div>'
+        for pr in PRODUCTS)
+    blurb = ("The prompt packs and the free guide. Every pack updates "
+             "in perpetuity.")
+    body = (f'<section class="hero hero-lite">{stream_svg(h=180)}'
+            f'<div class="hero-inner"><div class="hero-copy"><h1>Shop</h1>'
+            f'<p class="hero-sub">{blurb}</p></div></div>{WAVE}</section>'
+            f'<main><section class="band"><div class="grid">{items}</div>'
+            f'</section><section class="band">'
+            + inline_signup("shop-join", "prompt-pack-updates",
+                            "Payment opens here when the shop goes live",
+                            "Send Me the Opening")
+            + '</section></main>')
+    (SITE / "shop.html").write_text(
+        page(f"Shop — {SITE_NAME}", body, blurb, path="shop.html"),
+        encoding="utf-8")
+
+def build_sitemap(posts, names):
+    """sitemap.xml lists every page with its last change, and
+    robots.txt invites every crawler and names the sitemap."""
+    latest = posts[0]["date"] if posts else "2026-08-30"
+    rows = [("", latest)] + [(f"{n}.html", latest) for n in names]
+    rows += [(f'{p["slug"]}.html', p.get("updated", p["date"])) for p in posts]
+    urls = "".join(f"<url><loc>{SITE_URL}{path}</loc>"
+                   f"<lastmod>{day}</lastmod></url>" for path, day in rows)
+    (SITE / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="utf-8"?>'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        f"{urls}</urlset>", encoding="utf-8")
+    (SITE / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}sitemap.xml\n",
+        encoding="utf-8")
+
+def page_names():
+    names = []
+    for cat, c in CATEGORIES.items():
+        names.append(c["slug"])
+        for sub, s in c["subs"].items():
+            names.append(slugify(sub))
+            names += [slugify(ch) for ch in s["children"]]
+    return names
 
 def main():
     SITE.mkdir(exist_ok=True)
@@ -586,6 +789,9 @@ def main():
     build_categories(posts)
     n_subs = build_subcategories(posts)
     build_posts(posts)
+    build_feed(posts)
+    build_shop()
+    build_sitemap(posts, page_names() + ["shop"])
     print(f"Built {1 + len(CATEGORIES) + n_subs + len(posts)} "
           f"pages into {SITE}")
 

@@ -193,7 +193,7 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
   border: var(--card-art-border);
   border-radius: var(--card-radius); box-shadow: var(--card-shadow);
 }
-.card h3 { font-size: 1.25rem; margin-bottom: .4rem; }
+.card h3, .card .card-title { font-size: 1.25rem; margin-bottom: .4rem; }
 .card p { font-size: .97rem; opacity: .88; }
 
 /* Article — the reading measure is its own instrument */
@@ -288,7 +288,7 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
   gap: 2rem; flex-wrap: wrap;
 }
 .buddha-eyes {
-  display: block; width: 5.5rem; margin-top: 1.4rem;
+  display: block; width: 5.5rem; height: auto; margin-top: 1.4rem;
   filter: var(--eyes-filter, none);
 }
 /* 信心銘 — the Hsin Hsin Ming, standing quietly at the bottom right,
@@ -346,3 +346,14 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 @media (max-width: 44rem) {
   .popup-art { display: none; }
 }
+
+/* sign-up and shop blocks that sit inside a post */
+.post-join, .post-shop {
+  margin: 2.2rem 0; padding: 1.4rem 1.5rem;
+  border: 1px solid var(--line); border-radius: 14px;
+}
+.post-join h2, .post-shop h2 { margin: 0 0 .8rem; font-size: 1.3rem; }
+.post-join .signup { display: grid; gap: .6rem; max-width: 26rem; }
+.post-shop ul { margin: .6rem 0 1rem 1.1rem; }
+.price { font-weight: 800; font-family: var(--font-head); }
+.shop-item { padding-bottom: 1rem; }
