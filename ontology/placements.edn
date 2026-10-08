@@ -1,0 +1,48 @@
+;; Where every post lives in ontology.edn, and its facets.
+;; :place is the most specific node wholly about the post. Its kicker is the
+;; route from the root to :place. Facet values come from the closed
+;; vocabularies in ontology.edn and nowhere else.
+
+{"what-is-an-ai-agent" {:title "What is an AI agent? A definition you can build with" :place :ai/agent-definitions
+                        :facets {:format [:definition] :level [:beginner :engineer] :evidence [:argued]}}
+ "what-is-agentiality" {:title "What is agentiality?" :place :ai/agent-definitions
+                        :facets {:format [:definition] :level [:practitioner] :evidence [:argued]}}
+ "do-ai-agents-have-agency" {:title "Do AI agents have agency?" :place :ai/agent-definitions
+                             :facets {:format [:definition :essay] :level [:beginner] :evidence [:argued]}}
+ "are-ai-agents-just-prompts" {:title "Are AI agents just prompts?" :place :ai/agent-definitions
+                               :facets {:format [:essay] :level [:practitioner] :evidence [:argued]}}
+ "agent-harness-vs-scaffolding" {:title "Agent harness vs scaffolding" :place :ai/agent-engineering
+                                 :facets {:format [:definition] :level [:engineer] :evidence [:argued]}}
+ "ai-agent-vs-subagent" {:title "AI agent vs subagent" :place :ai/agent-engineering
+                         :facets {:format [:definition] :level [:engineer] :evidence [:argued]}}
+ "do-ai-agents-die-when-the-session-ends" {:title "Do AI agents die when the session ends?" :place :ai/agent-engineering
+                                           :facets {:format [:essay] :level [:practitioner] :evidence [:argued]}}
+ "do-ai-agents-have-memory" {:title "Do AI agents have memory?" :place :ai/agent-engineering
+                             :facets {:format [:definition] :level [:engineer] :evidence [:argued]}}
+ "what-is-a-prompt-language" {:title "What is a prompt language?" :place :ai/prompt-languages
+                              :facets {:format [:definition] :project [:smile] :level [:beginner] :evidence [:argued]}}
+ "what-is-smile" {:title "What is (: Smile?" :place :ai/smile
+                  :facets {:format [:definition] :project [:smile] :level [:beginner] :evidence [:built]}}
+ "the-bodhisattva-coder" {:title "The Bodhisattva Coder" :place :ai/prompts
+                          :facets {:format [:prompt] :project [:smile] :practice [:vow] :level [:practitioner] :evidence [:built]}}
+ "flower-of-life-generator" {:title "Flower of Life Generator" :place :buddhism/sacred-geometry
+                             :facets {:format [:tool] :practice [:sacred-architecture] :level [:beginner] :evidence [:built]}}
+ "i-was-a-monk-for-three-months-in-chiang-mai-thailand" {:title "I was a monk for three months in Chiang Mai, Thailand" :place :buddhism/monastic-life
+                                                         :facets {:format [:memoir] :practice [:ordination] :level [:beginner] :evidence [:experienced]}}
+ "translating-an-ancient-tibetan-text-into-english-with-ai" {:title "Translating an ancient Tibetan text into English with AI" :place :buddhism/translations
+                                                             :facets {:format [:translation :tutorial] :practice [:translation] :level [:practitioner] :evidence [:built]}}
+ "an-introduction-to-24-7-insight-contemplation-into-the-nature-of-reality" {:title "An Introduction to 24/7 Insight Contemplation Into The Nature Of Reality" :place :buddhism/insight-contemplation
+                                                                             :facets {:format [:commentary] :practice [:insight-contemplation] :level [:beginner] :evidence [:experienced]}}
+ "do-ai-friends-need-a-prompt-to-text-like-a-person" {:title "Do AI friends need a prompt to text like a person?" :place :ai/ai-friends
+                                                      :file "C:/Users/hanjo/Claude/Projects/AI Friends/Five friends, with a prompt and without/do-ai-friends-need-a-prompt-to-text-like-a-person.html"
+                                                      :facets {:format [:trial] :model [:humanlike-27b :swift-27b :fable] :tool [:babashka :clojure :llama-cpp :d3 :paper-js :playwright :edge-tts]
+                                                               :method [:with-and-without-prompt :hypotheses-first :program-measured :engine-tokenizer :a-b-drawing]
+                                                               :project [:ai-friends :low-contact-louie :smile] :level [:engineer] :evidence [:measured]}}
+ "the-dharma-wheel-of-ganapati" {:title "The Dharma Wheel of Ganapati, a Local AI Hivemind Built as One Wheel" :place :ai/ganapati
+                                 :file "C:/Users/hanjo/Claude/Projects/Ganapati/The Wheel/post/index.html"
+                                 :facets {:format [:research] :tool [:clojure :babashka] :project [:ganapati]
+                                          :practice [:sacred-architecture] :level [:engineer] :evidence [:built]}}
+ "which-moments-decide-an-osrs-fight" {:title "Which Moments Decide an OSRS PvP Fight? Tension Points" :place :ai/old-school-runescape
+                                       :file "C:/Users/hanjo/Claude/Projects/osrs/Tension Points/which-moments-decide-an-osrs-fight.html"
+                                       :facets {:format [:research] :tool [:clojure :runelite :edge-tts] :method [:simulation]
+                                                :project [:tension-points] :level [:practitioner] :evidence [:measured]}}}

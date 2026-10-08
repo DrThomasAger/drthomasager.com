@@ -1,0 +1,253 @@
+[ {
+  "slug" : "agent-harness-vs-scaffolding",
+  "title" : "Agent harness vs scaffolding",
+  "kicker" : "AI › Agents › Agent Engineering",
+  "place" : ":ai/agent-engineering",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-engineering" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "ai-agent-vs-subagent",
+  "title" : "AI agent vs subagent",
+  "kicker" : "AI › Agents › Agent Engineering",
+  "place" : ":ai/agent-engineering",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-engineering" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "an-introduction-to-24-7-insight-contemplation-into-the-nature-of-reality",
+  "title" : "An Introduction to 24/7 Insight Contemplation Into The Nature Of Reality",
+  "kicker" : "Buddhism › Practice › Insight Contemplation",
+  "place" : ":buddhism/insight-contemplation",
+  "route" : [ ":buddhism", ":buddhism/practice", ":buddhism/insight-contemplation" ],
+  "root" : "buddhism",
+  "facets" : {
+    "format" : [ "commentary" ],
+    "practice" : [ "insight-contemplation" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "experienced" ]
+  },
+  "file" : null
+}, {
+  "slug" : "are-ai-agents-just-prompts",
+  "title" : "Are AI agents just prompts?",
+  "kicker" : "AI › Agents › Agent Definitions",
+  "place" : ":ai/agent-definitions",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-definitions" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "essay" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "do-ai-agents-die-when-the-session-ends",
+  "title" : "Do AI agents die when the session ends?",
+  "kicker" : "AI › Agents › Agent Engineering",
+  "place" : ":ai/agent-engineering",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-engineering" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "essay" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "do-ai-agents-have-agency",
+  "title" : "Do AI agents have agency?",
+  "kicker" : "AI › Agents › Agent Definitions",
+  "place" : ":ai/agent-definitions",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-definitions" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition", "essay" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "do-ai-agents-have-memory",
+  "title" : "Do AI agents have memory?",
+  "kicker" : "AI › Agents › Agent Engineering",
+  "place" : ":ai/agent-engineering",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-engineering" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "do-ai-friends-need-a-prompt-to-text-like-a-person",
+  "title" : "Do AI friends need a prompt to text like a person?",
+  "kicker" : "AI › Agents › AI Companions › AI Friends",
+  "place" : ":ai/ai-friends",
+  "route" : [ ":ai", ":ai/agents", ":ai/ai-companions", ":ai/ai-friends" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "trial" ],
+    "model" : [ "humanlike-27b", "swift-27b", "fable" ],
+    "tool" : [ "babashka", "clojure", "llama-cpp", "d3", "paper-js", "playwright", "edge-tts" ],
+    "method" : [ "with-and-without-prompt", "hypotheses-first", "program-measured", "engine-tokenizer", "a-b-drawing" ],
+    "project" : [ "ai-friends", "low-contact-louie", "smile" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "measured" ]
+  },
+  "file" : "C:/Users/hanjo/Claude/Projects/AI Friends/Five friends, with a prompt and without/do-ai-friends-need-a-prompt-to-text-like-a-person.html"
+}, {
+  "slug" : "flower-of-life-generator",
+  "title" : "Flower of Life Generator",
+  "kicker" : "Buddhism › Sacred Arts › Sacred Geometry",
+  "place" : ":buddhism/sacred-geometry",
+  "route" : [ ":buddhism", ":buddhism/sacred-arts", ":buddhism/sacred-geometry" ],
+  "root" : "buddhism",
+  "facets" : {
+    "format" : [ "tool" ],
+    "practice" : [ "sacred-architecture" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "built" ]
+  },
+  "file" : null
+}, {
+  "slug" : "i-was-a-monk-for-three-months-in-chiang-mai-thailand",
+  "title" : "I was a monk for three months in Chiang Mai, Thailand",
+  "kicker" : "Buddhism › Practice › Monastic Life",
+  "place" : ":buddhism/monastic-life",
+  "route" : [ ":buddhism", ":buddhism/practice", ":buddhism/monastic-life" ],
+  "root" : "buddhism",
+  "facets" : {
+    "format" : [ "memoir" ],
+    "practice" : [ "ordination" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "experienced" ]
+  },
+  "file" : null
+}, {
+  "slug" : "the-bodhisattva-coder",
+  "title" : "The Bodhisattva Coder",
+  "kicker" : "AI › Prompt Engineering › Prompts",
+  "place" : ":ai/prompts",
+  "route" : [ ":ai", ":ai/prompt-engineering", ":ai/prompts" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "prompt" ],
+    "project" : [ "smile" ],
+    "practice" : [ "vow" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "built" ]
+  },
+  "file" : null
+}, {
+  "slug" : "the-dharma-wheel-of-ganapati",
+  "title" : "The Dharma Wheel of Ganapati, a Local AI Hivemind Built as One Wheel",
+  "kicker" : "AI › Agents › Multi-Agent Systems › Ganapati",
+  "place" : ":ai/ganapati",
+  "route" : [ ":ai", ":ai/agents", ":ai/multi-agent-systems", ":ai/ganapati" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "research" ],
+    "tool" : [ "clojure", "babashka" ],
+    "project" : [ "ganapati" ],
+    "practice" : [ "sacred-architecture" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "built" ]
+  },
+  "file" : "C:/Users/hanjo/Claude/Projects/Ganapati/The Wheel/post/index.html"
+}, {
+  "slug" : "translating-an-ancient-tibetan-text-into-english-with-ai",
+  "title" : "Translating an ancient Tibetan text into English with AI",
+  "kicker" : "Buddhism › Texts › Translations",
+  "place" : ":buddhism/translations",
+  "route" : [ ":buddhism", ":buddhism/texts", ":buddhism/translations" ],
+  "root" : "buddhism",
+  "facets" : {
+    "format" : [ "translation", "tutorial" ],
+    "practice" : [ "translation" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "built" ]
+  },
+  "file" : null
+}, {
+  "slug" : "what-is-a-prompt-language",
+  "title" : "What is a prompt language?",
+  "kicker" : "AI › Prompt Engineering › Prompt Languages",
+  "place" : ":ai/prompt-languages",
+  "route" : [ ":ai", ":ai/prompt-engineering", ":ai/prompt-languages" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "project" : [ "smile" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "what-is-agentiality",
+  "title" : "What is agentiality?",
+  "kicker" : "AI › Agents › Agent Definitions",
+  "place" : ":ai/agent-definitions",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-definitions" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "what-is-an-ai-agent",
+  "title" : "What is an AI agent? A definition you can build with",
+  "kicker" : "AI › Agents › Agent Definitions",
+  "place" : ":ai/agent-definitions",
+  "route" : [ ":ai", ":ai/agents", ":ai/agent-definitions" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "level" : [ "beginner", "engineer" ],
+    "evidence" : [ "argued" ]
+  },
+  "file" : null
+}, {
+  "slug" : "what-is-smile",
+  "title" : "What is (: Smile?",
+  "kicker" : "AI › Prompt Engineering › Prompt Languages › Smile",
+  "place" : ":ai/smile",
+  "route" : [ ":ai", ":ai/prompt-engineering", ":ai/prompt-languages", ":ai/smile" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "definition" ],
+    "project" : [ "smile" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "built" ]
+  },
+  "file" : null
+}, {
+  "slug" : "which-moments-decide-an-osrs-fight",
+  "title" : "Which Moments Decide an OSRS PvP Fight? Tension Points",
+  "kicker" : "AI › Game AI › Old School RuneScape",
+  "place" : ":ai/old-school-runescape",
+  "route" : [ ":ai", ":ai/game-ai", ":ai/old-school-runescape" ],
+  "root" : "ai",
+  "facets" : {
+    "format" : [ "research" ],
+    "tool" : [ "clojure", "runelite", "edge-tts" ],
+    "method" : [ "simulation" ],
+    "project" : [ "tension-points" ],
+    "level" : [ "practitioner" ],
+    "evidence" : [ "measured" ]
+  },
+  "file" : "C:/Users/hanjo/Claude/Projects/osrs/Tension Points/which-moments-decide-an-osrs-fight.html"
+} ]

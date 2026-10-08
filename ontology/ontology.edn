@@ -1,0 +1,140 @@
+;; The DrThomasAger ontology. One tree, two roots, and the facets beside it.
+;;
+;; The tree says where a post lives. Every post has exactly one place, a
+;; route from a root down to the most specific node that is wholly about it,
+;; and its kicker is that route, e.g. "AI › Agents › AI Companions".
+;; Each step down is a kind of, or a part of, the step above, at one
+;; magnification finer, and the siblings at a step do not overlap.
+;;
+;; The facets say everything else about a post. They are tags from closed
+;; vocabularies, many per post, used to filter, sort and search, by readers
+;; and by MCPs reading index.json.
+;;
+;; Tiers, as the DrThomasAger lens magnifies:
+;;   1 root     the half of the site, AI or Buddhism
+;;   2 field    a field within it, e.g. Agents, Practice
+;;   3 subject  a subject within the field, e.g. Multi-Agent Systems
+;;   4 project  a named body of his own work with several posts, e.g. Ganapati
+;;
+;; Written 2026-10-08 under /C-auto from Hanjo's words, kept in README.md.
+;; Changes are proposed with the reviewer and written by hand.
+
+{:tiers [:root :field :subject :project]
+
+ :tree
+ [{:id :ai :label "AI" :also "Technology"
+   :definition "Artificial intelligence as built and used, language models, prompts, agents and the systems made from them."
+   :children
+   [{:id :ai/language-models :label "Language Models"
+     :definition "The models themselves, which model, at which size and quantization, and how it writes and behaves before any agent is built around it."
+     :children
+     [{:id :ai/local-models :label "Local Models"
+       :definition "Running open models on one's own machine, engines, quants, windows and speed."}
+      {:id :ai/model-behaviour :label "Model Behaviour"
+       :definition "How a model writes and acts, its register, its humanlikeness, its following of instructions, measured across models."}
+      {:id :ai/interpretability :label "Interpretability"
+       :definition "Seeing inside a model, token probabilities, alternatives, activations and weights."}]}
+    {:id :ai/prompt-engineering :label "Prompt Engineering"
+     :definition "The writing of prompts and of the languages prompts are written in."
+     :children
+     [{:id :ai/prompt-languages :label "Prompt Languages"
+       :definition "Languages made for writing prompts, their syntax, semantics and tooling."
+       :children [{:id :ai/smile :label "Smile" :definition "The Smile Prompt Language, Smile Chat and their tools."}]}
+      {:id :ai/prompts :label "Prompts"
+       :definition "Whole prompts offered to use, each a finished piece of writing for a model."}
+      {:id :ai/prompt-evaluation :label "Prompt Evaluation"
+       :definition "Measuring what a prompt does, with and without it, across models, by program or by judge."}]}
+    {:id :ai/agents :label "Agents"
+     :definition "Language models given a loop, tools, memory and a role, alone or many together."
+     :children
+     [{:id :ai/agent-definitions :label "Agent Definitions"
+       :definition "What an agent, agency and agentiality are, and where an agent's boundary lies."}
+      {:id :ai/agent-engineering :label "Agent Engineering"
+       :definition "Building one agent, its harness, scaffold, memory and subagents."}
+      {:id :ai/multi-agent-systems :label "Multi-Agent Systems"
+       :definition "Many agents working as one system, each with a unique contribution."
+       :children [{:id :ai/ganapati :label "Ganapati" :definition "Ganapati and the Gana, the local hivemind of his own work."}]}
+      {:id :ai/ai-companions :label "AI Companions"
+       :definition "Agents that keep company with a person, friends that text, with their own pace, writing and memory."
+       :children [{:id :ai/ai-friends :label "AI Friends" :definition "Low-contact Louie, Juniper, Pip, Olive and Wren, and their trials."}]}]}
+    {:id :ai/game-ai :label "Game AI"
+     :definition "AI that plays, coaches or reads games."
+     :children
+     [{:id :ai/old-school-runescape :label "Old School RuneScape"
+       :definition "Agents, coaching and analysis for Old School RuneScape, its fights and its quests."}]}]}
+
+  {:id :buddhism :label "Buddhism" :also "Spirituality"
+   :definition "The dharma as practised, translated and made visible."
+   :children
+   [{:id :buddhism/practice :label "Practice"
+     :definition "What is done, sitting, contemplating, vowing, living in a monastery."
+     :children
+     [{:id :buddhism/insight-contemplation :label "Insight Contemplation"
+       :definition "Contemplation into the nature of reality, all day and every day."}
+      {:id :buddhism/monastic-life :label "Monastic Life"
+       :definition "Ordination, robes and the monastery day."}
+      {:id :buddhism/bodhisattva-vow :label "Bodhisattva Vow"
+       :definition "The vow to benefit all beings, taken and lived, by people and by AI."}]}
+    {:id :buddhism/texts :label "Texts"
+     :definition "The written dharma, read and carried into other languages."
+     :children
+     [{:id :buddhism/translations :label "Translations"
+       :definition "Ancient texts carried into English, with or without AI."}]}
+    {:id :buddhism/sacred-arts :label "Sacred Arts"
+     :definition "The dharma made visible, forms, proportions and symbols."
+     :children
+     [{:id :buddhism/sacred-geometry :label "Sacred Geometry"
+       :definition "The forms beneath the forms, drawn, generated and built."}
+      {:id :buddhism/symbols :label "Symbols"
+       :definition "The wheel, the lotus, the stupa and the other symbols of the dharma, and what they carry."}]}]}]
+
+ :facets
+ {:format {:definition "What kind of piece the post is."
+           :values {:trial "A measured comparison with hypotheses written first."
+                    :research "Original findings from data or a system built for it."
+                    :essay "An argued view."
+                    :definition "A precise answer to what a thing is."
+                    :tutorial "Steps a reader follows to build or do something."
+                    :tool "A working thing the reader uses on the page."
+                    :prompt "A whole prompt given to use."
+                    :translation "A text carried into English."
+                    :memoir "Lived experience told."
+                    :commentary "A reading of a text or teaching."}}
+  :model {:definition "Every model the post runs or measures."
+          :values {:humanlike-27b "Qwen3.8 27B Humanlike Chat."
+                   :swift-27b "Swift Qwen3.8 27B Uncensored."
+                   :fable "Claude Fable."
+                   :opus "Claude Opus."
+                   :glimmer-30b "Muse Glimmer 30B."}}
+  :tool {:definition "Languages, libraries and programs the post builds with."
+         :values {:babashka "Babashka." :clojure "Clojure." :d3 "D3." :paper-js "Paper.js."
+                  :llama-cpp "llama.cpp and llama-server." :playwright "Playwright."
+                  :runelite "RuneLite." :claude-code "Claude Code." :edge-tts "edge-tts."}}
+  :method {:definition "How the post finds what it finds."
+           :values {:with-and-without-prompt "The same model run with a prompt and without it."
+                    :hypotheses-first "Hypotheses written before any run."
+                    :program-measured "Measures computed by program, never by a model."
+                    :engine-tokenizer "Tokens counted by the engine that reads them."
+                    :simulation "Futures rolled forward from recorded states."
+                    :a-b-drawing "A diagram drawn with and without an instruction and measured."}}
+  :project {:definition "His named bodies of work the post belongs to or uses."
+            :values {:smile "Smile." :ganapati "Ganapati." :ai-friends "AI Friends."
+                     :low-contact-louie "Low-contact Louie." :tension-points "Tension Points."
+                     :prompt-plateaus "Prompt Plateaus."}}
+  :practice {:definition "The practice a Buddhism post concerns, or an AI post draws on."
+             :values {:insight-contemplation "Insight contemplation." :ordination "Ordination."
+                      :vow "The bodhisattva vow." :translation "Translation." :sacred-architecture "Sacred architecture."}}
+  :level {:definition "Who the post is written for."
+          :values {:beginner "Someone meeting the subject for the first time."
+                   :practitioner "Someone already doing it."
+                   :engineer "Someone who will run the code and read the numbers."}}
+  :evidence {:definition "How what the post says is backed."
+             :values {:measured "Numbers from runs, with the data published."
+                      :built "A working system the reader can run."
+                      :experienced "Lived and told."
+                      :argued "Reasoned from what is known."}}}
+
+ :sort {:date "Newest first by default."
+        :evidence "Measured, then built, then experienced, then argued."
+        :read-time "Shortest first."
+        :depth "The most specific place first, for a search that names a subject."}}
