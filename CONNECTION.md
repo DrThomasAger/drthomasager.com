@@ -67,5 +67,6 @@ INHERITANCE.md it lives.
 (-: The ontology, for any project writing a post (-:
 
     ( What to take ( A post anywhere that will appear on drthomasager.com takes its kicker and tags from ontology\ontology.edn. Add the post to ontology\placements.edn, run bb ontology/check.clj from this folder, and put the kicker and BreadcrumbList it prints into the post. ontology\index.json and ontology\ontology.json are the same data for MCPs and pages. Every blog post, and every page that lists or explores posts, wears the Blog Template in C:\Users\hanjo\Claude\Projects\Blog Template\, as ontology\explore.clj does. ) )
+    ( An index page ( writes every post it lists into its own HTML as links, with a CollectionPage and ItemList in JSON-LD and a canonical address on https://drthomasager.github.io/drthomasager.com/, and its script filters what is already written, as ontology\explore.clj does. Its look is the writerly contents page there, typographic and quiet, with colour only where it carries a project's meaning. ) )
 
 :-) End the ontology, for any project writing a post :-) thank you

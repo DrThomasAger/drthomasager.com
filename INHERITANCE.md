@@ -687,6 +687,16 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         > also dont assert obvious things. show dont tell, the medium is the message
 
         > So none of thisW" Every post lives at one place under AI or Buddhism, and carries its tags. Choose a place, any tags, a sort, or search." just provide the GUI/visualization/interface directly
+
+        And on the page as it grew,
+
+        > why so horrifically ugly and colourless and unrefined and unlooekd at aand unseen?
+
+        > not a real question sorry. just fix it
+
+        > vomit inducing. headful mode and refine the aeshtetic artistically into a more writerly style
+
+        > needs to be SEO friendly too
     :) End his words that began it, as he typed them :) thank you
 
     (: Where it lives (:
@@ -702,26 +712,45 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         the Blog Template, C:\Users\hanjo\Claude\Projects\Blog Template\, the
         blog aesthetic Hanjo made, like Medium with a rose madder palette, as
         its STYLE GUIDE.md records in his words. explore.clj copies its blog.css
-        and blog.js into site\assets\blog\ and gives the interface alone, the
-        roots All, AI and Buddhism, a search, a sort, Places and Tags folded
-        under the template's expandable rows, and the posts as a reading list
-        of kicker, title, description and byline. The screenshots beside the
-        template's sample.html are in ontology\shots\, made by
-        node ontology/shots.mjs.
+        and blog.js into site\assets\blog\ and draws the page as a literary
+        contents page, the one he received in quiet. A small caps masthead, a
+        Fraunces title, the roots in small caps, a search set as an italic
+        serif line over a hairline, Places and Tags under the template's
+        folding rows with the tags as underlined serif words, and the posts
+        under italic month headings, each glyph hanging small in the margin in
+        its project's hue and each date in italic. Writerly, for him, is
+        typographic restraint with colour that carries meaning, and the tiled
+        and pill-like look of an app reads to him as its opposite.
         @2@ The site's own project axis, Buddhism, Machine Learning, Smile,
-        Sacred Travel and Videogames with their Five Buddha Families colours,
-        is a second axis beside the ontology. index.json carries it as
-        site-project for any page that uses it.
-        @3@ placements.edn carries every post of posts\ and three posts from
+        Sacred Travel and Videogames, is a second axis beside the ontology,
+        carried in index.json as site-project. On Blog Template pages it wears
+        the template's hues, Machine Learning lapis, Buddhism and Sacred Travel
+        rose madder, Smile amethyst, Videogames sage, and the roots AI and
+        Buddhism wear lapis and rose madder.
+        @3@ An index page is read by search engines from its HTML. explore.clj
+        writes every post into the page as links inside ordered lists by month,
+        with a CollectionPage and ItemList of BlogPostings in JSON-LD, the
+        canonical address, robots, Open Graph and Twitter tags and the Atom
+        link, and its script filters, sorts and searches those entries in
+        place. The public base address is
+        https://drthomasager.github.io/drthomasager.com/. The three posts kept
+        in other projects carry file:/// addresses until they are published,
+        so the JSON-LD names them without a url.
+        @4@ He refines a look by watching it. node ontology/headful.mjs keeps
+        a visible Chromium on site\explore.html at 1440 and 390 that reloads at
+        each rebuild and writes shots\live-1440.png and shots\live-390.png, and
+        node ontology/shots.mjs gives the settled screenshots beside the
+        template's sample.html, light and night.
+        @5@ placements.edn carries every post of posts\ and three posts from
         other projects, AI Friends, the Dharma Wheel of Ganapati and Tension
         Points, with their date, read time, glyph and description written in
         the placement.
-        @4@ site\ still has pages built from posts that have since left
+        @6@ site\ still has pages built from posts that have since left
         posts\, e.g. a-commentary-on-resting-the-mind.html,
         song-of-the-open-hand.html and meet-the-smile-prompt-language.html,
         and build.py's CATEGORIES still names a Commentaries subcategory. Their
         removal waits for a proposal to Hanjo.
-        @5@ The next step for the site is a Babashka builder that reads
+        @7@ The next step for the site is a Babashka builder that reads
         ontology.edn, so the categories, kickers and filters of every page come
         from the one tree.
     :) End what the files leave unsaid :) Warm thanks
