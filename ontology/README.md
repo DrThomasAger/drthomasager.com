@@ -49,27 +49,29 @@ sort and filter, and MCPs parse it from `index.json` and `ontology.json`.
 
 ## The explore page
 
-`bb ontology/explore.clj` writes `explore.html` in the site's writerly look,
-made from the writerly site's own page
-`platform\sites\drthomasager\out\buddhism.html`. Its head, header, hero, footer
-and popup are kept whole, and the explore view is set in its main, drawn only
-with the theme's own tokens. Every post is the site's own card, as `card()` in
-`build.py` makes it, its art in the deep shade of its project's colour from the
-Five Buddha Families and its title on that colour's shadow. The page is
-written to `platform\sites\drthomasager\out\` and to `site\`, which carries the
-writerly theme as `assets\writerly.css` and `assets\writerly-base.css` for this
-page alone, each with `index.json` and `ontology.json` beside it.
+`bb ontology/explore.clj` writes `site\explore.html` in the Blog Template,
+`C:\Users\hanjo\Claude\Projects\Blog Template\`, the blog aesthetic made with
+Hanjo, like Medium with a rose madder palette. It copies the template's
+`blog.css` and `blog.js` into `site\assets\blog\` and writes `index.json` and
+`ontology.json` beside the page.
 
-It has the tree with a count at every place, a chip for every tag in use with
-the count it would leave, four sorts (newest, measured first, shortest first,
-most specific first) and a search. Every view is kept in the address, e.g.
+The page is the interface itself. The roots All, AI and Buddhism sit under
+the title, then a search, four sorts (newest, measured first, shortest, most
+specific) and the count. Places opens the tree with a count at every place,
+and Tags opens a chip for every tag in use with the count it would leave. The
+posts follow as a reading list, each with its kicker, title, description and
+byline. Every view is kept in the address, e.g.
 `explore.html#place=ai/agents&evidence=measured`, so a reader can share a view
-and an MCP can name one. On a phone the places and tags fold shut so the posts
-come first. It was seen beside the writerly Buddhism page at 1440 and 390,
-with the same header, hero, paper and type, no sideways scroll and no page
-errors.
+and an MCP can name one.
 
-The first version of this page was drawn in the Blog Template's look, which is
-not this site's. Hanjo's words on seeing it:
+`node ontology/shots.mjs` screenshots the page and the template's `sample.html`
+at 1440 and 390, light and night, into `shots\`, and reports any sideways
+scroll or page error.
 
-> This is not at all the writerly aesthetic asked for in the spec. Did you check colour scheme and existing work in DrThomasAger? There is a finalized aesthetic for you to check visually against. You should never just do your own branding.
+Hanjo's words that brought the page to the Blog Template:
+
+> This also is NOT the blog post aesthetic determined with Rose, impersonating Medium. Please identify it and ensure all models know it and it is referred to in /C-explain#
+
+> also dont assert obvious things. show dont tell, the medium is the message
+
+> So none of thisW" Every post lives at one place under AI or Buddhism, and carries its tags. Choose a place, any tags, a sort, or search." just provide the GUI/visualization/interface directly

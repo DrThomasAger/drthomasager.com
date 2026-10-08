@@ -1,13 +1,13 @@
 (ns explore
-  "The explore page of drthomasager.com, in the site's own writerly look.
+  "The explore page of drthomasager.com, worn in the Blog Template.
   bb ontology/explore.clj
 
-  The page is made from one of the writerly site's own pages,
-  platform/sites/drthomasager/out/buddhism.html, its head, header, hero, footer
-  and popup kept whole, with the explore view set in its main. Each post is the
-  site's own card, as card() in build.py makes it, its art in the deep shade of
-  its project's colour and its title on that project's shadow. It is written to
-  platform/sites/drthomasager/out/ and to site/, with index.json and ontology.json.
+  The page links the Blog Template's blog.css and blog.js, copied from
+  C:/Users/hanjo/Claude/Projects/Blog Template/ into site/assets/blog/, the
+  Medium-like reading page with its rose madder palette that Hanjo made the
+  blog aesthetic. It carries the interface alone, the two roots, a search, a
+  sort, the places and the tags, and the posts as a reading list. It is written
+  to site/explore.html with index.json and ontology.json beside it.
 
   Every view is a URL, e.g. explore.html#place=ai/agents&evidence=measured&q=memory,
   so a reader can share a view and an MCP can name one."
@@ -19,48 +19,64 @@
 (def root (str (fs/parent dir)))
 (load-file (str dir "/check.clj"))
 
-(def writerly (str root "/platform/sites/drthomasager/out"))
+(def template "C:/Users/hanjo/Claude/Projects/Blog Template")
 
-;; build.py's colours, the Five Buddha Families, and its card(), in Clojure
-(def project-colours {"Buddhism" "#ffffff" "Smile" "#f5c542" "Videogames" "#62d194"
-                      "Sacred Travel" "#ff7f8d" "Machine Learning" "#6f9ce4"})
-(defn- hx [c] (mapv #(Integer/parseInt (subs c % (+ % 2)) 16) [1 3 5]))
-(defn- mix [a b t] (let [x (hx a) y (hx b)] (apply str "#" (map #(format "%02x" (Math/round (double (+ (x %) (* (- (y %) (x %)) t))))) (range 3)))))
-(defn deep [c] (mix c "#000000" 0.55))
-(defn shadow [c] (if (= c "#ffffff") "#cfcfcf" c))
-
-(def style "
+(def head "<!doctype html>
+<html lang=\"en\">
+<head>
+<meta charset=\"utf-8\">
+<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">
+<title>Explore, Dr Thomas Ager</title>
+<meta name=\"description\" content=\"Every post of Dr Thomas Ager by place and tag, under AI or Buddhism, filtered by format, model, tool, method, project, practice, level and evidence.\">
+<link rel=\"alternate\" type=\"application/json\" href=\"index.json\" title=\"Every post with its place and tags\">
+<link rel=\"alternate\" type=\"application/json\" href=\"ontology.json\" title=\"The ontology\">
+<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">
+<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>
+<link href=\"https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">
+<link rel=\"stylesheet\" href=\"assets/blog/blog.css\">
 <style>
-/* the explore view, drawn only with the theme's own tokens */
-.explore{display:grid;grid-template-columns:16rem 1fr;gap:2.5rem;align-items:start}
-@media (max-width:820px){.explore{grid-template-columns:1fr}}
-.explore aside{font-family:var(--font-body);color:var(--ink)}
-.explore details > summary{cursor:pointer;font-family:var(--font-head);font-size:1.15rem;margin-bottom:.6rem}
-.explore .facet-name{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin:1.4rem 0 .5rem}
-.explore .tree a{display:flex;justify-content:space-between;gap:.6rem;color:var(--ink);text-decoration:none;padding:.18rem .4rem;border-radius:var(--btn-radius)}
-.explore .tree a:hover{text-decoration:underline}
-.explore .tree a.on{background:var(--ink);color:var(--page-bg)}
-.explore .tree .n,.explore .count{font-variant-numeric:tabular-nums;opacity:.75}
-.explore .chips{display:flex;flex-wrap:wrap;gap:.4rem}
-.explore .chip{font:inherit;font-size:.85rem;color:var(--ink);background:var(--page-bg);border:var(--card-art-border);border-radius:var(--btn-radius);padding:.15rem .55rem;cursor:pointer}
-.explore .chip.on{background:var(--ink);color:var(--page-bg);box-shadow:var(--btn-shadow)}
-.explore .chip[disabled]{opacity:.35;cursor:default}
-.explore .bar{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin-bottom:1.6rem}
-.explore .bar input,.explore .bar select{font:inherit;color:var(--ink);background:var(--callout-bg);border:var(--callout-border);border-radius:var(--field-radius);padding:.45rem .7rem}
-.explore .bar input{flex:1;min-width:12rem}
-.explore .bar button{font:inherit;background:none;border:none;color:var(--ink);text-decoration:underline;cursor:pointer}
-.explore .route{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin:.5rem 0 .25rem;opacity:.85}
-.explore .meta{font-size:.85rem;opacity:.75;margin-top:.4rem}
-</style>")
-
-(def main-html "<main><section class=\"band\"><div class=\"band-head\"><h2>Every post, by place and tag</h2></div>
-<div class=\"explore\">
-<aside><details id=\"filters\" open><summary>Places and tags</summary><div class=\"facet-name\">Place</div><nav class=\"tree\" id=\"tree\"></nav><div id=\"facets\"></div></details></aside>
-<div><div class=\"bar\"><input id=\"q\" type=\"search\" placeholder=\"Search titles and places\" aria-label=\"Search\">
-<select id=\"sort\" aria-label=\"Sort\"><option value=\"date\">Newest first</option><option value=\"evidence\">Measured first</option><option value=\"readtime\">Shortest first</option><option value=\"depth\">Most specific first</option></select>
-<span class=\"count\" id=\"count\"></span><button id=\"reset\" type=\"button\">Clear</button></div>
-<div class=\"grid\" id=\"list\"></div></div>
-</div></section></main>")
+/* the explore interface, drawn with the Blog Template's own tokens */
+.roots{display:flex;gap:var(--sp3);border-bottom:1px solid var(--rule);margin:0 0 var(--sp3)}
+.roots button{font:500 var(--s0)/1 var(--sans);color:var(--ink-2);background:none;border:0;border-bottom:2px solid transparent;padding:0 0 var(--sp1);margin-bottom:-1px;cursor:pointer}
+.roots button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.bar{display:flex;flex-wrap:wrap;gap:var(--sp1);align-items:center;margin:0 0 var(--sp2)}
+.bar input,.bar select{font:400 var(--s0)/1.3 var(--sans);color:var(--ink);background:var(--surface);border:0;border-radius:99px;padding:10px 16px}
+.bar input{flex:1;min-width:12rem}
+.bar .count{font:500 var(--s-1)/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.tree a{display:flex;justify-content:space-between;gap:var(--sp1);font:400 var(--s0)/1.3 var(--sans);text-decoration:none;padding:6px 10px;border-radius:8px}
+.tree a.on{background:var(--accent-soft);color:var(--accent)}
+.n{font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.facet+.facet{margin-top:var(--sp2)}
+.facet .label{font:600 var(--s-1)/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin:0 0 var(--sp1)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:400 var(--s0)/1 var(--sans);color:var(--ink);background:none;border:1px solid var(--rule);border-radius:99px;padding:7px 13px;cursor:pointer}
+.chip.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+.chip[disabled]{opacity:.35;cursor:default}
+.posts{margin-top:var(--sp3)}
+.post{display:block;text-decoration:none;padding:var(--sp3) 0;border-bottom:1px solid var(--rule)}
+.post .kicker{margin-bottom:var(--sp1);color:var(--accent)}
+.post h2{margin:0 0 8px;font-size:var(--s2);color:var(--ink)}
+.post:hover h2{color:var(--accent)}
+.post p{color:var(--ink-2);margin:0 0 var(--sp1)}
+.post .byline{margin:0}
+</style>
+</head>
+<body>
+<div class=\"page\">
+<article>
+<h1>Explore</h1>
+<nav class=\"roots\" id=\"roots\" aria-label=\"Root\"></nav>
+<div class=\"bar\"><input id=\"q\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
+<select id=\"sort\" aria-label=\"Sort\"><option value=\"date\">Newest</option><option value=\"evidence\">Measured first</option><option value=\"readtime\">Shortest</option><option value=\"depth\">Most specific</option></select>
+<span class=\"count\" id=\"count\"></span></div>
+<details class=\"more\" id=\"places\"><summary>Places</summary><div class=\"body\"><nav class=\"tree\" id=\"tree\"></nav></div></details>
+<details class=\"more\" id=\"tags\"><summary>Tags</summary><div class=\"body\" id=\"facets\"></div></details>
+<div class=\"posts\" id=\"list\"></div>
+</article>
+</div>
+<div class=\"toolbar\"><button id=\"theme\" type=\"button\">☾ Night</button></div>
+<script src=\"assets/blog/blog.js\"></script>
+")
 
 (def script "<script>
 const ONTO = __ONTOLOGY__, POSTS = __INDEX__
@@ -81,73 +97,61 @@ const sorters = {date: (a, b) => (b.date || '').localeCompare(a.date || ''),
   evidence: (a, b) => Math.min(...(a.facets.evidence || ['argued']).map(e => EVIDENCE.indexOf(e))) - Math.min(...(b.facets.evidence || ['argued']).map(e => EVIDENCE.indexOf(e))),
   readtime: (a, b) => (a.readtime || 99) - (b.readtime || 99), depth: (a, b) => b.depth - a.depth}
 const esc = s => String(s || '').replace(/[&<>\"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '\"': '&quot;'}[c]))
+const day = d => d ? new Date(d + 'T12:00').toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric'}) : ''
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e }
+const rootOf = place => place ? nodes.find(n => key(n.id) === place)?.route.map(key)[0] : null
 function draw() {
   const list = POSTS.filter(p => inPlace(p, state.place) && hasTags(p, state.tags) && matches(p, state.q)).sort(sorters[state.sort])
   document.getElementById('q').value = state.q; document.getElementById('sort').value = state.sort
   document.getElementById('count').textContent = list.length + (list.length === 1 ? ' post' : ' posts')
+  const roots = document.getElementById('roots'); roots.replaceChildren(); const cur = rootOf(state.place)
+  ;[[null, 'All'], ...ONTO.tree.map(n => [key(n.id), n.label])].forEach(([id, label]) => {
+    const b = el('button', cur === id ? 'on' : '', esc(label)); b.type = 'button'
+    b.onclick = () => { state.place = id; write() }; roots.appendChild(b) })
   const tree = document.getElementById('tree'); tree.replaceChildren()
   nodes.forEach(n => { const id = key(n.id), c = POSTS.filter(p => inPlace(p, id) && hasTags(p, state.tags) && matches(p, state.q)).length
     if (!c && n.route.length > 1) return
-    const a = document.createElement('a'); a.href = '#'; a.style.paddingLeft = (0.4 + 0.9 * (n.route.length - 1)) + 'rem'
-    a.className = state.place === id ? 'on' : ''; a.title = n.definition
-    a.innerHTML = `<span>${esc(n.label)}</span><span class=n>${c}</span>`
+    const a = el('a', state.place === id ? 'on' : '', `<span>${esc(n.label)}</span><span class=n>${c}</span>`)
+    a.href = '#'; a.style.paddingLeft = (10 + 16 * (n.route.length - 1)) + 'px'; a.title = n.definition
     a.onclick = e => { e.preventDefault(); state.place = state.place === id ? null : id; write() }; tree.appendChild(a) })
   const fx = document.getElementById('facets'); fx.replaceChildren()
+  if (Object.keys(state.tags).length) document.getElementById('tags').open = true
   FACETS.forEach(f => { const live = Object.keys(ONTO.facets[f].values).filter(v => POSTS.some(p => (p.facets[f] || []).includes(v)))
     if (!live.length) return
-    const l = document.createElement('div'); l.className = 'facet-name'; l.textContent = f; l.title = ONTO.facets[f].definition; fx.appendChild(l)
-    const box = document.createElement('div'); box.className = 'chips'
+    const d = el('div', 'facet'); const s = el('div', 'label', esc(f)); s.title = ONTO.facets[f].definition; d.appendChild(s)
+    const box = el('div', 'chips')
     live.forEach(v => { const on = (state.tags[f] || []).includes(v)
       const c = POSTS.filter(p => inPlace(p, state.place) && matches(p, state.q) && hasTags(p, {...state.tags, [f]: [...(state.tags[f] || []).filter(x => x !== v), v]})).length
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip' + (on ? ' on' : ''); b.textContent = v.replace(/-/g, ' ') + ' ' + c
+      const b = el('button', 'chip' + (on ? ' on' : ''), `${esc(v.replace(/-/g, ' '))} <span class=n>${c}</span>`); b.type = 'button'
       b.title = ONTO.facets[f].values[v]; if (!c && !on) b.disabled = true
       b.onclick = () => { const cur = state.tags[f] || []; state.tags[f] = on ? cur.filter(x => x !== v) : [...cur, v]; if (!state.tags[f].length) delete state.tags[f]; write() }
-      box.appendChild(b) }); fx.appendChild(box) })
+      box.appendChild(b) }); d.appendChild(box); fx.appendChild(d) })
   const out = document.getElementById('list'); out.replaceChildren()
-  list.forEach(p => { const a = document.createElement('a'); a.className = 'card'; a.href = p.url
-    a.innerHTML = `<div class=\"card-art\" aria-hidden=\"true\" style=\"color:${p.art}\"><span>${esc(p.glyph || '☀')}</span></div>`
-      + `<div class=\"route\">${esc(p.kicker)}</div><h3 class=\"ptx-shadow card-title\" style=\"--pc:${p.pc}\">${esc(p.title)}</h3>`
-      + `<p>${esc(p.description)}</p><div class=\"meta\">${esc(p.date)}${p.readtime ? ' · ' + p.readtime + ' min read' : ''}</div>`
-    out.appendChild(a) })
+  list.forEach(p => { const a = el('a', 'post',
+      `<p class=kicker>${esc(p.kicker)}</p><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p>`
+      + `<div class=byline><span class=who>Dr Thomas Ager</span>${p.date ? '<span class=dot></span><span>' + day(p.date) + '</span>' : ''}${p.readtime ? '<span class=dot></span><span>' + p.readtime + ' min read</span>' : ''}</div>`)
+    a.href = p.url; out.appendChild(a) })
 }
 document.getElementById('q').oninput = e => { state.q = e.target.value; write() }
 document.getElementById('sort').onchange = e => { state.sort = e.target.value; write() }
-document.getElementById('reset').onclick = () => { state.place = null; state.q = ''; state.sort = 'date'; state.tags = {}; write() }
 addEventListener('hashchange', () => { read(); draw() })
-if (innerWidth < 820) document.getElementById('filters').open = false
 read(); draw()
-</script>")
-
-(defn posts []
-  (vec (for [p (check/index) :let [c (get project-colours (:site-project p) "#ffffff")]]
-         (assoc p :art (deep c) :pc (shadow c)))))
+</script>
+</body>
+</html>
+")
 
 (defn page []
-  (let [shell (slurp (str writerly "/buddhism.html"))
-        body (-> shell
-                 (str/replace #"<title>[^<]*</title>" "<title>Explore — Dr Thomas Ager</title>")
-                 (str/replace #"<meta name=\"description\" content=\"[^\"]*\">"
-                              "<meta name=\"description\" content=\"Every post of Dr Thomas Ager by place and tag, under AI or Buddhism, filtered by format, model, tool, method, project, practice, level and evidence.\">\n<link rel=\"alternate\" type=\"application/json\" href=\"index.json\" title=\"Every post with its place and tags\">\n<link rel=\"alternate\" type=\"application/json\" href=\"ontology.json\" title=\"The ontology\">")
-                 (str/replace "</head>" (str style "</head>"))
-                 (str/replace "<h1>Buddhism</h1><p class=\"hero-sub\">The dharma as lived, translated, and walked into.</p>"
-                              "<h1>Explore</h1><p class=\"hero-sub\">Every post lives at one place under AI or Buddhism, and carries its tags. Choose a place, any tags, a sort, or search.</p>"))
-        i (str/index-of body "<main>") j (+ (str/index-of body "</main>") 7)]
-    (assert (str/includes? body "<h1>Explore</h1>") "the hero was not found in the shell")
-    (str (subs body 0 i) main-html
-         (-> script (str/replace "__ONTOLOGY__" (json/generate-string check/onto)) (str/replace "__INDEX__" (json/generate-string (posts))))
-         (subs body j))))
+  (str head
+       (-> script (str/replace "__ONTOLOGY__" (json/generate-string check/onto))
+           (str/replace "__INDEX__" (json/generate-string (check/index))))))
 
 (defn -main [& _]
-  (let [html (page) site (str root "/site")]
-    (spit (str writerly "/explore.html") html)
-    (doseq [f ["index.json" "ontology.json"]] (fs/copy (str dir "/" f) (str writerly "/" f) {:replace-existing true}))
-    ;; the live site carries the writerly theme beside its own, for this page alone
-    (fs/copy (str writerly "/assets/theme.css") (str site "/assets/writerly.css") {:replace-existing true})
-    (fs/copy (str writerly "/assets/base.css") (str site "/assets/writerly-base.css") {:replace-existing true})
-    (spit (str site "/explore.html") (-> html (str/replace "href=\"assets/base.css\"" "href=\"assets/writerly-base.css\"")
-                                         (str/replace "href=\"assets/theme.css\"" "href=\"assets/writerly.css\"")))
+  (let [site (str root "/site") assets (str site "/assets/blog")]
+    (fs/create-dirs assets)
+    (doseq [f ["blog.css" "blog.js"]] (fs/copy (str template "/" f) (str assets "/" f) {:replace-existing true}))
+    (spit (str site "/explore.html") (page))
     (doseq [f ["index.json" "ontology.json"]] (fs/copy (str dir "/" f) (str site "/" f) {:replace-existing true}))
-    (fs/delete-if-exists (str dir "/explore.html"))
-    (println "explore.html written in the writerly look," (count (posts)) "posts")))
+    (println "explore.html written in the Blog Template," (count (check/index)) "posts")))
 
 (when (= *file* (System/getProperty "babashka.file")) (-main))

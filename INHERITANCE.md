@@ -679,6 +679,14 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         > "Ganapati · the Dharma Wheel" is also horrible. there are 2 main blog categories, spirituality/buddhism and technology/AI. that is always the first category, then we need extremely meaningful, granular, specific tagging system, sorting system, filtering system, as well as intensely accurate to the DrThomasAger lens and magnification on all of the sub hierarchy categories as people will be using this as UX to search and use MCPs/parse the website.
 
         > This is not at all the writerly aesthetic asked for in the spec. Did you check colour scheme and existing work in DrThomasAger? There is a finalized aesthetic for you to check visually against. You should never just do your own branding.
+
+        Then, relayed by the session ganapati-9d,
+
+        > This also is NOT the blog post aesthetic determined with Rose, impersonating Medium. Please identify it and ensure all models know it and it is referred to in /C-explain#
+
+        > also dont assert obvious things. show dont tell, the medium is the message
+
+        > So none of thisW" Every post lives at one place under AI or Buddhism, and carries its tags. Choose a place, any tags, a sort, or search." just provide the GUI/visualization/interface directly
     :) End his words that began it, as he typed them :) thank you
 
     (: Where it lives (:
@@ -690,18 +698,20 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     :) End where it lives :) Many blessings
 
     (: What the files leave unsaid (:
-        @1@ The finished look of this site is the writerly theme of the
-        platform site, theme_class = "theme-writerly" in
-        platform\sites\drthomasager\site.toml, Palatino on #faf7f0 paper. The
-        live site\ built by build.py wears theme-ink. The explore page is made
-        from the writerly platform\sites\drthomasager\out\buddhism.html, and
-        site\ carries that theme as assets\writerly.css and
-        assets\writerly-base.css for the explore page alone.
+        @1@ Every blog post and every page that lists or explores posts wears
+        the Blog Template, C:\Users\hanjo\Claude\Projects\Blog Template\, the
+        blog aesthetic Hanjo made, like Medium with a rose madder palette, as
+        its STYLE GUIDE.md records in his words. explore.clj copies its blog.css
+        and blog.js into site\assets\blog\ and gives the interface alone, the
+        roots All, AI and Buddhism, a search, a sort, Places and Tags folded
+        under the template's expandable rows, and the posts as a reading list
+        of kicker, title, description and byline. The screenshots beside the
+        template's sample.html are in ontology\shots\, made by
+        node ontology/shots.mjs.
         @2@ The site's own project axis, Buddhism, Machine Learning, Smile,
         Sacred Travel and Videogames with their Five Buddha Families colours,
         is a second axis beside the ontology. index.json carries it as
-        site-project, and explore.clj colours each card from it with build.py's
-        deep and shadow functions ported to Clojure.
+        site-project for any page that uses it.
         @3@ placements.edn carries every post of posts\ and three posts from
         other projects, AI Friends, the Dharma Wheel of Ganapati and Tension
         Points, with their date, read time, glyph and description written in
