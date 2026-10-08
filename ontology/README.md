@@ -59,8 +59,14 @@ The page is the interface itself. The roots All, AI and Buddhism sit under
 the title, then a search, four sorts (newest, measured first, shortest, most
 specific) and the count. Places opens the tree with a count at every place,
 and Tags opens a chip for every tag in use with the count it would leave. The
-posts follow as a reading list, each with its kicker, title, description and
-byline. Every view is kept in the address, e.g.
+posts follow as a contents page gathered by month, each with its glyph hanging
+in the margin in its project's hue (Machine Learning lapis, Buddhism rose
+madder, Smile amethyst, Videogames sage), its kicker, title, description and
+date. Every post is written into the HTML itself, with a CollectionPage and
+ItemList in JSON-LD, a canonical address and the social tags, so a crawler
+reads the whole list without the script, and the script filters, sorts and
+searches what is already there. `node ontology/headful.mjs` keeps a visible
+browser on the page that reloads at each rebuild. Every view is kept in the address, e.g.
 `explore.html#place=ai/agents&evidence=measured`, so a reader can share a view
 and an MCP can name one.
 
