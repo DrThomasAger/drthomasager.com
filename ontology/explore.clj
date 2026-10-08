@@ -52,13 +52,30 @@
 .chip{font:400 var(--s0)/1 var(--sans);color:var(--ink);background:none;border:1px solid var(--rule);border-radius:99px;padding:7px 13px;cursor:pointer}
 .chip.on{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .chip[disabled]{opacity:.35;cursor:default}
+.roots button[data-root=ai].on{color:var(--hue-1);border-bottom-color:var(--hue-1)}
+.roots button[data-root=buddhism].on{color:var(--hue-2);border-bottom-color:var(--hue-2)}
 .posts{margin-top:var(--sp3)}
-.post{display:block;text-decoration:none;padding:var(--sp3) 0;border-bottom:1px solid var(--rule)}
-.post .kicker{margin-bottom:var(--sp1);color:var(--accent)}
-.post h2{margin:0 0 8px;font-size:var(--s2);color:var(--ink)}
-.post:hover h2{color:var(--accent)}
-.post p{color:var(--ink-2);margin:0 0 var(--sp1)}
+.post{display:grid;grid-template-columns:1fr 168px;gap:var(--sp3);align-items:center;text-decoration:none;padding:var(--sp3) 0;border-bottom:1px solid var(--rule)}
+.post .kicker{margin-bottom:var(--sp1);color:var(--h)}
+.post h2{margin:0 0 8px;font-size:var(--s2);color:var(--ink);transition:color .2s}
+.post:hover h2{color:var(--h)}
+.post .text>p{color:var(--ink-2);margin:0 0 var(--sp1)}
 .post .byline{margin:0}
+.art{position:relative;aspect-ratio:1;border-radius:14px;overflow:hidden;display:grid;place-items:center;
+  background:radial-gradient(120% 90% at 28% 18%,var(--paper) 0,var(--hs) 62%),var(--hs);transition:transform .4s ease}
+.art::before{content:\"\";position:absolute;width:78%;aspect-ratio:1;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--h) 22%,transparent);box-shadow:0 0 0 18px color-mix(in srgb,var(--h) 5%,transparent)}
+.art .g{position:relative;font:500 72px/1 var(--display);font-variation-settings:\"opsz\" 144,\"SOFT\" 100;color:var(--h)}
+.art .g.long{font-size:44px}
+.art .proj{position:absolute;left:12px;bottom:10px;font:600 10px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--h);opacity:.8}
+.post:hover .art{transform:scale(1.03)}
+.post.lead{grid-template-columns:1fr;gap:var(--sp2);padding-top:0}
+.post.lead .art{order:-1;aspect-ratio:16/7}
+.post.lead .art::before{width:auto;height:84%}
+.post.lead .art .g{font-size:132px}
+.post.lead .art .g.long{font-size:84px}
+.post.lead h2{font-size:var(--s3)}
+@media(max-width:600px){.post{grid-template-columns:1fr 76px;gap:var(--sp1);align-items:start}.art .g{font-size:40px}.art .g.long{font-size:26px}.art .proj{display:none}
+  .post.lead .art .g{font-size:96px}.post.lead .art .proj{display:block}}
 </style>
 </head>
 <body>
@@ -81,6 +98,7 @@
 (def script "<script>
 const ONTO = __ONTOLOGY__, POSTS = __INDEX__
 const FACETS = Object.keys(ONTO.facets), EVIDENCE = ['measured', 'built', 'experienced', 'argued']
+const HUE = {'Machine Learning': 1, 'Buddhism': 2, 'Sacred Travel': 2, 'Smile': 3, 'Videogames': 4}
 const nodes = []
 const walk = (n, route) => { const r = [...route, n.id]; nodes.push({...n, route: r}); (n.children || []).forEach(c => walk(c, r)) }
 ONTO.tree.forEach(n => walk(n, []))
@@ -106,7 +124,7 @@ function draw() {
   document.getElementById('count').textContent = list.length + (list.length === 1 ? ' post' : ' posts')
   const roots = document.getElementById('roots'); roots.replaceChildren(); const cur = rootOf(state.place)
   ;[[null, 'All'], ...ONTO.tree.map(n => [key(n.id), n.label])].forEach(([id, label]) => {
-    const b = el('button', cur === id ? 'on' : '', esc(label)); b.type = 'button'
+    const b = el('button', cur === id ? 'on' : '', esc(label)); b.type = 'button'; if (id) b.dataset.root = id
     b.onclick = () => { state.place = id; write() }; roots.appendChild(b) })
   const tree = document.getElementById('tree'); tree.replaceChildren()
   nodes.forEach(n => { const id = key(n.id), c = POSTS.filter(p => inPlace(p, id) && hasTags(p, state.tags) && matches(p, state.q)).length
@@ -127,9 +145,12 @@ function draw() {
       b.onclick = () => { const cur = state.tags[f] || []; state.tags[f] = on ? cur.filter(x => x !== v) : [...cur, v]; if (!state.tags[f].length) delete state.tags[f]; write() }
       box.appendChild(b) }); d.appendChild(box); fx.appendChild(d) })
   const out = document.getElementById('list'); out.replaceChildren()
-  list.forEach(p => { const a = el('a', 'post',
-      `<p class=kicker>${esc(p.kicker)}</p><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p>`
-      + `<div class=byline><span class=who>Dr Thomas Ager</span>${p.date ? '<span class=dot></span><span>' + day(p.date) + '</span>' : ''}${p.readtime ? '<span class=dot></span><span>' + p.readtime + ' min read</span>' : ''}</div>`)
+  list.forEach((p, i) => { const h = HUE[p['site-project']] || 1, g = String(p.glyph || '☀')
+    const a = el('a', 'post' + (i === 0 ? ' lead' : ''),
+      `<div class=text><p class=kicker>${esc(p.kicker)}</p><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p>`
+      + `<div class=byline><span class=who>Dr Thomas Ager</span>${p.date ? '<span class=dot></span><span>' + day(p.date) + '</span>' : ''}${p.readtime ? '<span class=dot></span><span>' + p.readtime + ' min read</span>' : ''}</div></div>`
+      + `<div class=art aria-hidden=true><span class=\"g${[...g].length > 1 ? ' long' : ''}\">${esc(g)}</span><span class=proj>${esc(p['site-project'] || '')}</span></div>`)
+    a.style.setProperty('--h', `var(--hue-${h})`); a.style.setProperty('--hs', `var(--hue-${h}-soft)`)
     a.href = p.url; out.appendChild(a) })
 }
 document.getElementById('q').oninput = e => { state.q = e.target.value; write() }

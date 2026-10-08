@@ -13,7 +13,7 @@ for (const w of [1440, 390]) for (const theme of ["light", "night"]) for (const 
   await p.addInitScript(t => { try { localStorage.setItem("blog-theme", t) } catch (e) {} }, theme)
   await p.goto(url); await p.waitForTimeout(700)
   const sideways = await p.evaluate(() => document.documentElement.scrollWidth > innerWidth)
-  await p.screenshot({ path: `ontology/shots/b-${name}-${w}-${theme}.png` })
+  await p.screenshot({ path: `ontology/shots/b-${name}-${w}-${theme}.png`, fullPage: name.startsWith("explore") && w === 390 ? false : name === "explore" })
   console.log(name, w, theme, "sideways", sideways, "errors", errors.length ? errors : 0)
   await p.close()
 }
