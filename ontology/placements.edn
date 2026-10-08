@@ -33,16 +33,19 @@
                                                              :facets {:format [:translation :tutorial] :practice [:translation] :level [:practitioner] :evidence [:built]}}
  "an-introduction-to-24-7-insight-contemplation-into-the-nature-of-reality" {:title "An Introduction to 24/7 Insight Contemplation Into The Nature Of Reality" :place :buddhism/insight-contemplation
                                                                              :facets {:format [:commentary] :practice [:insight-contemplation] :level [:beginner] :evidence [:experienced]}}
- "do-ai-friends-need-a-prompt-to-text-like-a-person" {:title "Do AI friends need a prompt to text like a person?" :place :ai/ai-friends :date "2026-10-08" :readtime 9
+ "do-ai-friends-need-a-prompt-to-text-like-a-person" {:title "Do AI friends need a prompt to text like a person?" :place :ai/ai-friends :date "2026-10-08" :readtime 9 :site-project "Machine Learning" :glyph "✉"
+                                                      :description "A humanlike 27B model texted like a friend with no prompt at all, while Swift needed one and Fable stayed an assistant. Five AI friends, their pace, their windows and 72 replies."
                                                       :file "C:/Users/hanjo/Claude/Projects/AI Friends/Five friends, with a prompt and without/do-ai-friends-need-a-prompt-to-text-like-a-person.html"
                                                       :facets {:format [:trial] :model [:humanlike-27b :swift-27b :fable] :tool [:babashka :clojure :llama-cpp :d3 :paper-js :playwright :edge-tts]
                                                                :method [:with-and-without-prompt :hypotheses-first :program-measured :engine-tokenizer :a-b-drawing]
                                                                :project [:ai-friends :low-contact-louie :smile] :level [:engineer] :evidence [:measured]}}
- "the-dharma-wheel-of-ganapati" {:title "The Dharma Wheel of Ganapati, a Local AI Hivemind Built as One Wheel" :place :ai/ganapati :date "2026-10-08" :readtime 12
+ "the-dharma-wheel-of-ganapati" {:title "The Dharma Wheel of Ganapati, a Local AI Hivemind Built as One Wheel" :place :ai/ganapati :date "2026-10-08" :readtime 12 :site-project "Machine Learning" :glyph "☸"
+                                 :description "How Ganapati and eight Gana run as a local multi-agent system laid out as a Dharma Wheel, with role memory, lit and dark agents and prompt approval by SHA-256."
                                  :file "C:/Users/hanjo/Claude/Projects/Ganapati/The Wheel/post/index.html"
                                  :facets {:format [:research] :tool [:clojure :babashka] :project [:ganapati]
                                           :practice [:sacred-architecture] :level [:engineer] :evidence [:built]}}
- "which-moments-decide-an-osrs-fight" {:title "Which Moments Decide an OSRS PvP Fight? Tension Points" :place :ai/old-school-runescape :date "2026-10-07" :readtime 8
+ "which-moments-decide-an-osrs-fight" {:title "Which Moments Decide an OSRS PvP Fight? Tension Points" :place :ai/old-school-runescape :date "2026-10-07" :readtime 8 :site-project "Videogames" :glyph "⚔"
+                                       :description "Three ticks decided a recorded Last Man Standing fight. Rolling it forward 444 times from every tick finds them, cuts them from the video and shows them in RuneLite."
                                        :file "C:/Users/hanjo/Claude/Projects/osrs/Tension Points/which-moments-decide-an-osrs-fight.html"
                                        :facets {:format [:research] :tool [:clojure :runelite :edge-tts] :method [:simulation]
                                                 :project [:tension-points] :level [:practitioner] :evidence [:measured]}}}

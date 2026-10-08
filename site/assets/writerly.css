@@ -1,0 +1,119 @@
+/* Ink — black and white, syntax and sacred symbol, composed like
+   Japanese graphic design: asymmetry, emptiness, thin rules.
+   Over it: small drifts of pastel rainbow flare at subtle opacity. */
+.theme-ink {
+  --font-head: "Cascadia Mono", "Consolas", "Courier New", monospace;
+  --font-body: "Cascadia Mono", "Consolas", "Courier New", monospace;
+  --page-bg: #ffffff;
+  --ink: #111111;
+  --deep-bg: #111111;
+  --deep-ink: #f5f5f2;
+  --accent: #111111;
+  --accent-ink: #ffffff;
+  --link: #111111;
+  --line: #111111;
+  --card-bg: #ffffff;
+  --card-art-bg: #ffffff;
+  --card-art-ink: #111111;
+  --card-art-border: 1px solid #111111;
+  --card-radius: 0;
+  --btn-radius: 0;
+  --field-radius: 0;
+  --btn-shadow: 4px 4px 0 #bbbbbb;
+  --card-shadow: none;
+  --callout-bg: #ffffff;
+  --callout-ink: #111111;
+  --callout-border: 1px solid #111111;
+  --wave-display: block;
+  --flourish-display: block;
+  --ornament-display: block;
+
+  /* The pastel rainbow */
+  --flare-rose: #ffd3e0;
+  --flare-peach: #ffe4c7;
+  --flare-sun: #fff3bd;
+  --flare-mint: #cdeed6;
+  --flare-sky: #cfe6ff;
+  --flare-lilac: #e3d7ff;
+}
+
+/* ---- Planes: smooth shifting pastel fields, black sections only ----
+   Inline SVGs from build.py: full-width stacks of undulating translucent
+   planes. White sections stay plain and sit above. */
+.hero, .foot-inner, .midband { position: relative; overflow: hidden; }
+.hero > *, .foot-inner > *, .midband > * { position: relative; z-index: 1; }
+/* The thread of four as signature: sunwise sapphire, gold, ruby,
+   jade under section heads and the footer's mailing band */
+.band-head, .foot-cta {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg,
+    #6f9ce4, #f5c542, #ff7f8d, #62d194, #6f9ce4) 1;
+  padding-bottom: .5rem;
+}
+
+/* Mid band planes: the current fades toward the words on the left */
+.midband .planes {
+  -webkit-mask-image: linear-gradient(115deg, transparent 34%, #000 62%);
+  mask-image: linear-gradient(115deg, transparent 34%, #000 62%);
+}
+.planes {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 0; mix-blend-mode: screen; opacity: .9;
+}
+/* Footer planes: a quiet current along the bottom */
+.foot-inner .planes {
+  opacity: .4;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 42%, #000 88%);
+  mask-image: linear-gradient(to bottom, transparent 42%, #000 88%);
+}
+/* Lite heroes (article, category): the current hugs the lower edge,
+   fully beneath the words */
+.hero.hero-lite .planes {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 58%, #000 84%);
+  mask-image: linear-gradient(to bottom, transparent 58%, #000 84%);
+}
+/* The text side stays near-black: planes fade in from the left */
+.hero .planes {
+  -webkit-mask-image: linear-gradient(115deg, transparent 30%, #000 58%, #000 82%, rgba(0,0,0,.35) 100%);
+  mask-image: linear-gradient(115deg, transparent 30%, #000 58%, #000 82%, rgba(0,0,0,.35) 100%);
+}
+
+/* Writerly — a platform for writings. Serif throughout, warm paper,
+   ink and thin rules, the composition of a well-set book. The
+   Vajradhatu weave stays as the quiet current beneath the dark bands. */
+.theme-writerly {
+  --font-head: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-body: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --page-bg: #faf7f0;
+  --ink: #1c1a17;
+  --deep-bg: #171512;
+  --deep-ink: #f5f1e8;
+  --accent: #1c1a17;
+  --accent-ink: #faf7f0;
+  --link: #1c1a17;
+  --line: #1c1a17;
+  --card-bg: #faf7f0;
+  --card-art-bg: #faf7f0;
+  --card-art-ink: #1c1a17;
+  --card-art-border: 1px solid #1c1a17;
+  --card-radius: 2px;
+  --btn-radius: 2px;
+  --field-radius: 2px;
+  --btn-shadow: 3px 3px 0 #c9c2b2;
+  --card-shadow: none;
+  --callout-bg: #f3eee2;
+  --callout-ink: #1c1a17;
+  --callout-border: 1px solid #1c1a17;
+  --wave-display: block;
+  --flourish-display: block;
+  --ornament-display: block;
+}
+.theme-writerly h1 { font-weight: 600; letter-spacing: 0.01em; }
+.theme-writerly .hero-sub { font-style: italic; }
+.theme-writerly .planes { opacity: 0.7; }
+.hero-photo img, .popup-photo img {
+  max-width: 300px; width: 100%; border-radius: 4px;
+  border: 1px solid currentColor;
+}
+.popup-photo img { max-width: 160px; }
+.popup-note { font-style: italic; margin: 0.4rem 0 0.8rem; }

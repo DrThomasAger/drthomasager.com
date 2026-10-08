@@ -53,13 +53,18 @@
       (let [s (slurp f)]
         {:date (second (re-find #"(?m)^date: *(\S+)" s))
          :readtime (some-> (re-find #"(?m)^readtime: *(\d+)" s) second parse-long)
+         :site-project (some-> (re-find #"(?m)^project: *(.+)$" s) second str/trim)
+         :glyph (some-> (re-find #"(?m)^glyph: *(.+)$" s) second str/trim)
+         :description (some-> (re-find #"(?m)^description: *(.+)$" s) second str/trim)
          :url (str slug ".html")}))))
 
 (defn index []
-  (vec (for [[slug {:keys [place title facets file date readtime]}] (sort-by key placements)
+  (vec (for [[slug {:keys [place title facets file date readtime site-project glyph description]}] (sort-by key placements)
              :let [fm (front-matter slug)]]
          {:slug slug :title title :kicker (kicker place) :place (str place)
           :date (or date (:date fm)) :readtime (or readtime (:readtime fm))
+          :site-project (or site-project (:site-project fm)) :glyph (or glyph (:glyph fm))
+          :description (or description (:description fm))
           :url (or (:url fm) (str "file:///" file))
           :depth (count (:route (by-id place)))
           :route (mapv (comp str :id) (:route (by-id place)))
