@@ -45,9 +45,23 @@
                                                      "item" (str "https://drthomasager.com/" (str/join "/" (map (comp name :id) (take (inc i) (:route (by-id place))))))})
                                          (:route (by-id place))))}))
 
+(defn front-matter
+  "The date, read time and link of a post that lives in posts/."
+  [slug]
+  (let [f (fs/file (fs/parent dir) "posts" (str slug ".md"))]
+    (when (fs/exists? f)
+      (let [s (slurp f)]
+        {:date (second (re-find #"(?m)^date: *(\S+)" s))
+         :readtime (some-> (re-find #"(?m)^readtime: *(\d+)" s) second parse-long)
+         :url (str slug ".html")}))))
+
 (defn index []
-  (vec (for [[slug {:keys [place title facets file]}] (sort-by key placements)]
+  (vec (for [[slug {:keys [place title facets file date readtime]}] (sort-by key placements)
+             :let [fm (front-matter slug)]]
          {:slug slug :title title :kicker (kicker place) :place (str place)
+          :date (or date (:date fm)) :readtime (or readtime (:readtime fm))
+          :url (or (:url fm) (str "file:///" file))
+          :depth (count (:route (by-id place)))
           :route (mapv (comp str :id) (:route (by-id place)))
           :root (name (:id (first (:route (by-id place)))))
           :facets (into {} (for [[k vs] facets] [k (mapv name vs)]))

@@ -46,3 +46,15 @@ sort and filter, and MCPs parse it from `index.json` and `ontology.json`.
   carries the practice facet, e.g. the Dharma Wheel of Ganapati.
 - The site's `build.py` still reads its own `CATEGORIES`. Moving it to read
   `ontology.edn` and drawing the filters from `index.json` is the next step.
+
+## The explore page
+
+`bb ontology/explore.clj` writes `explore.html` here and into `site\`, with
+`index.json` and `ontology.json` beside it. It has the tree with a count at
+every place, a chip for every tag value in use with the count it would leave,
+four sorts (newest, measured first, shortest first, most specific first), and
+a search over titles and places. Every view is kept in the address, e.g.
+`explore.html#place=ai/agents&evidence=measured`, so a reader can share a
+view and an MCP can name one. On a phone the places and tags fold shut, so
+the posts come first. It was seen at 1440 and 390 pixels in light and dark,
+with no sideways scroll and no page errors.
