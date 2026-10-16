@@ -69,4 +69,10 @@
               :file "C:/Users/hanjo/Claude/Projects/SmileScape/post/index.html"
               :facets {:format [:research] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code]
                        :method [:hypotheses-first :program-measured :a-b-drawing] :project [:smile]
-                       :level [:engineer] :evidence [:built :measured]}}}
+                       :level [:engineer] :evidence [:built :measured]}}
+ "replaying-finished-claude-code-chats-to-find-the-persona" {:title "Replaying Finished Claude Code Chats to Find the Persona That Meets the Need at the First Reply" :place :ai/prompt-evaluation :date "2026-10-16" :readtime 14 :site-project "Smile" :glyph "☺"
+              :description "Every finished chat whose harvest records a miss is forked at the turn he asked and answered again by Claude, once as the role is and once with a persona that carries no word of the later chat, judged against the harvest's own record of the miss."
+              :file "C:/Users/hanjo/Claude/Projects/Smile/Scenario Optimizer/post/index.html"
+              :facets {:format [:trial :research] :model [:opus] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code]
+                       :method [:with-and-without-prompt :a-b-drawing] :project [:smile]
+                       :level [:engineer] :evidence [:measured :built]}}}

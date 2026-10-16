@@ -253,6 +253,30 @@
   "depth" : 3,
   "readtime" : 10
 }, {
+  "description" : "Every finished chat whose harvest records a miss is forked at the turn he asked and answered again by Claude, once as the role is and once with a persona that carries no word of the later chat, judged against the harvest's own record of the miss.",
+  "date" : "2026-10-16",
+  "slug" : "replaying-finished-claude-code-chats-to-find-the-persona",
+  "site-project" : "Smile",
+  "place" : ":ai/prompt-evaluation",
+  "kicker" : "AI › Prompt Engineering › Prompt Evaluation",
+  "file" : "C:/Users/hanjo/Claude/Projects/Smile/Scenario Optimizer/post/index.html",
+  "route" : [ ":ai", ":ai/prompt-engineering", ":ai/prompt-evaluation" ],
+  "title" : "Replaying Finished Claude Code Chats to Find the Persona That Meets the Need at the First Reply",
+  "root" : "ai",
+  "glyph" : "☺",
+  "url" : "file:///C:/Users/hanjo/Claude/Projects/Smile/Scenario Optimizer/post/index.html",
+  "facets" : {
+    "format" : [ "trial", "research" ],
+    "model" : [ "opus" ],
+    "tool" : [ "babashka", "clojure", "d3", "paper-js", "playwright", "claude-code" ],
+    "method" : [ "with-and-without-prompt", "a-b-drawing" ],
+    "project" : [ "smile" ],
+    "level" : [ "engineer" ],
+    "evidence" : [ "measured", "built" ]
+  },
+  "depth" : 3,
+  "readtime" : 14
+}, {
   "description" : null,
   "date" : null,
   "slug" : "smile-wiki",
