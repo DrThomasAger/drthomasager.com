@@ -21,6 +21,10 @@
                              :facets {:format [:definition] :level [:engineer] :evidence [:argued]}}
  "what-is-a-prompt-language" {:title "What is a prompt language?" :place :ai/prompt-languages
                               :facets {:format [:definition] :project [:smile] :level [:beginner] :evidence [:argued]}}
+ "start-here-recommended-reading" {:title "Start here, recommended reading" :place :ai/smile
+                                   :facets {:format [:tutorial] :project [:smile] :level [:beginner] :evidence [:argued]}}
+ "smile-wiki" {:title "Smile Wiki, every term of the Smile Prompt Language" :place :ai/smile
+               :facets {:format [:definition :tool] :project [:smile] :level [:beginner :practitioner :engineer] :evidence [:built]}}
  "what-is-smile" {:title "What is (: Smile?" :place :ai/smile
                   :facets {:format [:definition] :project [:smile] :level [:beginner] :evidence [:built]}}
  "the-bodhisattva-coder" {:title "The Bodhisattva Coder" :place :ai/prompts
@@ -48,4 +52,21 @@
                                        :description "Three ticks decided a recorded Last Man Standing fight. Rolling it forward 444 times from every tick finds them, cuts them from the video and shows them in RuneLite."
                                        :file "C:/Users/hanjo/Claude/Projects/osrs/Tension Points/which-moments-decide-an-osrs-fight.html"
                                        :facets {:format [:research] :tool [:clojure :runelite :edge-tts] :method [:simulation]
-                                                :project [:tension-points] :level [:practitioner] :evidence [:measured]}}}
+                                                :project [:tension-points] :level [:practitioner] :evidence [:measured]}}
+ "how-every-device-reaches-mahodara-and-ekadanta" {:title "Ganapati's Temple in 2D, 3D and 4D, How People, Messages and Records Flow In and Out" :place :ai/ganapati :date "2026-10-09" :readtime 16 :site-project "Machine Learning" :glyph "☸"
+                                                    :description "Ganapati drawn as a Dharma Wheel temple, every person, message and record of its two keepers in a plan, an elevation and a timeline, with the routes, the 39 hour rest and 169 tests beneath."
+                                                    :file "C:/Users/hanjo/Claude/Projects/Device Sync/post/index.html"
+                                                    :facets {:format [:research] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code]
+                                                             :method [:hypotheses-first :program-measured :a-b-drawing]
+                                                             :project [:ganapati] :level [:engineer] :evidence [:built :measured]}}
+ "how-a-local-ai-hivemind-remembers" {:title "How a Local AI Hivemind Remembers, Two Weeks of Claude Code Chats on One Timeline" :place :ai/multi-agent-systems :date "2026-10-09" :readtime 18 :site-project "Machine Learning" :glyph "☸"
+                                      :description "Ninety-six chats across eight projects in two weeks, drawn chat by chat, and how what each learned reached the next, through harvests, a game Gana's window, four memories on one ledger and an interstitial journal."
+                                      :file "C:/Users/hanjo/Claude/Projects/Ganapati/Timeline of Every Project/post/index.html"
+                                      :facets {:format [:research] :model [:fable :opus] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code :runelite]
+                                               :method [:program-measured :a-b-drawing] :project [:ganapati :smile] :level [:engineer] :evidence [:measured :built]}}
+ "smilescape" {:title "SmileScape, an Account World Where Prompt Engineering Levels Up to 99" :place :ai/smile :date "2026-10-16" :readtime 12 :site-project "Smile" :glyph "☺"
+              :description "One DrThomasAger account, characters with stats to 99, classes that are Smile Sanghas of agents, a battle pass twenty times faster with the prompt pack, and a Smile startup in every Claude instance."
+              :file "C:/Users/hanjo/Claude/Projects/SmileScape/post/index.html"
+              :facets {:format [:research] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code]
+                       :method [:hypotheses-first :program-measured :a-b-drawing] :project [:smile]
+                       :level [:engineer] :evidence [:built :measured]}}}
