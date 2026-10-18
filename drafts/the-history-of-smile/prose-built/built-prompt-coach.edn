@@ -1,0 +1,15 @@
+{:title
+ "The Prompt Coach, First Form, Suggestions You Approve with One Click",
+ :description
+ "The first form of the Prompt Coach, built on 1 October 2026 during the first client decomposition, a local page with one card per suggested change to a prompt, each explained in five parts and applied with one click, with its commits and my words.",
+ :keywords
+ "Prompt Coach, prompt improvement suggestions, approve changes with one click, explain prompt changes, verbatim prompts, history of Smile",
+ :lede
+ "The Prompt Coach reads a prompt, finds where its instructions are unclear, and offers each change for approval with one click and a full explanation.",
+ :paras
+ ["On 1 October 2026 I set what it is, “In Smile, we will have a Prompt Coach that reads every single prompt, identifies the issues for itself with understanding the instructions, provides you an interfafce which has the suggested change for approval which you can just click to immediately activate”, with every change explained under “1. Why this change 2. What the AI sees, 3. What the human sees”, and two more parts.[[m:2026-10-01]]"
+  "Its README records the first form, a local page with one card per suggestion showing the change as removed and added lines, built that evening during the first client decomposition, with the rule said beside it that nothing of my text is ever rewritten.[[r]] It began in the same commit as the decomposition.[[c:f5e4481f]]"
+  "Across {{commits}} commits from {{began}} to {{last}}, the Prompt Coach of 2023's scoring became something a person can use. Its idea is followed in [[t:prompt-coach]], and the next project is [[p:built-smile-everywhere]]."],
+ :faq
+ [["How does the Prompt Coach explain a change?"
+   "Each suggested change says why it is made, what the AI sees, what the person sees, the fullest form of the same meaning, and the most token efficient form for a machine."]]}

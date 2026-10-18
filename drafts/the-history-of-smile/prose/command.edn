@@ -1,0 +1,22 @@
+{:title
+ "Command in the Smile Prompt Language, the /C- Family and Every Composition as a Command",
+ :description
+ "What a command is in THE MAP of Smile, a destination row saying where a render goes, how it travels and when it fires, every name opening with the face C-, and how my words reached the /C- family, from slash commands recorded for the community in August 2026 to /C-auto, /C-Never and /C-all, with every source.",
+ :keywords
+ "Claude Code slash commands, prompt commands, /C- commands, multi-stage prompts, composition as command, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, a command is a destination, one row saying where the render goes, how it travels and when it fires. Every command name opens with the face C-.",
+ :paras
+ ["THE MAP makes every composition commandable. A command is a composition given a destination row, and one composition may be several commands, with custom behaviour through the settings, conditions and variables every composition carries. A multi-stage command is a composition of prompts sent in linear order, the join between its pieces being the turn boundary, walked by a cue naming the next command. A command waits for the turn, a message arrives at the next tool boundary, and stopping the work sits above both. A command may carry an importance shift, such as /Plan --VeryImportant, and lenses are over the commands, each mapping what an emoticon corresponds to for that lens."
+ "Slash commands came to Smile on my PC in August 2026, first as something to record. On 6 August, “I want every time a command to be uesd to be recorded and available to everyone when it is a manual use.”[[m:2026-08-06]] On 11 August I listed the first family, “/Plan --VeryImportant, which we will parse as shifting the importance change.”, with /Send, /Research, /Confirm, /Bodhisattva, /Inheritance, /Doula and /Propose.[[m:2026-08-11]]"
+ "On 13 August the commands took their form. They were to be my words exactly, “it just needs to be my exact verbatim text i gave you word for word for all the commands.” I saw what a sequence of them is, “Wait so isn't a multi-stage command just a composition of prompts (which are also compositions), but sent in linear order?”, and then, “so every composition is also a command.” The face came the same day, “the /C- is sufficient is sufficient as a face. make it the start of every command”.[[m:2026-08-13]]"
+ "Through late August and September the family grew, each command my own prompt. On 19 August a command could take text after its name into a section of its own, “what we need is when the prompt comes in it is inserted in a section, and that entire section isnt there if its not inserted.”, for every client people use, “smile isnt a claude project, we integrate local LLMs and more”.[[m:2026-08-19]] On 22 August /C- itself, which “lets you add any text on the end and it just wraps the whole thing in a smile header and footer”.[[m:2026-08-22]] On 4 September /C-todo,[[m:2026-09-04]] on 5 September /C-doula as “an automatic sequence of 3 prompts”,[[m:2026-09-05]] and on 15 September in osrs the words of /C-auto, “You are an autonomous agent. You must make all decisions yourself.”[[m:2026-09-15]]"
+ "At the end of September I set what the auto command means and added the command for what never happens again. “the instance must become autonomous until i request otherwise”, and named a new command, “/C-Never”.[[m:2026-09-29#2]] In October came /C-lifecycle,[[m:2026-10-02]] /C-explain,[[m:2026-10-04]] /C-bruh,[[m:2026-10-09]] and /C-all, with “make sure all commands work in the Pi CLI”.[[m:2026-10-10]]"
+ "So the command moved from a slash command recorded for the community, to a /C- family of my verbatim prompts, to the recognition that every composition is a command, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. Where a render goes is followed in [[t:destination]], and the composition a command sends in [[t:composition]]."],
+ :faq
+ [["What is a command in Smile?"
+ "A composition given a destination row, saying where its render goes, how it travels and when it fires. Every Smile command name opens with the face C-."]
+ ["What is a multi-stage command?"
+ "A composition of prompts sent in linear order, each stage ending with a cue that names the next command for the model to invoke."]
+ ["What does /C- do?"
+ "In my words of 22 August 2026, it lets you add any text on the end and wraps the whole thing in a Smile header and footer."]]}

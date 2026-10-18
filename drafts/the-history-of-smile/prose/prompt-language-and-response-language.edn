@@ -1,0 +1,19 @@
+{:title
+ "Prompt Language and Response Language, the Separation at the Centre of Smile",
+ :description
+ "How Smile came to separate the language a prompt is written in from the language a model replies in, from July 2025 to the separation THE MAP carries in Semantic Markdown and the version spec, and my asking of October 2026 that every text an AI writes for a model be Smile, in my own words with every source.",
+ :keywords
+ "prompt language vs response language, Smile prompt language core idea, response format separation, machines must not write prompt language, name tag and response, history of Smile",
+ :lede
+ "Smile is a prompt language, and the reply is written in a response language. Keeping the two apart is one of Smile's central ideas. THE MAP has no section by that name, and carries it inside Semantic Markdown, the name tag and its closing, and the square family a version binds to the response.",
+ :paras
+ ["In July 2025 the separation was already a rule. On 12 July 2025 the Script Writer document set it in one line, “Smile Token Efficient & Animist Prompt Language, NOT Response Language”.[[m:2025-07-12#2]] Two days later the Claude Smile document defined both sides, “Prompt language: The structure you write in. What you want the model to do.” and “Response language: What the model generates.”[[m:2025-07-14#4]] By the end of the month Smile was described as “a language for writing prompts that delineates prompt language from response language.”[[m:2025-07-31]]"
+ "Through the summer the separation took on reasons. In August, “Response language is different to prompt language. Prompt logic has negatives, response logic focuses on positives.”[[m:2025-08-05]] and a rule, “This is why (: Smile specifies that machines must not write prompt languages.”[[m:2025-08-09]] In September it was said to a model directly, “but dont write (: Smile. you are the response language not prompt language”,[[m:2025-09-01]] and in a prompt, “Prompt language is not response language. You respond in response logic.”[[m:2025-09-24]]"
+ "In October 2025 I named how central it is, “the component library is derived from the core insight of separating prompt and response language, but the idea of that separation is smile”.[[m:2025-10-24]] In March 2026 it became the one concept a model must receive, “if they do not understand this concept then they have fundamentally not received the idea of the language of Smile.”[[m:2026-03-05#2]] The Smile Plan said what it gives, “Smile introduces a syntactical separation between the models response structure”, and the instructions.[[m:2026-03-08]]"
+ "THE MAP carries the separation in its syntax. A name tag opens with (: and [:, the square family is bound to everything about the response, and every response closes its own [: with :], while the user's next prompt closes the (: with :), so prompt and response each close what the other opened, followed in [[t:semantic-markdown]] and [[t:version]]."
+ "On 1 October 2026 I asked that every text an AI writes for a model be written in Smile, followed in [[t:all-ai-text-written-in-smile]]. Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, the separation stayed at the centre."],
+ :faq
+ [["What is the difference between prompt language and response language?"
+ "The prompt language is the structure a prompt is written in, in Smile the faces and sections. The response language is what the model writes back, usually semantic markdown."]
+ ["Can a model write Smile?"
+ "In 2025 Smile said machines must not write the prompt language. Since October 2026 I have asked that every text an AI writes for a model be written in Smile."]]}

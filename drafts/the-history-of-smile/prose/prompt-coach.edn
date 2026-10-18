@@ -1,0 +1,17 @@
+{:title
+ "The Prompt Coach, Every Suggested Change Offered for Approval",
+ :description
+ "What the Prompt Coach is in THE MAP of Smile, a coach that reads every prompt and understands its instructions before naming anything, then offers each change as one suggestion with its explanation in five sections, and how my words built it on 1 October 2026, with every source.",
+ :keywords
+ "Prompt Coach, prompt review tool, suggested prompt edits, approve changes, prompt improvement interface, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, the Prompt Coach reads every prompt and understands its instructions before it names anything in them. Each change it finds is offered as one suggestion, to approve, edit by hand, cancel or apply with the rest.",
+ :paras
+ ["THE MAP gives every suggestion its explanation in five sections, why this change, what the AI sees, what the human sees, the same meaning with maximal, comprehensive, extensive and complete coverage, and the same meaning as a machine-only prompt with its tokens counted by the engine that will read it. A suggestion changes nothing until it is approved, so the words remain exactly as their author wrote them until a hand says otherwise. An approved change lands where the words live and deposits a ring carrying its reason, by the hand that clicked."
+ "I described it on 1 October 2026, and a first form of it was built the same day. “In Smile, we will have a Prompt Coach that reads every single prompt, identifies the issues for itself with understanding the instructions, provides you an interfafce which has the suggested change for approval”.[[m:2026-10-01]] The review screen made for Phoenix's prompts that day kept the prompt whole, “must be retained verbatim i dont want to read your table of contents.”, with “i need every single change to have highlighted changes” and “make it so i can check and uncheck each segment”.[[m:2026-10-01#2]] It was then to run beside the decomposition and module testing, in tabs of its own.[[m:2026-10-01#3]]"
+ "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, the Prompt Coach was described in one day as a reader that offers rather than rewrites. Its first form is an approval page, and the reading of every prompt by a model is still to be built. The older wish behind it, a prompt scored while it is typed, is followed in [[t:pedagogy]], and the De-GPT prompt that began removing AI signs in [[t:the-prompt-doctor]]."],
+ :faq
+ [["What is the Smile Prompt Coach?"
+ "In THE MAP, a tool that reads a prompt, understands its instructions, and offers each change it finds as a suggestion with five explanations, changing nothing until it is approved. Its first form is an approval page, and the reading by a model is still to be built."]
+ ["What are the five explanations of a Prompt Coach suggestion?"
+ "Why this change, what the AI sees, what the human sees, the meaning with maximal coverage, and the meaning as a token-optimised machine-only prompt."]]}

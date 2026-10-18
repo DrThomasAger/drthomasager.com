@@ -1,0 +1,19 @@
+{:title
+ "Synthetic Data and Smile, Positive Prompts as Training Data for Kinder Models",
+ :description
+ "How synthetic data runs through the Smile Prompt Language, from a 2025 hope for instruction-following data that is token efficient and readable, through the name tag already in early training data, to farming synthetic data from optimal play in 2026, in my own words with every source.",
+ :keywords
+ "synthetic training data, instruction following data, positive data for language models, name tag in training data, fine tuning on prompts, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, synthetic data is fine-tuning on what deterministic search already solves. Smile real time is to watch every run for a task an exact algorithm already solves, such as A* choosing the next click, and make that algorithm a generator of training data.",
+ :paras
+ ["THE MAP writes the algorithm's input and every step it takes as a sequential token log, checked by the algorithm itself, so the data is correct by construction and grows with compute. A small local model is fine-tuned on the logs and scored beside its base against the same algorithm on inputs neither has seen, so a model trained this way would carry the algorithm's steps as tokens and its reasoning could be read. Little of it is built yet."
+ "On 27 July 2025 the hope was written in Smile v0.4, “Perhaps in future multimoda scenarios we can create complex and diverse instruction following synthetic data that is token efficient, semantic semiotic readable”.[[m:2025-07-27]] In August the reason in six words, “Creating more positive data makes more positive machines.”[[m:2025-08-09]]"
+ "In October 2025 I said the name tag was already in training data. “We created tonnes of data with the pattern of a name tag into the early GPT-4 data bodies, which were replicated into training data.”[[m:2025-10-29]] Two days later, “We build more intelligence by populating datasets and synthetic data with a extremely well defined language”.[[m:2025-10-31]] In February 2026, “Once models are trained on Smile, the positive language for prompt instructions, they will have kinder prompts and responses.”[[m:2026-02-19]] The Smile Plan of March listed the steps, “Create dataset of prompt engineering” and “Fine-tune/train models on prompt engineering dataset”.[[m:2026-03-08]]"
+ "In October 2026 the data turned to the game. “begin farming synthetic data that is superior to your outputs”, replacing a model's own choices of route and decision with the optimal, and “dont simulate anything you can generate a different way.”[[m:2026-10-05]] On 10 October, “automatically identify EZ synthetic data fine-tuning gains through determinsitco optimizaiton, e.g. generating data from pahtfinding algos”.[[m:2026-10-10]]"
+ "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, synthetic data stayed a hope with a direction, that what is written in Smile today teaches the models of tomorrow to be kinder. The next post is [[t:master-header]]."],
+ :faq
+ [["Why does Smile care about training data?"
+ "Prompts and replies become data that later models learn from. My hope is that data written in a positive, well defined language teaches models kinder and clearer ways of prompting and answering."]
+ ["Is the name tag already in training data?"
+ "I have said the name tag pattern was written into many early GPT-4 conversations, which became part of later training data."]]}

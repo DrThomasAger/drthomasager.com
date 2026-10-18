@@ -1,0 +1,14 @@
+{:title
+ "Live Prompt Delivery, My Prompt's New Sections Reaching Every Running Session",
+ :description
+ "Live Prompt Delivery of October 2026, which gives every running Claude Code session the sections of my custom prompt that changed since it last saw them, at its next tool call or my next message, through four Babashka hooks, with its commits.",
+ :keywords
+ "live prompt updates, Claude Code hooks, custom prompt delivery, running sessions, Babashka hooks, Smile triggers, history of Smile",
+ :lede
+ "Live Prompt Delivery means a change to my prompt reaches every Claude Code session already running, without anyone resending it.",
+ :paras
+ ["Its README records my words that began it, that all prompts be grown and resent live to every Claude at once, and what it does. A Babashka script called by four hooks keeps, for each session, the version of my custom prompt it opened with and the version it last saw, and when they differ it adds to that session's context only the sections that changed, found by Smile's own indentation. It was built from the agreement of a three-person review.[[r]]"
+  "On 8 October it gained Smile triggers, “text inserted on a condition, every X minutes, after N steps, tasks or todo entries, an instruction not followed”,[[c:a0a3358e]] and on 14 October it joined THE MAP editor's live push.[[c:867e391e]] Across {{commits}} commits from {{began}} to {{last}}, every instance came to work from my newest words, the idea of [[t:tending]] and [[t:conditions-and-actions]]. The next project is [[p:built-recordings-into-the-map]]."],
+ :faq
+ [["How does a running Claude Code session learn of a prompt change?"
+   "A hook compares the version of my prompt the session last saw with the current one, and adds only the changed sections at the session's next tool call or message."]]}

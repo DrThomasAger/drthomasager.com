@@ -1,0 +1,13 @@
+{:title "Never Again, the Registry Behind the /C-Never Command",
+ :description
+ "Never Again, the September 2026 registry behind the /C-Never command, where every time I name something that must never happen again an entry is recorded, the instance reads every past harvest and failure register, and its reply is kept, with its commits.",
+ :keywords
+ "/C-Never command, AI mistake registry, never happen again, edge cases and blindspots, failure register, agent learning from mistakes, history of Smile",
+ :lede
+ "Never Again is where every mistake I name is kept. Each time I type /C-Never, the instance is asked to find every way it could happen again and to close them, and the whole exchange is recorded.",
+ :paras
+ ["Its README records the command I asked for on 29 September 2026. /C-Never takes the thing that must never happen again as its words, and asks the instance to find two situations where it could recur, two edge cases where assumptions break, two blindspots and two real times and places that would bring it back, then to propose a complete plan that ends every one of them and monitors for it. Each use is recorded here by script, the instance first receives the reading of every harvest and failure register already done, and its reply joins the entry when its turn ends.[[r]]"
+  "Its third entry, on 30 September, was “nothing said or done about his PC from a reading older than his newest message”.[[c:1a1605e6]] On 4 October a /C-Never called through the Skill tool also came to be recorded.[[c:8e13f7a6]] Across {{commits}} commits from {{began}} to {{last}}, Never Again became the memory of what must not repeat, beside [[t:command]] and [[t:the-life-of-an-instance]]. The next project is [[p:built-smile-prompt2hivemind]]."],
+ :faq
+ [["What does /C-Never ask of an instance?"
+   "To find two situations, two edge cases, two blindspots and two real times and places where the named mistake could recur, and to propose a complete plan that ends each one and watches for it."]]}

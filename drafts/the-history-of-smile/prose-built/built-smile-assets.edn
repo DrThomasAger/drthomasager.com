@@ -1,0 +1,15 @@
+{:title
+ "Smile Assets, the Official Faces of Smile on True Transparency",
+ :description
+ "How Smile Assets became the official branding of the Smile Prompt Language, the smile, the chat smile with its cursor and the Smile Lens monocle, all traced from one original favicon, from July 2026, with its commits and my words.",
+ :keywords
+ "Smile logo, Smile branding, Smile Chat icon, Smile Lens monocle logo, official Smile assets, vector smile, history of Smile",
+ :lede
+ "Smile Assets is the folder of Smile's official faces, every logo and icon drawn from one original smile. Every site and app of Smile wears them.",
+ :paras
+ ["The folder began on 25 July 2026, in the commit that also renamed Smile UI to Smile Chat and created the first logos.[[c:cc8b6eae]] Its README records one true source, the original favicon of “:)” with a cursor bar, from which a forge script makes every other file, the smile turned to face left as “(:”, the chat smile with its cursor, icons for dark taskbars, vector forms traced as true curves, and the Smile Lens logo, the smile wearing a monocle.[[r]]"
+  "The branding became a rule for every site on 10 September, “the smile app and all associated websites etc need to use the official branding in smile assets”.[[m:2026-09-10]] This series follows it, its pages carrying the template the DrThomasAger blog wears and the Buddha eyes at the corner."
+  "Across {{commits}} commits from {{began}} to {{last}}, Smile Assets became the faces Smile is known by. The next project is [[p:built-smile-chat]]."],
+ :faq
+ [["Where do Smile's logos come from?"
+   "From one original favicon of the smile with a cursor bar, from which a script in Smile Assets makes every logo, icon and vector form."]]}

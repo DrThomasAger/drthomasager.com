@@ -1,0 +1,19 @@
+{:title
+ "Pedagogy in Smile, Teaching Made for One Person From Their Own Prompts",
+ :description
+ "What pedagogy is in THE MAP of Smile, fully interpretable, automatically individuated and improved onto-epistemological teaching, a lesson made for one learner from their own material, and how my words reached it, from live scoring while typing in October 2023, through teaching Smile by its own documentation in 2025, to individuated pedagogy in October 2026, with every source.",
+ :keywords
+ "learning prompt engineering, individuated teaching, personalised lessons, prompt engineering education, interpretable pedagogy, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, the goal is fully interpretable, automatically individuated and improved onto-epistemological pedagogy. A lesson is made for one learner from their own material, such as a section of their own prompt, and teaches why it works.",
+ :paras
+ ["THE MAP names each word of that goal. Pedagogy is what the Prompt Doctor and Smile make, episodes, posts, prompts and games. Onto-epistemological, it teaches what something is and how it is known, together. Individuated, each person receives the teaching made for them. Automatic, the making happens without a hand each time. Improved, each version is better than the one before. Fully interpretable, every choice in it can be traced. The learner's question after a lesson is the material of the next, so every lesson is co-created, and a lesson is a composition that sends."
+ "In October 2023 I sketched a prompt scored while it is typed, a seed of teaching. “Here's an idea: We derive as many metrics as we can so that live, while the user is typing, we have a model that is predicting the assistants response”, scoring it as the prompt is written,[[m:2023-10-14]] and, of what would help most, “i want to understand better how prompts and different parts of prompt lead to response”.[[m:2023-10-14#2]]"
+ "In 2025 Smile was taught by its own documents. Smile v0.2 said, “Copy and paste this entire thing into ChatGPT and learn that way. I’ve written it to work that way.”[[m:2025-07-10]] Smile v0.3, “Smile is intuitively learnable as mistakes are immediately recognized when the emoticon does not smile :(”.[[m:2025-07-09]] In November the tool I was building was “a learning tool, it has documentation for every module and composition.”[[m:2025-11-13]]"
+ "In October 2026 the goal THE MAP keeps was named. On 4 October, “automatic individuayted pedagogy through media ai co creation”.[[m:2026-10-04]] On 5 October, “The goal is fully interpretable automatically individuated and improved onto-epistmological pedagogy”.[[m:2026-10-05]]"
+ "So pedagogy moved from a prompt scored while it is typed in 2023, through documents that teach Smile by being read, to the goal of lessons made for each person from their own words, mostly still to be built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The coach that offers changes to a prompt is followed in [[t:prompt-coach]], and the system whose every choice can be read in [[t:interpretable-agents]]."],
+ :faq
+ [["What is pedagogy in Smile?"
+ "Teaching made for one person from their own material, such as their own prompt, automatically individuated, improved with each version, and fully interpretable."]
+ ["What does onto-epistemological mean here?"
+ "A lesson teaches what something is and how it is known, together."]]}

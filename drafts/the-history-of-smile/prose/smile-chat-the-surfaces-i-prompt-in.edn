@@ -1,0 +1,18 @@
+{:title "Smile Chat, the Surfaces I Prompts In",
+ :description
+ "Smile Chat and the other surfaces I prompt in, the companion chat window of July 2026, its images, video and incognito window, the chat engine of smileprompt.ai, and the RuneLite chat that was to have the size of a text editor and every feature of the Pi harness, with every source.",
+ :keywords
+ "Smile Chat, local LLM chat interface, LM Studio companion, RuneLite chat, Pi harness, smileprompt.ai, history of Smile",
+ :lede
+ "Smile Chat is where I prompt. It began in July 2026 as a chat window beside a local model, and from September I asked for the RuneLite chat to become a full chat too.",
+ :paras
+ ["THE MAP names Smile Chat as where the token lens lives, so any alternative token it shows can be taken, where Smile games are played live, and as one of the places the living linter reaches. Smile Chat has no heading of its own in THE MAP, and these are the words of mine that built it."
+ "It began on 22 July 2026, separated from the command line. “can you separate the window?”, “replace it with \"(: Smile Chat\"”, “I want ctrl+N to open a new chat.”, and the reason to begin small, “we can build as a companion first and integrate features into OpenWebUI after.”[[m:2026-07-22]] On 23 July it took the controls of careful prompting, a button that “deletes what the model has just said”, and “i cant tell the difference between spaces and tabs visually. could you make it so?”[[m:2026-07-23]] On 25 July, “Smile Chat is sufficient, not Smile Chat Room.”[[m:2026-07-25]]"
+ "In late August it gained images, video and privacy. “can you integrate iamge and video generation into smile chat using our best models.”, “as long as I can say /image in chat or /video in smile chat then write a prompt”, and “add an incognito window option to smile chat also that keeps no record of any of it”.[[m:2026-08-26]] On 1 September I asked for “a chat mode that is basically exactly like smile lens but populated using the templates”.[[m:2026-09-01]] On 6 September, “Smile Chat is the chat engine that drives the app part of Smileprompt.ai”,[[m:2026-09-06]] and on 10 September it was to have logins, “its meant to be usable by anyone”.[[m:2026-09-10]]"
+ "From late September I asked for the RuneLite chat to be rebuilt as a full chat, reusing code from the Smile Chat projects. On 25 September, “the CLI interface needs to be a full featured claude code type interface, you can rip from open code and smile chat projects and re-use functionality.”[[m:2026-09-25]] On 8 October, “this chat needs to be the size and flexiiblity of a text editor”,[[m:2026-10-08]] and on 13 October, “we need all features of Pi harness with Smile real time and automation active”.[[m:2026-10-13]]"
+ "So Smile Chat moved from a companion window separated from the command line in July 2026, through images, video and incognito, to the chat engine of smileprompt.ai, beside the RuneLite chat I asked to grow into a full chat, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The token view inside it is followed in [[t:lens]], and its games in [[t:smile-games]]."],
+ :faq
+ [["What is Smile Chat?"
+ "The chat interface built from July 2026 for prompting local and hosted models, with token views, image and video generation, an incognito window, and the chat engine of smileprompt.ai."]
+ ["Why was the RuneLite chat rebuilt?"
+ "I asked for it to be a full chat, the size of a text editor with every feature of the Pi harness and Smile real time."]]}

@@ -1,0 +1,19 @@
+{:title
+ "Bringing in the Best, How Smile Carries What Already Exists and Is Proven",
+ :description
+ "What bringing in the best is in THE MAP of Smile, introducing people to the better technology that already exists, testing everything before it is brought in, their code within Smile's architecture and no dependencies, and how my words reached it, from PromptQuine in July 2025 to verifying what exists before writing code in October 2026, with every source.",
+ :keywords
+ "use existing libraries, open source, benchmark before adopting, verified dependencies, do not reinvent, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, Smile introduces people to the better technology that already exists, open source already optimised, existing AI and algorithmic solutions, and state of the art implementations, each benchmarked on its own task before it is offered.",
+ :paras
+ ["THE MAP takes from all the existing best work, even the niche, and nothing is taken on reputation. Everything is tested verifiably and only what passes is brought in. What passes is used as its own code inside the system's architecture, with a spec and a verification end to end. There are no dependencies, so what is brought in is carried and never fetched or kept elsewhere. Each offering is measured beside the others, and its comparison says what it replaced and by how much it is better."
+ "In July 2025 the AI System Overview found existing work for dense prompts, “Smile Dense \\- Existing solution identified is \\[PROMPTQUINE\\]”.[[m:2025-07-30]] On 23 July 2026 I set the order of work, “if there is an existing project that already has the feature, then I want to try that out first and see it for myself, potentially just use their code.”[[m:2026-07-23]]"
+ "In osrs the same rule reached algorithms. On 13 September, “also if there is existing things to get shortest paths u can use that..”[[m:2026-09-13]] On 25 September, “calcualte with A* search and other oldschool (pre gen AI methods) liek MCTS, use common libraries that have fast implementations”.[[m:2026-09-25]] On 29 September, “osrs is not where you look for sota algorithms for AI. look for general solutions”.[[m:2026-09-29]]"
+ "In October it became part of what Smile is. On 5 October, “part of Smile is introducing people to the automatically better open source tech”, and “Use libraries for everything that we havent implemented that exists.”[[m:2026-10-05]] On 8 October, “Download and read from arxiv all papers related to making skills”.[[m:2026-10-08]] On 13 October, “use existing things as much as possible. only write your own code once you have verified someone elses.”, and “we want outcomes and results much faster than we want our own algorithms to be written in ouir owwn code.”[[m:2026-10-13]]"
+ "So bringing in the best moved from naming one paper beside Smile Dense in 2025 to a practice every instance carries, verify what exists and only then write code, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The tests everything passes before it is brought in are followed in [[t:test]]."],
+ :faq
+ [["What does bringing in the best mean in Smile?"
+ "In THE MAP, Smile finds the best existing open source, algorithms and AI solutions, tests each one itself, and brings in only what passes, as its own code with a spec and an end to end check. The rule is set for every instance, and automatic testing of what is brought in is still part built."]
+ ["Why does Smile verify existing code before writing new code?"
+ "Outcomes reached soon with what exists come before algorithms written from scratch, and nothing is trusted on reputation alone."]]}

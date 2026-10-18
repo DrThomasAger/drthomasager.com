@@ -1,0 +1,14 @@
+{:title
+ "The Marker Penalty Trial, Shorter Reasoning by Penalising Words Like Wait",
+ :description
+ "The Marker Penalty Trial of September 2026, a contained exploration of lowering the logits of hesitation markers such as wait and alternatively in quantized reasoning models, tried across my local models, with its commits.",
+ :keywords
+ "logit penalty, reasoning markers, quantized reasoning models, shorter chain of thought, local LLM sampling, llama.cpp logit bias, history of Smile",
+ :lede
+ "The Marker Penalty Trial tested a sampling method on one of my local models, lowering the chance of words such as wait, and found 18.1 percent fewer reasoning tokens with no loss seen on 55 questions.",
+ :paras
+ ["Its README records the asking, to research, extend and implement a method shared on Reddit, install what it needs and verify it across all my models, and the method itself. A paper observes that quantized reasoning models sample words such as wait, but and alternatively more often and reason longer while answering less accurately, and it lowers the logits of such marker tokens at sampling time with no training, reporting 12 to 23 percent shorter reasoning with accuracy kept.[[r]] The trial was kept contained, touching none of Smile's model settings."
+  "It was committed on 1 October 2026[[c:efeea33f]] and closed in the feature completion of 4 October.[[c:156e27fe]] Across {{commits}} commits from {{began}} to {{last}}, the trial brought a method from the research of others into my own stack, the practice of [[t:bringing-in-the-best]]. The next project is [[p:built-what-is-an-agent-paper]]."],
+ :faq
+ [["What is a marker penalty?"
+   "Lowering the logits of hesitation words such as wait and alternatively while sampling, so a quantized reasoning model reasons for less time without losing accuracy."]]}

@@ -1,0 +1,15 @@
+{:title
+ "The Smile Ideal Client, Someone Who Has Solved AI but Not Yet Joined Their Prompts Together",
+ :description
+ "The Smile ideal client, described on 1 October 2026, a person with their own prompt base of unique intelligences who has not integrated, understood, maintained, versioned or modularised it, and the note every instance now carries, with its commits and my words.",
+ :keywords
+ "Smile ideal client, prompt base, integrate prompts, version prompts, modular prompt library, prompt engineering service, history of Smile",
+ :lede
+ "The ideal client of Smile has already found their own way with AI, a prompt base of unique intelligences, and has not yet brought it together.",
+ :paras
+ ["On 1 October 2026 I described them, “Note: Smile ideal client has \"Solved AI\" and has their own prompt base of unique intelligences but 1. Has not integrated them together 2. Doesn't know why it works, 3. Maybe got a lucky AI generation to make it 4. Doesn't want to maintain it 5. Hasn't versioned it 6. Hasn't separated it into modules or labelled them ontologically in terms of their lens”.[[m:2026-10-01]]"
+  "The folder was made that day, “The Smile ideal client, in Hanjo's verbatim words”,[[c:2d7c3ce6]] and the same day every instance began to receive it, “Ideal client: every instance now receives it through the global CLAUDE.md”.[[c:7350f9ba]] Its README adds what Smile gives them in my words, among them that it stops vendor lock in.[[r]]"
+  "Across {{commits}} commits from {{began}} to {{last}}, the ideal client became the person every Smile site, offer and page is made for. The purpose is followed in [[t:what-smile-is-for]] and [[t:offering]], and the next project is [[p:built-frame-custody]]."],
+ :faq
+ [["Who is Smile for?"
+   "Someone with their own prompt base of unique intelligences who has not yet integrated, understood, maintained, versioned or modularised it."]]}

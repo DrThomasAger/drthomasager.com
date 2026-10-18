@@ -1,0 +1,18 @@
+{:title "Transfer in Smile, One Prompt Carried Across Models",
+ :description
+ "What transfer is in THE MAP of Smile, one prompt compared across models, a model card per version and quant, a prompt recomposed for a cheaper local model, and three options of performance, cost or both, and how my words reached it, from densifying prompts in July 2025 to stopping vendor lock-in in October 2026, with every source.",
+ :keywords
+ "prompt transfer across models, local LLM, model swapping, prompt optimisation for cheaper models, vendor lock-in, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, transfer carries one prompt across models. The same prompt is sent to many models and the outputs read side by side, and a prompt that works on a foundation model is composed anew for a much cheaper local model.",
+ :paras
+ ["THE MAP keeps a model card for each tagged version or quant, with what is common to all of them written once above, so a prompt can be carried to a model optimised to its maximum degree. Most of what a prompt does can run as separate agent processes on local models, each with a minimal or zero-shot context, while the foundation model does the remainder. The choice is offered as three options, the way a bonus card is picked after a boss in a deckbuilder, max performance, minimal cost, or optimised for both. The transfer is composition, and the model a module sends to is a setting on the module."
+ "Its first form was compatibility. In July 2025 the Script Writer document asked for prompts “Cross-compatible across all foundation models.”[[m:2025-07-12]] In August, on Discord, “great! it works with gemini”.[[m:2025-08-25]]"
+ "In summer 2026 I asked for model swapping on my PC. On 24 July, “i want whatever we build to enable model swapping for sure.”[[m:2026-07-24]] and “it seems like i want different settings for different models”.[[m:2026-07-24#2]] On 15 August, “Later we will fine tune many e.g 27b qwens, or other local LLMs, to e.g. take a prompt input and output a smile prompt”.[[m:2026-08-15]] On 3 September came setups per need, “1. small context (e.g. 11111), 2. large context”.[[m:2026-09-03]]"
+ "On 16 September the comparison THE MAP keeps was named, “There will be comparisons on the same prompt between models, as well as being able to compare input you can compare output”.[[m:2026-09-16]] On 4 October, “Now propose everything we can guarantee will increase performance swapping to local LLM”.[[m:2026-10-04]] On 5 October, “Smile also stops vendor lock in as it allows drop in replacement of models, prompts, params, etc”.[[m:2026-10-05]]"
+ "So transfer moved from prompts written to work across foundation models in 2025 to asking that one prompt be carried across many models and recomposed for local ones, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The decomposition running live is followed in [[t:run]]."],
+ :faq
+ [["What is prompt transfer in Smile?"
+ "In THE MAP, carrying one prompt across models. The same prompt is compared across many models, and a prompt that works on a foundation model is recomposed for a cheaper local model. Most of it is still part built."]
+ ["What are the three transfer options?"
+ "Max performance, the foundation model on nearly all of it. Minimal cost, nearly all of it on a local model. Optimised for both, local agents carrying most and the foundation model the rest."]]}

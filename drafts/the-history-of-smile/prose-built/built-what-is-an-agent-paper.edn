@@ -1,0 +1,14 @@
+{:title
+ "What Is an Agent, the Position Paper Behind the DrThomasAger Agent Series",
+ :description
+ "The folder of the position paper What is an Agent? A Concise Definition for Practical Agentic LLM Use, kept with the claude.ai chat it came from in September 2026, the source of the agent posts and of the word agentiality, with its commits.",
+ :keywords
+ "what is an AI agent, agent definition paper, agentiality, practical agentic LLM use, position paper, Dr Thomas Ager, history of Smile",
+ :lede
+ "This folder keeps the position paper that defines an agent for practical work with language models, and the conversation it was written in.",
+ :paras
+ ["Its README records a contained folder with the files of the position paper What is an Agent? A Concise Definition for Practical Agentic LLM Use, version 5 of September 2026, and the claude.ai chat they came from. In that chat I gave agency its meaning, as the friction that is the desire for boundaries, creating distinct agents with new expressions, the meaning this site's post on agentiality now carries.[[r]] Nothing in it had been submitted anywhere."
+  "It was committed on 1 October 2026,[[c:57673ecf]] and on 4 October it received the improved preprint from the Agent Collective of the DrThomasAger site.[[c:b8c78bee]] Across {{commits}} commits from {{began}} to {{last}}, the paper became the ground of the site's posts on agents. The Sangha it helps define is followed in [[t:the-smile-sangha]], and the next project is [[p:built-instance-harvest]]."],
+ :faq
+ [["Where does the definition of an agent on DrThomasAger come from?"
+   "From the position paper What is an Agent? A Concise Definition for Practical Agentic LLM Use, kept in this folder with the conversation it was written in."]]}

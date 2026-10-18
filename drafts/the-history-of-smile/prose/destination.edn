@@ -1,0 +1,15 @@
+{:title
+ "Destination in Smile, Where a Finished Prompt Goes and What Travels With It",
+ :description
+ "The destination of a Smile prompt, the files a finished prompt was to be downloaded as in November 2025, widened to any place a render is written by August 2026, in my own words with every source.",
+ :keywords
+ "download prompt files, .smile file header, compiled prompt text, prompt markdown explainer, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, a destination is where a finished render goes, a place its reader already reads, the clipboard, a command file, anywhere addressable, with how it travels, when it fires, and what it is for said in simple words beside it.",
+ :paras
+ ["THE MAP lets one place have several renders that could go there, with candidates and a default. A place carved into by hand stops everything and keeps the carved words safe. Any composition becomes reachable by composing rather than by pasting, and is current within a second of a save. A [[t:command]] is a destination row."
+ "On 19 November 2025, while the composer was being built, I described the download, “The text must be downloaded as the prompt name, and the markdown file associated with the prompt and the .smile file with headers etc about the prompt”, with its text compiled.[[m:2025-11-19]] A finished prompt was to leave as its name, its explanation, its source with headers, and its text."
+ "In the summer of 2026 the destination widened to any place a render is written. On 24 July the places written to were to be checked against the master, “if they have, tell me about them and not do anything. That way if I accidentally edit the other ones then we save the work.”[[m:2026-07-24]] On 8 August, “generalize the pattern so they could be going to any location for any purpose, this is just the claude implementation of that pattern”.[[m:2026-08-08]] On 13 August a change in one lens file was to reach the main instructions, “my watcher must notice and grow and also propagate to the main instructions”.[[m:2026-08-13]]" "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, the destination moved from the files a download is made of to any place a render can be carried. None of it is built yet. The three files it names are followed in [[t:infrastructure]], and the next post is [[t:card]]."],
+ :faq
+ [["What files does a downloaded Smile prompt carry?"
+ "In my words of 19 November 2025, its compiled text named for the prompt, a markdown file explaining it, and the .smile source with its headers. Nothing yet writes them."]]}

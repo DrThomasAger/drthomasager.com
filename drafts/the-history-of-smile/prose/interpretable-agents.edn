@@ -1,0 +1,16 @@
+{:title
+ "Interpretable Agents in Smile, Models Whose Weights Are Seen and Adjusted by Meaning",
+ :description
+ "What interpretable agents are in THE MAP of Smile, an agentic system completely interpretable and documented, whose model weights and steering directions are visible and named, with a small decision tree readable for every token, and how my words reached it, from interpretable classifiers in October 2023 to October 2026, with every source.",
+ :keywords
+ "interpretable AI agents, steering directions, model weights by meaning, decision trees per token, interpretable classifiers, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, the agentic system Smile builds is completely interpretable, documented, comprehensible, extensible and flexible. Its models are open to the person, whose weights can be seen and adjusted by meaning.",
+ :paras
+ ["THE MAP makes the steering directions of a model's activations visible and named. Every token generation can have a small decision tree trained on it, so the reason for each token is readable, and what a region of a model does is named. The goal it serves is the interpretable teaching of [[t:pedagogy]]."
+ "Before Smile, in October 2023, I noted that classifiers are interpretable and adjustable. “Use cases are niche and classifiers are interpretable and adjustable.”[[m:2023-10-14]]"
+ "In October 2026 the aim was named as THE MAP keeps it. On 5 October, “This will be a fully interpretable, documented, comprehensible, extensible and flexible agentic system with models where you can see and adjust weights semanticaly”.[[m:2026-10-05]] On 6 October, “make sure u battle test small decision trees, interpretable classifiers, sparse weights, transformations into interpretable repreentations and visualization”.[[m:2026-10-06]]"
+ "So interpretable agents moved from interpretable classifiers for niche tasks in 2023 to a whole agentic system whose weights are seen and adjusted by meaning, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The fine-tuning data that lets a model carry an algorithm's steps as tokens is followed in [[t:synthetic-data]]."],
+ :faq
+ [["What are interpretable agents in Smile?"
+ "In THE MAP, agents whose models are open to the person, with weights that can be seen and adjusted by meaning, named steering directions, and a readable reason for each token. It is mostly still part built."]]}

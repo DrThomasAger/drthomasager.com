@@ -1,0 +1,13 @@
+{:title "Frame Custody, Every Recorded Frame Named by Its Hash",
+ :description
+ "Frame Custody of October 2026, the first piece of a reviewed plan for recordings in Vijaya Ganapati's Realm, which names every frame by its BLAKE3 hash with its size, time and the world it shows, reading frames and changing nothing, with its commits.",
+ :keywords
+ "frame custody, BLAKE3 hash, recording integrity, screenshot provenance, game world recordings, Vijaya Ganapati's Realm, history of Smile",
+ :lede
+ "Frame Custody keeps an exact record of every frame recorded from the game world, each named by its hash, so any later use can prove it is the same frame.",
+ :paras
+ ["Its README records what it is, the first piece of the plan a professional review of THE MAP's findings 33 to 50 agreed on, in Vijaya Ganapati's Realm. Every frame is named by its BLAKE3 hash, with its size, its time and where that time came from, and the world it shows, one line each, by a script that reads frames and changes nothing. It answers my asking that every recording be integrated with its integrity verified across all devices.[[r]]"
+  "It was committed in the feature completion of 4 October 2026.[[c:667023ad]] Across {{commits}} commits from {{began}} to {{last}}, Frame Custody gave [[t:recording]] its proof of sameness. The next project is [[p:built-live-prompt-delivery]]."],
+ :faq
+ [["Why name a frame by its hash?"
+   "A hash changes if a single byte of the frame changes, so naming each frame by its BLAKE3 hash proves later that it is exactly the frame that was recorded."]]}

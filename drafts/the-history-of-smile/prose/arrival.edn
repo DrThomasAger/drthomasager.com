@@ -1,0 +1,18 @@
+{:title
+ "Arrival, How a Message Reaches a Smile Instance and When It Lands",
+ :description
+ "What an arrival is in THE MAP of Smile, a message that says what has come, why, what it refers to and the context it carries, landing at a chosen rung from stopping the work to the turn boundary, and how my words reached it from August to September 2026, with every source.",
+ :keywords
+ "message queue for AI agents, interrupting an AI, importance and immediacy, real time prompting, Claude Code messages, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, an arrival is what comes to an instance, words, a render or a response, and it says every time why it has come, what it refers to and the context it carries.",
+ :paras
+ ["THE MAP gives an arrival a rung, when it lands. It can stop the work, land at the next tool boundary mid-work, land at the turn boundary when the floor returns, or land on a condition such as after a number of exchanges. Importance is also immediacy, and climbing the rungs costs nothing. An arrival offers what could follow, carry on, finish this and say so, set it down, put it in the background, or stop, and the model reads the whole web of what it has received and discerns."
+ "On 9 August 2026 I wished for my own messages to Claude to arrive well, an early seed of the arrival. “I want to make it so I can write a message, press send, and only once claude is done with everything they are doing do they get the message, its not just thrown into their context while they are wrokin.” Importance set the rung, “no, if it is more important than it needs to be interrupted. this is the scales of importance idea.” The message carried what surrounded it, “surrounding lines for contextual awareness of the person and any model reading it”.[[m:2026-08-09]]"
+ "In September the arrival reached the RuneLite client. On 23 September, “make runelite open by default with a claude code that has a custom system prompt and is automatically fed all the real time log info it hasnt seen since the last message”.[[m:2026-09-23]] On 13 October pending commands were to be held and timed, “Smile real time will be registering in its context window all pending commands”.[[m:2026-10-13]]"
+ "So the arrival moved from a message held until Claude is done, unless importance calls for it sooner, to everything an instance has not yet seen, asked to be fed in with its reason and still part built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The importance tiers it climbs are followed in [[t:the-two-dimensions]], and what it reorders in [[t:the-work-in-hand]]."],
+ :faq
+ [["What is an arrival in Smile?"
+ "Anything that comes to an instance, words, a render or a response, carrying why it has come, what it refers to and the context of the work."]
+ ["When does a message interrupt an AI in Smile?"
+ "Its importance sets its rung. It can stop the work, land at the next tool boundary, wait for the turn boundary, or land on a condition."]]}

@@ -1,0 +1,19 @@
+{:title
+ "Variables in the Smile Prompt Language, Open Spaces a Prompt Fills In",
+ :description
+ "How variables grew in the Smile Prompt Language, from placeholder instructions and dollar sign fields in 2025 to the {-: variable marker and variables as open spaces across the whole system in 2026, in my own words with every source.",
+ :keywords
+ "prompt variables, prompt placeholders, template variables in prompts, field injection, reusable prompt templates, Smile prompt language variables, history of Smile",
+ :lede
+ "In THE MAP, a variable is a declared name filled before the prompt reaches a model, written with the marker {-:name-tag:-}, its value one line of text where the marker was.",
+ :paras
+ ["THE MAP lets a variable be filled from a composition, a module default, or the response to a piece that sends. A variable set to empty is refused, since presence and absence belong to what a composition gathers. An unfilled variable stops the render and names itself, which is how anything left to fill tells the person what to fill. The insertion point {-=flowers=-} makes a body a shell that a composition places into at its own indentation."
+ "On 8 July 2025 the De-GPT document wrote of placeholder text, “In Smile, we use a different indicator for the placeholder instruction text that is placed inside the section.”[[m:2025-07-08]] A week later the dollar sign arrived, “$ field injection for when the content must be replaced by a variable name”.[[m:2025-07-14]] In September I set the form, “when we write a variable like this [$variable_example$] that exists, it is replaced”.[[m:2025-09-16]]"
+ "In the composer of November 2025 variables joined the blocks, “These are simply replaced with text to execute the full prompt.”[[m:2025-11-06#2]] A week later I saw that Smile is not written by hand without them, “im not sure its possible to write smile by hand. you need to compile the variable replacement”.[[m:2025-11-13]] On a recording in December I saw the fun in it, “you can have like a lot of pre done things with fill in the blanks for the user”.[[m:2025-12-14]]"
+ "In March 2026 the variable was set apart from the module. “These variables are different to modules in that they aren’t meant to be instructions of themselves”, and “We are able to automatically extract these patterns and variables, making patterns abstract.”[[m:2026-03-16]] On my PC in July the variable got its own marker, “I think we want \"{-:\" to be the variable indicator inside of smile files.”[[m:2026-07-24]] and the next day I liked it for its strangeness, “The {-: actually makes sense to me because the model has no idea what it is lol. It really doesnt parse it as a face.”[[m:2026-07-25]] On 26 July, “variables are things that are open spaces across many different plants, and stems, and rhizomes”, with different values depending on where they are.[[m:2026-07-26]]"
+ "In August the variable did two more things. A missing value became a guide, “using the variable missing functionality to tell people where to place things.”[[m:2026-08-04]] And I asked whether the faces themselves are variables, “A smile is a variable with various values?”[[m:2026-08-09]] Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, my words on the variable moved from a placeholder toward open spaces across the whole system, still mostly to be built. The next post is [[t:run]]."],
+ :faq
+ [["How are variables written in Smile?"
+ "First as [$name$] with dollar signs, and since July 2026 asked for as the marker {-:name:-} in Smile files, filled in when the prompt is composed. Variable definitions and reuse are still to be built."]
+ ["How is a variable different from a module?"
+ "A module is an instruction with a purpose. A variable is not an instruction of itself, it is an open space filled with a value, such as a role name, that may be reused in many places."]]}

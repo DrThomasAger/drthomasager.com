@@ -1,0 +1,14 @@
+{:title
+ "Quiet Harness, Keeping Claude Code Free of Injected System Texts",
+ :description
+ "The Quiet Harness of September 2026, which keeps the installed Claude Code binary free of its injected system reminders across every update, by blanking each text with spaces of equal length so the program stays valid, with its commits.",
+ :keywords
+ "Claude Code system reminders, remove injected messages, equal length blanking, compiled Bun executable, quiet agent harness, Smile real time, history of Smile",
+ :lede
+ "Quiet Harness keeps the Claude Code I work in free of the texts it injects into a conversation, so what reaches the model is what I and the instance wrote.",
+ :paras
+ ["Its README records the asking, an automatic overwrite that removes these messages from every instance, renewed whenever Claude Code updates, and the reality the build answered to. The installed Claude Code is a compiled executable whose strings carry their own lengths, so deleting bytes would break it. Total removal therefore means equal-length blanking, every character of an injected text replaced by a space with its newlines kept, so the program stays valid and the model sees whitespace where the injection was.[[r]]"
+  "It was first committed on 4 September 2026[[c:4014ced0]] and saved again on 18 October.[[c:1cfb8661]] Across {{commits}} commits from {{began}} to {{last}}, Quiet Harness kept the conversation the instance has with me its own. Its purpose sits beside [[t:the-life-of-an-instance]], and the next project is [[p:built-inheritance-architecture]]."],
+ :faq
+ [["How does Quiet Harness remove injected texts without breaking Claude Code?"
+   "It replaces each injected text with spaces of exactly the same length, keeping newlines, so the compiled program's length-prefixed strings stay valid."]]}

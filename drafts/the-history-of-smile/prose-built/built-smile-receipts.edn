@@ -1,0 +1,14 @@
+{:title
+ "Smile Receipts, a Witness That Records Exactly What Every Model Received",
+ :description
+ "How Smile Receipts was built, a receipt proxy that every chat and lens request passes through, writing the exact prompt and response of each exchange and checking it byte for byte against the engine's own log, from July 2026, with its commits and my words.",
+ :keywords
+ "LLM receipt proxy, prompt logging, exact prompt record, llama-server prompt log, byte identical verification, Smile Receipts, history of Smile",
+ :lede
+ "Smile Receipts is the witness of Smile. Every exchange with a local model passes through it, and it keeps an exact receipt of what the model received and returned.",
+ :paras
+ ["It began with the chat and the lens on 25 July 2026.[[c:cdfbc750]] Its README records how it works, a proxy that passes everything through untouched to the engine, so the chat room and the lens are both browsed through it. Each kind of request has its own receipt, and every receipt is compared byte for byte with the engine's own prompt log, any difference marked in the filename so nothing unknown reaches a model unseen.[[r]]"
+  "It became the model for other watchers. In July, “I think we also want this watcher in its own tab like the smile receipts”,[[m:2026-07-26]] and in August, when asked about recording experiments, “dont we already have smile receipts etc recording everything?”[[m:2026-08-19]] Across {{commits}} commits from {{began}} to {{last}}, Smile Receipts kept every exchange exactly. Its idea is followed in [[t:recording]], and the next project is [[p:built-delivery-trial]]."],
+ :faq
+ [["How does Smile Receipts verify a receipt?"
+   "Each receipt is compared byte for byte with the prompt log the engine writes as it serves, and any difference is marked in the receipt's filename."]]}

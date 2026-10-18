@@ -1,0 +1,14 @@
+{:title
+ "Client Decomposition, the First Live Decomposition of a Prompt Client's Work",
+ :description
+ "Client Decomposition, 1 October 2026, the first live decomposition of a developer's months of prompts into Smile, taken apart into modules and recomposed without changing their words, the day Phoenix was seen as Smile's ideal client and the Prompt Coach began, with its commits.",
+ :keywords
+ "prompt decomposition, prompt client, modular prompts from existing work, Phoenix agent composer, Smile conversion, ideal client, history of Smile",
+ :lede
+ "Client Decomposition was the first time Smile took apart another person's prompts, a developer's months of work, and put them into Smile without changing their words.",
+ :paras
+ ["Its README records my asking, the first live decomposition for a prompt client, a developer who had spent months on high quality prompts that were not modular, untagged and mostly written by AI, with brief example compositions verified end to end. The files came from Phoenix's agent composer, and Phoenix was read as the client.[[r]]"
+  "The work moved fast on 1 October 2026. “Phoenix's prompts taken apart, put into Smile, and the Prompt Coach begun”,[[c:f5e4481f]] then “Client Decomposition: Phoenix as the Smile ideal client, the six points”.[[c:63456b72]] Across {{commits}} commits from {{began}} to {{last}}, the decomposition proved the offer of [[t:bringing-in-the-best]] on real work, and it gave rise to [[p:built-prompt-coach]], the next project, and to [[p:built-smile-ideal-client]]."],
+ :faq
+ [["What is a prompt decomposition?"
+   "Taking a person's existing prompts apart into modules and compositions in Smile, with every word kept, so they can be understood, versioned, tested and recomposed."]]}

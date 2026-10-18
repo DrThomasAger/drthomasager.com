@@ -1,0 +1,13 @@
+{:title "The Smile Composing Door, Slash Commands for Any Chat Client",
+ :description
+ "The Smile Composing Door of August 2026, a proxy beside Smile Receipts that replaces a chat message beginning with a Smile command with that command's living text, so /C- commands work in any OpenAI compatible client, with its commits.",
+ :keywords
+ "Smile commands in any client, OpenAI compatible proxy, slash command expansion, /C-bodhisattva, local LLM commands, history of Smile",
+ :lede
+ "The Smile Composing Door brought Smile's commands to every chat client. A message that begins with a command is replaced on its way to the model by that command's full text.",
+ :paras
+ ["Its README records how it works. It sits in front of Smile Receipts, so every composition it makes is witnessed exactly as the model received it. A message beginning with /C- and the name of a command is replaced by the command's text, read fresh on every request, and /C-bodhisattva places any words given after it inside its own section, with no section at all when none are given. Anything it cannot read passes through unchanged.[[r]]"
+  "It answered my wish that commands reach every coding client, not only Claude Code. It was committed on 28 August 2026[[c:043738da]] and closed in the feature completion of 4 October.[[c:156e27fe]] Across {{commits}} commits from {{began}} to {{last}}, it carried [[t:command]] beyond one tool. The next project is [[p:built-quiet-harness]]."],
+ :faq
+ [["How can Smile commands work outside Claude Code?"
+   "The Composing Door is a proxy any OpenAI compatible client can point at. It replaces a message beginning with a Smile command by the command's text before the model sees it."]]}

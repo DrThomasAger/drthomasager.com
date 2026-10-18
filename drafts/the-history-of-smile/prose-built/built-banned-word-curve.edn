@@ -1,0 +1,15 @@
+{:title
+ "The Banned Word Curve, How the Name Tag Halves the Words I Asks to Avoid",
+ :description
+ "The banned word curve of September 2026, which counted my avoided words in 25,505 Claude Code replies by how far into a session each came, with sessions using the Agent Of Reciprocity name tag kept apart, and found the name tag roughly halves the rate, with its commit.",
+ :keywords
+ "name tag instruction following, avoided words rate, instruction drift over a session, Claude Code transcripts analysis, prompt adherence measurement, history of Smile",
+ :lede
+ "The banned word curve measured whether the name tag keeps a model to its instructions over a long session, by counting the words I ask never to be used.",
+ :paras
+ ["Its README records the method and the result. Every assistant reply in every Claude Code transcript, 25,505 replies, was counted against my list of avoided words and phrases, read as hits per thousand words by how far into its session the reply came, with sessions that open with the name tag Agent Of Reciprocity kept apart from those that do not.[[r]]"
+  "The two curves differ throughout. In the first ten turns, replies without the name tag carried 20.44 avoided words per thousand and replies with it 11.69. By turns 70 to 79 the rates were 35.31 without and 17.08 with. Both rise as a session goes on, and the curve with the name tag stays near half the other.[[r]]"
+  "It was committed on 1 October 2026.[[c:14ae3aee]] Across {{commits}} commit, the curve turned a finding of THE MAP into a measurement, the kind of test followed in [[t:test]] and [[t:integrity]], with the name tag of [[t:label]]. The next project is [[p:built-smile-zettelkasten]]."],
+ :faq
+ [["Does the name tag help a model follow instructions?"
+   "In 25,505 Claude Code replies, those in sessions opening with the name tag used avoided words at about half the rate of those without, at every stage of a session."]]}

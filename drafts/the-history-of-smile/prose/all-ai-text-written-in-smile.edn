@@ -1,0 +1,17 @@
+{:title
+ "All AI Text Written in Smile, Every Prompt Converted Before It Runs",
+ :description
+ "The decision of 1 October 2026 that every text an AI writes for a model, every prompt, system message and agent instruction, is written in the Smile Prompt Language, with Markdown, XML and other formats converted before anything runs, and how it was carried into every instance, with every source.",
+ :keywords
+ "write prompts in Smile, convert Markdown prompts, XML to Smile, prompt format standard, Smile everywhere, Smile prompt language, history of Smile",
+ :lede
+ "Every text an AI writes for a model, every prompt, system message, agent instruction and command file, is written in Smile. Text in Markdown, XML or any other format is converted into Smile before anything is run, on every model.",
+ :paras
+ ["The decision carries its own conventions. Every opening face is met by its matching closing face, nothing is left open, and the outermost closing carries a gratitude. A person's own words are wrapped in Smile with every word inside left exactly as they wrote it. Four spaces mark each depth of the hierarchy, and every Smile file an instance writes is checked by the living linter of [[t:integrity]]."
+ "I asked for it on 1 October 2026. “ensure that all AI prompt writing in the future is only in (: Smile, all markdown, XML etc or other formats are always converted before being run.”, and “You must ensure that all AI text is written in Smile and converted into Smile before anything is run always for all LLMs”. When a conversion came back unconverted, “this appears to still be in markdown. it must be in smile converted”.[[m:2026-10-01]] The same day in osrs, “write everytihng in smile and follow THE MAP, vision documents, decomposition guides”.[[m:2026-10-01#2]] And of how the conversion is written, “inside of the Smile text itself when you decompose his prompt out of markdown and any other format you need tabs or 4 spaces which increase for each hierarchy.”[[m:2026-10-01#3]]"
+ "Across {{moments}} moments and {{quotes}} quotes, on {{first}}, the decision arrived in one day. Smile Everywhere carried it into the instructions every instance reads the same day, with the linter hook on every file written after it, while converting everything before a model sees it is still part built. The Markdown it replaces for prompts remains the response format of [[t:semantic-markdown]], and the conversion itself is followed in [[t:sensing-smile-ification]]."],
+ :faq
+ [["Is every prompt in the Smile project written in Smile?"
+ "It is asked of every instance since 1 October 2026. Every text an AI writes for a model is to be written in Smile, and converting everything in Markdown, XML or another format before it runs is still part built."]
+ ["Are a person's own words changed when they are converted into Smile?"
+ "No. They are wrapped in Smile with every word inside kept exactly as written."]]}

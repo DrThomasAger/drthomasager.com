@@ -1,0 +1,18 @@
+{:title "Smile Games, the Gifted Vocabulary and the Game of Prompting",
+ :description
+ "What Smile games are in THE MAP, played live in Smile Chat, the first being the token-giving game where a model may use a token only once the person has said it, and how my words reached them, from the game of prompting of October 2023 to the gifted vocabulary of September 2026, with every source.",
+ :keywords
+ "prompting game, gamified prompt engineering, gifted vocabulary, emoji game with AI, instruction following game, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, a Smile game is played live in the Smile Chat interface, arranged from what already exists, the lens, conditions and actions, counts and the way back. The token-giving game is the first.",
+ :paras
+ ["THE MAP sets the gifted vocabulary. A token is usable once the person has said it, and not before, so one apple emoji said is one apple emoji the model may use, counted token for token, with an allowance over a span such as five per response. The model carries a base set and a held-out set introduced and removed by the game. Givable things are typed or clicked, each with a button and a count. The model spends by its own discernment, and what it reaches for is what the game watches. A gifted vocabulary and a banned vocabulary are one mechanism at opposite signs, so a game reads instruction following as a curve."
+ "A game of prompting is in my asks of October 2023, a different game from the one THE MAP keeps. On 3 October 2023, “Lets structure this like a game. \"The game of prompting\" where first you learn the fundamentals”.[[m:2023-10-03]] The next day, “lets make a prompt which is itself a game, that the user plays with prompting”.[[m:2023-10-04]] On 31 October, “Let's design a game together. The method by which you get better at the game is by improving your prompting ability.”[[m:2023-10-31]]"
+ "The game THE MAP keeps was described on 5 September 2026 in Smile, “idea for smile game: as soon as you say a token, e.g. an emoji, the AI is able to use it, but before that it cant.”, with buttons “with numerics next to them”, and “I want it as a new part of the map which is smile games, which is part of the Smile Chat interface.”[[m:2026-09-05]] I kept it the same day as its own amendment to THE MAP.[[m:2026-09-05#2]]"
+ 
+ "So my words held a game of prompting in 2023 and a vocabulary given token by token in 2026, the second still to be built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The game of accounts and levels is followed in [[t:smilescape]]."],
+ :faq
+ [["What is the Smile token-giving game?"
+ "A game in Smile Chat where a model may use a token, such as an emoji, only after the person has said it, counted token for token, so its spending shows how it follows instructions."]
+ ["How is a gifted vocabulary related to banned words?"
+ "They are one mechanism at opposite signs, giving words to use or taking them away, so both read instruction following as a curve."]]}

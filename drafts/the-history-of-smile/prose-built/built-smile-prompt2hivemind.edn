@@ -1,0 +1,15 @@
+{:title
+ "Smile Prompt2Hivemind, Prompting How a Sangha of Agents Works Together",
+ :description
+ "Smile Prompt2Hivemind, begun on 29 September 2026, which turns a prompt about the style of a Sangha, its governing principles and its orchestrators into a config and a prompt for every agent, and checks they act by those principles, with its commits and my words.",
+ :keywords
+ "Prompt2Hivemind, multi agent configuration, orchestrator design, Smile Sangha principles, interbeing four noble truths agents, agent validation, history of Smile",
+ :lede
+ "Smile Prompt2Hivemind generates the agents of a Sangha from a description of how it should work and scores them in a test world, with checks of its principles and orchestrator layouts still to be built.",
+ :paras
+ ["On 29 September 2026 I described it, “We are going to create Smile Prompt2Hivemind, which lets you prompt the style of the hivemind, how it operates as a collective, the governing principles, e.g. interbeing, 4 noble truths, friction as the driver and the agential split (baradian)”, with one orchestrator or five, and it “generates the config file and the prompt required for every single agent in the hivemind and validates that they actually operate in accordance with the principles”.[[m:2026-09-29]]"
+  "Its README records the first form of the day, a template composer, and the present form, a world of its own with its own README, the folder kept exploratory.[[r]] On 8 October the idea took its energetic structure, “where you can e..g give song lyrics for the Ganapati and 8 Ganas, and say make into hypersigil”.[[m:2026-10-08]]"
+  "It was committed on 1 October 2026,[[c:44ac93b0]] and on 4 October its world gained a lock, help and checks.[[c:0c05b7f1]] Across {{commits}} commits from {{began}} to {{last}}, Prompt2Hivemind became the means to prompt a whole Sangha, the idea of [[t:prompt2sanghaenergeticstructure]] and [[t:the-smile-sangha]]. The next project is [[p:built-client-decomposition]]."],
+ :faq
+ [["What does Smile Prompt2Hivemind produce?"
+   "A configuration file and a prompt for every agent of a Sangha, from a description of its style, principles and orchestration, with checks that the agents act by those principles."]]}

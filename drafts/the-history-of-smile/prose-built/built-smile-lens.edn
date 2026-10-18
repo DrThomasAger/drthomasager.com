@@ -1,0 +1,14 @@
+{:title "Smile Lens, Seeing Which Token a Model Chooses and Why",
+ :description
+ "How Smile Lens was built, a token probability pad derived from MikuPad and renamed in July 2026, receipting every generation with its full probability stream, the instrument of Smile's research into how faces change a model's distribution, with its commits and my words.",
+ :keywords
+ "Smile Lens, token probabilities viewer, logprobs pad, MikuPad, llama.cpp raw completion, syntax leak research, prompt distribution, history of Smile",
+ :lede
+ "Smile Lens shows a model's choices token by token, with the probability of every alternative. It is the instrument Smile uses to ask whether its faces change what a model writes.",
+ :paras
+ ["On 25 July 2026 the token lens was set apart from the chat and named. “the token lens is just the HTML file with the other way of inference.”, and “lets make it Smile Lens also.”[[m:2026-07-25]] It wore the Buddha eyes from the same day.[[m:2026-07-25#2]][[c:1be139f5]]"
+  "Its README records what it is, one HTML file derived from MikuPad and heavily modified, the instrument of the project's research questions, whether Smile changes the distribution and which forms prevent syntax leak. It runs through the receipt proxy, so every generation is kept with its full probability stream, and its sidebar is the truth of each request, starting from the untouched distribution with a hundred probabilities observed per token.[[r]]"
+  "In September I asked for the lens inside the chat, “yes what i want is a chat mode that is basically exactly like smile lens but populated using the templates”,[[m:2026-09-01]] and for every model measured by what it can show, “their ability to show tokens in Smile Lens” among them.[[m:2026-09-02]] On 4 October an edit no longer cost the probabilities of text it left unchanged.[[c:b46e820a]] Across {{commits}} commits from {{began}} to {{last}}, Smile Lens became how Smile sees inside a reply. Its idea is followed in [[t:lens]] and [[t:test]], and the next project is [[p:built-smile-receipts]]."],
+ :faq
+ [["What is Smile Lens?"
+   "A token probability pad that shows which token a local model chose at each step and the probability of every alternative, receipting every generation for research."]]}

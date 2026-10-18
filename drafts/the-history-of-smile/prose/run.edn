@@ -1,0 +1,19 @@
+{:title
+ "Run in Smile, a Task Carried Live by Many Agents and a Person",
+ :description
+ "What a run is in THE MAP of Smile, a task carried by a script writer, an orchestrator, identifiers of requirements, win conditions and failure cases, an optimiser and a knowledge agent, with a person able to interrupt at any time, and how my words reached it in the osrs scripts of September and October 2026, with every source.",
+ :keywords
+ "multi-agent task execution, orchestrator agent, speedrun optimisation, human takeover, OSRS automation, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, a run is a task carried live by many agents and a person, each agent a separate process with its own context, the orchestrator reading the real time logs and directing everything.",
+ :paras
+ ["THE MAP names the agents of a run. A script writer, an orchestrator, and identifiers of requirements, win conditions, failure cases and their solutions. An optimiser reviews all of their outputs and earlier runs, makes a hypothesis for going faster and rewrites the script. A knowledge agent keeps the fastest ways, and a general script agent keeps every reusable script. A person interrupts any script at any time and the run resumes by itself four seconds later. Every human action is measured, and when a person's way is faster it becomes the new fastest way. This is the decomposition of [[t:transfer]] running, the local agents with minimal context and the foundation model carrying the remainder."
+ "The run began as one prompt handed to an agent. On 12 September 2026, “Anything you want done in any game can now be done with one prompt”.[[m:2026-09-12#3]]"
+ "My words toward the run came in the osrs scripts of September 2026. On 12 September, “can you please make all the reusable parts modular and refactored and everyone just uses them naturally”, and “make sure all of this also is refactored to generalize as a workflow to any domain.”[[m:2026-09-12]] Mistakes were to be registered by a watcher, “these must be automatically registered as mistakes by a watcher and recorded.”[[m:2026-09-12#5]] On 13 September, “every time you calculate a route or a more efficient pathway or sequence of actions to do something, record it as a separate semantic pathway”.[[m:2026-09-13]] On 14 September, “add this thing about making segments, speedruns, win conditions, loops and optimizing them”.[[m:2026-09-14]]"
+ "From 20 September the person joined the run. “I will also integrate manual rhythms naturally taking over and going faster, record it and ensure you can repeat it in all ftuure scripts”.[[m:2026-09-20]] On 24 September, “Manual takeover is available at any time for PK'ing or training and all differences are observed.”[[m:2026-09-24#2]] On 10 October every run was to be compared three ways, “1. my peformance, 2. your AI performance if you played”, and optimal.[[m:2026-10-10]] On 13 October, “You just need to play if im not playing.”[[m:2026-10-13]]"
+ "So the run moved from one prompt handed to an agent to many agents asked to carry a task live, segmenting, timing and optimising it, with a person able to take over at any moment, much of it still part built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The world those agents act in is followed in [[t:world]], and the Sangha they form in [[t:the-smile-sangha]]."],
+ :faq
+ [["What is a run in Smile?"
+ "A task carried live by many agents and a person. Each agent is a separate process, and an orchestrator reads the real time logs and directs the rest."]
+ ["What happens when a person interrupts a run?"
+ "In THE MAP, the person can take over any script at any time, every difference is measured, and the run resumes by itself four seconds later. A faster human way becomes the new fastest way. Manual takeover with its timing compared is part built today."]]}

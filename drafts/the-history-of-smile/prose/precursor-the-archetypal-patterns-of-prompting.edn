@@ -1,0 +1,15 @@
+{:title
+ "Before Smile, the Archetypal Patterns of Prompting, October 2023",
+ :description
+ "The second precursor of Smile, my October 2023 asks to GPT-4 to decompose any prompt into its archetypal patterns and to separate structure from content, in my own words with every source.",
+ :keywords
+ "prompt decomposition 2023, structure and content in prompts, archetypal prompt patterns, modular prompts precursor, history of Smile",
+ :lede
+ "In October 2023 I also asked for something else, an assistant that takes any prompt apart into its archetypal patterns and its structure. This is the second precursor of Smile.",
+ :paras
+ ["On 3 October 2023 I described the assistant, one that “will decompose it into the archetypal platonic ideal patterns of prompting and fundamentals, which are then structural components which can be re-used inside of a prompt designing software”, choosing role, round-based or outcome oriented. I asked for depth, “what the true pillars/keystones from A-B are that are archetypal, meaning that all text derives from them as platonic ideals”, and named the first division, “Identify distinction between structure and content as the primary yin/yang split of prompting.”[[m:2023-10-03]]"
+ "On 14 October, “the idea is we are trying to reach waht the archetypal components of prompting are.”, and a triad of structural, lexical and relational potentials.[[m:2023-10-14]]"
+ "Here archetypal means the patterns of prompting, not faces. The word archetypal returned in 2026 with another meaning, every face that can be Smile, in [[t:archetypal-smile]]. The module and composition of later years are followed in [[t:module]] and [[t:composition]]."],
+ :faq
+ [["What did archetypal mean in 2023?"
+ "The archetypal patterns of prompting, such as role, rounds and outcomes, and the split between a prompt's structure and its content. In 2026 Archetypal Smile came to mean every face that can be Smile."]]}

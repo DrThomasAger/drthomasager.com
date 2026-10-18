@@ -1,0 +1,15 @@
+{:title
+ "Smile Rhizome, the System Rebuilt with Faceless Bodies and Composed Faces",
+ :description
+ "Smile Rhizome, an August 2026 rebuild of the Smile system in which bodies of text are written without faces and faces are composed from separately stored parts by position, kept contained beside the live Smile Wilds, with its commit and my words.",
+ :keywords
+ "Smile Rhizome, body and face split, composed delimiters, prompt ontology folders, regimes and assemblages, Deleuze and Guattari figuration, history of Smile",
+ :lede
+ "Smile Rhizome rebuilt the whole system on one split, bodies of text written without faces, and faces composed onto them by where they sit.",
+ :paras
+ ["On 3 August 2026 I said what the rhizome is, “But note here that the Smile Rhizome (all of its parts of prompt interconnection), is the Smile Language”, with the code and configs beside it as support.[[m:2026-08-03]]"
+  "Its README records the build, contained so nothing outside it depended on it while the Smile Wilds stayed the live system. Bodies are authored without faces in folders whose route is their place in the ontology, faces are composed from separately stored parts, settings are written on positions and inherited from the root down, and its first regime reproduced exactly the faces the Wilds already wore.[[r]] Its names followed the figuration of Deleuze and Guattari, bodies, segments, assemblages and regimes."
+  "It was committed on 28 August 2026.[[c:043738da]] Across {{commits}} commit, Smile Rhizome tried the form the system later took, raw text and compositions of it, followed in [[t:composition]] and [[t:archetypal-smile]]. The next project is [[p:built-modularization]]."],
+ :faq
+ [["What was the Smile Rhizome?"
+   "A contained rebuild of the Smile system where text is written without faces and faces are composed onto it by position, used to prove the approach before the live system took it on."]]}

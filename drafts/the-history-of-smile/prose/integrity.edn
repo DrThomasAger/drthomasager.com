@@ -1,0 +1,15 @@
+{:title
+ "Integrity in Smile, Testing Every Instruction a Program Can Check",
+ :description
+ "Integrity in the Smile Prompt Language, the living linter that checks every face of Smile written anywhere, in my own words with every source.",
+ :keywords
+ "instruction adherence testing, name tag usage rate, programmatic prompt checks, prompt integrity, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, integrity is the living linter. Smile written by hand anywhere has perfect integrity, every face answered by its mirror, no face larger inside than the one around it, and every label in the style of its depth.",
+ :paras
+ ["THE MAP gives one checker on the machine all the time, to be reached from every place text is written, VS Code, the CLI, Smile Chat, the Pi harness, Notepad and Google Docs through the clipboard. Today it reaches VS Code, the CLI and the hook on every file written. It writes the footer when a header is finished and mends on save, and never changes a word of mine. Its conventions are four spaces per depth, a footer that mirrors its header's faces and reads End followed by its name, a trailing face never larger than the leading one, and no Markdown heading inside a section. A file is finished when the checker answers \"Every face meets the conventions.\""
+ "On 7 October 2026 every instance writing Smile was asked to check its work against the conventions, “you can write smile but you have to adhere to all conventions completely and use the linter etc we made to verify”.[[m:2026-10-07]]"
+ "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, integrity became the living linter every instance writing Smile is asked to use. The measured failures of replies are followed in [[t:test]]. The next and last post is [[t:prompt2sanghaenergeticstructure]]."],
+ :faq
+ [["What does integrity mean for a Smile prompt?"
+ "That it is written with every face answered by its mirror, no face larger inside than the one around it, and every label in the style of its depth, checked by the living linter."]]}

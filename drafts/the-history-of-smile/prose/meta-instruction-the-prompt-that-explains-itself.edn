@@ -1,0 +1,18 @@
+{:title "Meta-Instruction, the Smile Prompt That Explains Itself",
+ :description
+ "How the Smile Prompt Language came to explain itself from inside the prompt that uses it, documentation as prompting, from a 2023 request for a self-descriptive prompt to the conceptual scaffolds every Smile prompt carries in 2026, with every source.",
+ :keywords
+ "self describing prompt, meta-instruction, documentation as prompting, prompt that explains itself, demonstrating the technique using the technique, Smile prompt language, history of Smile",
+ :lede
+ "A Smile prompt explains the language it is written in while it is being read. The faces say what faces mean as they appear, so any model that reads a Smile prompt can follow it. In 2025 I held that this explanation raises instruction following, while THE MAP's trial found a prompt without the Master Header kept everything, so how much a prompt explains is a choice each version makes.",
+ :paras
+ ["THE MAP has no section by this name. Its nearest are the [[t:master-header]], the handbook for writing Smile, and the meta-information dimension of [[t:the-two-dimensions]], how much a piece says about itself. A seed of the idea is in my words of 2023."
+ "On 3 October 2023 I asked GPT-4 for a prompt that describes itself. “I feel like it needs to be more meta-descriptive, describing itself by describing the task”, and “I'd like you to create the prompt as a meta-self-aware-self-descriptive prompt that utilizes aspects of its own language to create itself.” It need only describe the idea well enough for GPT-4, “and it can do that by utilizing itself inside of its own prompt”, which left the question “What do I mean by a language that describes itself?”[[m:2023-10-03]] On 31 October came the method, “Provide applications/examples INSIDE OF the prompt, so you are demonstrating the technique using the technique”.[[m:2023-10-31]]"
+ "In summer 2025 Smile's documents named it as a principle. Smile v0.4 named the principle, “(: Smile operates on a principle of documentation as prompting, because meta-aware documentation is understandable to humans and Machines and increases instruction following ability”.[[m:2025-07-27]] In August the documentation said of itself, “This acts as prompt, documentation and demonstration. Copy and paste into any LLM to see (: Smile in action.”[[m:2025-08-09]] In October one of its patterns was “Meta-explaining what you want an instruction to do”.[[m:2025-10-30]]"
+ "In March 2026 the Smile Plan called it meta-instruction, “This ties into the meta-instruction inside the prompts aspect as a big part of Smile is including these conceptual scaffolds by default inside its templates and prompts it creates”.[[m:2026-03-08]]"
+ "So the prompt that explains itself moved from a self-descriptive prompt asked of GPT-4 in 2023, through documentation as prompting in 2025, to the meta-instruction Smile is to include by default in the templates and prompts it creates, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}."],
+ :faq
+ [["What is meta-instruction in Smile?"
+ "Text inside a prompt that explains what the prompt and its marks are doing, so a model understands the language as it reads it and follows the instructions more closely."]
+ ["What is documentation as prompting?"
+ "Smile's principle that its documentation is itself a prompt. Pasted into any model, it teaches Smile by demonstrating it."]]}

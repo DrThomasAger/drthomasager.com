@@ -1,0 +1,14 @@
+{:title
+ "Smile Everywhere, Every Prompt for Every Model Written in Smile",
+ :description
+ "Smile Everywhere, 1 October 2026, which made every piece of AI text sent to any model written in the Smile Prompt Language, converted from any other format before it runs, with every face closed by its match and a gratitude, with its commits.",
+ :keywords
+ "convert prompts to Smile, system prompt in Smile, closing faces with gratitude, Smile linter, all prompts in one language, history of Smile",
+ :lede
+ "Smile Everywhere carries the asking that every prompt any instance writes for any model be in Smile into the instructions every instance reads, with converting everything before a model sees it still part built.",
+ :paras
+ ["Its README records my asking of 1 October 2026, that every piece of AI text sent to any LLM be written in Smile, that any other format be converted before it runs, and that every instance close each face with its match and a gratitude. It carries my worked example, a whole Clojure system prompt converted from Markdown, and the steps of conversion read from it.[[r]]"
+  "The first commit named the whole of it, “Smile Everywhere: all AI text for any LLM written in Smile, converted before it runs, every face closed with gratitude”,[[c:8ad164a8]] followed by the queue of prompt files still outside Smile[[c:6d45e119]] and, the next day, Smile Chat wrapping every system message that lacked a face.[[c:06ff4834]] Across {{commits}} commits from {{began}} to {{last}}, Smile Everywhere made the language the ground of every prompt, the rule followed in [[t:semantic-markdown]]. The next project is [[p:built-smile-ideal-client]]."],
+ :faq
+ [["What does Smile Everywhere require?"
+   "Every prompt written for any model is in Smile, any other format is converted before it runs, and every opening face is met by its closing face with a gratitude."]]}

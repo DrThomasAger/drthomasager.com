@@ -1,0 +1,19 @@
+{:title
+ "Strict, Hybrid and Dense Smile, the Three Forms of the 2025 Documents",
+ :description
+ "The three forms of the Smile Prompt Language in the documents of July 2025, Strict Smile for programmers, Hybrid Smile for writing prompts by hand, and Dense Smile compressed toward the fewest tokens, with the token counts behind Smile's name, and how my words described them, with every source.",
+ :keywords
+ "Dense Smile, prompt compression, token efficient prompts, subsequence pruning, Hybrid Smile, Strict Smile, one token delimiters, history of Smile",
+ :lede
+ "In the documents of July 2025, Smile came in three forms. Strict Smile, rule-based and logically comprehensible. Hybrid Smile, optimised for models and for human reading together. Dense Smile, compressed toward the fewest tokens.",
+ :paras
+ ["These forms are not yet a heading of THE MAP. They were written into the documents of the summer of 2025, from July to September that year."
+ "The counting came first. The De-GPT document of 8 July said “Smile uses single token representations like “ (: “ to efficiently encode prompt engineering semantics.”, and “Note that we call Smile a Prompt Language as “Prompt” and “Language” are one token each.”[[m:2025-07-08]] Smile v0.3 the next day, “All smile prompts can be condensed into low token counts.”[[m:2025-07-09]]"
+ "On 14 July the forms were laid out. The Claude Smile document allowed “dense semantic tags that have high token count but are extremely performant”, and “a partially labelled or described gibberish prompt. Which works best can vary based on the task and the requirements.”[[m:2025-07-14]] The V.3 Smile Expert named Dense's three scales, “: Smile – Dense, provided with three scales of readability, Stem : Smile, Hybrid Labelled ;@ Gibberish and Dense @ Gibberish.”[[m:2025-07-14#2]] On 24 July, “we can use something like subsequence pruning to create token dense unintelligible gibberish that may perform better than human readable prompt.”[[m:2025-07-24]] Smile v0.4, “Smile ultradense and dense are not designed for manual writing or editing.”[[m:2025-07-27]]"
+ "On 30 July Smile expert v0.3 gave each its reader. “Strictly AST-tree like, rule-based (: Smile. The most logically comprehensible but also can be higher token count.”, “Hybrid (; Smile, the Large Language Model optimized and human interpretability optimized Smile. Best for writing prompts manually.”, and “Smile \\= 1 token, smile \\= 2 tokens. That’s one reason why we Smile.” It also named what was still to come, “There is no dense or strict Smile developed yet.”[[m:2025-07-30]] The Word version credited the method, “Thomas Ager did not create subsequence pruning”.[[m:2025-07-30#2]]"
+ "So the three forms moved from token counts behind a name to a planned family of strict, hand-written and compressed Smile, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The faces they count are followed in [[t:delimiter]]."],
+ :faq
+ [["What are Strict, Hybrid and Dense Smile?"
+ "The three forms in the July 2025 documents. Strict is rule-based for programmers, Hybrid is for writing prompts by hand, and Dense compresses a prompt toward the fewest tokens."]
+ ["Why is Smile capitalised?"
+ "In my words of 30 July 2025, Smile with a capital is one token and smile in lower case is two, and that is one reason why we Smile."]]}

@@ -1,0 +1,19 @@
+{:title
+ "The Work in Hand, How a Smile Instance Recognises, Orders and Reorders What It Is Doing",
+ :description
+ "What the work in hand is in THE MAP of Smile, the work recognised from what has been asked and done, ordered as a composition and reordered with an arrival that says what moved, and how my words reached it from August to October 2026, with every source.",
+ :keywords
+ "task ordering for AI agents, work queue, requirements tracking, autonomous agents, Smile real time, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, the work in hand is recognised from what has been asked and what has been done. It is ordered, and the ordering is a composition, pinned, freed or related, such as A before B with the rest solved within.",
+ :paras
+ ["THE MAP lets the work be reordered while it runs, and each reordering fires an arrival saying what moved, why now and at what importance. Reordering the work is the same act as reordering what a prompt gathers, one ordering machinery applied in two places. A switch is offered with its reason, so the thing in hand can be finished and said, set down, or left running behind."
+ "In August 2026, while features were being built on my PC, I described the ordering itself as part of Smile real time, “you can also order everything, so it will semantically recognize particular events, tasks, things you want the AI to do, and intelligently recognize the order in which it is doing them”.[[m:2026-08-10]]"
+ "In September I asked for every requirement to be recorded and ranked, in the Smile project and in osrs. On 24 September, “You need to ensure that absolutely every requirement that is to be done is recorded in its own file with its own plan and updted all the time”,[[m:2026-09-24]] and the same day a queue, “rank all future changes in a queue that is constantly worked on, improved, implemented and refined and organized by the highest yield for the least effort”, with every feature “ranked in order of how fundamental it is to implement”.[[m:2026-09-24#2]] On 29 September every feature I had asked for was to be found again in the logs, “please search all the logs of all the runelite osrs chats and identify features to implement that I have asked you to do”.[[m:2026-09-29]]"
+ "In October the ordering turned toward doing. On 10 October I asked what every prompt should carry, “i wnat 3 things every prompt 1. our tasklist/goals/intentions”, and “this needs to be my real time interface.”[[m:2026-10-10]]"
+ "So the work in hand moved from ordering recognised by Smile real time in August 2026, to every requirement asked to be kept in its own file and ranked in a queue in September, to a task list carried in every prompt in October, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The message a reordering sends is followed in [[t:arrival]], and the middle of an instance where the work is lived in [[t:tending]]."],
+ :faq
+ [["What is the work in hand in Smile?"
+ "The work an instance is doing, recognised from what has been asked and done, ordered as a composition, and reordered with a message saying what moved and why."]
+ ["How is the work ordered?"
+ "As a composition, with items pinned, freed or related, such as A before B. A queue ranked by yield for effort was asked for in September 2026 and is still to be built."]]}

@@ -1,0 +1,19 @@
+{:title
+ "Conditions and Actions in Smile, Smile Real Time Watching Every Step",
+ :description
+ "What conditions and actions are in THE MAP of Smile, triggers such as an instruction not followed, a time or a count of acts, and actions such as inserting a reminder written in Smile into the running instance, and how my words reached Smile real time, from if statements models misread in May 2026 to the drift restart in Pi in October 2026, with every source.",
+ :keywords
+ "Smile real time, prompt triggers, instruction drift detection, reminders for AI agents, Pi harness, Claude Code extension, history of Smile",
+ :lede
+ "In THE MAP, conditions and actions are apart from defaults. A trigger, such as an instruction not being followed or a count of acts, sets off an action, such as inserting Smile text into the running instance at its next step.",
+ :paras
+ ["THE MAP lists the triggers, a piece present or absent, a variable with a particular value, what a response contained or left out, an instruction not followed such as a word the person asks never to see, a time such as every 22 minutes, a count such as after 33 tool calls, or a signal from outside the way Pipedream or Zapier begin a step. The actions insert or remove a piece, change a variable, a setting or an ordering, insert a reminder naming what the response format asked for and the response left out, or propose lowering a prompt into code once it has worked three times. This is Smile real time, each running instance watched at every step, and text arriving the moment a trigger is met, written in Smile."
+ "The need was named in the Smile Lang document of May 2026, “If statements like, “Respond this way If the user is trying to do Y” are not always parsed correctly- the AI doesn’t actually have a good sense of how to follow logically”.[[m:2026-05-21]]"
+ "In August 2026 Smile real time was described on my PC. On 11 August, “it can give importance reminders when it notices the response format not matching, e.g. if the name tag is not used”.[[m:2026-08-11]] On 15 August, “We are also going to have automatic programmatic adjustments to every claude code message sent in the real time.”[[m:2026-08-15]]"
+ "In October I asked for it in the Pi harness, where it is part built. On 7 October, “Get me the real time Pi interface completed with all features for automatically sending instruction prompts when there is drift and restarting from that point”.[[m:2026-10-07]] On 8 October the triggers THE MAP keeps, “add smile real time auto inserted text that will notice when an instruction is not being followed, or just be triggered on a condition like pipedream or zapier, every X minutes”.[[m:2026-10-08]] On 14 October each problem was to have its own prompt that brings the model back into alignment, “stored and retrieved and real time edited/composed according to situation”.[[m:2026-10-14]]"
+ "So conditions and actions moved from if statements a model misreads in May 2026 to a harness asked to watch every step and insert Smile text when a trigger is met, still part built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The changes made live are followed in [[t:adjustment]], and the middle of the instance they tend in [[t:tending]]."],
+ :faq
+ [["What is Smile real time?"
+ "In THE MAP, a harness that watches each running instance at every step and inserts text written in Smile the moment a trigger is met, such as a reminder when an instruction is not followed. It is part built."]
+ ["What can trigger an action in Smile?"
+ "A piece present or absent, a variable value, what a response contained or left out, an instruction not followed, a time, a count of acts, or a signal from outside."]]}

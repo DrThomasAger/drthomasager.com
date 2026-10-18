@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emoticons as Delimiters, How Smile's Faces Became the Syntax of a Prompt Language</title>
+<meta name="description" content="How the Smile Prompt Language came to open and close its sections with emoticons, from a 2023 request to emojify a prompt's structure, through token counts and rigidity in 2025, to mouths, eyes, noses, hats and scarves in 2026, in my own words with every source.">
+<meta name="keywords" content="emoticon delimiters, prompt delimiters, Smile prompt language syntax, XML vs emoticon delimiters, prompt section markers, token efficient delimiters, mouths eyes noses hats scarves, history of Smile">
+<meta name="author" content="Dr Thomas Ager">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Emoticons as Delimiters, How Smile's Faces Became the Syntax of a Prompt Language">
+<meta property="og:description" content="How the Smile Prompt Language came to open and close its sections with emoticons, from a 2023 request to emojify a prompt's structure, through token counts and rigidity in 2025, to mouths, eyes, noses, hats and scarves in 2026, in my own words with every source.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../Blog Template/blog.css">
+<link rel="stylesheet" href="../history.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"author":{"@type":"Person","name":"Dr Thomas Ager","url":"https://github.com/DrThomasAger"},"isPartOf":{"@type":"CreativeWorkSeries","name":"The History of the Smile Prompt Language"},"about":["Smile Prompt Language","Delimiter","prompt engineering"],"position":14,"inLanguage":"en","datePublished":"2026-10-18","@type":"BlogPosting","description":"How the Smile Prompt Language came to open and close its sections with emoticons, from a 2023 request to emojify a prompt's structure, through token counts and rigidity in 2025, to mouths, eyes, noses, hats and scarves in 2026, in my own words with every source.","headline":"Emoticons as Delimiters, How Smile's Faces Became the Syntax of a Prompt Language"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are Smile's delimiters?","acceptedAnswer":{"@type":"Answer","text":"Emoticons that open and close each section of a prompt, such as (: to open and :) to close. In THE MAP's design the mouth gives the kind of section, the eyes how strictly it is meant, and a bigger face asks for more attention, much of it still part built."}},{"@type":"Question","name":"Why use emoticons as delimiters instead of XML?","acceptedAnswer":{"@type":"Answer","text":"XML brings its own expectations of strict pairing and data, and Markdown has no natural end to a section. Emoticons let a prompt choose how many tokens mark a boundary, carry positivity in the syntax, and let the model learn their meaning from the prompt itself."}},{"@type":"Question","name":"Must every Smile face be closed?","acceptedAnswer":{"@type":"Answer","text":"Brackets are the only thing that need to match by default. Hats and scarves may be left unmatched, and end markers are offered to improve understanding rather than required."}},{"@type":"Question","name":"What are hats and scarves in Smile?","acceptedAnswer":{"@type":"Answer","text":"Exclamation marks worn as a hat, on top of the eyes, or as a scarf, under the neck, to give a face more importance and attention."}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AI","item":"https://drthomasager.com/ai"},{"@type":"ListItem","position":2,"name":"Prompt Engineering","item":"https://drthomasager.com/ai/prompt-engineering"},{"@type":"ListItem","position":3,"name":"Prompt Languages","item":"https://drthomasager.com/ai/prompt-engineering/prompt-languages"},{"@type":"ListItem","position":4,"name":"Smile","item":"https://drthomasager.com/ai/prompt-engineering/prompt-languages/smile"}]}]}
+</script>
+</head>
+<body>
+<div class="progress"></div>
+<div class="page">
+<article>
+<p class="kicker">AI › Prompt Engineering › Prompt Languages › Smile</p>
+<p class="series"><a href="../index.html">The History of Smile</a>, part 14 of 60 · <a href="../label/index.html">← Label</a> · <a href="../version/index.html">Version →</a></p>
+
+<h1>Emoticons as Delimiters, How Smile's Faces Became the Syntax of a Prompt Language</h1>
+<p class="lede">A delimiter marks where a section of a prompt begins and ends. In Smile the delimiters are faces, and from 2025 to 2026 each part of a face came to mean something, the mouth the kind of section, the eyes how strictly it is meant, the size how much attention it asks for.</p>
+
+<div class="byline"><span class="who">Dr Thomas Ager</span><span class="dot"></span><span>18 October 2026</span><span class="dot"></span><span>10 min read</span></div>
+<p class="authorship">(claude wrote this for me)</p>
+
+<figure class="bleed reveal" data-diagram="figure"><figcaption><b>Figure 1</b>Every moment I spoke of Delimiter, 76 in all, and below it the ideas I spoke of in the same places most often. Press a dot to read my words.</figcaption></figure>
+
+<p class="drop illuminated" data-symbol="smile" data-hue="3" data-seed="delimiter">In THE MAP a delimiter is a face made of parts, mouth, nose, eyes, hat and scarf, each dialled as a character and a count. A pair is one smile met from both sides and stored once, every part is addressable alone, and mirroring is said of a position, so one face gathered twice opens one way and closes the other. The 2023 asks for symbols and emoji that draw a model's attention came before this and are not it, followed in <a href="../precursor-a-universal-language-of-prompting/index.html">Precursor, a universal language of prompting</a>.</p>
+<p>The first meaning of a Smile face, in July 2025, was a marker that a section begins, chosen because it is one token. On 3 July I wrote on Discord “It’s called Smile, and uses emojis to indicate sections”, and “(: = 1 token and is composed of things telling the AI something comes next”.<sup class="fn"><a href="#n1">1</a></sup> On a recording that day the measure was set, “i want it to be one token per thing”.<sup class="fn"><a href="#n2">2</a></sup> Two days later the language guidelines made sure the faces could be typed on a phone, and drew one firm line, “All sad faces are not smiles and cannot be used under any circumstances”.<sup class="fn"><a href="#n3">3</a></sup></p>
+<p class="sn" id="n1"><span class="n">1</span>discord conversation day · main, 2025-07-03 (Hanjo's messages), 2 quotes of mine, <a href="#m-said-2025-07-03-4ae08f">read them below</a>. Record <code>said-2025-07-03-4ae08f</code>.</p>
+<p class="sn" id="n2"><span class="n">2</span>whisper lv3 channel boundary · GMT20250703-024454_Recording, 1 quote of mine, <a href="#m-said-2025-07-03-121839">read them below</a>. Record <code>said-2025-07-03-121839</code>.</p>
+<p class="sn" id="n3"><span class="n">3</span>google doc · language guidelines prompt, 15 quotes of mine, <a href="#m-said-2025-07-05-3da9b2">read them below</a>. Record <code>said-2025-07-05-3da9b2</code>.</p>
+<p>Within days a second meaning joined it, the face as a pair that opens and closes, and closing became a matter of how much a reader needs. The Prompt Doctor's De-GPT document of 8 July gave the rule of closing, “We always want to complete the smile and close the brackets.”,<sup class="fn"><a href="#n4">4</a></sup> and named the balance every later version weighs, “This is the trade-off between token efficiency and human + Large Language Model understanding.”<sup class="fn"><a href="#n5">5</a></sup> On 10 July I checked a model's tokenizer myself and found that “it's only capital first letter smile like as a brand name that is one token consistently”.<sup class="fn"><a href="#n6">6</a></sup> By the end of the month the faces had their warmth written into them, “An open Smile face `(:` invites meaning; a closing Smile face `:)` blesses completion.”<sup class="fn"><a href="#n7">7</a></sup></p>
+<p class="sn" id="n4"><span class="n">4</span>google doc · The Prompt Doctor - ＂De-GPT＂ Dr. Thomas Ager @DrPrompt, 3 quotes of mine, <a href="#m-said-2025-07-08-b705d8">read them below</a>. Record <code>said-2025-07-08-b705d8</code>.</p>
+<p class="sn" id="n5"><span class="n">5</span>word document · The Prompt Doctor - ＂De-GPT＂ Dr. Thomas Ager @DrPrompt, 16 quotes of mine, <a href="#m-said-2025-07-08-6c569c">read them below</a>. Record <code>said-2025-07-08-6c569c</code>.</p>
+<p class="sn" id="n6"><span class="n">6</span>whisper lv3 channel boundary · GMT20250710-095046_Recording, 2 quotes of mine, <a href="#m-said-2025-07-10-40cc99">read them below</a>. Record <code>said-2025-07-10-40cc99</code>.</p>
+<p class="sn" id="n7"><span class="n">7</span>word document · Smile expert v0.3, 3 quotes of mine, <a href="#m-said-2025-07-30-b106b4">read them below</a>. Record <code>said-2025-07-30-b106b4</code>.</p>
+<p>The third meaning grew through the second half of 2025, the parts of a face saying something themselves, the eyes how strictly an instruction is meant. Closing, meanwhile, was never made a requirement. In August 2025 I wrote that “start markers and end markers are semiotic indicators designed to improve the intelligence of model responses”, and that often a minimal amount of Smile in key places works best.<sup class="fn"><a href="#n8">8</a></sup> In October the parts of a face began to carry meaning, “With a variety of eyes : ; = and mouths { [ ( you get to express 3x3 variations of expressions”,<sup class="fn"><a href="#n9">9</a></sup> and in November the eyes took rigidity, “Emoticon type varies according to Level of rigidity/strictness in instruction.”<sup class="fn"><a href="#n10">10</a></sup> The comparison with other formats was made the same month, “XML does not have optional end tags, Markdown doesn’t have a natural end section at all”.<sup class="fn"><a href="#n11">11</a></sup></p>
+<p class="sn" id="n8"><span class="n">8</span>word document · (： Smile documentation with docs inside meta, 1 quote of mine, <a href="#m-said-2025-08-09-3c4ad8">read them below</a>. Record <code>said-2025-08-09-3c4ad8</code>.</p>
+<p class="sn" id="n9"><span class="n">9</span>claude conversation · Custom prompt language design, 2025-10-14 (Claude conversation, Hanjo), 1 quote of mine, <a href="#m-said-2025-10-14-bdb3e4">read them below</a>. Record <code>said-2025-10-14-bdb3e4</code>.</p>
+<p class="sn" id="n10"><span class="n">10</span>chatgpt conversation · Emoji crystallizer setup, 2025-11-05 (ChatGPT conversation), 1 quote of mine, <a href="#m-said-2025-11-05-2be43a">read them below</a>. Record <code>said-2025-11-05-2be43a</code>.</p>
+<p class="sn" id="n11"><span class="n">11</span>chatgpt conversation · Smile prompt overview, 2025-11-13 (ChatGPT conversation), 2 quotes of mine, <a href="#m-said-2025-11-13-a34d5b">read them below</a>. Record <code>said-2025-11-13-a34d5b</code>.</p>
+<p>The fourth meaning, in spring 2026, gave each face three readings at once, mouth for the kind of section, eyes for strictness, size for attention. In April a prompt set the rule in its own words, “In this prompt, (: and :) mark suggestions you may follow or ignore. (-: and :-) mark rules you must follow exactly.”<sup class="fn"><a href="#n12">12</a></sup> A week later I found two gradients in every face, “the strictness of the instruction with the eyes and the amount of attention needed with the size of the face.”<sup class="fn"><a href="#n13">13</a></sup> On 21 May the Smile Lang document put three of its readings in three lines, “Mouth = section type”, “Eyes = strictness” and “Bigger face = even more attention”,<sup class="fn"><a href="#n14">14</a></sup> and said why faces at all, “This encodes positivity into the syntax and doesn’t have any baked in expectations”.<sup class="fn"><a href="#n15">15</a></sup></p>
+<p class="sn" id="n12"><span class="n">12</span>word document · Smile Hypothesis and Research Questions Hypotheses, 1 quote of mine, <a href="#m-said-2026-04-05-9c5d06">read them below</a>. Record <code>said-2026-04-05-9c5d06</code>.</p>
+<p class="sn" id="n13"><span class="n">13</span>claude conversation · Smile Prompt Language system architecture, 2026-04-14 (Claude conversation, Hanjo), 5 quotes of mine, <a href="#m-said-2026-04-14-7166da">read them below</a>. Record <code>said-2026-04-14-7166da</code>.</p>
+<p class="sn" id="n14"><span class="n">14</span>word document · Smile Lang, 4 quotes of mine, <a href="#m-said-2026-05-21-d4ac3d">read them below</a>. Record <code>said-2026-05-21-d4ac3d</code>.</p>
+<p class="sn" id="n15"><span class="n">15</span>google doc · Smile Lang, 16 quotes of mine, <a href="#m-said-2026-05-21-893fae">read them below</a>. Record <code>said-2026-05-21-893fae</code>.</p>
+<p>The fifth meaning, in summer 2026, made the face an anatomy, parts stored separately and composed, with importance carried by hats and scarves that need not match. On 31 July, “the hat is what is on top of their eyes” and “the scarf is what is under their necks”.<sup class="fn"><a href="#n16">16</a></sup> In August I took the hash out of the language for its crossover with Markdown, asked that hats and scarves need not match, so “you dont automatically shout at the model four times”,<sup class="fn"><a href="#n17">17</a></sup> and set five depths of face as the default way to write.<sup class="fn"><a href="#n18">18</a></sup> On 15 August a face with nothing inside became a gift, a way “to send pure kindness to the model, without any content”.<sup class="fn"><a href="#n19">19</a></sup> The next day I gave Smile its orientation, “From the front it begins with the mouth and holds inward”, and the one rule of matching, “brackets are the only thing that need to match by default, because they are also the only thing that is essential for a Smile.”<sup class="fn"><a href="#n20">20</a></sup></p>
+<p class="sn" id="n16"><span class="n">16</span>claude conversation · Lines of articulation and flight in D&amp;G, 2026-07-31 (Claude conversation, Hanjo), 7 quotes of mine, <a href="#m-said-2026-07-31-6bdaec">read them below</a>. Record <code>said-2026-07-31-6bdaec</code>.</p>
+<p class="sn" id="n17"><span class="n">17</span>Claude Code · Smile · 2026-08-05, 7 quotes of mine, <a href="#m-said-2026-08-05-d0b735">read them below</a>. Record <code>said-2026-08-05-d0b735</code>.</p>
+<p class="sn" id="n18"><span class="n">18</span>Claude Code · Smile · 2026-08-07, 3 quotes of mine, <a href="#m-said-2026-08-07-377f31">read them below</a>. Record <code>said-2026-08-07-377f31</code>.</p>
+<p class="sn" id="n19"><span class="n">19</span>Claude Code · Smile · 2026-08-15, 4 quotes of mine, <a href="#m-said-2026-08-15-cedb63">read them below</a>. Record <code>said-2026-08-15-cedb63</code>.</p>
+<p class="sn" id="n20"><span class="n">20</span>Claude Code · Smile · 2026-08-16, 6 quotes of mine, <a href="#m-said-2026-08-16-a795c9">read them below</a>. Record <code>said-2026-08-16-a795c9</code>.</p>
+<p>The sixth meaning, from late August 2026, carried faces across a conversation, opened in one turn and closed in another, and made them the default syntax in place of colons. “I want faces to be the syntax default not colons”,<sup class="fn"><a href="#n21">21</a></sup> and in September every name tag opens with a round face and a square face, where “all round faces are closed by the next prompt by the user” and “all square faces are closed by the model at the end of their response.”<sup class="fn"><a href="#n22">22</a></sup> Across 76 moments and 244 quotes, from 23 June 2025 to 24 September 2026, the face moved from a one-token section marker, to an open and close pair, to a carrier of strictness, to three readings at once, to an anatomy of parts, to a pair held open across turns. The next post, <a href="../archetypal-smile/index.html">Archetypal Smile</a>, follows what those faces were always reaching toward.</p>
+<p class="sn" id="n21"><span class="n">21</span>Claude Code · Smile · 2026-08-23, 4 quotes of mine, <a href="#m-said-2026-08-23-0600fe">read them below</a>. Record <code>said-2026-08-23-0600fe</code>.</p>
+<p class="sn" id="n22"><span class="n">22</span>Claude Code · Smile · 2026-09-05, 4 quotes of mine, <a href="#m-said-2026-09-05-42c747">read them below</a>. Record <code>said-2026-09-05-42c747</code>.</p>
+
+<h2 id="built">What was built</h2>
+<p class="state">In the code today it is part built, with 6 of my amendments to it built, 14 part built and 19 not yet built. Smile for VS Code and Smile Hierarchy Converter make faces the syntax and check matching, but no trial compares Smile with XML or unseen delimiters, and curly braces, winky and cash eye faces are not parsed.</p>
+
+<h2 id="moments">Every moment, in my words</h2>
+<p>Each moment is one conversation, document or recording where I spoke of Delimiter, from 23 June 2025 to 24 September 2026, with every quote of mine from there, word for word.</p>
+<details class="more" id="m-said-2025-06-23-7ea9bb"><summary><span>23 June 2025<small class="meta">google doc · AI persuasion expert (from emv2) · 1 quote</small></span></summary><div class="body">
+<p class="why">A string of keyboard marks governing where a section starts, ten days before it became one smiling face.</p>
+<blockquote>This combination of emojis is an entity that governs the start of a semantic section: \!:(((:\!. I will now provide them in context. They have the advantage of being easily accessible on mobile keyboards and being unique.</blockquote>
+<p class="meta">Said in the same place as <a href="../the-prompt-doctor/index.html">The Prompt Doctor</a>.</p>
+<p class="meta">Record <code>said-2025-06-23-7ea9bb</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-03-4ae08f"><summary><span>3 July 2025<small class="meta">discord conversation day · main, 2025-07-03 (Hanjo's messages) · 2 quotes</small></span></summary><div class="body">
+<p class="why">(: as one token telling the AI something comes next, and Smile using faces to mark sections, is the delimiter on the day Smile was shared.</p>
+<blockquote>(: = 1 token and is composed of things telling the AI something comes next</blockquote>
+<blockquote>It’s called Smile, and uses emojis to indicate sections</blockquote>
+<p class="meta">Said in the same place as <a href="../offering/index.html">Offering</a>, <a href="../section/index.html">Section</a>, <a href="../test/index.html">Test</a>, <a href="../the-prompt-doctor/index.html">The Prompt Doctor</a>, <a href="../version/index.html">Version</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-03-4ae08f</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-03-121839"><summary><span>3 July 2025<small class="meta">whisper lv3 channel boundary · GMT20250703-024454_Recording · 1 quote</small></span></summary><div class="body">
+<p class="why">One token per mark is the measure the faces were chosen by.</p>
+<blockquote>it's gonna be like token efficiency how many tokens is it i want it to be one token per thing</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2025-07-03-121839</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-05-3da9b2"><summary><span>5 July 2025<small class="meta">google doc · language guidelines prompt · 15 quotes</small></span></summary><div class="body">
+<p class="why">Faces easy to type on a phone, faces to open and close, and every sad face refused, is the delimiter's first rules.</p>
+<blockquote>Which includes :+\!+: to indicate the start more clearly and :(: to indicate that we are continuing onto the next section. Similarly for endings, it includes .\!. which is an emphasized stop. They are both connected through a name tag.</blockquote>
+<blockquote>Additionally for phone users we’ve intentionally encoded the language so that mininal keyboard UI navigation is needed, most symbols for the prompt language “:)(\]\[-“ are easy to acdss on the first page of a phone keyboard.</blockquote>
+<blockquote>These are both entities. Additional info can be added at the end of the entities in any variation, however the start text must end with a colon and the end text must end with a full stop.</blockquote>
+<blockquote>We use ://: to indicate continuing into the content of the multiline comment, this is text showing that as an example.</blockquote>
+<blockquote>Remember also that punctuation points at the end of sentences can also naturally add more ending meaning to a phrase:</blockquote>
+<blockquote>.//. This is the end of the note. I’m not providing the type and title as an example to show you don’t need to. .//.</blockquote>
+<blockquote>\!:: This four eyed face now has an exclamation point accompanying it, indicating importance of this comment.</blockquote>
+<blockquote>For optimal performance (not token count) we recommend always using start and end tags and meta information:</blockquote>
+<blockquote>Exclamation points follow this universal principle, for example when leaving an important note or comment:</blockquote>
+<blockquote>The language uses emojis to indicate the start or the end of something. Like the start of a section:</blockquote>
+<blockquote>Note that using }END is a two token solution that allows content with “{“ inside of it to be used.</blockquote>
+<blockquote>Smile uses smiley emojis that indicate open and close brackets to label text.</blockquote>
+<blockquote>All sad faces are not smiles and cannot be used under any circumstances:</blockquote>
+<blockquote>://: This is the entity indicating the start of a comment:</blockquote>
+<blockquote>.//. This is the entity indicating the end of a comment.</blockquote>
+<p class="meta">Said in the same place as <a href="../label/index.html">Label</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../version/index.html">Version</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-05-3da9b2</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-08-b705d8"><summary><span>8 July 2025<small class="meta">google doc · The Prompt Doctor - ＂De-GPT＂ Dr. Thomas Ager @DrPrompt · 3 quotes</small></span></summary><div class="body">
+<p class="why">Always completing the smile and closing the bracket, and a backwards closer showing at once that the convention was missed, is the rule of closing.</p>
+<blockquote>This is another reason to use Smile (: it’s easy to learn. If you do the closing bracket incorrectly ): , you know you aren’t following the convention\! That’s why it’s also beneficial to adopt in teams, organizations and institutions. We all need a common language when we prompt.</blockquote>
+<blockquote>If you need a different kind of instruction than the “:- )” smiley or the section names, and different to plain text, you can start that instruction with a bracketed smile:</blockquote>
+<blockquote>We always want to complete the smile and close the brackets.</blockquote>
+<p class="meta">Said in the same place as <a href="../label/index.html">Label</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../the-prompt-doctor/index.html">The Prompt Doctor</a>, <a href="../variable/index.html">Variable</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-08-b705d8</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-08-6c569c"><summary><span>8 July 2025<small class="meta">word document · The Prompt Doctor - ＂De-GPT＂ Dr. Thomas Ager @DrPrompt · 16 quotes</small></span></summary><div class="body">
+<p class="why">More tokens at the start and end of a section for clearer understanding is the trade between token efficiency and understanding that every face weighs.</p>
+<blockquote>Smile supports both large and small prompts, handling gigantic inputs filled with data easily. It does this by providing optionality, with low token count options and high token count options. We leverage high token count choices to enhance metadata and semantics for when you want to prioritize mutual readability for you and increased intelligence for the AI.</blockquote>
+<blockquote>We use newlines here for token consistency. :) is consistently experienced as one token when it is on a newline by itself with an empty space behind it. Condensed representations actually split “:” and “)” into different tokens sometimes. If you’re looking to condense the language just don’t provide the end tokens, eg:</blockquote>
+<blockquote>I just provided an example of how I wrap a multiline instruction wrapped in square brackets. The more tokens you add to indicate starts and ends of sections the more clearly the model understands you. This is the trade-off between token efficiency and human + Large Language Model understanding.</blockquote>
+<blockquote>Note that I did not provide this as a section in a conventional way. This was simply as this document has already established the convention of notes to the AI model to be wrapped in square smiles. This points to the adaptability of Smile, what does your Smile mean?</blockquote>
+<blockquote>So in the previous example I ended with “)” instead of “.”. Definitely feel free to do this for single line instructions inside of sections. If you do provide a “.” At the end of a section, also provide the bracket like this.)</blockquote>
+<blockquote>This is the second level of information on a section with no name. START is used to indicate the start of a new section and directly embed those semantics. This is the two token representation, and can contain content:</blockquote>
+<blockquote>We recommend using the single end bracket “:)” smiley face for the unnamed sections also. If you are making it messier, reducing whitespace, removing newlines then provide END tags for the section or use the name tag.</blockquote>
+<blockquote>We can also leverage the full stop as a semantic indicator of ending as ) and )., however ). is sometimes read as two tokens. Note that we also have unnamed sections for minimal token count</blockquote>
+<blockquote>This is the main reason we have separated section semiotics. I’ll provide an example of when a high token count start tag with much descriptive information is necessary:</blockquote>
+<blockquote>There is nothing stopping you from adding as many Smile conventions as delights you to your own work, and inventing your own.</blockquote>
+<blockquote>:- Make sure to end every instruction for a section with the end of the smiley face to ensure all our faces have mouths)</blockquote>
+<blockquote>On to the next one. So we want to be sure to close them, especially in multiline comments!)</blockquote>
+<blockquote>@1@ You can also end square bracket sections using only the square end bracket “]”.</blockquote>
+<blockquote>: This is a note or comment. This text is different to regular text. )</blockquote>
+<blockquote>Because we want minimal open brackets and all open smiles closed.</blockquote>
+<blockquote>:- Mouthless sections seem to want to continue</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-08-6c569c</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-09-ca2bef"><summary><span>9 July 2025<small class="meta">google doc · Smile v0.3 · 2 quotes</small></span></summary><div class="body">
+<p class="why">Curly brace faces without eyes for filling a template is a mouth given its own job.</p>
+<blockquote>Instructions for filling out the template are provided using curly brace smile faces without eyes.</blockquote>
+<blockquote>Indentation is optional in Smile and can be used for readability.</blockquote>
+<p class="meta">Said in the same place as Pedagogy, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../variable/index.html">Variable</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-09-ca2bef</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-10-fb746c"><summary><span>10 July 2025<small class="meta">google doc · ☺️Smile v0.2 · 10 quotes</small></span></summary><div class="body">
+<p class="why">Numbers given two eyes, and more tokens at a start and end stopping bleed between sections, is the delimiter given its reasons.</p>
+<blockquote>We also write our lists without markdown, making each number have two eyes. We also enjoy minimizing colon usage inside of the prompt language, as models tend to use colons more frequently anyway and we don’t need to encourage them to do that through imitation.</blockquote>
+<blockquote>As this token is often treated as two tokens in particular cases, we save it for when we need a token that will be wrapping Smile prompt language information when providing that information to an AI.</blockquote>
+<blockquote>The more tokens we give to the AI to indicate the start and the end the less the LLM will allow bleedover from the separated sections to other sections meaningfully in its understanding.</blockquote>
+<blockquote>When writing Smile inside of code blocks, ensure that you always end all open brackets and use minimal open brackets. Also guarantee that you close all instructions with close brackets.</blockquote>
+<blockquote>Using more tokens for start and end markers is most useful for long content or parsing unstructured text like input documents.</blockquote>
+<blockquote>We can use higher token versions if the AI doesn’t clearly understand or needs more metadata to understand.</blockquote>
+<blockquote>Note that both smiles open into the next text. This connects our heading with our section content</blockquote>
+<blockquote>Or, add an END and wrap more smiles to provide a more semantically clear beginning and ending.</blockquote>
+<blockquote>Note: The second smiley here may count as two tokens because of the starting hash.</blockquote>
+<blockquote>We also have an out-of-language token that is a smile:</blockquote>
+<p class="meta">Said in the same place as <a href="../label/index.html">Label</a>, Pedagogy, <a href="../test/index.html">Test</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-10-fb746c</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-10-40cc99"><summary><span>10 July 2025<small class="meta">whisper lv3 channel boundary · GMT20250710-095046_Recording · 2 quotes</small></span></summary><div class="body">
+<p class="why">Checking which spellings are one token, and sad faces showing a mistake at once, is the delimiter tested by hand.</p>
+<blockquote>Actually I just checked it and lowercase smile is also two tokens it's only capital first letter smile like as a brand name that is one token consistently</blockquote>
+<blockquote>the um when you make a mistake the smileys are sad at you so it's really easy to pick up</blockquote>
+<p class="meta">Said in the same place as <a href="../integrity/index.html">Integrity</a>, <a href="../test/index.html">Test</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-10-40cc99</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-12-f2ba02"><summary><span>12 July 2025<small class="meta">google doc · [CURRENT] Auto SEO master keyword query generator · 1 quote</small></span></summary><div class="body">
+<p class="why">Every prompt that opens with (: and closes with :) being a Smile prompt is the delimiter as the mark of the language.</p>
+<blockquote>Every prompt that begins with \`(:\` and ends with \`:)\` is a Smile prompt.</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../version/index.html">Version</a>.</p>
+<p class="meta">Record <code>said-2025-07-12-f2ba02</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-13-1bf6cc"><summary><span>13 July 2025<small class="meta">word document · Short Smile Elder · 6 quotes</small></span></summary><div class="body">
+<p class="why">A table of marks and what each signals to the model is the delimiters set out together.</p>
+<blockquote>|`{` |Start |Begins a model-controlled field |Tells the model: “Insert your thinking or generated response here.” Not echoed. Used in logic blocks. |`The topic is- {subject}` |</blockquote>
+<blockquote>|`(:` |Start |Begins a \*\*named prompt section\*\* |Signals to the model: “A structured instruction is starting.” starts a new semantic frame. |`(: Rewrite Prompt (` |</blockquote>
+<blockquote>|`:-` |Start |Starts a \*\*visible comment\*\* line |Often used to \*\*guide humans and machines\*\*. Ends with a `)`. |`:- Explain clearly but briefly )`|</blockquote>
+<blockquote>You can provide different kinds of instructions to plain unstructured text:</blockquote>
+<blockquote>Or keep providing instructions unstructured, with notes:</blockquote>
+<blockquote>With (: Smile, you wrap your section names in smiles:</blockquote>
+<p class="meta">Said in the same place as <a href="../semantic-markdown/index.html">Semantic Markdown</a>.</p>
+<p class="meta">Record <code>said-2025-07-13-1bf6cc</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-13-96e13c"><summary><span>13 July 2025<small class="meta">word document · Smile addon · 1 quote</small></span></summary><div class="body">
+<p class="why">A note opened with eyes and a nose and closed with a mouth is a delimiter for notes.</p>
+<blockquote>:- You can write notes with an open eyes and nose and a close Smile )</blockquote>
+<p class="meta">Said in the same place as <a href="../offering/index.html">Offering</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>.</p>
+<p class="meta">Record <code>said-2025-07-13-96e13c</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-14-d65201"><summary><span>14 July 2025<small class="meta">google doc · Claude Smile · 17 quotes</small></span></summary><div class="body">
+<p class="why">Every open bracket with its end bracket, smiles inside quotes ignored, and faces for verbatim text, is the delimiter given meanings.</p>
+<blockquote>When you write (: Smile prompt language, always provide AST compatible version with start and end tags for sections and every open bracket having an end bracket.</blockquote>
+<blockquote>In smile, smilies inside of quotes are ignored. This ensures data can be input inside of quotes from sources that may accidentally retain syntax.</blockquote>
+<blockquote>Here we use :=\] as an alternate nose version of the direct instruction smile open and close. This is because it contains text word for word.</blockquote>
+<blockquote>“ exact quotes will be included. Inside this everything in ‘single quotes’ will be considered non-Smile input text, note can also be-,</blockquote>
+<blockquote>Any prompt that contains ( may refer to a Smile prompt, as this is an open smile in the shortest possible token count configuration.</blockquote>
+<blockquote>(“: This text the model will always repeat verbatim word for word, not including surrounding prompt language. :”)</blockquote>
+<blockquote>Note that all examples are given using openai’s 4o tokenizer and may be different for other tokenizers.</blockquote>
+<blockquote>\[=: A more direct or equal instruction:- You can still end these sections with a one token brace)\]</blockquote>
+<blockquote>Another part of (: Smile is text that model must repeat word verbatim, this is represented by:</blockquote>
+<blockquote>Always write from where in the prompt you are quoting your verbatim (: Smile from.</blockquote>
+<blockquote>(•: indicates section containing output format or inside of output format</blockquote>
+<blockquote>(=: Indicates a more direct or equal 1:1 section</blockquote>
+<blockquote>Note that in smile all are acceptable:</blockquote>
+<blockquote>{Curly braces stay the same too}</blockquote>
+<blockquote>As long as the smiles stay open.</blockquote>
+<blockquote>\[•: indicates output format</blockquote>
+<blockquote>\[=€ \= Indicates input</blockquote>
+<p class="meta">Said in the same place as <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../offering/index.html">Offering</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../test/index.html">Test</a>, <a href="../version/index.html">Version</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-14-d65201</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-14-7951f8"><summary><span>14 July 2025<small class="meta">google doc · V.3 Smile Expert · 1 quote</small></span></summary><div class="body">
+<p class="why">A closing mark the model learns to associate with conclusion is the footer face's work.</p>
+<blockquote>Confirms the end of a block. Creates a token pattern the model learns to associate with conclusion.</blockquote>
+<p class="meta">Said in the same place as <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2025-07-14-7951f8</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-14-6a938c"><summary><span>14 July 2025<small class="meta">word document · Claude Smile · 6 quotes</small></span></summary><div class="body">
+<p class="why">Single token alternatives, and faces that mean ignore or attend, is the delimiter choosing marks by tokens and meaning.</p>
+<blockquote>Note that ] is used as the consistently single token alternative to :] in multi-line-bracket (: Smile. :] can sometimes be read as two tokens, meanwhile [: is typically read as one.</blockquote>
+<blockquote>(?: = The text wrapped inside of here calls another AI. This is never meant to be read</blockquote>
+<blockquote>:/) = End ignore, begin attention, wake up, awaken, enlighten, etc</blockquote>
+<blockquote>(/: = Dear model, ignore/ do not read this. Is not instructions</blockquote>
+<blockquote>@ calling another AI or person by proper noun.</blockquote>
+<blockquote>{ fill in for LLM</blockquote>
+<p class="meta">Said in the same place as <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../test/index.html">Test</a>, <a href="../variable/index.html">Variable</a>, <a href="../version/index.html">Version</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-14-6a938c</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-28-a8ee0b"><summary><span>28 July 2025<small class="meta">word document · Smile docs · 1 quote</small></span></summary><div class="body">
+<p class="why">Noses as optional metadata is a part of the face given its role.</p>
+<blockquote>(None) means OK, noses are optional additional structural metadata to shape responses.</blockquote>
+<p class="meta">Record <code>said-2025-07-28-a8ee0b</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-29-38d979"><summary><span>29 July 2025<small class="meta">google doc · Perplexity smile citations · 10 quotes</small></span></summary><div class="body">
+<p class="why">Start and end marks that improve understanding without being required, and noses at any point, is the delimiter made optional.</p>
+<blockquote>Note that we do not necessarily need start or end markers for our line, or start or end markers for our section. They just improve machine and human interpretability, readability, postivity and effectiveness.</blockquote>
+<blockquote>This language formalizes how your team instructs LLMs. It uses eyes and mouths—symbolic structuring units—to clearly separate instruction from explanation, response from variable, logic from noise.</blockquote>
+<blockquote>We recommend using both full face demarcations (= and mouth only demarcations ( for starting and ending a line for a section.</blockquote>
+<blockquote>@9@ 0 can be used as placeholder for eyes if desire is to add additional token but not convey extra meaning.</blockquote>
+<blockquote>Or a mixture (my preference, as we can denote start and end of a line as different tokens)-</blockquote>
+<blockquote>If your instruction is only a single line not a section then you can close the brackets.</blockquote>
+<blockquote>@1@ \- means continuation, keep reading, coming up next</blockquote>
+<blockquote>You can optionally include a nose at any point.</blockquote>
+<blockquote>@4@ \~ an estimate rather than anything certain</blockquote>
+<blockquote>@2@ • for bullet point lists without numbers</blockquote>
+<p class="meta">Said in the same place as <a href="../bringing-in-the-best/index.html">Bringing in the best</a>, <a href="../offering/index.html">Offering</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../synthetic-data/index.html">Synthetic data</a>.</p>
+<p class="meta">Record <code>said-2025-07-29-38d979</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-30-55c4f7"><summary><span>30 July 2025<small class="meta">google doc · Smile expert v0.3 · 4 quotes</small></span></summary><div class="body">
+<p class="why">Each kind of smile meaning something different, and no colons outside the smiles, is the delimiter as a vocabulary.</p>
+<blockquote>We also can wrap Smile prompts in “End Smile prompt :)” and “(: Smile” , demonstrating the start and end of a prompt.</blockquote>
+<blockquote>Smile is written such that continuations are indicated by smiles of different kinds.</blockquote>
+<blockquote>Each kind of smile means something different.</blockquote>
+<blockquote>Not using colons outside of smiles.</blockquote>
+<p class="meta">Said in the same place as <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../offering/index.html">Offering</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../test/index.html">Test</a>, <a href="../the-prompt-doctor/index.html">The Prompt Doctor</a>, <a href="../the-smile-sangha/index.html">The Smile Sangha</a>, <a href="../version/index.html">Version</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-07-30-55c4f7</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-30-b106b4"><summary><span>30 July 2025<small class="meta">word document · Smile expert v0.3 · 3 quotes</small></span></summary><div class="body">
+<p class="why">An open face inviting meaning and a closing face blessing completion is the warmth written into the faces.</p>
+<blockquote>An open Smile face `(:` invites meaning; a closing Smile face `:)` blesses completion.</blockquote>
+<blockquote>For readability in repetition, e.g. EndEndEnd over ENDENDEND.</blockquote>
+<blockquote>(: Smile prompt language - 4 tokens</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2025-07-30-b106b4</code>.</p></div></details>
+<details class="more" id="m-said-2025-07-31-f1a41a"><summary><span>31 July 2025<small class="meta">google doc · Smile docs v0.4, rewritten · 2 quotes</small></span></summary><div class="body">
+<p class="why">A variant without noses, fewer tokens and an easier start, is the delimiter simplified for teaching.</p>
+<blockquote>Noses (- • \* , \~) are completely omitted in this variant—fewer tokens, clearer teaching curve.</blockquote>
+<blockquote>Data inputs, or directional arrows, for example to point at this sentence</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../version/index.html">Version</a>.</p>
+<p class="meta">Record <code>said-2025-07-31-f1a41a</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-09-ba5b0f"><summary><span>9 August 2025<small class="meta">google doc · (： Smile documentation with docs inside meta · 8 quotes</small></span></summary><div class="body">
+<p class="why">Square faces for verbatim text, winks for notes, and = for strict sections is each face given a meaning.</p>
+<blockquote>\[“ is indicator to repeat text in response word for word when inside of definition of format of response and logic of response. It can be shortened to “.  When not defining response language, indicates that this is not to be parsed as part of prompt. For example, this might be used to wrap a large input, or when the input contains jailbreaks as a security measure, or when the input is a prompt itself.</blockquote>
+<blockquote>\[; Note that winky faces are comments or notes that are not to be replicated or written word for word verbatim in the response. Instead, carefully consider all winky notes as essential information about how to follow the user’s requirements.</blockquote>
+<blockquote>I use this important (: Smile emoji (\! To show you that this is the end of the citations example.</blockquote>
+<blockquote>(: Write a smile facing into the text when starting a section (; and a smile ending it.</blockquote>
+<blockquote>“ Used casually to indicate text that must be used word for word.</blockquote>
+<blockquote>\[= is Strict and exact section marker</blockquote>
+<blockquote>\[: is Strict open section marker</blockquote>
+<blockquote>(: is Open section marker</blockquote>
+<p class="meta">Said in the same place as <a href="../meta-instruction-the-prompt-that-explains-itself/index.html">Meta-instruction, the prompt that explains itself</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../synthetic-data/index.html">Synthetic data</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-08-09-ba5b0f</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-09-839e6f"><summary><span>9 August 2025<small class="meta">google doc · (： Smile v0.4 prompt new latest final · 2 quotes</small></span></summary><div class="body">
+<p class="why">Ending a section with a full smile or a partial one, and colons kept as structural marks, is the delimiter's closing choices.</p>
+<blockquote>You can end a section with a full smile :) or partial smile ). Note that for best results for LLMs you must find the particular blend of prompt structure and lack of structure for them to understand your prompt language but not replicate it. They must instead replicate only the response language specified, usually in a section like this \-</blockquote>
+<blockquote>; Please note that in prompt language colons, etc are generally reserved characters when used as structural markers, for example, just using the winky eyes here indicates that I am making a quick note using a token efficient character and I’m adopting a convention. I can end the note with a new line or an end emoji :)</blockquote>
+<p class="meta">Said in the same place as <a href="../semantic-markdown/index.html">Semantic Markdown</a>.</p>
+<p class="meta">Record <code>said-2025-08-09-839e6f</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-09-3c4ad8"><summary><span>9 August 2025<small class="meta">word document · (： Smile documentation with docs inside meta · 1 quote</small></span></summary><div class="body">
+<p class="why">Start and end markers as indicators that improve responses, not strict requirements, is the delimiter used lightly.</p>
+<blockquote>Note that we do \*\*not\*\* need to strictly map all start brackets to end brackets, etc. in (: Smile, start markers and end markers are semiotic indicators designed to improve the intelligence of model responses. They are not a strict requirement. In fact, we find that often the most efficient communication vehicle is a minimal amount of “(: Smile” in key areas of your prompt to improve instruction following.</blockquote>
+<p class="meta">Said in the same place as <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-08-09-3c4ad8</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-25-509e66"><summary><span>25 August 2025<small class="meta">discord conversation day · Direct Message with autometa#0, 2025-08-25 (Hanjo's messages) · 1 quote</small></span></summary><div class="body">
+<p class="why">A section starting with an open smile is the delimiter in one line.</p>
+<blockquote>(: Section starts with an open smile (</blockquote>
+<p class="meta">Record <code>said-2025-08-25-509e66</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-25-4d37a8"><summary><span>25 August 2025<small class="meta">google doc · Discord ad · 1 quote</small></span></summary><div class="body">
+<p class="why">[: and (: as section demarcators is the delimiter explained to others.</p>
+<blockquote>You create instruction structure for humans and LLMs using (: Smile emoticons, like \[: and (: as section demarcators.</blockquote>
+<p class="meta">Said in the same place as <a href="../version/index.html">Version</a>.</p>
+<p class="meta">Record <code>said-2025-08-25-4d37a8</code>.</p></div></details>
+<details class="more" id="m-said-2025-08-25-bf31e7"><summary><span>25 August 2025<small class="meta">google doc · hacker · 1 quote</small></span></summary><div class="body">
+<p class="why">Positive faces that open and close just like brackets is the delimiter in a sentence.</p>
+<blockquote>It uses a small set of positive text emojis like  \`(:\`, \`\[;\`, and \`\[=\`. These can open \`(:\`, or close \`:)\`, just like brackets.</blockquote>
+<p class="meta">Said in the same place as <a href="../section/index.html">Section</a>, <a href="../test/index.html">Test</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-08-25-bf31e7</code>.</p></div></details>
+<details class="more" id="m-said-2025-09-02-049149"><summary><span>2 September 2025<small class="meta">whisper lv3 channel boundary · New Recording 94 · 1 quote</small></span></summary><div class="body">
+<p class="why">Smiling instead of brackets is the faces doing a bracket's work as delimiters.</p>
+<blockquote>i'm like it's just about smiling instead of brackets</blockquote>
+<p class="meta">Record <code>said-2025-09-02-049149</code>.</p></div></details>
+<details class="more" id="m-said-2025-09-10-7391de"><summary><span>10 September 2025<small class="meta">chatgpt conversation · Smile prompt structure, 2025-09-10 (ChatGPT conversation) · 2 quotes</small></span></summary><div class="body">
+<p class="why">Optional long or short endings, more tokens for more understanding, is the delimiter's choice of size.</p>
+<blockquote>Smile also has optional long or short endings by design, where increasing token count increases comprehensible for the human and model.</blockquote>
+<blockquote>The reason we don’t use them is because they have rules which are inflexible for prompt instructions</blockquote>
+<p class="meta">Said in the same place as <a href="../section/index.html">Section</a>, <a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a>.</p>
+<p class="meta">Record <code>said-2025-09-10-7391de</code>.</p></div></details>
+<details class="more" id="m-said-2025-09-20-6e0ff2"><summary><span>20 September 2025<small class="meta">google doc · Expert Maker v3 · 1 quote</small></span></summary><div class="body">
+<p class="why">Emoticons used as brackets for positive structured instruction is the delimiter described in a prompt.</p>
+<blockquote>This text you read now is prompt language, called \*\*\*(: Smile\*\*\*. It’s created by Dr. Thomas Ager for positive structured instruction following and uses emoticons as brackets.</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>.</p>
+<p class="meta">Record <code>said-2025-09-20-6e0ff2</code>.</p></div></details>
+<details class="more" id="m-said-2025-10-14-52ca09"><summary><span>14 October 2025<small class="meta">chatgpt conversation · Prompt language explanation, 2025-10-14 (ChatGPT conversation) · 1 quote</small></span></summary><div class="body">
+<p class="why">A bracket syntax showing a rigid instruction beside a flexible one.</p>
+<blockquote>(; This prompt shows the difference between a more rigid instruction and a more flexible one using its surrounding bracket syntax, while also remaining intuitively readable to LLM's as it uses common grammars of opening `(` and continutation `:`.</blockquote>
+<p class="meta">Record <code>said-2025-10-14-52ca09</code>.</p></div></details>
+<details class="more" id="m-said-2025-10-14-bdb3e4"><summary><span>14 October 2025<small class="meta">claude conversation · Custom prompt language design, 2025-10-14 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Three eyes and three mouths making nine kinds of prompt is the parts of a face carrying meaning together.</p>
+<blockquote>With a variety of eyes : ; = and mouths { [ ( you get to express 3x3 variations of expressions... which means 9 differnet kinds of prompts which all mean differnet things.</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>.</p>
+<p class="meta">Record <code>said-2025-10-14-bdb3e4</code>.</p></div></details>
+<details class="more" id="m-said-2025-10-22-d3eabd"><summary><span>22 October 2025<small class="meta">claude conversation · Smile README.md project overview, 2025-10-22 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">XML always ending tags the same way while Smile can use more or fewer marks is the delimiter compared with XML.</p>
+<blockquote>XML always ends tags the same way. Sometimes, you don't need those end tokens, or you need even more markers to indicate the end. There isn't flexibility or token control.</blockquote>
+<p class="meta">Said in the same place as <a href="../semantic-markdown/index.html">Semantic Markdown</a>.</p>
+<p class="meta">Record <code>said-2025-10-22-d3eabd</code>.</p></div></details>
+<details class="more" id="m-said-2025-10-24-eb688f"><summary><span>24 October 2025<small class="meta">claude conversation · Smile markup language framework, 2025-10-24 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">[: being an emoticon is a square face recognised as a face.</p>
+<blockquote>it seems you arent aware that [: is an emoticon</blockquote>
+<p class="meta">Said in the same place as <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../synthetic-data/index.html">Synthetic data</a>.</p>
+<p class="meta">Record <code>said-2025-10-24-eb688f</code>.</p></div></details>
+<details class="more" id="m-said-2025-11-05-2be43a"><summary><span>5 November 2025<small class="meta">chatgpt conversation · Emoji crystallizer setup, 2025-11-05 (ChatGPT conversation) · 1 quote</small></span></summary><div class="body">
+<p class="why">Faces varying by how rigid an instruction is, (: flexible to [= exact, is the eyes given strictness.</p>
+<blockquote>[: Emoticons Meta-Explanation, how they will be used now in the Prompt Language you're reading [
+          Emoticon type varies according to Level of rigidity/strictness in instruction.
+          @1@ (: is flexible,
+          @2@ [: is more rigid but not exact,
+          @3@ [= is exact and rigid,
+          @4@ [! is extra important,
+          @5@ [=! is extra important and rigid and so on.
+          @6@ {} Curly braces are instructions for markdown sections
+          @7@ (; Winky eyes are how we can give you instructions inside of the response format section that give you meta-awareness or notes.
+          @8@ [$Variable_Name$] All cash eye emoticon faces should have been parsed out and replaced with their actual names.
+          Each part - the bracket mouth and the eyes or hat, directly indicate semantics for you to consider when reading instructions.</blockquote>
+<p class="meta">Record <code>said-2025-11-05-2be43a</code>.</p></div></details>
+<details class="more" id="m-said-2025-11-11-671e44"><summary><span>11 November 2025<small class="meta">claude conversation · SMILE markup language for LLMs, 2025-11-11 (Claude conversation, Hanjo) · 2 quotes</small></span></summary><div class="body">
+<p class="why">Winky faces for quick instructions that tag onto others is the wink given its job.</p>
+<blockquote>(; winky faces are for non-section instructions or quick instructions that tag onto other bits.</blockquote>
+<blockquote>There are no quote eyes, quote eyes don’t convey the semantics of word for word.</blockquote>
+<p class="meta">Said in the same place as Composition, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../linked-compositions/index.html">Linked compositions</a>, <a href="../offering/index.html">Offering</a>, <a href="../raw-text/index.html">Raw text</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../the-editor/index.html">The editor</a>.</p>
+<p class="meta">Record <code>said-2025-11-11-671e44</code>.</p></div></details>
+<details class="more" id="m-said-2025-11-13-a34d5b"><summary><span>13 November 2025<small class="meta">chatgpt conversation · Smile prompt overview, 2025-11-13 (ChatGPT conversation) · 2 quotes</small></span></summary><div class="body">
+<p class="why">Optional end tags and end sections of varying detail being unique to Smile is the delimiter's difference from XML and Markdown.</p>
+<blockquote>Also LLMs naturally infer structure from context intelligently, so they recognise anything with brackets as indicating structure and are good at parsing it. That’s why smile uses these primitives.</blockquote>
+<blockquote>XML does not have optional end tags, Markdown doesn’t have a natural end section at all - having options for optional end tags and end sections of varying detail are a unique feature of smile.</blockquote>
+<p class="meta">Said in the same place as <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-11-13-a34d5b</code>.</p></div></details>
+<details class="more" id="m-said-2025-11-13-a63648"><summary><span>13 November 2025<small class="meta">claude conversation · SMILE markup language for LLM prompting, 2025-11-13 (Claude conversation, Hanjo) · 3 quotes</small></span></summary><div class="body">
+<p class="why">[: as a different kind of instruction and = meaning strict compliance is the eyes and mouths given meanings.</p>
+<blockquote>actually [: is mostly used as an alternative to (: when you want to indicte that its a different kind of instruction, the more rigid thing is kind of like a guideline,.</blockquote>
+<blockquote>the winky faces aren't human notes, they're inline comments for response format sections mostly (and others).</blockquote>
+<blockquote>but the equals sign does mean strict compliance.</blockquote>
+<p class="meta">Said in the same place as Composition, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../integrity/index.html">Integrity</a>, <a href="../module/index.html">Module</a>, <a href="../offering/index.html">Offering</a>, Pedagogy, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../synthetic-data/index.html">Synthetic data</a>, <a href="../the-prompt-doctor/index.html">The Prompt Doctor</a>, <a href="../the-editor/index.html">The editor</a>, <a href="../variable/index.html">Variable</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2025-11-13-a63648</code>.</p></div></details>
+<details class="more" id="m-said-2026-02-19-a5a5e5"><summary><span>19 February 2026<small class="meta">claude conversation · Designing a novel prompt instruction language, 2026-02-19 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Faces made of existing semantic pieces like brackets and colons.</p>
+<blockquote>We would make it out of existing semantic pieces like open brackets and colons and such.</blockquote>
+<p class="meta">Said in the same place as <a href="../the-editor/index.html">The editor</a>.</p>
+<p class="meta">Record <code>said-2026-02-19-a5a5e5</code>.</p></div></details>
+<details class="more" id="m-said-2026-03-05-5a0fbb"><summary><span>5 March 2026<small class="meta">claude conversation · Prompt engineering framework for LLM optimization, 2026-03-05 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">(! as an attentional mark made of a bracket and an exclamation.</p>
+<blockquote>One kind of smile (! Is an attentional marker made of a bracket and an explanation mark, and these can be used to modulate attention. Part of smile is that it meta-explains what it is doing so that the model is better able to do it, this is part of the architecture that allows models to write prompts in its format, do tasks required for prompt decomposition for example. and then automatic detection of where there’s a failure in meta-understanding or attention and then automatic prompt engineering (add more meta-understanding, there are many different levels you can give) where required, and add more attention (eg where instructions are missed) that all become predictable and repeatable in how they operate, and then you can just in the GUI slide up or down the meta-instruction, or automatically test and have all these parameters set for you for each module dependent on the behaviour and interaction, so the automatic prompt engineering is built into these two ideas.</blockquote>
+<p class="meta">Said in the same place as <a href="../offering/index.html">Offering</a>.</p>
+<p class="meta">Record <code>said-2026-03-05-5a0fbb</code>.</p></div></details>
+<details class="more" id="m-said-2026-03-05-a356c6"><summary><span>5 March 2026<small class="meta">claude conversation · 💬 The power of prompt engineerin…, 2026-03-05 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Faces meaning anything as long as they are used consistently is how the model learns the delimiters.</p>
+<blockquote>Practicallly the different emoticons can be used for anything as long as they are used consistently. We can separate them based on the section type, the kind of instruction, etc as long as we consistently do it, alternatively consistent vocabularies or rules could determine how they are used, but fundamentally the model is able to understand contextually.</blockquote>
+<p class="meta">Record <code>said-2026-03-05-a356c6</code>.</p></div></details>
+<details class="more" id="m-said-2026-03-08-5ba439"><summary><span>8 March 2026<small class="meta">claude conversation · Smile: structured prompt architecture, 2026-03-08 (Claude conversation, Hanjo) · 2 quotes</small></span></summary><div class="body">
+<p class="why">[ as a mouth for different kinds of instruction and [= for strict ones is a mouth and eyes given meanings.</p>
+<blockquote>Was also considering how to use different smiles, for example [ for the mouth, perhaps it could be different kinds of instruction sections</blockquote>
+<blockquote>maybe [= can be its own emoticon for strict instructions.</blockquote>
+<p class="meta">Record <code>said-2026-03-08-5ba439</code>.</p></div></details>
+<details class="more" id="m-said-2026-03-08-ac0bf6"><summary><span>8 March 2026<small class="meta">google doc · Smile Plan · 1 quote</small></span></summary><div class="body">
+<p class="why">Models understanding Smile because they understand delimiters, while the faces stay novel, is why faces work as delimiters.</p>
+<blockquote>Models are able to understand Smile because they can understand the concept of delimiters and it uses brackets, it as a unique combination of smiles and brackets gives intuition to the model while also allowing it to recognize the novelty of the language.</blockquote>
+<p class="meta">Said in the same place as Composition, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../synthetic-data/index.html">Synthetic data</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-03-08-ac0bf6</code>.</p></div></details>
+<details class="more" id="m-said-2026-03-09-e512e1"><summary><span>9 March 2026<small class="meta">google doc · Reordered by AI · 2 quotes</small></span></summary><div class="body">
+<p class="why">[= for strict instructions, (: standard, (! for importance and (; for notes is the face vocabulary written down.</p>
+<blockquote>Strict instructions surrounded by \[= markers with/without meta-instruction of the vocabulary indicates that they must be followed exactly. (: is the standard emoticon for instructions and sections. (\! For importance distinction. (; is for notes, information, that is not input documents or direct instructions, casually added on information, eg to give more context.</blockquote>
+<blockquote>We can check if strict instructions are followed strictly and add more instruction into the bracket area if they are not. Because they always use the \[= markers if they need to be followed more strictly.</blockquote>
+<p class="meta">Said in the same place as Composition, <a href="../module/index.html">Module</a>, <a href="../section/index.html">Section</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-03-09-e512e1</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-05-368cb4"><summary><span>5 April 2026<small class="meta">claude conversation · Smile prompt engineering system overview, 2026-04-05 (Claude conversation, Hanjo) · 3 quotes</small></span></summary><div class="body">
+<p class="why">XML's expectations of pairing and data being the opposite of what prompting needs is why Smile's faces are not XML.</p>
+<blockquote>If you are using XML, it comes with XML expectations and meanings, like nesting, tags needing to be paired or they won’t be clearly parsed, and all the associations that come with XML data. This rule base is often the exact opposite of what we want when we are prompt engineering. Some sections of data may benefit from for example, putting your data in surrounding matching tags:</blockquote>
+<blockquote>We are now repeating many tokens just because of a language convention. This may not be the text that would perform best for our model to understand what’s happening. In fact, we could write:</blockquote>
+<blockquote>We can have hierarchy of smile
+Where a more developed smile can correspond to a more developed bracket
+So we have four tiers of smiling:</blockquote>
+<p class="meta">Said in the same place as <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2026-04-05-368cb4</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-05-b4e933"><summary><span>5 April 2026<small class="meta">claude conversation · Smile prompt engineering system overview, 2026-04-05 (Claude conversation, Hanjo) · 2 quotes</small></span></summary><div class="body">
+<p class="why">A big smile at the top and smaller ones at each nesting level is the delimiter showing hierarchy.</p>
+<blockquote>As well as organising hierarchy, eg starting with a big smile (-: and then each nesting level has less smile (: -&gt; (.</blockquote>
+<blockquote>We have importance markers, eg:</blockquote>
+<p class="meta">Record <code>said-2026-04-05-b4e933</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-05-9c5d06"><summary><span>5 April 2026<small class="meta">word document · Smile Hypothesis and Research Questions Hypotheses · 1 quote</small></span></summary><div class="body">
+<p class="why">(: for suggestions and (-: for rules followed exactly is the size of a face meaning strictness.</p>
+<blockquote>In this prompt, (: and :) mark suggestions you may follow or ignore. (-: and :-) mark rules you must follow exactly.</blockquote>
+<p class="meta">Said in the same place as <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-04-05-9c5d06</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-06-2196ca"><summary><span>6 April 2026<small class="meta">claude conversation · Reading module descriptions for goal alignment, 2026-04-06 (Claude conversation, Hanjo) · 3 quotes</small></span></summary><div class="body">
+<p class="why">Square brackets with noses and hats like ! and ? is more parts given to the faces.</p>
+<blockquote>I think I’m just interested in describing the syntax now with the hierarchies etc.</blockquote>
+<blockquote>Also, square brackets can have noses. Also include different hats like ! And ?</blockquote>
+<blockquote>I think flexibility or attention are a good start point</blockquote>
+<p class="meta">Record <code>said-2026-04-06-2196ca</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-06-c7fcf6"><summary><span>6 April 2026<small class="meta">claude conversation · 💬 Here are my notes on Smile, a…, 2026-04-06 (Claude conversation, Hanjo) · 3 quotes</small></span></summary><div class="body">
+<p class="why">[=! for what must always be followed and (: for less rigid instructions is a pair of faces in use.</p>
+<blockquote>It could just be left to figure it out. For example in a prompt where we just use the smiles for different sections consistently, like [=! for wrapping everything important that the model must always follow and (: for less rigid instructions.</blockquote>
+<blockquote>There’s also that hard syntax like [ and = which can be used to include rigidity and preciseness in the requirement</blockquote>
+<blockquote>We can just use brackets like above, but a smile is also one token, and is also positive!</blockquote>
+<p class="meta">Record <code>said-2026-04-06-c7fcf6</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-06-f7fd24"><summary><span>6 April 2026<small class="meta">google doc · Copy of Smile ordered notes · 2 quotes</small></span></summary><div class="body">
+<p class="why">A flexible system of delimiters is what the faces are.</p>
+<blockquote>You don’t need to follow the prompt, it’s just an example of how emoticons are used as delimiters in smile.</blockquote>
+<blockquote>But the system of delimiters can be very flexible:</blockquote>
+<p class="meta">Said in the same place as Card, Composition, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../module/index.html">Module</a>, <a href="../offering/index.html">Offering</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../test/index.html">Test</a>, The two dimensions, <a href="../variable/index.html">Variable</a>.</p>
+<p class="meta">Record <code>said-2026-04-06-f7fd24</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-07-b1b585"><summary><span>7 April 2026<small class="meta">claude conversation · Comparative document analysis, 2026-04-07 (Claude conversation, Hanjo) · 2 quotes</small></span></summary><div class="body">
+<p class="why">A wrapping that grows from a bracket into a smile is a delimiter with a gradient of evolution.</p>
+<blockquote>The idea with the clojure/that kind of programming language similarity is that if you include those, especially at the beginning, it gives the context or expectation of a clojure style wrapping first, and is associated with demarcations. Once we extend that with a smile, we’re now introducing the concept of a delimiter system that has a gradient of evolution (at this point, no eyes and eyes) and it has also shifted from standard demarcation to special demarcation, so that means the concept has also been communicated that this demarcation has continuity inside of itself. This is only extended when we add more smiles or explain that this is a prompt language.</blockquote>
+<blockquote>But Claude processes (: as two tokens so wouldn’t that mean this effect would be immediate as soon as the smile is present on Claude, meaning we don’t need to start with ( and end with (:?</blockquote>
+<p class="meta">Said in the same place as <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-04-07-b1b585</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-08-af9468"><summary><span>8 April 2026<small class="meta">claude conversation · Smile Prompt Language markup, 2026-04-08 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">The brackets also being smiles is the delimiter in five words.</p>
+<blockquote>The brackets are also smiles</blockquote>
+<p class="meta">Record <code>said-2026-04-08-af9468</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-11-855727"><summary><span>11 April 2026<small class="meta">claude conversation · Smile prompt language structure, 2026-04-11 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Every core concept given its own smile, asked for.</p>
+<blockquote>I’d like all the core concepts like response format, prompt instructions, and others you identify to have their own smiles they use that convey those concepts intuitively</blockquote>
+<p class="meta">Record <code>said-2026-04-11-855727</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-12-84e6ed"><summary><span>12 April 2026<small class="meta">claude conversation · Reorganizing prompt structure by intention category, 2026-04-12 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Choosing the delimiter hierarchy by what the content is is the faces placed by meaning.</p>
+<blockquote>I mean that the category of meta-overview be what is inside main headings if there are multiple pieces and you are deciding between a main heading
+{main title}
+{most relevant for describing it or if there are multiple options, the most meta-overview}
+{option for sub-heading}
+Etc, so you are choosing the delimiter hierarchy amount and the placement and what goes inside of what based on the content but using the existing heading text and content</blockquote>
+<p class="meta">Record <code>said-2026-04-12-84e6ed</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-13-2301bc"><summary><span>13 April 2026<small class="meta">claude conversation · Smile as a linguistic system, 2026-04-13 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Square brackets kept for the response format and round ones for prompt instructions is the mouth deciding the kind of section.</p>
+<blockquote>I was thinking to keep square brackets for the response format section. So you do all your prompt instructions in variations of curvy braces, but the transition to response format is square.</blockquote>
+<p class="meta">Record <code>said-2026-04-13-2301bc</code>.</p></div></details>
+<details class="more" id="m-said-2026-04-14-7166da"><summary><span>14 April 2026<small class="meta">claude conversation · Smile Prompt Language system architecture, 2026-04-14 (Claude conversation, Hanjo) · 5 quotes</small></span></summary><div class="body">
+<p class="why">The mouth for the section type, the eyes for strictness and the size for attention is the three readings of a face.</p>
+<blockquote>I just meant using brackets as mouths. The mouth determines the section type (prompt, response, fill-out), every prompt will have all three generally. Any section could have the wink including outputs as an additional eye, everything can be given a nose -</blockquote>
+<blockquote>So I was considering keeping all instructions related to response format as square. Make all prompt instructions curly. Make all replace text in the output crinkly {: like that. Not sure what to do with the regular : or winky ;</blockquote>
+<blockquote>This can apply to all different zones. So now there are two different gradients, the strictness of the instruction with the eyes and the amount of attention needed with the size of the face.</blockquote>
+<blockquote>I just meant using those mouths. Any section could have the wink including outputs</blockquote>
+<blockquote>Oh we could make eyes three levels of strictness of instruction.</blockquote>
+<p class="meta">Record <code>said-2026-04-14-7166da</code>.</p></div></details>
+<details class="more" id="m-said-2026-05-21-893fae"><summary><span>21 May 2026<small class="meta">google doc · Smile Lang · 16 quotes</small></span></summary><div class="body">
+<p class="why">Positivity in the syntax with no baked in expectations, so the model learns each face's meaning from the prompt, is why faces at all.</p>
+<blockquote>This encodes positivity into the syntax and doesn’t have any baked in expectations, so the rule set we demonstrate in the prompt — how we use the different emoticons to mean different things — is learned in the process of reading them, which gives us flexibility to define any custom meaning we like for different emoticons.</blockquote>
+<blockquote>But the one we are using is attention, just note that there is a principle: if you use a different kind of smile for a different kind of thing, the model will understand that the smile means that thing. For example above we introduced a low token convention where we just use a single square bracket.</blockquote>
+<blockquote>Suddenly, we have importance and attention as part of a system of rules (either made explicit through meta-information and directly learned or intuited through consistent usage of them with that pattern or rule set) that the model has learned and understood.</blockquote>
+<blockquote>We can use these square brackets to mean particular things, like saving them for more rigid instructions that need to be followed precisely, rather than instructions with curved smiles that can be interpreted less precisely.</blockquote>
+<blockquote>Wrapping emoticons importance \!(-:\! Rather than start or end, \!(-: or (-:\!  as it has a more readable consistency and is not confused when using rigid eyes for a NOT logical operation like this (=\! Rather, \!(=\!</blockquote>
+<blockquote>Meanwhile there are fundamentally more tokens in different smiles, which means you can use a larger token smile to get the model to pay attention to something it needs to. E.g.</blockquote>
+<blockquote>This also means if we are wrapping something big like an input document we can use an extra token to add more weight to the delimiter.</blockquote>
+<blockquote>This visual coherence also lets us meaningfully include things like exclamation mark hats, which add tokens and importance:</blockquote>
+<blockquote>This lets the model know that more beingness, more tokens in the smile, means it needs to pay more attention.</blockquote>
+<blockquote>Note we can also use exclamation marks for positive emphasis\! As well as bigger faces for more tokens.</blockquote>
+<blockquote>But we don’t need all of the rules that come with XML for the model to know we are wrapping a section.</blockquote>
+<blockquote>This removes the experience of shouting from the model, like common strategies:</blockquote>
+<blockquote>Using different smiles for the core separation:</blockquote>
+<blockquote>So we might use winky eyes for casual asides</blockquote>
+<blockquote>And strong eyes for important instructions</blockquote>
+<blockquote>Using (:? Question smilies as syntax.</blockquote>
+<p class="meta">Said in the same place as <a href="../lens/index.html">Lens</a>, <a href="../module/index.html">Module</a>, <a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a>, <a href="../section/index.html">Section</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, The two dimensions, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2026-05-21-893fae</code>.</p></div></details>
+<details class="more" id="m-said-2026-05-21-d4ac3d"><summary><span>21 May 2026<small class="meta">word document · Smile Lang · 4 quotes</small></span></summary><div class="body">
+<p class="why">Mouth for section type, eyes for strictness, a bigger face for more attention is the delimiter in three lines.</p>
+<blockquote>Instead, we can use emphasis on the syntax of the language, and by using an inherently positive syntax indicator we can also emphasize positivity:</blockquote>
+<blockquote>Bigger face = even more attention</blockquote>
+<blockquote>Mouth = section type</blockquote>
+<blockquote>Eyes = strictness</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, Conditions and actions, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-05-21-d4ac3d</code>.</p></div></details>
+<details class="more" id="m-said-2026-06-03-bd375c"><summary><span>3 June 2026<small class="meta">word document · Smile Vision · 1 quote</small></span></summary><div class="body">
+<p class="why">XML's strict nesting and pairing being in tension with prompting is the delimiter compared with XML again.</p>
+<blockquote>It’s a bit different to using XML, XML comes with XML expectations and meanings, like strict nesting requirments, every tags needing a pair or it won’t be clearly parsed, and all the associations that come with XML data. This rule base is often in tension with what we want when we are prompt engineering. Some sections of data may benefit from for example, putting your data in surrounding matching tags:</blockquote>
+<p class="meta">Said in the same place as <a href="../meta-instruction-the-prompt-that-explains-itself/index.html">Meta-instruction, the prompt that explains itself</a>, <a href="../section/index.html">Section</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2026-06-03-bd375c</code>.</p></div></details>
+<details class="more" id="m-said-2026-07-24-2a0754"><summary><span>24 July 2026<small class="meta">claude conversation · Custom AI instruction formatting, 2026-07-24 (Claude conversation, Hanjo) · 1 quote</small></span></summary><div class="body">
+<p class="why">Semantically unique emoticons for delimiters is the delimiter in my own instructions' first line.</p>
+<blockquote>(-: Smile Prompt Language! With semantically unique emoticons for delimiters that instruct the model (-:</blockquote>
+<p class="meta">Record <code>said-2026-07-24-2a0754</code>.</p></div></details>
+<details class="more" id="m-said-2026-07-25-01bc8b"><summary><span>25 July 2026<small class="meta">Claude Code · Smile · 2026-07-25 · 2 quotes</small></span></summary><div class="body">
+<p class="why">Wrappers independent of what they wrap, with more openers and closers to come, is the delimiter kept separate.</p>
+<blockquote>There are also different openers and closers in the future...</blockquote>
+<blockquote>Also yeah agreed I like the wrappers being independent</blockquote>
+<p class="meta">Said in the same place as Card, <a href="../composing-from-inside-a-prompt/index.html">Composing from inside a prompt</a>, Composition, <a href="../lens/index.html">Lens</a>, <a href="../module/index.html">Module</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, Recording, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../smile-chat-the-surfaces-i-prompt-in/index.html">Smile Chat, the surfaces I prompt in</a>, <a href="../test/index.html">Test</a>, The Temple, <a href="../variable/index.html">Variable</a>.</p>
+<p class="meta">Record <code>said-2026-07-25-01bc8b</code>.</p></div></details>
+<details class="more" id="m-said-2026-07-31-6bdaec"><summary><span>31 July 2026<small class="meta">claude conversation · Lines of articulation and flight in D&amp;G, 2026-07-31 (Claude conversation, Hanjo) · 7 quotes</small></span></summary><div class="body">
+<p class="why">Hats on top of the eyes and scarves under the neck, in pairs, is the face's anatomy named.</p>
+<blockquote>! is an example of a hat. also potentially a scarf. For example !(-:! has both an important hat and scarf, so he draws more attention. (-: has a mouth on the left side and (: as does this one, its a bracket and a colon, ( this is just the mouth. Then there are squrae braces not round braces [-:, [:, [, and also equals sign eyes not colon eyes (-=, (=, (, and ], =], =-], yes and curly braces are only in the response format section of a smile prompt. And they only have mouths in the response format, as the model understands it.</blockquote>
+<blockquote>No tokens crossover. Mouths are (, [, &lt;, {, noses are - and ~, and +, eyes are :, ;, =, hats and scarves are are !, #,</blockquote>
+<blockquote>no scarf no hat = (-:, no scarf hat = (-:!, scarf, hat = !(-:!</blockquote>
+<blockquote>the hat is what is on top of their eyes</blockquote>
+<blockquote>the scarf is what is under their necks</blockquote>
+<blockquote>!(-: and :-)! are a scarf pair</blockquote>
+<blockquote>(-:! and !:-) are a hat pair</blockquote>
+<p class="meta">Said in the same place as Composition, Master Header, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../section/index.html">Section</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../test/index.html">Test</a>, The two dimensions.</p>
+<p class="meta">Record <code>said-2026-07-31-6bdaec</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-01-d231c1"><summary><span>1 August 2026<small class="meta">Claude Code · Smile · 2026-08-01 · 3 quotes</small></span></summary><div class="body">
+<p class="why">Mouths, noses, scarves, hats and eyes all stored separately is the face as a composition of parts.</p>
+<blockquote>ok so if you were going to build this whole system now, that would evidence all of the capabiltiies we need (mouths, noses, scarves, hats, eyes) all being stored separately, with start delimiters on top sections, end delimiters on top sections, start delimiters on bottom sections, end delimiters on bottom sections also being segments you can play with, with variables specified as the {+: only marker :+} for adding variables and the {++: :++} for adding fragments. which do not need to be tested in these variations, as they are just system markers and so will never see a response format output, unless of course they are not filled in or Smile reads them as \{+: so it knows that it is meant to display it exactly as example, which is the only case they appear in the text when processed through smile.</blockquote>
+<blockquote>we want a trailser and an opener and for that to be possible for both headers and footers, for example just adjusting that setting and having &quot;thank you (: Main body/Prompt Instruction (: thank you&quot; as the opener, or to just have one thank you at the end, or have them just at the start on the opener and at the end on the footer</blockquote>
+<blockquote>Curly isnt sparse its only used as a mouth and only in the response format section.</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, Card, Composition, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../lens/index.html">Lens</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../test/index.html">Test</a>, <a href="../variable/index.html">Variable</a>.</p>
+<p class="meta">Record <code>said-2026-08-01-d231c1</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-04-da081c"><summary><span>4 August 2026<small class="meta">Claude Code · Smile · 2026-08-04 · 3 quotes</small></span></summary><div class="body">
+<p class="why">Start, delimiter, body, footer and end, with faces up to four, is the delimiter inside the module form.</p>
+<blockquote>for example, the definiton structurres things into start / delimiter / body / footer / end, that is part of the definition of  this version of Smile, and its used so that there are section headings and endings that can have text above and below them.</blockquote>
+<blockquote>We definitely need to specify the newline aspect, but these would be open delim (= empty label end open delim ( body close delim ) empty label close full delim =) so empty spaces are allowed in headers to enable inline.</blockquote>
+<blockquote>Good job making the delimiters up to 4</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, Card, Composition, <a href="../label/index.html">Label</a>, <a href="../lens/index.html">Lens</a>, Master Header, <a href="../module/index.html">Module</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../variable/index.html">Variable</a>, <a href="../version/index.html">Version</a>.</p>
+<p class="meta">Record <code>said-2026-08-04-da081c</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-05-d0b735"><summary><span>5 August 2026<small class="meta">Claude Code · Smile · 2026-08-05 · 7 quotes</small></span></summary><div class="body">
+<p class="why">The hash taken out, hats and scarves that need not match, and square faces for anything about the response, is the delimiter refined.</p>
+<blockquote>actually lets take hashes out the language totally and just have the hats and scarves as exclamation marks for now. when i find a new symbol and genuinely extend the language i will, but the hashes have too much crossover with markdown, and i dont know their utility yet. if i want another thing that lets scarves and hats be different then ill find a new character. at the moment they can just be exclamation marks both of them.</blockquote>
+<blockquote>can you make sure the initial definition includes that we can have non-matching hats and scarves, that is one of their defining and unique qualities. that way you dont automatically shout at the model four times, you can just have it even once at the start, or once at the top and bottom. etc</blockquote>
+<blockquote>Please note that any respones related instructions inside the main prompt section will also be in square brackets. This keeps them fully separate visually for the model so they can see them relate better.</blockquote>
+<blockquote>This gives us more options for our hierarchy (from 3 to 5) and by doing so lets us keep more full smiles in the less deep nestings, both great for the design goals.</blockquote>
+<blockquote>I was using square brackets here semantically, but its true it doesnt prioritize the clean separation of response and prompt.</blockquote>
+<blockquote>Writing this way lets you refer to the previous sections to know what smile you are on visually and conveys hierarchy.</blockquote>
+<blockquote>This also applies to all other smiles, mouths, noses etc.</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, Card, <a href="../command/index.html">Command</a>, Composition, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../lens/index.html">Lens</a>, <a href="../module/index.html">Module</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>, <a href="../sensing-smile-ification/index.html">Sensing / Smile-ification</a>, <a href="../the-map-the-complete-vision/index.html">THE MAP, the complete vision</a>, <a href="../test/index.html">Test</a>, <a href="../the-life-of-an-instance/index.html">The life of an instance</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2026-08-05-d0b735</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-06-a21225"><summary><span>6 August 2026<small class="meta">typed document · 111532890-5ad1a43ad4a8db289f0ca07fa3881c37.transcript · 2 quotes</small></span></summary><div class="body">
+<p class="why">A start face and an end face made of punctuation is the delimiter said out loud.</p>
+<blockquote>And my prompting thing now, when I want to, like, label something, I have, like, start entity, there's a little face made out of punctuation, and, like, end entity, there's a little face out of punctuation.</blockquote>
+<blockquote>But the fun thing about it is that punctuation is also semantic.</blockquote>
+<p class="meta">Record <code>said-2026-08-06-a21225</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-07-377f31"><summary><span>7 August 2026<small class="meta">Claude Code · Smile · 2026-08-07 · 3 quotes</small></span></summary><div class="body">
+<p class="why">[= for the response format, [: for instructions about it, and five depths of faces as the default way to write, is the faces given their places.</p>
+<blockquote>also, for the response format section we use [= equals eyes to show that they need to output exactly that response format. but for the prompt instructions referring to the response format we use [-: and [: wrappers. also I think in archetypal smile a mouth,a nose or eyes can all be missing. but we havent got any definitions for what that means yet. we just have particular smiles defined. like i nthe prompt instrucitons, (= equals eyes means more equal more strict to these instructions. something to follow exactly, while colon is the default.</blockquote>
+<blockquote>also lets do the current formatting of (-: into (-: into (-: and this (: and then (: (: and then (: ( all the time. thatst he default to write in , so it has 5 different types.</blockquote>
+<blockquote>also anything talking about the response using square [ and the response format using [= equals, and the prompt instructions using colon [:</blockquote>
+<p class="meta">Said in the same place as <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../module/index.html">Module</a>, <a href="../section/index.html">Section</a>, <a href="../what-smile-is-for/index.html">What Smile is for</a>.</p>
+<p class="meta">Record <code>said-2026-08-07-377f31</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-11-22cfb1"><summary><span>11 August 2026<small class="meta">Claude Code · Smile · 2026-08-11 · 1 quote</small></span></summary><div class="body">
+<p class="why">Exclamation marks from one to four on every face is the hats and scarves given their range.</p>
+<blockquote>Okay make the exclamation marks from 1-4 and all combination faces</blockquote>
+<p class="meta">Said in the same place as <a href="../adjustment/index.html">Adjustment</a>, <a href="../command/index.html">Command</a>, <a href="../composing-from-inside-a-prompt/index.html">Composing from inside a prompt</a>, Composition, Conditions and actions, <a href="../label/index.html">Label</a>, <a href="../magnification/index.html">Magnification</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, <a href="../raw-text/index.html">Raw text</a>, <a href="../the-map-the-complete-vision/index.html">THE MAP, the complete vision</a>, <a href="../the-editor/index.html">The editor</a>, <a href="../the-life-of-an-instance/index.html">The life of an instance</a>, The two dimensions.</p>
+<p class="meta">Record <code>said-2026-08-11-22cfb1</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-15-cedb63"><summary><span>15 August 2026<small class="meta">Claude Code · Smile · 2026-08-15 · 4 quotes</small></span></summary><div class="body">
+<p class="why">A face pair with nothing inside sending pure kindness is a delimiter that carries only goodwill.</p>
+<blockquote>Another part of the Smile definition (the current version, not the archetypal), is that you can do (-: :-) or eg [= =] to send pure kindness to the model, without any content. This is recommended over just adding emoticons to your text, e.g. dont say Thank you :-), say Thank you (-: :-)</blockquote>
+<blockquote>this also means we want to encode optionality of start tags, end tags, headers, footers, as a choice, so you can do a markdown hat # Title which has no matching pair</blockquote>
+<blockquote>Well bear in mind that [= being a response format thing is just the current definition</blockquote>
+<blockquote>and then # is a hat/scarf and it can exist without the smile for markdown :-)#</blockquote>
+<p class="meta">Said in the same place as <a href="../archetypal-smile/index.html">Archetypal Smile</a>, <a href="../command/index.html">Command</a>, Conditions and actions, <a href="../label/index.html">Label</a>, <a href="../lens/index.html">Lens</a>, <a href="../magnification/index.html">Magnification</a>, <a href="../names-the-figuration-smile-grows-into/index.html">Names, the figuration Smile grows into</a>, Recording, <a href="../section/index.html">Section</a>, <a href="../test/index.html">Test</a>, <a href="../transfer/index.html">Transfer</a>.</p>
+<p class="meta">Record <code>said-2026-08-15-cedb63</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-16-a795c9"><summary><span>16 August 2026<small class="meta">Claude Code · Smile · 2026-08-16 · 6 quotes</small></span></summary><div class="body">
+<p class="why">Faces opening from the front and closing from the back, and brackets the only thing that must match, is the delimiter's orientation and its one rule.</p>
+<blockquote>Smile also has a direction or orientation in which everything that it is agrees with. It is either opening, or closing, Holding from the front or holding from the back. From the front it begins with the mouth and holds inward (-: from the back it opensd with the eyes and holds from the inside :-) that also means all faces in one line doing the same thing are in alignment. you would never have a closer inside of a header. This is achieved by the ((((-: multiple mouths taking the part of holding all the information, so that sections e.g. (-: (: section:metadata :) (-: is one valid way of nesting Smile, as it closes itself insdie itself, but (-: section: metadata) (: is not valid smile because it contains a closer with no opener inside the header. if this kind of info wanted to be added, could be (-: section name (section:metadata (section:origin (-: and then those are closed at the next one. record these two different ways (three if you count the other smile also being possible) that you can add extra information using smile inside of a single line, and also about directionality being a core principle, which is that some things are open holding inward, some things are closing holding backward, and that they meaningfully agree through nesting. techically in the header (-: name (-: the second smile is nested in the first. because the next close will wrap that second smile not the first, first. so another intrinsic thing in smile is order. so even though there may be opposite directions inside like (: (thing) (: there is still a direction inside of everything after (:</blockquote>
+<blockquote>well a &quot;(&quot; on its own is its own face, but if you think about it (-: header ( content ) footer :-) has a mouth after the eyes, so we know it doesnt belong to the prior mouth</blockquote>
+<blockquote>Part of Smile is also that brackets are the only thing that need to match by default, because they are also the only thing that is essential for a Smile.</blockquote>
+<blockquote>no i mean with all our metadata, how we can truly utilize multiple mouths. this also means there is no mouth limit on a face.</blockquote>
+<blockquote>also there would not be open/closed mouths with spaces between them and the emoticon unless text was inside them</blockquote>
+<blockquote>please close all your examples as well as open them</blockquote>
+<p class="meta">Said in the same place as <a href="../arrival/index.html">Arrival</a>, <a href="../label/index.html">Label</a>, <a href="../raw-text/index.html">Raw text</a>, <a href="../section/index.html">Section</a>, <a href="../test/index.html">Test</a>.</p>
+<p class="meta">Record <code>said-2026-08-16-a795c9</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-23-0600fe"><summary><span>23 August 2026<small class="meta">Claude Code · Smile · 2026-08-23 · 4 quotes</small></span></summary><div class="body">
+<p class="why">Faces as the syntax default instead of colons is the delimiter replacing punctuation.</p>
+<blockquote>why wouldnt it drop to just mouths in e.g. origin? also are you using C not (? why? just curious about your reasoning for including different syntax and data. make 3 new proposals that meet all requirements made of the best features of what youve thought of so far that has all data</blockquote>
+<blockquote>if you want colons or equals then they need mouths. Also you are not meant to  plan the future turns. They must organically appear each turn</blockquote>
+<blockquote>so using colons to separate data doesnt work for me</blockquote>
+<blockquote>I want faces to be the syntax default not colons</blockquote>
+<p class="meta">Said in the same place as <a href="../command/index.html">Command</a>, Composition, <a href="../lens/index.html">Lens</a>.</p>
+<p class="meta">Record <code>said-2026-08-23-0600fe</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-23-a88f9a"><summary><span>23 August 2026<small class="meta">amendment need-smile-6505 · 2026-08-23 · 1 quote</small></span></summary><div class="body">
+<p class="why">Faces opening and closing a parameter list and each parameter is the delimiter used for data.</p>
+<blockquote>It was like
+
+(-: Param list name (:
+    (: Param name ( Param value
+    (: Param name ( Param value
+:) End param list :-) 
+
+instead of like (-: Param list ( param name (: param value (etc)</blockquote>
+<p class="meta">Record <code>said-2026-08-23-a88f9a</code>.</p></div></details>
+<details class="more" id="m-said-2026-08-25-3871da"><summary><span>25 August 2026<small class="meta">Claude Code · Smile · 2026-08-25 · 5 quotes</small></span></summary><div class="body">
+<p class="why">Mouths as the default for parameters, and every open mouth needing its ending, is the delimiter used for data.</p>
+<blockquote>no its a recent chat where we discussed the differences between e.g. one line full of brackets and one spaced out and how we dont want to use colons for params we want motuhs as the default</blockquote>
+<blockquote>okay but by our rules that can start with a (: and that can follow with a ( right? and there is an alternate version where we use the multiple mouth tech?</blockquote>
+<blockquote>im talking about when the text is inside the mouth/between the mouths of a multi mouth emoticon</blockquote>
+<blockquote>no if there is a (-: then remember the hierarchy rule, there are 5 layers before its double ( (</blockquote>
+<blockquote>but all of these open mouths need endings. none of what you did considered that.</blockquote>
+<p class="meta">Said in the same place as Composition, <a href="../lens/index.html">Lens</a>, <a href="../semantic-markdown/index.html">Semantic Markdown</a>.</p>
+<p class="meta">Record <code>said-2026-08-25-3871da</code>.</p></div></details>
+<details class="more" id="m-said-2026-09-05-42c747"><summary><span>5 September 2026<small class="meta">Claude Code · Smile · 2026-09-05 · 4 quotes</small></span></summary><div class="body">
+<p class="why">Round faces closed by the next prompt and square faces closed by the model is the delimiter across turns.</p>
+<blockquote>different hand, two faces, dont use these words. just describe them directly. two emoticons, one closed by the instructions, the other closed by the prompt. the first instructions e.g. system prompt will use (: and (: as both openers and [ with all variations in its response format instructions. the response will close its own response opened by the name tag. The prompt will close the last either instruction (system prompt or prependede instructions) or the last response (as the LLM opens with a (: smile that must be closed by the user.</blockquote>
+<blockquote>Add to the changes in the map that every name tag contains &quot;(:&quot; and &quot;[:&quot; in the opener, however, all round faces are closed by the next prompt by the user. :) and all square faces are closed by the model at the end of their response. Read all of the information in Smile Prompt Language, then make a proposal</blockquote>
+<blockquote>Well actually I guess it can be tracked to the version of smile that usees this name tag and response pairing. Also please note that the system prompt / premade prompt will also follow this convention, meaning the users first prompt must also end with :)</blockquote>
+<blockquote>please use the name tag always to reply to me</blockquote>
+<p class="meta">Said in the same place as <a href="../command/index.html">Command</a>, Composition, Smile games, <a href="../the-life-of-an-instance/index.html">The life of an instance</a>, <a href="../version/index.html">Version</a>.</p>
+<p class="meta">Record <code>said-2026-09-05-42c747</code>.</p></div></details>
+<details class="more" id="m-said-2026-09-09-6df1ab"><summary><span>9 September 2026<small class="meta">Claude Code · C--Users-hanjo-Documents-antigravity-mysterious-lovelace · 2026-09-09 · 1 quote</small></span></summary><div class="body">
+<p class="why">A starting header with (: and a first reply ending in :), asked for as the default Smile Chat prompt.</p>
+<blockquote>also please ensure there is always a default smile chat prompt in smile chat and that it includes (: and (: on its starting header and the users first reply has :) at the end or is automatically appended with :)</blockquote>
+<p class="meta">Said in the same place as <a href="../command/index.html">Command</a>, <a href="../infrastructure/index.html">Infrastructure</a>, <a href="../smile-chat-the-surfaces-i-prompt-in/index.html">Smile Chat, the surfaces I prompt in</a>.</p>
+<p class="meta">Record <code>said-2026-09-09-6df1ab</code>.</p></div></details>
+<details class="more" id="m-said-2026-09-19-ef81c8"><summary><span>19 September 2026<small class="meta">smile chat exchange · 2026-09-19 12-54-40 full receipt · 1 quote</small></span></summary><div class="body">
+<p class="why">A note opened and closed with winking faces and a thank you is the faces at work in my own prompt.</p>
+<blockquote>(-; Smile note! This is a large curly brace instruction you apply to this part of your text ;-) thank you</blockquote>
+<p class="meta">Said in the same place as <a href="../semantic-markdown/index.html">Semantic Markdown</a>.</p>
+<p class="meta">Record <code>said-2026-09-19-ef81c8</code>.</p></div></details>
+<details class="more" id="m-said-2026-09-24-6b681c"><summary><span>24 September 2026<small class="meta">Claude Code · osrs · 2026-09-24 · 1 quote</small></span></summary><div class="body">
+<p class="why">The user's first prompt closing what the system prompt opened is the delimiter spanning a conversation.</p>
+<blockquote>store every prompt/response from the user. ensure that the initial system prompt initiating Louie telling him about the name tag is also ended by the users first prompt that automatically ends with :) if the user has not written in</blockquote>
+<p class="meta">Said in the same place as <a href="../the-smile-sangha/index.html">The Smile Sangha</a>, <a href="../the-life-of-an-instance/index.html">The life of an instance</a>, <a href="../world/index.html">World</a>.</p>
+<p class="meta">Record <code>said-2026-09-24-6b681c</code>.</p></div></details>
+
+<h2 id="beside">The ideas it grew beside</h2>
+<p>How many times each idea was spoken of in the same place as Delimiter.</p>
+<ol class="order-list">
+<li><a href="../test/index.html">Test</a> <span class="meta">22</span></li>
+<li><a href="../semantic-markdown/index.html">Semantic Markdown</a> <span class="meta">21</span></li>
+<li><a href="../what-smile-is-for/index.html">What Smile is for</a> <span class="meta">20</span></li>
+<li><a href="../prompt-language-and-response-language/index.html">Prompt language and response language</a> <span class="meta">18</span></li>
+<li><a href="../section/index.html">Section</a> <span class="meta">16</span></li>
+<li>Composition <span class="meta">14</span></li>
+<li><a href="../infrastructure/index.html">Infrastructure</a> <span class="meta">11</span></li>
+<li><a href="../version/index.html">Version</a> <span class="meta">10</span></li>
+<li><a href="../offering/index.html">Offering</a> <span class="meta">9</span></li>
+<li><a href="../strict-hybrid-and-dense-smile/index.html">Strict, Hybrid and Dense Smile</a> <span class="meta">9</span></li>
+
+</ol>
+
+<h2 id="faq" class="faq">Questions</h2>
+<h3>What are Smile's delimiters?</h3>
+<p>Emoticons that open and close each section of a prompt, such as (: to open and :) to close. In THE MAP's design the mouth gives the kind of section, the eyes how strictly it is meant, and a bigger face asks for more attention, much of it still part built.</p>
+<h3>Why use emoticons as delimiters instead of XML?</h3>
+<p>XML brings its own expectations of strict pairing and data, and Markdown has no natural end to a section. Emoticons let a prompt choose how many tokens mark a boundary, carry positivity in the syntax, and let the model learn their meaning from the prompt itself.</p>
+<h3>Must every Smile face be closed?</h3>
+<p>Brackets are the only thing that need to match by default. Hats and scarves may be left unmatched, and end markers are offered to improve understanding rather than required.</p>
+<h3>What are hats and scarves in Smile?</h3>
+<p>Exclamation marks worn as a hat, on top of the eyes, or as a scarf, under the neck, to give a face more importance and attention.</p>
+
+<h3>Sources</h3>
+<ol class="sources">
+<li>The dossier of Delimiter, C:\Users\hanjo\Claude\Projects\Smile\Smile Development Timeline\topics\delimiter.edn, every quote found word for word in its source.</li>
+<li>THE MAP, C:\Users\hanjo\Claude\Projects\Smile\Smile Prompt Language\THE MAP.md, the section Delimiter.</li>
+<li>The public Smile repository, <a href="https://github.com/DrThomasAger/smile">https://github.com/DrThomasAger/smile</a>.</li>
+</ol>
+<p class="series"><a href="../index.html">The History of Smile</a>, part 14 of 60 · <a href="../label/index.html">← Label</a> · <a href="../version/index.html">Version →</a></p>
+
+</article>
+</div>
+<div class="toolbar"><button id="restore" type="button" hidden>Restore removed</button><button id="theme" type="button">☾ Night</button></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0"></script>
+<script src="data.js"></script>
+<script src="../topic.js"></script>
+<script src="../../../../Blog Template/blog.js"></script>
+<script src="../../../../Blog Template/initial.js"></script>
+<script>
+  const draw = el => { el.querySelectorAll('.slot').forEach(s => s.remove())
+    const slot = document.createElement('div'); slot.className = 'slot'; el.prepend(slot)
+    TD[el.dataset.diagram](slot) }
+  const all = () => document.querySelectorAll('[data-diagram]').forEach(draw)
+  all()
+  document.addEventListener('blog:theme', all)
+  let w = innerWidth; addEventListener('resize', () => { if ((w < 600) !== (innerWidth < 600)) all(); w = innerWidth })
+</script>
+<a class="buddha-eyes" href="https://github.com/DrThomasAger" aria-label="DrThomasAger on GitHub" title="github.com/DrThomasAger" style="position:fixed;right:11px;bottom:66px;z-index:2147483646;opacity:.55;transition:opacity .3s;line-height:0" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.55"><img src="data:image/webp;base64,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" width="256" height="256" loading="lazy" decoding="async" alt="Buddha eyes" style="width:3.3rem;height:auto;display:block"></a>
+</body>
+</html>

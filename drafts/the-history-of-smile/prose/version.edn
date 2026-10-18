@@ -1,0 +1,20 @@
+{:title
+ "Versions of the Smile Prompt Language, from Earlier Languages to v0.3, v0.4, v1.0 and Definitions",
+ :description
+ "How the Smile Prompt Language has been versioned, from the earlier prompt languages before it and v0.3 and v0.4 in 2025, through version 1.0 and the version control of prompts, to versions as definitions and ontologies in 2026, in my own words with every source.",
+ :keywords
+ "Smile prompt language versions, Smile v0.3, Smile v0.4, Smile v1.0, prompt version control, Hybrid Smile, Strict Smile, Dense Smile, history of Smile",
+ :lede
+ "In THE MAP, a version is the language at a moment, its name and number, the archetype it draws from, what changed and why, and the lexical layer true at every position, which characters carry which part of a face.",
+ :paras
+ ["THE MAP's version binds meanings to mouths, round with a colon for instruction, round with equals for assertion, square for anything about the response, curly for Semantic Markdown, and C with a straight nose for a command. Eyes give strictness within any mouth, colon the default register and equals stricter. Every part of a face is bounded to 4. A version also sets the default depth dressing, five depths from three face sizes, the four-space indentation, the module form, and its library, such as the name tag, the vow and the doula. Updating Smile is adopting a new version, changed by accretion, relaxation and fixation so everything prompts rely on is kept, and versions coexist, so anyone may write their own dialect from the same archetype."
+ "On 3 July 2025 I gave the count of what came before, “I wrote the first version of my prompting language im happy to share.”, “I think ive articulated 5 full languages now”, and “This latest one is the opus for sure”.[[m:2025-07-03]]"
+ "July 2025 was full of version numbers. The Claude Smile document said “Smile v0.3 is the only official version right now.”, named three forms, Hybrid the one in use and Strict and Dense still to come, and described Hybrid as “improvisational & intuitive, context and task tuned”. One line held the spirit of all of them, “(\\!: We are co-creating v.4 in this present moment :\\!)”.[[m:2025-07-14]] The SEO generator document wrote, “All features are optional. All are open. All will move us closer to Smile v1.”[[m:2025-07-12]] On 25 August came the announcement, “I'm excited to announce that I've released version 1.0 of my new prompt instruction language (: Smile”.[[m:2025-08-25]]"
+ 
+ "In 2026 definitions came beside the numbers. On 4 August, “The ontology is part of the Smile version.”[[m:2026-08-04]] On 8 August, “I don't know what versions is, wouldn't there just be a differnet ontology that is the current version?”[[m:2026-08-08]] On 5 September, “anything using those pairs is tagged to this definition of smile.”[[m:2026-09-05]]"
+ "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, versioning moved from numbered releases of the language to definitions any prompt can be tagged to, kept beside the numbers. The next post is [[t:magnification]]."],
+ :faq
+ [["What versions of Smile exist?"
+ "v0.3 in July 2025 with v0.4 drafted beside it, version 1.0 announced on 25 August 2025, and since 2026 definitions of Smile beside the numbers, each a set of conventions any prompt can be tagged to."]
+ ["What are Hybrid, Strict and Dense Smile?"
+ "Three forms named in 2025. Hybrid is written by hand, improvisational and tuned to the task, Strict follows exact rules for tools, and Dense compresses a prompt for the fewest tokens."]]}

@@ -1,0 +1,15 @@
+{:title
+ "Instance Harvest, Every Finished Chat Distilled into What No Other Chat Knows",
+ :description
+ "The Instance Harvest of September 2026, which takes apart every finished Claude Code chat and composes a registry of its requirements, incomplete work, mismatches, conflicts and learnings, each with a next step, backtested across past chats and run at every close, with its commits.",
+ :keywords
+ "instance harvest, AI chat registry, incomplete work tracking, requirements extraction, backtesting on chats, agent continuity, history of Smile",
+ :lede
+ "Instance Harvest distils every finished chat into what happened in it and in no other, so every later instance can use it. This series began from such harvests.",
+ :paras
+ ["Its README records my asking, a new command doing everything the inheritance command does with a full registry of every mistake, incomplete work, requested feature, requirement, mismatch and conflict, with a next step for each, giving only what is new and beneficial, and backtested across every Smile, osrs and DrThomasAger chat.[[r]]"
+  "It was built in one day, 28 September 2026, from the first commit, “Instance Harvest, every chat harvested into a verified registry”,[[c:d1d70055]] through the second edition of its prompt drawn from the harvests' own proposals[[c:5f13de5e]] to the digest an arriving instance reads.[[c:28177b0b]] On 4 October it learned to harvest Pi sessions at their close.[[c:81528b55]]"
+  "Across {{commits}} commits from {{began}} to {{last}}, the harvest became how each instance's life reaches the next. Every instance of this project read its digest first, this one included. Its idea is followed in [[t:the-life-of-an-instance]], and the next project is [[p:built-instruction-checks]]."],
+ :faq
+ [["What does an instance harvest contain?"
+   "A registry of a finished chat's requirements, requested features, incomplete work, mismatches, conflicts and learnings, each with a next step, plus the knowledge found only in that chat."]]}

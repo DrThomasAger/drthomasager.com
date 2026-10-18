@@ -1,0 +1,20 @@
+{:title
+ "Linked Compositions in Smile, Instances and Versions That Carry Only Their Differences",
+ :description
+ "What a linked composition is in THE MAP of Smile, a composition derived from another that carries only its differences, linked to the version it was born from or the current one, and how my words reached it, from the references of November 2025 to my description of 12 August 2026, with every source.",
+ :keywords
+ "linked compositions, derived prompt versions, prompt instances, prompt references, editing in context, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, a linked composition derives from another. The main composition carries every ordering its versions use, and a derived one carries only its differences, so an instance or a version of a composition is a link with edits placed on top.",
+ :paras
+ ["THE MAP sets the parts of it. A change to the main composition, to the raw text inside it or to its nestings, changes everything derived from it. The derived composition is read-only to what it is linked to. The link points at the version it was born from or at the current version, and may be moved between them. A raw copy is a different act, a new thing with links of its own, and a linked composition can be re-instantiated into a whole, keeping its nested compositions live and taking its ordering as its own."
+ "In November 2025 the composer gathered modules by naming them, and I asked that a broken reference say exactly where it broke, “also it needs to tell you what the error is, like if [$ doesn't have a matching $]”, and “Nested references throw errors also.”[[m:2025-11-06#2]] The next day I corrected a misreading, “Chains can reference other chains just fine”.[[m:2025-11-07]]"
+ "In the composer the references were kept in step with what they pointed at, “Corresponding references are added/removed from composition text automatically.”[[m:2025-12-02]]"
+ 
+ "On 12 August 2026 I described the linked composition whole, and THE MAP keeps it as I said it. “Also compositions can be linked to other compositions without them being nested inside of other compositions. This is what happens when you make an instance, or a version of a composition.” The derived one keeps what is common and bounds what differs, “the one that is linked to the older version that it was born from” or “the one that is linked to the current version”, and “This is different to just making a raw copy of the composition”. And the way out, “You can also re-instantiate compositions into a whole that isnt linked, it just loses the linking.”[[m:2026-08-12]]"
+ "So my words moved from references inside the composer in 2025 to compositions linked as instances and versions in 2026, one mechanism for both, a link with the differences placed on top. It extends [[t:composition]] and gives every edit made in context a way back, followed in [[t:composing-from-inside-a-prompt]]."],
+ :faq
+ [["What is a linked composition?"
+ "A composition derived from another, carrying only its differences. The one it is linked to decides everything else, and its own edits are placed on top."]
+ ["How is a linked composition different from a copy?"
+ "A copy is a new composition of its own with its own links. A linked composition stays tied to its source, at the version it was born from or the current one, until it is re-instantiated into a whole."]]}

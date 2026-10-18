@@ -1,0 +1,14 @@
+{:title
+ "Instruction Checks, Replaying Every Place a Reply Went Against an Instruction",
+ :description
+ "Instruction Checks, the backtesting engine of September 2026 that reads every Claude Code chat, finds each place a reply went against one of my instructions, and replays that place with a changed prompt to see whether the change keeps the instruction, with its commits.",
+ :keywords
+ "instruction following backtest, replay chat with changed prompt, programmatic instruction checks, name tag rate, prompt optimisation from history, history of Smile",
+ :lede
+ "Instruction Checks finds every moment a reply went against one of my instructions, and replays that moment with a changed prompt to learn which change keeps it.",
+ :paras
+ ["Its README records what it is, the backtesting engine I described to Phoenix on 29 September 2026. It reads every Claude Code chat, finds each place a reply went against one of my instructions, and replays that place with a changed prompt. It began as a backtest of the Instance Harvest on five chats that closed with no handoff, and grew to at least forty checks a program can make, such as the share of replies without the name tag or without the response sections.[[r]]"
+  "It was committed on 1 October 2026,[[c:33d74972]] and on 4 October learned to keep real folder names out of its avoided word check.[[c:c8da7ed8]] Across {{commits}} commits from {{began}} to {{last}}, Instruction Checks became the measuring side of [[t:integrity]] and [[t:backtracking]]. The next project is [[p:built-never-again]]."],
+ :faq
+ [["How does Instruction Checks improve a prompt?"
+   "It finds where a past reply broke an instruction, replays that exact moment with a changed prompt, and keeps the change that makes the reply follow the instruction."]]}

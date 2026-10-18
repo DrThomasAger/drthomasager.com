@@ -1,0 +1,18 @@
+{:title
+ "Smile Chat, a Local Chat App Where Every Exchange Is Witnessed",
+ :description
+ "How Smile Chat was built, from renaming a llama.cpp chat UI to Smile Chat in July 2026, through receipts of every exchange, image and video generation and an incognito window, to the chat engine of smileprompt.ai, with its commits and my words.",
+ :keywords
+ "Smile Chat, local LLM chat app, llama.cpp web UI, llama-server router, chat receipts, local image generation in chat, smileprompt.ai, history of Smile",
+ :lede
+ "Smile Chat is the chat app of Smile, a local model on my own PC spoken to through an interface I own, where every exchange is kept as a receipt. It is the engine meant to drive smileprompt.ai.",
+ :paras
+ ["It began by taking a name. On 22 July 2026 I asked that the chat interface lose its old brand, “replace it with \"(: Smile Chat\"”,[[m:2026-07-22]] and on 25 July, “Smile Chat is sufficient, not Smile Chat Room.”[[m:2026-07-25#2]] The same day it gained the Buddha eyes of Guru Rinpoche's blessing,[[m:2026-07-25#3]][[c:1be139f5]] and its receipts were kept apart from the lens's, “we want the lens receipts in the lens folder, the chat receipts in the chat folder”.[[m:2026-07-25]]"
+  "Its README records what it became, a llama.cpp stack with the engine, a web UI built from source I own, and one double click that starts it all. Every exchange passes through a receipt proxy, every model's settings live in one file, models swap without a restart, and the sampling defaults are the untouched distribution, so every chat is a valid trial.[[r]]"
+  "In late August it learned images and video. “as long as I can say /image in chat or /video in smile chat then write a prompt, then it shows me a prompt and an image generation screen with previews”, and “add an incognito window option to smile chat also that keeps no record of any of it”.[[m:2026-08-26]] On 6 September its place was set, “also Smile Chat is the chat engine that drives the app part of Smileprompt.ai”.[[m:2026-09-06]] On 9 September its first prompt was set to open with faces that the user's first reply closes, “its starting header and the users first reply has :) at the end or is automatically appended with :)”.[[m:2026-09-09#2]]"
+  "In October it carried Smile Everywhere. On 2 October, “Smile Chat wraps every system message without a Smile face, watched end to end”,[[c:06ff4834]] and on 4 October its server options were ordered by the five tiers.[[c:834df7b3]] Across {{commits}} commits from {{began}} to {{last}}, and {{moments}} moments of my words, Smile Chat grew from a renamed interface into the chat Smile speaks through. Its ideas are followed in [[t:run]] and [[t:recording]], and the next project is [[p:built-smile-lens]]."],
+ :faq
+ [["What is Smile Chat?"
+   "A local chat app built on llama.cpp, with a web UI built from source I own, where every exchange is kept as a receipt and models swap without a restart. It is the chat engine of smileprompt.ai."]
+  ["Can Smile Chat make images and video?"
+   "Yes. Typing /image or /video with a prompt shows previews as it generates, and an incognito window keeps no record of any of it."]]}

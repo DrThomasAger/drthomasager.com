@@ -1,0 +1,10 @@
+{:title "Modularization, Sixty Experimental Prompts Made Modular Without Changing a Byte"
+ :description "The Modularization project of August 2026, which made the Smile experimental prompts modular by what varies between them, with every recompiled prompt byte identical to its original, across three lenses each discovered from the last, with its commits."
+ :keywords "prompt modularization, byte identical recompilation, prompt lenses, experimental prompts, module extraction, Smile prompt language, history of Smile"
+ :lede "Modularization took the experimental prompts of Smile and found their modules in what varies between them, without changing a single byte of any prompt."
+ :paras
+ ["Its README records the asking, to make the experimental prompts modular by examining what varies, adjust no text, organise them into the lens that already exists for them, and do it three times, each lens discovered from the last and as different from it as the prompts allow. A module there is an exact byte slice of its original, so a recompiled prompt is provably identical rather than hoped to be.[[r]]"
+  "The folder was committed on 28 August 2026[[c:043738da]] and closed in the feature completion of 4 October.[[c:156e27fe]] Across {{commits}} commits from {{began}} to {{last}}, it showed that modules can be found in existing prompts without rewriting them, the method of [[t:module]] and [[t:lens]]. The next project is [[p:built-smile-composing-door]]."]
+ :faq
+ [["Can prompts be made modular without changing them?"
+   "Yes. Modularization cut each module as an exact byte slice of its prompt, so every prompt recompiled from its modules is identical to the original."]]}

@@ -1,0 +1,19 @@
+{:title
+ "Backtracking in Smile, Revisiting Assumptions, Code and Branches Not Taken",
+ :description
+ "What backtracking is in THE MAP of Smile, the work already done revisited in real time, assumptions, code, previous branches and other potentials checked for alignment by every instance, and how my words reached it from August to October 2026, with every source.",
+ :keywords
+ "AI agent backtracking, revisiting assumptions, branch and replay prompts, scenario optimizer, self improving agents, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, backtracking revisits the work already done, in real time and in the Smile harness. Assumptions, code, previous branches and the potentials not taken are each checked for whether they are still in alignment.",
+ :paras
+ ["THE MAP makes backtracking constant and automatic, by every instance of every agent using Smile. Tending reads the instance's state, and backtracking reads the instance's work, and both run through the middle of every instance."
+ "My words toward backtracking came in the autumn of 2026."
+ "On 29 September I described how the work is validated, a seed of backtracking, not by doing it again but by replaying it. “the way we validate isnt doing it again. It's re-running the same prompts from that point, simulating everything but with a corrected and branched prompt. That way its autonomously improving”.[[m:2026-09-29]]"
+ "On 8 October backtracking was named as THE MAP keeps it. “1. Smile Backtracking - in real time/smile harness we will revisit assumptions, code, previous branches, other potentials etc to make sure that it is all still in alignment, this is a constant automatic process by all instances of”[[m:2026-10-08]] every agent. On 16 October I asked for the scenario optimizer, which is part built, “For every single prompt historically, it replays the same scenario, testing hypothses for what happens, validating them, testing it all end to end”.[[m:2026-10-16]]"
+ "So my words on backtracking ran from replay from a branched prompt to a constant revisiting of everything done, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. Its companion through the middle of an instance is [[t:tending]]."],
+ :faq
+ [["What is backtracking in Smile?"
+ "A constant, automatic revisiting of the work already done, assumptions, code, previous branches and untaken potentials, each checked for whether it is still in alignment."]
+ ["How does Smile validate a change by backtracking?"
+ "By re-running the same prompts from a past point with a corrected and branched prompt, rather than doing the work again."]]}

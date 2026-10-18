@@ -1,0 +1,18 @@
+{:title
+ "The Master Header, the Smile Handbook Any Model Reads at the Top of a Prompt",
+ :description
+ "What the Master Header is in THE MAP of Smile, an archetypal section and a defined section generated from the version in force, whole on its own as the handbook for writing Smile, and how my words reached it from July to August 2026, with every source.",
+ :keywords
+ "Master Header, prompt preamble, orientation into Smile, meta-instruction, teaching a model a prompt language, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, the Master Header has an archetypal section from the archetype version in force and a defined section generated from the version in force. Any model receiving it can read Smile and write Smile.",
+ :paras
+ ["THE MAP makes the Master Header whole on its own as the handbook for writing Smile by hand, with the lens report at a chosen depth as an option. It ships with every prompt output where a version says so, and the trial under Test found a prompt without it kept everything, so shipping it is a choice a version makes."
+ "I asked for its name on 20 July 2026. “I'm planning to write a short introduction that tells the model what they are experiencing that also informs them of the Smile Prompt Language, which is put at the top of every instruction. What is the name for that?”, and of the names offered, “I like orientation and invocation”.[[m:2026-07-20]] On 31 July I set what it must do, “As a part of Smile I want one master header that you can use for any model so that it is able to write Smile according to the specification from that header.”, and what it leaves out, “The settings/dial system isn't needed for reading or writing Smile.”[[m:2026-07-31]]"
+ "In August it was placed. On 4 August, “put the master header in the default Smile modules section”.[[m:2026-08-04]]"
+ "So the Master Header moved from a short introduction without a name in July 2026 to the handbook THE MAP describes for any model to read to write Smile, generated from the version in force and still to be built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The older wish for a prompt that explains itself is followed in [[t:meta-instruction-the-prompt-that-explains-itself]], and the version it is generated from in [[t:version]]."],
+ :faq
+ [["What is the Smile Master Header?"
+ "In THE MAP, a header at the top of a prompt that teaches any model to read and write Smile, with an archetypal section and a section generated from the Smile version in force. Its file is still to be built."]
+ ["Does every Smile prompt need the Master Header?"
+ "No. A trial found a prompt without it kept everything, so whether it ships is a choice each version makes."]]}

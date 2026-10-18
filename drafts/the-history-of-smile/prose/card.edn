@@ -1,0 +1,18 @@
+{:title "Card in Smile, the Living Record Every Prompt Piece Carries",
+ :description
+ "What a card is in THE MAP of Smile, the record beside every piece, authorship always marked, a hand-written line of what it does, and computed rings of every change beneath, and how my words reached it, from a card for every prompt in February 2026 to authorship and rings in August 2026, with every source.",
+ :keywords
+ "prompt documentation, prompt card, authorship marking, machine and human authored text, change history rings, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, every piece carries a card. Its authorship is marked always, machine-authored, co-created or human-authored, and a hand-written line says what the piece does, its behavioural effect alone.",
+ :paras
+ ["Beneath the hand-written part, THE MAP fills the card with computed sections. Every composition the piece has appeared in, with its position and overrides, its connections, test and probe results, adjustments made to it mid-instance, renders saved from it, and dated rings deposited in order, each marked kept or undone, reasoned or unreasoned, by hand or by program. The rings are the card's raw stream and its hand-written section is its attended line. An unwritten card is written by the system as an invitation, and an empty card is a good state, since sorting the piece to its position already describes it."
+ "In February 2026 the card was named and made a condition of sharing. “Every prompt will also have a specified card associated with it that will let an AI or a human know how to use it. Contributions to the smile repo require this.”[[m:2026-02-24]] In April the Smile notes gave it a second use, “The cards describing a module also act as the source of metadata to include”.[[m:2026-04-06]]"
+ "On 25 July 2026 cards arrived on my PC, for modules and compositions alike. “you can make the top part just What It Does, without referring to how it does it.”, “cards are essential. The idea of Smile is that we are informing the model what the prompt engineering is, and is doing. It's not optional.”, “I dont care if they stay empty. I do not want cardless things.”, and “compositions want cards too.”[[m:2026-07-25]] On 26 July, “the card is not a field note, it is a living knowledge record”, and “rings can be records of knowledge inside of trees without cutting them open”.[[m:2026-07-26]]"
+ "In August I asked for its authorship and its history. On 5 August, “We definitely want everything that is machine authored, machine-human co-created, and human only created to be clearly marked all the time.”[[m:2026-08-05]] On 6 August, “its only machine generated prompting if an LLM wrote the text.”[[m:2026-08-06]] On 9 August the history was to be kept for every piece, “This is supposed to be recorded as history in the card automatically for every piece.”[[m:2026-08-09]] On 10 August, “its good that it gives you an empty one autoamtically, but if its empty thats fine.”[[m:2026-08-10]]"
+ "So the card moved from a usage note required for contributions in February 2026, to a living record that is to mark its authorship and keep every change as a ring, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The ledger its rings are drawn from is followed in [[t:memory]]."],
+ :faq
+ [["What is a card in Smile?"
+ "The record every piece carries, with its authorship marked, a hand-written line of what it does, and computed sections of where it has been used, how it was tested and every change to it."]
+ ["How does Smile mark authorship?"
+ "Every piece is machine-authored, co-created or human-authored, kept accurate as it changes hands. Text is machine-authored only when a model wrote it."]]}

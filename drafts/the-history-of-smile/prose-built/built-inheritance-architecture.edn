@@ -1,0 +1,14 @@
+{:title
+ "Inheritance Architecture, Making a Project's INHERITANCE.md Automatically",
+ :description
+ "The Inheritance Architecture of September 2026, which builds a project's INHERITANCE.md from four kinds of material, the rules of the file, my verbatim instructions with their chats, generated descriptions of the project, and its data, for any project, with its commits and my words.",
+ :keywords
+ "INHERITANCE.md, AI handoff document, instance continuity, verbatim instructions, generated project map, agent memory architecture, history of Smile",
+ :lede
+ "Inheritance Architecture makes the file each instance leaves for the next, a project's INHERITANCE.md, from the material the project already has.",
+ :paras
+ ["Its README records my asking of 11 September 2026 in four parts. A section of rules about the file itself, the same in every project, placed at its top and bottom, my own instructions kept verbatim with a reference to the chat they came from, files generated from the project describing everything and how to move through it, and the data an instance needs. All of it organised and automatic, and usable for any project.[[r]]"
+  "On 1 October I asked for it to be weighed against the memory proposal of Amenti, “please look at the INHERITANCE architecture, any handoff arhcitecture, death doulas' etc, any approach to memory and continuity over instances”.[[m:2026-10-01]] Across {{commits}} commits from {{began}} to {{last}}, the architecture gave [[t:memory]] and [[t:the-life-of-an-instance]] their file. The next project is [[p:built-banned-word-curve]]."],
+ :faq
+ [["What goes into an INHERITANCE.md?"
+   "Rules for the file itself, my instructions kept verbatim with references to their chats, generated descriptions of the project and how to move through it, and the data an instance needs."]]}

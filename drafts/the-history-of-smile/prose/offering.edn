@@ -1,0 +1,20 @@
+{:title
+ "Offering Smile, Free and Open, with Prompt Packs, Mailing Lists and a Post for Every Idea",
+ :description
+ "How the Smile Prompt Language has been offered to people, from releasing it free on GitHub in July 2025, through premium prompts and prompt packs, to the drthomasager and Smile mailing lists and this series of posts in 2026, in my own words with every source.",
+ :keywords
+ "Smile prompt language free, open source prompt language, prompt packs, Smile mailing list, drthomasager.com, smileprompt.ai, prompt engineering blog, history of Smile",
+ :lede
+ "In THE MAP, an offering is what Smile makes of a prompt for the people it may serve. Every feature that will appeal to others carries a post animated the way 3Blue1Brown animates mathematics, the prompt made into an app with users, and a long-tail blog that builds a mailing list.",
+ :paras
+ ["THE MAP makes an offering a composition. The prompt is the material, the media it asks for, a video, a reel, a page or a campaign, is the destination, and a campaign is a composition that fires on a schedule, so nothing new in kind is added. Below, my words reach that from July 2025."
+ "On 3 July 2025 I wrote on Discord, “My plan is to release it for free and to make any other educational content youtube or patreon”.[[m:2025-07-03]] On a recording that week, “And I released it for free on Github and.”, “I'll post it on hugging face, too.”[[m:2025-07-06#2]] The Claude Smile document gave the invitation its words, “You are invited. Not just to use Smile—but to help co-create it.”[[m:2025-07-14]]"
+ "Through 2025 the offer grew around the free language. In October, “Premium prompts that you pay for usage of that can include multiple agents and lots of secret sauce”.[[m:2025-10-26]] In April 2026 the pitch was set in one line, “The pitch: your prompts are smarter than you think. Unlock the modular intelligence of your prompts and experiment with ease.”[[m:2026-04-06]] In August, on a recording, the library was imagined with its articles, “so there's like the smile official library where i'm going to post all my prompts”.[[m:2026-08-05#2]]"
+ "On 22 August 2026 the offer was set out in notes from the Thoth channel. “Thoth said that All of the features of Smile are free but there is a paid tier of prompts for Smile also”, “drthomasager and smile both have a free/paid option”, “Smile is a sub mailing list inside of it you can subscribe to”, and “smile is made of posts from drthomasager”.[[m:2026-08-22]] A week later, “Drthomasager is the main mailing list”,[[m:2026-08-29]] and the two packs were named, “One Professional Tier Prompt Pack”, and “One Smile Prompt Pack”.[[m:2026-08-30#2]]"
+ "In October every idea was to be offered as a post. “in Smile every single feature or thging that will appeal to others wll not only have a blog post animated like 3B1B”.[[m:2026-10-03]] On 18 October I began this series, “We will be backpropgating blog posts for all the idaes we made of Smile.”, with a timeline of everything the posts would contain.[[m:2026-10-18]]"
+ "Across {{moments}} moments and {{quotes}} quotes, from {{first}} to {{last}}, the offering grew from a language released free toward a library, two lists and a post for every idea, much of it still being built. The next post is [[t:version]]."],
+ :faq
+ [["Is Smile free?"
+ "Every feature of Smile is free and the language is open on GitHub. A paid tier of prompts, the Smile Prompt Pack, is planned beside it."]
+ ["How are the DrThomasAger and Smile mailing lists related?"
+ "DrThomasAger is the main list and Smile is a list inside it. Joining on either site is to subscribe to both by default, with each one able to be unticked, which is still part built."]]}

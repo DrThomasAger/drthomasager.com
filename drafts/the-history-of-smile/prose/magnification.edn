@@ -1,0 +1,19 @@
+{:title
+ "Magnification in Smile, the Size of Unit a Lens Shows as Raw Text",
+ :description
+ "What magnification is in THE MAP of Smile, a view deciding what appears as composition and what as raw text, one folder depth per tier, a ladder down to mouths, noses and eyes, and how my words reached it between 11 August and 1 September 2026, with every source.",
+ :keywords
+ "magnification, semantic unit size, granularity of prompts, prompt lens tiers, editing at a granularity, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, magnification is a view deciding what appears as composition and what appears as raw text. By itself it changes nothing, and the stored pieces are the same at every magnification.",
+ :paras
+ ["THE MAP makes a tier one folder depth in its lens, so one position deeper is one magnification further in. The ladder is the lens's own, and a large text has as many tiers as it has sizes of unit, thousands being an ordinary number. The Smile lens goes all the way to the marks, a whole prompt, a composition of modules, a module, a header line, a face, then a mouth, a nose, an eye. Clicking in follows what a thing is made of, while scrolling changes the size of unit being viewed. Everything of one size is to be stored together, so at the face tier every face could be swapped for another, and one pick would change one place or every place of that kind, set by how many magnifications are selected. Editing at a chosen magnification is still to be built."
+ "Magnification arrived on 11 August 2026, while lenses were being named. “So you want everything at a particular size to be in its magnification bucket, and for each tier of your lens that magnifies deeper to be in semantically meaningful amounts.” In the default lens, “one magnification shows all of the mouths, noses and eyes separately, while another shows only the faces”. I wanted “to be able to scroll through the different magnifications, and edit at that granularity”, and “You can also select multiple magnifications at once and then be editing all of them rather than it being a local change.”[[m:2026-08-11]]"
+ "On 12 August I set what magnification is and is not. “dependning on the magnification, what appears as raw text changes. you go from individual parts of a face to a raw text face, to a raw text header”, and “I think we want magnificaiton to just be the view of what is a composition vs raw text, it doesnt change any of the raw text by itself.” At the face tier, “you could see a selection of all possible faces”.[[m:2026-08-12]] On 15 August, “so you can always shift your ontology and mag”.[[m:2026-08-15]] On 19 August even a pair of emojis was to be separated into raw text at its own tier.[[m:2026-08-19]]"
+ "On 1 September magnification reached documents of other kinds in Ekadanta, the channel transcripts. “the lowest level of granularity would be the entire thing as a raw text block. the next tier would be questions and answers”, and “we can have lenses that represent different granularities of a format”.[[m:2026-09-01#2]] In Ekadanta the same day, “actually one level of magification would be q&as are one vector each, the next that they are separated”.[[m:2026-09-01]]"
+ "So magnification moved from buckets of a size in August 2026, to the view of what is composition and what is raw text, to tiers for any kind of document in September, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The lens it magnifies is followed in [[t:lens]], and edits made at a tier in [[t:composing-from-inside-a-prompt]]."],
+ :faq
+ [["What is magnification in Smile?"
+ "A view deciding what appears as composition and what as raw text. Each tier is one folder depth in a lens, and changing magnification changes nothing stored."]
+ ["How deep does the Smile lens go?"
+ "To the marks, a whole prompt, a composition of modules, a module, a header line, a face, and then a single mouth, nose or eye."]]}

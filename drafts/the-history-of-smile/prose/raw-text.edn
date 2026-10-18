@@ -1,0 +1,19 @@
+{:title
+ "Raw Text in the Smile Prompt Language, the Written Words Every Composition Is Made Of",
+ :description
+ "What raw text is in THE MAP of Smile, written words stored once in the Field, with every saved unit a composition of raw text, and how my words reached that meaning, from words kept as files in 2025 to the base layer of August 2026, with every source.",
+ :keywords
+ "raw text Smile, base layer of prompts, composition of one, forced text prompting, prompt library registration, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, raw text is the written words of the system, a mark, a label's words, a paragraph, a page of instructions, stored once in the Field. Every saved unit is a composition of raw text, and what appears as raw text depends on the magnification it is seen at.",
+ :paras
+ ["THE MAP says four things about raw text. It is stored once, flat. Every raw text is saved as a composition of one, so the system works with compositions and raw text is what is inside them. What appears as raw text depends on magnification, a mouth at the mark tier, a whole face one tier out, a header line one tier further. And writing into a composition makes a new raw text registered to that composition, while saving it to the library is a second act made by choice."
+ "That meaning arrived late, in August 2026. Before it, on 11 November 2025, prompts were described as files of words, “They are just raw text files that get filled in the text box when opening and editing a document from the editor/gui.”[[m:2025-11-11]] That is words kept as files, a step toward raw text, and not yet the base layer. Forced text, words a model is asked to write exactly, is a different idea of the same weeks, followed in [[t:semantic-markdown]]."
+ "In March 2026 raw text was mapped to categories of prompt, “Raw text: Is mapped to a particular category of prompt, which includes placement information of where it needs to go inside of the large prompt format structure”.[[m:2026-03-14]]"
+ "The meaning THE MAP keeps formed between 9 and 12 August 2026, in the Smile project. On 9 August, “Isn't there just, raw text. The base layer.”, and the header too is “just a raw text that has a optional addon to the top or to the bottom”.[[m:2026-08-09]] The next day I proposed that the parts of a face be raw texts of their own, so Smile “makes excellent sense that there are separate raw texts for ( and - and :”.[[m:2026-08-10]] On 11 August overrides joined it, “all overrides also become new raw text associated with the composition. so it builds the library and they can be reused”.[[m:2026-08-11]] On 12 August registration and the library were set apart, raw text written into a composition “becomes a new raw text registered as as semantic unit that exists only in relationship to that composiiton at the time of writing”, saved to the library only by choice.[[m:2026-08-12]] By 29 August I wanted the raw texts open as files that update everything built from them.[[m:2026-08-29]]"
+ "So raw text moved from words kept as files in 2025 to the base layer of the whole system in one week of August 2026. It is half of what Smile is made of, the other half being [[t:composition]], and what counts as raw text at any moment is set by [[t:magnification]]."],
+ :faq
+ [["What is raw text in Smile?"
+ "The written words of the system, stored once in the Field. Every saved unit is a composition of raw text, and what appears as raw text depends on the magnification it is viewed at."]
+ ["Does writing into a composition add to the library?"
+ "Writing makes a new raw text registered to that composition. Saving it into the library is a second act, made by choice."]]}

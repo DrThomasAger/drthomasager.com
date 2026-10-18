@@ -1,0 +1,14 @@
+{:title
+ "Smile Zettelkasten, Linked Notes Drawn from Every Session Log",
+ :description
+ "The Smile Zettelkasten of September 2026, the first piece of a review that reads raw session logs and draws out prompts, data, findings and my verbatim instructions as small linked notes, each pointing to the exact log and message it came from, with its commits.",
+ :keywords
+ "zettelkasten from chat logs, AI session log review, linked notes, prompt extraction, verbatim instruction archive, history of Smile",
+ :lede
+ "The Smile Zettelkasten reads the raw logs of past sessions and keeps what they contain as small linked notes, each pointing to the exact message it came from.",
+ :paras
+ ["Its README records the larger thing I described and the first piece built from it. An inheritance review that reads the raw session logs themselves, not the documents instances leave, with two sides. The knowledge side draws prompts, data, findings and my verbatim instructions into a zettelkasten of small linked notes, each carrying one thing and a reference to its log and message, with a viewer, an agent to give tasks to, a skill, an MCP and a 3D view of the note graph around it. The person side reads the same logs for how I work with AI.[[r]]"
+  "It was committed in four parts on 1 October 2026,[[c:f72b697c]] and on 4 October it became the way the feature register reads my messages and searches every chat.[[c:156e27fe]] Across {{commits}} commits from {{began}} to {{last}}, the Zettelkasten made the logs readable as notes, a step toward [[t:recording]] and [[t:memory]]. The next project is [[p:built-marker-penalty-trial]]."],
+ :faq
+ [["What is the Smile Zettelkasten?"
+   "A set of small linked notes drawn from raw Claude Code session logs, each holding one prompt, finding or instruction and pointing to the exact message it came from."]]}

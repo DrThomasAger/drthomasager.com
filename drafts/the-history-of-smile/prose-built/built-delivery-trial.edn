@@ -1,0 +1,10 @@
+{:title "The Delivery Trial, Where a Message Typed While Claude Works Arrives"
+ :description "The Delivery Trial of August 2026, a measured test of whether a message typed while Claude Code is working arrives at the next tool boundary or waits for the turn to end, and whether a slash command waits longer, with its commits."
+ :keywords "Claude Code message queue, tool boundary, turn boundary, slash command timing, mid task messages, Smile real time, history of Smile"
+ :lede "The Delivery Trial measured something Smile's real time work depends on, the moment a message typed during a reply actually reaches the model."
+ :paras
+ ["Its README records the question and the method. One reply of Claude's has many tool boundaries and one turn boundary, and the documentation and practice seemed to differ on which one a message reaches. So the trial counts. A small script stamps every tool boundary into a log, a message is sent early in a run of eleven boundaries, and the stamp shows where it landed, once for an ordinary message and once for a command whose body carries the words alone.[[r]]"
+  "The folder was committed on 28 August 2026[[c:043738da]] and its work closed in the feature completion of 4 October.[[c:156e27fe]] Across {{commits}} commits from {{began}} to {{last}}, the trial gave the real time ideas of [[t:conditions-and-actions]] a measured ground. The next project is [[p:built-smile-rhizome]]."]
+ :faq
+ [["Where does a message typed during a Claude Code reply arrive?"
+   "The Delivery Trial measured it by stamping every tool boundary of a reply and recording where a message landed, for an ordinary message and for a slash command."]]}

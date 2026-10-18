@@ -1,0 +1,19 @@
+{:title
+ "Memory in Smile, One Append-Only Ledger Read Through Four Lenses",
+ :description
+ "What memory is in THE MAP of Smile, one append-only bitemporal ledger every role remembers on, read through four lenses, as happened, as known, as done and as seen now, and how my words reached it, from keeping every Whisper run in August 2026 to an instance that edits its own context in October 2026, with every source.",
+ :keywords
+ "agent memory architecture, append-only ledger, bitemporal log, episodic and semantic memory, AI continuity, Smile prompt language, history of Smile",
+ :lede
+ "In THE MAP, every role that uses Smile remembers on one ledger, append-only, every event kept as it was written. Each role's memory is its own reading of that ledger.",
+ :paras
+ ["THE MAP reads the same rings through four lenses, each with what measures it. As happened, the rings in order, measured by gaps found in replay. As known, the current statements about each thing. As done, compositions and their versions, measured by pass rate. As seen now, a render for one reader at one moment. Nothing is written into a kind, everything is written as a ring and read through a lens, and because nothing is summarised or overwritten, every failure can be replayed. Each assertion carries two moments, when it was true in the world and when it entered the ledger, and semantic memory is computed from the ledger rather than written beside it."
+ "In the summer of 2026 I asked for what happens to be kept. On 21 July 2026, “I want this Ananda claude data reformatted so that all the thinking blocks, things that aren't the actual text the Claude is replying with, are stored separately”.[[m:2026-07-21]] On 6 August, of Whisper transcription, “we want every run saved that is even a little different.”[[m:2026-08-06]] On 26 August, “Are we logging absolutely all data of interaction and storing it semantically?”[[m:2026-08-26]] On 30 August I called the name itself wrong, “think about what we are doing here. this will build into an agentic framework.”[[m:2026-08-30]]"
+ "In September I asked for conversations and queries to be kept. On 24 September, “Store this conversation and all ftuure conversations as documents you can reference that have my words all recorded and at the top”.[[m:2026-09-24]] On 25 September, “make sure Ekadanta is recording all queries results and getting all conversations”.[[m:2026-09-25]] On 26 September the inheritance review was to build a zettelkasten from all the logs.[[m:2026-09-26]]"
+ "In October memory became an architecture to test. On 1 October I asked for every approach to memory to be read, “please look at the INHERITANCE architecture, any handoff arhcitecture, death doulas' etc”, and for “a full scientific report with hypotheses, testing, verified end to end”.[[m:2026-10-01]] On 2 October the memory of Amenti was to be used, “building episodic, semantic, working, procedural memory”.[[m:2026-10-02]]"
+ "So my words on memory moved from keeping every run and every thinking block in the summer of 2026 to memory as an architecture to test in October, while THE MAP's one ledger read through four lenses is mostly still to be built, across {{moments}} moments and {{quotes}} quotes from {{first}} to {{last}}. The record each piece carries of its own changes is followed in [[t:card]], and what an instance leaves for the next in [[t:the-life-of-an-instance]]."],
+ :faq
+ [["How does memory work in Smile?"
+ "Every role remembers on one append-only ledger, and its memory is its own reading of it. Four lenses read the same events, as happened, as known, as done and as seen now."]
+ ["Why is nothing summarised in Smile's memory?"
+ "Because nothing is overwritten, every failure can be replayed and measured against what happened next, and semantic memory is computed from the ledger when needed."]]}
