@@ -22,7 +22,7 @@ img { max-width: 100%; }
   padding: 1rem 4vw; background: var(--deep-bg); color: var(--deep-ink);
   position: sticky; top: 0; z-index: 22;
 }
-.brand { font-family: var(--font-head); font-weight: 800; font-size: 1.2rem; }
+.brand { font-family: var(--font-head); font-weight: 800; font-size: 1.2rem; white-space: nowrap; }
 .brand-mark { color: var(--accent); margin-right: .3rem; }
 .top nav { display: flex; gap: 1.2rem; flex: 1; flex-wrap: wrap; }
 .top nav a { font-weight: 600; opacity: .92; }
@@ -364,3 +364,11 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 .top nav .root-menu { display: none; position: absolute; left: 0; top: 100%; z-index: 30; min-width: 12rem; padding: .6rem .8rem; background: var(--bg, #fff); border: 1px solid var(--line, rgba(0,0,0,.12)); border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.12); flex-direction: column; gap: .45rem; }
 .top nav .root:hover .root-menu, .top nav .root:focus-within .root-menu { display: flex; }
 .top nav .root-menu a { font-weight: 500; white-space: nowrap; }
+/* On a phone the name and the join button share the first row, and the two
+   categories sit side by side on the row beneath, as Pool Care and Hot Tub Care do */
+@media (max-width: 44rem) {
+  .top { gap: .7rem 1rem; padding: .8rem 5vw; }
+  .top .brand { flex: 1; }
+  .top nav { order: 3; flex: 0 0 100%; flex-wrap: nowrap; gap: 1.1rem; font-size: .92rem; }
+  .top nav .root-link, .top nav > a { white-space: nowrap; }
+}
