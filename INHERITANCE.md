@@ -756,3 +756,50 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     :) End what the files leave unsaid :) Warm thanks
 
 :-) End 2026-10-08, the ontology, the kicker and the explore page, session smile-30 :-) So much gratitude
+
+(-: 2026-10-09, the temple post placed, session smile-a1 (-:
+
+    ( The post ( how-every-device-reaches-mahodara-and-ekadanta in ontology\placements.edn, titled Ganapati's Temple in 2D, 3D and 4D, How People, Messages and Records Flow In and Out, at AI › Agents › Multi-Agent Systems › Ganapati, its file C:\Users\hanjo\Claude\Projects\Device Sync\post\index.html. bb ontology/check.clj gives 29 nodes and 19 posts, every placement valid ) )
+    ( The reviewer ( ontology\reviewer.smile runs once approved.txt is written beside it ) )
+    ( The Blog Template's sample page ( its Buddha eyes sit at right 11 px and bottom 11 px over the toolbar's theme button. Posts place theirs at bottom 66 px, where the button stays free, measured in Device Sync\post\post-check.edn ) )
+    ( Sidenotes ( a sup.fn link with href #nN, then p.sn with id nN after its paragraph. blog.js places each beside its line on a wide screen and reveals every section after 4 seconds ) )
+
+:-) End 2026-10-09, the temple post placed, session smile-a1 :-) Many blessings
+
+(-: 2026-10-18, the History of Smile, the focus and the Ghost theme, session drthomasager-82 (-:
+
+    ( The History of Smile (
+        drafts\the-history-of-smile holds 60 idea posts and the timeline page,
+        pushed in cc2a295 and still held from release by HOLD.txt. Every quote is
+        checked against the exact moment it cites, by strict.clj in the session
+        scratchpad and by smile-96's post_check.clj. THE MAP session's 275
+        findings are applied, so built claims follow build state by section.json.
+        Figure 1 of the timeline is chains.clj, every feature's build state
+        chained to the features its THE MAP section names. Kickers take their
+        first word from ontology.edn, Community AI.
+    ) End the history of smile )
+    ( The focus (
+        On Hanjo's words the site is about ethical, Bodhisattva and Shambhala AI
+        brought into local communities with local LLMs. build.py's TAGLINE and
+        front page say so, ROOTS shows Community AI and Bodhisattva Practice side
+        by side in the header, and the Videogames stream is kept as comments in
+        ontology\set-aside-osrs.edn. The eight pages named in @6@ of 2026-10-08
+        were moved with git mv to set-aside\old-site-pages\ with a README,
+        nothing deleted, and Commentaries is back in CATEGORIES because a post in
+        posts\ uses it. Pushed in 53e92df and 81dd44e.
+    ) End the focus )
+    ( The Ghost theme (
+        C:\Users\hanjo\Claude\Projects\Ghost Trial\site\content\themes\blog-template
+        wears blog.css, blog.js, notes.js and initial.js, with ghost.css making
+        every Ghost card one of the template's own elements. Ghost Trial\compare.clj
+        opens our sample and the every-element post headful and prints their
+        computed styles side by side. Upload and activation go through the Admin
+        API with Ghost Trial\cookies.txt.
+    ) End the ghost theme )
+    ( Every feature asked for (
+        C:\Users\hanjo\Claude\Projects\Blog Template\every blog feature asked for.smile
+        is the register of every blog feature in his own words, built, part or
+        missing, read from 154 of his messages. Read it before building any blog.
+    ) End every feature asked for )
+
+:-) End 2026-10-18, the History of Smile, the focus and the Ghost theme, session drthomasager-82 :-) So much gratitude
