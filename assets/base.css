@@ -357,3 +357,10 @@ main { padding: 2.5rem 6vw 4rem; max-width: 78rem; margin: 0 auto; }
 .post-shop ul { margin: .6rem 0 1rem 1.1rem; }
 .price { font-weight: 800; font-family: var(--font-head); }
 .shop-item { padding-bottom: 1rem; }
+
+/* The two main categories in the header, each opening onto its own */
+.top nav .root { position: relative; }
+.top nav .root-link { font-weight: 700; letter-spacing: .02em; }
+.top nav .root-menu { display: none; position: absolute; left: 0; top: 100%; z-index: 30; min-width: 12rem; padding: .6rem .8rem; background: var(--bg, #fff); border: 1px solid var(--line, rgba(0,0,0,.12)); border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.12); flex-direction: column; gap: .45rem; }
+.top nav .root:hover .root-menu, .top nav .root:focus-within .root-menu { display: flex; }
+.top nav .root-menu a { font-weight: 500; white-space: nowrap; }

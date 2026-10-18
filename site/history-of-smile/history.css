@@ -1,0 +1,15 @@
+/* shared by the posts of the history of Smile, beside the Blog Template's blog.css */
+details.more summary small.meta{display:block;font:400 var(--s-1)/1.4 var(--sans);color:var(--ink-2);margin-top:4px}
+.meta{font:400 var(--s-1)/1.4 var(--sans);color:var(--ink-2)}
+details.more .body blockquote{font-style:italic;margin:var(--sp2) 0;padding-left:var(--sp2);border-left:2px solid var(--rule)}
+ol.order-list li{margin:6px 0}
+.authorship{font:italic 400 var(--s0)/1.4 var(--serif);color:var(--ink-2);margin:-8px 0 var(--sp2)}
+.series{font:500 var(--s-1)/1.5 var(--sans);color:var(--ink-2);margin:0 0 var(--sp1)}
+.series a{color:inherit}
+.h-tip{position:fixed;z-index:2147483647;max-width:340px;padding:10px 12px;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.12);font:400 13px/1.45 var(--sans);pointer-events:none}
+.h-tip b{display:block;font-weight:600;margin-bottom:2px}
+.h-tip span{display:block;color:var(--ink-2)}
+.h-tip q{display:block;margin-top:6px;font:italic 400 14px/1.45 var(--serif);color:var(--ink)}
+figure .slot svg{width:100%;height:auto;display:block}
+article p,article blockquote,article li{overflow-wrap:break-word}
+article h1,article h2,article h3{overflow-wrap:anywhere}

@@ -1,0 +1,27 @@
+;; (: The osrs and RuneScape node and placements, set aside from DrThomasAger on his words of 2026-10-18 (:
+;; :) End the osrs node and placements set aside :) thank you
+ "which-moments-decide-an-osrs-fight" {:title "Which Moments Decide an OSRS PvP Fight? Tension Points" :place :ai/old-school-runescape :date "2026-10-07" :readtime 8 :site-project "Videogames" :glyph "⚔"
+                                       :description "Three ticks decided a recorded Last Man Standing fight. Rolling it forward 444 times from every tick finds them, cuts them from the video and shows them in RuneLite."
+                                       :file "C:/Users/hanjo/Claude/Projects/osrs/Tension Points/which-moments-decide-an-osrs-fight.html"
+                                       :facets {:format [:research] :tool [:clojure :runelite :edge-tts] :method [:simulation]
+                                                :project [:tension-points] :level [:practitioner] :evidence [:measured]}}
+ "in-client-sangha-orchestration-and-symbolic-pid" {:title "In-Client Sangha Orchestration, Stretched-Canvas Click Inversion, and Symbolic Dual-Player PID in Old School RuneScape" :place :ai/old-school-runescape :date "2026-10-17" :readtime 14 :site-project "Videogames" :glyph "⚔"
+              :description "How we built the interactive SmileScape progression platform, woke Dr LLM on World 580, fixed stretched-canvas and off-thread AWT click bugs, wired the 7-model picker and 9 classic stone tabs into the 190x261 side panel, added dual-player symbolic PID crowns with the 100-150 tick re-roll hazard, and cleared all cyan text from the combat viewport."
+              :file "C:/Users/hanjo/Claude/Projects/SmileScape/Sangha Orchestration and PID/post/index.html"
+              :facets {:format [:research :tool] :model [:opus :fable :swift-27b] :tool [:babashka :clojure :d3 :paper-js :playwright :runelite :claude-code]
+                       :method [:hypotheses-first :program-measured :a-b-drawing] :project [:ganapati :smile]
+                       :level [:engineer :practitioner] :evidence [:built :measured]}}}
+
+;; The Videogames stream of build.py's PROJECTS, set aside on 2026-10-18, kept as it was written there
+;;     "Videogames": {
+;;         # Amoghasiddhi, north, Karma family. Wind; all-accomplishing
+;;         # wisdom; transforms jealousy into mastery held lightly —
+;;         # play. Jade green (also the phosphor of the first screens);
+;;         # second tone jade toward the light.
+;;         "color": "#62d194",   # Amoghasiddhi jade, held in the band
+;;         # secondary: Ratnasambhava's gold across the center, a step
+;;         # quieter (accomplishment met by equanimity)
+;;         "hues": ["#62d194", "#bf9a33"],
+;;         "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
+;;                     "⬇", "⬅", "➡", "1UP", "XP"],
+;;     },

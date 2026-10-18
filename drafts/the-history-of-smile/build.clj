@@ -10,6 +10,8 @@
 
 (def src "C:/Users/hanjo/Claude/Projects/Smile/Smile Development Timeline")
 (def here (str (fs/parent (fs/absolutize *file*))))
+;; The first word of every kicker, the ontology's own name for its AI root (Community AI)
+(def ai-root (or (second (re-find #":id :ai :label \"([^\"]+)\"" (slurp "C:/Users/hanjo/Claude/Projects/DrThomasAger/ontology/ontology.edn"))) "AI"))
 (defn rd [f] (edn/read-string (slurp (str src "/" f))))
 ;; Figure 1, the chains of features and how much of each is built, drawn fresh on every build
 (babashka.process/shell {:dir here} "bb" "chains.clj")
@@ -335,7 +337,7 @@
                "itemListElement" (for [t topics] {"@type" "ListItem" "position" (:order t) "name" (:title t)})}
               {"@type" "BreadcrumbList" "itemListElement"
                (map-indexed (fn [i [n u]] {"@type" "ListItem" "position" (inc i) "name" n "item" u})
-                            [["AI" "https://drthomasager.com/ai"] ["Prompt Engineering" "https://drthomasager.com/ai/prompt-engineering"]
+                            [[ai-root "https://drthomasager.com/ai"] ["Prompt Engineering" "https://drthomasager.com/ai/prompt-engineering"]
                              ["Prompt Languages" "https://drthomasager.com/ai/prompt-engineering/prompt-languages"]
                              ["Smile" "https://drthomasager.com/ai/prompt-engineering/prompt-languages/smile"]])}]})
 "
@@ -345,7 +347,7 @@
 <div class=\"progress\"></div>
 <div class=\"page\">
 <article>
-<p class=\"kicker\">AI › Prompt Engineering › Prompt Languages › Smile</p>
+<p class=\"kicker\">" ai-root " › Prompt Engineering › Prompt Languages › Smile</p>
 <h1>" (esc title) "</h1>
 <p class=\"lede\">Every idea in Smile, dated to the conversation, document or commit where it first appeared, and nested as the pillars the posts of this history will follow.</p>
 <div class=\"byline\"><span class=\"who\">Dr Thomas Ager</span><span class=\"dot\"></span><span>18 October 2026</span><span class=\"dot\"></span><span>" (max 1 (Math/round (/ words 230.0))) " min read</span></div>

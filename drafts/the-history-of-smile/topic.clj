@@ -13,6 +13,8 @@
             [babashka.fs :as fs]
             [cheshire.core :as json]))
 
+;; The first word of every kicker, the ontology's own name for its AI root (Community AI)
+(def ai-root (or (second (re-find #":id :ai :label \"([^\"]+)\"" (slurp "C:/Users/hanjo/Claude/Projects/DrThomasAger/ontology/ontology.edn"))) "AI"))
 (def by-id (into {} (map (juxt :id identity) topics)))
 (def order (vec (map :id topics)))
 (defn dossier [id] (edn/read-string (slurp (str src "/topics/" id ".edn"))))
@@ -199,7 +201,7 @@
               {"@type" "FAQPage" "mainEntity" (for [[q a] faq] {"@type" "Question" "name" q "acceptedAnswer" {"@type" "Answer" "text" a}})}
               {"@type" "BreadcrumbList" "itemListElement"
                (map-indexed (fn [i [n u]] {"@type" "ListItem" "position" (inc i) "name" n "item" u})
-                            [["AI" "https://drthomasager.com/ai"] ["Prompt Engineering" "https://drthomasager.com/ai/prompt-engineering"]
+                            [[ai-root "https://drthomasager.com/ai"] ["Prompt Engineering" "https://drthomasager.com/ai/prompt-engineering"]
                              ["Prompt Languages" "https://drthomasager.com/ai/prompt-engineering/prompt-languages"]
                              ["Smile" "https://drthomasager.com/ai/prompt-engineering/prompt-languages/smile"]])}]})
 "
@@ -209,7 +211,7 @@
 <div class=\"progress\"></div>
 <div class=\"page\">
 <article>
-<p class=\"kicker\">AI › Prompt Engineering › Prompt Languages › Smile</p>
+<p class=\"kicker\">" ai-root " › Prompt Engineering › Prompt Languages › Smile</p>
 " series "
 <h1>" (esc title) "</h1>
 " (s/replace lede #"^<p>" "<p class=\"lede\">") "

@@ -2,7 +2,7 @@
   "tiers" : [ "root", "field", "subject", "project" ],
   "tree" : [ {
     "id" : "ai",
-    "label" : "AI",
+    "label" : "Community AI",
     "also" : "Technology",
     "definition" : "Artificial intelligence as built and used, language models, prompts, agents and the systems made from them.",
     "children" : [ {
@@ -75,19 +75,10 @@
           "definition" : "Low-contact Louie, Juniper, Pip, Olive and Wren, and their trials."
         } ]
       } ]
-    }, {
-      "id" : "ai/game-ai",
-      "label" : "Game AI",
-      "definition" : "AI that plays, coaches or reads games.",
-      "children" : [ {
-        "id" : "ai/old-school-runescape",
-        "label" : "Old School RuneScape",
-        "definition" : "Agents, coaching and analysis for Old School RuneScape, its fights and its quests."
-      } ]
     } ]
   }, {
     "id" : "buddhism",
-    "label" : "Buddhism",
+    "label" : "Bodhisattva Practice",
     "also" : "Spirituality",
     "definition" : "The dharma as practised, translated and made visible.",
     "children" : [ {

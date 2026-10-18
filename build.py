@@ -13,8 +13,17 @@ SITE = ROOT / "site"
 
 SITE_NAME = "Dr Thomas Ager"
 SITE_URL = "https://drthomasager.github.io/drthomasager.com/"
-TAGLINE = ("Writing on Buddhism, Smile, Videogames, Sacred Travel, "
-           "and Machine Learning.")
+TAGLINE = ("Ethical, Bodhisattva and Shambhala AI brought into local "
+           "communities with local LLMs, for business owners and people "
+           "building such projects.")
+
+# The two main categories, shown side by side in the header the way
+# Swim University shows Pool Care and Hot Tub Care. Each gathers the
+# CATEGORIES that belong to it, named as the ontology's two roots.
+ROOTS = {
+    "Community AI": ["AI Agents", "Prompt Engineering"],
+    "Bodhisattva Practice": ["Buddhism"],
+}
 
 # ---------------------------------------------------------------
 # MAILING LIST ENDPOINT — the one line that receives the real
@@ -67,6 +76,10 @@ CATEGORIES = {
             "Monastic Life": {
                 "children": [],
                 "blurb": "Ordination, robes, and the monastery day."},
+            "Commentaries": {
+                "children": [],
+                "blurb": "Commentaries on contemplation and the "
+                         "nature of mind."},
         },
     },
 }
@@ -198,18 +211,6 @@ PROJECTS = {
         "hues": ["#f5c542", "#4ca373"],
         "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
                     "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
-    },
-    "Videogames": {
-        # Amoghasiddhi, north, Karma family. Wind; all-accomplishing
-        # wisdom; transforms jealousy into mastery held lightly —
-        # play. Jade green (also the phosphor of the first screens);
-        # second tone jade toward the light.
-        "color": "#62d194",   # Amoghasiddhi jade, held in the band
-        # secondary: Ratnasambhava's gold across the center, a step
-        # quieter (accomplishment met by equanimity)
-        "hues": ["#62d194", "#bf9a33"],
-        "symbols": ["▲", "●", "✕", "■", "►", "▌▌", "★", "♥", "⬆",
-                    "⬇", "⬅", "➡", "1UP", "XP"],
     },
     "Sacred Travel": {
         # Amitabha, west, Lotus family. Fire; discriminating wisdom —
@@ -391,8 +392,13 @@ def signup_form(idp, button_text):
             f'<p class="reassure">We\'ll never share your info with anyone.</p></form>')
 
 def header():
-    nav = "".join(f'<a href="{c["slug"]}.html">{cat}</a>'
-                  for cat, c in CATEGORIES.items())
+    # the two roots side by side, each opening onto its own categories
+    nav = "".join(
+        f'<div class="root"><a class="root-link" href="{CATEGORIES[cats[0]]["slug"]}.html">{root}</a>'
+        f'<div class="root-menu">'
+        + "".join(f'<a href="{CATEGORIES[c]["slug"]}.html">{c}</a>' for c in cats if c in CATEGORIES)
+        + '</div></div>'
+        for root, cats in ROOTS.items())
     return (f'<header class="top"><a class="brand" href="index.html">'
             f'<span class="brand-mark">(-:</span> {SITE_NAME}</a>'
             f'<nav>{nav}<a href="shop.html">Shop</a></nav>'
@@ -569,9 +575,10 @@ def index_body(posts, svg_fn=None):
                 f'<div class="grid">'
                 + "".join(card(p) for p in posts[:6]) + '</div></section>')
     return (hero("The Writing of<br>Dr Thomas Ager",
-                 "Buddhism, Smile, Videogames, Sacred Travel, and Machine "
-                 "Learning. New posts go out by email when they are "
-                 "written.", "hero-form",
+                 "Ethical, Bodhisattva and Shambhala AI brought into "
+                 "local communities with local LLMs, for business owners "
+                 "and people building such projects. New posts go out "
+                 "by email when they are written.", "hero-form",
                  svg_fn(h=320))
             + trust
             + f'<main>{feature}{feature_cards}</main>'
@@ -758,6 +765,12 @@ def build_sitemap(posts, names):
     latest = posts[0]["date"] if posts else "2026-08-30"
     rows = [("", latest)] + [(f"{n}.html", latest) for n in names]
     rows += [(f'{p["slug"]}.html', p.get("updated", p["date"])) for p in posts]
+    # the history of Smile, released one page a day into site/history-of-smile
+    # by drafts/the-history-of-smile/stage.clj, outside posts/ and the feed
+    hist = SITE / "history-of-smile"
+    if hist.exists():
+        rows += [(f.parent.relative_to(SITE).as_posix() + "/", latest)
+                 for f in sorted(hist.glob("**/index.html"))]
     urls = "".join(f"<url><loc>{SITE_URL}{path}</loc>"
                    f"<lastmod>{day}</lastmod></url>" for path, day in rows)
     (SITE / "sitemap.xml").write_text(
