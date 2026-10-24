@@ -568,15 +568,15 @@
   "book": "The Mystique of Enlightenment",
   "chapter": "Part One",
   "year": 1982,
-  "confidence": "S",
-  "kind": "fragment",
+  "confidence": "T",
+  "kind": "paraphrase",
   "tags": [
    "calamity",
    "biography",
    "book-the-mystique-of-enlightenment",
    "kind-fragment"
   ],
-  "note": "Describing the events of 1967 he later called the calamity.",
+  "note": "Describing the events of 1967 he later called the calamity. Verification 4: an editor's bracketed third-person biographical note in Mystique Part One, not U.G.'s words.",
   "sources": [
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
   ],
@@ -592,7 +592,8 @@
   ],
   "wording_variants": [
    "By 1961 his money was finished, and he felt beginning within him a tremendous upheaval which he could not and did not wish to control, and which was to last six years and end with the 'calamity'."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q02c3e502",
@@ -884,7 +885,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-paraphrase"
   ],
-  "note": "Editor's or publisher's words (Rodney Arms introduction / book description), NOT UG's own sentence.",
+  "note": "Editor's or publisher's words (Rodney Arms introduction / book description), NOT UG's own sentence. Verification 4: publisher blurb, not U.G.'s sentence.",
   "sources": [
    "https://books.google.com/books/about/The_Mystique_of_Enlightenment.html?id=zuPYygEACAAJ",
    "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti"
@@ -903,7 +904,8 @@
   ],
   "wording_variants": [
    "He states emphatically that one can do nothing to attain the natural state. In fact, any movement towards it separates one from it."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q7a1ee58c",
@@ -1489,7 +1491,7 @@
    "book-mind-is-a-myth",
    "kind-paraphrase"
   ],
-  "note": "quotepark labels it Ch.4 but notes it is quoted in Terry Newland's Introduction (Newland quoting UG). Text not recovered.",
+  "note": "quotepark labels it Ch.4 but notes it is quoted in Terry Newland's Introduction (Newland quoting UG). Text not recovered. Verification 4: a Terry Newland Introduction quotation.",
   "sources": [
    "https://quotepark.com/authors/ug-krishnamurti/"
   ],
@@ -1506,7 +1508,8 @@
   ],
   "wording_variants": [
    "I have been a damn fool all my life, searching for something which does not exist."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qee37e731",
@@ -1775,8 +1778,8 @@
  {
   "id": "qfd63f8c6",
   "text": "Thought has interfered and trying to suppress, control, and moralize about desire, to the detriment of mankind.",
-  "book": "Thought is Your Enemy",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 1990,
   "confidence": "S",
   "kind": "verbatim",
@@ -1787,7 +1790,7 @@
    "book-thought-is-your-enemy",
    "kind-verbatim"
   ],
-  "note": "Context: desire is a bodily, natural matter. Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy.",
+  "note": "Context: desire is a bodily, natural matter. Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy. Verification 4: Wikisource Mind is a Myth ch. I ('tried' vs 'trying' between copies).",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
   ],
@@ -2768,7 +2771,7 @@
    "book-no-way-out",
    "kind-paraphrase"
   ],
-  "note": "Quotepark labels the passage with this chapter; text not surfaced.",
+  "note": "Quotepark labels the passage with this chapter; text not surfaced. Verification 4: disputed; the only 'no escape' ending found belongs to the Mind is a Myth sorrow passage, not No Way Out ch. 7.",
   "sources": [
    "https://quotepark.com/authors/ug-krishnamurti/"
   ],
@@ -2783,7 +2786,8 @@
   ],
   "wording_variants": [
    "Thinking about and struggling against \"sorrow\" is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer. There is no way out, no escape."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q062c2482",
@@ -3410,8 +3414,8 @@
  {
   "id": "q373b0000",
   "text": "The highest goal is like a horizon that recedes as you approach it, a projection of your own fear.",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 2005,
   "confidence": "T",
   "kind": "paraphrase",
@@ -3422,7 +3426,7 @@
    "book-the-natural-state",
    "kind-paraphrase"
   ],
-  "note": "Paraphrase; 'a projection of your own fear' given as in-quote wording.",
+  "note": "Paraphrase; 'a projection of your own fear' given as in-quote wording. Verification 4: the horizon passage is Mind is a Myth ch. I on Wikisource, not The Natural State.",
   "sources": [
    "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
   ],
@@ -3435,7 +3439,8 @@
    "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/",
    "https://en.wikisource.org/wiki/The_Natural_State"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q6f33cc13",
@@ -5657,8 +5662,8 @@
  {
   "id": "q3efc45a4",
   "text": "Our basic human problems are neurological, not psychological. Thought has created the problem of desire.",
-  "book": "Certainty: Life has no beginning, no end",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 2012,
   "confidence": "T",
   "kind": "paraphrase",
@@ -5670,7 +5675,7 @@
    "book-certainty-life-has-no-beginning-no-end",
    "kind-paraphrase"
   ],
-  "note": "Search-summary paraphrase of Goodreads work 46398939 (Bansal anthology 'Certainty'); same page: drop the idea of the meaningful and you find meaning in daily life.",
+  "note": "Search-summary paraphrase of Goodreads work 46398939 (Bansal anthology 'Certainty'); same page: drop the idea of the meaningful and you find meaning in daily life. Verification 4: Wikisource Mind is a Myth ch. I.",
   "sources": [
    "https://www.goodreads.com/work/quotes/46398939-u-g-krishnamurti-certainty-life-has-no-beginning-no-end"
   ],
@@ -5686,7 +5691,8 @@
   ],
   "wording_variants": [
    "What I am emphasizing is that we are trying to solve our basic human problems through a psychological framework when the problem is neurological."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q93a61f20",
@@ -6041,7 +6047,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Interview account in the 'UG Cookbook' PDF (travelswithug.com), at age 84; not verbatim. Attribution pass: wikisource places it in No Way Out, Ch. 4 You Invent Your Reality. Paraphrase of U.G.'s remarks on health foods and vitamin C in Ch. 4.",
+  "note": "Interview account in the 'UG Cookbook' PDF (travelswithug.com), at age 84; not verbatim. Verification 4: editorial wording from the UG Cookbook. Attribution pass: wikisource places it in No Way Out, Ch. 4 You Invent Your Reality. Paraphrase of U.G.'s remarks on health foods and vitamin C in Ch. 4.",
   "sources": [
    "http://www.travelswithug.com/resources/UGCookbook.pdf"
   ],
@@ -8560,7 +8566,7 @@
    "book-the-natural-state",
    "kind-paraphrase"
   ],
-  "note": null,
+  "note": "Verification 4: wording is jhana8's biography, not a transcribed line.",
   "sources": [
    "https://www.inner-quest.org/UG_Natural_State.htm"
   ],
@@ -8577,7 +8583,8 @@
   "wording_variants": [
    "...a pure and simple physical and physiological state of being.",
    "It is not a synonym for enlightenment, freedom or God-realization."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qa850f231",
