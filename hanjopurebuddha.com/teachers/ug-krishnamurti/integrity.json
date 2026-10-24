@@ -18,8 +18,8 @@
    "lead": 81
   },
   "quotes_by_confidence": {
-   "S": 189,
-   "T": 93
+   "S": 188,
+   "T": 94
   },
   "quotes_by_verdict": {
    "corroborated-primary": 102,
@@ -32,11 +32,11 @@
   },
   "quotes_by_book": {
    "The Mystique of Enlightenment": 51,
-   "The Natural State": 15,
+   "The Natural State": 14,
    "No Way Out": 43,
-   "Mind is a Myth": 51,
+   "Mind is a Myth": 54,
    "Stopped in Our Tracks": 17,
-   "Thought is Your Enemy": 15,
+   "Thought is Your Enemy": 14,
    "The Courage to Stand Alone": 12,
    "A Taste of Death": 5,
    "U.G. Krishnamurti: A Life": 8,
@@ -49,7 +49,6 @@
    "U.G. Krishnamurti Quotes (self-published booklet, Goodreads 43411143)": 1,
    "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
-   "Certainty: Life has no beginning, no end": 1,
    "Mark Whitwell recollection": 2,
    "interview: K. Chandrasekhar audio-tape excerpts": 1,
    "The Sage and the Housewife": 5,
@@ -64,7 +63,7 @@
    "item-duplicate-title": 7,
    "item-no-sources": 12,
    "item-possible-jk-contamination": 3,
-   "quote-flagged-not-ug-or-editor": 7,
+   "quote-flagged-not-ug-or-editor": 9,
    "quote-near-duplicate": 7,
    "quote-possible-jk-contamination": 5,
    "quote-unassigned-book": 6,
@@ -166,6 +165,44 @@
     2
    ]
   ],
+  "quote-flagged-not-ug-or-editor": [
+   [
+    "qeb9c85d2",
+    "…a tremendous upheaval…"
+   ],
+   [
+    "q5af2e554",
+    "one can do nothing to attain the natural state. In fact, any"
+   ],
+   [
+    "qc40e7904",
+    "[damn fool passage, paraphrase only]"
+   ],
+   [
+    "q7f620b02",
+    "You think when you don't want to do anything. Thinking is a "
+   ],
+   [
+    "qbb1ee524",
+    "Nature is busy creating absolutely unique individuals, where"
+   ],
+   [
+    "q27ae73f0",
+    "You need not worry about nutrition or health foods; the body"
+   ],
+   [
+    "qdb3fcee7",
+    "thought is a divisive and ultimately a destructive instrumen"
+   ],
+   [
+    "qc213105f",
+    "Making love is war."
+   ],
+   [
+    "qdab04c55",
+    "The natural state is a pure and simple physical and physiolo"
+   ]
+  ],
   "quote-very-short": [
    [
     "qeb9c85d2",
@@ -202,36 +239,6 @@
    [
     "q95504a40",
     "I am myself a thief."
-   ]
-  ],
-  "quote-flagged-not-ug-or-editor": [
-   [
-    "q5af2e554",
-    "one can do nothing to attain the natural state. In fact, any"
-   ],
-   [
-    "qc40e7904",
-    "[damn fool passage, paraphrase only]"
-   ],
-   [
-    "q7f620b02",
-    "You think when you don't want to do anything. Thinking is a "
-   ],
-   [
-    "qbb1ee524",
-    "Nature is busy creating absolutely unique individuals, where"
-   ],
-   [
-    "qdb3fcee7",
-    "thought is a divisive and ultimately a destructive instrumen"
-   ],
-   [
-    "qc213105f",
-    "Making love is war."
-   ],
-   [
-    "qdab04c55",
-    "The natural state is a pure and simple physical and physiolo"
    ]
   ],
   "quote-possible-jk-contamination": [
