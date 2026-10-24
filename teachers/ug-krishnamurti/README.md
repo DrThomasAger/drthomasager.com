@@ -12,15 +12,15 @@ are published next to the page as JSON.
 <!-- counts -->
 | File | What | Count |
 |---|---|---|
-| `items.json` | located media items across video, audio, text, image, archive, community | 567 |
+| `items.json` | located media items across video, audio, text, image, archive, community | 688 |
 | `quotes.json` | words of the teacher, each with book, chapter, confidence, kind, verdict, sources | 282 |
 | `events.json` | dated life events with sources | 84 |
 | `people.json` | everyone connected to the record, with role and what they hold | 87 |
 
-Items by medium: archive 95, community 22, audio 80, image 93, text 181, video 96.
-Items by confidence: S 520, T 2, lead 45.
+Items by medium: archive 95, community 59, audio 90, image 116, text 204, video 124.
+Items by confidence: S 619, T 2, lead 67.
 Quotes by verdict: corroborated-primary 24, corroborated-secondary 73, primary-source 72, disputed 3, multi-source 25, single-source 82, not-found 3.
-Distinct source hosts cited: 302.
+Distinct source hosts cited: 363.
 <!-- /counts -->
 
 ## The one-line answer on copyright
