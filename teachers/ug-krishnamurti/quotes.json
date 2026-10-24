@@ -3213,8 +3213,8 @@
  {
   "id": "q044d9da9",
   "text": "It is not an illusion, only your experience of it is an illusion.",
-  "book": "The Courage to Stand Alone",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 1988,
   "confidence": "S",
   "kind": "verbatim",
@@ -3224,7 +3224,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth.",
+  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth. Verification 4: Wikisource, Goodreads and remembering-ug place it in Mind is a Myth ch. I.",
   "sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
@@ -6064,7 +6064,7 @@
   "id": "q96cd1f77",
   "text": "…I knew without doubt that I had made the biggest mistake of my life.",
   "book": "U.G. Krishnamurti: A Life",
-  "chapter": "Adrift in London (ch. 5)",
+  "chapter": "Ch. 4 Locking of Horns",
   "year": 1992,
   "confidence": "S",
   "kind": "fragment",
@@ -6074,7 +6074,7 @@
    "book-u-g-krishnamurti-a-life",
    "kind-fragment"
   ],
-  "note": "On the morning after his arranged wedding; the same source reports he did not trust anyone who had not raised children to educate them ('if you raised your own children, you would understand').",
+  "note": "On the morning after his arranged wedding; the same source reports he did not trust anyone who had not raised children to educate them ('if you raised your own children, you would understand'). Verification 4: Bhatt's biography ch. 4 (WELL ugbio4.htm), reported speech.",
   "sources": [
    "https://people.well.com/user/jct/ugbio/ugbio5.htm",
    "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html"
@@ -6092,7 +6092,8 @@
   ],
   "wording_variants": [
    "[reported speech] he was to say later that he knew without doubt he had made the biggest mistake of his life"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q2f03fb65",
@@ -7365,8 +7366,8 @@
  {
   "id": "q00193fb7",
   "text": "Thought is you.",
-  "book": "interview: K. Chandrasekhar audio-tape excerpts",
-  "chapter": null,
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
   "year": null,
   "confidence": "T",
   "kind": "verbatim",
@@ -7376,7 +7377,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Attribution pass: well.com places it in interview: K. Chandrasekhar audio-tape excerpts. U.G. speaking ('thought is you'); Chandrasekhar's audio-tape excerpts. A related line is in the Thought is Your Enemy review on Wikisource.",
+  "note": "Verification 4: Chandrasekhar's Book Two excerpts (chandra.htm). Attribution pass: well.com places it in interview: K. Chandrasekhar audio-tape excerpts. U.G. speaking ('thought is you'); Chandrasekhar's audio-tape excerpts. A related line is in the Thought is Your Enemy review on Wikisource.",
   "sources": [
    "https://people.well.com/user/jct/chandra.htm"
   ],
@@ -8582,7 +8583,7 @@
   "id": "qa850f231",
   "text": "I am not suggesting that you should stop thinking; thought is what you are.",
   "book": "Stopped in Our Tracks",
-  "chapter": "Book Two (Excerpts from U.G.'s Dialogues)",
+  "chapter": "Book Two",
   "year": null,
   "confidence": "S",
   "kind": "paraphrase",
@@ -8592,7 +8593,7 @@
    "book-stopped-in-our-tracks",
    "kind-paraphrase"
   ],
-  "note": "Rendered indirectly in the search summary of well.com/chandra.htm.",
+  "note": "Rendered indirectly in the search summary of well.com/chandra.htm. Verification 4: same chandra.htm sentence pair as q00193fb7.",
   "sources": [
    "https://people.well.com/user/jct/chandra.htm"
   ],
@@ -8606,7 +8607,8 @@
   ],
   "wording_variants": [
    "I am not suggesting that you should not think. Thought is you."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qc60032ad",
@@ -8615,7 +8617,7 @@
   "chapter": "Book Three: What the Press and Others Say About U.G.",
   "year": null,
   "confidence": "T",
-  "kind": "fragment",
+  "kind": "paraphrase",
   "tags": [
    "continuity",
    "self",
@@ -8623,7 +8625,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "WELL page paraphrasing U.G. Attribution pass 2: well.com ntbook3.htm is K. Chandrasekhar's compilation 'What the Press and Others Say About U.G.', Book Three of Stopped in Our Tracks. NOT U.G.'s own sentence: a press/commentator paraphrase of his position ('it is through this constant thinking that we are maintaining the continuity of what we call the I or self'). Nearest U.G. text is Thought is Your Enemy (continuity of thought snapped).",
+  "note": "WELL page paraphrasing U.G. Verification 4: carried as 'U.G. says that…', a press paraphrase, not his sentence. Attribution pass 2: well.com ntbook3.htm is K. Chandrasekhar's compilation 'What the Press and Others Say About U.G.', Book Three of Stopped in Our Tracks. NOT U.G.'s own sentence: a press/commentator paraphrase of his position ('it is through this constant thinking that we are maintaining the continuity of what we call the I or self'). Nearest U.G. text is Thought is Your Enemy (continuity of thought snapped).",
   "sources": [
    "https://people.well.com/user/jct/ntbook3.htm"
   ],
@@ -8808,7 +8810,7 @@
   "id": "q104a81af",
   "text": "the fear of losing what we have and what we know is responsible for our problems",
   "book": "No Way Out",
-  "chapter": "Ch. 7 What Kind of a Human Being Do You Want?",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -8818,7 +8820,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Aggregators attribute variously to Mystique of Enlightenment and No Way Out. Attribution pass 2: wikiquote/goodreads place it in No Way Out, Ch. 7 ('The fact is that we don't want to be free. What is responsible for our problems is the fear of losing what we have and what we know.'). U.G. speaking.",
+  "note": "Aggregators attribute variously to Mystique of Enlightenment and No Way Out. Verification 4: Wikiquote and Quotepark give No Way Out ch. 7. Attribution pass 2: wikiquote/goodreads place it in No Way Out, Ch. 7 ('The fact is that we don't want to be free. What is responsible for our problems is the fear of losing what we have and what we know.'). U.G. speaking.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
@@ -8877,7 +8879,7 @@
   "chapter": null,
   "year": null,
   "confidence": "T",
-  "kind": "fragment",
+  "kind": "paraphrase",
   "tags": [
    "autobiography",
    "meditation",
@@ -8886,7 +8888,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "How U.G. later described his seven years of yoga and meditation with Swami Sivananda.",
+  "note": "How U.G. later described his seven years of yoga and meditation with Swami Sivananda. Verification 4: 'a useless exercise' is Wikipedia's narrative voice, not a U.G. sentence.",
   "sources": [
    "https://cisindus.org/indic-varta-internal.php?vartaid=194"
   ],
@@ -8903,7 +8905,8 @@
   "wording_variants": [
    "[Wikipedia mirror] he would later also dismiss this period with Sivananda as a useless exercise",
    "[dialogue variant] it didn't help, so I dropped it"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q610e5087",
@@ -9067,7 +9070,7 @@
    "book-stopped-in-our-tracks",
    "kind-paraphrase"
   ],
-  "note": "chandra.htm passage on his approach says his aim is to silence [the audience]; exact phrasing not captured. Topic index also has 'Samadhi and Ultimate Samadhi'.",
+  "note": "chandra.htm passage on his approach says his aim is to silence [the audience]; exact phrasing not captured. Topic index also has 'Samadhi and Ultimate Samadhi'. Verification 4: 'My aim is to silence you' not found verbatim; the only 'silence' line in Stopped in Our Tracks is Nagaraj's remark.",
   "sources": [
    "https://people.well.com/user/jct/chandra.htm"
   ],
@@ -9079,7 +9082,8 @@
   "confirming_sources": [
    "https://people.well.com/user/jct/chandra.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q76f1764e",
@@ -9218,7 +9222,7 @@
    "book-the-biology-of-enlightenment",
    "kind-paraphrase"
   ],
-  "note": "These are Mukunda Rao's editorial words describing U.G.'s state, not U.G.'s own; included for context only.",
+  "note": "These are Mukunda Rao's editorial words describing U.G.'s state, not U.G.'s own; included for context only. Verification 4: the core sentence 'The natural state is a pure and simple, physical and physiological state of being' is U.G.'s own (inner-quest; WELL No Way Out ch. 1).",
   "sources": [
    "https://realitysandwich.com/introduction_u_g_krishnamurti/"
   ],
@@ -9235,7 +9239,8 @@
   ],
   "wording_variants": [
    "The natural state is a pure and simple, physical and physiological state of being."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q8233c2a7",
@@ -9286,7 +9291,7 @@
    "book-the-sage-and-the-housewife",
    "kind-fragment"
   ],
-  "note": "Wikiquote cites 'Quoted in The Sage and the Housewife (2005), Ch. 3'; the passage continues that people become rotten through culture. Quotepark attributes the same lines to No Way Out (2002) ch. 4.",
+  "note": "Wikiquote cites 'Quoted in The Sage and the Housewife (2005), Ch. 3'; the passage continues that people become rotten through culture. Quotepark attributes the same lines to No Way Out (2002) ch. 4. Verification 4: attribution conflict between Sage and the Housewife ch. 3 and No Way Out ch. 4.",
   "sources": [
    "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
    "https://libquotes.com/u-g-krishnamurti/quote/lby6y0i"
@@ -9302,7 +9307,8 @@
    "https://libquotes.com/u-g-krishnamurti/quote/lby6y0i",
    "https://quotepark.com/authors/ug-krishnamurti/culture/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q9feeb1bf",
@@ -9348,7 +9354,7 @@
    "book-the-sage-and-the-housewife",
    "kind-paraphrase"
   ],
-  "note": "Ch. 7 (U.G.'s November 1988 arrival in Bangalore); paraphrase from search snippet.",
+  "note": "Ch. 7 (U.G.'s November 1988 arrival in Bangalore); paraphrase from search snippet. Verification 4: source wording is 'brush aside', not 'dismiss'; the Nov 1988 date is unconfirmed.",
   "sources": [
    "https://people.well.com/user/jct/sage7.htm"
   ],
@@ -9364,6 +9370,7 @@
   ],
   "wording_variants": [
    "[near-verbatim] if a Kundalini Shakti exists and rises, the person to whom it happens would brush aside the very concept of Kundalini"
-  ]
+  ],
+  "corrected": true
  }
 ]
