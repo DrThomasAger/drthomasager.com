@@ -35,8 +35,9 @@
   "note": "Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks."
  },
  "q044d9da9": {
-  "book": "The Courage to Stand Alone",
-  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth."
+  "book": "Mind is a Myth",
+  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth. Verification 4: Wikisource, Goodreads and remembering-ug place it in Mind is a Myth ch. I.",
+  "chapter": "Ch. I The Certainty That Blasts Everything"
  },
  "qd1a6079f": {
   "book": "Stopped in Our Tracks",
@@ -200,5 +201,47 @@
  },
  "qba6902b4": {
   "note": "Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'."
+ },
+ "q96cd1f77": {
+  "book": "U.G. Krishnamurti: A Life",
+  "chapter": "Ch. 4 Locking of Horns",
+  "note": "Verification 4: Bhatt's biography ch. 4 (WELL ugbio4.htm), reported speech."
+ },
+ "q104a81af": {
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
+  "note": "Verification 4: Wikiquote and Quotepark give No Way Out ch. 7."
+ },
+ "q00193fb7": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 4: Chandrasekhar's Book Two excerpts (chandra.htm)."
+ },
+ "qa850f231": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 4: same chandra.htm sentence pair as q00193fb7."
+ },
+ "q1268f7b9": {
+  "note": "Verification 4: source wording is 'brush aside', not 'dismiss'; the Nov 1988 date is unconfirmed."
+ },
+ "q7bd7cc71": {
+  "note": "Verification 4: attribution conflict between Sage and the Housewife ch. 3 and No Way Out ch. 4."
+ },
+ "qc60032ad": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: carried as 'U.G. says that…', a press paraphrase, not his sentence."
+ },
+ "q0c6ee69f": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: 'a useless exercise' is Wikipedia's narrative voice, not a U.G. sentence."
+ },
+ "qdab04c55": {
+  "note": "Verification 4: the core sentence 'The natural state is a pure and simple, physical and physiological state of being' is U.G.'s own (inner-quest; WELL No Way Out ch. 1)."
+ },
+ "q707dda41": {
+  "note": "Verification 4: 'My aim is to silence you' not found verbatim; the only 'silence' line in Stopped in Our Tracks is Nagaraj's remark."
  }
 }
