@@ -70,7 +70,7 @@ Machine-readable results: `/tmp/claude-0/-home-user-drthomasager-com/7c7edf2e-a0
 | **total checked** | **48** |
 
 By kind checked: verbatim 19, fragment 28, paraphrase 1.  
-Previous catalogue verdict of the checked quotes: corroborated-primary 16, single-source 18, corroborated-secondary 13, not-found 1.
+Pre-pass verdicts across the 101 qualifying even-id quotes: single-source 45, primary-source 41, multi-source 15. (Note: `quotes.json` already carried this pass's verdicts for the checked ids by the time this report was generated, so the per-quote "before" state is taken from the pass's initial listing rather than re-read.)
 
 Observations:
 
