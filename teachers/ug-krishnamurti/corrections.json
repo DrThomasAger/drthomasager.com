@@ -124,5 +124,10 @@
  },
  "qf71956be": {
   "note": "Verification 2: Chandrasekhar's narration quoting U.G. (Stopped in Our Tracks)."
+ },
+ "qdb3fcee7": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words."
  }
 }
