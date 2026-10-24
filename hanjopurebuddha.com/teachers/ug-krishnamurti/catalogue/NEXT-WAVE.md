@@ -1,6 +1,6 @@
 # Next wave — briefs waiting for search budget
 
-Status 2026-10-24 night: briefs 1–8 have all run (see wave5-*.md and
+Status 2026-10-24 late: briefs 1–8 and a seventh wave (verification pass 3 in two halves, an attribution pass on the unassigned quotes, a YouTube listing through mirror sites) have all run. 88 quotes, almost all paraphrases and fragments, remain unchecked after three passes; 36 quotes remain unassigned to a book, most attested only in the WELL memorial compilation, a self-published Goodreads booklet, or aggregators. Briefs 1–8 (see wave5-*.md and
 wave6-*.md). What each left open is in its own "Still open" section.
 The largest remaining gaps need a browser or the hosts themselves:
 Reddit (blocked to the search tool), the Wayback Machine range of
