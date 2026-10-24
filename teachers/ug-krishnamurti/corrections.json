@@ -129,5 +129,40 @@
   "kind": "paraphrase",
   "confidence": "T",
   "note": "Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words."
+ },
+ "qdc4e8ecb": {
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
+  "note": "Verification 3: hosts place it in Mystique Part Two, not The Natural State."
+ },
+ "qfe0764c5": {
+  "kind": "verbatim",
+  "confidence": "S",
+  "note": "Verification 3: verbatim on hosts; Goodreads files it under No Way Out, catalogue under Mystique."
+ },
+ "q59326449": {
+  "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned."
+ },
+ "qeee2e8cf": {
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
+  "note": "Verification 3: the Moorty/Noronha 2002 compilation ch. 7."
+ },
+ "qc032db3b": {
+  "book": "Love (ed. Sunita Pant Bansal)",
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+ },
+ "q74cba27f": {
+  "book": "Love (ed. Sunita Pant Bansal)",
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+ },
+ "q46e8ac7b": {
+  "note": "Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced."
+ },
+ "q181d741b": {
+  "note": "Verification 3: no hit for the exact phrase; results swamped by Jiddu Krishnamurti pages, who has a published passage on an overlapping theme. Treat with care."
+ },
+ "q91eb04cf": {
+  "note": "Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently."
  }
 }
