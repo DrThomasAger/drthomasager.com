@@ -33,28 +33,28 @@
   "quotes_by_book": {
    "The Mystique of Enlightenment": 51,
    "The Natural State": 15,
-   "No Way Out": 40,
-   "Mind is a Myth": 49,
+   "No Way Out": 43,
+   "Mind is a Myth": 50,
    "Stopped in Our Tracks": 16,
    "Thought is Your Enemy": 15,
    "The Courage to Stand Alone": 13,
-   "A Taste of Death": 4,
-   "unassigned": 13,
+   "A Taste of Death": 5,
+   "U.G. Krishnamurti: A Life": 8,
    "My Swan Song": 21,
    "Remembering U.G. (WELL memorial compilation)": 11,
+   "unassigned": 6,
    "Stopped in Our Tracks, Book Two": 1,
-   "U.G. Krishnamurti: A Life": 7,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
    "Love (ed. Sunita Pant Bansal)": 2,
    "U.G. Krishnamurti Quotes (self-published booklet, Goodreads 43411143)": 1,
    "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
    "Certainty: Life has no beginning, no end": 1,
+   "Mark Whitwell recollection": 2,
    "interview: K. Chandrasekhar audio-tape excerpts": 2,
    "The Sage and the Housewife": 5,
    "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1,
-   "Science and U.G.": 4,
-   "Mark Whitwell recollection": 1
+   "Science and U.G.": 4
   },
   "distinct_source_hosts": 366,
   "items_self_sourced_only": 377,
@@ -67,7 +67,7 @@
    "quote-flagged-not-ug-or-editor": 7,
    "quote-near-duplicate": 7,
    "quote-possible-jk-contamination": 5,
-   "quote-unassigned-book": 13,
+   "quote-unassigned-book": 6,
    "quote-very-short": 9
   }
  },
@@ -234,60 +234,6 @@
     "The natural state is a pure and simple physical and physiolo"
    ]
   ],
-  "quote-unassigned-book": [
-   [
-    "q45036753",
-    "A real guru, if there is one, frees you from himself."
-   ],
-   [
-    "q68aa6bb3",
-    "all gurus are welfare organizations providing petty experien"
-   ],
-   [
-    "q241d3a5e",
-    "as long as you depend upon somebody for solving your problem"
-   ],
-   [
-    "qacfbd56d",
-    "Life has to be described in pure and simple physical and phy"
-   ],
-   [
-    "q59326449",
-    "The pleasure of sex, for instance, is by nature temporary. T"
-   ],
-   [
-    "qec037541",
-    "The only relationship you have with anybody in this world is"
-   ],
-   [
-    "q46e8ac7b",
-    "Charity is the filthiest invention of the human mind: first…"
-   ],
-   [
-    "qba6902b4",
-    "Meditation is evil."
-   ],
-   [
-    "q4b9ab831",
-    "I am not against the scientific method per se."
-   ],
-   [
-    "qdb3fcee7",
-    "thought is a divisive and ultimately a destructive instrumen"
-   ],
-   [
-    "qc852ca7b",
-    "happiness without one moment of unhappiness, pleasure withou"
-   ],
-   [
-    "qc213105f",
-    "Making love is war."
-   ],
-   [
-    "q0c6ee69f",
-    "a useless exercise"
-   ]
-  ],
   "quote-possible-jk-contamination": [
    [
     "qa52816a8",
@@ -308,6 +254,32 @@
    [
     "q5061960a",
     "It [thought] is a mechanical thing and can solve only mechan"
+   ]
+  ],
+  "quote-unassigned-book": [
+   [
+    "q68aa6bb3",
+    "all gurus are welfare organizations providing petty experien"
+   ],
+   [
+    "q241d3a5e",
+    "as long as you depend upon somebody for solving your problem"
+   ],
+   [
+    "qacfbd56d",
+    "Life has to be described in pure and simple physical and phy"
+   ],
+   [
+    "q4b9ab831",
+    "I am not against the scientific method per se."
+   ],
+   [
+    "qc852ca7b",
+    "happiness without one moment of unhappiness, pleasure withou"
+   ],
+   [
+    "q0c6ee69f",
+    "a useless exercise"
    ]
   ],
   "quote-near-duplicate": [

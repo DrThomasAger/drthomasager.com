@@ -2195,8 +2195,8 @@
  {
   "id": "q45036753",
   "text": "A real guru, if there is one, frees you from himself.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "U.G. Krishnamurti: A Life",
+  "chapter": "Ch. 2 Early Years",
   "year": null,
   "confidence": "S",
   "kind": "verbatim",
@@ -2206,7 +2206,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Wikiquote Talk page, unsourced. Verification: via Bhatt's biography on the WELL; Wikiquote lists it unsourced.",
+  "note": "Wikiquote Talk page, unsourced. Verification: via Bhatt's biography on the WELL; Wikiquote lists it unsourced. Attribution pass 2 (carried over from wave 7): well.com ugbio2.htm places it in Mahesh Bhatt's biography, Ch. 2; U.G.'s own words as quoted by Bhatt. Attribution pass: well.com places it in U.G. Krishnamurti: A Life, Ch. 2 Early Years. U.G.'s own words as quoted by Mahesh Bhatt in the biography.",
   "sources": [
    "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti"
   ],
@@ -5068,7 +5068,7 @@
  {
   "id": "q59326449",
   "text": "The pleasure of sex, for instance, is by nature temporary. The body can't take uninterrupted pleasure for long, it would be destroyed.",
-  "book": "unassigned",
+  "book": "No Way Out",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -5080,7 +5080,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned.",
+  "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned. Attribution pass 2 (carried over from wave 7): goodreads/wikisource place it in No Way Out; also anthologised in The Natural State. U.G. speaking. Attribution pass: goodreads/wikisource places it in No Way Out. U.G. speaking; also anthologised in The Natural State.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3"
   ],
@@ -5134,8 +5134,8 @@
  {
   "id": "qec037541",
   "text": "The only relationship you have with anybody in this world is \"What do I get out of it?\"",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 8 The Build-Up of Sex and Love",
   "year": null,
   "confidence": "T",
   "kind": "paraphrase",
@@ -5145,7 +5145,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Verification 2: exact sentence not found; Wikisource No Way Out ch. 8 has the idea as 'all relationships are built on the foundation of What do I get out of this relationship?'.",
+  "note": "Verification 2: exact sentence not found; Wikisource No Way Out ch. 8 has the idea as 'all relationships are built on the foundation of What do I get out of this relationship?'. Attribution pass 2 (carried over from wave 7): wikisource places it in No Way Out Ch. 8; U.G. speaking. Attribution pass: wikisource places it in No Way Out, Ch. 8 The Build-Up of Sex and Love. U.G. speaking; the same point recurs in Ch. 7.",
   "sources": [
    "https://www.inner-quest.org/UG_Words.htm"
   ],
@@ -5442,8 +5442,8 @@
  {
   "id": "q46e8ac7b",
   "text": "Charity is the filthiest invention of the human mind: first… [people give charity to prevent the have-nots from rebelling, and it also makes them feel less guilty].",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "A Taste of Death",
+  "chapter": "Snatches from U.G.'s Conversations",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -5454,7 +5454,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Opening clause verbatim; bracketed continuation is a summary rendering. A blog also lists 'Charity is selfishness.' Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced.",
+  "note": "Opening clause verbatim; bracketed continuation is a summary rendering. A blog also lists 'Charity is selfishness.' Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced. Attribution pass 2 (carried over from wave 7): well.com mahesh.html places it in Mahesh Bhatt's diary A Taste of Death; U.G.'s remark as recorded by Bhatt. AZQuotes alternatively cites Mystique of Enlightenment p. 57 (unverified). Attribution pass: well.com places it in A Taste of Death, Snatches from U.G.'s Conversations. U.G.'s remark as recorded by Mahesh Bhatt; AZQuotes alternatively cites Mystique of Enlightenment p. 57 (unverified).",
   "sources": [
    "https://www.azquotes.com/quote/943427",
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/giving"
@@ -6207,7 +6207,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Blog list of sayings, source unclear. Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy.",
+  "note": "Blog list of sayings, source unclear. Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy. Attribution pass: well.com places it in interview: K. Chandrasekhar audio-tape excerpts. U.G. speaking, near 'Be selfish and stay selfish'; Chandrasekhar's audio-tape excerpts, not a published book.",
   "sources": [
    "https://dalemusings.wordpress.com/2012/12/25/thought-is-your-enemy-u-g-krishnamurti/"
   ],
@@ -6228,7 +6228,7 @@
  {
   "id": "qba6902b4",
   "text": "Meditation is evil.",
-  "book": "unassigned",
+  "book": "Mark Whitwell recollection",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -6238,7 +6238,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Fragment in Mark Whitwell's Medium essay; surrounding context cut off. Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'.",
+  "note": "Fragment in Mark Whitwell's Medium essay; surrounding context cut off. Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'. Attribution pass 2: attested only in Mark Whitwell's memoir 'My Life with U.G. Krishnamurti' (Medium) as an oral remark ('Meditation is evil. It is a hoax pulled on humanity...'); the printed near-variant 'meditation is itself an evil' is Mind is a Myth Ch. I. Recorded by Mark Whitwell.",
   "sources": [
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf"
   ],
@@ -7270,8 +7270,8 @@
  {
   "id": "qdb3fcee7",
   "text": "thought is a divisive and ultimately a destructive instrument. It can only function in terms of a division between the so-called self or ego and the world.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
   "year": null,
   "confidence": "T",
   "kind": "paraphrase",
@@ -7282,7 +7282,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "WELL page summarising U.G.; may be editor's wording. Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words.",
+  "note": "WELL page summarising U.G.; may be editor's wording. Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words. Attribution pass 2 (carried over from wave 7): well.com nwo1.htm places it in No Way Out Ch. 1. NOT U.G.'s words: Dr. T.R. Raghunath's introductory essay summarising U.G.'s view. Attribution pass: well.com places it in No Way Out, Ch. 1 The Unrational Philosophy of U.G. Krishnamurti. NOT U.G.'s words: this is Dr. T.R. Raghunath's introductory essay summarising U.G.'s view.",
   "sources": [
    "https://people.well.com/user/jct/ntbook3.htm"
   ],
@@ -8677,8 +8677,8 @@
  {
   "id": "qc213105f",
   "text": "Making love is war.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Introduction (editor's sampler of U.G.'s statements)",
   "year": null,
   "confidence": "T",
   "kind": "paraphrase",
@@ -8689,7 +8689,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line.",
+  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line. Attribution pass 2 (carried over from wave 7): well.com intro.html places it in Terry Newland's editorial Introduction to Mind is a Myth as one of U.G.'s provocative claims; U.G.'s words, editor's framing. Attribution pass: well.com places it in Mind is a Myth, Introduction (editor's sampler of U.G.'s statements). Quoted in Terry Newland's editorial Introduction as one of U.G.'s provocative claims; U.G.'s words, editor's framing.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],

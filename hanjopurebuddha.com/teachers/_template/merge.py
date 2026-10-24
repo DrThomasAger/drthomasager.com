@@ -226,8 +226,17 @@ if corr_path.exists():
             ext = json.loads(extra.read_text(encoding="utf-8"))
             if isinstance(ext, dict):
                 for k, v in ext.items():
-                    if k not in corr and not k.startswith("_"):
-                        corr[k] = {kk: vv for kk, vv in v.items() if kk in ("book", "chapter", "note", "kind", "confidence")}
+                    if k.startswith("_"):
+                        continue
+                    fields = {kk: vv for kk, vv in v.items() if kk in ("book", "chapter", "note", "kind", "confidence")}
+                    if k not in corr:
+                        corr[k] = fields
+                    else:  # hand correction wins field by field; researcher fills what it lacks
+                        for kk, vv in fields.items():
+                            if kk == "note":
+                                corr[k]["note"] = ((corr[k].get("note") or "") + " " + vv).strip()
+                            elif kk not in corr[k]:
+                                corr[k][kk] = vv
         except Exception as e:  # noqa
             print(f"skip {extra.name}: {e}")
     byid = {q["id"]: q for q in quotes}
