@@ -184,6 +184,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     <label>Confidence <select id="qconf"><option value="">any</option><option value="S">S · confirmed</option><option value="T">T · from memory</option></select></label>
   </div>
   <div class="chips" id="bookChips" aria-label="Book"></div>
+  <div class="chips" id="verdictChips" aria-label="Verdict"></div>
   <div class="toolbar"><div id="qcount"></div></div>
   <div id="quotes"></div>
 </section>
@@ -350,7 +351,11 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
   render();
 
   // ---- quotes
-  const QF = { q: '', books: new Set(), conf: '' };
+  const QF = { q: '', books: new Set(), conf: '', verdicts: new Set() };
+  const verdicts = uniq(quotes.map(q => q.verdict)).sort();
+  function drawVerdictChips() { $('#verdictChips').innerHTML = verdicts.map(v => `<button class="chip" data-v="${esc(v)}" aria-pressed="${QF.verdicts.has(v)}"><span class="pill verdict-${esc(v)}">●</span>${esc(v)} <span class="n">${quotes.filter(q => q.verdict === v).length}</span></button>`).join(''); }
+  drawVerdictChips();
+  $('#verdictChips').addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const v = b.dataset.v; QF.verdicts.has(v) ? QF.verdicts.delete(v) : QF.verdicts.add(v); drawVerdictChips(); renderQuotes(); });
   const books = uniq(quotes.map(q => q.book)).sort();
   const bookChips = $('#bookChips');
   function drawBookChips() { bookChips.innerHTML = books.map(b => `<button class="chip" data-b="${esc(b)}" aria-pressed="${QF.books.has(b)}">${esc(b)} <span class="n">${quotes.filter(q => q.book === b).length}</span></button>`).join(''); }
@@ -360,7 +365,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
   $('#qconf').addEventListener('input', e => { QF.conf = e.target.value; renderQuotes(); });
   function renderQuotes() {
     const q = QF.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    const rows = quotes.filter(x => (!QF.books.size || QF.books.has(x.book)) && (!QF.conf || x.confidence === QF.conf) && q.every(w => x._s.includes(w)));
+    const rows = quotes.filter(x => (!QF.books.size || QF.books.has(x.book)) && (!QF.conf || x.confidence === QF.conf) && (!QF.verdicts.size || QF.verdicts.has(x.verdict)) && q.every(w => x._s.includes(w)));
     $('#qcount').textContent = `${rows.length} of ${quotes.length} quotes`;
     $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote>${esc(x.text)}</blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
   }
