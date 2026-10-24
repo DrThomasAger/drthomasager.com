@@ -1,1 +1,2829 @@
-[]
+[
+ {
+  "id": "qbe66ba38",
+  "text": "To be yourself requires extraordinary intelligence. You are blessed with that intelligence…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "intelligence",
+   "self",
+   "natural-man",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Goodreads/Wikiquote file it under Mystique; some aggregators attach it to No Way Out; inner-quest.org shows it as a talk transcript.",
+  "sources": [
+   "https://www.goodreads.com/quotes/585068-to-be-yourself-requires-extraordinary-intelligence-you-are-blessed-with",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qc6b6c3b1",
+  "text": "To realize that there is no enlightenment at all is enlightenment.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Four",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "enlightenment",
+   "realization",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "Followed by Q: \"So there is enlightenment!\" — UG: \"If you want to call it that.\" Wikisource places it in Part Four; kwize says Part Three.",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
+   "https://kwize.com/r/U.+G.+Krishnamurti,+The+Mystique+of+Enlightenment/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qbd194c2e",
+  "text": "If you want to call it that.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Four",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "enlightenment",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "UG's reply to the questioner's \"So there is enlightenment!\" after the line above.",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q36edddbf",
+  "text": "Enlightenment (if there is any such thing as enlightenment) is not an experience at all.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "enlightenment",
+   "experience",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qac8b2fca",
+  "text": "Unquestioned action is morality.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "morality",
+   "action",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "Part of the Q&A passage beginning \"What is morality? It is not the following of enjoined [rules]…\". Most sites credit Mystique; one Goodreads listing credits Mind Is a Myth.",
+  "sources": [
+   "https://www.goodreads.com/quotes/984886-what-is-morality-it-is-not-the-following-of-enjoined",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://thequotearchive.com/quotes/U.G.%20Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qc80ccd13",
+  "text": "What is morality? It is not the following of enjoined…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "morality",
+   "action",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "The passage also says questioning one's actions is destroying the expression of life, and describes a man who lets life act without the protective movement of thought (paraphrased continuation).",
+  "sources": [
+   "https://www.goodreads.com/quotes/984886-what-is-morality-it-is-not-the-following-of-enjoined"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q16c5e496",
+  "text": "…discovered that there is no such thing as enlightenment at all…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "enlightenment",
+   "discovery",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Continuation paraphrased: so the question of whether a particular person is enlightened does not arise.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.awakeningtoreality.com/2018/10/ug-krishnamurti-mystique-of.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd28dac6d",
+  "text": "there is no self to realize",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "self",
+   "realization",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Quotlr renders the longer version in paraphrase: the realization that there is no self to realize comes as a shattering blow, hits like a thunderbolt.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qf1800473",
+  "text": "a bunch of exploiters, thriving on the gullibility of the people",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "gurus",
+   "holy-business",
+   "exploitation",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "On gurus and claimants to enlightenment.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qf5158cb3",
+  "text": "…has no copyright. You are free to reproduce, distribute, interpret, misinterpret, distort, garble, do what you like…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "front matter",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "copyright",
+   "teaching",
+   "publishing",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "The opening copyright-release statement, in place of a copyright notice; Wikiquote notes it recurs in several publications of his conversations.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qde44a012",
+  "text": "…nature had been allowed to go on in its own way, everybody would have become a unique flower.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "nature",
+   "individuality",
+   "culture",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q37d40528",
+  "text": "I call these events a calamity because from the point of view of one who thinks this is something fantastic, blissful, full of love, ecstasy and all that kind of a thing, this is physical torture.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "calamity",
+   "natural-state",
+   "body",
+   "bliss",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://jhana8.com/ug-krishnamurti-and-the-calamity-experience/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qad57ce7d",
+  "text": "Not a calamity to me but to those who have an image that something marvelous is going to happen.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "calamity",
+   "expectation",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://jhana8.com/ug-krishnamurti-and-the-calamity-experience/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qe646b0ed",
+  "text": "This state is a physical condition of your being. It is not some kind of psychological mutation.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "natural-state",
+   "body",
+   "physical",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://jhana8.com/ug-krishnamurti-and-the-calamity-experience/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q2878603e",
+  "text": "The natural state is acausal: it just happens.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "natural-state",
+   "acausal",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "Also quoted in publisher copy.",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q9aa9e10b",
+  "text": "The things that had astonished me that week had become permanent fixtures.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "calamity",
+   "biography",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q6518586c",
+  "text": "By 1961 my money was finished…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "biography",
+   "london",
+   "1961",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Biographical passage; the summary also gives the fragment \"…a tremendous upheaval…\" which he later called the calamity, in his forty-ninth year (paraphrase).",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qeb9c85d2",
+  "text": "…a tremendous upheaval…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part One",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "calamity",
+   "biography",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Describing the events of 1967 he later called the calamity.",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q02c3e502",
+  "text": "is like a nuclear explosion",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "natural-state",
+   "calamity",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "On entering the natural state; quoted in the Simon & Schuster description.",
+  "sources": [
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qfc6d0e49",
+  "text": "The search ends with the realization that there is no such thing as enlightenment.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "search",
+   "enlightenment",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "azquotes attributes to Mystique; Wikiquote places the related \"search … choking me\" passage under Mind is a Myth.",
+  "sources": [
+   "https://www.azquotes.com/quote/610426"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q5f1205b6",
+  "text": "There is no power outside of man. Man has created God out of fear. So the problem is fear and not God.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "god",
+   "fear",
+   "power",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": "hindu-blog carries the middle sentence alone; praveennv cites a Mind Is a Myth p.31 variant \"it is the mind that has created God out of fear\".",
+  "sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotefancy.com/quote/923742/",
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q3148c69a",
+  "text": "We don't want to be free from fear. All that we want to do is to play games with it and talk about freeing ourselves from fear.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "fear",
+   "freedom",
+   "book-the-mystique-of-enlightenment",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://quotefancy.com/quote/923760/",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qb7fe3c01",
+  "text": "If anyone thinks he can help you, he will inevitably mislead you…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "gurus",
+   "help",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Continuation paraphrased: and the less phony, the more powerful and enlightened he seems, the more misery and mischief he will create for you.",
+  "sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qfb105fa5",
+  "text": "There is no such thing as experience here. You seem…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "experience",
+   "natural-state",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.azquotes.com/quote/934218"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qcd6ff1c7",
+  "text": "We are not created for any grander purpose than the…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "purpose",
+   "nature",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.azquotes.com/quote/487332"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q42bd7292",
+  "text": "Nature is interested in only two things--to survive and to…",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "nature",
+   "survival",
+   "reproduction",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.azquotes.com/quote/949641"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q5af2e554",
+  "text": "one can do nothing to attain the natural state. In fact, any movement towards it separates one from it.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "introduction",
+  "year": 1982,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "natural-state",
+   "attainment",
+   "book-the-mystique-of-enlightenment",
+   "kind-paraphrase"
+  ],
+  "note": "Editor's or publisher's words (Rodney Arms introduction / book description), NOT UG's own sentence.",
+  "sources": [
+   "https://books.google.com/books/about/The_Mystique_of_Enlightenment.html?id=zuPYygEACAAJ",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q7a1ee58c",
+  "text": "Thought can never capture the movement of life, it is much too slow. It is like lightning and thunder. They occur simultaneously, but sound, traveling slower than light, reaches you later, creating the illusion of two separate events.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. 3 Not Knowing Is Your Natural State",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "life",
+   "time",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "quotepark/azquotes place it in Ch.3; Wikisource shows it near a Chapter IV heading. Top quote on the Goodreads work page.",
+  "sources": [
+   "https://www.goodreads.com/quotes/592471-thought-can-never-capture-the-movement-of-life-it-is",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q118b8994",
+  "text": "It (thinking) does not put an end to sorrow.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "sorrow",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Goodreads version omits the parenthesis.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q64b3e681",
+  "text": "Your thinking endlessly about being free from sorrow is only more material for sorrow.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "sorrow",
+   "freedom",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd2169deb",
+  "text": "Sorrow is there for you as long as you think. There is actually no sorrow there to be free from.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "sorrow",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qe6277a45",
+  "text": "Only if you reject all the other paths can you discover your own path.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "path",
+   "rejection",
+   "independence",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "inner-quest.org has a variant \"respect all the other paths\" (likely error).",
+  "sources": [
+   "https://www.goodreads.com/quotes/729309-only-if-you-reject-all-the-other-paths-can-you",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qc94ba81d",
+  "text": "If you have the courage to touch life for the first time, you will never know what hit you. Everything man has thought, felt and experienced is gone, and nothing is put in its place.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. 4 There Is Nothing To Understand",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "courage",
+   "life",
+   "thought",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "praveennv blog misprints \"taught\" for \"thought\".",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.goodreads.com/quotes/584727-if-you-have-the-courage-to-touch-life-for-the",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qba7b8f15",
+  "text": "It is the ones who believe in God, who preach peace and talk of love, who have created the human jungle. Compared to man…",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "god",
+   "peace",
+   "love",
+   "violence",
+   "society",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "Continuation paraphrased: the so-called civilized man kills for ideals and beliefs, while animals kill only for survival.",
+  "sources": [
+   "https://libquotes.com/u-g-krishnamurti/quote/lbs1h8v",
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd8034757",
+  "text": "There is no such thing as truth. The only thing that is actually there is your \"logically\" ascertained premise, which you call \"truth.\"",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "truth",
+   "logic",
+   "thought",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://quotepark.com/quotes/1787020-ug-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-th/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qa96fd115",
+  "text": "no qualitative change in man's thinking",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "thought",
+   "progress",
+   "violence",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "Near-verbatim fragment; the passage continues that the only change is \"our ability to destroy our neighbor and his property.\"",
+  "sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qcbb3c5aa",
+  "text": "our ability to destroy our neighbor and his property.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "violence",
+   "progress",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "The only change in man's thinking, in the passage above.",
+  "sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q69f83f72",
+  "text": "There is no such thing as spiritual or psychological enlightenment because there is no such thing as spirit or psyche at all.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "enlightenment",
+   "spirit",
+   "psyche",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Some reprints omit \"at all\". Followed by the \"search itself which has been choking me\" line.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "http://remembering-ug.blogspot.com/2012/05/passages-220712.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q2c9515a2",
+  "text": "I have had to search and it is the search itself which has been choking me and keeping me out of my natural state.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "search",
+   "natural-state",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "http://remembering-ug.blogspot.com/2012/05/passages-220712.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q4fd55d91",
+  "text": "God or Enlightenment is the ultimate pleasure, uninterrupted happiness. No such thing exists.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "god",
+   "enlightenment",
+   "pleasure",
+   "happiness",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Goodreads lists under Mind Is a Myth and No Way Out; Wikisource also has it in Thought is Your Enemy.",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q3bdfe3cb",
+  "text": "I am not anti-rational, just unrational. You may infer a rational meaning in what I say or do, but it is your doing,…",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "rationality",
+   "unrational",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "Book not confirmed by search; usually Mind is a Myth Ch.1. Elsewhere also filed under No Way Out ch.1 essay title.",
+  "sources": [
+   "https://quotefancy.com/quote/923758/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q870d1afa",
+  "text": "Nature is busy creating absolutely unique individuals, whereas culture has invented a single mold to which all must conform. It is grotesque.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "nature",
+   "culture",
+   "individuality",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Fragment on quotefancy ends at \"conform\"; \"It is grotesque.\" confirmed by summary. Goodreads also lists it under The Courage to Stand Alone.",
+  "sources": [
+   "https://quotefancy.com/quote/923745/",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qa8d80bc5",
+  "text": "Food, clothing and shelter — these are the basic needs. Beyond that, if you…",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "needs",
+   "body",
+   "society",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "Book not confirmed by search.",
+  "sources": [
+   "https://quotefancy.com/quote/923757/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qc40e7904",
+  "text": "[damn fool passage, paraphrase only]",
+  "book": "Mind is a Myth",
+  "chapter": "Introduction",
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "introduction",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "quotepark labels it Ch.4 but notes it is quoted in Terry Newland's Introduction (Newland quoting UG). Text not recovered.",
+  "sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qee37e731",
+  "text": "Both the inner and outer worlds proceed from a point of thought; everything experienced is born out of thought, so experience is an illusion.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "thought",
+   "experience",
+   "illusion",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from kwize.",
+  "sources": [
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd124d20c",
+  "text": "Tradition is a burden people cling to; it has to fall away on its own.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "tradition",
+   "burden",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from kwize. Related verbatim fragment: \"Your traditions are choking you.\"",
+  "sources": [
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q1bec15ca",
+  "text": "Your traditions are choking you.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "tradition",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q48147bda",
+  "text": "Nobody knows anything about life.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "life",
+   "knowledge",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from the Goodreads author page.",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qdb7053b4",
+  "text": "Society is the human jungle; it would be much easier to survive in nature's jungle.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "society",
+   "jungle",
+   "nature",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from quotepark/libquotes; \"the human jungle\" is verbatim.",
+  "sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbs1h8v"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q406d4a93",
+  "text": "Don't follow me, I'm lost.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "gurus",
+   "following",
+   "book-thought-is-your-enemy",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd1cb605c",
+  "text": "The demand to be prepared for all future actions and all situations is the cause of our problems. Every situation is so different…",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "preparation",
+   "future",
+   "problems",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Wikisource text reads \"actions and situations\"; quote sites read \"actions and all situations\". Context: we don't know what we would do in a given situation.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://nichequotes.com/u.-g.-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qd42e2a22",
+  "text": "Society or culture or whatever you might want to call it, has created us all solely and wholly for the purpose of maintaining its continuity and status quo.",
+  "book": "Thought is Your Enemy",
+  "chapter": "Ch. II Throw Away Your Crutches",
+  "year": 1990,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "society",
+   "culture",
+   "continuity",
+   "book-thought-is-your-enemy",
+   "kind-verbatim"
+  ],
+  "note": "libquotes = Ch.II Throw Away Your Crutches; azquotes = Ch.III The Robot Is Dreaming.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbt8d9s",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qfd63f8c6",
+  "text": "Thought has interfered and trying to suppress, control, and moralize about desire, to the detriment of mankind.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "desire",
+   "morality",
+   "book-thought-is-your-enemy",
+   "kind-verbatim"
+  ],
+  "note": "Context: desire is a bodily, natural matter.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q539055bd",
+  "text": "Our experience of our own body depends on thought, and thought is memory.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "body",
+   "thought",
+   "memory",
+   "book-thought-is-your-enemy",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from Goodreads.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q43697aec",
+  "text": "There is no such thing as your mind or my mind; a separate individual mind is an illusion; thought is a protective mechanism.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "mind",
+   "thought",
+   "illusion",
+   "book-thought-is-your-enemy",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from Goodreads / holybooks summary.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q3b41db6a",
+  "text": "transformation, moksha, and all that stuff are just variations of the same theme: permanent happiness",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "moksha",
+   "happiness",
+   "transformation",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Also in No Way Out ch.1 essay on the WELL. Paraphrased continuation: the body cannot sustain that kind of pleasure.",
+  "sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://people.well.com/user/jct/enemy0.htm"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q92ffcf50",
+  "text": "The fixed \"I\" as a reference point; the courage needed to drop one's conditioning; rejecting what others offer is the real task.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "self",
+   "conditioning",
+   "courage",
+   "book-thought-is-your-enemy",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase of the remembering-ug \"Passages from Thought is Your Enemy\" posts.",
+  "sources": [
+   "http://remembering-ug.blogspot.com/2012/09/passages-from-thought-is-your-enemy.html",
+   "http://remembering-ug.blogspot.com/2012/10/passages-from-thought-is-your-enemy.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q989dde8c",
+  "text": "…everything you stand for, believe in, experience and aspire to is the result of thought. And thought is destructive because it is nothing more than a protective mechanism.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "thought",
+   "protective-mechanism",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Book not given by libquotes; commonly Thought is Your Enemy. quotefancy variant: thought is \"nothing more than a protective mechanism, programmed to protect its own interests at all costs\".",
+  "sources": [
+   "https://libquotes.com/u-g-krishnamurti/quotes/thought",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qf42bae73",
+  "text": "nothing more than a protective mechanism, programmed to protect its own interests at all costs",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "thought",
+   "protective-mechanism",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "quotefancy variant of the thought-as-protective-mechanism line.",
+  "sources": [
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q7fad3985",
+  "text": "everything you are doing to be at peace with yourself is what is destroying the peace that is already there.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "peace",
+   "effort",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Book not given by libquotes.",
+  "sources": [
+   "https://libquotes.com/u-g-krishnamurti/quotes/peace"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q95f072f5",
+  "text": "…the constant use of thought to give continuity to your separate self.",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "thought",
+   "self",
+   "continuity",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Book not given by quotefancy.",
+  "sources": [
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qf69919b2",
+  "text": "the fear of losing what we have and what we know",
+  "book": "Thought is Your Enemy",
+  "chapter": null,
+  "year": 1990,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "fear",
+   "loss",
+   "book-thought-is-your-enemy",
+   "kind-fragment"
+  ],
+  "note": "Given as the cause of our problems; book not given by quotefancy. The full sentence is filed under No Way Out on Goodreads.",
+  "sources": [
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q77f34910",
+  "text": "You can have the courage to climb the mountain, swim the lakes, go on a raft to the other side of the Atlantic or Pacific. … The courage to be on your own, to stand on your two solid feet, is something which cannot be given by somebody. You cannot free yourself of that burden by trying to develop that courage. If you are freed from the entire burden of the entire past of mankind, then what is left there is the courage.",
+  "book": "The Courage to Stand Alone",
+  "chapter": "Nice Meeting You, and Goodbye",
+  "year": 1997,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "courage",
+   "independence",
+   "past",
+   "book-the-courage-to-stand-alone",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q7f620b02",
+  "text": "You think when you don't want to do anything. Thinking is a poor alternative to acting. Your thinking is consuming all your energy. Act, don't think!",
+  "book": "A Taste of Death",
+  "chapter": null,
+  "year": 1995,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "action",
+   "energy",
+   "book-a-taste-of-death",
+   "kind-verbatim"
+  ],
+  "note": "Recorded by Mahesh Bhatt. Wikiquote warns Bhatt's own observation \"You are what you do, not what you say you want to do\" is often wrongly merged into this quote.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q45036753",
+  "text": "A real guru, if there is one, frees you from himself.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "guru",
+   "freedom",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "Wikiquote Talk page, unsourced.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q40cf79f3",
+  "text": "I still maintain that it is not love, compassion, humanism, or brotherly sentiments that will save mankind. No, not at…",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "love",
+   "compassion",
+   "humanism",
+   "mankind",
+   "book-no-way-out",
+   "kind-fragment"
+  ],
+  "note": "Goodreads lists under No Way Out; paraphrased continuation: the sheer terror of extinction may do more to save humanity than love or humanism.",
+  "sources": [
+   "https://quotefancy.com/quote/2210933/",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q66516e8f",
+  "text": "The plain fact is that if you don't have a problem, you create one.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "problems",
+   "living",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q87a66997",
+  "text": "your teacher must go, it doesn't matter who the teacher is",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "teacher",
+   "gurus",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "hindu-blog collection, no book given.",
+  "sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qa86cd51d",
+  "text": "the demand for permanence-permanent relationships, permanent happiness, and permanent bliss-in any field and in any area of human existence is the cause of human misery",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "permanence",
+   "misery",
+   "happiness",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "hindu-blog collection, no book given.",
+  "sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qab99509d",
+  "text": "blind acceptance of authority, all second-hand stuff",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "belief",
+   "authority",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "On beliefs; hindu-blog collection, no book given.",
+  "sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q1985d54c",
+  "text": "basically violent, because thought is violent",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "violence",
+   "thought",
+   "human-nature",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "On human nature; hindu-blog collection, no book given.",
+  "sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "q6fe42d31",
+  "text": "Charity is a way for the comfortable to keep the have-nots from rebelling and to ease their own guilt.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "charity",
+   "society",
+   "guilt",
+   "book-unassigned",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from quotlr.",
+  "sources": [
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "origin": "quotes-a"
+ },
+ {
+  "id": "qe06bf8ca",
+  "text": "The fact is that we don't want to be free. What is responsible for our problems is the fear of losing what we have and what we know.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "fear",
+   "freedom",
+   "problems",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q086ab55c",
+  "text": "Fear is the very thing that you do not want to be free from.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "fear",
+   "freedom",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212984",
+   "http://praveennv.blogspot.com/2007/09/some-ug-krishnamurthy-quotes.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qc774741b",
+  "text": "What you call 'yourself' is fear. The 'you' is born out of fear; it lives in fear, functions in fear and dies in fear.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "fear",
+   "self",
+   "death",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2",
+   "http://praveennv.blogspot.com/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q6fe326b5",
+  "text": "The body cannot be afraid of death. The movement that is created by society or culture is what does not want to come to an end.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "death",
+   "body",
+   "culture",
+   "fear",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212984",
+   "http://praveennv.blogspot.com/2007/09/some-ug-krishnamurthy-quotes.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qbd6fe67c",
+  "text": "What you are afraid of is not death.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "death",
+   "fear",
+   "book-no-way-out",
+   "kind-verbatim"
+  ],
+  "note": "Same passage as the 'body cannot be afraid of death' line.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212984"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qde931de1",
+  "text": "It is fear that makes you believe that you are ...",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "fear",
+   "belief",
+   "self",
+   "book-no-way-out",
+   "kind-fragment"
+  ],
+  "note": "Partial; summary truncated the quote.",
+  "sources": [
+   "https://www.goodreads.com/quotes/531154-it-is-fear-that-makes-you-believe-that-you-are"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qa52816a8",
+  "text": "You love fear. The ending of fear is death, and you don't want that to happen. I am not talking of wiping out the...",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "fear",
+   "death",
+   "book-no-way-out",
+   "kind-fragment"
+  ],
+  "note": "Book not stated by azquotes/quotefancy; themed with the No Way Out fear passages. Partial.",
+  "sources": [
+   "https://www.azquotes.com/quote/755135",
+   "https://quotefancy.com/quote/923772/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qe74e02bb",
+  "text": "the death of fear is the only death",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "fear",
+   "death",
+   "book-no-way-out",
+   "kind-paraphrase"
+  ],
+  "note": "Summary wording of the continuation of the 'You love fear' passage.",
+  "sources": [
+   "https://quotefancy.com/quote/923772/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q540a25ff",
+  "text": "Death described as atoms changing form, with nothing born and nothing dead.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "death",
+   "body",
+   "atoms",
+   "book-no-way-out",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from Goodreads author page; book attribution not confirmed.",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q718e3b22",
+  "text": "A passage that ends with the speaker saying there is no escape.",
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind Of Human Being Do You Want?",
+  "year": 1991,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "escape",
+   "no-way-out",
+   "book-no-way-out",
+   "kind-paraphrase"
+  ],
+  "note": "Quotepark labels the passage with this chapter; text not surfaced.",
+  "sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q062c2482",
+  "text": "You can have the courage to climb the mountain, swim the lakes, go on a raft to the other side of the Atlantic or Pacific. That is not courage. ...",
+  "book": "The Courage to Stand Alone",
+  "chapter": "Nice Meeting You, and Goodbye",
+  "year": 1997,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "courage",
+   "alone",
+   "book-the-courage-to-stand-alone",
+   "kind-fragment"
+  ],
+  "note": "Partial. Summary continuation: the courage to stand on your own two feet cannot be given by somebody; another summary gives 'stand on your two solid feet' as in-quote wording.",
+  "sources": [
+   "https://www.goodreads.com/quotes/590899-you-can-have-the-courage-to-climb-the-mountain-swim",
+   "https://quotepark.com/quotes/1922951-ug-krishnamurti-you-can-have-the-courage-to-climb-the-mountain-sw/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q1e9233a1",
+  "text": "Courage is not an instrument or quality you can use to get somewhere. The stopping of doing is courage.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "courage",
+   "doing",
+   "book-the-courage-to-stand-alone",
+   "kind-verbatim"
+  ],
+  "note": "The second sentence also appears on Mind Is a Myth collections.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qbb1ee524",
+  "text": "Nature is busy creating absolutely unique individuals, whereas culture has invented a single mold to which all must conform.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "nature",
+   "culture",
+   "individual",
+   "book-the-courage-to-stand-alone",
+   "kind-verbatim"
+  ],
+  "note": "Goodreads files it under The Courage to Stand Alone; other sites attribute it to Mind is a Myth ch. IV, where it ends 'It is grotesque.'",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/culture",
+   "http://praveennv.blogspot.com/2016/03/each-individual-is-unique-ug.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q77a9194f",
+  "text": "Each time a thought is born, you are born; thought is short-lived. Traditional rebirth read as this cycle.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "thought",
+   "rebirth",
+   "birth",
+   "book-the-courage-to-stand-alone",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase; fragments 'each time a thought is born, you are born' and 'thought is shortlived' as given by the summary.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q3173b5b8",
+  "text": "it has to dawn on you that it is not leading you anywhere",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "search",
+   "seeking",
+   "book-the-courage-to-stand-alone",
+   "kind-fragment"
+  ],
+  "note": "Wikiquote dates the Chrystal edition 2001.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q8891a8e5",
+  "text": "There seems to be no way out.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "no-way-out",
+   "hopelessness",
+   "book-the-courage-to-stand-alone",
+   "kind-verbatim"
+  ],
+  "note": "Closing line of a passage quoted on praveennv.blogspot, whose tagline is this line.",
+  "sources": [
+   "http://praveennv.blogspot.com/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q9fd58abe",
+  "text": "You cannot look at your thought, because you cannot separate yourself from thought.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "thought",
+   "observer",
+   "book-the-courage-to-stand-alone",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase of a CTSA excerpt on praveennv.blogspot.",
+  "sources": [
+   "http://praveennv.blogspot.com/2008/03/ug-krishnamurti-on-thoughts.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q72c0b555",
+  "text": "Questioning the solutions requires a tremendous courage.",
+  "book": "The Courage to Stand Alone",
+  "chapter": null,
+  "year": 1997,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "courage",
+   "solutions",
+   "questioning",
+   "book-the-courage-to-stand-alone",
+   "kind-paraphrase"
+  ],
+  "note": "Blog post title quoting CTSA; also filed under No Way Out elsewhere.",
+  "sources": [
+   "http://praveennv.blogspot.com/2016/03/questioning-solutions-requires.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q6ae4e93f",
+  "text": "My teaching, if that is the word you want to use, has no copyright. You are free to reproduce, distribute, interpret, misinterpret, distort, garble, do what you like...",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "front matter",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "copyright",
+   "teaching",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Copyright release printed in this and several other publications of his conversations. Full sentence ends '...even claim authorship, without my consent or the permission of anybody.'",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q2959c7d4",
+  "text": "There is no such thing as spiritual or psychological enlightenment because there is no such thing as spirit or psyche.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "enlightenment",
+   "spirit",
+   "psyche",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Some reprints add 'at all'.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q1c893a18",
+  "text": "Thinking about and struggling against 'sorrow' is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "sorrow",
+   "thinking",
+   "suffering",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qf0b3cb2e",
+  "text": "The basic method of maintaining the continuity is the repetition of the question, 'How?'",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "continuity",
+   "how",
+   "method",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qe27976db",
+  "text": "You hook up each thought with the next, creating a false continuity. It is that continuity that is the problem.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "thought",
+   "continuity",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q044d9da9",
+  "text": "It is not an illusion, only your experience of it is an illusion.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "illusion",
+   "experience",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qd05c2db1",
+  "text": "you arrive seeking understanding, while I am only interested in making it crystal clear that there is nothing to understand.",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "understanding",
+   "seeking",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q9bf6e642",
+  "text": "The only way to find your own path is to reject the others.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "path",
+   "rejection",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase; Goodreads verbatim form is 'Only if you reject all the other paths can you discover your own path.'",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qbdce9d7f",
+  "text": "it is the mind that has created God out of fear",
+  "book": "Mind is a Myth",
+  "chapter": "p. 31",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "god",
+   "fear",
+   "mind",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "praveennv cites Mind Is a Myth p.31; azquotes renders a version as 'man has created God out of fear', which Wikiquote places in The Mystique of Enlightenment.",
+  "sources": [
+   "http://praveennv.blogspot.com/2016/03/mind-created-god-out-of-fear-ug.html",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qb9d58205",
+  "text": "The stopping of doing is courage.",
+  "book": "Mind is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "courage",
+   "doing",
+   "book-mind-is-a-myth",
+   "kind-verbatim"
+  ],
+  "note": "Attributed both to The Courage to Stand Alone (Goodreads) and to Mind is a Myth collections.",
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q85310fad",
+  "text": "A guru is one who tells you to throw away all the crutches that we have been made to believe are essential for our survival.",
+  "book": "The Natural State",
+  "chapter": "p. 141",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "guru",
+   "crutches",
+   "survival",
+   "book-the-natural-state",
+   "kind-verbatim"
+  ],
+  "note": "Wikiquote cites the Maverick compilation p.141.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q373b0000",
+  "text": "The highest goal is like a horizon that recedes as you approach it, a projection of your own fear.",
+  "book": "The Natural State",
+  "chapter": null,
+  "year": 2005,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "goal",
+   "fear",
+   "horizon",
+   "book-the-natural-state",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase; 'a projection of your own fear' given as in-quote wording.",
+  "sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q6f33cc13",
+  "text": "the same old nonsense repeating itself",
+  "book": "The Natural State",
+  "chapter": null,
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "memory",
+   "repetition",
+   "book-the-natural-state",
+   "kind-fragment"
+  ],
+  "note": "Fragment, on memory.",
+  "sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q05850b19",
+  "text": "there is no individual there at all",
+  "book": "The Natural State",
+  "chapter": null,
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "individual",
+   "self",
+   "book-the-natural-state",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.holybooks.com/natural-state-b-u-g-rishnamurti/",
+   "http://praveennv.blogspot.com/2016/03/there-is-no-individual-there-at-all-ug.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qc45e9d64",
+  "text": "The term natural state is not a synonym for enlightenment, freedom or God-realization.",
+  "book": "The Natural State",
+  "chapter": null,
+  "year": 2005,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "natural-state",
+   "enlightenment",
+   "book-the-natural-state",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from a Medium book summary.",
+  "sources": [
+   "https://medium.com/@harpeony/book-summary-the-natural-state-in-the-words-of-u-g-krishnamurti-part-1-3-04f7c43a78c4"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qcb9a4286",
+  "text": "All I can guarantee you is that as long as you are searching for happiness, you will remain unhappy.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "happiness",
+   "search",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "No book given by the aggregator.",
+  "sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q9fcae79f",
+  "text": "All your experiences, all your meditations, all your prayer, all...",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "experience",
+   "meditation",
+   "prayer",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "Partial.",
+  "sources": [
+   "https://www.azquotes.com/quote/765776"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q41e40f21",
+  "text": "There is no such thing as truth. The only thing...",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "truth",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "Continuation per summary: the only thing that is actually there is your 'logically' ascertained premise, which you call truth. Other sites place it in Mind is a Myth ch. 1.",
+  "sources": [
+   "https://www.azquotes.com/quote/755138"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q07528773",
+  "text": "whatever you do to be free from the self also is a self-centred activity",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "self",
+   "freedom",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q68aa6bb3",
+  "text": "all gurus are welfare organizations providing petty experiences to their followers",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "guru",
+   "experience",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q241d3a5e",
+  "text": "as long as you depend upon somebody for solving your problems, so long you remain helpless",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "dependence",
+   "guru",
+   "problems",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qb3256f66",
+  "text": "Thought is too slow to capture life.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "thought",
+   "life",
+   "book-unassigned",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase; verbatim form in Mind is a Myth is 'Thought can never capture the movement of life, it is much too slow.'",
+  "sources": [
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q2dd1ea30",
+  "text": "We never look at anything.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "seeing",
+   "perception",
+   "book-unassigned",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase of the blog post 'You never see anything'.",
+  "sources": [
+   "http://praveennv.blogspot.com/2007/10/you-never-see-anything-ug-krishnamurti.html"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q91eb04cf",
+  "text": "WHAT I HAVE FOUND, OFF AND BY MYSELF, IS THAT ALL TEACHERS RELIGIOUS, SECULAR AND THOSE SCIENTISTS AND FILTHY DOCTORS ARE WRONG",
+  "book": "My Swan Song",
+  "chapter": "opening (WELL page title)",
+  "year": 2007,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "swan-song",
+   "teachers",
+   "doctors",
+   "scientists",
+   "book-my-swan-song",
+   "kind-fragment"
+  ],
+  "note": "WELL page title, all caps as published; truncated in the listing. ugkrishnamurti.in gives the opening as 'What I have found of and by myself,'.",
+  "sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qae3cbc6d",
+  "text": "His findings run counter to everything anyone has said in any field of human thought.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "human-thought",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase of the continuation of the opening, from Google Groups / sciforums copies.",
+  "sources": [
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q86ac0c5a",
+  "text": "The human being is more despicable than all other life forms on the planet.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "humanity",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from the Google Groups copy.",
+  "sources": [
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qc3857d6f",
+  "text": "There is no need to change this world or yourself.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "change",
+   "world",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from the ugkrishnamurti.in copy.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qb324ba7b",
+  "text": "Although I assert that all doctors should be shot, I don't advise others not to see a doctor.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "swan-song",
+   "doctors",
+   "medicine",
+   "book-my-swan-song",
+   "kind-verbatim"
+  ],
+  "note": "ugkrishnamurti.in summary renders it 'all doctors should be shot, I don't advise others not to see a doctor'.",
+  "sources": [
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qb87a576d",
+  "text": "I don't know what I will do if I am in a situation where I want to prolong my life a little longer.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "swan-song",
+   "death",
+   "life",
+   "book-my-swan-song",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qf7b51191",
+  "text": "Freeing the body from what is put in it by spiritual teachers or secular teachers, or by those scientists and medical technology.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "body",
+   "teachers",
+   "science",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Wording differs across copies.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q5e50266d",
+  "text": "Sex is for reproduction; people have turned it into a pleasure movement; an enlightened man can never have sex because he cannot reproduce another one like him.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "sex",
+   "reproduction",
+   "enlightenment",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from the ugkrishnamurti.in copy.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q0e92d293",
+  "text": "The native intelligence of the human body is amazing, and it is all it needs to survive in any dangerous situation in life.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "body",
+   "intelligence",
+   "survival",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": "Paraphrase from the ugkrishnamurti.in copy.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q41a1cd4e",
+  "text": "a clinical death will occur, and it is not the near-death experience of those 'near death' scoundrels",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "swan-song",
+   "death",
+   "near-death",
+   "book-my-swan-song",
+   "kind-fragment"
+  ],
+  "note": "One copy; summary says another copy reproduces the same remark in full.",
+  "sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qc97ac3cc",
+  "text": "His experience has nothing to do with the spiritual nonsense they preach.",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "swan-song",
+   "spirituality",
+   "book-my-swan-song",
+   "kind-paraphrase"
+  ],
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q64ae758c",
+  "text": "you keep buying these bogus wares offered up by the experts",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "swan-song",
+   "experts",
+   "book-my-swan-song",
+   "kind-fragment"
+  ],
+  "note": "One transcription (WELL or Medium).",
+  "sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qdc117690",
+  "text": "frauds who promise you some goodies that they can never deliver",
+  "book": "My Swan Song",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "swan-song",
+   "religion",
+   "politics",
+   "fraud",
+   "book-my-swan-song",
+   "kind-fragment"
+  ],
+  "note": "Of religious and political figures.",
+  "sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qd0ca3a02",
+  "text": "You think when you don't want to do anything. Thinking is a poor alternative to acting. Act, don't think!",
+  "book": "A Taste of Death",
+  "chapter": null,
+  "year": 1995,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "thinking",
+   "action",
+   "book-a-taste-of-death",
+   "kind-paraphrase"
+  ],
+  "note": "Wikiquote quotes a passage where UG urges acting over thinking; Bhatt precedes it with his own observation 'You are what you do, not what you say you want to do', which has sometimes been misquoted as part of UG's statement.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "q64ffef08",
+  "text": "Tell them that there is nothing to understand.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "understanding",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "Wikipedia attributes it to UG as expressing that his assertions were experiential and not speculative.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-b"
+ },
+ {
+  "id": "qd70eb646",
+  "text": "You see, you love fear. The ending of fear is death, and you don't want THAT to happen.",
+  "book": "Mind Is a Myth",
+  "chapter": "I",
+  "year": 1988,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "fear",
+   "death",
+   "book-mind-is-a-myth",
+   "kind-fragment"
+  ],
+  "note": "Aggregators continue: 'I am not talking of wiping out the phobias of the body...'; the death of fear is the only death.",
+  "sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://www.azquotes.com/quote/755135",
+   "https://quotefancy.com/quote/923772/U-G-Krishnamurti-You-love-fear-The-ending-of-fear-is-death-and-you-don-t-want-that-to",
+   "https://libquotes.com/u-g-krishnamurti/quotes/fear"
+  ],
+  "origin": "quotes-c"
+ },
+ {
+  "id": "qfe0764c5",
+  "text": "It is fear that makes you believe that you are living and that you will be dead. What we do not want is the fear to come to an end.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "fear",
+   "death",
+   "life",
+   "book-the-mystique-of-enlightenment",
+   "kind-paraphrase"
+  ],
+  "note": "Only the opening clause is confirmed verbatim ('It is fear that makes you believe that you are living and that you will be dead'); one aggregator cites Mystique p.83. Wording variants 'new science'/'new sciences' reported.",
+  "sources": [
+   "https://www.goodreads.com/quotes/531154-it-is-fear-that-makes-you-believe-that-you-are",
+   "https://quotes.pub/q/it-is-fear-that-makes-you-believe-that-you-are-living-and-th-448733",
+   "https://thequotearchive.com/quotes/U.G.%20Krishnamurti"
+  ],
+  "origin": "quotes-c"
+ },
+ {
+  "id": "qb253e5d0",
+  "text": "What is morality? It is not the following of enjoined rules of conduct.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "morality",
+   "action",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Passage continues on questioning action before and after creating the moral problem; one blog version omits the line about the faculty of distinguishing right from wrong.",
+  "sources": [
+   "https://www.goodreads.com/quotes/984886-what-is-morality-it-is-not-the-following-of-enjoined",
+   "https://www.awakeningtoreality.com/2018/10/ug-krishnamurti-mystique-of.html",
+   "https://grokipedia.com/page/U._G._Krishnamurti"
+  ],
+  "origin": "quotes-c"
+ },
+ {
+  "id": "q39483a5d",
+  "text": "…the beyond can never be experienced by you; it is when the 'you' is not there.",
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "experience",
+   "self",
+   "beyond",
+   "enlightenment",
+   "book-the-mystique-of-enlightenment",
+   "kind-fragment"
+  ],
+  "note": "Goodreads carries the related question: why try to experience something that cannot be experienced?",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti"
+  ],
+  "origin": "quotes-c"
+ },
+ {
+  "id": "qb1981622",
+  "text": "The 'you' is born out of fear; it lives in fear, functions in fear and dies in fear.",
+  "book": "No Way Out",
+  "chapter": null,
+  "year": 1991,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "fear",
+   "self",
+   "book-no-way-out",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quotes/fear"
+  ],
+  "origin": "quotes-c"
+ },
+ {
+  "id": "qd1a6079f",
+  "text": "There is no death for the body; there is only an exchange of atoms.",
+  "book": "Mind Is a Myth",
+  "chapter": null,
+  "year": 1988,
+  "confidence": "T",
+  "kind": "paraphrase",
+  "tags": [
+   "body",
+   "death",
+   "book-mind-is-a-myth",
+   "kind-paraphrase"
+  ],
+  "note": "Search summary paraphrase of a Goodreads body-and-death passage attributed to Mind Is a Myth.",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "origin": "quotes-c"
+ }
+]
