@@ -33,14 +33,14 @@
   "quotes_by_book": {
    "The Mystique of Enlightenment": 50,
    "The Natural State": 15,
-   "No Way Out": 39,
-   "Mind is a Myth": 46,
-   "Stopped in Our Tracks": 14,
+   "No Way Out": 38,
+   "Mind is a Myth": 49,
+   "Stopped in Our Tracks": 15,
    "Thought is Your Enemy": 15,
-   "The Courage to Stand Alone": 13,
+   "The Courage to Stand Alone": 12,
    "A Taste of Death": 4,
    "unassigned": 35,
-   "My Swan Song": 20,
+   "My Swan Song": 19,
    "Stopped in Our Tracks, Book Two": 1,
    "U.G. Krishnamurti: A Life": 6,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
@@ -48,7 +48,7 @@
    "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
    "Certainty: Life has no beginning, no end": 1,
-   "interview: K. Chandrasekhar audio-tape excerpts": 3,
+   "interview: K. Chandrasekhar audio-tape excerpts": 2,
    "The Sage and the Housewife": 5,
    "Science and U.G.": 4
   },
@@ -60,9 +60,9 @@
    "item-duplicate-title": 7,
    "item-no-sources": 12,
    "item-possible-jk-contamination": 3,
-   "quote-flagged-not-ug-or-editor": 6,
+   "quote-flagged-not-ug-or-editor": 7,
    "quote-near-duplicate": 7,
-   "quote-possible-jk-contamination": 2,
+   "quote-possible-jk-contamination": 5,
    "quote-unassigned-book": 35,
    "quote-very-short": 9
   }
@@ -212,6 +212,10 @@
    [
     "q7f620b02",
     "You think when you don't want to do anything. Thinking is a "
+   ],
+   [
+    "qbb1ee524",
+    "Nature is busy creating absolutely unique individuals, where"
    ],
    [
     "qdb3fcee7",
@@ -370,12 +374,24 @@
   ],
   "quote-possible-jk-contamination": [
    [
+    "qa52816a8",
+    "You love fear. The ending of fear is death, and you don't wa"
+   ],
+   [
+    "qbb1ee524",
+    "Nature is busy creating absolutely unique individuals, where"
+   ],
+   [
     "q181d741b",
     "…all the positive approaches that man has invented and used "
    ],
    [
     "q190abbe4",
     "The belief in reincarnation will only help us to look the ot"
+   ],
+   [
+    "q5061960a",
+    "It [thought] is a mechanical thing and can solve only mechan"
    ]
   ],
   "quote-near-duplicate": [
