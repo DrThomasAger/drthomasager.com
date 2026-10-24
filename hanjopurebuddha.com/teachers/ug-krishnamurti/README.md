@@ -1,5 +1,8 @@
 # U.G. Krishnamurti — source collection
 
+Live viewer (private link until shared): https://claude.ai/artifact/6PLZ1ivMrJsvzMYFAVuXv3
+Site page once deployed: https://hanjopurebuddha.com/gurus/ug-krishnamurti/
+
 Uppaluri Gopala Krishnamurti (9 July 1918 – 22 March 2007). Not Jiddu
 Krishnamurti. U.G. is the one who said he had no message for mankind,
 founded nothing, lectured nowhere, and placed every word of his
