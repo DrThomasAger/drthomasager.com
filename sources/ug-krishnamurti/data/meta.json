@@ -1,0 +1,11 @@
+{
+  "built": "2026-10-24",
+  "subject": "U.G. Krishnamurti (1918-2007)",
+  "copyright_statement": "My teaching, if that is the word you want to use, has no copyright. You are free to reproduce, distribute, interpret, misinterpret, distort, garble, do what you like, even claim authorship, without my consent or the permission of anybody.",
+  "media": ["video", "audio", "text", "image", "archive", "community"],
+  "confidence": {
+    "S": "wording or existence confirmed by exact-phrase search against a quoted copy in this session",
+    "T": "from memory of the published text or a secondary account; wants checking against the full text",
+    "lead": "an unverified lead reported by a researcher; location given, content unseen"
+  }
+}
