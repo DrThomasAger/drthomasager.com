@@ -16,15 +16,17 @@ given differently by different accounts.
 | 1943 | Marries Kusuma Kumari. Four children follow; first son Vasant later has polio. | Madras |
 | 1955–1961 | Travels to the United States for his son's polio treatment. Lectures in the US. Money runs out. | USA |
 | 1961 | Leaves family in India; wanders in London destitute, cooking in a Ramakrishna Mission kitchen; sleeps in Hyde Park. The Theosophist-era life ends. | London |
+| 1963 | Kusuma Kumari dies in India (per the people registry; some accounts place it later). | India |
 | 1961–1963 | Drifts to Paris, then Geneva. Arrives at the Indian consulate in Geneva penniless; meets Valentine de Kerven, who becomes his lifelong companion and supporter. | Geneva |
 | 1963–1967 | Lives with Valentine in Saanen, visiting the Krishnamurti talks there. Years he later calls a "hibernation". | Saanen, Switzerland |
 | 13 July 1967 (?) | Hears J. Krishnamurti speak at Saanen and finds Krishnamurti is describing his own state; walks out. | Saanen |
-| 13–20 July 1967 | The week of the "calamity" beginning on his forty-ninth birthday: seven days of physical changes he later describes, the body's "death" and return, ending on 20 July. Kusuma Kumari dies around this time in India (1963? 1967? accounts differ). | Saanen |
+| 13–20 July 1967 | The week of the "calamity" beginning on his forty-ninth birthday: seven days of physical changes he later describes, the body's "death" and return, ending on 20 July. | Saanen |
 | 1967–1970s | Lives between Saanen/Gstaad (summers) and India (winters), conversations begin to be recorded on cassette by visitors. | Gstaad; Bangalore |
-| 1982 | *The Mystique of Enlightenment* published by Dinesh Vaghela, Goa, ed. Rodney Arms, with the no-copyright statement. Amsterdam conversations recorded by Henk Schonewille (later *The Courage to Stand Alone*). | Goa; Amsterdam |
+| 1982 | *The Mystique of Enlightenment* published by Dinesh Vaghela, Goa (imprint given as Dinesh Publications, or his Cemetile Corporation; 5,000 copies), ed. Rodney Arms, with the no-copyright statement. Amsterdam conversations recorded by Henk Schonewille (later *The Courage to Stand Alone*). | Goa; Amsterdam |
 | 1983–1984 | Conversations in India, Switzerland and California that become *Mind is a Myth*. | Bangalore, Gstaad, California |
 | 1988 | *Mind is a Myth* published, ed. Terry Newland. | Dinesh Publications |
 | 1980s–1990s | Winters in Bangalore at Poornakutee, the house of Suguna and Chandrasekhar; the "Bangalore conversations" video-recorded. Visits to Yercaud, Mysore, Kodaikanal, Bombay. | Bangalore |
+| 20 January 1991 | Valentine de Kerven dies in Bangalore, aged about ninety. | Bangalore |
 | 1990–1991 | *Thought is Your Enemy* and *No Way Out* published, ed. Frank Noronha with J.S.R.L. Narayana Moorty. | Sowmya Publishers, Bangalore |
 | 1992 | Mahesh Bhatt publishes *U.G. Krishnamurti: A Life*. Second edition of *The Mystique of Enlightenment*. | Penguin India |
 | 1980s–2000s | Travels yearly between Bangalore, Gstaad, California (Mill Valley, Carmel, Palm Springs, Seaside), Amsterdam, Cologne, Sydney, Vallecrosia. Video recorded by Julie Thayer and others. | worldwide |

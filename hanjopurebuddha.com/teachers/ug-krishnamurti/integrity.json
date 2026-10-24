@@ -1,21 +1,21 @@
 {
  "summary": {
-  "items": 521,
+  "items": 523,
   "quotes": 267,
-  "events": 24,
-  "people": 64,
+  "events": 84,
+  "people": 87,
   "items_by_medium": {
    "archive": 95,
    "community": 22,
    "audio": 79,
    "image": 93,
-   "text": 140,
+   "text": 142,
    "video": 92
   },
   "items_by_confidence": {
-   "S": 481,
+   "S": 482,
    "T": 2,
-   "lead": 38
+   "lead": 39
   },
   "quotes_by_confidence": {
    "S": 183,
@@ -50,10 +50,11 @@
    "The Sage and the Housewife": 1,
    "Science and U.G.": 4
   },
-  "distinct_source_hosts": 281,
-  "items_self_sourced_only": 271,
-  "items_with_second_source": 238,
+  "distinct_source_hosts": 284,
+  "items_self_sourced_only": 272,
+  "items_with_second_source": 239,
   "issue_counts": {
+   "event-date-conflict": 7,
    "item-duplicate-title": 3,
    "item-no-sources": 12,
    "item-possible-jk-contamination": 2,
@@ -497,6 +498,36 @@
     "youcanhavethecouragetoclimbthemountainswimthelakesgoonaraftt",
     2
    ]
+  ],
+  "event-date-conflict": [
+   [
+    "1925-12",
+    "According to Mahesh Bhatt ('A Life', ch. 2), the boy is take"
+   ],
+   [
+    "1932-12",
+    "Attends the Theosophical Society annual convention at Adyar "
+   ],
+   [
+    "1939",
+    "Enrols at the University of Madras to study psychology, phil"
+   ],
+   [
+    "1963",
+    "Kusuma Kumari dies in India after twenty-one years of marria"
+   ],
+   [
+    "1979-10-03",
+    "Mahesh Bhatt and Parveen Babi arrive from Bombay to stay wit"
+   ],
+   [
+    "2001",
+    "'The Courage to Stand Alone: Conversations with U.G. Krishna"
+   ],
+   [
+    "2026-09",
+    "Documentary 'The Natural State' (dir. Matt Dougherty; exec. "
+   ]
   ]
  },
  "hosts": [
@@ -578,7 +609,7 @@
   ],
   [
    "sulochanosho.wordpress.com",
-   14
+   15
   ],
   [
    "philpapers.org",
@@ -758,6 +789,10 @@
   ],
   [
    "ia801804.us.archive.org",
+   3
+  ],
+  [
+   "te.wikipedia.org",
    3
   ],
   [
@@ -1005,11 +1040,11 @@
    2
   ],
   [
-   "te.wikipedia.org",
+   "gu.wikipedia.org",
    2
   ],
   [
-   "gu.wikipedia.org",
+   "kn.wikipedia.org",
    2
   ],
   [
@@ -1305,6 +1340,10 @@
    1
   ],
   [
+   "hi.wikipedia.org",
+   1
+  ],
+  [
    "lastdodo.com",
    1
   ],
@@ -1378,10 +1417,6 @@
   ],
   [
    "amazon.it",
-   1
-  ],
-  [
-   "kn.wikipedia.org",
    1
   ],
   [
@@ -1561,6 +1596,10 @@
    1
   ],
   [
+   "misalpav.com",
+   1
+  ],
+  [
    "jeyamohan.in",
    1
   ],
@@ -1578,6 +1617,10 @@
   ],
   [
    "vallalarr.blogspot.com",
+   1
+  ],
+  [
+   "gnanudr.blogspot.com",
    1
   ],
   [
