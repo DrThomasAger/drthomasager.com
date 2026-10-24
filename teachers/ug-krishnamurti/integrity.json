@@ -1,7 +1,7 @@
 {
  "summary": {
-  "items": 552,
-  "quotes": 267,
+  "items": 551,
+  "quotes": 282,
   "events": 84,
   "people": 87,
   "items_by_medium": {
@@ -9,24 +9,24 @@
    "community": 22,
    "audio": 80,
    "image": 93,
-   "text": 167,
+   "text": 166,
    "video": 95
   },
   "items_by_confidence": {
    "S": 502,
    "T": 2,
-   "lead": 48
+   "lead": 47
   },
   "quotes_by_confidence": {
-   "S": 183,
-   "T": 84
+   "S": 189,
+   "T": 93
   },
   "quotes_by_verdict": {
-   "multi-source": 53,
-   "primary-source": 75,
+   "multi-source": 55,
+   "primary-source": 85,
    "disputed": 2,
    "corroborated-secondary": 34,
-   "single-source": 91,
+   "single-source": 94,
    "not-found": 2,
    "corroborated-primary": 10
   },
@@ -35,7 +35,7 @@
    "The Natural State": 15,
    "No Way Out": 28,
    "Mind is a Myth": 42,
-   "Stopped in Our Tracks": 7,
+   "Stopped in Our Tracks": 13,
    "Thought is Your Enemy": 16,
    "The Courage to Stand Alone": 13,
    "A Taste of Death": 2,
@@ -44,24 +44,24 @@
    "Stopped in Our Tracks, Book Two": 1,
    "U.G. Krishnamurti: A Life": 5,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
-   "The Biology of Enlightenment": 2,
+   "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
    "Certainty: Life has no beginning, no end": 1,
-   "The Sage and the Housewife": 1,
+   "The Sage and the Housewife": 5,
    "Science and U.G.": 4
   },
   "distinct_source_hosts": 285,
   "items_self_sourced_only": 283,
-  "items_with_second_source": 256,
+  "items_with_second_source": 255,
   "issue_counts": {
    "event-date-conflict": 7,
    "item-duplicate-title": 3,
    "item-no-sources": 13,
    "item-possible-jk-contamination": 2,
-   "quote-flagged-not-ug-or-editor": 4,
-   "quote-near-duplicate": 6,
+   "quote-flagged-not-ug-or-editor": 5,
+   "quote-near-duplicate": 7,
    "quote-unassigned-book": 68,
-   "quote-very-short": 8
+   "quote-very-short": 9
   }
  },
  "issues": {
@@ -175,6 +175,10 @@
    [
     "q0c6ee69f",
     "a useless exercise"
+   ],
+   [
+    "q95504a40",
+    "I am myself a thief."
    ]
   ],
   "quote-flagged-not-ug-or-editor": [
@@ -193,6 +197,10 @@
    [
     "qdb3fcee7",
     "thought is a divisive and ultimately a destructive instrumen"
+   ],
+   [
+    "qdab04c55",
+    "The natural state is a pure and simple physical and physiolo"
    ]
   ],
   "quote-unassigned-book": [
@@ -493,6 +501,10 @@
    [
     "youcanhavethecouragetoclimbthemountainswimthelakesgoonaraftt",
     2
+   ],
+   [
+    "itthoughtisamechanicalthingandcansolveonlymechanicalproblems",
+    2
    ]
   ],
   "event-date-conflict": [
@@ -529,7 +541,7 @@
  "hosts": [
   [
    "people.well.com",
-   113
+   122
   ],
   [
    "archive.org",
@@ -537,11 +549,11 @@
   ],
   [
    "en.wikisource.org",
-   96
+   98
   ],
   [
    "goodreads.com",
-   84
+   85
   ],
   [
    "youtube.com",
@@ -556,16 +568,16 @@
    39
   ],
   [
+   "en.wikiquote.org",
+   32
+  ],
+  [
    "books.google.com",
    32
   ],
   [
-   "en.wikiquote.org",
-   29
-  ],
-  [
    "azquotes.com",
-   27
+   28
   ],
   [
    "soundcloud.com",
@@ -592,11 +604,11 @@
    18
   ],
   [
-   "praveennv.blogspot.com",
-   17
+   "quotepark.com",
+   18
   ],
   [
-   "quotepark.com",
+   "praveennv.blogspot.com",
    17
   ],
   [
@@ -608,15 +620,15 @@
    15
   ],
   [
+   "libquotes.com",
+   13
+  ],
+  [
    "philpapers.org",
    12
   ],
   [
    "holybooks.com",
-   12
-  ],
-  [
-   "libquotes.com",
    12
   ],
   [
@@ -672,6 +684,10 @@
    8
   ],
   [
+   "u-g-krishnamurti.blogspot.com",
+   8
+  ],
+  [
    "commons.wikimedia.org",
    7
   ],
@@ -684,10 +700,6 @@
    7
   ],
   [
-   "u-g-krishnamurti.blogspot.com",
-   7
-  ],
-  [
    "quotlr.com",
    7
   ],
@@ -696,11 +708,11 @@
    7
   ],
   [
-   "en.dharmapedia.net",
-   6
+   "realitysandwich.com",
+   7
   ],
   [
-   "thisrobotdreaming.com",
+   "en.dharmapedia.net",
    6
   ],
   [
@@ -717,6 +729,10 @@
   ],
   [
    "sciforums.com",
+   5
+  ],
+  [
+   "thisrobotdreaming.com",
    5
   ],
   [
@@ -1637,10 +1653,6 @@
   ],
   [
    "intuition.org",
-   1
-  ],
-  [
-   "realitysandwich.com",
    1
   ],
   [
