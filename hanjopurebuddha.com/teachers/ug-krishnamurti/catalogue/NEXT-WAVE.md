@@ -1,7 +1,15 @@
 # Next wave — briefs waiting for search budget
 
-Status 2026-10-24 evening: briefs 1–4 have run (see wave5-*.md and
-wave5-verification-2.md); 5–8 remain to run. 149 quotes, mostly
+Status 2026-10-24 night: briefs 1–8 have all run (see wave5-*.md and
+wave6-*.md). What each left open is in its own "Still open" section.
+The largest remaining gaps need a browser or the hosts themselves:
+Reddit (blocked to the search tool), the Wayback Machine range of
+ugkrishnamurti.org, the full Lectures Beyond Beyond and playlist listings
+(yt-dlp --flat-playlist), the remaining archive.org ug_ identifiers
+(ia search), the WELL account holder behind people.well.com/user/jct
+(the "J.C. Tsai" attribution in texts.md has no corroboration; Narayana
+Moorty supplied the content but the account holder is unnamed), and
+photographs of the houses. 149 quotes, mostly
 paraphrases and fragments, remain unverified after two passes.
 
 Web search in the gathering environment is limited per turn and shared by
