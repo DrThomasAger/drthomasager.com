@@ -3349,14 +3349,16 @@
   "year": 1918,
   "place": "Machilipatnam, Andhra Pradesh, India",
   "people": [
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Gautami",
+   "Soumya Bollapragada"
   ],
   "format": "wiki",
   "language": "English",
   "duration": null,
   "host": "en.wikipedia.org",
   "url": "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
-  "description": "Before leaving the Ramakrishna Mission (where he worked three months in 1961) UG left a letter for the resident Swamiji; whereabouts unknown. Only item in UG's own hand referenced by search for the 1960s London/New York years.",
+  "description": "English Wikipedia notes South Indian actresses Gautami and Soumya Bollapragada are U.G.'s close relatives; Telugu Wikipedia names Soumya Bollapragada as his granddaughter. The only film-industry link found; no Telugu/Kannada film or TV depiction of U.G. located.",
   "tags": [
    "wiki",
    "wikipedia",
@@ -3395,27 +3397,37 @@
    "lang-en",
    "place-london",
    "place-new-york",
-   "confidence-lead"
+   "confidence-lead",
+   "telugu",
+   "film",
+   "family",
+   "person-gautami",
+   "person-bollapragada",
+   "host-en-wikipedia-org-te-wikipedia-org",
+   "format-wikipedia-note"
   ],
   "confidence": "S",
   "sources": [
    "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
    "https://en.wikipedia.org/wiki/Talk:U._G._Krishnamurti/Archive_1",
    "https://en-academic.com/dic.nsf/enwiki/262193",
-   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf"
+   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf",
+   "https://te.wikipedia.org/wiki/%E0%B0%89%E0%B0%AA%E0%B1%8D%E0%B0%AA%E0%B1%81%E0%B0%B2%E0%B1%82%E0%B0%B0%E0%B0%BF_%E0%B0%97%E0%B1%8B%E0%B0%AA%E0%B0%BE%E0%B0%B2%E0%B0%95%E0%B1%83%E0%B0%B7%E0%B1%8D%E0%B0%A3_%E0%B0%AE%E0%B1%82%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF"
   ],
   "origin": "archives",
   "also_titled": [
    "Machilipatnam (Masulipatnam) and Gudivada — birthplace and upbringing",
    "English Wikipedia article (infobox image UGKrishnamurti.jpg)",
    "Wikipedia — U. G. Krishnamurti",
-   "Wikipedia note: UG's 1961 letter to the Swami at the London Ramakrishna Mission"
+   "Wikipedia note: UG's 1961 letter to the Swami at the London Ramakrishna Mission",
+   "Telugu/Tamil film-world kin: actresses Gautami and Soumya Bollapragada as U.G.'s close relatives"
   ],
   "origins": [
    "archives",
    "images",
    "text",
-   "wave2-text"
+   "wave2-text",
+   "wave4-indian-languages"
   ]
  },
  {
@@ -9276,17 +9288,18 @@
   "medium": "image",
   "title": "Scribd scan of Bhatt's biography 'U.G. Krishnamurti: A Life Unfiltered' (contains plates)",
   "date": null,
-  "year": null,
-  "place": null,
+  "year": 1982,
+  "place": "Mumbai",
   "people": [
-   "Mahesh Bhatt"
+   "Mahesh Bhatt",
+   "U.G. Krishnamurti"
   ],
   "format": "scanned document",
   "language": "English",
   "duration": null,
   "host": "scribd.com",
   "url": "https://www.scribd.com/document/136930197/U-G-Biography",
-  "description": "Scanned copy of the biography containing its photographic plates.",
+  "description": "Mahesh Bhatt's biography states the last scene of 'Arth', where the heroine walks away alone from husband and lover, was suggested and insisted upon by U.G. – the main Indian-cinema reference to U.G.",
   "tags": [
    "scribd",
    "scan",
@@ -9297,13 +9310,33 @@
    "host-scribd-com",
    "format-scanned-document",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "hindi",
+   "film",
+   "arth",
+   "mahesh-bhatt",
+   "text",
+   "1980s",
+   "1982",
+   "person-krishnamurti",
+   "host-scribd-com-mahesh-bhatt-biography",
+   "format-film-reference",
+   "lang-hindi",
+   "place-mumbai",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
    "https://www.scribd.com/document/136930197/U-G-Biography"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "Arth (1982, Hindi film) – ending reportedly suggested by U.G. to Mahesh Bhatt"
+  ],
+  "origins": [
+   "images",
+   "wave4-indian-languages"
+  ]
  },
  {
   "id": "i5e3cb2da",
@@ -13699,6 +13732,7 @@
   "confidence": "S",
   "sources": [
    "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+   "https://hi.wikipedia.org/wiki/%E0%A4%A8_%E0%A4%96%E0%A4%A4%E0%A5%8D%E0%A4%AE_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A5%87_%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%95%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A5%80",
    "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text",
@@ -18121,7 +18155,8 @@
   "place": "Bangalore",
   "people": [
    "K. Chandrasekhar",
-   "Suguna Chandrasekhar"
+   "Suguna Chandrasekhar",
+   "UG Friends Bangalore"
   ],
   "format": "in-person gathering / blog report",
   "language": "en",
@@ -18144,15 +18179,30 @@
    "format-in-person-gathering-blog-report",
    "lang-en",
    "place-bangalore",
-   "confidence-s"
+   "confidence-s",
+   "english",
+   "memorial",
+   "gathering",
+   "person-bangalore",
+   "format-gathering-report",
+   "lang-english",
+   "place-gudivada"
   ],
   "confidence": "S",
   "sources": [
    "https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/",
    "https://sulochanosho.wordpress.com/category/u-g-krishnamurti-ug/",
-   "https://sulochanosho.wordpress.com/tag/ug-friends/"
+   "https://sulochanosho.wordpress.com/tag/ug-friends/",
+   "https://sulochanosho.wordpress.com/tag/k-chandrasekhar/"
   ],
-  "origin": "wave2-img-arch"
+  "origin": "wave2-img-arch",
+  "also_titled": [
+   "UG Aradhana meet, 'Hridaya Vihar', Bangalore, 22 March 2018 (11th death-anniversary gathering)"
+  ],
+  "origins": [
+   "wave2-img-arch",
+   "wave4-indian-languages"
+  ]
  },
  {
   "id": "i4ba9aa1d",
@@ -21743,7 +21793,7 @@
   "duration": "",
   "host": "maayboli.com",
   "url": "https://www.maayboli.com/node/20513",
-  "description": "Multi-part Marathi essay on U.G.'s life and thought on the Marathi community site Maayboli; clarifies he is Uppaluri Gopala Krishnamurti, not Jiddu Krishnamurti, and recounts his meeting with Ramana Maharshi.",
+  "description": "Multi-part Marathi essay on U.G.'s life and thought on the Marathi community site Maayboli; clarifies he is Uppaluri Gopala Krishnamurti, not Jiddu Krishnamurti, and recounts his meeting with Ramana Maharshi. Same text also posted on Misalpav; the author's earlier U.G.-inspired Marathi pieces are 'माझा दोस्त युजिनी' and 'वाचा आणि शोधा'.",
   "tags": [
    "marathi",
    "blog",
@@ -21760,7 +21810,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.maayboli.com/node/20513"
+   "https://www.maayboli.com/node/20513",
+   "https://www.misalpav.com/story/14724"
   ],
   "origin": "wave4-indian-languages"
  },
@@ -22057,6 +22108,79 @@
   "confidence": "S",
   "sources": [
    "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i16387d59",
+  "medium": "text",
+  "title": "ವೈ.ಎನ್.ಕೃಷ್ಣಮೂರ್ತಿ (Kannada Wikipedia article on Y.N. Krishnamurthy 'YNK', U.G.'s Kannada interpreter)",
+  "date": "",
+  "year": null,
+  "place": "Bangalore",
+  "people": [
+   "Y.N. Krishnamurthy (YNK)",
+   "U.G. Krishnamurti"
+  ],
+  "format": "wikipedia-article",
+  "language": "Kannada",
+  "duration": "",
+  "host": "kn.wikipedia.org",
+  "url": "https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B3%88.%E0%B2%8E%E0%B2%A8%E0%B3%8D.%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF",
+  "description": "Kannada Wikipedia describes journalist YNK (Kannada Prabha editor) as a follower of U.G. who introduced U.G.'s thought to Kannada readers; notes his popular piece/book 'ಯೂಜಿ ಅಲ್ಲ, ಗುರೂಜಿ'.",
+  "tags": [
+   "kannada",
+   "wikipedia",
+   "ynk",
+   "kannada-prabha",
+   "bangalore",
+   "text",
+   "person-ynk",
+   "person-krishnamurti",
+   "host-kn-wikipedia-org",
+   "format-wikipedia-article",
+   "lang-kannada",
+   "place-bangalore",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B3%88.%E0%B2%8E%E0%B2%A8%E0%B3%8D.%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i6323418a",
+  "medium": "text",
+  "title": "ಚಿಂತನ ದರ್ಶನ: ವೈಚಾರಿಕ (Kannada blog post grouping U.G. with J.K. and Osho)",
+  "date": "2008-12",
+  "year": 2008,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog-post",
+  "language": "Kannada",
+  "duration": "",
+  "host": "gnanudr.blogspot.com",
+  "url": "http://gnanudr.blogspot.com/2008/12/blog-post_13.html",
+  "description": "Kannada blog essay on rationalist thinkers mentioning ಯು.ಜಿ. ಕೃಷ್ಣಮೂರ್ತಿ alongside J. Krishnamurti and Osho.",
+  "tags": [
+   "kannada",
+   "blog",
+   "essay",
+   "text",
+   "2000s",
+   "2008",
+   "person-krishnamurti",
+   "host-gnanudr-blogspot-com",
+   "format-blog-post",
+   "lang-kannada",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "http://gnanudr.blogspot.com/2008/12/blog-post_13.html"
   ],
   "origin": "wave4-indian-languages"
  }

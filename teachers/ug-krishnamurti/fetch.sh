@@ -524,3 +524,5 @@ wget -q -E -P downloads/pages 'https://thaaii.com/2024/03/26/thanithu-nirkum-thu
 wget -q -E -P downloads/pages 'https://www.panuval.com/U.G.Krishnamoorthy'  # எண்ணம்தான் உங்களின் எதிரி (Ennamthan Ungalin Ethiri – Tamil 
 wget -q -E -P downloads/pages 'http://vallalarr.blogspot.com/2017/03/blog-post_81.html'  # VALLALAR: யூ.ஜி.கிருஷ்ணமூர்த்தி (Tamil blog post on U.G.)
 wget -q -E -P downloads/pages 'https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF'  # યુ.જી.કૃષ્ણમુર્તિ (Gujarati Wikipedia article)
+wget -q -E -P downloads/pages 'https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B3%88.%E0%B2%8E%E0%B2%A8%E0%B3%8D.%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF'  # ವೈ.ಎನ್.ಕೃಷ್ಣಮೂರ್ತಿ (Kannada Wikipedia article on Y.N. Krishn
+wget -q -E -P downloads/pages 'http://gnanudr.blogspot.com/2008/12/blog-post_13.html'  # ಚಿಂತನ ದರ್ಶನ: ವೈಚಾರಿಕ (Kannada blog post grouping U.G. with J
