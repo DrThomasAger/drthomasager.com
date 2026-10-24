@@ -1,6 +1,6 @@
 {
  "summary": {
-  "items": 524,
+  "items": 550,
   "quotes": 267,
   "events": 84,
   "people": 87,
@@ -9,13 +9,13 @@
    "community": 22,
    "audio": 79,
    "image": 93,
-   "text": 143,
-   "video": 92
+   "text": 166,
+   "video": 95
   },
   "items_by_confidence": {
-   "S": 483,
+   "S": 501,
    "T": 2,
-   "lead": 39
+   "lead": 47
   },
   "quotes_by_confidence": {
    "S": 183,
@@ -51,12 +51,12 @@
    "Science and U.G.": 4
   },
   "distinct_source_hosts": 285,
-  "items_self_sourced_only": 273,
-  "items_with_second_source": 239,
+  "items_self_sourced_only": 282,
+  "items_with_second_source": 255,
   "issue_counts": {
    "event-date-conflict": 7,
    "item-duplicate-title": 3,
-   "item-no-sources": 12,
+   "item-no-sources": 13,
    "item-possible-jk-contamination": 2,
    "quote-flagged-not-ug-or-editor": 4,
    "quote-near-duplicate": 6,
@@ -113,6 +113,10 @@
    [
     "if2434ddb",
     "Stopped in Our Tracks, Second Series (UG: Anecdotes, Comments and Reflections) — K. Chandrasekhar, tr. Moorty (The Firsthand Publications, 2010)"
+   ],
+   [
+    "i7eeef415",
+    "2026 film coverage not located (Variety US, IndieWire, Hollywood Reporter, Screen Daily, The Hindu, Scroll, Telluride and Woodstock printed programmes)"
    ]
   ],
   "item-possible-jk-contamination": [
@@ -525,15 +529,15 @@
  "hosts": [
   [
    "people.well.com",
-   105
-  ],
-  [
-   "en.wikisource.org",
-   95
+   113
   ],
   [
    "archive.org",
-   93
+   104
+  ],
+  [
+   "en.wikisource.org",
+   96
   ],
   [
    "goodreads.com",
@@ -544,12 +548,12 @@
    81
   ],
   [
-   "amazon.com",
-   39
+   "ugkrishnamurti.in",
+   61
   ],
   [
-   "ugkrishnamurti.in",
-   38
+   "amazon.com",
+   39
   ],
   [
    "books.google.com",
@@ -557,23 +561,23 @@
   ],
   [
    "en.wikiquote.org",
-   28
+   29
   ],
   [
    "azquotes.com",
    27
   ],
   [
-   "remembering-ug.blogspot.com",
-   24
+   "soundcloud.com",
+   26
   ],
   [
-   "soundcloud.com",
-   24
+   "remembering-ug.blogspot.com",
+   25
   ],
   [
    "inner-quest.org",
-   23
+   24
   ],
   [
    "abebooks.com",
@@ -585,7 +589,7 @@
   ],
   [
    "scribd.com",
-   17
+   18
   ],
   [
    "praveennv.blogspot.com",
@@ -620,16 +624,24 @@
    11
   ],
   [
+   "ug-k.blogspot.com",
+   11
+  ],
+  [
    "bitchute.com",
    11
+  ],
+  [
+   "en.wikipedia.org",
+   10
   ],
   [
    "jhana8.com",
    10
   ],
   [
-   "en.wikipedia.org",
-   9
+   "markwhitwell.medium.com",
+   10
   ],
   [
    "groups.google.com",
@@ -640,15 +652,7 @@
    9
   ],
   [
-   "ug-k.blogspot.com",
-   9
-  ],
-  [
    "ugunplugged.blogspot.com",
-   9
-  ],
-  [
-   "markwhitwell.medium.com",
    9
   ],
   [
@@ -680,6 +684,10 @@
    7
   ],
   [
+   "u-g-krishnamurti.blogspot.com",
+   7
+  ],
+  [
    "quotlr.com",
    7
   ],
@@ -689,6 +697,10 @@
   ],
   [
    "en.dharmapedia.net",
+   6
+  ],
+  [
+   "ligotti.net",
    6
   ],
   [
@@ -708,16 +720,20 @@
    5
   ],
   [
-   "u-g-krishnamurti.blogspot.com",
-   5
-  ],
-  [
    "everand.com",
    5
   ],
   [
    "narayanamoorty.net",
    5
+  ],
+  [
+   "varietyindia.com",
+   5
+  ],
+  [
+   "spiritualteachers.org",
+   4
   ],
   [
    "x.com",
@@ -744,10 +760,6 @@
    4
   ],
   [
-   "ligotti.net",
-   4
-  ],
-  [
    "m.youtube.com",
    4
   ],
@@ -760,11 +772,27 @@
    4
   ],
   [
+   "hammertonail.com",
+   4
+  ],
+  [
+   "moortysblogpage.blogspot.com",
+   4
+  ],
+  [
+   "cuke.com",
+   4
+  ],
+  [
    "penguin.co.in",
    4
   ],
   [
-   "varietyindia.com",
+   "casadellibro.com",
+   4
+  ],
+  [
+   "thenaturalman.blogspot.com",
    4
   ],
   [
@@ -812,19 +840,7 @@
    3
   ],
   [
-   "hammertonail.com",
-   3
-  ],
-  [
    "batgap.com",
-   3
-  ],
-  [
-   "moortysblogpage.blogspot.com",
-   3
-  ],
-  [
-   "cuke.com",
    3
   ],
   [
@@ -837,6 +853,10 @@
   ],
   [
    "blackwells.co.uk",
+   3
+  ],
+  [
+   "tribuneindia.com",
    3
   ],
   [
@@ -872,10 +892,6 @@
    3
   ],
   [
-   "casadellibro.com",
-   3
-  ],
-  [
    "babelio.com",
    3
   ],
@@ -893,10 +909,6 @@
   ],
   [
    "encyclopedia.com",
-   2
-  ],
-  [
-   "spiritualteachers.org",
    2
   ],
   [
@@ -952,6 +964,10 @@
    2
   ],
   [
+   "theprint.in",
+   2
+  ],
+  [
    "ebay.de",
    2
   ],
@@ -1004,7 +1020,7 @@
    2
   ],
   [
-   "tribuneindia.com",
+   "gulfnews.com",
    2
   ],
   [
@@ -1021,6 +1037,14 @@
   ],
   [
    "bollywoodlife.com",
+   2
+  ],
+  [
+   "nextbestpicture.com",
+   2
+  ],
+  [
+   "unseenfilms.net",
    2
   ],
   [
@@ -1068,7 +1092,7 @@
    2
   ],
   [
-   "thenaturalman.blogspot.com",
+   "ovid.com",
    2
   ],
   [
@@ -1157,10 +1181,6 @@
   ],
   [
    "readersend.com",
-   1
-  ],
-  [
-   "theprint.in",
    1
   ],
   [
@@ -1296,10 +1316,6 @@
    1
   ],
   [
-   "gulfnews.com",
-   1
-  ],
-  [
    "alamy.com",
    1
   ],
@@ -1357,14 +1373,6 @@
   ],
   [
    "newsbeep.com",
-   1
-  ],
-  [
-   "nextbestpicture.com",
-   1
-  ],
-  [
-   "unseenfilms.net",
    1
   ],
   [
@@ -1505,10 +1513,6 @@
   ],
   [
    "stillnessspeaks.com",
-   1
-  ],
-  [
-   "ovid.com",
    1
   ],
   [
