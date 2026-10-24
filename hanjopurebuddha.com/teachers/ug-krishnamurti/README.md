@@ -1,22 +1,27 @@
-# U.G. Krishnamurti — source collection
+# U.G. Krishnamurti — source archive
 
-Live viewer (private link until shared): https://claude.ai/artifact/6PLZ1ivMrJsvzMYFAVuXv3
-Site page once deployed: https://hanjopurebuddha.com/gurus/ug-krishnamurti/
+The first teacher folder of hanjopurebuddha.com. Uppaluri Gopala
+Krishnamurti (9 July 1918 – 22 March 2007). Not Jiddu Krishnamurti.
 
-Uppaluri Gopala Krishnamurti (9 July 1918 – 22 March 2007). Not Jiddu
-Krishnamurti. U.G. is the one who said he had no message for mankind,
-founded nothing, lectured nowhere, and placed every word of his
-conversations outside copyright.
+Rendered at `gurus/ug-krishnamurti/` on hanjopurebuddha.com and inside
+drthomasager.com. Data files beside this README are the source of truth and
+are published next to the page as JSON.
 
-## What is in this folder
+## The dataset now
 
-- `copyright-view.md` — his statement on the copyright of his own words,
-  verbatim, with where it appears and how publishers and archives have
-  treated it since.
-- `quotes.md` — a collection of his statements, grouped by the book of
-  conversations each one comes from, with a confidence mark on every line.
-- `sources.md` — where the complete texts live online, so the full
-  conversations can be pulled into this folder when the network allows.
+| File | What | Count |
+|---|---|---|
+| `items.json` | located media items across video, audio, text, image, archive, community | 509 |
+| `quotes.json` | his words, each with book, chapter, confidence, kind, verdict, sources | 267 |
+| `events.json` | dated life events with sources (from the chronology researcher) | 24 |
+| `people.json` | everyone connected to the record, with role and what they hold | 64 |
+| `catalogue/*.md` | the researchers' full reports, one per medium and wave | see folder |
+| `integrity-report.md` | the integrity checker's findings, regenerated after every merge | — |
+
+Items by medium: archive 95, community 22, audio 79, image 93, text 129, video 91.
+Items by confidence: S 469, T 2, lead 38.
+Quotes by verdict: multi-source 53, primary-source 80, disputed 1, corroborated-secondary 26, single-source 99, corroborated-primary 7, not-found 1.
+Distinct source hosts cited: 271.
 
 ## The one-line answer on copyright
 
@@ -25,19 +30,44 @@ conversations outside copyright.
 > garble, do what you like, even claim authorship, without my consent or
 > the permission of anybody.
 
-This is printed in the front matter of the books of his conversations
-(*The Mystique of Enlightenment*, *Mind is a Myth*, *Thought is Your
-Enemy*, *The Courage to Stand Alone*, *No Way Out*, *The Natural State*)
-and is why Wikisource and the Internet Archive carry those books as public
-domain, released by the copyright holder.
+Printed in place of a copyright line in every book of his conversations.
+`copyright-view.md` has where it appears and how archives treat it.
 
-## How this was gathered (2026-10-24)
+## Pipeline
 
-The cloud session's network policy refused direct connections to every
-host carrying the full texts (people.well.com, en.wikisource.org,
-en.wikiquote.org, archive.org, ugkrishnamurti.in, holybooks.com,
-goodreads.com and the quote aggregators). Web search summaries were the
-one open route, so each quote below was checked by exact-phrase search
-against those summaries, and marked accordingly. Nothing here is from a
-downloaded book file. When the hosts in `sources.md` are allowed, the
-complete texts can be dropped beside these files and every mark upgraded.
+```
+python3 merge.py <scratch-folder-of-researcher-json>   # -> items.json quotes.json events.json people.json
+python3 integrity.py                                   # -> integrity-report.md integrity.json
+cd ../.. && python3 build.py                           # -> site/
+```
+
+`merge.py` canonicalises book names, merges items that share a URL (keeping
+every title under `also_titled`, unioning tags, sources, people and origins),
+derives metadata tags (decade, year, person, host, format, language, place,
+confidence) on top of the researchers' own, and gives each quote a verdict:
+`corroborated-primary` / `corroborated-secondary` from the verification pass,
+else `primary-source` when a Wikisource, WELL, archive.org or
+ugkrishnamurti.in URL is among its sources, else `multi-source` when two or
+more hosts cite it, else `single-source`.
+
+## How it was gathered (2026-10-24)
+
+The gathering session's network policy refused direct connections to every
+hosting site (the WELL, Wikisource, Wikiquote, the Internet Archive,
+YouTube, SoundCloud, the quote aggregators), so no file was downloaded.
+Researchers swept web search in waves, one per medium, each writing JSON in
+the shared schema and a full markdown report into `catalogue/`. Wave one:
+video, audio, texts, images, archives and communities, two quote harvests.
+Wave two: the gaps each named. Wave three: Wikisource chapter mining and an
+archive.org / YouTube / SoundCloud identifier sweep. Wave four: a dated
+chronology, a people registry, a quote verification pass on second
+independent hosts, and Indian-language material. Every quote and item keeps
+the URLs it was found at. Opening those hosts in the environment's network
+settings lets the full texts, audio and photographs be pulled in beside
+these files.
+
+`sources.md` lists where the complete texts live. `quotes-hand-gathered.md`
+is the first hand-gathered list, kept for its confidence marks.
+
+Licences: `LICENSE` (MIT for code, CC0 for the catalogue, his own release
+for his words).
