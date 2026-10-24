@@ -934,7 +934,8 @@
    "jct",
    "U.G. Krishnamurti",
    "Khushwant Singh",
-   "S.C. Birla"
+   "S.C. Birla",
+   "Joel Staffeleu"
   ],
   "format": "archive collection",
   "language": "English",
@@ -1023,7 +1024,17 @@
    "person-singh",
    "person-birla",
    "place-switzerland",
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "format-realaudio-realvideo-stream-on-the-well",
+   "place-australia",
+   "person-staffeleu",
+   "place-netherlands",
    "press",
+   "short-clip",
+   "saanen",
+   "place-saanen",
    "patriot",
    "delhi",
    "host-the-patriot",
@@ -1071,6 +1082,14 @@
    "Kushvant Singh in India, 1989",
    "The Patriot, New Delhi, 1989",
    "S.C. Birla in Gstaad, Switzerland, 1989",
+   "friends in Sydney (a 'soiree'), 1991",
+   "Friends in Sydney, 1990",
+   "friends in Amsterdam, 1990 / Joel Staffeleu, Amsterdam 1990",
+   "the Patriot in New Delhi, 1989",
+   "Spiritual Con (30 mins)",
+   "Sorrow (6 mins)",
+   "UG in Mill Valley (5 mins)",
+   "Saanen Talk Part 1 / Part 2 (ugkrishnamurti.in 'Essential Audios')",
    "The Patriot (New Delhi) interview with U.G., 1989"
   ],
   "origins": [
@@ -1082,6 +1101,7 @@
    "wave2-av",
    "wave2-img-arch",
    "wave3-items",
+   "wave5-archive-items",
    "wave5-press"
   ]
  },
@@ -1865,7 +1885,7 @@
   "duration": null,
   "host": "thisrobotdreaming.com",
   "url": "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes",
-  "description": "Blog author announces uploading all their UG cassette tapes (1967 to 1990s) converted to MP3 to the Internet Archive with a 'listen here' link. Exact archive.org item IDs not surfaced by search - still open.",
+  "description": "no archive.org identifier yet; LEAD, not an archive.org identifier: blog post at thisrobotdreaming.com says the author uploaded all their U.G. cassette tapes (1967 to the 1990s, converted to MP3) to the Internet Archive with a 'listen here' link; uploader username and item identifiers not surfaced by search.",
   "tags": [
    "blog",
    "cassettes",
@@ -1889,7 +1909,9 @@
    "host-archive-org-via-thisrobotdreaming-com",
    "format-audio-cassettes-converted-to-mp3",
    "format-blog-post-archive-org-mp3-uploads",
-   "lang-en"
+   "lang-en",
+   "text",
+   "format-blog-post-linking-to-archive-org-uploads"
   ],
   "confidence": "S",
   "sources": [
@@ -1899,12 +1921,14 @@
   "also_titled": [
    "Internet Archive: private cassette collection 1967–1990s (thisrobotdreaming uploader)",
    "this robot dreaming — 'U. G. Krishnamurti tapes' (cassettes 1960s-90s digitised to archive.org)",
-   "this robot dreaming blog: 'U. G. Krishnamurti tapes' (cassettes 1967-1990s uploaded to Internet Archive)"
+   "this robot dreaming blog: 'U. G. Krishnamurti tapes' (cassettes 1967-1990s uploaded to Internet Archive)",
+   "U. G. Krishnamurti tapes (thisrobotdreaming blog post)"
   ],
   "origins": [
    "archives",
    "wave2-av",
-   "wave2-img-arch"
+   "wave2-img-arch",
+   "wave5-archive-items"
   ]
  },
  {
@@ -23127,40 +23151,6 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_george_gary_kunm_radio_albu"
-  ],
-  "origin": "wave5-archive-items"
- },
- {
-  "id": "i6ebefe42",
-  "medium": "text",
-  "title": "U. G. Krishnamurti tapes (thisrobotdreaming blog post)",
-  "date": null,
-  "year": null,
-  "place": null,
-  "people": [
-   "U.G. Krishnamurti"
-  ],
-  "format": "blog post linking to archive.org uploads",
-  "language": "English",
-  "duration": null,
-  "host": "archive.org",
-  "url": "https://archive.org/details/thisrobotdreaming",
-  "description": "identifier thisrobotdreaming; LEAD, not an archive.org identifier: blog post at thisrobotdreaming.com says the author uploaded all their U.G. cassette tapes (1967 to the 1990s, converted to MP3) to the Internet Archive with a 'listen here' link; uploader username and item identifiers not surfaced by search.",
-  "tags": [
-   "archive-org",
-   "lead",
-   "cassette",
-   "thisrobotdreaming",
-   "text",
-   "person-krishnamurti",
-   "host-archive-org",
-   "format-blog-post-linking-to-archive-org-uploads",
-   "lang-english",
-   "confidence-lead"
-  ],
-  "confidence": "lead",
-  "sources": [
-   "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes"
   ],
   "origin": "wave5-archive-items"
  },
