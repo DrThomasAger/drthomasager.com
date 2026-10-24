@@ -40,10 +40,22 @@ python3 build.py        # renders site/ from teachers/
 ## This folder inside drthomasager.com
 
 It was born inside the drthomasager.com repository because the session
-that built it could not create a new repository. It is self-contained.
-To lift it out with its history:
+that built it could not create a new repository (the GitHub integration
+refuses repository creation for both the account and the organisation).
+It is self-contained, and it already exists as its own branch with its own
+history, `hanjopurebuddha-site`, split from this folder and pushed to the
+drthomasager.com remote. To make it the new repository:
+
+```
+# after creating the empty repository on GitHub
+git push https://github.com/<owner>/hanjopurebuddha.com.git hanjopurebuddha-site:main
+```
+
+Then Pages → Source → GitHub Actions in that repository, and the DNS steps
+above. Until then the section is served inside drthomasager.com at
+`/gurus/`. To refresh the branch after changes here:
 
 ```
 git subtree split --prefix=hanjopurebuddha.com -b hanjopurebuddha-site
-git push <new-remote> hanjopurebuddha-site:main
+git push -f origin hanjopurebuddha-site
 ```
