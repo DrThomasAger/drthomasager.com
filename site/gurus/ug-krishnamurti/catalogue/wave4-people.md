@@ -1,6 +1,6 @@
 # Wave 4 — People connected to U.G. Krishnamurti
 
-Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007): family, companions, hosts, editors, publishers, recordists, filmmakers, interviewers, biographers, friends, figures he met, archivists and scholars. Jiddu Krishnamurti appears only as a relation. Confidence: S = solid (multiple or primary sources), T = tentative (single or indirect source). JSON twin: `scratchpad/json/people.json`.
+Registry of 87 persons connected to the record of U.G. Krishnamurti (1918–2007): family, companions, hosts, editors, publishers, recordists, filmmakers, interviewers, biographers, friends, figures he met, archivists and scholars. Jiddu Krishnamurti appears only as a relation. Confidence: S = solid (multiple or primary sources), T = tentative (single or indirect source). JSON twin: `scratchpad/json/people.json`.
 
 ## Family (9)
 
@@ -35,9 +35,9 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 ### Kusuma Kumari
 - **Dates:** ?–1963 · **Place:** Madras / Bombay, India · **Confidence:** S
 - **Relation:** UG's wife, married 1943 in an arranged marriage; they had four children and separated in the US in the late 1950s; she died in 1963 after a period in a mental institution.
-- **Material:** Figures in UG's own account of his married years (Bhatt biography ch. 4, 'Locking of Horns').
+- **Material:** Subject of the chapter 'Kusuma—U.G.'s Wife' in Stopped in Our Tracks and of UG's own account of his married years (Bhatt biography ch. 4, 'Locking of Horns').
 - **Tags:** family, wife
-- **URLs:** <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://en.wikipedia.org/wiki/U._G._Krishnamurti> · <https://ugarchive.blogspot.com/2021/09/the-anti-guru.html>
+- **URLs:** <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://en.wikipedia.org/wiki/U._G._Krishnamurti> · <https://ugarchive.blogspot.com/2021/09/the-anti-guru.html> · <http://u-g-krishnamurti.blogspot.com/2007/04/kusumau.html>
 
 ### Bharati (UG's daughter)
 - **Dates:** — · **Place:** India · **Confidence:** S
@@ -46,26 +46,26 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** family, daughter
 - **URLs:** <https://people.well.com/user/jct/bphotos/ph5.htm> · <https://people.well.com/user/jct/ugbio/ugbio4.htm>
 
-### Vasant (UG's son) (a.k.a. Kumar)
-- **Dates:** c. 1946–c. 1984 · **Place:** India · **Confidence:** T
-- **Relation:** UG's elder son, who contracted polio as a child; UG took him to the US (1955–59) for treatment, which exhausted the family savings. Vasant later died of cancer in India (c. 1984), with UG present at his bedside.
+### Vasant (UG's son)
+- **Dates:** c. 1946–c. 1980s · **Place:** India · **Confidence:** T
+- **Relation:** UG's elder son, who contracted polio as a child; UG took the family to the US (1955–59) for his treatment, which exhausted their savings. Vasant later died in India with UG at his bedside (c. 1980s).
 - **Material:** Photographed with UG (WELL photo 'ug_n_son'); his illness and death recounted in Bhatt's biography.
 - **Tags:** family, son, polio
 - **URLs:** <http://www.well.com/~jct/bphotos/ug_n_son.htm> · <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://jhana8.com/ug-krishnamurti-biography/>
 
 ### Usha (UG's daughter)
 - **Dates:** — · **Place:** Bangalore, India · **Confidence:** S
-- **Relation:** UG's younger daughter, who in later years hosted him in Bangalore; her account of the family appears in Mahesh Bhatt's biography.
+- **Relation:** UG's younger daughter, resident in Bangalore, who attends the annual 22 March gatherings for UG; her account of the family appears in Mahesh Bhatt's biography.
 - **Material:** Interviewed in Bhatt's 'U.G. Krishnamurti: A Life'; photographed on the WELL biography pages.
 - **Tags:** family, daughter, bangalore
-- **URLs:** <https://people.well.com/user/jct/bphotos/ph5.htm> · <https://people.well.com/user/jct/ugbio/ugbio4.htm>
+- **URLs:** <https://people.well.com/user/jct/bphotos/ph5.htm> · <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/>
 
-### UG's fourth child (younger son)
-- **Dates:** c. 1956– · **Place:** Virginia, USA · **Confidence:** T
-- **Relation:** UG's fourth child, a boy born during the family's stay in the United States (c. 1955–59); he and his family later lived in Virginia, USA, where UG visited.
-- **Material:** Not a public figure; mentioned in the biography and in late travel journals.
-- **Tags:** family, son, virginia
-- **URLs:** <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://ugarchive.blogspot.com/2021/09/the-anti-guru.html>
+### Kumar (UG's younger son)
+- **Dates:** 1957– · **Place:** Virginia, USA · **Confidence:** S
+- **Relation:** UG's fourth child, born in Chicago in 1957 while UG worked there; taken back to India by his mother, he first met his father again at about 17; he settled with his family in Virginia, USA, where UG visited them. Named in UG's obituary with his family as survivors.
+- **Material:** Subject of the chapter 'Kumar, U.G.'s Son' in Stopped in Our Tracks; WELL photo 'With his son and his family in Virginia'.
+- **Tags:** family, son, virginia, chicago
+- **URLs:** <http://u-g-krishnamurti.blogspot.com/2007/04/kumar-ugs-son.html> · <http://www.well.com/~jct/bphotos/ug_n_son.htm> · <https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F=>
 
 ## Companions (2)
 
@@ -83,7 +83,7 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** companion, author, photographer, new-york
 - **URLs:** <https://www.goodreads.com/book/show/11439516-goner> · <https://batgap.com/louis-brawley/> · <https://www.youtube.com/watch?v=nBrWeJTxosM> · <https://www.duckcreekarts.org/louis-brawley>
 
-## Hosts (3)
+## Hosts (4)
 
 ### K. Chandrasekhar
 - **Dates:** — · **Place:** Bangalore, India · **Confidence:** S
@@ -104,9 +104,16 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Relation:** Italian friends who built an apartment for UG in their villa at Vallecrosia (Liguria), where he spent his last weeks and died on 22 March 2007.
 - **Material:** Hosts of UG's final residence; eyewitnesses.
 - **Tags:** host, italy, vallecrosia, death
-- **URLs:** <https://www.inner-quest.org/UG_R.htm> · <https://en.wikipedia.org/wiki/U._G._Krishnamurti> · <https://www.cuke.com/deathanddying/u-g-krsihnamurti.html>
+- **URLs:** <https://www.inner-quest.org/UG_R.htm> · <https://en.wikipedia.org/wiki/U._G._Krishnamurti> · <https://www.cuke.com/deathanddying/u-g-krsihnamurti.html> · <https://people.well.com/user/jct/Final_Remembering.htm>
 
-## Editors (7)
+### Henry (English friend with Bombay house)
+- **Dates:** — · **Place:** Mumbai, India · **Confidence:** T
+- **Relation:** Friend of UG from England with a house and business office in Bombay where UG and Valentine stayed on their Indian visits after the 1967 'calamity'.
+- **Material:** Named in Stopped in Our Tracks.
+- **Tags:** host, mumbai
+- **URLs:** <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
+## Editors (9)
 
 ### Terry Newland
 - **Dates:** ?–c. 1990 · **Place:** Mill Valley, California, USA · **Confidence:** S
@@ -138,10 +145,10 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 
 ### Anthony Paul Frank Noronha (a.k.a. Frank Noronha)
 - **Dates:** — · **Place:** Bangalore, India · **Confidence:** S
-- **Relation:** Bangalore friend and co-editor (with Narayana Moorty) of 'Thought is Your Enemy' (1990) and 'No Way Out' (1991); his family firm Sowmya Publishers issued UG titles.
+- **Relation:** Bangalore friend and co-editor (with Narayana Moorty) of 'Thought is Your Enemy' (1990) and 'No Way Out' (1991); his family firm Sowmya Publishers issued UG titles. Quoted in UG's 2007 obituaries on the absence of funeral rites.
 - **Material:** Co-editor of two UG dialogue books; publisher.
 - **Tags:** editor, publisher, bangalore
-- **URLs:** <https://people.well.com/user/jct/lists.html> · <https://www.amazon.com/Thought-Your-Enemy-UG-Krishnamurti-ebook/dp/B005C6EBIO>
+- **URLs:** <https://people.well.com/user/jct/lists.html> · <https://www.amazon.com/Thought-Your-Enemy-UG-Krishnamurti-ebook/dp/B005C6EBIO> · <https://people.well.com/user/jct/Final_Remembering.htm>
 
 ### Ellen Chrystal
 - **Dates:** — · **Place:** — · **Confidence:** S
@@ -157,6 +164,20 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** editor, online-texts
 - **URLs:** <https://people.well.com/user/jct/lists.html>
 
+### Arun Babani
+- **Dates:** — · **Place:** Mumbai, India · **Confidence:** S
+- **Relation:** Mumbai journalist and Sindhi poet who compiled 'UG Says: Everyday Thoughts by UG Krishnamurti' (HarperCollins India 2018; foreword Mahesh Bhatt, introduction Mukunda Rao).
+- **Material:** Quotation anthology.
+- **Tags:** editor, anthology, mumbai
+- **URLs:** <https://books.google.com/books/about/UG_Says_Everyday_Thoughts_by_UG_Krishnam.html?id=D6h1DwAAQBAJ> · <https://www.amazon.com/dp/B07K1N9K3R>
+
+### Vazir Rahman
+- **Dates:** — · **Place:** Bangalore, India · **Confidence:** T
+- **Relation:** Friend of K. Chandrasekhar who met him weekly and urged him to render UG's words into simple, clear Telugu, shaping the Telugu notebooks behind Stopped in Our Tracks.
+- **Material:** Editorial help on the Telugu source text.
+- **Tags:** editor, telugu, bangalore
+- **URLs:** <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
 ## Publishers (3)
 
 ### Sowmya Noronha
@@ -168,10 +189,10 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 
 ### Dinesh Vaghela
 - **Dates:** — · **Place:** Goa, India · **Confidence:** S
-- **Relation:** Goa-based publisher (Cemetile Corporation, P.O. Betim-Volant) who issued the first editions of 'The Mystique of Enlightenment' (1982, 5000 copies) and 'Mind is a Myth' (1988).
+- **Relation:** Goa-based publisher (Cemetile Corporation, P.O. Betim-Volant) who issued the first editions of 'The Mystique of Enlightenment' (1982, 5000 copies) and 'Mind is a Myth' (1988). Still attends the annual 22 March UG gathering in Bangalore (2018).
 - **Material:** First publisher of UG's books.
 - **Tags:** publisher, goa
-- **URLs:** <https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf> · <https://people.well.com/user/jct/sageug.htm>
+- **URLs:** <https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf> · <https://people.well.com/user/jct/sageug.htm> · <https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/>
 
 ### Sunita Pant Bansal
 - **Dates:** — · **Place:** New Delhi, India · **Confidence:** S
@@ -212,7 +233,7 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** filmmaker, producer, 2026
 - **URLs:** <https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/>
 
-## Interviewers (13)
+## Interviewers (18)
 
 ### Willem de Ridder
 - **Dates:** 1939–2022 · **Place:** Amsterdam, Netherlands · **Confidence:** S
@@ -305,6 +326,41 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** interviewer, audio
 - **URLs:** <https://ugkrishnamurti.in/ug-speaks/audios> · <http://remembering-ug.blogspot.com/2012/01/talks-march-05th-2012.html>
 
+### Rosalind Atkinson
+- **Dates:** — · **Place:** — · **Confidence:** S
+- **Relation:** Heart of Yoga co-author and podcast host who travelled with Mark Whitwell and conducted the two-part 'Understanding U.G. Krishnamurti' interviews with him.
+- **Material:** Interviews/essays on UG via Heart of Yoga.
+- **Tags:** interviewer, heart-of-yoga, podcast
+- **URLs:** <https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192> · <https://theheartofyoga.libsyn.com/what-is-the-heart-of-yoga> · <https://www.heartofyoga.com/podcast>
+
+### Michael Toms
+- **Dates:** 1940–2013 · **Place:** California, USA · **Confidence:** S
+- **Relation:** Founder-host of 'New Dimensions' radio; interviewed UG on 14 November 1989 (transcript in the New Dimensions Media records, Stanford).
+- **Material:** Radio interview audio (archive.org); transcript in OAC finding aid.
+- **Tags:** interviewer, radio, new-dimensions
+- **URLs:** <https://archive.org/details/ug_new_dimensions_19891114> · <https://oac.cdlib.org/findaid/ark:/13030/c8hq44pj/entire_text/>
+
+### John Cooper
+- **Dates:** — · **Place:** Sydney, Australia · **Confidence:** T
+- **Relation:** Sydney participant in the recorded 1991 conversation with UG alongside John Wren-Lewis and Donald Ingram Smith.
+- **Material:** 1991 Sydney audio.
+- **Tags:** interviewer, sydney, audio
+- **URLs:** <https://people.well.com/user/jct/index_main.html> · <http://remembering-ug.blogspot.com/2012/03/talks-020612.html>
+
+### Ramola Bachchan
+- **Dates:** — · **Place:** India · **Confidence:** S
+- **Relation:** Indian television presenter who interviewed UG on the programme 'Face to Face' (6 June 1993).
+- **Material:** Video and audio on archive.org; multi-part audio on fan blogs.
+- **Tags:** interviewer, television
+- **URLs:** <https://archive.org/details/ug_ug_w_rb_150> · <https://archive.org/details/ug_ug_w_rb> · <http://remembering-ug.blogspot.com/2012/08/talks-ramola-bachchan.html>
+
+### Joel Staffeleu
+- **Dates:** — · **Place:** Amsterdam, Netherlands · **Confidence:** T
+- **Relation:** Dutch participant in a 1990 Amsterdam video conversation with UG listed in the WELL streaming archive.
+- **Material:** Video (WELL archive).
+- **Tags:** interviewer, amsterdam, video
+- **URLs:** <https://people.well.com/user/jct/index_main.html>
+
 ## Biographers / authors of books on UG (4)
 
 ### Mahesh Bhatt
@@ -335,7 +391,7 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** biographer, graphic-novel
 - **URLs:** <https://www.amazon.com/This-Dog-Barking-Strange-Krishnamurti-ebook/dp/B01NBV8FCZ> · <https://deathofapornographer.uk/this-dog-barking>
 
-## Friends (10)
+## Friends (23)
 
 ### Brahmachari Sivarama Sarma (a.k.a. Brahmachari)
 - **Dates:** — · **Place:** Bangalore, India · **Confidence:** S
@@ -407,7 +463,98 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** friend, bangalore, memoir
 - **URLs:** <https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb>
 
-## Teachers and figures UG met (6)
+### Mark Whitwell
+- **Dates:** — · **Place:** Australia / USA · **Confidence:** S
+- **Relation:** New Zealand-born yoga teacher (student of Krishnamacharya and Desikachar) who first met UG in Bangalore in 1973 and was a friend until 2007, mostly in Australia and Switzerland; founder of Heart of Yoga, which cites UG as a root influence.
+- **Material:** Interviews and essays on UG (Medium, heartofyoga.com); podcast; recollection of Ram Dass's meeting with UG.
+- **Tags:** friend, yoga, heart-of-yoga
+- **URLs:** <https://www.heartofyoga.com/blog/ug-krishnamurti> · <https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192> · <https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d> · <https://people.well.com/user/jct/Final_Remembering.htm>
+
+### Sripada Gopalakrishnamurti (a.k.a. Sripada)
+- **Dates:** — · **Place:** Hyderabad, India · **Confidence:** S
+- **Relation:** Hyderabad friend (circle of B.L. Narayan and Prasada Rao at the Oasis School) who debated death and the afterlife with UG, wrote a book on Sri Jillellamudi Amma, and pressed Chandrasekhar to write UG's biography; died before seeing it.
+- **Material:** Figures in Stopped in Our Tracks (Hyderabad chapters).
+- **Tags:** friend, hyderabad, telugu
+- **URLs:** <https://people.well.com/user/jct/sitparti.htm> · <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
+### B.L. Narayan and Prasada Rao
+- **Dates:** — · **Place:** Hyderabad, India · **Confidence:** T
+- **Relation:** Hyderabad friends who, with Sripada Gopalakrishnamurti, regularly hosted and argued with UG during his stays at the Oasis School, Hyderabad.
+- **Material:** Named in Stopped in Our Tracks.
+- **Tags:** friend, hyderabad
+- **URLs:** <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India> · <https://people.well.com/user/jct/sitparti.htm>
+
+### Chalam (a.k.a. Gudipati Venkata Chalam)
+- **Dates:** 1894–1979 · **Place:** Tiruvannamalai, India · **Confidence:** S
+- **Relation:** Celebrated Telugu writer living at Tiruvannamalai, old friend of UG; he came to Bangalore yearly to see UG, and UG travelled to Arunachala when Chalam was dying. His daughter Sowris was UG's distant cousin.
+- **Material:** Recalled in 'How I Met UG' (ugarchive) and Stopped in Our Tracks.
+- **Tags:** friend, telugu, tiruvannamalai, writer
+- **URLs:** <https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html> · <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
+### Mario Viggiano
+- **Dates:** — · **Place:** Italy / California, USA · **Confidence:** T
+- **Relation:** Italian friend of UG who drove for him in Palm Springs and was present with Julie Thayer at a 1995 Corte Madera gathering.
+- **Material:** Named in Palm Springs diaries and Moorty's blog.
+- **Tags:** friend, italy, palm-springs
+- **URLs:** <http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html> · <https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html>
+
+### Dr K.B. Ramakrishna Rao (a.k.a. Dr K.B. Rao)
+- **Dates:** — · **Place:** Mysore, India · **Confidence:** S
+- **Relation:** Professor of Philosophy at Mysore University and early Karnataka friend; the first book on UG (in Kannada) was released at his Mysore house. A recorded conversation with him, Brahmachari and Chandrasekhar survives.
+- **Material:** archive.org audio 'Conversation with Dr K.B. Rao, Bramchari & Chandrashekar Babu'.
+- **Tags:** friend, scholar, mysore, kannada
+- **URLs:** <https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu> · <https://www.ugkrishnamurti.in/about-ug/key-events>
+
+### Major Dakshinamurti
+- **Dates:** — · **Place:** Bangalore, India · **Confidence:** T
+- **Relation:** Retired Indian Army major described as a close friend of UG in Bangalore.
+- **Material:** Named in Uma Balaji's memoir / Bangalore accounts.
+- **Tags:** friend, bangalore
+- **URLs:** <https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb>
+
+### Lakshmi and Guha
+- **Dates:** — · **Place:** USA · **Confidence:** S
+- **Relation:** Indian-American couple (Guha a scientist) who became close to UG in his last decade; Guha's diary was published as 'In Palm Springs with U.G. Krishnamurti', and 'Lakshmi and Guha' chapters appear in the 1998–99 Palm Springs & Gstaad diaries.
+- **Material:** Book 'In Palm Springs with U.G. Krishnamurti'; diary chapters.
+- **Tags:** friend, palm-springs, gstaad, author
+- **URLs:** <https://www.exoticindiaart.com/book/details/in-palm-springs-with-u-g-krishnamurti-nbz827/> · <https://www.scribd.com/document/53063642/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-3> · <https://people.well.com/user/jct/SIT/part_i.htm> · <https://people.well.com/user/jct/SIT/part_ii.htm>
+
+### Rochaldas Shroff (a.k.a. Rochaldas Schroff)
+- **Dates:** — · **Place:** India · **Confidence:** S
+- **Relation:** Former J. Krishnamurti follower (with Nagaraj, Radhakishan Bajaj and Narayanachari) drawn to UG after a 1970s talk; subject of the chapter 'You Are the Only One Who Gives What I Need Free of Charge' in Stopped in Our Tracks.
+- **Material:** Chapter in Stopped in Our Tracks.
+- **Tags:** friend, 1970s
+- **URLs:** <http://u-g-krishnamurti.blogspot.com/2007/04/you-are-only-one-who-gives-what-i-need.html> · <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
+### Dilip Kothari
+- **Dates:** — · **Place:** Mumbai, India · **Confidence:** T
+- **Relation:** Bombay friend of UG, former Chairman of the Film Censor Board.
+- **Material:** Named in Stopped in Our Tracks.
+- **Tags:** friend, mumbai
+- **URLs:** <https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India>
+
+### Kanubhai C. Joshi, Dhiren and Minal Morarji
+- **Dates:** — · **Place:** Mumbai, India · **Confidence:** T
+- **Relation:** Bombay friends present with Raj Mehta at the 1995 Nadi astrological reading of UG's horoscope; Joshi conducted the reading.
+- **Material:** Transcript of 1995 Nadi reading.
+- **Tags:** friend, mumbai, astrology
+- **URLs:** <https://www.scribd.com/doc/315495905/Ug-Nadi-Readings>
+
+### David Barry
+- **Dates:** — · **Place:** Saanen, Switzerland · **Confidence:** T
+- **Relation:** Present with Saral Bohm and Valentine at the 17 August 1968 Saanen conversation between UG and David Bohm.
+- **Material:** Participant in the 1968 Bohm recording.
+- **Tags:** friend, saanen, 1968
+- **URLs:** <https://archive.org/details/ug_ug_bohm> · <https://sulochanosho.wordpress.com/2011/01/31/bohm-and-ug/>
+
+### Bangalore memorial circle (Dr Leele, Uday Puranik, Vikas Deshpande, R.P. Jhunjhunwala)
+- **Dates:** — · **Place:** Bangalore, India · **Confidence:** T
+- **Relation:** Friends who gather each 22 March at the Chandrasekhars' home 'Hridaya Vihar', Bangalore, for the UG anniversary meet (attendees recorded 2018).
+- **Material:** Blog reports of annual gatherings (sulochanosho).
+- **Tags:** friend, bangalore, memorial
+- **URLs:** <https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/> · <https://sulochanosho.wordpress.com/tag/ug-friends/>
+
+## Teachers and figures UG met (7)
 
 ### Swami Sivananda
 - **Dates:** 1887–1963 · **Place:** Rishikesh, India · **Confidence:** S
@@ -451,6 +598,13 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** teacher-met, theosophical-society, ojai
 - **URLs:** <https://people.well.com/user/jct/ugbio/ugbio4.htm> · <https://en.wikipedia.org/wiki/Rosalind_Rajagopal>
 
+### Ram Dass (a.k.a. Richard Alpert)
+- **Dates:** 1931–2019 · **Place:** USA · **Confidence:** T
+- **Relation:** American spiritual teacher who met UG; Mark Whitwell recalls him moved to tears recounting the encounter.
+- **Material:** Anecdote via Mark Whitwell.
+- **Tags:** teacher-met, usa
+- **URLs:** <https://people.well.com/user/jct/Final_Remembering.htm> · <https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d>
+
 ## Archivists (1)
 
 ### Jeff Kaplan
@@ -460,7 +614,7 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - **Tags:** archivist, archive.org, audio, video
 - **URLs:** <https://archive.org/details/ugkrishnamurti-audio?sort=-reviewdate>
 
-## Scholars / scientists (2)
+## Scholars / scientists (3)
 
 ### NIMHANS doctors: Dr R. Marthanda Varma, Dr T. Desiraju, Dr R.L. Kapur (a.k.a. Dr Varma, Dr Desiraju, Dr Kapoor)
 - **Dates:** — · **Place:** Bangalore, India · **Confidence:** T
@@ -471,17 +625,37 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 
 ### David Bohm
 - **Dates:** 1917–1992 · **Place:** Saanen, Switzerland · **Confidence:** S
-- **Relation:** Quantum physicist who conversed with UG in Saanen on 17 August 1968 (with Saral Bohm, David Barry and Valentine present); his part was adapted as a chapter in 'A Question of Physics'.
+- **Relation:** Quantum physicist who conversed with UG in Saanen on 17 August 1968 (with Saral Bohm, David Barry and Valentine de Kerven present); Bohm's part was adapted as a chapter in 'A Question of Physics'.
 - **Material:** Recorded 1968 conversation (archive.org, YouTube).
 - **Tags:** scholar, physicist, saanen, 1968
 - **URLs:** <https://archive.org/details/ug_ug_bohm> · <https://sulochanosho.wordpress.com/2011/01/31/bohm-and-ug/> · <https://www.davidbohmsociety.org/david-bohm/audio-and-video/>
+
+### John Wren-Lewis
+- **Dates:** 1923–2006 · **Place:** Sydney, Australia · **Confidence:** S
+- **Relation:** British-born scientist and writer on religion, honorary associate at the University of Sydney, who took part in a recorded four-part 1991 Sydney conversation with UG together with John Cooper and Donald Ingram Smith.
+- **Material:** 1991 Sydney audio (WELL archive, remembering-ug blog).
+- **Tags:** scholar, sydney, audio
+- **URLs:** <http://remembering-ug.blogspot.com/2012/03/talks-020612.html> · <https://people.well.com/user/jct/index_main.html> · <https://en.wikipedia.org/wiki/John_Wren-Lewis>
+
+## Names searched but not confirmed in any source
+
+- Mitra (said to be a Telugu friend; no source found)
+- Robert Carr (no UG connection found)
+- Douglas Rosestone (no UG connection found)
+- Giuliano Sauro (Vallecrosia; sources name the hosts only as Lucia, Anita and Giovanni)
+- Lakshmi as a Bangalore companion of the 1970s–80s (only the later Lakshmi, wife of Guha, is documented)
 
 ## Sources
 
 - <http://chowdaiahandparvati.blogspot.com/2009/11/brahmachari-and-person-called-ug.html>
 - <http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html>
 - <http://remembering-ug.blogspot.com/2012/01/talks-march-05th-2012.html>
+- <http://remembering-ug.blogspot.com/2012/03/talks-020612.html>
+- <http://remembering-ug.blogspot.com/2012/08/talks-ramola-bachchan.html>
+- <http://u-g-krishnamurti.blogspot.com/2007/04/kumar-ugs-son.html>
+- <http://u-g-krishnamurti.blogspot.com/2007/04/kusumau.html>
 - <http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html>
+- <http://u-g-krishnamurti.blogspot.com/2007/04/you-are-only-one-who-gives-what-i-need.html>
 - <http://ug-krishnamurti.blogspot.com/2010/09/ugan-enigma-brahmachari-sivarama-sarma.html>
 - <http://www.intuitionnetwork.org/txt/krishna.htm>
 - <http://www.travelswithug.com/>
@@ -491,21 +665,28 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - <https://archive.org/details/ug_2002-01-18_interview_willem_de_ridder>
 - <https://archive.org/details/ug_barbara_schuler_kazu_198905>
 - <https://archive.org/details/ug_birla_01>
+- <https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu>
+- <https://archive.org/details/ug_new_dimensions_19891114>
 - <https://archive.org/details/ug_ug_bohm>
 - <https://archive.org/details/ug_ug_deridder>
 - <https://archive.org/details/ug_ug_deridder_katie>
 - <https://archive.org/details/ug_ug_parapsy_150>
 - <https://archive.org/details/ug_ug_tv_int>
 - <https://archive.org/details/ug_ug_w_mb>
+- <https://archive.org/details/ug_ug_w_rb>
+- <https://archive.org/details/ug_ug_w_rb_150>
 - <https://archive.org/details/ug_ug_w_sk_150>
 - <https://archive.org/details/ugkrishnamurti-audio?sort=-reviewdate>
 - <https://batgap.com/louis-brawley/>
+- <https://books.google.com/books/about/UG_Says_Everyday_Thoughts_by_UG_Krishnam.html?id=D6h1DwAAQBAJ>
 - <https://books.google.com/books/about/U_G_Krishnamurti_Dangerous_Friend.html?id=t2yLrgEACAAJ>
 - <https://books.google.com/books/about/U_G_Krishnamurti_a_Life.html?id=p_bWAAAAMAAJ>
 - <https://catalogue.nla.gov.au/catalog/3264341>
 - <https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/>
 - <https://deathofapornographer.uk/this-dog-barking>
 - <https://dokumen.pub/get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html>
+- <https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html>
+- <https://en.wikipedia.org/wiki/John_Wren-Lewis>
 - <https://en.wikipedia.org/wiki/Parveen_Babi>
 - <https://en.wikipedia.org/wiki/R._Marthanda_Varma>
 - <https://en.wikipedia.org/wiki/Rosalind_Rajagopal>
@@ -517,14 +698,22 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - <https://en.wikisource.org/wiki/The_Sage_and_the_Housewife>
 - <https://hillsidesource.com/churchhistory>
 - <https://jhana8.com/ug-krishnamurti-biography/>
+- <https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192>
+- <https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d>
 - <https://narayanamoorty.net/>
 - <https://newthinkingallowed.org/listings>
+- <https://oac.cdlib.org/findaid/ark:/13030/c8hq44pj/entire_text/>
 - <https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp21397>
 - <https://openlibrary.org/publishers/Smriti_Books>
+- <https://people.well.com/user/jct/Final_Remembering.htm>
+- <https://people.well.com/user/jct/SIT/part_i.htm>
+- <https://people.well.com/user/jct/SIT/part_ii.htm>
 - <https://people.well.com/user/jct/bphotos/ph5.htm>
+- <https://people.well.com/user/jct/index_main.html>
 - <https://people.well.com/user/jct/lists.html>
 - <https://people.well.com/user/jct/sagecon.htm>
 - <https://people.well.com/user/jct/sageug.htm>
+- <https://people.well.com/user/jct/sitparti.htm>
 - <https://people.well.com/user/jct/ugbio/ugbio2.htm>
 - <https://people.well.com/user/jct/ugbio/ugbio4.htm>
 - <https://people.well.com/user/jct/ugbio/ugbio6.htm>
@@ -537,9 +726,11 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - <https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-conversation-with-paul-collins-15031990>
 - <https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-discussion-with-douglas-white>
 - <https://sulochanosho.wordpress.com/2011/01/31/bohm-and-ug/>
+- <https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/>
 - <https://sulochanosho.wordpress.com/tag/ug-friends/>
 - <https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb>
 - <https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/>
+- <https://theheartofyoga.libsyn.com/what-is-the-heart-of-yoga>
 - <https://thenaturalstate.film/>
 - <https://ugarchive.blogspot.com/2021/08/mind-as-myth.html>
 - <https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html>
@@ -551,18 +742,24 @@ Registry of 64 persons connected to the record of U.G. Krishnamurti (1918–2007
 - <https://www.amazon.com/This-Dog-Barking-Strange-Krishnamurti-ebook/dp/B01NBV8FCZ>
 - <https://www.amazon.com/Thought-Your-Enemy-UG-Krishnamurti-ebook/dp/B005C6EBIO>
 - <https://www.amazon.com/U-G-Krishnamurti-Mind-Myth/dp/1559010150>
+- <https://www.amazon.com/dp/B07K1N9K3R>
 - <https://www.cuke.com/deathanddying/u-g-krsihnamurti.html>
 - <https://www.davidbohmsociety.org/david-bohm/audio-and-video/>
 - <https://www.duckcreekarts.org/louis-brawley>
 - <https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g>
+- <https://www.exoticindiaart.com/book/details/in-palm-springs-with-u-g-krishnamurti-nbz827/>
 - <https://www.goodreads.com/author/list/7064002.Ellen_Chrystal>
 - <https://www.goodreads.com/author/show/1667923.Mukunda_Rao>
 - <https://www.goodreads.com/book/show/11439516-goner>
+- <https://www.heartofyoga.com/blog/ug-krishnamurti>
+- <https://www.heartofyoga.com/podcast>
 - <https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf>
 - <https://www.inner-quest.org/UG_R.htm>
+- <https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F=>
 - <https://www.lulu.com/spotlight/Moorty>
 - <https://www.penguin.co.in/book/the-other-side-of-belief/>
 - <https://www.scribd.com/doc/315495905/Ug-Nadi-Readings>
+- <https://www.scribd.com/document/53063642/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-3>
 - <https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti>
 - <https://www.ugkrishnamurti.in/about-ug/key-events>
 - <https://www.youtube.com/watch?v=i-Y3J0WzU-Q>
