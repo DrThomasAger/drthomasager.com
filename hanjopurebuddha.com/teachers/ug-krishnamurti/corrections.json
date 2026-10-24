@@ -1,0 +1,204 @@
+{
+ "_comment": "Hand-applied corrections from the verification pass (catalogue/wave4-verification.md). Keyed by quote id; fields overwrite the merged record; 'note' is appended.",
+ "q42bd7292": {
+  "book": "No Way Out",
+  "note": "Verification: sources place this in No Way Out (ch. 4 or 7), not Mystique."
+ },
+ "qcd6ff1c7": {
+  "book": "No Way Out",
+  "chapter": "Ch. 4 You Invent Your Reality",
+  "note": "Verification: Wikisource No Way Out ch. 4; pronoun differs between copies."
+ },
+ "qa8d80bc5": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification: cited to Stopped in Our Tracks Book Two, not Mind is a Myth."
+ },
+ "qfd63f8c6": {
+  "note": "Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy."
+ },
+ "q7fad3985": {
+  "book": "The Courage to Stand Alone",
+  "note": "Verification: transcript hosts place it in Courage to Stand Alone."
+ },
+ "q1e9233a1": {
+  "book": "The Courage to Stand Alone",
+  "note": "Verification: transcript hosts place it in Courage to Stand Alone."
+ },
+ "q8891a8e5": {
+  "book": "No Way Out",
+  "note": "Verification: Wikiquote files it under No Way Out, not Courage to Stand Alone."
+ },
+ "q3bdfe3cb": {
+  "book": "No Way Out",
+  "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
+  "note": "Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks."
+ },
+ "q044d9da9": {
+  "book": "The Courage to Stand Alone",
+  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth."
+ },
+ "qd1a6079f": {
+  "book": "Stopped in Our Tracks",
+  "note": "Verification: kwize traces it to Chandrasekhar's recollection in Stopped in Our Tracks."
+ },
+ "q95f072f5": {
+  "book": "Mind is a Myth",
+  "note": "Verification: sourced form is 'constant utilization of thought…' in Mind is a Myth, not Thought is Your Enemy."
+ },
+ "q64ffef08": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
+  "note": "Verification: given as the Mind is a Myth ch. IV title."
+ },
+ "q41e40f21": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification: given as Mind is a Myth ch. I."
+ },
+ "q36edddbf": {
+  "book": "The Natural State",
+  "note": "Verification: Wikisource Mystique Pt. 4 lacks the parenthetical; the sentence as given is in The Natural State compilation."
+ },
+ "q7f620b02": {
+  "note": "Verification: reaches us via Mahesh Bhatt, A Taste of Death; Wikiquote warns Bhatt's own 'You are what you do…' is often wrongly merged in."
+ },
+ "q45036753": {
+  "note": "Verification: via Bhatt's biography on the WELL; Wikiquote lists it unsourced."
+ },
+ "qd74b2e4b": {
+  "book": "No Way Out",
+  "note": "Verification 2: Wikiquote, Goodreads and Libquotes all give No Way Out."
+ },
+ "q4e912343": {
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
+  "note": "Verification 2: Wikisource places it in Mystique Part Two."
+ },
+ "q4fd55d91": {
+  "book": "No Way Out",
+  "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
+  "note": "Verification 2: Wikisource No Way Out ch. 1."
+ },
+ "qc213105f": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line."
+ },
+ "q25e43852": {
+  "book": "The Mystique of Enlightenment",
+  "note": "Verification 2: host-supplied book."
+ },
+ "q21e36727": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
+  "note": "Verification 2: host-supplied book and chapter."
+ },
+ "qb4728a46": {
+  "book": "Mind is a Myth",
+  "note": "Verification 2: host-supplied book."
+ },
+ "q93823c44": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 2: host-supplied book."
+ },
+ "q6f67c3f2": {
+  "book": "My Swan Song",
+  "note": "Verification 2: host-supplied source."
+ },
+ "qa095f585": {
+  "book": "The Mystique of Enlightenment",
+  "note": "Verification 2: host-supplied book."
+ },
+ "qec037541": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 2: exact sentence not found; Wikisource No Way Out ch. 8 has the idea as 'all relationships are built on the foundation of What do I get out of this relationship?'."
+ },
+ "q190abbe4": {
+  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk."
+ },
+ "q870d1afa": {
+  "note": "Verification 2: Wikiquote sources the wording via Mahesh Bhatt's A Taste of Death."
+ },
+ "qf71956be": {
+  "note": "Verification 2: Chandrasekhar's narration quoting U.G. (Stopped in Our Tracks)."
+ },
+ "qdb3fcee7": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words."
+ },
+ "qdc4e8ecb": {
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
+  "note": "Verification 3: hosts place it in Mystique Part Two, not The Natural State."
+ },
+ "qfe0764c5": {
+  "kind": "verbatim",
+  "confidence": "S",
+  "note": "Verification 3: verbatim on hosts; Goodreads files it under No Way Out, catalogue under Mystique."
+ },
+ "q59326449": {
+  "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned."
+ },
+ "qeee2e8cf": {
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
+  "note": "Verification 3: the Moorty/Noronha 2002 compilation ch. 7."
+ },
+ "qc032db3b": {
+  "book": "Love (ed. Sunita Pant Bansal)",
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+ },
+ "q74cba27f": {
+  "book": "Love (ed. Sunita Pant Bansal)",
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+ },
+ "q46e8ac7b": {
+  "note": "Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced."
+ },
+ "q181d741b": {
+  "note": "Verification 3: no hit for the exact phrase; results swamped by Jiddu Krishnamurti pages, who has a published passage on an overlapping theme. Treat with care."
+ },
+ "q91eb04cf": {
+  "note": "Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently."
+ },
+ "q64ae758c": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 3: Wikisource, the WELL, Scribd and o-meditation all place this in Mind is a Myth ch. I, not My Swan Song."
+ },
+ "qbb1ee524": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
+  "note": "Verification 3: aggregators and the Mind is a Myth ch. IV text; Goodreads also files it under Courage to Stand Alone. One third-party host misattributes it to Jiddu Krishnamurti."
+ },
+ "qa52816a8": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 3: duplicates the 'You love fear' passage confirmed on Wikisource Mind is a Myth ch. I; one host frames it as Jiddu Krishnamurti."
+ },
+ "qb4eaccd2": {
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
+  "note": "Verification 3: hosts give ch. 7 rather than ch. 8."
+ },
+ "q5e5b2970": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy."
+ },
+ "qca29deea": {
+  "note": "Verification 3: exact wording not found; hosts give 'This thing called moksha, can you give it to me?' addressed to Ramana Maharshi in 1939."
+ },
+ "q5061960a": {
+  "note": "Verification 3: quotepark misfiles it under Jiddu Krishnamurti; the WELL and Wikiquote give U.G. (Stopped in Our Tracks Book Two)."
+ },
+ "qdc117690": {
+  "note": "Verification 3: not indexed on any host beyond the catalogue's Swan Song pages."
+ },
+ "qba6902b4": {
+  "note": "Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'."
+ }
+}

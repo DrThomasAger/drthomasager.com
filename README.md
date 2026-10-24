@@ -44,6 +44,13 @@ The personal writing home of Dr Thomas Ager. Markdown in, static site out.
   destined to become Ekadanta Documents. Front-matter is the carrying
   form until that integration.
 
+- **The guru browsing section lives in `hanjopurebuddha.com/`** — a
+  self-contained site (one teacher per folder under `teachers/`, U.G.
+  Krishnamurti first) that `build.py` also renders into `site/gurus/` with
+  a "Gurus" link in the header. Its own README and PLAN.md say how a
+  teacher is gathered, checked and added, and how to lift the folder out
+  into its own repository for the hanjopurebuddha.com domain.
+
 ## Use
 
 - Double-click `Build DrThomasAger.bat`, or run `python build.py`.

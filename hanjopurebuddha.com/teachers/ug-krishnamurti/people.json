@@ -1,0 +1,1787 @@
+[
+ {
+  "name": "T.G. Krishnamurti",
+  "also_known_as": [
+   "Tummalapalli Gopala Krishnamurti"
+  ],
+  "role": "family",
+  "relation": "UG's maternal grandfather, a wealthy Brahmin lawyer and prominent Theosophist who gave up his practice to raise UG after his mother's death.",
+  "dates": "?–February 1944",
+  "place": "Gudivada, Andhra Pradesh, India",
+  "material": "No material of his own survives online; he is the subject of UG's childhood recollections in Mahesh Bhatt's biography and in UG's own talks.",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+  "tags": [
+   "family",
+   "grandfather",
+   "theosophical-society",
+   "gudivada"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g"
+  ]
+ },
+ {
+  "name": "UG's grandmother (wife of T.G. Krishnamurti)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's maternal grandmother, who with her husband raised him in Gudivada; UG often recalled her ritual orthodoxy and the household's spiritual atmosphere.",
+  "dates": null,
+  "place": "Gudivada, Andhra Pradesh, India",
+  "material": "Recalled in UG's talks and in Bhatt's biography; no independent material.",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+  "tags": [
+   "family",
+   "grandmother",
+   "gudivada"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://people.well.com/user/jct/ugbio/ugbtitle.htm"
+  ]
+ },
+ {
+  "name": "Bharati (UG's mother)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's mother, who died seven days after his birth in Masulipatam (9 July 1918); she is said to have told her father that the child was born with the destiny of a great man.",
+  "dates": "?–July 1918",
+  "place": "Masulipatam (Machilipatnam), Andhra Pradesh, India",
+  "material": "Subject of the deathbed-prophecy anecdote repeated in all biographies.",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+  "tags": [
+   "family",
+   "mother",
+   "masulipatam"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g"
+  ]
+ },
+ {
+  "name": "UG's father (Uppaluri family)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's father, who remarried soon after his wife's death and left the boy to be raised by the maternal grandparents; UG barely knew him.",
+  "dates": null,
+  "place": "Andhra Pradesh, India",
+  "material": "Mentioned only in passing in biographies.",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+  "tags": [
+   "family",
+   "father"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g"
+  ]
+ },
+ {
+  "name": "Kusuma Kumari",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's wife, married 1943 in an arranged marriage; they had four children and separated in the US in the late 1950s; she died in 1963 after a period in a mental institution.",
+  "dates": "?–1963",
+  "place": "Madras / Bombay, India",
+  "material": "Subject of the chapter 'Kusuma—U.G.'s Wife' in Stopped in Our Tracks and of UG's own account of his married years (Bhatt biography ch. 4, 'Locking of Horns').",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+  "tags": [
+   "family",
+   "wife"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://ugarchive.blogspot.com/2021/09/the-anti-guru.html",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/kusumau.html"
+  ]
+ },
+ {
+  "name": "Bharati (UG's daughter)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's elder daughter, named after his mother; photographed with him in later life.",
+  "dates": null,
+  "place": "India",
+  "material": "Appears in family photographs on the WELL biography photo pages.",
+  "url": "https://people.well.com/user/jct/bphotos/ph5.htm",
+  "tags": [
+   "family",
+   "daughter"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/ph5.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm"
+  ]
+ },
+ {
+  "name": "Vasant (UG's son)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's elder son, who contracted polio as a child; UG took the family to the US (1955–59) for his treatment, which exhausted their savings. Vasant later died in India with UG at his bedside (c. 1980s).",
+  "dates": "c. 1946–c. 1980s",
+  "place": "India",
+  "material": "Photographed with UG (WELL photo 'ug_n_son'); his illness and death recounted in Bhatt's biography.",
+  "url": "http://www.well.com/~jct/bphotos/ug_n_son.htm",
+  "tags": [
+   "family",
+   "son",
+   "polio"
+  ],
+  "confidence": "T",
+  "sources": [
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://jhana8.com/ug-krishnamurti-biography/"
+  ]
+ },
+ {
+  "name": "Usha (UG's daughter)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's younger daughter, resident in Bangalore, who attends the annual 22 March gatherings for UG; her account of the family appears in Mahesh Bhatt's biography.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Interviewed in Bhatt's 'U.G. Krishnamurti: A Life'; photographed on the WELL biography pages.",
+  "url": "https://people.well.com/user/jct/bphotos/ph5.htm",
+  "tags": [
+   "family",
+   "daughter",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/ph5.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/"
+  ]
+ },
+ {
+  "name": "Kumar (UG's younger son)",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "UG's fourth child, born in Chicago in 1957 while UG worked there; taken back to India by his mother, he first met his father again at about 17; he settled with his family in Virginia, USA, where UG visited them. Named in UG's obituary with his family as survivors.",
+  "dates": "1957–",
+  "place": "Virginia, USA",
+  "material": "Subject of the chapter 'Kumar, U.G.'s Son' in Stopped in Our Tracks; WELL photo 'With his son and his family in Virginia'.",
+  "url": "http://u-g-krishnamurti.blogspot.com/2007/04/kumar-ugs-son.html",
+  "tags": [
+   "family",
+   "son",
+   "virginia",
+   "chicago"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/kumar-ugs-son.html",
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm",
+   "https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F="
+  ]
+ },
+ {
+  "name": "Swami Sivananda",
+  "also_known_as": [],
+  "role": "teacher-met",
+  "relation": "Rishikesh yogi with whom UG studied classical yoga and meditation for seven summers (c. 1932–39) as a teenager; UG lost faith after seeing him secretly eating pickles.",
+  "dates": "1887–1963",
+  "place": "Rishikesh, India",
+  "material": "UG's recollections of him appear in The Mystique of Enlightenment and the Bhatt biography.",
+  "url": "https://en.wikipedia.org/wiki/Sivananda_Saraswati",
+  "tags": [
+   "teacher-met",
+   "yoga",
+   "rishikesh"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "name": "Ramana Maharshi",
+  "also_known_as": [],
+  "role": "teacher-met",
+  "relation": "Sage of Tiruvannamalai whom UG visited in 1939; UG asked 'Can you give me what you have?' and the reply 'I can give it, but can you take it?' set him on his own search.",
+  "dates": "1879–1950",
+  "place": "Tiruvannamalai, India",
+  "material": "The 1939 exchange is quoted in every UG biography.",
+  "url": "https://en.wikipedia.org/wiki/Ramana_Maharshi",
+  "tags": [
+   "teacher-met",
+   "tiruvannamalai"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "name": "Annie Besant",
+  "also_known_as": [],
+  "role": "teacher-met",
+  "relation": "President of the Theosophical Society; UG's grandfather was a close associate, and UG grew up in the Society's Adyar milieu where he encountered her.",
+  "dates": "1847–1933",
+  "place": "Adyar, Madras, India",
+  "material": "Context for UG's Theosophical years (1930s–40s).",
+  "url": "https://en.wikipedia.org/wiki/Annie_Besant",
+  "tags": [
+   "teacher-met",
+   "theosophical-society",
+   "adyar"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "name": "C.W. Leadbeater",
+  "also_known_as": [],
+  "role": "teacher-met",
+  "relation": "Theosophical clairvoyant whom UG, as a boy, watched 'test' with questions at Adyar and came to regard as a fraud; a formative disillusionment.",
+  "dates": "1854–1934",
+  "place": "Adyar, Madras, India",
+  "material": "Recounted in UG's talks (Mystique of Enlightenment) and Bhatt's biography.",
+  "url": "https://en.wikipedia.org/wiki/Charles_Webster_Leadbeater",
+  "tags": [
+   "teacher-met",
+   "theosophical-society",
+   "adyar"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "name": "Jiddu Krishnamurti",
+  "also_known_as": [],
+  "role": "teacher-met",
+  "relation": "The famous Theosophical 'World Teacher' whom UG heard at Adyar from 1947 and met privately over seven years, breaking with him in 1953; UG later encountered him once more in Saanen (1960s). Included here only as a relation to UG.",
+  "dates": "1895–1986",
+  "place": "Madras / Ojai / Saanen",
+  "material": "UG's account of the break ('you have nothing to give me') appears in all his books; a 1967 Saanen encounter preceded UG's 'calamity'.",
+  "url": "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+  "tags": [
+   "teacher-met",
+   "theosophical-society",
+   "saanen"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm"
+  ]
+ },
+ {
+  "name": "D. Rajagopal",
+  "also_known_as": [
+   "Desikacharya Rajagopal"
+  ],
+  "role": "teacher-met",
+  "relation": "Jiddu Krishnamurti's business manager (KWINC), who in UG's account mediated and finally blocked UG's attempts to see J.K. in the early 1950s; UG also later met him in Ojai.",
+  "dates": "1900–1993",
+  "place": "Ojai, California, USA",
+  "material": "Mentioned in UG's recollections of the J. Krishnamurti years.",
+  "url": "https://en.wikipedia.org/wiki/Rosalind_Rajagopal",
+  "tags": [
+   "teacher-met",
+   "theosophical-society",
+   "ojai"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikipedia.org/wiki/Rosalind_Rajagopal"
+  ]
+ },
+ {
+  "name": "Valentine de Kerven",
+  "also_known_as": [],
+  "role": "companion",
+  "relation": "Swiss retired consulate employee who met UG in Geneva after Christmas 1963 (she was 63), gave him shelter and a chalet in Saanen, funded him, and travelled with him for 27 years until her death in Bangalore.",
+  "dates": "c. 1901–20 January 1991",
+  "place": "Saanen, Switzerland / Bangalore, India",
+  "material": "Present at the 1968 Bohm conversation; subject of the 'Valentine de Kerven' chapter in Stopped in Our Tracks; many photographs on the WELL site.",
+  "url": "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
+  "tags": [
+   "companion",
+   "switzerland",
+   "saanen",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://zoboko.com/text/ql2o2p8n/the-end-of-all-beginnings-encounters-with-a-natural-man/3",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "name": "K. Chandrasekhar",
+  "also_known_as": [],
+  "role": "host",
+  "relation": "Bangalore engineer whose modest house 'Poornakutee' (Basavanagudi) was UG's Indian base for over four decades; his notebooks became 'Stopped in Our Tracks: Stories of U.G. in India' (co-written with Narayana Moorty, Smriti 2005).",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Diaries/notebooks; co-author of Stopped in Our Tracks; hosts the annual 22 March gathering at 'Hridaya Vihar'.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "host",
+   "bangalore",
+   "poornakutee",
+   "author"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb",
+   "https://sulochanosho.wordpress.com/tag/ug-friends/"
+  ]
+ },
+ {
+  "name": "Suguna Chandrasekhar",
+  "also_known_as": [],
+  "role": "host",
+  "relation": "Wife of K. Chandrasekhar; cooked for and hosted UG at Poornakutee, Bangalore, for decades and continued hosting friends' memorial gatherings after 2007.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Features throughout Stopped in Our Tracks and The Sage and the Housewife.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "host",
+   "bangalore",
+   "poornakutee"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb"
+  ]
+ },
+ {
+  "name": "Brahmachari Sivarama Sarma",
+  "also_known_as": [
+   "Brahmachari"
+  ],
+  "role": "friend",
+  "relation": "Bangalore Sanskrit scholar and lifelong celibate who left a mutt succession dispute and was sheltered by UG; a central character in Stopped in Our Tracks.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Chapters about him in Stopped in Our Tracks; blog memoir 'A home called Parvathi'.",
+  "url": "http://chowdaiahandparvati.blogspot.com/2009/11/brahmachari-and-person-called-ug.html",
+  "tags": [
+   "friend",
+   "bangalore",
+   "sanskrit"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://chowdaiahandparvati.blogspot.com/2009/11/brahmachari-and-person-called-ug.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "http://ug-krishnamurti.blogspot.com/2010/09/ugan-enigma-brahmachari-sivarama-sarma.html"
+  ]
+ },
+ {
+  "name": "Krishna Bhagavatar",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bangalore musician/devotee who asked UG for 'if not moksha, at least a transistor'; subject of a chapter in Stopped in Our Tracks.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Anecdote preserved in Stopped in Our Tracks.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "friend",
+   "bangalore"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Nagaraj",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bangalore friend who appears in Stopped in Our Tracks asking UG what he is trying to convey.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Dialogue preserved in Stopped in Our Tracks.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "friend",
+   "bangalore"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "NIMHANS doctors: Dr R. Marthanda Varma, Dr T. Desiraju, Dr R.L. Kapur",
+  "also_known_as": [
+   "Dr Varma",
+   "Dr Desiraju",
+   "Dr Kapoor"
+  ],
+  "role": "scholar",
+  "relation": "Senior NIMHANS (Bangalore) neuroscientists – founder-director Varma, neurophysiologist Desiraju (1935–1992) and former director Kapur – who with six colleagues questioned UG for 2.5 hours about his physiological 'natural state'.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Visit recorded in Stopped in Our Tracks; no published study.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "scholar",
+   "nimhans",
+   "bangalore",
+   "neuroscience"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://en.wikipedia.org/wiki/Turaga_Desiraju",
+   "https://en.wikipedia.org/wiki/R._Marthanda_Varma"
+  ]
+ },
+ {
+  "name": "Mahesh Bhatt",
+  "also_known_as": [],
+  "role": "biographer",
+  "relation": "Bombay film director who met UG in 1979 (introduced via Parveen Babi), became a close friend for 28 years, wrote 'U.G. Krishnamurti: A Life' (Viking 1992; 2001 ed. adds 'A Taste of Death'), was present at UG's death and is executive producer of 'The Natural State' (2026).",
+  "dates": "1948–",
+  "place": "Mumbai, India",
+  "material": "Biography; filmed conversations (archive.org 'U.G. in Conversation with Mahesh Bhatt'); foreword to Mukunda Rao's book.",
+  "url": "https://people.well.com/user/jct/ugbio/ugbtitle.htm",
+  "tags": [
+   "biographer",
+   "filmmaker",
+   "mumbai",
+   "friend"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbtitle.htm",
+   "https://books.google.com/books/about/U_G_Krishnamurti_a_Life.html?id=p_bWAAAAMAAJ",
+   "https://archive.org/details/ug_ug_w_mb",
+   "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti"
+  ]
+ },
+ {
+  "name": "Parveen Babi",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bollywood actress whom Mahesh Bhatt took to UG in Bangalore (c. 1979–80) during her mental breakdown; UG looked after her for a period, which is how Bhatt came to know him.",
+  "dates": "1954–2005",
+  "place": "Mumbai, India",
+  "material": "Episode recounted in Bhatt's biography and in Karishma Upadhyay's 'Parveen Babi: A Life' (2020).",
+  "url": "https://en.wikipedia.org/wiki/Parveen_Babi",
+  "tags": [
+   "friend",
+   "mumbai",
+   "bollywood"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Parveen_Babi",
+   "https://wikibio.in/parveen-babi/",
+   "https://wokitabein.wordpress.com/2020/11/13/parveen-babi-a-life-karishma-upadhyay/"
+  ]
+ },
+ {
+  "name": "Julie Thayer",
+  "also_known_as": [],
+  "role": "recordist",
+  "relation": "New Yorker (Upper West Side) who upended her life in 1989 to travel with UG until his death, keeping a journal and shooting hundreds of hours of camcorder video; her footage forms the basis of 'The Natural State' (2026).",
+  "dates": null,
+  "place": "New York, USA",
+  "material": "Video archive 1989–2007; book/journal 'Travels with UG' and 'Get Lost and Stay Lost / UG Krishnamurti Cookbook'; travelswithug.com.",
+  "url": "http://www.travelswithug.com/",
+  "tags": [
+   "recordist",
+   "videographer",
+   "new-york",
+   "journal"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://www.travelswithug.com/",
+   "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/",
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+   "https://dokumen.pub/get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html"
+  ]
+ },
+ {
+  "name": "Louis Brawley",
+  "also_known_as": [],
+  "role": "companion",
+  "relation": "New York artist/photographer who met UG in 2002 and travelled with him for five years as informal caregiver; author of 'Goner: The Final Travels of UG Krishnamurti' (Non-Duality Press 2011).",
+  "dates": null,
+  "place": "New York, USA",
+  "material": "Memoir 'Goner'; photographs; filmed talks with Willem de Ridder about UG; BatGap interview #177.",
+  "url": "https://www.goodreads.com/book/show/11439516-goner",
+  "tags": [
+   "companion",
+   "author",
+   "photographer",
+   "new-york"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.goodreads.com/book/show/11439516-goner",
+   "https://batgap.com/louis-brawley/",
+   "https://www.youtube.com/watch?v=nBrWeJTxosM",
+   "https://www.duckcreekarts.org/louis-brawley"
+  ]
+ },
+ {
+  "name": "Terry Newland",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Mill Valley, California friend (earlier Terry Agnew) in whose studio apartment UG stayed on US visits; edited 'Mind is a Myth' (Dinesh 1988; Sentient 2007) despite UG's objections.",
+  "dates": "?–c. 1990",
+  "place": "Mill Valley, California, USA",
+  "material": "Editor of Mind is a Myth; appears in Narayana Moorty's and others' memoirs.",
+  "url": "https://en.wikisource.org/wiki/Mind_is_a_Myth",
+  "tags": [
+   "editor",
+   "mill-valley",
+   "california"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth",
+   "https://people.well.com/user/jct/ugbio/ugbio6.htm",
+   "https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Rodney Arms",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Editor of the first UG book, 'The Mystique of Enlightenment' (Dinesh Vaghela/Cemetile, Goa 1982) and later co-editor of 'The Biology of Enlightenment' (HarperCollins India).",
+  "dates": null,
+  "place": null,
+  "material": "Editor of Mystique of Enlightenment and Biology of Enlightenment.",
+  "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp21397",
+  "tags": [
+   "editor",
+   "mystique-of-enlightenment"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp21397",
+   "https://philpapers.org/rec/KRITBO-2",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "J.S.R.L. Narayana Moorty",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Telugu-born philosophy professor (Monterey Peninsula College 1974–2000), friend of UG from the 1970s; co-edited 'Thought is Your Enemy' and 'No Way Out' with Frank Noronha, co-wrote 'Stopped in Our Tracks', wrote the introduction to 'The Sage and the Housewife', and maintains the WELL UG archive.",
+  "dates": "1934–",
+  "place": "Seaside, California, USA",
+  "material": "Editor/translator; curator of people.well.com/user/jct (streaming video, books, bibliography); blog memoirs of travels with UG.",
+  "url": "https://narayanamoorty.net/",
+  "tags": [
+   "editor",
+   "archivist",
+   "scholar",
+   "california",
+   "telugu"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://narayanamoorty.net/",
+   "https://www.lulu.com/spotlight/Moorty",
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Wendy Moorty",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Wife of Narayana Moorty, Seaside, California; credited for editorial assistance on 'Stopped in Our Tracks' and present at many UG gatherings in California.",
+  "dates": null,
+  "place": "Seaside, California, USA",
+  "material": "Editorial assistance on Stopped in Our Tracks.",
+  "url": "https://www.lulu.com/spotlight/Moorty",
+  "tags": [
+   "editor",
+   "california"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.lulu.com/spotlight/Moorty",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Larry Morris",
+  "also_known_as": [
+   "Dr Larry Morris"
+  ],
+  "role": "friend",
+  "relation": "Albuquerque minister (Hillside Community Church) and poet with a 21-year friendship with UG; author of 'U.G. Krishnamurti: Dangerous Friend', 'The Natural Man: Poems on U.G.', 'Living Treasure' and 'A Journey of Healing'; present at UG's death in Vallecrosia.",
+  "dates": "1939–2015",
+  "place": "Albuquerque, New Mexico, USA",
+  "material": "Books and poems on UG; eyewitness to UG's last days.",
+  "url": "https://books.google.com/books/about/U_G_Krishnamurti_Dangerous_Friend.html?id=t2yLrgEACAAJ",
+  "tags": [
+   "friend",
+   "author",
+   "poet",
+   "albuquerque"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://books.google.com/books/about/U_G_Krishnamurti_Dangerous_Friend.html?id=t2yLrgEACAAJ",
+   "https://hillsidesource.com/churchhistory",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "name": "Susan Morris",
+  "also_known_as": [
+   "Dr Susan Nettleton"
+  ],
+  "role": "friend",
+  "relation": "Physician turned associate minister at Hillside Church, Albuquerque, partner of Larry Morris; travelled with UG and was present at his death in Vallecrosia in 2007.",
+  "dates": null,
+  "place": "Albuquerque, New Mexico, USA",
+  "material": "Eyewitness to UG's last days; Hillside Church UG materials.",
+  "url": "https://hillsidesource.com/churchhistory",
+  "tags": [
+   "friend",
+   "albuquerque"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://hillsidesource.com/churchhistory",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "name": "Anthony Paul Frank Noronha",
+  "also_known_as": [
+   "Frank Noronha"
+  ],
+  "role": "editor",
+  "relation": "Bangalore friend and co-editor (with Narayana Moorty) of 'Thought is Your Enemy' (1990) and 'No Way Out' (1991); his family firm Sowmya Publishers issued UG titles. Quoted in UG's 2007 obituaries on the absence of funeral rites.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Co-editor of two UG dialogue books; publisher.",
+  "url": "https://people.well.com/user/jct/lists.html",
+  "tags": [
+   "editor",
+   "publisher",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/lists.html",
+   "https://www.amazon.com/Thought-Your-Enemy-UG-Krishnamurti-ebook/dp/B005C6EBIO",
+   "https://people.well.com/user/jct/Final_Remembering.htm"
+  ]
+ },
+ {
+  "name": "Sowmya Noronha",
+  "also_known_as": [],
+  "role": "publisher",
+  "relation": "Member of the Noronha family after whom Sowmya Publishers, Bangalore (publisher of 'The Sage and the Housewife', 1990, and other UG books) is named.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Sowmya Publishers imprint.",
+  "url": "https://catalogue.nla.gov.au/catalog/3264341",
+  "tags": [
+   "publisher",
+   "bangalore"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://catalogue.nla.gov.au/catalog/3264341",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Ellen Chrystal",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Transcribed and edited 'The Courage to Stand Alone' (Plover Press 1997; Non-Duality Press reissue) from Henk Schonewille's audio recordings.",
+  "dates": null,
+  "place": null,
+  "material": "Editor of Courage to Stand Alone.",
+  "url": "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+  "tags": [
+   "editor",
+   "courage-to-stand-alone"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/lists.html",
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://www.goodreads.com/author/list/7064002.Ellen_Chrystal"
+  ]
+ },
+ {
+  "name": "Henk Schonewille",
+  "also_known_as": [],
+  "role": "recordist",
+  "relation": "Dutch friend who made the audio recordings of UG in Amsterdam that became 'The Courage to Stand Alone'; wrote the foreword to the Non-Duality Press edition.",
+  "dates": null,
+  "place": "Amsterdam, Netherlands",
+  "material": "Audio recordings (Amsterdam, 1990s); foreword.",
+  "url": "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+  "tags": [
+   "recordist",
+   "amsterdam",
+   "audio"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/lists.html",
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone"
+  ]
+ },
+ {
+  "name": "Peter Maverick",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Compiled and edited 'The Natural State: In the Words of U.G. Krishnamurti' (Smriti 2005) and put the full text of 'Courage to Stand Alone' online at thenaturalman.blogspot.com.",
+  "dates": null,
+  "place": null,
+  "material": "Anthology; online texts.",
+  "url": "https://thenaturalman.blogspot.com/",
+  "tags": [
+   "editor",
+   "online-texts"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Mukunda Rao",
+  "also_known_as": [],
+  "role": "biographer",
+  "relation": "Bangalore novelist and long-term friend; author of 'The Other Side of Belief: Interpreting U.G. Krishnamurti' (Penguin 2005, foreword Mahesh Bhatt), 'The Penguin U.G. Krishnamurti Reader' (2007) and 'The Biology of Enlightenment' (ed., HarperCollins 2011).",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Biography, reader anthology, edited transcripts.",
+  "url": "https://www.penguin.co.in/book/the-other-side-of-belief/",
+  "tags": [
+   "biographer",
+   "editor",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.penguin.co.in/book/the-other-side-of-belief/",
+   "https://www.goodreads.com/author/show/1667923.Mukunda_Rao"
+  ]
+ },
+ {
+  "name": "Shanta Kelker",
+  "also_known_as": [
+   "Shanta Kelkar"
+  ],
+  "role": "friend",
+  "relation": "Bombay-born (1948) Bangalore housewife who met UG in 1980 and kept diaries of her conversations with him, published as 'The Sage and the Housewife' (Sowmya 1990; Smriti 2005).",
+  "dates": "1948–",
+  "place": "Bangalore, India",
+  "material": "Diary-based memoir with introduction by Narayana Moorty.",
+  "url": "https://en.wikisource.org/wiki/The_Sage_and_the_Housewife",
+  "tags": [
+   "friend",
+   "author",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Sage_and_the_Housewife",
+   "https://catalogue.nla.gov.au/catalog/3264341",
+   "https://people.well.com/user/jct/sagecon.htm"
+  ]
+ },
+ {
+  "name": "Dinesh Vaghela",
+  "also_known_as": [],
+  "role": "publisher",
+  "relation": "Goa-based publisher (Cemetile Corporation, P.O. Betim-Volant) who issued the first editions of 'The Mystique of Enlightenment' (1982, 5000 copies) and 'Mind is a Myth' (1988). Still attends the annual 22 March UG gathering in Bangalore (2018).",
+  "dates": null,
+  "place": "Goa, India",
+  "material": "First publisher of UG's books.",
+  "url": "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf",
+  "tags": [
+   "publisher",
+   "goa"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf",
+   "https://people.well.com/user/jct/sageug.htm",
+   "https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/"
+  ]
+ },
+ {
+  "name": "Jeff Kaplan",
+  "also_known_as": [],
+  "role": "archivist",
+  "relation": "Internet Archive staff member listed as creator of the 'U.G. Krishnamurti conversations and interviews – audio' (80 items) and companion video collections on archive.org.",
+  "dates": null,
+  "place": "San Francisco, USA",
+  "material": "archive.org collections ugkrishnamurti-audio / -video.",
+  "url": "https://archive.org/details/ugkrishnamurti-audio",
+  "tags": [
+   "archivist",
+   "archive.org",
+   "audio",
+   "video"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ugkrishnamurti-audio?sort=-reviewdate"
+  ]
+ },
+ {
+  "name": "Dr Raj Mehta",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bombay friend present at the 1995 Nadi astrological reading of UG's horoscope (with K.C. Joshi and Dhiren & Minal Morarji); associated with the 'Essential UG' web material.",
+  "dates": null,
+  "place": "Mumbai, India",
+  "material": "Transcript of 1995 Nadi reading; Essential UG materials.",
+  "url": "https://www.scribd.com/doc/315495905/Ug-Nadi-Readings",
+  "tags": [
+   "friend",
+   "mumbai"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.scribd.com/doc/315495905/Ug-Nadi-Readings"
+  ]
+ },
+ {
+  "name": "Sunita Pant Bansal",
+  "also_known_as": [],
+  "role": "publisher",
+  "relation": "New Delhi publisher (Smriti Books / SPB Enterprises) and curator who reissued the UG canon 2003–2007 as co-editor; author of 'The Ashes Are Warm: Memories of a Lifetime Spent with UG Krishnamurti' (Rupa 2026).",
+  "dates": null,
+  "place": "New Delhi, India",
+  "material": "Smriti Books editions; memoir.",
+  "url": "https://rupapublications.co.in/book/the-ashes-are-warm-memories-of-a-lifetime-spent-with-ug-krishnamurti",
+  "tags": [
+   "publisher",
+   "editor",
+   "new-delhi",
+   "memoir"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://rupapublications.co.in/book/the-ashes-are-warm-memories-of-a-lifetime-spent-with-ug-krishnamurti",
+   "https://philpapers.org/rec/KRIMIA-3",
+   "https://openlibrary.org/publishers/Smriti_Books"
+  ]
+ },
+ {
+  "name": "Matthew Dougherty",
+  "also_known_as": [
+   "Matt Dougherty"
+  ],
+  "role": "filmmaker",
+  "relation": "Director of 'The Natural State' (2026, 99–100 min), built from Julie Thayer's 1989–2007 camcorder archive and journals; premiered Telluride, September 2026.",
+  "dates": null,
+  "place": null,
+  "material": "Documentary film.",
+  "url": "https://thenaturalstate.film/",
+  "tags": [
+   "filmmaker",
+   "documentary",
+   "2026"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://thenaturalstate.film/",
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+   "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/"
+  ]
+ },
+ {
+  "name": "Jane Campion",
+  "also_known_as": [],
+  "role": "filmmaker",
+  "relation": "New Zealand director, executive producer of 'The Natural State' (2026) alongside Mahesh Bhatt.",
+  "dates": "1954–",
+  "place": "New Zealand",
+  "material": "Executive producer credit.",
+  "url": "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+  "tags": [
+   "filmmaker",
+   "producer",
+   "2026"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/"
+  ]
+ },
+ {
+  "name": "Willem de Ridder",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Dutch Fluxus artist and radio host who interviewed UG several times in Amsterdam (with Byron Katie, 1998; solo 18 Jan 2002; 'Thought is Destructive'); later recorded talks with Louis Brawley about UG.",
+  "dates": "1939–2022",
+  "place": "Amsterdam, Netherlands",
+  "material": "Audio/video interviews on archive.org, SoundCloud, YouTube.",
+  "url": "https://archive.org/details/ug_ug_deridder_katie",
+  "tags": [
+   "interviewer",
+   "amsterdam",
+   "radio"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_deridder_katie",
+   "https://archive.org/details/ug_2002-01-18_interview_willem_de_ridder",
+   "https://www.youtube.com/watch?v=nBrWeJTxosM"
+  ]
+ },
+ {
+  "name": "Byron Katie",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "American teacher ('The Work') who co-interviewed UG with Willem de Ridder in Amsterdam, 1998.",
+  "dates": "1942–",
+  "place": "USA",
+  "material": "Audio/video interview.",
+  "url": "https://archive.org/details/ug_ug_deridder_katie",
+  "tags": [
+   "interviewer",
+   "amsterdam"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_deridder_katie",
+   "https://archive.org/details/ug_ug_deridder"
+  ]
+ },
+ {
+  "name": "Luc Sala",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Dutch media entrepreneur who interviewed UG in his Amsterdam studio in 2000 for Kleurnet TV.",
+  "dates": null,
+  "place": "Amsterdam, Netherlands",
+  "material": "Full video interview (YouTube).",
+  "url": "https://www.youtube.com/watch?v=tC1GULbovo8",
+  "tags": [
+   "interviewer",
+   "amsterdam",
+   "television"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=tC1GULbovo8"
+  ]
+ },
+ {
+  "name": "Rajiv Mehrotra",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Host of Doordarshan's 'In Conversation'; interviewed UG for Indian television in February 1989 (c. 30 min).",
+  "dates": null,
+  "place": "New Delhi, India",
+  "material": "TV interview (YouTube, archive.org).",
+  "url": "https://www.youtube.com/watch?v=i-Y3J0WzU-Q",
+  "tags": [
+   "interviewer",
+   "television",
+   "doordarshan"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=i-Y3J0WzU-Q",
+   "https://archive.org/details/ug_ug_w_sk_150",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Shashi Kumar",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Indian television journalist whose conversation with UG survives as an archive.org audio item.",
+  "dates": null,
+  "place": "India",
+  "material": "TV interview audio.",
+  "url": "https://archive.org/details/ug_ug_tv_int",
+  "tags": [
+   "interviewer",
+   "television"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://archive.org/details/ug_ug_tv_int"
+  ]
+ },
+ {
+  "name": "Jeffrey Mishlove",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Host of PBS 'Thinking Allowed'; recorded two UG programmes, 'The Mystique of Enlightenment' (October 1988) and 'Mind as a Myth' (1992), with transcript at intuitionnetwork.org.",
+  "dates": null,
+  "place": "California, USA",
+  "material": "Two TV interviews, DVD, transcript.",
+  "url": "http://www.intuitionnetwork.org/txt/krishna.htm",
+  "tags": [
+   "interviewer",
+   "television",
+   "pbs"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://www.intuitionnetwork.org/txt/krishna.htm",
+   "https://www.amazon.com/U-G-Krishnamurti-Mind-Myth/dp/1559010150",
+   "https://newthinkingallowed.org/listings",
+   "https://people.well.com/user/jct/lists.html"
+  ]
+ },
+ {
+  "name": "Iain McNay",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Founder of Conscious TV (UK); an interview with UG is listed in the UG archives.",
+  "dates": null,
+  "place": "London, UK",
+  "material": "Interview recording.",
+  "url": "https://ugarchive.blogspot.com/2021/08/mind-as-myth.html",
+  "tags": [
+   "interviewer",
+   "television",
+   "uk"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://ugarchive.blogspot.com/2021/08/mind-as-myth.html"
+  ]
+ },
+ {
+  "name": "Bryce Bond",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Host of the US cable programme 'Dimensions in Parapsychology'; his conversation with UG is on archive.org.",
+  "dates": null,
+  "place": null,
+  "material": "TV interview video.",
+  "url": "https://archive.org/details/ug_ug_parapsy_150",
+  "tags": [
+   "interviewer",
+   "television"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_parapsy_150"
+  ]
+ },
+ {
+  "name": "Donald Ingram Smith",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Australian ABC radio broadcaster who interviewed UG in Sydney on 7 and 16 March 1990 and for ABC in September 1990.",
+  "dates": null,
+  "place": "Sydney, Australia",
+  "material": "Radio interviews (archive.org, SoundCloud).",
+  "url": "https://archive.org/details/ug_1990-03-07_interview_by_donald_ingram_smith",
+  "tags": [
+   "interviewer",
+   "radio",
+   "australia"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_1990-03-07_interview_by_donald_ingram_smith",
+   "https://archive.org/details/ug_06_donamld_ingram_smith_interview_for_abc_sept1990"
+  ]
+ },
+ {
+  "name": "Paul Collins",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Australian broadcaster in conversation with UG in Sydney, 15 March 1990.",
+  "dates": null,
+  "place": "Sydney, Australia",
+  "material": "Audio recording.",
+  "url": "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-conversation-with-paul-collins-15031990",
+  "tags": [
+   "interviewer",
+   "radio",
+   "australia"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-conversation-with-paul-collins-15031990"
+  ]
+ },
+ {
+  "name": "Barbara Schuler",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Presenter at KAZU Radio (Pacific Grove, California) who interviewed UG in May 1989.",
+  "dates": null,
+  "place": "Pacific Grove, California, USA",
+  "material": "Radio interview audio.",
+  "url": "https://archive.org/details/ug_barbara_schuler_kazu_198905",
+  "tags": [
+   "interviewer",
+   "radio",
+   "california"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_barbara_schuler_kazu_198905"
+  ]
+ },
+ {
+  "name": "David Bohm",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "Quantum physicist who conversed with UG in Saanen on 17 August 1968 (with Saral Bohm, David Barry and Valentine de Kerven present); Bohm's part was adapted as a chapter in 'A Question of Physics'.",
+  "dates": "1917–1992",
+  "place": "Saanen, Switzerland",
+  "material": "Recorded 1968 conversation (archive.org, YouTube).",
+  "url": "https://archive.org/details/ug_ug_bohm",
+  "tags": [
+   "scholar",
+   "physicist",
+   "saanen",
+   "1968"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_bohm",
+   "https://sulochanosho.wordpress.com/2011/01/31/bohm-and-ug/",
+   "https://www.davidbohmsociety.org/david-bohm/audio-and-video/"
+  ]
+ },
+ {
+  "name": "S.C. Birla",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Indian industrialist of the Birla family who held recorded discussions with UG in Gstaad, Switzerland, in 1989.",
+  "dates": null,
+  "place": "Gstaad, Switzerland / India",
+  "material": "Two-part audio 'U.G. with S.C. Birla' on archive.org.",
+  "url": "https://archive.org/details/ug_birla_01",
+  "tags": [
+   "friend",
+   "gstaad",
+   "audio"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_birla_01"
+  ]
+ },
+ {
+  "name": "Douglas White",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Participant in a recorded discussion with UG preserved as audio (SoundCloud / fan archives).",
+  "dates": null,
+  "place": null,
+  "material": "Audio discussion.",
+  "url": "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-discussion-with-douglas-white",
+  "tags": [
+   "interviewer",
+   "audio"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-discussion-with-douglas-white"
+  ]
+ },
+ {
+  "name": "Susan Dean",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Interviewer whose recording with UG is listed among 'Essential Audios' on ugkrishnamurti.in.",
+  "dates": null,
+  "place": null,
+  "material": "Audio interview.",
+  "url": "https://ugkrishnamurti.in/ug-speaks/audios",
+  "tags": [
+   "interviewer",
+   "audio"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://ugkrishnamurti.in/ug-speaks/audios",
+   "http://remembering-ug.blogspot.com/2012/01/talks-march-05th-2012.html"
+  ]
+ },
+ {
+  "name": "Nicolas C. Grey",
+  "also_known_as": [],
+  "role": "biographer",
+  "relation": "British artist who drew the graphic biography 'This Dog Barking: The Strange Story of U.G. Krishnamurti' (2017).",
+  "dates": null,
+  "place": null,
+  "material": "Graphic novel.",
+  "url": "https://philpapers.org/rec/GRETDB-3",
+  "tags": [
+   "biographer",
+   "graphic-novel",
+   "artist"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://philpapers.org/rec/GRETDB-3",
+   "https://scroll.in/article/833558/ug-in-a-comic-book-the-strange-life-of-the-other-krishnamurti-who-broke-away-from-jiddu"
+  ]
+ },
+ {
+  "name": "James Farley",
+  "also_known_as": [],
+  "role": "biographer",
+  "relation": "Writer/editor of 'This Dog Barking: The Strange Story of U.G. Krishnamurti' (2017) with Nicolas C. Grey.",
+  "dates": null,
+  "place": null,
+  "material": "Graphic novel text.",
+  "url": "https://www.amazon.com/This-Dog-Barking-Strange-Krishnamurti-ebook/dp/B01NBV8FCZ",
+  "tags": [
+   "biographer",
+   "graphic-novel"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.com/This-Dog-Barking-Strange-Krishnamurti-ebook/dp/B01NBV8FCZ",
+   "https://deathofapornographer.uk/this-dog-barking"
+  ]
+ },
+ {
+  "name": "Uma Balaji",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bangalore writer whose memoir 'My Journey With UG Krishnamurti' (guest article) describes meeting UG at Poornakutee and the Chandrasekhars.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Memoir essay.",
+  "url": "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb",
+  "tags": [
+   "friend",
+   "bangalore",
+   "memoir"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb"
+  ]
+ },
+ {
+  "name": "Lucia, Anita and Giovanni (Vallecrosia hosts)",
+  "also_known_as": [],
+  "role": "host",
+  "relation": "Italian friends who built an apartment for UG in their villa at Vallecrosia (Liguria), where he spent his last weeks and died on 22 March 2007.",
+  "dates": null,
+  "place": "Vallecrosia, Italy",
+  "material": "Hosts of UG's final residence; eyewitnesses.",
+  "url": "https://www.inner-quest.org/UG_R.htm",
+  "tags": [
+   "host",
+   "italy",
+   "vallecrosia",
+   "death"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.inner-quest.org/UG_R.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
+   "https://people.well.com/user/jct/Final_Remembering.htm"
+  ]
+ },
+ {
+  "name": "Mark Whitwell",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "New Zealand-born yoga teacher (student of Krishnamacharya and Desikachar) who first met UG in Bangalore in 1973 and was a friend until 2007, mostly in Australia and Switzerland; founder of Heart of Yoga, which cites UG as a root influence.",
+  "dates": null,
+  "place": "Australia / USA",
+  "material": "Interviews and essays on UG (Medium, heartofyoga.com); podcast; recollection of Ram Dass's meeting with UG.",
+  "url": "https://www.heartofyoga.com/blog/ug-krishnamurti",
+  "tags": [
+   "friend",
+   "yoga",
+   "heart-of-yoga"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.heartofyoga.com/blog/ug-krishnamurti",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+   "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d",
+   "https://people.well.com/user/jct/Final_Remembering.htm"
+  ]
+ },
+ {
+  "name": "Rosalind Atkinson",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Heart of Yoga co-author and podcast host who travelled with Mark Whitwell and conducted the two-part 'Understanding U.G. Krishnamurti' interviews with him.",
+  "dates": null,
+  "place": null,
+  "material": "Interviews/essays on UG via Heart of Yoga.",
+  "url": "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+  "tags": [
+   "interviewer",
+   "heart-of-yoga",
+   "podcast"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+   "https://theheartofyoga.libsyn.com/what-is-the-heart-of-yoga",
+   "https://www.heartofyoga.com/podcast"
+  ]
+ },
+ {
+  "name": "Arun Babani",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Mumbai journalist and Sindhi poet who compiled 'UG Says: Everyday Thoughts by UG Krishnamurti' (HarperCollins India 2018; foreword Mahesh Bhatt, introduction Mukunda Rao).",
+  "dates": null,
+  "place": "Mumbai, India",
+  "material": "Quotation anthology.",
+  "url": "https://books.google.com/books/about/UG_Says_Everyday_Thoughts_by_UG_Krishnam.html?id=D6h1DwAAQBAJ",
+  "tags": [
+   "editor",
+   "anthology",
+   "mumbai"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://books.google.com/books/about/UG_Says_Everyday_Thoughts_by_UG_Krishnam.html?id=D6h1DwAAQBAJ",
+   "https://www.amazon.com/dp/B07K1N9K3R"
+  ]
+ },
+ {
+  "name": "Sripada Gopalakrishnamurti",
+  "also_known_as": [
+   "Sripada"
+  ],
+  "role": "friend",
+  "relation": "Hyderabad friend (circle of B.L. Narayan and Prasada Rao at the Oasis School) who debated death and the afterlife with UG, wrote a book on Sri Jillellamudi Amma, and pressed Chandrasekhar to write UG's biography; died before seeing it.",
+  "dates": null,
+  "place": "Hyderabad, India",
+  "material": "Figures in Stopped in Our Tracks (Hyderabad chapters).",
+  "url": "https://people.well.com/user/jct/sitparti.htm",
+  "tags": [
+   "friend",
+   "hyderabad",
+   "telugu"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/sitparti.htm",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "B.L. Narayan and Prasada Rao",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Hyderabad friends who, with Sripada Gopalakrishnamurti, regularly hosted and argued with UG during his stays at the Oasis School, Hyderabad.",
+  "dates": null,
+  "place": "Hyderabad, India",
+  "material": "Named in Stopped in Our Tracks.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "friend",
+   "hyderabad"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://people.well.com/user/jct/sitparti.htm"
+  ]
+ },
+ {
+  "name": "Chalam",
+  "also_known_as": [
+   "Gudipati Venkata Chalam"
+  ],
+  "role": "friend",
+  "relation": "Celebrated Telugu writer living at Tiruvannamalai, old friend of UG; he came to Bangalore yearly to see UG, and UG travelled to Arunachala when Chalam was dying. His daughter Sowris was UG's distant cousin.",
+  "dates": "1894–1979",
+  "place": "Tiruvannamalai, India",
+  "material": "Recalled in 'How I Met UG' (ugarchive) and Stopped in Our Tracks.",
+  "url": "https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html",
+  "tags": [
+   "friend",
+   "telugu",
+   "tiruvannamalai",
+   "writer"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Vazir Rahman",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "Friend of K. Chandrasekhar who met him weekly and urged him to render UG's words into simple, clear Telugu, shaping the Telugu notebooks behind Stopped in Our Tracks.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Editorial help on the Telugu source text.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "editor",
+   "telugu",
+   "bangalore"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Mario Viggiano",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Italian friend of UG who drove for him in Palm Springs and was present with Julie Thayer at a 1995 Corte Madera gathering.",
+  "dates": null,
+  "place": "Italy / California, USA",
+  "material": "Named in Palm Springs diaries and Moorty's blog.",
+  "url": "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html",
+  "tags": [
+   "friend",
+   "italy",
+   "palm-springs"
+  ],
+  "confidence": "T",
+  "sources": [
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html",
+   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html"
+  ]
+ },
+ {
+  "name": "Dr K.B. Ramakrishna Rao",
+  "also_known_as": [
+   "Dr K.B. Rao"
+  ],
+  "role": "friend",
+  "relation": "Professor of Philosophy at Mysore University and early Karnataka friend; the first book on UG (in Kannada) was released at his Mysore house. A recorded conversation with him, Brahmachari and Chandrasekhar survives.",
+  "dates": null,
+  "place": "Mysore, India",
+  "material": "archive.org audio 'Conversation with Dr K.B. Rao, Bramchari & Chandrashekar Babu'.",
+  "url": "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu",
+  "tags": [
+   "friend",
+   "scholar",
+   "mysore",
+   "kannada"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "name": "Major Dakshinamurti",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Retired Indian Army major described as a close friend of UG in Bangalore.",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Named in Uma Balaji's memoir / Bangalore accounts.",
+  "url": "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb",
+  "tags": [
+   "friend",
+   "bangalore"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://sureshn13.medium.com/my-journey-with-ug-krishnamurti-7becde2997eb"
+  ]
+ },
+ {
+  "name": "Lakshmi and Guha",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Indian-American couple (Guha a scientist) who became close to UG in his last decade; Guha's diary was published as 'In Palm Springs with U.G. Krishnamurti', and 'Lakshmi and Guha' chapters appear in the 1998–99 Palm Springs & Gstaad diaries.",
+  "dates": null,
+  "place": "USA",
+  "material": "Book 'In Palm Springs with U.G. Krishnamurti'; diary chapters.",
+  "url": "https://www.exoticindiaart.com/book/details/in-palm-springs-with-u-g-krishnamurti-nbz827/",
+  "tags": [
+   "friend",
+   "palm-springs",
+   "gstaad",
+   "author"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.exoticindiaart.com/book/details/in-palm-springs-with-u-g-krishnamurti-nbz827/",
+   "https://www.scribd.com/document/53063642/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-3",
+   "https://people.well.com/user/jct/SIT/part_i.htm",
+   "https://people.well.com/user/jct/SIT/part_ii.htm"
+  ]
+ },
+ {
+  "name": "Michael Toms",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Founder-host of 'New Dimensions' radio; interviewed UG on 14 November 1989 (transcript in the New Dimensions Media records, Stanford).",
+  "dates": "1940–2013",
+  "place": "California, USA",
+  "material": "Radio interview audio (archive.org); transcript in OAC finding aid.",
+  "url": "https://archive.org/details/ug_new_dimensions_19891114",
+  "tags": [
+   "interviewer",
+   "radio",
+   "new-dimensions"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_new_dimensions_19891114",
+   "https://oac.cdlib.org/findaid/ark:/13030/c8hq44pj/entire_text/"
+  ]
+ },
+ {
+  "name": "John Wren-Lewis",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "British-born scientist and writer on religion, honorary associate at the University of Sydney, who took part in a recorded four-part 1991 Sydney conversation with UG together with John Cooper and Donald Ingram Smith.",
+  "dates": "1923–2006",
+  "place": "Sydney, Australia",
+  "material": "1991 Sydney audio (WELL archive, remembering-ug blog).",
+  "url": "http://remembering-ug.blogspot.com/2012/03/talks-020612.html",
+  "tags": [
+   "scholar",
+   "sydney",
+   "audio"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://remembering-ug.blogspot.com/2012/03/talks-020612.html",
+   "https://people.well.com/user/jct/index_main.html",
+   "https://en.wikipedia.org/wiki/John_Wren-Lewis"
+  ]
+ },
+ {
+  "name": "John Cooper",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Sydney participant in the recorded 1991 conversation with UG alongside John Wren-Lewis and Donald Ingram Smith.",
+  "dates": null,
+  "place": "Sydney, Australia",
+  "material": "1991 Sydney audio.",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "tags": [
+   "interviewer",
+   "sydney",
+   "audio"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "http://remembering-ug.blogspot.com/2012/03/talks-020612.html"
+  ]
+ },
+ {
+  "name": "Ramola Bachchan",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Indian television presenter who interviewed UG on the programme 'Face to Face' (6 June 1993).",
+  "dates": null,
+  "place": "India",
+  "material": "Video and audio on archive.org; multi-part audio on fan blogs.",
+  "url": "https://archive.org/details/ug_ug_w_rb_150",
+  "tags": [
+   "interviewer",
+   "television"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_rb_150",
+   "https://archive.org/details/ug_ug_w_rb",
+   "http://remembering-ug.blogspot.com/2012/08/talks-ramola-bachchan.html"
+  ]
+ },
+ {
+  "name": "Rochaldas Shroff",
+  "also_known_as": [
+   "Rochaldas Schroff"
+  ],
+  "role": "friend",
+  "relation": "Former J. Krishnamurti follower (with Nagaraj, Radhakishan Bajaj and Narayanachari) drawn to UG after a 1970s talk; subject of the chapter 'You Are the Only One Who Gives What I Need Free of Charge' in Stopped in Our Tracks.",
+  "dates": null,
+  "place": "India",
+  "material": "Chapter in Stopped in Our Tracks.",
+  "url": "http://u-g-krishnamurti.blogspot.com/2007/04/you-are-only-one-who-gives-what-i-need.html",
+  "tags": [
+   "friend",
+   "1970s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/you-are-only-one-who-gives-what-i-need.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Dilip Kothari",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bombay friend of UG, former Chairman of the Film Censor Board.",
+  "dates": null,
+  "place": "Mumbai, India",
+  "material": "Named in Stopped in Our Tracks.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "friend",
+   "mumbai"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Henry (English friend with Bombay house)",
+  "also_known_as": [],
+  "role": "host",
+  "relation": "Friend of UG from England with a house and business office in Bombay where UG and Valentine stayed on their Indian visits after the 1967 'calamity'.",
+  "dates": null,
+  "place": "Mumbai, India",
+  "material": "Named in Stopped in Our Tracks.",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "tags": [
+   "host",
+   "mumbai"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "name": "Kanubhai C. Joshi, Dhiren and Minal Morarji",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Bombay friends present with Raj Mehta at the 1995 Nadi astrological reading of UG's horoscope; Joshi conducted the reading.",
+  "dates": null,
+  "place": "Mumbai, India",
+  "material": "Transcript of 1995 Nadi reading.",
+  "url": "https://www.scribd.com/doc/315495905/Ug-Nadi-Readings",
+  "tags": [
+   "friend",
+   "mumbai",
+   "astrology"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.scribd.com/doc/315495905/Ug-Nadi-Readings"
+  ]
+ },
+ {
+  "name": "Ram Dass",
+  "also_known_as": [
+   "Richard Alpert"
+  ],
+  "role": "teacher-met",
+  "relation": "American spiritual teacher who met UG; Mark Whitwell recalls him moved to tears recounting the encounter.",
+  "dates": "1931–2019",
+  "place": "USA",
+  "material": "Anecdote via Mark Whitwell.",
+  "url": "https://people.well.com/user/jct/Final_Remembering.htm",
+  "tags": [
+   "teacher-met",
+   "usa"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/Final_Remembering.htm",
+   "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d"
+  ]
+ },
+ {
+  "name": "Joel Staffeleu",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "Dutch participant in a 1990 Amsterdam video conversation with UG listed in the WELL streaming archive.",
+  "dates": null,
+  "place": "Amsterdam, Netherlands",
+  "material": "Video (WELL archive).",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "tags": [
+   "interviewer",
+   "amsterdam",
+   "video"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "name": "David Barry",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Present with Saral Bohm and Valentine at the 17 August 1968 Saanen conversation between UG and David Bohm.",
+  "dates": null,
+  "place": "Saanen, Switzerland",
+  "material": "Participant in the 1968 Bohm recording.",
+  "url": "https://archive.org/details/ug_ug_bohm",
+  "tags": [
+   "friend",
+   "saanen",
+   "1968"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://archive.org/details/ug_ug_bohm",
+   "https://sulochanosho.wordpress.com/2011/01/31/bohm-and-ug/"
+  ]
+ },
+ {
+  "name": "Bangalore memorial circle (Dr Leele, Uday Puranik, Vikas Deshpande, R.P. Jhunjhunwala)",
+  "also_known_as": [],
+  "role": "friend",
+  "relation": "Friends who gather each 22 March at the Chandrasekhars' home 'Hridaya Vihar', Bangalore, for the UG anniversary meet (attendees recorded 2018).",
+  "dates": null,
+  "place": "Bangalore, India",
+  "material": "Blog reports of annual gatherings (sulochanosho).",
+  "url": "https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/",
+  "tags": [
+   "friend",
+   "bangalore",
+   "memorial"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://sulochanosho.wordpress.com/2018/03/28/ug-aradhana-meet-11th/",
+   "https://sulochanosho.wordpress.com/tag/ug-friends/"
+  ]
+ }
+]

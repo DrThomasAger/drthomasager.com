@@ -1,0 +1,1649 @@
+[
+ {
+  "date": "1918-07-09",
+  "year": 1918,
+  "event": "Uppaluri Gopala Krishnamurti is born in Masulipatnam (Machilipatnam), Madras Presidency, into a Telugu-speaking Brahmin family.",
+  "place": "Masulipatnam, India",
+  "people": [],
+  "tags": [
+   "birth",
+   "childhood"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://ugkrishnamurti.in/about-ug/life-background"
+  ]
+ },
+ {
+  "date": "1918-07",
+  "year": 1918,
+  "event": "His mother Bharati dies seven days after his birth; he is taken in by his maternal grandparents, T.G. Krishnamurti (a wealthy Gudivada lawyer and staunch Theosophist) and Durgamma, and brought up in Gudivada.",
+  "place": "Gudivada, India",
+  "people": [
+   "T.G. Krishnamurti",
+   "Durgamma"
+  ],
+  "tags": [
+   "childhood",
+   "family"
+  ],
+  "confidence": "S",
+  "note": "Some sources say only 'soon after his birth'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "date": "c. 1919",
+  "year": 1919,
+  "event": "His father remarries soon after the mother's death and leaves the boy entirely in the grandparents' care; UG later said he never really knew his father.",
+  "place": "Gudivada, India",
+  "people": [],
+  "tags": [
+   "childhood",
+   "family"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "date": "1925-12",
+  "year": 1925,
+  "event": "According to Mahesh Bhatt ('A Life', ch. 2), the boy is taken to the Theosophical Society's Golden Jubilee convention at Adyar, where Annie Besant speaks to him and C. Jinarajadasa, standing behind her, takes note of him.",
+  "place": "Adyar, Madras, India",
+  "people": [
+   "Annie Besant",
+   "C. Jinarajadasa",
+   "T.G. Krishnamurti"
+  ],
+  "tags": [
+   "childhood",
+   "theosophy",
+   "meeting"
+  ],
+  "confidence": "conflict",
+  "note": "The official key-events page dates the Besant/Jinarajadasa encounter and the gift of the book 'I Promise' to the December 1932 convention.",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "1932-12",
+  "year": 1932,
+  "event": "Attends the Theosophical Society annual convention at Adyar and meets Annie Besant; Jinarajadasa presents him the book 'I Promise' -- described on the official site as the beginning of his sadhana.",
+  "place": "Adyar, Madras, India",
+  "people": [
+   "Annie Besant",
+   "C. Jinarajadasa"
+  ],
+  "tags": [
+   "youth",
+   "theosophy",
+   "meeting"
+  ],
+  "confidence": "conflict",
+  "note": "See 1925 entry (Bhatt) for the alternative dating.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "c. 1932-1939",
+  "year": 1932,
+  "event": "Between roughly 14 and 21 years of age spends seven summers, off and on, at Swami Sivananda's ashram in Rishikesh, practising classical yoga and meditation and performing tapas in Himalayan caves.",
+  "place": "Rishikesh, India",
+  "people": [
+   "Swami Sivananda"
+  ],
+  "tags": [
+   "youth",
+   "yoga",
+   "sadhana"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://ugarchive.blogspot.com/2021/09/the-anti-guru.html",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "date": "1939",
+  "year": 1939,
+  "event": "Enrols at the University of Madras to study psychology, philosophy and the sciences; after his grandfather's death he leaves without completing a degree (some accounts credit him with bachelor's degrees in philosophy and psychology).",
+  "place": "Madras, India",
+  "people": [
+   "T.G. Krishnamurti"
+  ],
+  "tags": [
+   "education",
+   "youth"
+  ],
+  "confidence": "conflict",
+  "note": "encyclopedia.com: received BAs in philosophy and psychology; Wikipedia/Bhatt: left without completing the degree, 'not interested in a degree'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "date": "1939-12",
+  "year": 1939,
+  "event": "Meets Ramana Maharshi at Tiruvannamalai and asks 'Can you give me what you have?'; the reply 'I can give, but can you take it?' marks, in UG's words, the point at which 'all that India stood for went out of my system'.",
+  "place": "Tiruvannamalai, India",
+  "people": [
+   "Ramana Maharshi"
+  ],
+  "tags": [
+   "meeting",
+   "sadhana"
+  ],
+  "confidence": "S",
+  "note": "Wikipedia gives 1939 (age 21); official site gives December 1939.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm"
+  ]
+ },
+ {
+  "date": "1939",
+  "year": 1939,
+  "event": "Official key-events table lists a 'first trip overseas' in 1939.",
+  "place": "Abroad",
+  "people": [],
+  "tags": [
+   "travel"
+  ],
+  "confidence": "T",
+  "note": "Destination not stated; not corroborated elsewhere.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "c. 1941",
+  "year": 1941,
+  "event": "Formally joins the Theosophical Society (Wikipedia says he became a member in his teens; another account gives 1941) and begins his long involvement with Adyar after the Ramana meeting.",
+  "place": "Adyar, Madras, India",
+  "people": [],
+  "tags": [
+   "theosophy"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "1943-05",
+  "year": 1943,
+  "event": "Marries Kusuma Kumari, a 17-year-old Brahmin girl, in an arranged marriage. They have four children: daughters Usha and Bharati and sons Vasant and Kumar (the fourth child born in the USA).",
+  "place": "Madras, India",
+  "people": [
+   "Kusuma Kumari"
+  ],
+  "tags": [
+   "family",
+   "marriage"
+  ],
+  "confidence": "S",
+  "note": "Sources differ on three vs four children; the WELL photo archive names Bharati, Vasant and Usha; the 2007 obituary names Usha, Bharati and Kumar as survivors.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm"
+  ]
+ },
+ {
+  "date": "1946",
+  "year": 1946,
+  "event": "C. Jinarajadasa is elected President of the Theosophical Society; UG works under him for three years as Joint Secretary of the Indian Section, then is made a national/international lecturer and travels for about seven years across India and Europe on lecture tours.",
+  "place": "Adyar, Madras, India",
+  "people": [
+   "C. Jinarajadasa"
+  ],
+  "tags": [
+   "theosophy",
+   "lecturing",
+   "career"
+  ],
+  "confidence": "S",
+  "note": "Some accounts give 1947 for the start of the joint secretaryship.",
+  "sources": [
+   "https://dokumen.pub/the-penguin-ug-krishnamurti-reader-0143101021-9780143101024.html",
+   "https://www.inner-quest.org/UG_R.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "1947-1953",
+  "year": 1947,
+  "event": "From 1947 to 1953 UG listens to J. Krishnamurti every time JK comes to Adyar, Madras, and has repeated private discussions with him.",
+  "place": "Adyar, Madras, India",
+  "people": [
+   "J. Krishnamurti"
+  ],
+  "tags": [
+   "meeting",
+   "theosophy"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "date": "1949",
+  "year": 1949,
+  "event": "First visit to New York, USA, as international lecturer of the Theosophical Society (official key-events table).",
+  "place": "New York, USA",
+  "people": [],
+  "tags": [
+   "usa",
+   "lecturing",
+   "theosophy"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "c. 1950",
+  "year": 1950,
+  "event": "Birth of son Vasant Kumar (he died in 1982 aged 32); Vasant later became one of India's leading copywriters.",
+  "place": "India",
+  "people": [
+   "Vasant Kumar",
+   "Kusuma Kumari"
+  ],
+  "tags": [
+   "family"
+  ],
+  "confidence": "T",
+  "note": "Year inferred from age at death.",
+  "sources": [
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "date": "1953",
+  "year": 1953,
+  "event": "Quits his Theosophical Society lecturing post 'in disgust', feeling the work was not true to himself; in December 1953 has a close encounter with J. Krishnamurti in Madras that he later described as a near-death experience, followed by extended discussions.",
+  "place": "Madras, India",
+  "people": [
+   "J. Krishnamurti"
+  ],
+  "tags": [
+   "theosophy",
+   "career",
+   "meeting"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://www.inner-quest.org/UG_R.htm",
+   "https://ugkrishnamurti.in/about-ug/life-background"
+  ]
+ },
+ {
+  "date": "1955",
+  "year": 1955,
+  "event": "Moves to the USA with Kusuma and his polio-afflicted elder son for the boy's medical treatment, leaving the two daughters with Kusuma's elder sister in India; doctors predict the boy will walk within a year.",
+  "place": "USA",
+  "people": [
+   "Kusuma Kumari",
+   "Vasant Kumar"
+  ],
+  "tags": [
+   "usa",
+   "family"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "1955-1959",
+  "year": 1955,
+  "event": "Lectures for a fee across the USA (Theosophical and other platforms) as funds run low; a fourth child, a boy, is born there; the marriage breaks down and Kusuma returns to India with the children.",
+  "place": "USA",
+  "people": [
+   "Kusuma Kumari"
+  ],
+  "tags": [
+   "usa",
+   "lecturing",
+   "family"
+  ],
+  "confidence": "S",
+  "note": "Official table gives 1955-1959; other accounts say he lost interest in speaking after about two years.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g"
+  ]
+ },
+ {
+  "date": "1961",
+  "year": 1961,
+  "event": "Leaves the USA for London 'without means or purpose', alone and penniless, after feeling he was no longer in control of his life; drifts around London for about three years, then lives three months in Paris before going on to Geneva.",
+  "place": "London, UK / Paris, France",
+  "people": [],
+  "tags": [
+   "europe",
+   "wandering"
+  ],
+  "confidence": "S",
+  "note": "Official table frames the European wanderings as 1960-1963.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://people.well.com/user/jct/ugbio/ugbio6.htm",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "date": "1961-1963",
+  "year": 1962,
+  "event": "Last meeting with J. Krishnamurti, in London, during the wandering years; the 'total break' between them, per Bhatt, came in Bombay at an unstated date.",
+  "place": "London, UK",
+  "people": [
+   "J. Krishnamurti"
+  ],
+  "tags": [
+   "meeting",
+   "europe"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html"
+  ]
+ },
+ {
+  "date": "1963",
+  "year": 1963,
+  "event": "Kusuma Kumari dies in India after twenty-one years of marriage, having been suicidal and undergone shock therapy; sources say she died of an accident or in a mental institution. Son Kumar stayed with her until her death.",
+  "place": "India",
+  "people": [
+   "Kusuma Kumari",
+   "Kumar"
+  ],
+  "tags": [
+   "death",
+   "family"
+  ],
+  "confidence": "conflict",
+  "note": "Cause/place of death conflict: 'accident' after shock therapy (Wikipedia mirror) vs 'died in a mental institution' (encyclopedia.com); Chandrasekhar says she died soon after a plea for death made to UG.",
+  "sources": [
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/kusumau.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://ugarchive.blogspot.com/2021/09/the-anti-guru.html"
+  ]
+ },
+ {
+  "date": "1963-12",
+  "year": 1963,
+  "event": "In Geneva, unable to pay his hotel bill after two weeks, UG appeals to the Indian Consulate to be repatriated; refused, he is offered shelter by the consulate translator Valentine de Kerven (then about 63), who soon gives up her job to look after him.",
+  "place": "Geneva, Switzerland",
+  "people": [
+   "Valentine de Kerven"
+  ],
+  "tags": [
+   "europe",
+   "meeting",
+   "valentine"
+  ],
+  "confidence": "S",
+  "note": "Official timeline: December 1963, after Christmas; one second-hand account says 1964.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "date": "1963-1967",
+  "year": 1964,
+  "event": "'Halcyon days' with Valentine: the pair move with the weather between Italy, the south of France, Paris and Switzerland, and Valentine sets UG up in Saanen near Gstaad.",
+  "place": "Saanen, Switzerland",
+  "people": [
+   "Valentine de Kerven"
+  ],
+  "tags": [
+   "switzerland",
+   "saanen",
+   "valentine"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven",
+   "https://www.inner-quest.org/UG_R.htm"
+  ]
+ },
+ {
+  "date": "1964-10-15",
+  "year": 1964,
+  "event": "K. Chandrasekhar (later UG's Bangalore host) first meets the Telugu writer Chalam at Tiruvannamalai; through Chandrasekhar, Chalam and his daughter Sowris later become visitors of UG in Bangalore, and UG visits the wheelchair-bound Chalam at Arunachala.",
+  "place": "Tiruvannamalai, India",
+  "people": [
+   "K. Chandrasekhar",
+   "Chalam",
+   "Sowris"
+  ],
+  "tags": [
+   "context",
+   "meeting"
+  ],
+  "confidence": "S",
+  "note": "Date is of Chandrasekhar meeting Chalam, not UG; UG's visits to Chalam are undated (1970s).",
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/chalam-october-15-1964-was.html",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/i-report-on-ug-to-chalams-family.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "date": "1966",
+  "year": 1966,
+  "event": "Summer in Saanen at Chalet Pfynegg (spelling varies), attending J. Krishnamurti's Saanen talks; UG rents a room and pitches a tent in the garden at weekends when Valentine comes up from Geneva.",
+  "place": "Saanen, Switzerland",
+  "people": [
+   "Valentine de Kerven",
+   "J. Krishnamurti"
+  ],
+  "tags": [
+   "saanen",
+   "switzerland"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/SIT/part_ii.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio8.htm"
+  ]
+ },
+ {
+  "date": "1967-04",
+  "year": 1967,
+  "event": "In Paris, in his 49th year, 'the most astounding and almost incomprehensible mystical experiences' begin (official life-background page).",
+  "place": "Paris, France",
+  "people": [
+   "Valentine de Kerven"
+  ],
+  "tags": [
+   "calamity",
+   "europe"
+  ],
+  "confidence": "T",
+  "note": "Only the official site places the onset in Paris in April 1967.",
+  "sources": [
+   "https://ugkrishnamurti.in/about-ug/life-background"
+  ]
+ },
+ {
+  "date": "1967-07-09",
+  "year": 1967,
+  "event": "The 'calamity': after hearing J. Krishnamurti in the Saanen tent and then sitting under a chestnut tree, UG's body goes through seven days of radical changes culminating on his 49th birthday in what he called the 'natural state'.",
+  "place": "Saanen, Switzerland",
+  "people": [
+   "Valentine de Kerven",
+   "J. Krishnamurti"
+  ],
+  "tags": [
+   "calamity",
+   "saanen"
+  ],
+  "confidence": "S",
+  "note": "Mukunda Rao's introduction to 'Biology of Enlightenment' says JK came to Saanen in August 1967; all other sources place the week before 9 July. Some garbled reprints say UG 'died in Saanen 9 July 1967'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.inner-quest.org/UG_R.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio8.htm",
+   "https://www.ugkrishnamurti.in/about-ug",
+   "https://philpapers.org/rec/KRITBO-5"
+  ]
+ },
+ {
+  "date": "1967-09-09",
+  "year": 1967,
+  "event": "Earliest dated recording: 'Conversation With U.G., Gstaad, Switzerland' (archive.org item ug_1967-09-09_gstaad).",
+  "place": "Gstaad, Switzerland",
+  "people": [],
+  "tags": [
+   "recording",
+   "gstaad"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://archive.org/details/ug_1967-09-09_gstaad"
+  ]
+ },
+ {
+  "date": "1967",
+  "year": 1967,
+  "event": "Returns to India after almost fourteen years away; his daughters are married with children of their own.",
+  "place": "India",
+  "people": [
+   "Usha",
+   "Bharati"
+  ],
+  "tags": [
+   "india",
+   "family"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ]
+ },
+ {
+  "date": "1967-1971",
+  "year": 1967,
+  "event": "Early post-calamity conversations with friends in Switzerland and India, later published as 'The Biology of Enlightenment' (ed. Mukunda Rao, HarperCollins India, 2010).",
+  "place": "Gstaad, Switzerland / India",
+  "people": [
+   "Mukunda Rao"
+  ],
+  "tags": [
+   "recording",
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://philpapers.org/rec/KRITBO-5"
+  ]
+ },
+ {
+  "date": "1968-01",
+  "year": 1968,
+  "event": "Visits Madras (Chennai) with Valentine and begins yoga lessons with T. Krishnamacharya.",
+  "place": "Madras, India",
+  "people": [
+   "Valentine de Kerven",
+   "T. Krishnamacharya"
+  ],
+  "tags": [
+   "india",
+   "yoga"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "c. 1968-1972",
+  "year": 1969,
+  "event": "For about four years before 1973 UG and Valentine come to Bangalore every winter and stay three or four months at a time; from 1972 to 1980 they also spend two to three weeks each year at the Oasis School.",
+  "place": "Bangalore, India",
+  "people": [
+   "Valentine de Kerven"
+  ],
+  "tags": [
+   "bangalore",
+   "india"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html"
+  ]
+ },
+ {
+  "date": "1972-01",
+  "year": 1972,
+  "event": "UG and Valentine arrive in Bangalore en route to Madras; Valentine has asked K. Chandrasekhar to rent a cottage at the Woodlands Hotel. Chandrasekhar meets UG for the first time -- beginning of the Bangalore circle recorded in 'Stopped in Our Tracks'.",
+  "place": "Bangalore, India",
+  "people": [
+   "Valentine de Kerven",
+   "K. Chandrasekhar"
+  ],
+  "tags": [
+   "bangalore",
+   "meeting"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/ug-arrives-in-bangalore.html"
+  ]
+ },
+ {
+  "date": "1972-05",
+  "year": 1972,
+  "event": "Gives his first and only public talk after the calamity, at the Indian Institute of World Culture, Bangalore; he never again addresses a formal public audience. An audio recording survives on archive.org.",
+  "place": "Bangalore, India",
+  "people": [],
+  "tags": [
+   "talk",
+   "bangalore",
+   "recording"
+  ],
+  "confidence": "S",
+  "note": "encyclopedia.com and the official site give 1972 without month; Chandrasekhar gives May 1972.",
+  "sources": [
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://archive.org/details/ug_institute-of-world-religion"
+  ]
+ },
+ {
+  "date": "1973",
+  "year": 1973,
+  "event": "Mark Whitwell first meets UG in Bangalore, during a period in which UG was giving talks at Adyar (Madras) and then in Bangalore; Whitwell remains close to him until 2007.",
+  "place": "Bangalore, India",
+  "people": [
+   "Mark Whitwell"
+  ],
+  "tags": [
+   "meeting",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192"
+  ]
+ },
+ {
+  "date": "1976-12",
+  "year": 1976,
+  "event": "UG and Valentine in Bangalore; Chandrasekhar's notebooks record UG arriving at his house the morning after a train trip and a meeting with Swami Poornananda Tirtha.",
+  "place": "Bangalore, India",
+  "people": [
+   "Valentine de Kerven",
+   "K. Chandrasekhar"
+  ],
+  "tags": [
+   "bangalore",
+   "poornakutee"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/swami-poornananda-tirtha-it-was-in.html"
+  ]
+ },
+ {
+  "date": "1979-10-03",
+  "year": 1979,
+  "event": "Mahesh Bhatt and Parveen Babi arrive from Bombay to stay with UG in Bangalore; the party travels on to Mysore and later Kodaikanal. Bhatt had brought Babi to UG after her mental breakdown.",
+  "place": "Bangalore / Mysore / Kodaikanal, India",
+  "people": [
+   "Mahesh Bhatt",
+   "Parveen Babi"
+  ],
+  "tags": [
+   "visit",
+   "india"
+  ],
+  "confidence": "conflict",
+  "note": "Bhatt's 'A Life' ch. 3 says 'In September 1979, I shanghaied Parveen to Kodaikanal where U.G. ...'; Chandrasekhar dates the arrival in Bangalore to 3 October 1979.",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio3.htm",
+   "https://people.well.com/user/jct/sitpaiii.htm",
+   "https://scroll.in/reel/834110/the-bit-about-parveen-babi-that-you-wont-find-in-the-ug-krishnamurti-biography"
+  ]
+ },
+ {
+  "date": "1980",
+  "year": 1980,
+  "event": "Bhatt and Parveen Babi break up after Babi asks him to choose between her and UG; Babi later leaves UG's circle after a second illness.",
+  "place": "Bombay, India",
+  "people": [
+   "Mahesh Bhatt",
+   "Parveen Babi"
+  ],
+  "tags": [
+   "context"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://scroll.in/reel/834110/the-bit-about-parveen-babi-that-you-wont-find-in-the-ug-krishnamurti-biography",
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ]
+ },
+ {
+  "date": "1980-03",
+  "year": 1980,
+  "event": "Mid-March 1980: Shanta Kelker, a Bangalore housewife, has her first interview with UG -- the start of the diary that became 'The Sage and the Housewife'.",
+  "place": "Bangalore, India",
+  "people": [
+   "Shanta Kelker"
+  ],
+  "tags": [
+   "meeting",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/sage1.htm",
+   "https://en.wikisource.org/wiki/The_Sage_and_the_Housewife"
+  ]
+ },
+ {
+  "date": "1981-09",
+  "year": 1981,
+  "event": "UG stays at Terry Newland's studio apartment in Mill Valley, California (his regular Bay Area base); Narayana Moorty, telephoned by Newland, meets UG for the first time. Official table lists USA/UK travel from 1981.",
+  "place": "Mill Valley, USA",
+  "people": [
+   "Terry Newland",
+   "Narayana Moorty"
+  ],
+  "tags": [
+   "usa",
+   "meeting",
+   "mill valley"
+  ],
+  "confidence": "S",
+  "note": "Moorty: 'I think it was around September 1981'.",
+  "sources": [
+   "https://moortysblogpage.blogspot.com/2007/11/first-meetings-with-ug-first.html",
+   "https://ugarchive.blogspot.com/2021/09/how-i-met-ug.html",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ]
+ },
+ {
+  "date": "1982",
+  "year": 1982,
+  "event": "Son Vasant Kumar dies of sarcoma in Bombay aged 32; UG, in Bangalore, receives the telegram, says over the phone 'He is dead', and asks a friend to meet him at the hospital to arrange the funeral.",
+  "place": "Bombay, India",
+  "people": [
+   "Vasant Kumar"
+  ],
+  "tags": [
+   "death",
+   "family"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm"
+  ]
+ },
+ {
+  "date": "1982",
+  "year": 1982,
+  "event": "First book, 'The Mystique of Enlightenment: The unrational ideas of a man called U.G.', edited by Rodney Arms and published by Dinesh Vaghela (first edition 5,000 copies, India).",
+  "place": "Goa, India",
+  "people": [
+   "Rodney Arms",
+   "Dinesh Vaghela"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "1982-09",
+  "year": 1982,
+  "event": "UG comes to Amsterdam and, to his own surprise, stays 21 days; Henk Schonewille records the 'Give Up' tapes (September-October 1982), later transcribed by Ellen Chrystal as 'The Courage to Stand Alone'.",
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "Henk Schonewille",
+   "Ellen Chrystal"
+  ],
+  "tags": [
+   "recording",
+   "amsterdam"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://archive.org/details/UGKrishnamurtiTheCourageToStandAlone"
+  ]
+ },
+ {
+  "date": "1983-1984",
+  "year": 1983,
+  "event": "Conversations with questioners in India, Switzerland and California recorded and edited by Terry Newland as 'Mind is a Myth' (introduction signed Mill Valley, December 1985; published 1987 by Crest Associates, Vallabhvidyanagar, Gujarat).",
+  "place": "India / Switzerland / California",
+  "people": [
+   "Terry Newland"
+  ],
+  "tags": [
+   "recording",
+   "publication"
+  ],
+  "confidence": "S",
+  "note": "Wikiquote: 1987; other lists give 1988; a 'Dinesh Publications, Goa' edition is unconfirmed.",
+  "sources": [
+   "https://people.well.com/user/jct/intro.html",
+   "https://philpapers.org/rec/KRIMIA",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "1984",
+  "year": 1984,
+  "event": "'Bangalore conversations with Brahmachari (some chants)' -- archive.org audio dated 1984.",
+  "place": "Bangalore, India",
+  "people": [
+   "Brahmachari"
+  ],
+  "tags": [
+   "recording",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://archive.org/details/ug_bangalore_bramchari_chants"
+  ]
+ },
+ {
+  "date": "1985-1990",
+  "year": 1985,
+  "event": "Discussions in India, Switzerland, Australia, the Netherlands and the UK, 1985-1990, collected as 'Thought is Your Enemy' (ed. Antony Paul Frank Noronha, J.S.R.L. Narayana Moorty, Sunita Pant Bansal; Sowmya Publishers, Bangalore, 1990).",
+  "place": "India / Switzerland / Australia / Netherlands / UK",
+  "people": [
+   "Frank Noronha",
+   "Narayana Moorty"
+  ],
+  "tags": [
+   "recording",
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/enemy0.htm",
+   "https://philpapers.org/rec/KRITIY",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "1986-02-17",
+  "year": 1986,
+  "event": "J. Krishnamurti dies in Ojai; UG, in India, does not spare him 'even on his death bed' -- Bhatt's article 'Two Seers' (Illustrated Weekly of India, 25 May 1986) records UG's most vehement attack on JK.",
+  "place": "Bombay, India",
+  "people": [
+   "J. Krishnamurti",
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "context",
+   "press"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti"
+  ]
+ },
+ {
+  "date": "1986",
+  "year": 1986,
+  "event": "UG 'goes public' and gives his first television interview (official key-events table).",
+  "place": "India",
+  "people": [],
+  "tags": [
+   "tv",
+   "interview"
+  ],
+  "confidence": "T",
+  "note": "Channel and exact date not given; Doordarshan interviews (e.g., with Shashi Kumar; with Rajiv Mehrotra) exist but are undated in the sources found.",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://archive.org/details/ug_ug_tv_int"
+  ]
+ },
+ {
+  "date": "1986",
+  "year": 1986,
+  "event": "Narayana Moorty's first trip to see UG abroad: six days in Gstaad (via Marseille, Paris and Heidelberg), then Bangalore.",
+  "place": "Gstaad, Switzerland / Bangalore, India",
+  "people": [
+   "Narayana Moorty"
+  ],
+  "tags": [
+   "visit",
+   "gstaad",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html"
+  ]
+ },
+ {
+  "date": "1986-09",
+  "year": 1986,
+  "event": "After arranging a family get-together, UG moves Valentine de Kerven permanently to Bangalore, where she lives her last years at Poornakutee as Alzheimer's disease advances.",
+  "place": "Bangalore, India",
+  "people": [
+   "Valentine de Kerven",
+   "K. Chandrasekhar"
+  ],
+  "tags": [
+   "valentine",
+   "bangalore",
+   "poornakutee"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven"
+  ]
+ },
+ {
+  "date": "1989",
+  "year": 1989,
+  "event": "Recorded conversation with S.C. Birla in Gstaad (WELL streaming archive; archive.org 'U.G. with S.C. Birla', dated 1989).",
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "S.C. Birla"
+  ],
+  "tags": [
+   "recording",
+   "gstaad"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "https://archive.org/details/ug_birla_01"
+  ]
+ },
+ {
+  "date": "1989-04-30",
+  "year": 1989,
+  "event": "Julie Thayer meets UG for the first time at Narayana Moorty's house in Seaside, California, on her 49th birthday, and begins the journal she keeps until 2007 ('Travels with UG' / 'Get Lost and Stay Lost'); she follows UG to the Swiss Alps that summer.",
+  "place": "Seaside, California, USA",
+  "people": [
+   "Julie Thayer",
+   "Narayana Moorty"
+  ],
+  "tags": [
+   "meeting",
+   "usa",
+   "journal"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://www.travelswithug.com/",
+   "http://www.travelswithug.com/journal-one.php",
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html"
+  ]
+ },
+ {
+  "date": "1989-06",
+  "year": 1989,
+  "event": "Shanta Kelker records events with UG in Bangalore in June 1989; in December 1989 UG stays with her as a guest in Delhi.",
+  "place": "Bangalore / New Delhi, India",
+  "people": [
+   "Shanta Kelker"
+  ],
+  "tags": [
+   "visit",
+   "bangalore",
+   "delhi"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.exoticindiaart.com/book/details/sage-and-housewife-idk451/"
+  ]
+ },
+ {
+  "date": "1990",
+  "year": 1990,
+  "event": "Amsterdam recordings: conversation with Joel Staffeleu and with friends in Amsterdam (WELL archive, 1990); a September 1990 conversation with Willem de Ridder is also listed.",
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "Joel Staffeleu",
+   "Willem de Ridder"
+  ],
+  "tags": [
+   "recording",
+   "amsterdam"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "http://remembering-ug.blogspot.com/2012/02/talks-250312.html"
+  ]
+ },
+ {
+  "date": "1990",
+  "year": 1990,
+  "event": "Sydney: 'Scope Radio' interview with Donald Ingram Smith (WELL archive, 1990).",
+  "place": "Sydney, Australia",
+  "people": [
+   "Donald Ingram Smith"
+  ],
+  "tags": [
+   "recording",
+   "radio",
+   "sydney"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "http://remembering-ug.blogspot.com/2012/02/talks-250312.html"
+  ]
+ },
+ {
+  "date": "1990",
+  "year": 1990,
+  "event": "Terry Newland, UG's long-time Mill Valley host and editor of 'Mind is a Myth', decides he is 'through with U.G.' and that his house is no longer available (Julie Thayer's journal).",
+  "place": "Mill Valley, USA",
+  "people": [
+   "Terry Newland",
+   "Julie Thayer"
+  ],
+  "tags": [
+   "usa",
+   "context"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "http://travelswithug.blogspot.com/2006/03/mill-valley-california-november-12.html"
+  ]
+ },
+ {
+  "date": "1991-01-20",
+  "year": 1991,
+  "event": "Valentine de Kerven dies suddenly in the evening at Poornakutee, Bangalore, aged about 90, dropping off while eating dinner in her chair; the news arrives as the Gulf War bombing of Iraq continues. UG is in California at the time.",
+  "place": "Bangalore, India",
+  "people": [
+   "Valentine de Kerven",
+   "K. Chandrasekhar"
+  ],
+  "tags": [
+   "death",
+   "valentine",
+   "bangalore"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven"
+  ]
+ },
+ {
+  "date": "1991-11-17",
+  "year": 1991,
+  "event": "Sydney: a 'soiree' with friends recorded in 1991 (WELL archive); a SoundCloud recording is dated 17 November 1991.",
+  "place": "Sydney, Australia",
+  "people": [],
+  "tags": [
+   "recording",
+   "sydney"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-in-sydney-australia-17111991"
+  ]
+ },
+ {
+  "date": "1992",
+  "year": 1992,
+  "event": "Albuquerque, New Mexico: recorded conversation with Dr. Larry Morris (1992) and, in April 1992, with members of the Hillside Church group.",
+  "place": "Albuquerque, USA",
+  "people": [
+   "Larry Morris"
+  ],
+  "tags": [
+   "recording",
+   "usa"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "https://archive.org/details/ug_hillside"
+  ]
+ },
+ {
+  "date": "1992",
+  "year": 1992,
+  "event": "Mahesh Bhatt's biography 'U.G. Krishnamurti: A Life' is published by Viking/Penguin India.",
+  "place": "New Delhi, India",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://philpapers.org/rec/BHAUKA",
+   "https://people.well.com/user/jct/ugbio/ugbtitle.htm"
+  ]
+ },
+ {
+  "date": "1994",
+  "year": 1994,
+  "event": "ABC Radio National, Sydney, interview/recording (archive.org, 1994).",
+  "place": "Sydney, Australia",
+  "people": [],
+  "tags": [
+   "recording",
+   "radio",
+   "sydney"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://archive.org/details/ug_abc_radio_national_sydney_1994"
+  ]
+ },
+ {
+  "date": "1994-12",
+  "year": 1994,
+  "event": "End of 1994: UG and his travelling group visit Narayana Moorty in Seaside, California, staying through New Year's at the Magic Carpet Lodge motel; UG speaks of wanting a new California 'base', being 'finished' with the Bay Area.",
+  "place": "Seaside, California, USA",
+  "people": [
+   "Narayana Moorty",
+   "Julie Thayer"
+  ],
+  "tags": [
+   "visit",
+   "usa",
+   "seaside"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html"
+  ]
+ },
+ {
+  "date": "1995",
+  "year": 1995,
+  "event": "Mahesh Bhatt spends thirty days with UG in Gstaad; the diary is published as 'A Taste of Death' (later 'A Taste of Life: The Last Days of U.G. Krishnamurti').",
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "visit",
+   "gstaad",
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://philpapers.org/rec/BHAATO-3",
+   "http://ug-k.blogspot.com/2007/04/taste-of-death-gstaad-summer-1995-10.html"
+  ]
+ },
+ {
+  "date": "1995-10",
+  "year": 1995,
+  "event": "At a colonial house in Yercaud, Tamil Nadu, UG has files, letters, hundreds of black-and-white and colour photographs and audio and video tapes brought from Bangalore and throws them into a bonfire: 'Nothing must remain after me.' A 1995 video 'U.G. at Yercaud' survives on archive.org.",
+  "place": "Yercaud, India",
+  "people": [
+   "K. Chandrasekhar"
+  ],
+  "tags": [
+   "yercaud",
+   "bonfire",
+   "recording"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://archive.org/details/ug_yercaud95"
+  ]
+ },
+ {
+  "date": "1998",
+  "year": 1998,
+  "event": "Amsterdam: interviewed by Willem de Ridder and Byron Katie (archive.org / SoundCloud, 1998).",
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "Willem de Ridder",
+   "Byron Katie"
+  ],
+  "tags": [
+   "recording",
+   "interview",
+   "amsterdam"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://archive.org/details/ug_ug_deridder_katie"
+  ]
+ },
+ {
+  "date": "1998-12",
+  "year": 1998,
+  "event": "End of 1998 / beginning of 1999: an 'ill-fated' visit to Palm Springs, California, with Narayana Moorty -- start of UG's Palm Springs winters.",
+  "place": "Palm Springs, USA",
+  "people": [
+   "Narayana Moorty"
+  ],
+  "tags": [
+   "visit",
+   "usa",
+   "palm springs"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html"
+  ]
+ },
+ {
+  "date": "c. 2000-2007",
+  "year": 2000,
+  "event": "UG visits Mark Whitwell's friends at Byron Bay, Australia, roughly once a year for a few days; Whitwell's photographs cover time with UG 2000-2007 in Australia and Switzerland. In his last seven Bangalore stays he rarely engages in serious conversation.",
+  "place": "Byron Bay, Australia / Bangalore, India",
+  "people": [
+   "Mark Whitwell"
+  ],
+  "tags": [
+   "australia",
+   "visit"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+   "http://www.advaita.org.uk/discourses/teachers/ugk_caplan.htm"
+  ]
+ },
+ {
+  "date": "2001",
+  "year": 2001,
+  "event": "'The Courage to Stand Alone: Conversations with U.G. Krishnamurti' (ed. Ellen J. Chrystal, from the 1982 Amsterdam tapes) published by Smriti Books, New Delhi.",
+  "place": "New Delhi, India",
+  "people": [
+   "Ellen Chrystal"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "conflict",
+  "note": "Wikiquote: 2001; Goodreads: 'first published 1 January 1997'.",
+  "sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://readersend.com/product/the-courage-to-stand-alone-conversations-with-u-g-krishnamurti/"
+  ]
+ },
+ {
+  "date": "2002",
+  "year": 2002,
+  "event": "Louis Brawley meets UG in New York and spends the next five years travelling with him in the USA, India and Europe, becoming his informal caregiver (recounted in 'Goner', 2011). On 18 January 2002 UG is interviewed in Amsterdam by Willem de Ridder (archive.org).",
+  "place": "New York, USA / Amsterdam, Netherlands",
+  "people": [
+   "Louis Brawley",
+   "Willem de Ridder"
+  ],
+  "tags": [
+   "meeting",
+   "recording"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://books.google.com/books/about/Goner.html?id=7FG6CwAAQBAJ",
+   "https://www.penguin.co.in/book/no-more-questions/",
+   "https://archive.org/details/ug_2002-01-18_interview_willem_de_ridder"
+  ]
+ },
+ {
+  "date": "2004-2005",
+  "year": 2004,
+  "event": "Winter in India (Bangalore) 2004-2005, per the chapter 'India 2004-2005' in Brawley's 'Goner'; the circle also stays in Palm Springs ('14 days in Palm Springs').",
+  "place": "Bangalore, India / Palm Springs, USA",
+  "people": [
+   "Louis Brawley"
+  ],
+  "tags": [
+   "india",
+   "palm springs"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html"
+  ]
+ },
+ {
+  "date": "2005",
+  "year": 2005,
+  "event": "Three books appear: Mukunda Rao's 'The Other Side of Belief: Interpreting U.G. Krishnamurti' (Penguin India), K. Chandrasekhar's 'Stopped in Our Tracks' (Smriti Books, ed. Narayana Moorty) and Peter Maverick's compilation 'The Natural State'.",
+  "place": "New Delhi, India",
+  "people": [
+   "Mukunda Rao",
+   "K. Chandrasekhar",
+   "Peter Maverick"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://books.google.com/books/about/The_Other_Side_of_Belief.html?id=iUGP_DHtyeEC",
+   "https://books.google.com/books/about/Stopped_in_Our_Tracks.html?id=TVRWA5imaeoC",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "2006-03-30",
+  "year": 2006,
+  "event": "UG in Bangalore (Brawley's 'Goner' entry dated 30 March 2006); this is remembered as his last trip to Bangalore, about a year before his death.",
+  "place": "Bangalore, India",
+  "people": [
+   "Louis Brawley"
+  ],
+  "tags": [
+   "bangalore",
+   "india"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html",
+   "http://www.advaita.org.uk/discourses/teachers/ugk_caplan.htm"
+  ]
+ },
+ {
+  "date": "2006-07",
+  "year": 2006,
+  "event": "Summer in Gstaad at Chalet Sunbeam, where UG spent summers for about 25 years (Julie Thayer's journal entry 'Gstaad, July 1'); the group then travels by car to Germany and to Italy.",
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "Julie Thayer",
+   "Louis Brawley"
+  ],
+  "tags": [
+   "gstaad",
+   "switzerland"
+  ],
+  "confidence": "T",
+  "note": "Chalet Sunbeam '25 years' figure is from a Gstaad blog; exact span unverified.",
+  "sources": [
+   "http://travelswithug.blogspot.com/2006/03/gstaad-july-1-back-to-cool-wet-climate.html",
+   "http://moortysblogpage.blogspot.com/2009/03/notable-travels-and-visits-times-spent.html",
+   "http://travelswithug.blogspot.com/2006/03/gstaad-july-1-back-to-cool-wet-climate.html"
+  ]
+ },
+ {
+  "date": "2007-01-11",
+  "year": 2007,
+  "event": "'On January 11th we were in Gstaad again for a day. As it turned out it was his last day there' (Brawley, 'Goner').",
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "Louis Brawley"
+  ],
+  "tags": [
+   "gstaad",
+   "final years"
+  ],
+  "confidence": "T",
+  "note": "Year inferred (last winter before death).",
+  "sources": [
+   "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html"
+  ]
+ },
+ {
+  "date": "2007-02",
+  "year": 2007,
+  "event": "About seven weeks before his death UG falls and injures himself at Vallecrosia, Italy; he refuses medical treatment and is bedridden. In February 2007 he dictates his final statement, 'My Swan Song'.",
+  "place": "Vallecrosia, Italy",
+  "people": [
+   "Louis Brawley",
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "illness",
+   "swan song",
+   "final years"
+  ],
+  "confidence": "S",
+  "note": "Seven weeks before 22 March = c. 1 February 2007.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
+   "https://www.ugkrishnamurti.in/about-ug"
+  ]
+ },
+ {
+  "date": "2007-03",
+  "year": 2007,
+  "event": "UG sends word for Mahesh Bhatt to join him for a last time at Vallecrosia; Bhatt arrives and is present at the end.",
+  "place": "Vallecrosia, Italy",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "final years",
+   "visit"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://ugunplugged.blogspot.com/2019/",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ]
+ },
+ {
+  "date": "2007-03-22",
+  "year": 2007,
+  "event": "UG Krishnamurti dies at 2:30 p.m. in the apartment built for him by his friends Lucia, Anita and Giovanni in their villa at Vallecrosia, Italy, aged 88.",
+  "place": "Vallecrosia, Italy",
+  "people": [
+   "Mahesh Bhatt",
+   "Louis Brawley"
+  ],
+  "tags": [
+   "death"
+  ],
+  "confidence": "S",
+  "note": "Time given as 2:30 p.m. (official obituary) vs 2:30 a.m. (some reports); age 88 (Wikipedia) vs 89 (WELL memorial); one memorial page gives 25 March.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.ugkrishnamurti.in/about-ug",
+   "https://people.well.com/user/jct/Final_Remembering.htm",
+   "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html"
+  ]
+ },
+ {
+  "date": "2007-03-23",
+  "year": 2007,
+  "event": "Mahesh Bhatt cremates the body at Vallecrosia at 2:45 p.m. the day after death, without rituals, as UG wished.",
+  "place": "Vallecrosia, Italy",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "tags": [
+   "cremation",
+   "death"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html"
+  ]
+ },
+ {
+  "date": "2007",
+  "year": 2007,
+  "event": "'The Penguin U.G. Krishnamurti Reader', edited by Mukunda Rao, published (Penguin India).",
+  "place": "New Delhi, India",
+  "people": [
+   "Mukunda Rao"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://openlibrary.org/works/OL3430852W/The_Penguin_U.G.Krishnamurti_Reader",
+   "https://dokumen.pub/the-penguin-ug-krishnamurti-reader-0143101021-9780143101024.html"
+  ]
+ },
+ {
+  "date": "2010",
+  "year": 2010,
+  "event": "'The Biology of Enlightenment: Unpublished Conversations of U.G. Krishnamurti after he came into the Natural State (1967-71)', ed. Mukunda Rao, HarperCollins India.",
+  "place": "New Delhi, India",
+  "people": [
+   "Mukunda Rao"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://philpapers.org/rec/KRITBO-5"
+  ]
+ },
+ {
+  "date": "2011",
+  "year": 2011,
+  "event": "Louis Brawley's 'Goner: The Final Travels of UG Krishnamurti' published (Non-Duality Press, 2011); Penguin India edition 'No More Questions' follows in December 2012.",
+  "place": "UK / India",
+  "people": [
+   "Louis Brawley"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://books.google.com/books/about/Goner.html?id=7FG6CwAAQBAJ",
+   "https://www.penguin.co.in/book/no-more-questions/"
+  ]
+ },
+ {
+  "date": "2013",
+  "year": 2013,
+  "event": "Non-Duality Press edition of 'The Courage to Stand Alone' with new reminiscences and a note by Jeffrey Masson.",
+  "place": "UK",
+  "people": [
+   "Ellen Chrystal",
+   "Jeffrey Masson"
+  ],
+  "tags": [
+   "publication"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.hachette.co.uk/titles/u-g-krishnamurti/the-courage-to-stand-alone/9781908664280/"
+  ]
+ },
+ {
+  "date": "2023",
+  "year": 2023,
+  "event": "Julie Thayer's journals published as 'Get Lost and Stay Lost: On the Road with UG Krishnamurti, Journal ONE' (with the 'UG Cookbook').",
+  "place": "USA",
+  "people": [
+   "Julie Thayer"
+  ],
+  "tags": [
+   "publication",
+   "journal"
+  ],
+  "confidence": "T",
+  "note": "2023 is the copy/upload date on dokumen.pub; publisher record not found.",
+  "sources": [
+   "https://dokumen.pub/get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html",
+   "http://www.travelswithug.com/journal-one.php"
+  ]
+ },
+ {
+  "date": "2026-09",
+  "year": 2026,
+  "event": "Documentary 'The Natural State' (dir. Matt Dougherty; exec. producers Jane Campion and Mahesh Bhatt), built from Julie Thayer's footage and journals, has its world premiere at the Telluride Film Festival.",
+  "place": "Telluride, Colorado, USA",
+  "people": [
+   "Matt Dougherty",
+   "Jane Campion",
+   "Mahesh Bhatt",
+   "Julie Thayer"
+  ],
+  "tags": [
+   "film",
+   "legacy"
+  ],
+  "confidence": "conflict",
+  "note": "Tribune: premiere 7 September; Deadline preview implies Saturday 5 September.",
+  "sources": [
+   "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti",
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+   "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/"
+  ]
+ }
+]
