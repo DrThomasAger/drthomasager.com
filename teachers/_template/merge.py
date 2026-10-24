@@ -220,6 +220,16 @@ for q in quotes:
 corr_path = HERE / "corrections.json"
 if corr_path.exists():
     corr = json.loads(corr_path.read_text(encoding="utf-8"))
+    # researcher-produced attribution corrections (same shape), applied first so hand corrections win
+    for extra in sorted(src.glob("attribution-corrections*.json")):
+        try:
+            ext = json.loads(extra.read_text(encoding="utf-8"))
+            if isinstance(ext, dict):
+                for k, v in ext.items():
+                    if k not in corr and not k.startswith("_"):
+                        corr[k] = {kk: vv for kk, vv in v.items() if kk in ("book", "chapter", "note", "kind", "confidence")}
+        except Exception as e:  # noqa
+            print(f"skip {extra.name}: {e}")
     byid = {q["id"]: q for q in quotes}
     applied = 0
     for qid, fix in corr.items():
