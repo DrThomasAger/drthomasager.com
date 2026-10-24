@@ -28,6 +28,37 @@ def norm_tags(tags):
             out.append(t)
     return out
 
+PLACE_WORDS = ["gstaad","saanen","bangalore","bengaluru","amsterdam","sydney","yercaud","mysore",
+    "kodaikanal","vallecrosia","palm springs","mill valley","carmel","seaside","albuquerque","bombay","mumbai",
+    "madras","chennai","hyderabad","delhi","london","paris","geneva","cologne","new york","california",
+    "switzerland","india","italy","netherlands","australia","usa","uk","masulipatnam","gudivada","goa"]
+
+def enrich_tags(it, tags):
+    """Derive metadata tags from the item's own fields."""
+    out = list(tags)
+    def add(t):
+        t = slug(t)
+        if t and t not in out:
+            out.append(t)
+    y = it.get("year")
+    if isinstance(y, int):
+        add(f"{y//10*10}s"); add(str(y))
+    for p in (it.get("people") or []):
+        add("person-" + p.split()[-1]) if p.split() else None
+    host = it.get("host") or ""
+    if not host and it.get("url"):
+        m = re.match(r"https?://(?:www\.)?([^/]+)", it["url"])
+        host = m.group(1) if m else ""
+    if host: add("host-" + host)
+    if it.get("format"): add("format-" + it["format"].split("|")[0].split("(")[0].strip())
+    if it.get("language"): add("lang-" + it["language"])
+    if it.get("duration"): add("has-duration")
+    blob = " ".join(str(it.get(k) or "") for k in ("place","title","description")).lower()
+    for w in PLACE_WORDS:
+        if w in blob: add("place-" + w)
+    if it.get("confidence"): add("confidence-" + it["confidence"])
+    return out
+
 def norm_year(it):
     y = it.get("year")
     if isinstance(y, str) and y.strip().isdigit():
@@ -64,7 +95,8 @@ for f in sorted(src.glob("*.json")):
                 "text": text, "book": q.get("book") or "unassigned",
                 "chapter": q.get("chapter"), "year": norm_year(q),
                 "confidence": conf, "kind": q.get("kind") or "verbatim",
-                "tags": norm_tags(q.get("tags")), "note": q.get("note"),
+                "tags": norm_tags(q.get("tags")) + [t for t in ["book-" + slug(q.get("book") or "unassigned"), "kind-" + slug(q.get("kind") or "verbatim")] ],
+                "note": q.get("note"),
                 "sources": [s for s in (q.get("sources") or []) if isinstance(s, str) and s.startswith("http")],
                 "origin": f.stem,
             })
@@ -90,11 +122,13 @@ for f in sorted(src.glob("*.json")):
                 "format": it.get("format"), "language": it.get("language"),
                 "duration": it.get("duration"), "host": it.get("host"),
                 "url": url, "description": it.get("description"),
-                "tags": norm_tags(it.get("tags")) + [medium],
+                "tags": None,
                 "confidence": it.get("confidence") or "lead",
                 "sources": [s for s in (it.get("sources") or []) if isinstance(s, str) and s.startswith("http")],
                 "origin": f.stem,
             })
+            rec = items[-1]
+            rec["tags"] = enrich_tags(rec, norm_tags(it.get("tags")) + [medium])
             n += 1
     counts[f.name] = n
 

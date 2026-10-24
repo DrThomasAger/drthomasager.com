@@ -1,1 +1,3279 @@
-[]
+[
+ {
+  "id": "if7872d1a",
+  "medium": "audio",
+  "title": "U.G. Interviewed by Ramola Bachchan on 'Face to Face' (audio version)",
+  "date": "1993-06-06",
+  "year": 1993,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Ramola Bachchan"
+  ],
+  "format": "audio rip of TV broadcast",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_w_rb",
+  "description": "Audio version of the 1993 TV interview 'Face to Face'; video counterpart is ug_ug_w_rb_150. Uploaded 2012-08-29 to the 'U.G. Krishnamurti conversations and interviews - audio' collection.",
+  "tags": [
+   "archive-org",
+   "tv-interview",
+   "ramola-bachchan",
+   "1993",
+   "audio-rip",
+   "audio",
+   "1990s",
+   "person-krishnamurti",
+   "person-bachchan",
+   "host-archive-org",
+   "format-audio-rip-of-tv-broadcast",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_rb",
+   "https://archive.org/details/ug_ug_w_rb_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i01c93b90",
+  "medium": "video",
+  "title": "U.G. Interviewed by Ramola Bachchan on 'Face to Face'",
+  "date": "1993-06-06",
+  "year": 1993,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Ramola Bachchan"
+  ],
+  "format": "digitised TV broadcast",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_w_rb_150",
+  "description": "Video item in 'U.G. Krishnamurti conversations and interviews - video' collection; TV interview 'Face to Face'.",
+  "tags": [
+   "archive-org",
+   "tv-interview",
+   "ramola-bachchan",
+   "1993",
+   "video",
+   "1990s",
+   "person-krishnamurti",
+   "person-bachchan",
+   "host-archive-org",
+   "format-digitised-tv-broadcast",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_rb_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "id724a1cb",
+  "medium": "audio",
+  "title": "U.G. Krishnamurti in Conversation with Mahesh Bhatt (audio version)",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Mahesh Bhatt"
+  ],
+  "format": "audio rip of TV programme",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_w_mb",
+  "description": "Audio of a TV programme conversation with Mahesh Bhatt; video counterpart ug_ug_w_mb_150 (201.8 MB, colour, sound).",
+  "tags": [
+   "archive-org",
+   "tv",
+   "mahesh-bhatt",
+   "audio-rip",
+   "audio",
+   "person-krishnamurti",
+   "person-bhatt",
+   "host-archive-org",
+   "format-audio-rip-of-tv-programme",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_mb",
+   "https://archive.org/details/ug_ug_w_mb_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "idc854b77",
+  "medium": "video",
+  "title": "U.G. Krishnamurti in Conversation with Mahesh Bhatt",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Mahesh Bhatt"
+  ],
+  "format": "digitised TV programme, colour",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_w_mb_150",
+  "description": "TV programme conversation; item size 201.8 MB; video collection, uploaded Aug 2012.",
+  "tags": [
+   "archive-org",
+   "tv",
+   "mahesh-bhatt",
+   "video",
+   "person-krishnamurti",
+   "person-bhatt",
+   "host-archive-org",
+   "format-digitised-tv-programme-colour",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_mb_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i67397603",
+  "medium": "audio",
+  "title": "Conversation between U.G. & David Bohm",
+  "date": "1968-08-17",
+  "year": 1968,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti",
+   "David Bohm"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_bohm",
+  "description": "U.G. conversing with David Bohm about experiences after the 'calamity'; dated 1968-08-17 on archive.org (the date is suspect given the calamity is dated 1967).",
+  "tags": [
+   "archive-org",
+   "david-bohm",
+   "1968",
+   "calamity",
+   "audio",
+   "1960s",
+   "person-krishnamurti",
+   "person-bohm",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_bohm"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i4df452a6",
+  "medium": "audio",
+  "title": "Conversation between U.G. and Shashi Kumar (audio version)",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Shashi Kumar"
+  ],
+  "format": "audio rip of TV interview",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_tv_int",
+  "description": "Audio version of TV interview with Shashi Kumar; video counterpart ug_ug_tv_int_150.",
+  "tags": [
+   "archive-org",
+   "tv-interview",
+   "shashi-kumar",
+   "audio-rip",
+   "audio",
+   "person-krishnamurti",
+   "person-kumar",
+   "host-archive-org",
+   "format-audio-rip-of-tv-interview",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_tv_int",
+   "https://archive.org/details/ug_ug_tv_int_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "idb06e87b",
+  "medium": "video",
+  "title": "Conversation between U.G. and Shashi Kumar",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Shashi Kumar"
+  ],
+  "format": "digitised TV interview",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_tv_int_150",
+  "description": "Video collection item; TV interview with journalist Shashi Kumar.",
+  "tags": [
+   "archive-org",
+   "tv-interview",
+   "shashi-kumar",
+   "video",
+   "person-krishnamurti",
+   "person-kumar",
+   "host-archive-org",
+   "format-digitised-tv-interview",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_tv_int_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i072e4762",
+  "medium": "audio",
+  "title": "Conversation with Dr K.B. Rao, Bramchari & Chandrashekar Babu",
+  "date": "",
+  "year": null,
+  "place": "Bangalore, India",
+  "people": [
+   "U.G. Krishnamurti",
+   "K.B. Rao",
+   "Bramchari",
+   "Chandrashekar Babu"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu",
+  "description": "Audio collection item; sourced from ugkrishnamurti.org.",
+  "tags": [
+   "archive-org",
+   "bangalore",
+   "chandrasekhar-babu",
+   "audio",
+   "person-krishnamurti",
+   "person-rao",
+   "person-bramchari",
+   "person-babu",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "place-bangalore",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i303ead9c",
+  "medium": "audio",
+  "title": "All India Radio Interview",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "radio broadcast audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_all_india_radio_interview",
+  "description": "All India Radio interview with U.G.; audio collection item.",
+  "tags": [
+   "archive-org",
+   "radio",
+   "all-india-radio",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-radio-broadcast-audio",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_all_india_radio_interview"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ib8c3c622",
+  "medium": "audio",
+  "title": "Talk at Institute of World Culture",
+  "date": "",
+  "year": null,
+  "place": "Bangalore, India",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_institute-of-world-religion",
+  "description": "Audio of U.G.'s talk at the Indian Institute of World Culture (Bangalore; identifier misspells it as 'world-religion').",
+  "tags": [
+   "archive-org",
+   "talk",
+   "bangalore",
+   "institute-of-world-culture",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "place-bangalore",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_institute-of-world-religion"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i2b2d2c21",
+  "medium": "audio",
+  "title": "U.G. Conversation with Unknown Individual",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_with_unknown_individual",
+  "description": "Audio collection item; interlocutor unidentified.",
+  "tags": [
+   "archive-org",
+   "conversation",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_with_unknown_individual"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i39324b84",
+  "medium": "audio",
+  "title": "Conversation With U.G., Gstaad, Switzerland (1967-09-09)",
+  "date": "1967-09-09",
+  "year": 1967,
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_1967-09-09_gstaad",
+  "description": "Earliest dated recording in the audio collection, a few weeks after the 'calamity'.",
+  "tags": [
+   "archive-org",
+   "gstaad",
+   "1967",
+   "earliest-recording",
+   "audio",
+   "1960s",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "place-gstaad",
+   "place-switzerland",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_1967-09-09_gstaad"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ia42a10bc",
+  "medium": "audio",
+  "title": "U.G. on Dimensions in Parapsychology (audio version)",
+  "date": "",
+  "year": null,
+  "place": "New York, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Bryce Bond"
+  ],
+  "format": "audio rip of TV programme",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_parapsy",
+  "description": "Audio of the Bryce Bond 'Dimensions in Parapsychology' cable TV conversation; video counterpart ug_ug_parapsy_150.",
+  "tags": [
+   "archive-org",
+   "bryce-bond",
+   "tv",
+   "parapsychology",
+   "audio-rip",
+   "audio",
+   "person-krishnamurti",
+   "person-bond",
+   "host-archive-org",
+   "format-audio-rip-of-tv-programme",
+   "lang-english",
+   "place-new-york",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_parapsy",
+   "https://archive.org/details/ug_ug_parapsy_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i65e29889",
+  "medium": "video",
+  "title": "U.G. on Dimensions in Parapsychology",
+  "date": "",
+  "year": null,
+  "place": "New York, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Bryce Bond"
+  ],
+  "format": "digitised TV programme",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_parapsy_150",
+  "description": "Video collection item: U.G. conversing with Bryce Bond on 'Dimensions in Parapsychology'.",
+  "tags": [
+   "archive-org",
+   "bryce-bond",
+   "tv",
+   "parapsychology",
+   "video",
+   "person-krishnamurti",
+   "person-bond",
+   "host-archive-org",
+   "format-digitised-tv-programme",
+   "lang-english",
+   "place-new-york",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_parapsy_150"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i01211e5e",
+  "medium": "video",
+  "title": "U.G. with S.C. Birla (1/2)",
+  "date": "1989",
+  "year": 1989,
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti",
+   "S.C. Birla"
+  ],
+  "format": "digitised video",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_birla_01",
+  "description": "Part 1 of 2 of a 1989 discussion in Gstaad with industrialist S.C. Birla; video collection. Part 2 presumed at ug_birla_02 (not confirmed by search).",
+  "tags": [
+   "archive-org",
+   "gstaad",
+   "1989",
+   "birla",
+   "video",
+   "1980s",
+   "person-krishnamurti",
+   "person-birla",
+   "host-archive-org",
+   "format-digitised-video",
+   "lang-english",
+   "place-gstaad",
+   "place-switzerland",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_birla_01"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i3ef76c05",
+  "medium": "video",
+  "title": "U.G. with S.C. Birla (2/2)",
+  "date": "1989",
+  "year": 1989,
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti",
+   "S.C. Birla"
+  ],
+  "format": "digitised video",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_birla_02",
+  "description": "Presumed part 2 of the Birla discussion; identifier inferred from ug_birla_01 '(1/2)'.",
+  "tags": [
+   "archive-org",
+   "gstaad",
+   "1989",
+   "birla",
+   "video",
+   "1980s",
+   "person-krishnamurti",
+   "person-birla",
+   "host-archive-org",
+   "format-digitised-video",
+   "lang-english",
+   "place-gstaad",
+   "place-switzerland",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://archive.org/details/ug_birla_01"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i3dec4219",
+  "medium": "audio",
+  "title": "U.G. Radio Interview (2/3)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "radio audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_f2f_2",
+  "description": "Part 2 of 3 of a radio interview in the audio collection; parts 1 and 3 presumably ug_f2f_1 and ug_f2f_3 (not confirmed). Also indexed on sonichits as 'U.G. Krishnamurti - Radio Interview'.",
+  "tags": [
+   "archive-org",
+   "radio",
+   "three-parts",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-radio-audio",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_f2f_2",
+   "https://sonichits.com/video/U.G._Krishnamurti/Radio_Interview"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ia12b7ef1",
+  "medium": "audio",
+  "title": "U.G. Radio Interview (1/3) and (3/3)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "radio audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_f2f_1",
+  "description": "Inferred parts 1 and 3 (ug_f2f_1, ug_f2f_3) of the radio interview of which ug_f2f_2 is part 2.",
+  "tags": [
+   "archive-org",
+   "radio",
+   "three-parts",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-radio-audio",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://archive.org/details/ug_f2f_2"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i50dca9a7",
+  "medium": "video",
+  "title": "UG Interviewed by Willem de Ridder and Byron Katie, Amsterdam",
+  "date": "1998",
+  "year": 1998,
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "U.G. Krishnamurti",
+   "Willem de Ridder",
+   "Byron Katie"
+  ],
+  "format": "digitised video",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_deridder",
+  "description": "Video collection item (publication date 1998); a second copy/variant exists at ug_ug_deridder_katie.",
+  "tags": [
+   "archive-org",
+   "amsterdam",
+   "willem-de-ridder",
+   "byron-katie",
+   "1998",
+   "video",
+   "1990s",
+   "person-krishnamurti",
+   "person-ridder",
+   "person-katie",
+   "host-archive-org",
+   "format-digitised-video",
+   "lang-english",
+   "place-amsterdam",
+   "place-netherlands",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_deridder",
+   "https://archive.org/details/ug_ug_deridder_katie"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "idc7a3f67",
+  "medium": "video",
+  "title": "Conversation between U.G. & Willem de Ridder: 'Thought is Destructive'",
+  "date": "",
+  "year": null,
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "U.G. Krishnamurti",
+   "Willem de Ridder"
+  ],
+  "format": "digitised video",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_de_ridder",
+  "description": "Video collection item titled 'Thought is Destructive'.",
+  "tags": [
+   "archive-org",
+   "amsterdam",
+   "willem-de-ridder",
+   "video",
+   "person-krishnamurti",
+   "person-ridder",
+   "host-archive-org",
+   "format-digitised-video",
+   "lang-english",
+   "place-amsterdam",
+   "place-netherlands",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_de_ridder"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i86c98b96",
+  "medium": "video",
+  "title": "U.G. with Dr. Larry Morris (1/2) (Hillside, Albuquerque)",
+  "date": "",
+  "year": null,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Larry Morris"
+  ],
+  "format": "digitised video",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_hillside",
+  "description": "Video collection item: discussion with Dr. Larry Morris recorded in Albuquerque; part 1 of 2.",
+  "tags": [
+   "archive-org",
+   "albuquerque",
+   "larry-morris",
+   "video",
+   "person-krishnamurti",
+   "person-morris",
+   "host-archive-org",
+   "format-digitised-video",
+   "lang-english",
+   "place-albuquerque",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_hillside"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i8b64b9e0",
+  "medium": "video",
+  "title": "Conversation between U.G. and Rajiv Mehrotra",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Rajiv Mehrotra"
+  ],
+  "format": "digitised TV programme (Doordarshan)",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_w_sk_150",
+  "description": "Video collection item (identifier oddly says w_sk). Same programme circulates on YouTube as 'UG Krishnamurti Interview With Rajiv Mehrotra' (Doordarshan).",
+  "tags": [
+   "archive-org",
+   "tv-interview",
+   "rajiv-mehrotra",
+   "doordarshan",
+   "video",
+   "person-krishnamurti",
+   "person-mehrotra",
+   "host-archive-org",
+   "format-digitised-tv-programme",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_w_sk_150",
+   "https://www.youtube.com/watch?v=i-Y3J0WzU-Q"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i15e71829",
+  "medium": "audio",
+  "title": "Living in your own World",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_living_in_your_own_world",
+  "description": "ug_ prefixed audio item.",
+  "tags": [
+   "archive-org",
+   "talk",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_living_in_your_own_world"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "iefed7fce",
+  "medium": "audio",
+  "title": "What is going on here is sa[...]",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_what_is_going_on_here_is_sa",
+  "description": "ug_ prefixed audio item with truncated identifier.",
+  "tags": [
+   "archive-org",
+   "talk",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_what_is_going_on_here_is_sa"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ifb64b742",
+  "medium": "audio",
+  "title": "Interview in French",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "French/English",
+  "duration": "",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_interview_in_french",
+  "description": "French-language interview item in the ug_ audio collection.",
+  "tags": [
+   "archive-org",
+   "french",
+   "interview",
+   "audio",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-audio",
+   "lang-french-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_interview_in_french"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ib88b5a14",
+  "medium": "audio",
+  "title": "U.G. Krishnamurti - In Sydney, Australia (17/11/1991)",
+  "date": "1991-11-17",
+  "year": 1991,
+  "place": "Sydney, Australia",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "SoundCloud (krishnamorthy01)",
+  "url": "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-in-sydney-australia-17111991",
+  "description": "SoundCloud upload of the Sydney conversation; also listed on ugkrishnamurti.in 'Essential Audios'.",
+  "tags": [
+   "soundcloud",
+   "sydney",
+   "1991",
+   "australia",
+   "audio",
+   "1990s",
+   "person-krishnamurti",
+   "host-soundcloud-krishnamorthy01",
+   "format-audio",
+   "lang-english",
+   "place-sydney",
+   "place-australia",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-in-sydney-australia-17111991",
+   "https://ugkrishnamurti.in/ug-speaks/audios"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i9a6d738d",
+  "medium": "audio",
+  "title": "U.G. Krishnamurti - Conversation in Amsterdam (09/09/1992)",
+  "date": "1992-09-09",
+  "year": 1992,
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": "",
+  "host": "SoundCloud (krishnamorthy00)",
+  "url": "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-conversation-in-amsterdam-09091992",
+  "description": "SoundCloud upload of the Amsterdam 1992 conversation.",
+  "tags": [
+   "soundcloud",
+   "amsterdam",
+   "1992",
+   "audio",
+   "1990s",
+   "person-krishnamurti",
+   "host-soundcloud-krishnamorthy00",
+   "format-audio",
+   "lang-english",
+   "place-amsterdam",
+   "place-netherlands",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-conversation-in-amsterdam-09091992"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i45a14939",
+  "medium": "audio",
+  "title": "Essential Audios - UG Speaks (ugkrishnamurti.in)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti",
+   "Susan Dean",
+   "Willem de Ridder"
+  ],
+  "format": "streaming audio index",
+  "language": "English",
+  "duration": "",
+  "host": "ugkrishnamurti.in",
+  "url": "https://ugkrishnamurti.in/ug-speaks/audios",
+  "description": "Audio index page listing recordings including entries mentioning Susan Dean, Willem de Ridder in Amsterdam, and Sydney.",
+  "tags": [
+   "index",
+   "ugkrishnamurti-in",
+   "susan-dean",
+   "audio",
+   "person-krishnamurti",
+   "person-dean",
+   "person-ridder",
+   "host-ugkrishnamurti-in",
+   "format-streaming-audio-index",
+   "lang-english",
+   "place-amsterdam",
+   "place-sydney",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ugkrishnamurti.in/ug-speaks/audios"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i2d6c06c2",
+  "medium": "audio",
+  "title": "jason martin - U.G. Krishnamurti (SoundCloud set)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "SoundCloud playlist",
+  "language": "English",
+  "duration": "",
+  "host": "SoundCloud",
+  "url": "https://soundcloud.com/jason-martin-746746139/sets/u-g-krishnamurti",
+  "description": "A SoundCloud set of U.G. recordings.",
+  "tags": [
+   "soundcloud",
+   "playlist",
+   "audio",
+   "person-krishnamurti",
+   "host-soundcloud",
+   "format-soundcloud-playlist",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://soundcloud.com/jason-martin-746746139/sets/u-g-krishnamurti"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i3bb0b6a8",
+  "medium": "video",
+  "title": "Lectures Beyond Beyond (YouTube channel) / lecturesbeyondbeyond (BitChute mirror)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube channel + BitChute mirror",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube / BitChute",
+  "url": "https://www.youtube.com/user/lecturesbeyondbeyond/videos",
+  "description": "Channel described as primarily an archive of U.G. recordings. BitChute mirror lists 2023-24 uploads: 'You Wish' (2024-03-30), 'You're a Frightened Chicken' (2024-03-03), 'Your Separations & Demands' (2023-12-30), 'Yet More Repetition' (2023-12-29), 'It's Something Living' (2023-11-26), 'It's Funny To You?' (2023-10-28), 'The Natural State & State of Wonder' (2023-09-18), 'Fear' (2023-09-03), 'Your Problems' (2023-06-29), 'No Answers' (2023-06-28), 'The Mind Can't Be Silent' (2023-06-28). Other titles associated: 'No Salvation (Interview & Answering Calls)', 'Essential Questions on Life'.",
+  "tags": [
+   "youtube",
+   "bitchute",
+   "lectures-beyond-beyond",
+   "channel",
+   "video",
+   "person-krishnamurti",
+   "host-youtube-bitchute",
+   "format-youtube-channel-bitchute-mirror",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/user/lecturesbeyondbeyond/videos",
+   "https://www.bitchute.com/channel/NGAG0Ddog4sA/",
+   "https://sonichits.com/video/U.G._Krishnamurti/Radio_Interview"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "iad92f8ac",
+  "medium": "video",
+  "title": "U.G. Krishnamurti - The Natural State & State of Wonder (1988 Dutch student documentary)",
+  "date": "1988",
+  "year": 1988,
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "TV documentary (Dutch TV students), digitised",
+  "language": "English (Dutch production)",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://m.youtube.com/watch?v=FjnLphLeVvo",
+  "description": "Short documentary made by Dutch television students, recorded 1988 in Gstaad and later shown on Dutch television; this is the likely source of the 'Natural State Old TV Documentary' circulating online. Also on Lectures Beyond Beyond / BitChute (2023-09-18).",
+  "tags": [
+   "youtube",
+   "documentary",
+   "dutch-tv",
+   "1988",
+   "gstaad",
+   "natural-state",
+   "video",
+   "1980s",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-tv-documentary",
+   "lang-english-dutch-production",
+   "place-gstaad",
+   "place-switzerland",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://m.youtube.com/watch?v=FjnLphLeVvo",
+   "https://www.youtube.com/watch?v=0JyphyR5rwo",
+   "https://www.bitchute.com/channel/NGAG0Ddog4sA/"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ib4b21909",
+  "medium": "video",
+  "title": "YouTube playlist 'U.G.Krishnamurti' (PL0440AC751B2F84E9)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube playlist",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/playlist?list=PL0440AC751B2F84E9",
+  "description": "Playlist confirmed to exist; video list not exposed by search.",
+  "tags": [
+   "youtube",
+   "playlist",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-playlist",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/playlist?list=PL0440AC751B2F84E9"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i45bb291b",
+  "medium": "video",
+  "title": "YouTube playlist 'U.G. Krishnamurti — the playlist to end all playlists' (PLJGnfFmap7N9BTHNv4mIaqgyv-Co1K0Sy)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube playlist",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/playlist?list=PLJGnfFmap7N9BTHNv4mIaqgyv-Co1K0Sy",
+  "description": "Playlist description: 'U.G. Krishnamurti, the playlist to end all playlists.' Contents not exposed by search.",
+  "tags": [
+   "youtube",
+   "playlist",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-playlist",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/playlist?list=PLJGnfFmap7N9BTHNv4mIaqgyv-Co1K0Sy"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i4c494e4d",
+  "medium": "video",
+  "title": "YouTube playlist 'Theory of Existence By U.G. Krishnamurti' (PLI3BX4bvdDGoIibgFOUbQL-mSxOFdqW0w)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube playlist",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/playlist?list=PLI3BX4bvdDGoIibgFOUbQL-mSxOFdqW0w",
+  "description": "Playlist title confirmed; contents not exposed by search.",
+  "tags": [
+   "youtube",
+   "playlist",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-playlist",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/playlist?list=PLI3BX4bvdDGoIibgFOUbQL-mSxOFdqW0w"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i3e127576",
+  "medium": "video",
+  "title": "U.G. Krishnamurti - You Have No Experiences",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube clip",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=jrBBkWRL9ec",
+  "description": "Clip surfaced alongside PL0440AC751B2F84E9.",
+  "tags": [
+   "youtube",
+   "clip",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=jrBBkWRL9ec"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ic323037f",
+  "medium": "video",
+  "title": "UG on Osho and J Krishnamurti",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube clip",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=dCB6W7caaEI",
+  "description": "Clip surfaced alongside both playlists.",
+  "tags": [
+   "youtube",
+   "clip",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=dCB6W7caaEI"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i78261789",
+  "medium": "video",
+  "title": "U.G Krishnamurti - You're All Afraid!",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube clip",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=sx8f76kuGAY",
+  "description": "Clip surfaced alongside PLJGnfFmap7N9BTHNv4mIaqgyv-Co1K0Sy.",
+  "tags": [
+   "youtube",
+   "clip",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=sx8f76kuGAY"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ib3dc7ddf",
+  "medium": "video",
+  "title": "UG Krishnamurti Interview With Rajiv Mehrotra (Doordarshan)",
+  "date": "",
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Rajiv Mehrotra"
+  ],
+  "format": "TV interview, YouTube upload",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=i-Y3J0WzU-Q",
+  "description": "Doordarshan interview with Rajiv Mehrotra; date not given.",
+  "tags": [
+   "youtube",
+   "tv-interview",
+   "doordarshan",
+   "rajiv-mehrotra",
+   "video",
+   "person-krishnamurti",
+   "person-mehrotra",
+   "host-youtube",
+   "format-tv-interview-youtube-upload",
+   "lang-english",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=i-Y3J0WzU-Q"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i619168bf",
+  "medium": "video",
+  "title": "U.G. Krishnamurti - Joyful Interview",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube upload",
+  "language": "English",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=xAj_U3_yZm4",
+  "description": "YouTube upload titled 'Joyful Interview'.",
+  "tags": [
+   "youtube",
+   "interview",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-upload",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=xAj_U3_yZm4"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "ie529ab6f",
+  "medium": "video",
+  "title": "Uppaluri Gopala Krishnamurti - ug e lo stato naturale - Intervista a Roma 1995 doppiata in italiano",
+  "date": "1995",
+  "year": 1995,
+  "place": "Rome, Italy",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube, Italian dub",
+  "language": "Italian (dubbed)",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=o4vgIKu8AQ0",
+  "description": "Described as the first U.G. video in Italian: a 1995 Rome interview dubbed into Italian.",
+  "tags": [
+   "youtube",
+   "italian",
+   "dubbed",
+   "rome",
+   "1995",
+   "video",
+   "1990s",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-italian-dub",
+   "lang-italian-dubbed",
+   "place-italy",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=o4vgIKu8AQ0"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i41804c0d",
+  "medium": "video",
+  "title": "La natura delle relazioni • U.G. Krishnamurti [ITA] • Anteprima",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube preview; full subtitled video on Patreon",
+  "language": "Italian subtitles",
+  "duration": "",
+  "host": "YouTube / Patreon",
+  "url": "https://www.youtube.com/watch?v=lWvgOu8pxTU",
+  "description": "Italian-subtitled preview; full version behind Patreon paywall.",
+  "tags": [
+   "youtube",
+   "italian",
+   "subtitles",
+   "patreon",
+   "video",
+   "person-krishnamurti",
+   "host-youtube-patreon",
+   "format-youtube-preview-full-subtitled-video-on-patreon",
+   "lang-italian-subtitles",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=lWvgOu8pxTU",
+   "https://www.piloton.it/libri/ug.html"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i69dd41f8",
+  "medium": "video",
+  "title": "интервью с У.Г. Кришнамурти (русские субтитры)",
+  "date": "",
+  "year": null,
+  "place": "USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Jeffrey Mishlove"
+  ],
+  "format": "YouTube with Russian CC subtitles",
+  "language": "English with Russian subtitles",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=p9Dx-iMR2ak",
+  "description": "Russian-subtitled upload; description credits thinkingallowed.com, so this is the Jeffrey Mishlove 'Thinking Allowed' interview.",
+  "tags": [
+   "youtube",
+   "russian",
+   "subtitles",
+   "thinking-allowed",
+   "mishlove",
+   "video",
+   "person-krishnamurti",
+   "person-mishlove",
+   "host-youtube",
+   "format-youtube-with-russian-cc-subtitles",
+   "lang-english-with-russian-subtitles",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=p9Dx-iMR2ak"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i2eafecfc",
+  "medium": "video",
+  "title": "У. Г. Кришнамурти. Интервью. (Krishnamurti U. G.)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube",
+  "language": "Russian",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=oLhZv8RJpzg",
+  "description": "Russian-language upload described as an excerpt of a conversation with U.G.",
+  "tags": [
+   "youtube",
+   "russian",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube",
+   "lang-russian",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=oLhZv8RJpzg"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i1bffe0e1",
+  "medium": "audio",
+  "title": "Ошибка просветления (Часть 1) — Russian audiobook of The Mistake of Enlightenment",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audiobook",
+  "language": "Russian",
+  "duration": "",
+  "host": "various (Ecosia video index)",
+  "url": "https://ecosia.org/videos?q=%D0%BA%D1%80%D0%B8%D1%88%D0%BD%D0%B0%D0%BC%D1%83%D1%80%D1%82%D0%B8",
+  "description": "Russian audiobook reading of 'Ошибка просветления' (Mistake of Enlightenment, talks 1973-76).",
+  "tags": [
+   "audiobook",
+   "russian",
+   "audio",
+   "person-krishnamurti",
+   "host-various-ecosia-video-index",
+   "format-audiobook",
+   "lang-russian",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://ecosia.org/videos?addon=opensearch&addonversion=7.6.0&q=%D0%BA%D1%80%D0%B8%D1%88%D0%BD%D0%B0%D0%BC%D1%83%D1%80%D1%82%D0%B8",
+   "https://litres.com/book/u-g-krishnamurti-udzhi/oshibka-prosvetleniya-436755/read/"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i5f24d4ce",
+  "medium": "audio",
+  "title": "UG Krishnamurti (Spotify podcast by Slowdown)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "podcast",
+  "language": "English",
+  "duration": "",
+  "host": "Spotify",
+  "url": "https://open.spotify.com/show/6ZbFdcUZGGBdz8TBUoYoYz",
+  "description": "Spotify show titled 'UG Krishnamurti', 'a Podcast from Slowdown covering all things UG'. Episode list not exposed to search.",
+  "tags": [
+   "spotify",
+   "podcast",
+   "slowdown",
+   "audio",
+   "person-krishnamurti",
+   "host-spotify",
+   "format-podcast",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://open.spotify.com/show/6ZbFdcUZGGBdz8TBUoYoYz"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "idb335824",
+  "medium": "video",
+  "title": "यूजी कृष्णमूर्ति (Hindi YouTube upload)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=j8MZEhRTXjU",
+  "description": "Hindi-titled YouTube video about/with U.G. Krishnamurti.",
+  "tags": [
+   "youtube",
+   "hindi",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube",
+   "lang-hindi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=j8MZEhRTXjU"
+  ],
+  "origin": "wave2-av"
+ },
+ {
+  "id": "i7d78a0fb",
+  "medium": "image",
+  "title": "WELL photo gallery for Mahesh Bhatt's 'U.G. Krishnamurti: A Life' (ug_1.htm index)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti",
+   "Kusuma Kumari",
+   "Bharati",
+   "Valentine de Kerven",
+   "Parveen Babi",
+   "Mahesh Bhatt",
+   "Sajid Martin"
+  ],
+  "format": "web photo gallery (scanned book plates)",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com (The WELL, user jct = J.C. Tuttle? / 'Essential UG')",
+  "url": "https://people.well.com/user/jct/bphotos/ug_1.htm",
+  "description": "Main photo index of the online edition of Mahesh Bhatt's biography (Penguin India 1992, '20 photographs'); plates scanned by Sajid Martin. Captions include 1945 with wife Kusuma and daughter Bharati (plate 1-9); Pebble Beach CA with Parveen Babi (1-12); New York 1983 with Parveen Babi and Valentine (1-14); Gstaad. Known sub-pages: bphotos/ug_1.htm, bphotos/ph2.htm, bphotos/ug_n_son.htm, bphotos/val_ol~2.htm. Copyright: Penguin/Mahesh Bhatt plates reproduced with the book's text; no explicit licence.",
+  "tags": [
+   "well",
+   "mahesh-bhatt",
+   "a-life",
+   "family",
+   "parveen-babi",
+   "valentine-de-kerven",
+   "scans",
+   "image",
+   "person-krishnamurti",
+   "person-kumari",
+   "person-bharati",
+   "person-kerven",
+   "person-babi",
+   "person-bhatt",
+   "person-martin",
+   "host-people-well-com-the-well-user-jct-j-c-tuttle-essential-ug",
+   "format-web-photo-gallery",
+   "lang-en",
+   "place-gstaad",
+   "place-new-york",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/ug_1.htm",
+   "https://people.well.com/user/jct/bphotos/ph2.htm",
+   "https://people.well.com/user/jct/ugbio/ugbtitle.htm"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ib731c748",
+  "medium": "image",
+  "title": "WELL photo page: U.G. with children Bharati, Vasant and Usha (ph2.htm / ug_n_son.htm)",
+  "date": null,
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Bharati",
+   "Vasant",
+   "Usha"
+  ],
+  "format": "web photo page",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/bphotos/ph2.htm",
+  "description": "Second photo index (plates 2-x) from the A Life gallery; includes the children Bharati, Vasant and Usha (plate 2-9) and 'UG and son' page (ug_n_son.htm, also at old URL www.well.com/~jct/bphotos/ug_n_son.htm). Only captions were confirmed via search; images not viewed.",
+  "tags": [
+   "well",
+   "family",
+   "vasant",
+   "usha",
+   "bharati",
+   "scans",
+   "image",
+   "person-krishnamurti",
+   "person-bharati",
+   "person-vasant",
+   "person-usha",
+   "host-people-well-com",
+   "format-web-photo-page",
+   "lang-en",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/ph2.htm",
+   "http://www.well.com/~jct/bphotos/ug_n_son.htm"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i95f72ee0",
+  "medium": "image",
+  "title": "WELL photo page: Valentine de Kerven (val_ol~2.htm)",
+  "date": null,
+  "year": null,
+  "place": "Bangalore; Amsterdam",
+  "people": [
+   "Valentine de Kerven",
+   "U.G. Krishnamurti"
+  ],
+  "format": "web photo page",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/bphotos/val_ol~2.htm",
+  "description": "Gallery page devoted to Valentine de Kerven: as a young woman and with U.G. in Bangalore and Amsterdam (plates 2-7, 1-13, 1-14). Part of the A Life scans.",
+  "tags": [
+   "well",
+   "valentine-de-kerven",
+   "amsterdam",
+   "bangalore",
+   "scans",
+   "image",
+   "person-kerven",
+   "person-krishnamurti",
+   "host-people-well-com",
+   "format-web-photo-page",
+   "lang-en",
+   "place-bangalore",
+   "place-amsterdam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/val_ol~2.htm"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i56e61b5b",
+  "medium": "image",
+  "title": "Wikimedia Commons: File:UGKrishnamurti.jpg",
+  "date": "2007",
+  "year": 2007,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti",
+   "Giuliano Sauro"
+  ],
+  "format": "JPEG 143x200 px",
+  "language": null,
+  "duration": null,
+  "host": "commons.wikimedia.org",
+  "url": "https://commons.wikimedia.org/wiki/File:UGKrishnamurti.jpg",
+  "description": "Small portrait, author credited as Giuliano Sauro, licence GFDL, uploaded 2007. Appears in Category:Uppaluri_Gopala_Krishnamurti (which carries Wikidata Q423541 authority data). Category '20th-century philosophers from India' says 2 files for UG; the second file was not surfaced by search.",
+  "tags": [
+   "wikimedia-commons",
+   "portrait",
+   "gfdl",
+   "giuliano-sauro",
+   "image",
+   "2000s",
+   "2007",
+   "person-krishnamurti",
+   "person-sauro",
+   "host-commons-wikimedia-org",
+   "format-jpeg-143x200-px",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://commons.wikimedia.org/wiki/File:UGKrishnamurti.jpg",
+   "https://commons.wikimedia.org/wiki/Category:Uppaluri_Gopala_Krishnamurti"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "id8731f03",
+  "medium": "community",
+  "title": "Mahesh Bhatt on X: tribute post with UG photo (5 Sept 2017)",
+  "date": "2017-09-05",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Mahesh Bhatt",
+   "U.G. Krishnamurti"
+  ],
+  "format": "X/Twitter post with image",
+  "language": "en",
+  "duration": null,
+  "host": "x.com/MaheshNBhatt",
+  "url": "https://x.com/MaheshNBhatt/status/905080430675673088",
+  "description": "'U.G. Krishnamurti....The man who built & shaped my life. The man who in his hours of death gave me a taste of life!!!' with attached photo (t.co/YJSuyKmINY). Also 2015 post announcing Tamil edition of A Life: https://x.com/MaheshNBhatt/status/579607713191198720. No Mahesh Bhatt Instagram UG post found by search.",
+  "tags": [
+   "mahesh-bhatt",
+   "x-twitter",
+   "tribute",
+   "photo-post",
+   "community",
+   "2010s",
+   "2017",
+   "person-bhatt",
+   "person-krishnamurti",
+   "host-x-com-maheshnbhatt",
+   "format-x-twitter-post-with-image",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://x.com/MaheshNBhatt/status/905080430675673088",
+   "https://x.com/MaheshNBhatt/status/579607713191198720"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i6f4a89f7",
+  "medium": "community",
+  "title": "Instagram account @u.g.krishnamurti",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "Instagram account",
+  "language": "en",
+  "duration": null,
+  "host": "instagram.com",
+  "url": "https://www.instagram.com/u.g.krishnamurti/",
+  "description": "Fan/quotes account: 784 followers, 0 following, 33 posts (as indexed). Operator unknown.",
+  "tags": [
+   "instagram",
+   "fan-account",
+   "quotes",
+   "community",
+   "person-krishnamurti",
+   "host-instagram-com",
+   "format-instagram-account",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.instagram.com/u.g.krishnamurti/"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ie192ba97",
+  "medium": "image",
+  "title": "Parveen Babi with U.G. Krishnamurti photos (Pebble Beach; New York 1983)",
+  "date": "1983",
+  "year": 1983,
+  "place": "Pebble Beach, California; New York",
+  "people": [
+   "Parveen Babi",
+   "U.G. Krishnamurti",
+   "Valentine de Kerven"
+  ],
+  "format": "scanned photographs",
+  "language": null,
+  "duration": null,
+  "host": "people.well.com; wikibio.in (aggregator)",
+  "url": "https://people.well.com/user/jct/bphotos/ug_1.htm",
+  "description": "Provenance: both images are plates from Mahesh Bhatt's A Life (Penguin India 1992), captioned 'In Pebble Beach, California, with Parveen Babi' (1-12) and 'In New York, in 1983, with Parveen Babi and Valentine' (1-14). Babi flew to New York with UG and Valentine on 30 July 1983 (Wikipedia). WikiBio page reproduces one ('U. G. Krishnamurti With Parveen Babi') without credit. Scroll.in 2017 piece on the Babi material omitted from the UG comic biography.",
+  "tags": [
+   "parveen-babi",
+   "provenance",
+   "a-life",
+   "1983",
+   "new-york",
+   "pebble-beach",
+   "image",
+   "1980s",
+   "person-babi",
+   "person-krishnamurti",
+   "person-kerven",
+   "host-people-well-com-wikibio-in-aggregator",
+   "format-scanned-photographs",
+   "place-new-york",
+   "place-california",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/bphotos/ug_1.htm",
+   "https://wikibio.in/parveen-babi/",
+   "https://scroll.in/reel/834110/the-bit-about-parveen-babi-that-you-wont-find-in-the-ug-krishnamurti-biography",
+   "https://en.wikipedia.org/wiki/Parveen_Babi"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i0dd4131c",
+  "medium": "image",
+  "title": "Julie Thayer photographs of UG (300+ photographs; videographer of The Natural State)",
+  "date": "1989-2007",
+  "year": 1989,
+  "place": null,
+  "people": [
+   "Julie Thayer",
+   "U.G. Krishnamurti",
+   "Wendy Moorty"
+  ],
+  "format": "photographs and camcorder video",
+  "language": "en",
+  "duration": null,
+  "host": "travelswithug.com; ugunplugged.blogspot.com",
+  "url": "http://www.travelswithug.com/",
+  "description": "Thayer states in Travels with UG / Get Lost and Stay Lost that she took 'well over 300 photographs' of UG; ugunplugged blog (Apr 2017) names Wendy Moorty and Julie Clark Thayer as the two great photographers of UG. Her camcorder footage (1989-2007) is the core of the 2026 film The Natural State. No formal exhibition or photo book found.",
+  "tags": [
+   "julie-thayer",
+   "wendy-moorty",
+   "photographer",
+   "travels-with-ug",
+   "video",
+   "image",
+   "1980s",
+   "1989",
+   "person-thayer",
+   "person-krishnamurti",
+   "person-moorty",
+   "host-travelswithug-com-ugunplugged-blogspot-com",
+   "format-photographs-and-camcorder-video",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://www.travelswithug.com/",
+   "https://ugunplugged.blogspot.com/2017/04/",
+   "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ie71c291e",
+  "medium": "image",
+  "title": "The Natural State (2026, dir. Matthew Dougherty) - festival stills and listings",
+  "date": "2026-09",
+  "year": 2026,
+  "place": "Telluride CO; Saugerties NY (Woodstock FF); Upstate Films",
+  "people": [
+   "Matthew Dougherty",
+   "Jane Campion",
+   "Mahesh Bhatt",
+   "Julie Thayer",
+   "U.G. Krishnamurti"
+  ],
+  "format": "documentary film stills / festival pages",
+  "language": "en",
+  "duration": "99 min",
+  "host": "deadline.com; upstatefilms.org; thefilmstage.com; awfj.org; nextbestpicture.com; varietyindia.com; theoverlooknews.com",
+  "url": "https://www.upstatefilms.org/the-natural-state",
+  "description": "World premiere Telluride FF Sept 2026 (exec. producers Jane Campion, Mahesh Bhatt); Woodstock FF screening Sat 17 Oct 2026, Orpheum Theatre Saugerties; Upstate Films lists USA 2026, 99 min. Deadline interview carries a still of UG and Thayer credited 'Sine Altera'. No official poster found in search; Overlook News story on the Hudson Valley WhatsApp group that helped the film.",
+  "tags": [
+   "the-natural-state",
+   "film",
+   "2026",
+   "telluride",
+   "woodstock",
+   "stills",
+   "matthew-dougherty",
+   "image",
+   "2020s",
+   "person-dougherty",
+   "person-campion",
+   "person-bhatt",
+   "person-thayer",
+   "person-krishnamurti",
+   "host-deadline-com-upstatefilms-org-thefilmstage-com-awfj-org-nextbestpicture-com-varietyindia-com-theoverlooknews-com",
+   "format-documentary-film-stills-festival-pages",
+   "lang-en",
+   "has-duration",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+   "https://www.upstatefilms.org/the-natural-state",
+   "https://awfj.org/blog/2026/09/11/the-natural-state-telluride-ff-2026-review-by-diane-carson/",
+   "https://nextbestpicture.com/the-natural-state/",
+   "https://varietyindia.com/mahesh-bhatt-on-matthew-doughertys-the-natural-state-the-film-has-been-born-the-director-has-been-born-ug-krishnamurti-has-escaped/",
+   "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/",
+   "http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i049349cb",
+  "medium": "image",
+  "title": "Redbubble 'U.G. Krishnamurti' photographic print by user ugkrishnamurti",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "print-on-demand photographic print",
+  "language": "en",
+  "duration": null,
+  "host": "redbubble.com",
+  "url": "https://www.redbubble.com/i/photographic-print/U-G-Krishnamurti-by-ugkrishnamurti/59755035/zltf",
+  "description": "Print-on-demand reproduction of a UG photo sold by Redbubble seller 'ugkrishnamurti' (item 59755035). Copyright status of the underlying photo unverified.",
+  "tags": [
+   "redbubble",
+   "print-on-demand",
+   "merch",
+   "image",
+   "person-krishnamurti",
+   "host-redbubble-com",
+   "format-print-on-demand-photographic-print",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.redbubble.com/i/photographic-print/U-G-Krishnamurti-by-ugkrishnamurti/59755035/zltf"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i5a9c78a9",
+  "medium": "community",
+  "title": "Pinterest board 'i love U.G... and jiddu krishnamurti' (prakasamk)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "Pinterest board",
+  "language": "en",
+  "duration": null,
+  "host": "in.pinterest.com",
+  "url": "https://in.pinterest.com/prakasamk/i-love-ug/",
+  "description": "Pinterest board with ~100 pins of UG photos and quotes (mixed with J. Krishnamurti pins).",
+  "tags": [
+   "pinterest",
+   "photos",
+   "board",
+   "community",
+   "person-krishnamurti",
+   "host-in-pinterest-com",
+   "format-pinterest-board",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://in.pinterest.com/prakasamk/i-love-ug/"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i2091ec27",
+  "medium": "image",
+  "title": "Heart of Yoga blog: UG with Mark Whitwell, TKV Desikachar, Melissa Forbes",
+  "date": null,
+  "year": null,
+  "place": "Chennai (Krishnamacharya's Sannidhi)",
+  "people": [
+   "U.G. Krishnamurti",
+   "Mark Whitwell",
+   "T.K.V. Desikachar",
+   "Melissa Forbes"
+  ],
+  "format": "blog photos",
+  "language": "en",
+  "duration": null,
+  "host": "heartofyoga.com",
+  "url": "https://www.heartofyoga.com/blog/ug-krishnamurti",
+  "description": "Photos of UG with Mark Whitwell and TKV Desikachar at Krishnamacharya's site, and with Melissa Forbes. Mark Whitwell interview on UG also at markwhitwell.medium.com.",
+  "tags": [
+   "mark-whitwell",
+   "desikachar",
+   "chennai",
+   "photos",
+   "image",
+   "person-krishnamurti",
+   "person-whitwell",
+   "person-desikachar",
+   "person-forbes",
+   "host-heartofyoga-com",
+   "format-blog-photos",
+   "lang-en",
+   "place-chennai",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.heartofyoga.com/blog/ug-krishnamurti",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ie408a761",
+  "medium": "archive",
+  "title": "ugkrishnamurti.net - main UG website (full texts of books)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "website",
+  "language": "en",
+  "duration": null,
+  "host": "ugkrishnamurti.net",
+  "url": "http://www.ugkrishnamurti.net/ugkrishnamurti-net/index.htm",
+  "description": "Listed by Narayana Moorty (narayanamoorty.net) as UG's main website; Dharmapedia says most published works by and about UG can be read freely there. Operator not confirmed by search. Companion .org described by Moorty as a 'photos and quotes' site.",
+  "tags": [
+   "website",
+   "full-texts",
+   "ugkrishnamurti-net",
+   "archive",
+   "person-krishnamurti",
+   "host-ugkrishnamurti-net",
+   "format-website",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://narayanamoorty.net/",
+   "https://en.dharmapedia.net/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "iea8781c6",
+  "medium": "archive",
+  "title": "ugkrishnamurti.org - photos and quotes site (status uncertain)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "website",
+  "language": "en",
+  "duration": null,
+  "host": "ugkrishnamurti.org",
+  "url": "http://www.ugkrishnamurti.org/",
+  "description": "Narayana Moorty's links page describes .org as a photos-and-quotes site; Dharmapedia lists .org as 'the website'. Operator (Raj Mehta / Essential UG?) NOT confirmed; search for 'Essential UG Raj Mehta' returned nothing. Wayback snapshot range not retrievable without fetch - still open.",
+  "tags": [
+   "website",
+   "ugkrishnamurti-org",
+   "wayback",
+   "lead",
+   "archive",
+   "person-krishnamurti",
+   "host-ugkrishnamurti-org",
+   "format-website",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://narayanamoorty.net/",
+   "https://en.dharmapedia.net/wiki/U._G._Krishnamurti"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i253e6759",
+  "medium": "archive",
+  "title": "ugkrishnamurti.in - 'The Revolutionary Spiritual Teacher' site with Resources & Archive",
+  "date": null,
+  "year": null,
+  "place": "India",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "website",
+  "language": "en",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/resources-and-archive",
+  "description": "Modern site with sections 'resources-and-archive' and 'resources-and-archive/book-about-ug'; lists a contact email. Operator not identified by search. A photo-gallery page was not surfaced.",
+  "tags": [
+   "website",
+   "ugkrishnamurti-in",
+   "india",
+   "resources",
+   "archive",
+   "person-krishnamurti",
+   "host-ugkrishnamurti-in",
+   "format-website",
+   "lang-en",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/",
+   "https://www.ugkrishnamurti.in/resources-and-archive",
+   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "if34b03ea",
+  "medium": "archive",
+  "title": "Essential UG - U.G. Krishnamurti Streaming Video Archive (WELL, index_main.html)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "streaming video/audio index",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com/user/jct",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "'Essential UG' streaming archive hosted on The WELL (same jct user as the biography). Lists talks such as 1995 Yercaud talk and 'You are a Parrot'. Older resource, links may be dead. This confirms 'Essential UG' is the WELL jct site, not necessarily ugkrishnamurti.org.",
+  "tags": [
+   "essential-ug",
+   "well",
+   "video-archive",
+   "yercaud",
+   "archive",
+   "person-krishnamurti",
+   "host-people-well-com-user-jct",
+   "format-streaming-video-audio-index",
+   "lang-en",
+   "place-yercaud",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ie0f75910",
+  "medium": "archive",
+  "title": "Internet Archive collection: 'U.G. Krishnamurti conversations and interviews - audio' (ugkrishnamurti-audio)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Jeff Kaplan",
+   "U.G. Krishnamurti"
+  ],
+  "format": "archive.org collection (MP3 audio)",
+  "language": "en",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ugkrishnamurti-audio",
+  "description": "Collection identifier ugkrishnamurti-audio, creator Jeff Kaplan, ~80 items. Item IDs include ug_ug_w_mb (audio of TV conversation with Mahesh Bhatt; video id ug_ug_w_mb_150), ug_ug_parapsy (Dimensions in Parapsychology with Bryce Bond), ug_living_in_your_own_world, ug_guest_of_the_week_bbc_radio, ug_new_dimensions_19891114, ug_what_is_going_on_here_is_sa, ug_ug_with_unknown_individual, ug_there_is_no_such_thing_as_ultimate_reality. Status: public uploads; no explicit licence.",
+  "tags": [
+   "archive-org",
+   "audio",
+   "jeff-kaplan",
+   "collection",
+   "mp3",
+   "archive",
+   "person-kaplan",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-archive-org-collection",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ugkrishnamurti-audio?sort=-reviewdate",
+   "https://archive.org/details/ug_ug_w_mb",
+   "https://archive.org/details/ug_ug_parapsy",
+   "https://archive.org/details/ug_guest_of_the_week_bbc_radio",
+   "https://archive.org/details/ug_new_dimensions_19891114"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ibc678f5f",
+  "medium": "archive",
+  "title": "this robot dreaming blog: 'U. G. Krishnamurti tapes' (cassettes 1967-1990s uploaded to Internet Archive)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog post + archive.org MP3 uploads",
+  "language": "en",
+  "duration": null,
+  "host": "thisrobotdreaming.com",
+  "url": "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes",
+  "description": "Blog author announces uploading all their UG cassette tapes (1967 to 1990s) converted to MP3 to the Internet Archive with a 'listen here' link. Exact archive.org item IDs not surfaced by search - still open.",
+  "tags": [
+   "cassettes",
+   "archive-org",
+   "blog",
+   "audio",
+   "lead",
+   "archive",
+   "person-krishnamurti",
+   "host-thisrobotdreaming-com",
+   "format-blog-post-archive-org-mp3-uploads",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i913d2872",
+  "medium": "archive",
+  "title": "Internet Archive text items: UGKrishnamurtiTheCourageToStandAlone; UGKrishnamurtiStoppedInOurTracks227p; mindismythconver0000kris",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti",
+   "Henk Schonewille",
+   "K. Chandrasekhar"
+  ],
+  "format": "archive.org text items",
+  "language": "en",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/UGKrishnamurtiTheCourageToStandAlone",
+  "description": "Courage to Stand Alone (Amsterdam 1982 conversations; tapes by Henk Schonewille) in opensource collection; Stopped In Our Tracks 227p scan; Mind is a Myth library scan (mindismythconver0000kris, controlled lending).",
+  "tags": [
+   "archive-org",
+   "texts",
+   "books",
+   "archive",
+   "person-krishnamurti",
+   "person-schonewille",
+   "person-chandrasekhar",
+   "host-archive-org",
+   "format-archive-org-text-items",
+   "lang-en",
+   "place-amsterdam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/UGKrishnamurtiTheCourageToStandAlone",
+   "https://archive.org/details/UGKrishnamurtiStoppedInOurTracks227p",
+   "https://archive.org/details/mindismythconver0000kris"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i6274b46d",
+  "medium": "archive",
+  "title": "Smriti Books (New Delhi) UG titles",
+  "date": "2003-2005",
+  "year": 2003,
+  "place": "New Delhi",
+  "people": [
+   "K. Chandrasekhar",
+   "Narayana Moorty",
+   "Rodney Arms",
+   "Robert Carr",
+   "Ellen Chrystal"
+  ],
+  "format": "publisher catalogue (partial)",
+  "language": "en",
+  "duration": null,
+  "host": "openlibrary.org; bookscouter.com",
+  "url": "https://openlibrary.org/publishers/Smriti_Books",
+  "description": "Smriti Books, 124 Siddhartha Enclave, New Delhi 110014 (not Bangalore). UG titles: Mind Is a Myth (2003, dist. New Age Books); God Men Con Men (Robert Carr, 2003); Stopped in Our Tracks (K. Chandrasekhar, ed. Moorty, 2005, ISBN 8187967765); Mystique of Enlightenment (2005, ISBN 9788187967095); Courage to Stand Alone. Open Library lists 16 works for the publisher. Bangalore UG publishers: Sowmya Publishers (Thought Is Your Enemy, 1990), Akshaya Publications (No Way Out).",
+  "tags": [
+   "smriti-books",
+   "publisher",
+   "catalogue",
+   "india-editions",
+   "archive",
+   "2000s",
+   "2003",
+   "person-chandrasekhar",
+   "person-moorty",
+   "person-arms",
+   "person-carr",
+   "person-chrystal",
+   "host-openlibrary-org-bookscouter-com",
+   "format-publisher-catalogue",
+   "lang-en",
+   "place-bangalore",
+   "place-delhi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://openlibrary.org/publishers/Smriti_Books",
+   "https://bookscouter.com/publisher/smriti-books",
+   "https://people.well.com/user/jct/lists.html",
+   "https://books.google.com/books/about/Stopped_in_Our_Tracks.html?id=TVRWA5imaeoC"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "ia838b806",
+  "medium": "community",
+  "title": "Italian Facebook group 'U.G. in italiano' (Pierluigi Piazza) and riflessioni.it Italian pages",
+  "date": null,
+  "year": null,
+  "place": "Italy",
+  "people": [
+   "Pierluigi Piazza",
+   "U.G. Krishnamurti"
+  ],
+  "format": "Facebook group + web pages",
+  "language": "it",
+  "duration": null,
+  "host": "facebook.com; riflessioni.it",
+  "url": "https://www.riflessioni.it/lettereonline/intervista-u-g-krishnamurti.htm",
+  "description": "riflessioni.it hosts an Italian translation of a 1995 Rome interview and points to a Facebook group dedicated to UG curated by Pierluigi Piazza. Italian books: L'Inganno dell'Illuminazione (Re Nudo Edizioni; review at piloton.it/libri/ug.html); famigliafideus.com PDF 'Interviste a U.G. Krishnamurti'. Group URL/size not surfaced.",
+  "tags": [
+   "italian",
+   "facebook-group",
+   "riflessioni",
+   "re-nudo",
+   "community",
+   "person-piazza",
+   "person-krishnamurti",
+   "host-facebook-com-riflessioni-it",
+   "format-facebook-group-web-pages",
+   "lang-it",
+   "place-italy",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.riflessioni.it/lettereonline/intervista-u-g-krishnamurti.htm",
+   "https://www.piloton.it/libri/ug.html",
+   "https://www.ilgiardinodeilibri.it/autori/_u-g-krishnamurti.php",
+   "https://www.famigliafideus.com/wp-content/uploads/2018/05/INTERVISTE-A-U.G.KRISHNAMURTI-Anonimo.pdf"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i5045be2e",
+  "medium": "archive",
+  "title": "Dutch editions: De moed om te zijn wie je bent (Amsterdam 1982 gesprekken); De denkbeeldige geest",
+  "date": null,
+  "year": null,
+  "place": "Netherlands",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "books",
+  "language": "nl",
+  "duration": null,
+  "host": "amazon.it listing",
+  "url": "https://www.amazon.it/Libri-Uppaluri-Gopala-Krishnamurti/s?rh=n%3A411663031%2Cp_27%3AUppaluri-Gopala+Krishnamurti",
+  "description": "Dutch translations surfaced via Amazon.it author listing. Italian Wikipedia notes translations exist in French, German, Dutch, Spanish, Polish, Serbian, Korean, Hindi, Tamil, Telugu, Kannada, Italian. No dedicated German/Dutch UG website found.",
+  "tags": [
+   "dutch",
+   "translations",
+   "editions",
+   "archive",
+   "person-krishnamurti",
+   "host-amazon-it-listing",
+   "format-books",
+   "lang-nl",
+   "place-amsterdam",
+   "place-netherlands",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.it/Libri-Uppaluri-Gopala-Krishnamurti/s?rh=n%3A411663031%2Cp_27%3AUppaluri-Gopala+Krishnamurti",
+   "https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i3a2109e5",
+  "medium": "community",
+  "title": "X/Twitter account @krishnamurtiug",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "X account",
+  "language": "en",
+  "duration": null,
+  "host": "x.com",
+  "url": "https://x.com/krishnamurtiug",
+  "description": "Quotes account named 'U. G. Krishnamurti'. Follower count not surfaced.",
+  "tags": [
+   "x-twitter",
+   "quotes-account",
+   "community",
+   "person-krishnamurti",
+   "host-x-com",
+   "format-x-account",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://x.com/krishnamurtiug"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i0d6841d8",
+  "medium": "community",
+  "title": "Facebook page 'U G Krishnamurti' (ugknowayout)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "Facebook page",
+  "language": "en",
+  "duration": null,
+  "host": "facebook.com",
+  "url": "https://www.facebook.com/ugknowayout/",
+  "description": "Facebook page; links to ugkrishnamurti.net. Size not surfaced.",
+  "tags": [
+   "facebook",
+   "page",
+   "community",
+   "person-krishnamurti",
+   "host-facebook-com",
+   "format-facebook-page",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.facebook.com/ugknowayout/"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "i8b6b03d5",
+  "medium": "archive",
+  "title": "Narayana Moorty's Philosophy Page (narayanamoorty.net) - links hub",
+  "date": null,
+  "year": null,
+  "place": "Seaside, California",
+  "people": [
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "personal website",
+  "language": "en",
+  "duration": null,
+  "host": "narayanamoorty.net",
+  "url": "https://narayanamoorty.net/",
+  "description": "Narayana Moorty's site; links to ugkrishnamurti.net (main site) and .org (photos and quotes). Moorty co-edited Stopped in Our Tracks.",
+  "tags": [
+   "narayana-moorty",
+   "links",
+   "website",
+   "archive",
+   "person-moorty",
+   "host-narayanamoorty-net",
+   "format-personal-website",
+   "lang-en",
+   "place-seaside",
+   "place-california",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://narayanamoorty.net/"
+  ],
+  "origin": "wave2-img-arch"
+ },
+ {
+  "id": "iae6b6e55",
+  "medium": "text",
+  "title": "Deadline: Jane Campion & Matt Dougherty on their Telluride doc 'The Natural State'",
+  "date": "2026-09",
+  "year": 2026,
+  "place": "Telluride, Colorado",
+  "people": [
+   "Matthew Dougherty",
+   "Jane Campion",
+   "U.G. Krishnamurti"
+  ],
+  "format": "interview / press article",
+  "language": "en",
+  "duration": null,
+  "host": "deadline.com",
+  "url": "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
+  "description": "Deadline interview ahead of the world premiere of the UG documentary The Natural State at Telluride 2026; Campion executive produced.",
+  "tags": [
+   "press",
+   "film",
+   "the-natural-state",
+   "telluride",
+   "2026",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "person-campion",
+   "person-krishnamurti",
+   "host-deadline-com",
+   "format-interview-press-article",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ie6e5439e",
+  "medium": "text",
+  "title": "Variety India: Mahesh Bhatt on Matthew Dougherty's 'The Natural State'",
+  "date": "2026-09",
+  "year": 2026,
+  "place": "Mumbai",
+  "people": [
+   "Mahesh Bhatt",
+   "Matthew Dougherty",
+   "U.G. Krishnamurti"
+  ],
+  "format": "press article",
+  "language": "en",
+  "duration": null,
+  "host": "varietyindia.com",
+  "url": "https://varietyindia.com/mahesh-bhatt-on-matthew-doughertys-the-natural-state-the-film-has-been-born-the-director-has-been-born-ug-krishnamurti-has-escaped/",
+  "description": "Mahesh Bhatt (co-executive producer) quoted: 'The film has been born, the director has been born, UG Krishnamurti has escaped'. Film described as nearly 17 years in the making.",
+  "tags": [
+   "press",
+   "film",
+   "the-natural-state",
+   "mahesh-bhatt",
+   "2026",
+   "text",
+   "2020s",
+   "person-bhatt",
+   "person-dougherty",
+   "person-krishnamurti",
+   "host-varietyindia-com",
+   "format-press-article",
+   "lang-en",
+   "place-mumbai",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://varietyindia.com/mahesh-bhatt-on-matthew-doughertys-the-natural-state-the-film-has-been-born-the-director-has-been-born-ug-krishnamurti-has-escaped/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i4faba8f0",
+  "medium": "text",
+  "title": "The Film Stage: Woodstock Review - The Natural State Examines the Contradictory State of Non-Belief",
+  "date": "2026-10",
+  "year": 2026,
+  "place": "Woodstock, NY",
+  "people": [
+   "Matthew Dougherty",
+   "U.G. Krishnamurti"
+  ],
+  "format": "film review",
+  "language": "en",
+  "duration": null,
+  "host": "thefilmstage.com",
+  "url": "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/",
+  "description": "Review from Woodstock Film Festival 2026; calls the film 'a challenging text, in no small part because U.G. himself is challenging'.",
+  "tags": [
+   "press",
+   "film-review",
+   "the-natural-state",
+   "2026",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "person-krishnamurti",
+   "host-thefilmstage-com",
+   "format-film-review",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ie56c5d43",
+  "medium": "text",
+  "title": "AWFJ: The Natural State (Telluride FF 2026) review by Diane Carson",
+  "date": "2026-09-11",
+  "year": 2026,
+  "place": "Telluride, Colorado",
+  "people": [
+   "Diane Carson",
+   "Matthew Dougherty",
+   "U.G. Krishnamurti"
+  ],
+  "format": "film review",
+  "language": "en",
+  "duration": null,
+  "host": "awfj.org",
+  "url": "https://awfj.org/blog/2026/09/11/the-natural-state-telluride-ff-2026-review-by-diane-carson/",
+  "description": "Alliance of Women Film Journalists review; 'a decidedly unusual documentary'. Companion Telluride overview part two also mentions the film.",
+  "tags": [
+   "press",
+   "film-review",
+   "the-natural-state",
+   "telluride",
+   "2026",
+   "text",
+   "2020s",
+   "person-carson",
+   "person-dougherty",
+   "person-krishnamurti",
+   "host-awfj-org",
+   "format-film-review",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://awfj.org/blog/2026/09/11/the-natural-state-telluride-ff-2026-review-by-diane-carson/",
+   "https://awfj.org/blog/2026/09/11/telluride-film-festival-2026-overview-part-two-diane-carson-reports/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i769ae82f",
+  "medium": "text",
+  "title": "The Overlook News: A Film 18 Years in the Making Found Its Footing in a Hudson Valley WhatsApp Group",
+  "date": "2026-10",
+  "year": 2026,
+  "place": "Hudson Valley, NY",
+  "people": [
+   "Matthew Dougherty",
+   "Julie Thayer",
+   "U.G. Krishnamurti"
+  ],
+  "format": "press feature",
+  "language": "en",
+  "duration": null,
+  "host": "theoverlooknews.com",
+  "url": "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/",
+  "description": "Local feature on the making of The Natural State (project began 2008 after Dougherty found Julie Thayer's 1989 footage online); Woodstock FF screening 17 Oct 2026, Orpheum Theatre, Saugerties.",
+  "tags": [
+   "press",
+   "film",
+   "the-natural-state",
+   "julie-thayer",
+   "2026",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "person-thayer",
+   "person-krishnamurti",
+   "host-theoverlooknews-com",
+   "format-press-feature",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ic5bac74c",
+  "medium": "text",
+  "title": "Upstate Films: The Natural State (film page)",
+  "date": "2026",
+  "year": 2026,
+  "place": "Rhinebeck / Saugerties, NY",
+  "people": [
+   "Matthew Dougherty",
+   "Jane Campion",
+   "Mahesh Bhatt"
+  ],
+  "format": "screening listing",
+  "language": "en",
+  "duration": null,
+  "host": "upstatefilms.org",
+  "url": "https://www.upstatefilms.org/the-natural-state",
+  "description": "Listing gives runtime 99 min; co-executive produced by Jane Campion and Mahesh Bhatt. TV Guide lists 1h42.",
+  "tags": [
+   "film",
+   "the-natural-state",
+   "listing",
+   "2026",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "person-campion",
+   "person-bhatt",
+   "host-upstatefilms-org",
+   "format-screening-listing",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.upstatefilms.org/the-natural-state",
+   "https://www.tvguide.com/movies/the-natural-state/2060194447"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ia3383060",
+  "medium": "text",
+  "title": "cuke.com: Death of U.G. Krishnamurti (press compilation)",
+  "date": "2007-03",
+  "year": 2007,
+  "place": "Vallecrosia, Italy",
+  "people": [
+   "U.G. Krishnamurti",
+   "Mahesh Bhatt"
+  ],
+  "format": "web compilation of death notices",
+  "language": "en",
+  "duration": null,
+  "host": "cuke.com",
+  "url": "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
+  "description": "Compiles reports of UG's death on 22 March 2007 including a DNA (Daily News and Analysis) notice giving his age as 89; notes The Hindu reported the death on 25 March 2007.",
+  "tags": [
+   "press",
+   "obituary",
+   "2007",
+   "death",
+   "text",
+   "2000s",
+   "person-krishnamurti",
+   "person-bhatt",
+   "host-cuke-com",
+   "format-web-compilation-of-death-notices",
+   "lang-en",
+   "place-vallecrosia",
+   "place-italy",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ibf6d96fd",
+  "medium": "text",
+  "title": "What the Press and Others Say About U.G. (WELL, ntbook3.htm)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "web page / press-quote compilation",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/ntbook3.htm",
+  "description": "WELL page compiling press quotes about UG, including a 1987 City Magazine (Bombay) item; part of the WELL mirror of the Sowmya/Dinesh books.",
+  "tags": [
+   "well",
+   "press",
+   "compilation",
+   "text",
+   "person-krishnamurti",
+   "host-people-well-com",
+   "format-web-page-press-quote-compilation",
+   "lang-en",
+   "place-bombay",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ntbook3.htm"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "if64d79de",
+  "medium": "text",
+  "title": "ugkrishnamurti.in Resources & Archive: press clippings 1970-2000 (Deccan Herald 1981-1993 etc.)",
+  "date": null,
+  "year": null,
+  "place": "Bangalore",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "press-clipping index",
+  "language": "en",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/resources-and-archive",
+  "description": "Official site index of magazine and newspaper clippings 1970-2000 including Deccan Herald pieces 1981-1993 on his 'Natural State', his views on money, and being labelled a godman.",
+  "tags": [
+   "press",
+   "archive",
+   "deccan-herald",
+   "clippings",
+   "text",
+   "person-krishnamurti",
+   "host-ugkrishnamurti-in",
+   "format-press-clipping-index",
+   "lang-en",
+   "place-bangalore",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i72287307",
+  "medium": "text",
+  "title": "Narayana Moorty, 'Fragmentation, Meditation, and Transformation' (JICPR V.2, 1988)",
+  "date": "1988-01",
+  "year": 1988,
+  "place": "India",
+  "people": [
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "narayanamoorty.net",
+  "url": "https://narayanamoorty.net/",
+  "description": "Journal of Indian Council of Philosophical Research, Vol. V No. 2, Jan-Apr 1988; listed among Moorty's papers on his site; draws on UG.",
+  "tags": [
+   "academic",
+   "narayana-moorty",
+   "jicpr",
+   "text",
+   "1980s",
+   "1988",
+   "person-moorty",
+   "host-narayanamoorty-net",
+   "format-journal-article",
+   "lang-en",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://narayanamoorty.net/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i8d34890d",
+  "medium": "text",
+  "title": "Narayana Moorty, 'Thought, the Natural State and the Body: Deconstruction of Spirituality in U.G. Krishnamurti' (2007)",
+  "date": "2007-09-21",
+  "year": 2007,
+  "place": "International Congress of Vedanta",
+  "people": [
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "conference paper",
+  "language": "en",
+  "duration": null,
+  "host": "narayanamoorty.net",
+  "url": "https://narayanamoorty.net/",
+  "description": "Paper presented 21 Sept 2007 at the International Congress of Vedanta.",
+  "tags": [
+   "academic",
+   "narayana-moorty",
+   "conference-paper",
+   "text",
+   "2000s",
+   "2007",
+   "person-moorty",
+   "host-narayanamoorty-net",
+   "format-conference-paper",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://narayanamoorty.net/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "id0667122",
+  "medium": "text",
+  "title": "Narayana Moorty, 'Science and Spirituality' (Krishnamurti Centennial Conference, Miami University, Oxford OH, 1995)",
+  "date": "1995-05",
+  "year": 1995,
+  "place": "Oxford, Ohio",
+  "people": [
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "conference paper",
+  "language": "en",
+  "duration": null,
+  "host": "ug-krishnamurti.blogspot.com",
+  "url": "http://ug-krishnamurti.blogspot.com/2010/09/science-and-spirituality-any-points-of.html",
+  "description": "Presented May 18-21 1995; discusses UG alongside the conference theme; copy hosted on a UG blog.",
+  "tags": [
+   "academic",
+   "narayana-moorty",
+   "conference-paper",
+   "text",
+   "1990s",
+   "1995",
+   "person-moorty",
+   "host-ug-krishnamurti-blogspot-com",
+   "format-conference-paper",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://ug-krishnamurti.blogspot.com/2010/09/science-and-spirituality-any-points-of.html",
+   "https://narayanamoorty.net/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i435721f2",
+  "medium": "text",
+  "title": "T.R. Raghunath, 'The Unrational Philosophy of U.G. Krishnamurti' (chapter in No Way Out)",
+  "date": "1991",
+  "year": 1991,
+  "place": "McMaster University, Hamilton",
+  "people": [
+   "T.R. Raghunath",
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "book chapter / essay",
+  "language": "en",
+  "duration": null,
+  "host": "en.wikisource.org",
+  "url": "https://en.wikisource.org/wiki/No_Way_Out",
+  "description": "Essay by T.R. Raghunath (McMaster Dept. of Philosophy) printed in No Way Out (1991) alongside Moorty's introduction dated August 1991; full text on Wikisource and scribd.",
+  "tags": [
+   "academic",
+   "no-way-out",
+   "raghunath",
+   "essay",
+   "text",
+   "1990s",
+   "1991",
+   "person-raghunath",
+   "person-moorty",
+   "host-en-wikisource-org",
+   "format-book-chapter-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out",
+   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ide0eb474",
+  "medium": "text",
+  "title": "Online Books Page: U. G. Krishnamurti (Uppaluri Gopala) author entry",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "library index entry",
+  "language": "en",
+  "duration": null,
+  "host": "onlinebooks.library.upenn.edu",
+  "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Krishnamurti,+U.+G.+(Uppaluri+Gopala)",
+  "description": "UPenn Online Books Page author entry listing freely available UG texts.",
+  "tags": [
+   "index",
+   "online-books-page",
+   "ebooks",
+   "text",
+   "person-krishnamurti",
+   "host-onlinebooks-library-upenn-edu",
+   "format-library-index-entry",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Krishnamurti,+U.+G.+(Uppaluri+Gopala)"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "if3553bd9",
+  "medium": "text",
+  "title": "La mente è un mito. Conversazioni sconcertanti con un uomo chiamato U.G. (Aequilibrium, trans. Giovanni Turchi)",
+  "date": "1990",
+  "year": 1990,
+  "place": "Milan",
+  "people": [
+   "U.G. Krishnamurti",
+   "Giovanni Turchi",
+   "Terry Newland"
+  ],
+  "format": "book (translation)",
+  "language": "it",
+  "duration": null,
+  "host": "ibs.it",
+  "url": "https://www.ibs.it/mente-mito-conversazioni-sconcertanti-con-libro-uppaluri-gopala-krishnamurti/e/9788898365098",
+  "description": "Italian translation of Mind is a Myth; first Aequilibrium 1990, current edition ISBN 9788898365098, c.183 pp. A separate Italian rendering 'La mente come mito' trans. F. Pellegrini circulates online (meditare.net, gianfrancobertagni.it).",
+  "tags": [
+   "translation",
+   "italian",
+   "mind-is-a-myth",
+   "aequilibrium",
+   "text",
+   "1990s",
+   "1990",
+   "person-krishnamurti",
+   "person-turchi",
+   "person-newland",
+   "host-ibs-it",
+   "format-book",
+   "lang-it",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ibs.it/mente-mito-conversazioni-sconcertanti-con-libro-uppaluri-gopala-krishnamurti/e/9788898365098",
+   "https://www.hoepli.it/libro/la-mente-e-un-mito-conversazioni-sconcertanti-con-un-uomo-chiamato-u-g/9788898365098.html",
+   "https://www.meditare.net/wp/spiritualita/la-mente-come-mito-con-u-g-krishnamurti/",
+   "http://www.gianfrancobertagni.it/materiali/maestri/mentemito.htm"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i0ca4dc75",
+  "medium": "text",
+  "title": "La mente es un mito: Inquietantes conversaciones con un hombre llamado U.G. (Editorial Sirio, trans. Ricardo de Frutos)",
+  "date": "2002-10",
+  "year": 2002,
+  "place": "Málaga",
+  "people": [
+   "U.G. Krishnamurti",
+   "Ricardo de Frutos"
+  ],
+  "format": "book (translation)",
+  "language": "es",
+  "duration": null,
+  "host": "casadellibro.com",
+  "url": "https://www.casadellibro.com/libro-la-mente-es-un-mito/9788478088959/2085884",
+  "description": "Spanish Mind is a Myth. Editions: Sirio 1st ed. Oct 2002 (ISBN 9788478084821, 272 pp.), 2013 (ISBN 9788478088959, 216 pp.), 2017 ebook (ISBN 9788478089246). Sirio described as pioneer publisher of UG in Spanish.",
+  "tags": [
+   "translation",
+   "spanish",
+   "mind-is-a-myth",
+   "sirio",
+   "text",
+   "2000s",
+   "2002",
+   "person-krishnamurti",
+   "person-frutos",
+   "host-casadellibro-com",
+   "format-book",
+   "lang-es",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.casadellibro.com/libro-la-mente-es-un-mito/9788478088959/2085884",
+   "https://www.agapea.com/libros/La-mente-es-un-mito-9788478084821-i.htm",
+   "https://www.everand.com/book/334694326/La-mente-es-un-mito-Inquietantes-conversaciones-con-un-hombre-llamado-U-G-Uppaluri-Gopara-Krishnamurti",
+   "https://www.nodualidad.info/libros/mente-mito.html"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "id4a01a67",
+  "medium": "text",
+  "title": "De moed om te zijn wie je bent (Samsara Uitgeverij, 2016)",
+  "date": "2016",
+  "year": 2016,
+  "place": "Amsterdam",
+  "people": [
+   "U.G. Krishnamurti",
+   "Henk Schonewille",
+   "Julie Thayer"
+  ],
+  "format": "book (translation)",
+  "language": "nl",
+  "duration": null,
+  "host": "samsarabooks.shop",
+  "url": "https://www.samsarabooks.shop/nl/de-moed-om-te-zijn-wie-je-bent-ebook.html",
+  "description": "Dutch Courage to Stand Alone, hardcover 150 pp., ISBN 9789491411366; ebook ISBN 9789491411380. Foreword Henk Schonewille, introduction Julie Thayer; based on 1982 Amsterdam conversations, revised and expanded.",
+  "tags": [
+   "translation",
+   "dutch",
+   "courage-to-stand-alone",
+   "samsara",
+   "text",
+   "2010s",
+   "2016",
+   "person-krishnamurti",
+   "person-schonewille",
+   "person-thayer",
+   "host-samsarabooks-shop",
+   "format-book",
+   "lang-nl",
+   "place-amsterdam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.standaardboekhandel.be/p/de-moed-om-te-zijn-wie-je-bent-9789491411366",
+   "https://www.kobo.com/nl/nl/ebook/de-moed-om-te-zijn-wie-je-bent",
+   "https://inzicht.org/artikelen/de-moed-om-te-zijn-wie-je-bent/"
+  ],
+  "origin": "wave2-text"
+ }
+]
