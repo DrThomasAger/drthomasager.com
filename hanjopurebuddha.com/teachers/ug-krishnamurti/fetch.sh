@@ -534,16 +534,35 @@ wget -q -E -P downloads/pages 'https://solvanam.com/2020/07/24/%E0%AE%8E%E0%AE%A
 wget -q -E -P downloads/pages 'https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F='  # U.G. Krishnamurti R.I.P. (Thomas Ligotti Online thread)
 wget -q -E -P downloads/pages 'https://www.scribd.com/document/922484847/18651867-The-death-of-UG'  # The death of UG (Scribd compilation)
 wget -q -E -P downloads/pages 'https://www.ovid.com/jnls/cancerjournal/fulltext/10.4103/jcrat_2015114_1021~a-taste-of-life-the-last-days-of-ug-krishnamurti'  # A Taste of Life: The Last Days of U.G. Krishnamurti (review,
-wget -q -E -P downloads/pages 'https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/'  # Mahesh Bhatt on UG Krishnamurti (book excerpt)
+wget -q -E -P downloads/pages 'https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/'  # Mahesh Bhatt to UG Krishnamurti: I was in a spiritual coma. 
 wget -q -E -P downloads/pages 'http://thenaturalman.blogspot.com/2005/07/nirvakalpa-heart-u.html'  # The Natural Man blog (Larry Morris)
 wget -q -E -P downloads/pages 'https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/'  # The Natural State review: decoding India's fiercest anti-gur
 wget -q -E -P downloads/pages 'https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti'  # 'UG threw me back into life': Mahesh Bhatt on the brutal, be
-wget -q -E -P downloads/pages 'https://www.hammertonail.com/interviews/matthew-dougherty/'  # Matthew Dougherty interview (Hammer to Nail)
+wget -q -E -P downloads/pages 'https://www.hammertonail.com/interviews/matthew-dougherty/'  # A Conversation with Matthew Dougherty (The Natural State) — 
 wget -q -E -P downloads/pages 'http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html'  # The Natural State (2026) – Woodstock 2026 (Unseen Films)
 wget -q -E -P downloads/pages 'https://nextbestpicture.com/the-natural-state/'  # The Natural State (Next Best Picture)
+wget -q -E -P downloads/pages 'https://www.riflessioni.it/forum/spiritualita/10632-u-g-krishnamurti-ci-ha-lasciato.html'  # U.G. Krishnamurti ci ha lasciato (riflessioni.it forum)
+wget -q -E -P downloads/pages 'http://www.arivista.org/riviste/Arivista/337/99.htm'  # L'anarchismo religioso di UG Krishnamurti
+wget -q -E -P downloads/pages 'https://www.dawn.com/news/502900'  # NON-FICTION: The anti-guru's last days (review of A Taste of
+wget -q -E -P downloads/pages 'https://www.tribuneindia.com/2009/20090620/saturday/above.htm'  # The Tribune Saturday Extra, 20 June 2009 — on Mahesh Bhatt's
+wget -q -E -P downloads/pages 'https://www.dnaindia.com/lifestyle/review-book-review-this-dog-barking-the-strange-story-of-ug-krishnamurti-2342628'  # Book Review: This Dog Barking — The Strange Story of UG Kris
+wget -q -E -P downloads/pages 'https://latest.sundayguardianlive.com/books/8659-book-review-spiritual-thought-becomes-grist-new-graphic-novel'  # Book Review: Spiritual thought becomes grist for new graphic
+wget -q -E -P downloads/pages 'https://realitysandwich.com/introduction_u_g_krishnamurti/'  # Enlightenment is Physical: An Introduction to U.G. Krishnamu
+wget -q -E -P downloads/pages 'https://www.masala.com/bollywood-news/inside-the-heartbreaking-love-story-of-mahesh-bhatt-and-parveen-babi'  # Inside the heartbreaking love story of Mahesh Bhatt and Parv
+wget -q -E -P downloads/pages 'https://mystica.tv/der-trugerische-schein-der-erleuchtung-die-radikalen-ideen-eines-radikalen-menschen-von-u-g-krishnamurti/'  # Der trügerische Schein der Erleuchtung — review (Mystica.tv)
+wget -q -E -P downloads/pages 'https://www.onderzoekhetzelf.nl/ug-krishnamurti.html'  # UG Krishnamurti — Onderzoek Het Zelf (Dutch reference site)
+wget -q -E -P downloads/pages 'https://www.tribuneindia.com/news/book-reviews/mahesh-bhatt-on-anti-guru-ug-krishnamurti-as-his-guru/'  # Mahesh Bhatt on 'anti-guru' UG Krishnamurti as his guru (rev
+wget -q -E -P downloads/pages 'https://www.tribuneindia.com/news/entertainment/ug-krishnamurti-ended-satsang-to-find-me-whisky-mahesh-bhatt-recalls-unusual-guru-moment/'  # 'UG Krishnamurti ended satsang to find me whisky': Mahesh Bh
+wget -q -E -P downloads/pages 'https://www.freepressjournal.in/lifestyle/book-review-mahesh-bhatts-the-ashes-are-warm-is-a-deeply-personal-exploration-of-truth-and-presence'  # Book Review: Mahesh Bhatt's 'The Ashes Are Warm' is a deeply
+wget -q -E -P downloads/pages 'https://storizen.com/book-reviews/the-ashes-are-warm-by-mahesh-bhatt/'  # Book Review: 'The Ashes Are Warm' by Mahesh Bhatt (Storizen)
+wget -q -E -P downloads/pages 'https://scroll.in/reel/1092427/mahesh-bhatt-on-his-mother-shrin-the-woman-who-belonged-everywhere'  # Mahesh Bhatt on his mother Shrin: 'The woman who belonged ev
+wget -q -E -P downloads/pages 'https://www.hammertonail.com/reviews/the-natural-state/'  # The Natural State (review, Hammer to Nail)
+wget -q -E -P downloads/pages 'http://www.unseenfilms.net/2026/09/a-pointer-toward-natural-state-2026.html'  # A pointer toward The Natural State (2026) — Telluride 2026 (
+wget -q -E -P downloads/pages 'https://www.yahoo.com/entertainment/movies/articles/telluride-film-festival-2026-read-055000106.html'  # Telluride Film Festival 2026: read all of Deadline's reviews
+wget -q -E -P downloads/pages 'https://www.rottentomatoes.com/m/the_natural_state'  # The Natural State — Rotten Tomatoes and official film site
 wget -q -E -P downloads/pages 'https://ugkrishnamurti.in/about-ug/life-background'  # Life & Background
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven'  # Valentine de Kerven (page)
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/'  # UG's Essence in Words (section index)
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/my-approach'  # My Approach
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/quotes'  # Quotes
-wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/remembering-ug'  # Remembering UG — 'Stories from those who knew UG' (section)
+wget -q -E -P downloads/pages 'https://ugkrishnamurti.in/ug-speaks/videos'  # Essential Videos / Explore Videos (page)

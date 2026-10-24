@@ -1,5 +1,9 @@
 # Next wave — briefs waiting for search budget
 
+Status 2026-10-24 evening: briefs 1–4 have run (see wave5-*.md and
+wave5-verification-2.md); 5–8 remain to run. 149 quotes, mostly
+paraphrases and fragments, remain unverified after two passes.
+
 Web search in the gathering environment is limited per turn and shared by
 every researcher. These briefs were written but refused for budget, or
 returned partial. Run them next.
