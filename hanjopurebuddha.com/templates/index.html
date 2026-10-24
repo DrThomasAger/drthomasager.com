@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hanjo Pure Buddha · Gurus</title>
+<meta name="description" content="A browsing section of enlightened people. Each one with their words, their recordings, their photographs and their life, every line traced to its source.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single centred column; the guru grid is the page. The thread of the
+   four directions (sapphire, gold, ruby, jade) runs as a hairline under the title,
+   the Buddhism stream's thin strand from the family's palette. */
+:root { --bg: #f4f5f7; --surface: #ffffff; --line: #d3d9df; --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+.wrap { max-width: 1100px; margin: 0 auto; }
+header { padding-block: 40px 20px; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); }
+h1 { font-family: var(--display); font-weight: 500; font-size: clamp(32px, 6vw, 52px); line-height: 1.05; margin: 6px 0 10px; text-wrap: balance; }
+.thread { height: 2px; width: 160px; background: linear-gradient(90deg, #3b6fd4, #f5c542, #ff7f8d, #4ca373, #3b6fd4); background-size: 200% 100%; margin-block: 14px 16px; }
+header p { color: var(--fg-2); max-width: 62ch; margin: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; margin-top: 28px; }
+.guru { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: inherit; min-width: 0; }
+.guru:hover { border-color: var(--accent); }
+.guru h2 { font-family: var(--display); font-weight: 500; font-size: 24px; margin: 0; line-height: 1.15; }
+.guru .dates { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.guru p { margin: 0; color: var(--fg-2); font-size: 14px; }
+.counts { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12.5px; color: var(--fg-2); font-variant-numeric: tabular-nums; }
+.counts span { display: inline-flex; align-items: center; gap: 5px; }
+.counts i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.quote { font-family: var(--display); font-size: 16px; line-height: 1.4; color: var(--fg); border-left: 3px solid var(--accent); padding-left: 12px; margin-top: 4px; }
+footer { margin-top: 48px; color: var(--fg-3); font-size: 13px; max-width: 70ch; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">hanjopurebuddha.com · gurus</div>
+  <h1>Enlightened people, in their own words</h1>
+  <div class="thread" aria-hidden="true"></div>
+  <p>A browsing section. Open a teacher to see everything located of them: recordings, films, television, photographs, books, transcripts, archives and communities, with their quotes grouped by source and every line traced to where it was found.</p>
+</header>
+<div class="grid" id="grid"></div>
+<footer>Each archive is built the same way, from a folder of data files anyone can read. The data is published beside each page as JSON.</footer>
+</div>
+<script id="cards" type="application/json">/*__CARDS__*/</script>
+<script>
+(function () {
+  const cards = JSON.parse(document.getElementById('cards').textContent);
+  const C = { video:'var(--v)', audio:'var(--a)', text:'var(--t)', image:'var(--i)', archive:'var(--r)', community:'var(--c)' };
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  document.getElementById('grid').innerHTML = cards.map(c => `<a class="guru" href="gurus/${esc(c.slug)}/">
+    <h2>${esc(c.meta.name || c.slug)}</h2>
+    <div class="dates">${esc(c.meta.dates || '')}${c.meta.places ? ' · ' + esc(c.meta.places) : ''}</div>
+    <p>${esc(c.meta.one_line || '')}</p>
+    ${c.meta.lead_quote ? `<div class="quote">${esc(c.meta.lead_quote)}</div>` : ''}
+    <div class="counts">${Object.entries(c.counts).filter(([m, n]) => n).map(([m, n]) => `<span><i style="background:${C[m]}"></i>${n} ${m}</span>`).join('')}<span>${c.quotes} quotes</span></div>
+  </a>`).join('');
+})();
+</script>
+</body>
+</html>
