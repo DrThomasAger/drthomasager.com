@@ -441,7 +441,11 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://nuthanapati.blogspot.com/2011/11/natural-state-miracles-experienced-by.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q6518586c",
@@ -466,7 +470,14 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "not-found",
+  "confirming_sources": [
+   "http://ug-k.blogspot.com/2007/04/adrift-in-london-experiences-of-others.html",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ],
+  "wording_variants": [
+   "Biographical accounts: 'down to his last five pence', 'his last 150 francs', 'I am finished'"
+  ]
  },
  {
   "id": "qeb9c85d2",
@@ -514,7 +525,17 @@
   "source_hosts": [
    "simonandschuster.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611",
+   "https://www.amazon.com/Mystique-Enlightenment-Radical-Ideas-Krishnamurti/dp/0971078610",
+   "https://www.keplers.com/book/9780971078611",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "wording_variants": [
+   "Publisher blurb phrasing; transcripts speak of an explosion that 'shatters the body' and alters its chemistry"
+  ]
  },
  {
   "id": "qfc6d0e49",
@@ -1724,7 +1745,19 @@
   "source_hosts": [
    "quotefancy.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://libquotes.com/u-g-krishnamurti/quote/lbz3k3b",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://forum.aypsite.org/t/u-g-krishnamurti-quotes/7543",
+   "https://www.awakin.org/v2/read/view.php?tid=118",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "'Your constant utilization of thought to give continuity to your separate self is you.'",
+   "'utilisation' / 'you' in quotes in some copies"
+  ]
  },
  {
   "id": "qf69919b2",
@@ -1993,7 +2026,11 @@
   "source_hosts": [
    "hindu-blog.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q1985d54c",
@@ -2049,7 +2086,18 @@
   "source_hosts": [
    "quotlr.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/943427",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti",
+   "https://www.inspiringquotes.us/author/3700-u-g-krishnamurti"
+  ],
+  "wording_variants": [
+   "'Charity is the filthiest invention of the human mind: first you take away what belongs to others by the law and various other means, then you give a little back to keep the have-nots from rebelling against you; it also makes you feel less guilty.'",
+   "Wikiquote Talk variant ends with 'a policeman and an atom bomb'"
+  ]
  },
  {
   "id": "qe06bf8ca",
@@ -2187,7 +2235,12 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "https://quotessayings.net/topics/krishnamurti-death/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qde931de1",
@@ -2479,7 +2532,14 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "http://praveennv.blogspot.com/2016/03/questioning-solutions-requires.html"
+  ],
+  "wording_variants": [
+   "'But there seems to be no way out.'"
+  ]
  },
  {
   "id": "q9fd58abe",
@@ -2503,7 +2563,14 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2008/03/ug-krishnamurti-on-thoughts.html",
+   "http://praveennv.blogspot.com/2016/03/you-have-no-answer-of-your-own.html"
+  ],
+  "wording_variants": [
+   "Blog: 'So you cannot actually separate yourself from thought and look at it.'"
+  ]
  },
  {
   "id": "q72c0b555",
@@ -2528,7 +2595,14 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2016/03/questioning-solutions-requires.html",
+   "http://praveennv.blogspot.com/2016/03/do-you-have-any-question-which-you-can.html"
+  ],
+  "wording_variants": [
+   "Blog heading adds '!!!'; body text: 'you never question the solutions'"
+  ]
  },
  {
   "id": "q6ae4e93f",
@@ -2875,7 +2949,12 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q6f33cc13",
@@ -2899,7 +2978,11 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q05850b19",
@@ -2949,7 +3032,14 @@
   "source_hosts": [
    "medium.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://medium.com/@harpeony/book-summary-the-natural-state-in-the-words-of-u-g-krishnamurti-part-1-3-04f7c43a78c4"
+  ],
+  "wording_variants": [
+   "Wikisource: 'It is not a synonymous term for enlightenment or God-realization or self-realization.' (dataset/Medium: 'is not a synonym for enlightenment, freedom or God-realization')"
+  ]
  },
  {
   "id": "qcb9a4286",
@@ -3005,7 +3095,15 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/765776",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q41e40f21",
@@ -3028,7 +3126,19 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923781/U-G-Krishnamurti-There-is-no-such-thing-as-truth-The-only-thing-that-is-actually-there-is",
+   "https://quotepark.com/quotes/1787020-ug-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-th/",
+   "https://theysaidso.com/quote/u-g-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-that-is-actually",
+   "https://www.quoteslyfe.com/quote/There-is-no-such-thing-as-truth-1127802",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_2"
+  ],
+  "wording_variants": [
+   "single vs double quotation marks around 'logically'/'truth'",
+   "Wikisource No Way Out ch.2: 'you can only say that there is a logically ascertained premise called truth'"
+  ]
  },
  {
   "id": "q07528773",
@@ -3247,7 +3357,17 @@
   "source_hosts": [
    "groups.google.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
+  ],
+  "wording_variants": [
+   "Verbatim: 'The human being is a more despicable thing than all the other forms of life on this planet.'",
+   "Medium copy inserts '[modern]' editorially"
+  ]
  },
  {
   "id": "qc3857d6f",
@@ -3272,7 +3392,18 @@
   "source_hosts": [
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "wording_variants": [
+   "Aggregator form: 'there is no need to change the world at all, and no need to change yourself either'"
+  ]
  },
  {
   "id": "qb324ba7b",
@@ -3382,7 +3513,13 @@
   "source_hosts": [
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.actualized.org/forum/topic/101055-making-sense-of-ug-krishnamurti-part-2/"
+  ],
+  "wording_variants": [
+   "Forum: enlightened man 'cannot reproduce another one like him, so he cannot have sex'; sexual function 'only for reproduction'"
+  ]
  },
  {
   "id": "q0e92d293",
@@ -3408,7 +3545,16 @@
   "source_hosts": [
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "wording_variants": [
+   "'...is amazing, and that is all it needs to survive in any dangerous situation in life' (dataset has 'it is all it needs')"
+  ]
  },
  {
   "id": "q41a1cd4e",
@@ -3740,7 +3886,17 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/"
+  ],
+  "wording_variants": [
+   "Longer form: body is 'a fortuitous concourse of atoms'... 'nothing is born and nothing is dead'"
+  ]
  },
  {
   "id": "q3987c101",

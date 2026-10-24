@@ -13628,17 +13628,22 @@
   "medium": "text",
   "title": "ugkrishnamurti.in — Books about UG",
   "date": null,
-  "year": null,
+  "year": 1996,
   "place": "Bangalore",
   "people": [
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Mahesh Bhatt (author)",
+   "Mahesh Bhatt",
+   "Sabyasachi Guha (author)",
+   "Sabyasachi Guha (translator)",
+   "Nannu Mahbub (translator)"
   ],
   "format": "website page",
   "language": "English",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
-  "description": "Official-site list of books about UG and translations (Italian Aequilibrium 1990, Spanish Sirio '1989', German online 'Das Ende der Sehnsucht' 2002, Cezary Wójcik's Polish online translations).",
+  "description": "Official U.G. site's bibliography of books about U.G. and translations, the main online source for Hindi, Bengali, Kannada and Telugu edition data (Vani Prakashan Hindi 1996/1997, Bengali Guha translations 2009–2013, etc.). Companion: J.C. Tsai's well.com 'Books, Interviews, and References'.",
   "tags": [
    "website",
    "ugkrishnamurti-in",
@@ -13654,19 +13659,62 @@
    "person-krishnamurti",
    "format-book-list-web-page",
    "lang-en",
-   "place-bangalore"
+   "place-bangalore",
+   "hindi",
+   "book",
+   "translation",
+   "biography",
+   "mahesh-bhatt",
+   "vani-prakashan",
+   "1990s",
+   "1996",
+   "person-author",
+   "format-book",
+   "lang-hindi",
+   "place-delhi",
+   "a-taste-of-death",
+   "1997",
+   "person-bhatt",
+   "bengali",
+   "memoir",
+   "sabyasachi-guha",
+   "2000s",
+   "2009",
+   "host-ugkrishnamurti-in-people-well-com",
+   "lang-bengali",
+   "place-palm-springs",
+   "2010s",
+   "2011",
+   "person-translator",
+   "no-way-out",
+   "bangladesh",
+   "2014",
+   "confidence-lead",
+   "multilingual",
+   "archive",
+   "format-web-bibliography",
+   "lang-multilingual",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
-   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug"
+   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text",
   "also_titled": [
-   "ugkrishnamurti.in: Books about UG / translations page"
+   "ugkrishnamurti.in: Books about UG / translations page",
+   "ना ख़त्म होनेवाली कहानी (Na Khatm Honewali Kahani – Hindi translation of Mahesh Bhatt's 'U.G. Krishnamurti: A Life')",
+   "अब मैं कौन हूँ? (Ab Mai Kaun Hun? – Hindi edition of 'A Taste of Death')",
+   "ইউ জি-র সঙ্গে পাম স্প্রিং-এ চোদ্দ দিন (U.G.-r Sange Palm Spring-e Choddo Din – 'Fourteen Days with U.G. in Palm Springs')",
+   "ইউ জি কৃষ্ণমূর্তি – এক জীবন্ত কাহিনী (U.G. Krishnamurti – Ek Jibanto Kahini; Bengali translation of Mahesh Bhatt's biography)",
+   "নো ওয়ে আউট (No Way Out – Bengali translation, Dhaka)",
+   "ugkrishnamurti.in – Books About UG / Translations list (Indian-language editions)"
   ],
   "origins": [
    "text",
-   "wave2-text"
+   "wave2-text",
+   "wave4-indian-languages"
   ]
  },
  {
@@ -21569,6 +21617,446 @@
   "confidence": "lead",
   "sources": [
    "http://kinige.com/tag/U.G.Krishnamurti"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "idbc47499",
+  "medium": "text",
+  "title": "दिमाग ही दुश्मन है – यू.जी. कृष्णमूर्ति (Dimag Hi Dushman Hai – Hindi 'Thought Is Your Enemy')",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti",
+   "Mahesh Bhatt"
+  ],
+  "format": "book-pdf",
+  "language": "Hindi",
+  "duration": "",
+  "host": "pdfbooks.ourhindi.com",
+  "url": "https://pdfbooks.ourhindi.com/dimag-hi-dushman-hai-krishnamurti-pdf/",
+  "description": "Hindi edition of U.G.'s 'Thought Is Your Enemy' listed on a Hindi PDF-books site: 168 pages, 7.42 MB; publisher not stated on the page.",
+  "tags": [
+   "hindi",
+   "book",
+   "translation",
+   "thought-is-your-enemy",
+   "pdf",
+   "text",
+   "person-krishnamurti",
+   "person-bhatt",
+   "host-pdfbooks-ourhindi-com",
+   "format-book-pdf",
+   "lang-hindi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://pdfbooks.ourhindi.com/dimag-hi-dushman-hai-krishnamurti-pdf/"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i8d764822",
+  "medium": "text",
+  "title": "यूजी कृष्णमूर्ति – अद्वितीय भारतीय विद्रोही दार्शनिक (Outlook Hindi birth-anniversary article)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "news-article",
+  "language": "Hindi",
+  "duration": "",
+  "host": "outlookhindi.com",
+  "url": "https://outlookhindi.com/country/state/ug-krishnamurti-birth-anniversary-special-article-77386",
+  "description": "Outlook Hindi special article on U.G.'s birth anniversary describing him as a unique rebel philosopher, 'anti-guru' and spiritual nihilist born in Masulipatnam 1918.",
+  "tags": [
+   "hindi",
+   "article",
+   "news",
+   "birth-anniversary",
+   "anti-guru",
+   "text",
+   "person-krishnamurti",
+   "host-outlookhindi-com",
+   "format-news-article",
+   "lang-hindi",
+   "place-masulipatnam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://outlookhindi.com/country/state/ug-krishnamurti-birth-anniversary-special-article-77386"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i0b3418ab",
+  "medium": "text",
+  "title": "यू.जी. कृष्णमूर्ती (Marathi Wikipedia article)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "wikipedia-article",
+  "language": "Marathi",
+  "duration": "",
+  "host": "mr.wikipedia.org",
+  "url": "https://mr.wikipedia.org/wiki/%E0%A4%AF%E0%A5%82.%E0%A4%9C%E0%A5%80._%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A4%AE%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80",
+  "description": "Marathi Wikipedia: 'उप्पालुरी गोपाल कृष्णमूर्ती' (9 July 1918 – 22 March 2007), Indian thinker who questioned enlightenment (बोधी); notes he always called his state the 'natural state'.",
+  "tags": [
+   "marathi",
+   "wikipedia",
+   "biography",
+   "text",
+   "person-krishnamurti",
+   "host-mr-wikipedia-org",
+   "format-wikipedia-article",
+   "lang-marathi",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://mr.wikipedia.org/wiki/%E0%A4%AF%E0%A5%82.%E0%A4%9C%E0%A5%80._%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A4%AE%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%80"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i1694836d",
+  "medium": "text",
+  "title": "यु.जी. कृष्णमूर्ती: नो वे आऊट! भाग एक (U.G. Krishnamurti: No Way Out! Part 1 – Marathi essay on Maayboli)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti",
+   "Ramana Maharshi"
+  ],
+  "format": "blog-essay",
+  "language": "Marathi",
+  "duration": "",
+  "host": "maayboli.com",
+  "url": "https://www.maayboli.com/node/20513",
+  "description": "Multi-part Marathi essay on U.G.'s life and thought on the Marathi community site Maayboli; clarifies he is Uppaluri Gopala Krishnamurti, not Jiddu Krishnamurti, and recounts his meeting with Ramana Maharshi.",
+  "tags": [
+   "marathi",
+   "blog",
+   "essay",
+   "biography",
+   "no-way-out",
+   "text",
+   "person-krishnamurti",
+   "person-maharshi",
+   "host-maayboli-com",
+   "format-blog-essay",
+   "lang-marathi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.maayboli.com/node/20513"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i7e9bebe0",
+  "medium": "text",
+  "title": "யூ.ஜி.கிருஷ்ணமூர்த்தியின் பயன் (The Use of U.G. Krishnamurti – Jeyamohan essay/reader letter)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Jeyamohan",
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog-essay",
+  "language": "Tamil",
+  "duration": "",
+  "host": "jeyamohan.in",
+  "url": "https://www.jeyamohan.in/110687/",
+  "description": "Tamil writer Jeyamohan's post comparing U.G. with J. Krishnamurti: 'யூஜி எதையும் தேடவேண்டாம் என்கிறார்' (U.G. says do not seek anything, do not think, do not form opinions).",
+  "tags": [
+   "tamil",
+   "blog",
+   "essay",
+   "jeyamohan",
+   "text",
+   "person-jeyamohan",
+   "person-krishnamurti",
+   "host-jeyamohan-in",
+   "format-blog-essay",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.jeyamohan.in/110687/"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i8579f1fc",
+  "medium": "text",
+  "title": "ஞானமடைதல் என்ற புதிர் (Gnanamadaithal Endra Puthir – 'The Puzzle of Attaining Enlightenment', Tamil U.G. book)",
+  "date": "",
+  "year": null,
+  "place": "Chennai",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "book",
+  "language": "Tamil",
+  "duration": "",
+  "host": "baski-reviews.blogspot.com",
+  "url": "http://baski-reviews.blogspot.com/2013/09/1.html",
+  "description": "Tamil U.G. Krishnamurti book published by Kannadasan Pathippagam, price Rs 80; reviewed in a 2013 Tamil reader-experience blog (part 1).",
+  "tags": [
+   "tamil",
+   "book",
+   "translation",
+   "kannadasan-pathippagam",
+   "review",
+   "text",
+   "person-krishnamurti",
+   "host-baski-reviews-blogspot-com",
+   "format-book",
+   "lang-tamil",
+   "place-chennai",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://baski-reviews.blogspot.com/2013/09/1.html"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i220e0ea4",
+  "medium": "text",
+  "title": "யு. ஜி. கிருஷ்ணமூர்த்தி: ஒரு வாழ்க்கை (U.G. Krishnamurti: Oru Vaazhkkai – Tamil translation of Mahesh Bhatt's 'A Life')",
+  "date": "",
+  "year": 2015,
+  "place": "Chennai",
+  "people": [
+   "Mahesh Bhatt (author)",
+   "மு.கி.சந்தானம் / M.K. Santhanam (translator)",
+   "U.G. Krishnamurti"
+  ],
+  "format": "book",
+  "language": "Tamil",
+  "duration": "",
+  "host": "panuval.com / commonfolks.in",
+  "url": "https://www.panuval.com/ug-krishnamurti-oru-vaazhkkai-10010230",
+  "description": "Kannadasan Pathippagam, 2015, 384 pages, Rs 240; Tamil translation by Mu.Ki. Santhanam of Mahesh Bhatt's biography.",
+  "tags": [
+   "tamil",
+   "book",
+   "translation",
+   "biography",
+   "mahesh-bhatt",
+   "kannadasan-pathippagam",
+   "text",
+   "2010s",
+   "2015",
+   "person-author",
+   "person-translator",
+   "person-krishnamurti",
+   "host-panuval-com-commonfolks-in",
+   "format-book",
+   "lang-tamil",
+   "place-chennai",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.panuval.com/ug-krishnamurti-oru-vaazhkkai-10010230",
+   "https://www.commonfolks.in/books/d/ug-krishnamurti-oru-vaazhkkai"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "ieb5c648d",
+  "medium": "text",
+  "title": "தனித்து நிற்கும் துணிவு (Thanithu Nirkum Thunivu – Tamil 'The Courage to Stand Alone')",
+  "date": "2024-03-26",
+  "year": 2024,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "book-and-review",
+  "language": "Tamil",
+  "duration": "",
+  "host": "thaaii.com / commonfolks.in",
+  "url": "https://thaaii.com/2024/03/26/thanithu-nirkum-thunivu-book-review/",
+  "description": "Tamil edition of 'The Courage to Stand Alone' (Q&A format), reviewed in Thaaii Magazine (2024) as a book that changes one's outlook on life; listed at CommonFolks.",
+  "tags": [
+   "tamil",
+   "book",
+   "translation",
+   "courage-to-stand-alone",
+   "review",
+   "text",
+   "2020s",
+   "2024",
+   "person-krishnamurti",
+   "host-thaaii-com-commonfolks-in",
+   "format-book-and-review",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://thaaii.com/2024/03/26/thanithu-nirkum-thunivu-book-review/",
+   "https://www.commonfolks.in/books/u-g-krishnamurti"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "ic210c474",
+  "medium": "text",
+  "title": "எண்ணம்தான் உங்களின் எதிரி (Ennamthan Ungalin Ethiri – Tamil 'Thought Is Your Enemy') and மனம் ஒரு புனைகதை (Manam Oru Punaikathai – Tamil 'Mind Is a Myth')",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "book",
+  "language": "Tamil",
+  "duration": "",
+  "host": "panuval.com / commonfolks.in / noolulagam.com",
+  "url": "https://www.panuval.com/U.G.Krishnamoorthy",
+  "description": "Further Tamil translations listed by Tamil booksellers: 'எண்ணம்தான் உங்களின் எதிரி' (Rs 80) and 'மனம் ஒரு புனைகதை'; Noolulagam has an author page for யு.ஜி. கிருஷ்ணமூர்த்தி.",
+  "tags": [
+   "tamil",
+   "book",
+   "translation",
+   "thought-is-your-enemy",
+   "mind-is-a-myth",
+   "bookshop",
+   "text",
+   "person-krishnamurti",
+   "host-panuval-com-commonfolks-in-noolulagam-com",
+   "format-book",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.panuval.com/U.G.Krishnamoorthy",
+   "https://www.commonfolks.in/books/u-g-krishnamurti",
+   "https://www.noolulagam.com/authors/2049"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "id3140485",
+  "medium": "text",
+  "title": "VALLALAR: யூ.ஜி.கிருஷ்ணமூர்த்தி (Tamil blog post on U.G.)",
+  "date": "2017-03",
+  "year": 2017,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog-post",
+  "language": "Tamil",
+  "duration": "",
+  "host": "vallalarr.blogspot.com",
+  "url": "http://vallalarr.blogspot.com/2017/03/blog-post_81.html",
+  "description": "Tamil blog profile: 'யு.ஜி.கிருஷ்ணமூர்த்தி என்று அழைக்கப்படும் உப்பலுரி கோபல கிருஷ்ணமூர்த்தி 1918-ஆம் ஆண்டு ... மசூலிப்பட்டணத்தில் பிறந்தவர்'.",
+  "tags": [
+   "tamil",
+   "blog",
+   "biography",
+   "text",
+   "2010s",
+   "2017",
+   "person-krishnamurti",
+   "host-vallalarr-blogspot-com",
+   "format-blog-post",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://vallalarr.blogspot.com/2017/03/blog-post_81.html"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i6df24432",
+  "medium": "video",
+  "title": "மனதை ஒரு புனைவு – யு.ஜி. கிருஷ்ணமூர்த்தி (Mind is a Myth Tamil – second YouTube part)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "youtube-video",
+  "language": "Tamil",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=_MQebeeqJbY",
+  "description": "Another YouTube video in the Tamil 'மனதை ஒரு புனைவு' (Mind is a Myth) series.",
+  "tags": [
+   "tamil",
+   "video",
+   "youtube",
+   "mind-is-a-myth",
+   "audiobook",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube-video",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=_MQebeeqJbY"
+  ],
+  "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i02322e51",
+  "medium": "text",
+  "title": "યુ.જી.કૃષ્ણમુર્તિ (Gujarati Wikipedia article)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "wikipedia-article",
+  "language": "Gujarati",
+  "duration": "",
+  "host": "gu.wikipedia.org",
+  "url": "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF",
+  "description": "Gujarati Wikipedia article on U.G.; its bibliography lists Mahesh Bhatt's 'U.G. Krishnamurti: A Life' (Viking 1992), Shanta Kelkar's 'The Sage and the Housewife' (Smriti 2005) and Mukunda Rao's 'The Other Side of Belief' (Penguin 2005) in Gujarati transliteration.",
+  "tags": [
+   "gujarati",
+   "wikipedia",
+   "biography",
+   "text",
+   "person-krishnamurti",
+   "host-gu-wikipedia-org",
+   "format-wikipedia-article",
+   "lang-gujarati",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF"
   ],
   "origin": "wave4-indian-languages"
  }
