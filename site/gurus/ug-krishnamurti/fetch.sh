@@ -69,6 +69,7 @@ ia download ug_parrot --destdir downloads/archive_org  # You are a Parrot.
 ia download ug_hillside2 --destdir downloads/archive_org  # U.G. with Dr. Larry Morris (2/2)
 ia download ug_no_enlightenment --destdir downloads/archive_org  # There is no such thing as Enlightenment.
 ia download ug_george_gary_kunm_radio_albu --destdir downloads/archive_org  # Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico
+ia download godmenconmen0000carr --destdir downloads/archive_org  # God Men Con Men — Robert Carr (with audio disc of conversations with U
 
 # --- YouTube (pip install yt-dlp)
 yt-dlp -o 'downloads/youtube/%(uploader)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/channel/UCRLQIvQcoF41xZdrtKMXSvg'  # YouTube channel Lectures Beyond Beyond
@@ -137,6 +138,33 @@ yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --wri
 yt-dlp -o 'downloads/youtube/%(playlist)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/playlist?list=PL4D24B9FE63001E98'  # UG १
 yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=UqhEBCxXxM4'  # மனதை ஒரு புனைவு – யு.ஜி. கிருஷ்ணமூர்த்தி (Mind is a Myth – T
 yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=_MQebeeqJbY'  # மனதை ஒரு புனைவு – யு.ஜி. கிருஷ்ணமூர்த்தி (Mind is a Myth Tam
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=52m7cHOrm9U'  # U.G. Krishnamurti - The Effect of My Calamity
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=gqMvpgPUY6Y'  # Natural state - UG Krishnamurti
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=0JyphyR5rwo'  # The Natural State
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=B_IXX_wu6eQ'  # Estado Natural Completo UG Krishnamurti
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=L_RhEO6CKY0'  # U.G. Krishnamurti: The Natural State Explained (No Enlighten
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=xlBxm4QNb1A'  # UG Krishnamurti - FREE From Enlightenment
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=OJTYTsBxpVM'  # UG Krishnamurti - Solutions are Problems !
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=aiHTO_pAA10'  # U.G. Krishnamurti - Intense Early Interview (1967)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=3Y7EZ9sBZYs'  # The Guru Who Changed Mahesh Bhatt's Life
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=jdIrOjJx3Qo'  # U.G. Krishnamurti - Conversation From 1969
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=tYI8BIky9H4'  # UG Krishnamurti and David Bohm Full Talk
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=pmi_u9VNFDE'  # Audio (UG / Bohm 1968, YouTube)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=qCJ8OO5pOHk'  # (untitled) YouTube result for Hindi UG query
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=f-HM-3wptVM'  # UG Krishnamurti and YNK, Bangalore, 1990 (channel @sekharsug
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=E-3RLGLRwMs'  # UG Krishnamurti's First and Only Public Speech (1972 in Indi
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=4gCT_zChmcI'  # U G Krishnamurti
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=YxrjGMuAEIk'  # U.G. Krishnamurti talks about J. Krishnamurti
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=U3azqF_OMu4'  # U.G. Krishnamurti (with Luc Sala in Amsterdam)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=4BMJN9zZGvA'  # U.G. Krishnamurti With Friends
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=B-RT8tj5PrI'  # U.G. Krishnamurti - Anti Guru or Godman
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=noNcOFj0l2A'  # UG Krishnamurti: The Anti-Guru Who Dismantled Spirituality
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=yI7VTqeym18'  # Louis Brawley (YouTube)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=MAWsuTQ9h3o'  # UG Krishnamurti sin Filtros: ¡No Existe el Despertar Espirit
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=9XC-XgXQTbg'  # U.G. Krishnamurti - Quest for Enlightenment (YouTube Short)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=tRLAUKc0q20'  # YouTube: 'U.G. Krishnamurti Family Photos' slideshow
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=fFEyTmJhYAY'  # YouTube: 'U.G. Krishnamurti with friends – Gstaad (Switzerla
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=_dhB5Ycmhdc'  # The Natural State — Festival Trailer 2026 (YouTube)
 
 # --- SoundCloud (yt-dlp)
 yt-dlp -o 'downloads/soundcloud/%(uploader)s/%(title)s.%(ext)s' 'https://soundcloud.com/petermaverick/give-up-u-g-krishnamurti'  # "Give Up" tapes — Amsterdam talks recorded by Henk Schonewil
@@ -170,6 +198,7 @@ curl -sSL 'https://en.wikisource.org/w/index.php?title=The_Natural_State&action=
 curl -sSL 'https://en.wikisource.org/w/index.php?title=Stopped_in_Our_Tracks&action=raw' -o 'downloads/wikisource/Stopped_in_Our_Tracks.wiki'  # Stopped in Our Tracks — full text on Wikisource
 curl -sSL 'https://en.wikisource.org/w/index.php?title=Stopped_in_Our_Tracks:_Stories_of_U.G._in_India&action=raw' -o 'downloads/wikisource/Stopped_in_Our_Tracks__Stories_of_U.G._in_India.wiki'  # Chandrasekhar's tape archive (Bangalore -> Yercaud) incl. Dr
 curl -sSL 'https://fr.wikisource.org/w/index.php?title=Le_mental_est_un_mythe_(U._G._Krishnamurti)_(bilingue)&action=raw' -o 'downloads/wikisource/Le_mental_est_un_mythe__U._G._Krishnamurti___bilingue_.wiki'  # fr.wikisource: 'Le mental est un mythe (U. G. Krishnamurti) 
+curl -sSL 'https://fr.wikisource.org/w/index.php?title=Wikisource:Traductions/Le_mental_est_un_mythe_(U._G._Krishnamurti)_(bilingue)/I&action=raw' -o 'downloads/wikisource/Wikisource_Traductions_Le_mental_est_un_mythe__U._G._Krishnamurti___bilingue_I.wiki'  # fr.wikisource — Le mental est un mythe (U. G. Krishnamurti) 
 
 # --- PDFs
 wget -q -P downloads/pdf 'https://ia801804.us.archive.org/12/items/UGKrishnamurtiOnU.G185p/UG%20Krishnamurti%20-%20On%20U.G%20(185p).pdf'  # Internet Archive text: On U.G. (185p PDF)
@@ -180,6 +209,8 @@ wget -q -P downloads/pdf 'https://file.true-dhamma.com/实相与解构/U.G.克�
 wget -q -P downloads/pdf 'https://u-g-k.fr/wp-content/uploads/2025/07/428954400-ug-krishanmurthy-1.pdf'  # u-g-k.fr - French UG site (WordPress) with uploaded biograph
 wget -q -P downloads/pdf 'https://content.e-bookshelf.de/media/reading/L-18427175-76d0949feb.pdf'  # UG Krishnamurti: Collected Works (e-bookshelf preview PDF)
 wget -q -P downloads/pdf 'https://stillnessspeaks.com/images/uploaded/file/01-The%20Unrational%20Philosphy%20Of%20U_G_%20Krishnamurti.pdf'  # T.R. Raghunath, 'The Unrational Philosophy of U.G. Krishnamu
+wget -q -P downloads/pdf 'https://heiko-drewes.de/images/buecher/DIE%20MYSTIQUE%20DER%20ERLEUCHTUNG.pdf'  # heiko-drewes.de — 'Die Mystique der Erleuchtung' (German PDF
+wget -q -P downloads/pdf 'http://iapsop.com/archive/materials/theosophist/theosophist_v69_n9_jun_1948.pdf'  # The Theosophist, June 1948 (vol. 69 no. 9), ed. C. Jinarajad
 
 # --- The WELL pages
 wget -q -P downloads/well 'https://people.well.com/user/jct/'  # The WELL: U.G. Krishnamurti pages of J.S.R.L. Narayana Moort
@@ -207,6 +238,9 @@ wget -q -P downloads/well 'https://people.well.com/user/jct/bphotos/ph2.htm'  # 
 wget -q -P downloads/well 'https://people.well.com/user/jct/SIT/part_ii.htm'  # Chalet Sunbeam, Gstaad - summer residence (c. 25 summers); t
 wget -q -P downloads/well 'https://people.well.com/user/jct/ntbook3.htm'  # What the Press and Others Say About U.G. (WELL, ntbook3.htm)
 wget -q -P downloads/well 'https://people.well.com/user/jct/mystiq1.htm'  # WELL: Mystique of Enlightenment HTML parts (mystiq1.htm ... 
+wget -q -P downloads/well 'https://people.well.com/user/jct/sitcover.htm'  # Stopped in Our Tracks — WELL cover page (sitcover.htm) with 
+wget -q -P downloads/well 'https://people.well.com/user/jct/enemy0.htm'  # Thought Is Your Enemy — Sowmya Publishers, Bangalore, 1990/1
+wget -q -P downloads/well 'https://people.well.com/user/jct/ugbio/ugbio5.htm'  # Letters from London: 30 Dec 1961 to his wife; 7 Sep 1963 to 
 
 # --- Other pages (HTML snapshots)
 wget -q -E -P downloads/pages 'http://ugkrishnamurti.org'  # ugkrishnamurti.org (the U.G. Krishnamurti site of his lifeti
@@ -566,3 +600,86 @@ wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/'  # UG'
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/my-approach'  # My Approach
 wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/quotes'  # Quotes
 wget -q -E -P downloads/pages 'https://ugkrishnamurti.in/ug-speaks/videos'  # Essential Videos / Explore Videos (page)
+wget -q -E -P downloads/pages 'https://podcasts.apple.com/us/podcast/mark-whitwell-life-is-spirals-melissa-forbes-yogini/id1534828209?i=1000508301646'  # Melissa Forbes - Life is Spirals (The Heart of Yoga Podcast)
+wget -q -E -P downloads/pages 'https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594'  # Mark Whitwell - The Heart of Yoga Podcast episode 1000504271
+wget -q -E -P downloads/pages 'https://podcasts.apple.com/us/podcast/wisdom-now/id1655995678'  # Wisdom Now podcast - Rose Lamont interviews Mark Whitwell (t
+wget -q -E -P downloads/pages 'https://open.spotify.com/episode/1NLJPviJsL3dK9R6vooCnA'  # Mark Whitwell episode (Spotify)
+wget -q -E -P downloads/pages 'https://audiomack.com/ugkrishnamurti/song/ug-krishnamurti'  # Monologue by U. G. Krishnamurti (Audiomack)
+wget -q -E -P downloads/pages 'https://www.rts.ch/archives/1993/audio/entretien-avec-u-g-krishnamurti-2-2-29063000.html'  # Entretien avec U. G. Krishnamurti (2/2) - RTS Archives
+wget -q -E -P downloads/pages 'https://www.famigliafideus.com/u-g-krishnamurti-video/'  # U.G. Krishnamurti video list (famigliafideus.com, Italian)
+wget -q -E -P downloads/pages 'https://www.jetzt-tv.net/ugk'  # Jetzt-TV 'Gelebte Weisheit: U. G. Krishnamurti' (German vide
+wget -q -E -P downloads/pages 'https://odysee.com/@librarybeyondbeyond'  # Lectures Beyond Beyond - Odysee mirror 'Library Beyond Beyon
+wget -q -E -P downloads/pages 'https://podcasts.apple.com/tt/podcast/u-g-krishnamurti-anti-guru-barking-dog-with-louis-brawley/id1437997652?i=1000738469409'  # U.G. Krishnamurti — Anti-Guru, Barking Dog with Louis Brawle
+wget -q -E -P downloads/pages 'https://podcasts.apple.com/za/podcast/ug-krishnamurti-words-by-the-relentless-anti-guru/id1326902050?i=1000580885378'  # UG Krishnamurti | Words By The Relentless Anti-Guru (Dancing
+wget -q -E -P downloads/pages 'https://kiranprabha.podbean.com/e/uguppaluri-gopalakrishna-murthy%E0%B0%AF%E0%B1%81%E0%B0%9C%E0%B0%BF-%E0%A5%A4%E0%B0%89%E0%B0%AA%E0%B1%8D%E0%B0%AA%E0%B0%B2%E0%B1%82%E0%B0%B0%E0%B0%BF/'  # UG | Uppaluri Gopalakrishna Murthy | యు.జి. ఉప్పలూరి గోపాలకృ
+wget -q -E -P downloads/pages 'https://audiomack.com/ugkrishnamurti/song/chandrasekhar'  # Chandrasekhar by U. G. Krishnamurti (Audiomack)
+wget -q -E -P downloads/pages 'https://www.lucsala.nl/video.htm'  # Kleurnet (Amsterdam local TV 1997-2001, aka Myster) - Kleurn
+wget -q -E -P downloads/pages 'https://www.facebook.com/groups/414875091957607'  # Friends of U.G. (Facebook group)
+wget -q -E -P downloads/pages 'https://ugscritti.blogspot.com/'  # UG in Italiano (Facebook/internet group)
+wget -q -E -P downloads/pages 'https://www.facebook.com/UGKrishnamurti.page/'  # U. G. Krishnamurti (@UGKrishnamurti.page)
+wget -q -E -P downloads/pages 'https://www.facebook.com/p/UG-Krishnamurti-100064076977708/'  # U.G Krishnamurti (Facebook page 100064076977708)
+wget -q -E -P downloads/pages 'https://www.facebook.com/UGKrishnamurtiVN/'  # U.G. Krishnamurti bằng tiếng Việt
+wget -q -E -P downloads/pages 'https://www.tiktok.com/@ug_krishnamurti_friends'  # U G Krishnamurti Friends (@ug_krishnamurti_friends) on TikTo
+wget -q -E -P downloads/pages 'https://www.patreon.com/lecturesbeyondbeyond'  # Lectures Beyond Beyond — Patreon
+wget -q -E -P downloads/pages 'https://feedthepeopleblog.substack.com/p/rebellion-is-a-form-of-seeking'  # Feed The People Not The Lie — 'Rebellion Is A Form of Seekin
+wget -q -E -P downloads/pages 'https://jordanbates.substack.com/p/jed-mckenna-world-destroyer/comments'  # Jordan Bates Substack — Jed McKenna thread citing UG
+wget -q -E -P downloads/pages 'https://wilhelmlamb.substack.com/p/the-age-of-awakening-43a'  # William Lamb — 'The Age of Awakening (Part 1)'
+wget -q -E -P downloads/pages 'https://gururating.org/u-g-krishnamurti/'  # Guru Rating — U.G. Krishnamurti
+wget -q -E -P downloads/pages 'https://ugarchive.blogspot.com/2021/08/mind-as-myth.html'  # UG Archive (ugarchive.blogspot.com)
+wget -q -E -P downloads/pages 'http://remembering-ug.blogspot.com/2012/01/january-21th-2012.html'  # Remembering UG (remembering-ug.blogspot.com)
+wget -q -E -P downloads/pages 'https://www.samsarabooks.com/krishnamurti-u-g/'  # Uitgeverij Samsara — U.G. Krishnamurti author page
+wget -q -E -P downloads/pages 'https://boeddhistischdagblad.nl/hans-van-dam/184404-witboek-verlichting-146/'  # Boeddhistisch Dagblad — Hans van Dam 'Witboek Verlichting' o
+wget -q -E -P downloads/pages 'https://wiki.yoga-vidya.de/U._G._Krishnamurti'  # Yoga Vidya Wiki — U. G. Krishnamurti
+wget -q -E -P downloads/pages 'https://www.nodualidad.info/maestros/ug-krishnamurti.html'  # NoDualidad.info — U.G. Krishnamurti (maestros / libros)
+wget -q -E -P downloads/pages 'http://www.oshogulaab.com/UG/TEXTOS/UG-La_mente_es_un_mito.htm'  # Oshogulaab — UG: La Mente es un Mito (textos)
+wget -q -E -P downloads/pages 'https://unicocomotu.wordpress.com/tag/ug-krishnamurti/'  # Único como tú (unicocomotu.wordpress.com) — tag ug krishnamu
+wget -q -E -P downloads/pages 'http://ventosdepaz.blogspot.com/2015/01/ugkrishnamurti-ensinamentos.html'  # Ventos de Paz — U.G. Krishnamurti Ensinamentos
+wget -q -E -P downloads/pages 'https://www.riflessioni.it/enciclopedia/u-g-krishnamurti.htm'  # Riflessioni.it — U.G. Krishnamurti biografia
+wget -q -E -P downloads/pages 'https://www.piloton.it/libri/ug.html'  # piloton.it — U.G. Krishnamurti l'anti-guru
+wget -q -E -P downloads/pages 'https://enzoderuvo.it/mistici-contemporanei-suggeriti/uppaluri-gopala-krishnamurti/'  # Enzo de Ruvo (Yoga a Trento) — Uppaluri Gopala Krishnamurti
+wget -q -E -P downloads/pages 'https://www.ganga.ru/author/ug-yudzhi-krishnamurti'  # Ganga publishing — У.Г. (Юджи) Кришнамурти author page
+wget -q -E -P downloads/pages 'http://advaitaworld.com/blog/ug_krishnamurti/'  # Мир Адвайты (advaitaworld.com) — У. Г. Кришнамурти
+wget -q -E -P downloads/pages 'https://www.koob.ru/krishnamurti_u/'  # Koob.ru — Кришнамурти У.Г. книги онлайн
+wget -q -E -P downloads/pages 'http://ezo.club/forum/topic.php?id=21226'  # ezo.club forum — Кришнамурти У.Г. отзывы
+wget -q -E -P downloads/pages 'https://true-dhamma.com/u.g.%E5%85%8B%E9%87%8C%E5%B8%8C%E9%82%A3%E7%A9%86%E6%8F%90/'  # true-dhamma.com — U.G.克里希那穆提 section
+wget -q -E -P downloads/pages 'https://www.goodreads.com/author/show/30268.U_G_Krishnamurti'  # Goodreads — U.G. Krishnamurti author page (id 30268)
+wget -q -E -P downloads/pages 'https://www.librarything.com/work/8054999'  # LibraryThing — De mystiek van verlichting (work 8054999)
+wget -q -E -P downloads/pages 'https://en.wikipedia.org/wiki/Talk:U._G._Krishnamurti'  # Wikipedia Talk:U. G. Krishnamurti (+ Archive 1)
+wget -q -E -P downloads/pages 'https://www.facebook.com/seniorworld.in/posts/today-marks-the-birth-anniversary-of-ug-krishnamurti-a-philosopher-who-challenge/877793267709107/'  # SeniorWorld.in — UG birth anniversary post
+wget -q -E -P downloads/pages 'https://kn.wikipedia.org/wiki/ಯು._ಜಿ._ಕೃಷ್ಣಮೂರ್ತಿ'  # Kannada Wikipedia article ಯು. ಜಿ. ಕೃಷ್ಣಮೂರ್ತಿ — infobox imag
+wget -q -E -P downloads/pages 'https://twitter.com/MaheshNBhatt/status/905080430675673088'  # Mahesh Bhatt on X, 5 Sep 2017 — 'The man who built & shaped 
+wget -q -E -P downloads/pages 'https://x.com/MaheshNBhatt/status/579607713191198720'  # Mahesh Bhatt on X, 2015 — Tamil edition of 'UG Krishnamurti:
+wget -q -E -P downloads/pages 'https://moortysblog.blogspot.com/2009/03/'  # Narayana Moorty's blog (March 2009) — Wendy Moorty photograp
+wget -q -E -P downloads/pages 'https://books.google.com/books/about/No_Way_Out.html?id=nOI7eT3ewEMC'  # No Way Out: Conversations with U.G. Krishnamurti — Smriti Bo
+wget -q -E -P downloads/pages 'https://www.amazon.com/Courage-Stand-Alone-Conversations-Krishnamurti/dp/1908664282'  # The Courage to Stand Alone — Non-Duality Press 2013 cover (e
+wget -q -E -P downloads/pages 'https://www.amazon.com/Thought-your-enemy-Mind-shattering-conversations/dp/B0006EYQS2'  # Thought is Your Enemy — Sowmya Publishers 1990 / Smriti Book
+wget -q -E -P downloads/pages 'https://www.amazon.com/UG-Says-Everyday-Thoughts-Krishnamurti-ebook/dp/B07K1N9K3R'  # UG Says: Everyday Thoughts by UG Krishnamurti — HarperCollin
+wget -q -E -P downloads/pages 'https://books.google.com/books/about/The_Other_Side_of_Belief.html?id=59YvCgAAQBAJ'  # The Other Side of Belief: Interpreting U.G. Krishnamurti — P
+wget -q -E -P downloads/pages 'https://www.babelio.com/livres/Krishnamurti-Le-mental-est-un-mythe/362867'  # Le mental est un mythe — Les Deux Océans 2000 cover (and Le 
+wget -q -E -P downloads/pages 'https://www.editorialsirio.com/mente-es-un-mito-la'  # La mente es un mito — Editorial Sirio cover (2013 'Nueva por
+wget -q -E -P downloads/pages 'https://buchfindr.de/verlage/noumenon-verlag/'  # Mythos Mind – Märchenhafter Verstand / Der trügerische Schei
+wget -q -E -P downloads/pages 'https://inzicht.org/product/denkbeeldige-geest/'  # De denkbeeldige geest — Samsara Uitgeverij 2004 cover (desig
+wget -q -E -P downloads/pages 'https://x.com/sunitapb/status/2038250592112660596'  # The Ashes Are Warm — Rupa 2026 cover (B&W photo of Mahesh Bh
+wget -q -E -P downloads/pages 'https://www.flickr.com/photos/samarthyam/53297785/'  # Flickr: 'ug_4_046 — My Favourite Portrait of U.G Krishnamurt
+wget -q -E -P downloads/pages 'https://www.amazon.com/Little-Book-Questions-U-G-Krishnamurti/dp/0140299386'  # The Little Book of Questions — Penguin India 2000 cover (com
+wget -q -E -P downloads/pages 'https://www.amazon.com/Natural-State-Words-U-G-Krishnamurti/dp/8187967803'  # The Natural State: In the Words of U.G. Krishnamurti — Smrit
+wget -q -E -P downloads/pages 'https://www.exoticindiaart.com/book/details/u-g-krishnamurti-life-philosophy-telugu-haz053/'  # Telugu: 'యు.జి. కృష్ణమూర్తి – జీవితం – తాత్వికత' cover (Exot
+wget -q -E -P downloads/pages 'https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti'  # Italian Wikipedia 'Uppaluri Gopala Krishnamurti' — infobox i
+wget -q -E -P downloads/pages 'https://www.fnac.com/a1087703/U-G-Krishnamurti-Rencontres-avec-un-eveille-contestataire'  # UG : Rencontres avec un éveillé contestataire
+wget -q -E -P downloads/pages 'https://www.laprocure.com/product/641094/krishnamurti-uppaluri-gopala-le-mental-est-un-mythe-entretiens-deroutants-avec-u-g-krishnamurti'  # Le mental est un mythe : entretiens déroutants avec U.G. Kri
+wget -q -E -P downloads/pages 'https://www.fnac.com/a1049048/U-G-Krishnamurti-La-Pensee-est-votre-ennemie-Entretiens-fracassants-avec-U-G'  # La Pensée est votre ennemie : entretiens fracassants avec U.
+wget -q -E -P downloads/pages 'http://nondualite.free.fr/c_ugev01.htm'  # nondualite.free.fr — U.G. Krishnamurti pages (French/English
+wget -q -E -P downloads/pages 'http://eti.martin.free.fr/textes/UG/UG-Krishnamurti-%20extrait.htm'  # eti.martin.free.fr — U.G. Krishnamurti : extrait (La Voie du
+wget -q -E -P downloads/pages 'https://simple-dou.asablo.jp/blog/2025/04/01/9765111'  # 悟りという謎 (Satori to iu nazo) — Japanese translation of The Mys
+wget -q -E -P downloads/pages 'https://www.dr.com.tr/Kitap/Tek-Basina-Durma-Cesareti/Felsefe/Bilgelik/urunno=0001774147001'  # Tek Başına Durma Cesareti (Turkish Courage to Stand Alone)
+wget -q -E -P downloads/pages 'https://ko.wikipedia.org/wiki/U._G._%ED%81%AC%EB%A6%AC%EC%8A%88%EB%82%98%EB%AC%B4%EB%A5%B4%ED%8B%B0'  # Korean Wikipedia article U. G. 크리슈나무르티
+wget -q -E -P downloads/pages 'https://books.google.com/books/about/The_Courage_to_Stand_Alone.html?id=Gd19NQAACAAJ'  # The Courage to Stand Alone: Conversations with U.G. Krishnam
+wget -q -E -P downloads/pages 'https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html'  # Goner: The Final Travels of UG Krishnamurti (revised)
+wget -q -E -P downloads/pages 'https://www.amazon.in/End-All-Beginnings-Encounters-Natural/dp/099058500X'  # The End of All Beginnings: Encounters with the Natural State
+wget -q -E -P downloads/pages 'https://www.mlbd.in/products/in-palm-springs-with-u-g-krishnamurti-9789391024239-9391024238-9789391024314-9391024319'  # 14 Days in Palm Springs with U.G. Krishnamurti / In Palm Spr
+wget -q -E -P downloads/pages 'https://www.amazon.com/Back-Square-One-Conversations-Sabyasachi/dp/1936940892'  # Back to Square One: Conversations with Sabyasachi Guha
+wget -q -E -P downloads/pages 'https://www.exoticindiaart.com/book/details/life-finds-its-way-reflections-on-reality-with-sabyasachi-guha-haq783/'  # Life Finds Its Way: Reflections on Reality with Sabyasachi G
+wget -q -E -P downloads/pages 'https://rupapublications.co.in/public/book/the-ashes-are-warm-memories-of-a-lifetime-spent-with-ug-krishnamurti'  # The Ashes Are Warm: Memories of a Lifetime Spent with UG Kri
+wget -q -E -P downloads/pages 'https://44books.com/dimag-hi-dushman-hai-u-g-krishnamurti.html'  # दिमाग ही दुश्मन है (Dimag Hi Dushman Hai) — Hindi Thought Is
+wget -q -E -P downloads/pages 'https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24917_20841043_12_2_12'  # Robert Trochonowicz, 'Total helplessness: A critical reconst
+wget -q -E -P downloads/pages 'https://agharta-mundointerior.blogspot.com/p/blog-page_27.html'  # Portuguese (Brazil) — no UG edition found; blog 'UG Krishnam

@@ -1,21 +1,21 @@
 {
  "summary": {
-  "items": 567,
+  "items": 688,
   "quotes": 282,
   "events": 84,
   "people": 87,
   "items_by_medium": {
    "archive": 95,
-   "community": 22,
-   "audio": 80,
-   "image": 93,
-   "text": 181,
-   "video": 96
+   "community": 59,
+   "audio": 90,
+   "image": 116,
+   "text": 204,
+   "video": 124
   },
   "items_by_confidence": {
-   "S": 520,
+   "S": 619,
    "T": 2,
-   "lead": 45
+   "lead": 67
   },
   "quotes_by_confidence": {
    "S": 188,
@@ -50,14 +50,14 @@
    "The Sage and the Housewife": 5,
    "Science and U.G.": 4
   },
-  "distinct_source_hosts": 302,
-  "items_self_sourced_only": 296,
-  "items_with_second_source": 258,
+  "distinct_source_hosts": 363,
+  "items_self_sourced_only": 356,
+  "items_with_second_source": 320,
   "issue_counts": {
    "event-date-conflict": 7,
-   "item-duplicate-title": 3,
-   "item-no-sources": 13,
-   "item-possible-jk-contamination": 2,
+   "item-duplicate-title": 4,
+   "item-no-sources": 12,
+   "item-possible-jk-contamination": 3,
    "quote-flagged-not-ug-or-editor": 6,
    "quote-near-duplicate": 7,
    "quote-possible-jk-contamination": 1,
@@ -67,10 +67,6 @@
  },
  "issues": {
   "item-no-sources": [
-   [
-    "i25265308",
-    "Reddit r/UGKrishnamurti"
-   ],
    [
     "i88905339",
     "Douglas Rosestone and Nancy — named in brief, no results"
@@ -128,6 +124,10 @@
    [
     "if30146e9",
     "GAP: Alamy / Getty / Shutterstock 'Krishnamurti' stock searches (all J.K. so far)"
+   ],
+   [
+    "icc612fee",
+    "Italian Wikipedia 'Uppaluri Gopala Krishnamurti' — infobox image"
    ]
   ],
   "item-duplicate-title": [
@@ -141,6 +141,10 @@
    ],
    [
     "playlistugkrishnamurtiyoutube",
+    2
+   ],
+   [
+    "thenaturalstate",
     2
    ]
   ],
@@ -528,67 +532,71 @@
  "hosts": [
   [
    "people.well.com",
-   123
+   162
   ],
   [
    "archive.org",
-   107
-  ],
-  [
-   "en.wikisource.org",
-   98
-  ],
-  [
-   "goodreads.com",
-   85
+   116
   ],
   [
    "youtube.com",
-   81
+   116
+  ],
+  [
+   "en.wikisource.org",
+   101
+  ],
+  [
+   "goodreads.com",
+   91
   ],
   [
    "ugkrishnamurti.in",
-   64
+   71
   ],
   [
    "amazon.com",
+   47
+  ],
+  [
+   "books.google.com",
    39
   ],
   [
    "en.wikiquote.org",
-   32
+   33
   ],
   [
-   "books.google.com",
-   32
+   "abebooks.com",
+   31
   ],
   [
    "azquotes.com",
    28
   ],
   [
-   "soundcloud.com",
-   26
+   "remembering-ug.blogspot.com",
+   27
   ],
   [
-   "remembering-ug.blogspot.com",
-   25
+   "soundcloud.com",
+   26
   ],
   [
    "inner-quest.org",
    24
   ],
   [
-   "abebooks.com",
-   23
-  ],
-  [
    "quotefancy.com",
    23
   ],
   [
+   "sulochanosho.wordpress.com",
+   19
+  ],
+  [
    "scribd.com",
-   18
+   19
   ],
   [
    "quotepark.com",
@@ -599,23 +607,35 @@
    17
   ],
   [
-   "sulochanosho.wordpress.com",
+   "kwize.com",
    16
   ],
   [
-   "kwize.com",
-   16
+   "facebook.com",
+   15
+  ],
+  [
+   "en.wikipedia.org",
+   14
+  ],
+  [
+   "holybooks.com",
+   14
+  ],
+  [
+   "philpapers.org",
+   13
   ],
   [
    "libquotes.com",
    13
   ],
   [
-   "philpapers.org",
+   "ug-k.blogspot.com",
    12
   ],
   [
-   "holybooks.com",
+   "bitchute.com",
    12
   ],
   [
@@ -623,19 +643,15 @@
    11
   ],
   [
-   "ug-k.blogspot.com",
+   "jhana8.com",
    11
   ],
   [
-   "bitchute.com",
-   11
-  ],
-  [
-   "en.wikipedia.org",
+   "x.com",
    10
   ],
   [
-   "jhana8.com",
+   "ugarchive.blogspot.com",
    10
   ],
   [
@@ -659,15 +675,19 @@
    9
   ],
   [
-   "facebook.com",
-   8
+   "commons.wikimedia.org",
+   9
+  ],
+  [
+   "simonandschuster.com",
+   9
   ],
   [
    "medium.com",
    8
   ],
   [
-   "ugarchive.blogspot.com",
+   "podcasts.apple.com",
    8
   ],
   [
@@ -675,19 +695,23 @@
    8
   ],
   [
-   "realitysandwich.com",
+   "tribuneindia.com",
    8
   ],
   [
-   "commons.wikimedia.org",
-   7
+   "varietyindia.com",
+   8
+  ],
+  [
+   "realitysandwich.com",
+   8
   ],
   [
    "actualized.org",
    7
   ],
   [
-   "simonandschuster.com",
+   "dokumen.pub",
    7
   ],
   [
@@ -703,15 +727,27 @@
    6
   ],
   [
+   "spiritualteachers.org",
+   6
+  ],
+  [
    "ligotti.net",
    6
   ],
   [
-   "dokumen.pub",
+   "hammertonail.com",
    6
   ],
   [
-   "tribuneindia.com",
+   "amazon.in",
+   6
+  ],
+  [
+   "everand.com",
+   6
+  ],
+  [
+   "narayanamoorty.net",
    6
   ],
   [
@@ -719,11 +755,15 @@
    6
   ],
   [
-   "x.com",
+   "sciforums.com",
    5
   ],
   [
-   "sciforums.com",
+   "scroll.in",
+   5
+  ],
+  [
+   "newharbinger.com",
    5
   ],
   [
@@ -731,19 +771,23 @@
    5
   ],
   [
+   "travelswithug.com",
+   5
+  ],
+  [
+   "thefilmstage.com",
+   5
+  ],
+  [
    "sureshn13.medium.com",
    5
   ],
   [
-   "hammertonail.com",
+   "exoticindiaart.com",
    5
   ],
   [
-   "everand.com",
-   5
-  ],
-  [
-   "narayanamoorty.net",
+   "amazon.co.uk",
    5
   ],
   [
@@ -751,7 +795,11 @@
    5
   ],
   [
-   "varietyindia.com",
+   "true-dhamma.com",
+   5
+  ],
+  [
+   "fr.wikisource.org",
    5
   ],
   [
@@ -759,15 +807,7 @@
    4
   ],
   [
-   "spiritualteachers.org",
-   4
-  ],
-  [
-   "scroll.in",
-   4
-  ],
-  [
-   "newharbinger.com",
+   "onlinebooks.library.upenn.edu",
    4
   ],
   [
@@ -775,15 +815,15 @@
    4
   ],
   [
-   "travelswithug.com",
-   4
-  ],
-  [
-   "thefilmstage.com",
+   "it.wikipedia.org",
    4
   ],
   [
    "m.youtube.com",
+   4
+  ],
+  [
+   "ilgiardinodeilibri.it",
    4
   ],
   [
@@ -795,11 +835,19 @@
    4
   ],
   [
+   "batgap.com",
+   4
+  ],
+  [
    "moortysblogpage.blogspot.com",
    4
   ],
   [
    "cuke.com",
+   4
+  ],
+  [
+   "blackwells.co.uk",
    4
   ],
   [
@@ -811,11 +859,51 @@
    4
   ],
   [
-   "true-dhamma.com",
+   "u-g-k.fr",
    4
   ],
   [
+   "odysee.com",
+   4
+  ],
+  [
+   "conscious.tv",
+   4
+  ],
+  [
+   "theoverlooknews.com",
+   4
+  ],
+  [
+   "awfj.org",
+   4
+  ],
+  [
+   "unseenfilms.net",
+   4
+  ],
+  [
+   "piloton.it",
+   4
+  ],
+  [
+   "babelio.com",
+   4
+  ],
+  [
+   "nondualite.free.fr",
+   4
+  ],
+  [
+   "encyclopedia.com",
+   3
+  ],
+  [
    "travelswithug.blogspot.com",
+   3
+  ],
+  [
+   "abebooks.co.uk",
    3
   ],
   [
@@ -839,11 +927,19 @@
    3
   ],
   [
-   "ilgiardinodeilibri.it",
+   "theprint.in",
    3
   ],
   [
    "thriftbooks.com",
+   3
+  ],
+  [
+   "audiomack.com",
+   3
+  ],
+  [
+   "open.spotify.com",
    3
   ],
   [
@@ -855,7 +951,7 @@
    3
   ],
   [
-   "batgap.com",
+   "sites.google.com",
    3
   ],
   [
@@ -863,11 +959,11 @@
    3
   ],
   [
-   "pinterest.com",
+   "flickr.com",
    3
   ],
   [
-   "blackwells.co.uk",
+   "pinterest.com",
    3
   ],
   [
@@ -875,39 +971,51 @@
    3
   ],
   [
-   "onlinebooks.library.upenn.edu",
-   3
-  ],
-  [
    "file.true-dhamma.com",
    3
   ],
   [
-   "u-g-k.fr",
+   "search.worldcat.org",
    3
   ],
   [
-   "odysee.com",
+   "44books.com",
    3
   ],
   [
-   "conscious.tv",
+   "bollywoodlife.com",
    3
   ],
   [
-   "awfj.org",
+   "nextbestpicture.com",
    3
   ],
   [
-   "unseenfilms.net",
+   "riflessioni.it",
    3
   ],
   [
-   "piloton.it",
+   "famigliafideus.com",
    3
   ],
   [
-   "babelio.com",
+   "kn.wikipedia.org",
+   3
+  ],
+  [
+   "nodualidad.info",
+   3
+  ],
+  [
+   "amazon.de",
+   3
+  ],
+  [
+   "labirint.ru",
+   3
+  ],
+  [
+   "fnac.com",
    3
   ],
   [
@@ -919,8 +1027,8 @@
    3
   ],
   [
-   "encyclopedia.com",
-   2
+   "librest.com",
+   3
   ],
   [
    "home.online.nl",
@@ -936,10 +1044,6 @@
   ],
   [
    "louisbrawley.wordpress.com",
-   2
-  ],
-  [
-   "abebooks.co.uk",
    2
   ],
   [
@@ -967,11 +1071,11 @@
    2
   ],
   [
-   "biblio.com",
+   "readersend.com",
    2
   ],
   [
-   "theprint.in",
+   "biblio.com",
    2
   ],
   [
@@ -984,10 +1088,6 @@
   ],
   [
    "ebooknetworking.net",
-   2
-  ],
-  [
-   "amazon.co.uk",
    2
   ],
   [
@@ -1019,6 +1119,10 @@
    2
   ],
   [
+   "rickarcher1.substack.com",
+   2
+  ],
+  [
    "realization.org",
    2
   ],
@@ -1031,7 +1135,7 @@
    2
   ],
   [
-   "flickr.com",
+   "friedrichgrohe.com",
    2
   ],
   [
@@ -1043,19 +1147,11 @@
    2
   ],
   [
-   "search.worldcat.org",
+   "moortysblog.blogspot.com",
    2
   ],
   [
-   "theoverlooknews.com",
-   2
-  ],
-  [
-   "bollywoodlife.com",
-   2
-  ],
-  [
-   "nextbestpicture.com",
+   "epustakalay.com",
    2
   ],
   [
@@ -1063,11 +1159,7 @@
    2
   ],
   [
-   "riflessioni.it",
-   2
-  ],
-  [
-   "it.wikipedia.org",
+   "twitter.com",
    2
   ],
   [
@@ -1075,15 +1167,7 @@
    2
   ],
   [
-   "kn.wikipedia.org",
-   2
-  ],
-  [
    "oneindia.com",
-   2
-  ],
-  [
-   "amazon.in",
    2
   ],
   [
@@ -1091,11 +1175,19 @@
    2
   ],
   [
+   "podtail.com",
+   2
+  ],
+  [
    "ibs.it",
    2
   ],
   [
-   "nodualidad.info",
+   "standaardboekhandel.be",
+   2
+  ],
+  [
+   "inzicht.org",
    2
   ],
   [
@@ -1103,7 +1195,7 @@
    2
   ],
   [
-   "amazon.de",
+   "lubimyczytac.pl",
    2
   ],
   [
@@ -1111,7 +1203,59 @@
    2
   ],
   [
+   "estantevirtual.com.br",
+   2
+  ],
+  [
+   "eti.martin.free.fr",
+   2
+  ],
+  [
    "macrolibrarsi.it",
+   2
+  ],
+  [
+   "store.pothi.com",
+   2
+  ],
+  [
+   "pdfbooks.ourhindi.com",
+   2
+  ],
+  [
+   "mystica.tv",
+   2
+  ],
+  [
+   "jetzt-tv.net",
+   2
+  ],
+  [
+   "freepressjournal.in",
+   2
+  ],
+  [
+   "storizen.com",
+   2
+  ],
+  [
+   "patreon.com",
+   2
+  ],
+  [
+   "tiktok.com",
+   2
+  ],
+  [
+   "advaitaworld.com",
+   2
+  ],
+  [
+   "fr.wikipedia.org",
+   2
+  ],
+  [
+   "simple-dou.asablo.jp",
    2
   ],
   [
@@ -1195,14 +1339,6 @@
    1
   ],
   [
-   "readersend.com",
-   1
-  ],
-  [
-   "exoticindiaart.com",
-   1
-  ],
-  [
    "occultnthings.com",
    1
   ],
@@ -1212,14 +1348,6 @@
   ],
   [
    "shc.stanford.edu",
-   1
-  ],
-  [
-   "open.spotify.com",
-   1
-  ],
-  [
-   "podcasts.apple.com",
    1
   ],
   [
@@ -1283,19 +1411,11 @@
    1
   ],
   [
-   "rickarcher1.substack.com",
-   1
-  ],
-  [
    "yogaofheart.art",
    1
   ],
   [
    "dbpedia.org",
-   1
-  ],
-  [
-   "sites.google.com",
    1
   ],
   [
@@ -1355,10 +1475,6 @@
    1
   ],
   [
-   "moortysblog.blogspot.com",
-   1
-  ],
-  [
    "hi.wikipedia.org",
    1
   ],
@@ -1403,10 +1519,6 @@
    1
   ],
   [
-   "twitter.com",
-   1
-  ],
-  [
    "scienceandnonduality.com",
    1
   ],
@@ -1423,10 +1535,6 @@
    1
   ],
   [
-   "famigliafideus.com",
-   1
-  ],
-  [
    "amazon.it",
    1
   ],
@@ -1435,7 +1543,7 @@
    1
   ],
   [
-   "friedrichgrohe.com",
+   "lamashree-ugk2.blogspot.com",
    1
   ],
   [
@@ -1451,10 +1559,6 @@
    1
   ],
   [
-   "podtail.com",
-   1
-  ],
-  [
    "hoepli.it",
    1
   ],
@@ -1467,23 +1571,15 @@
    1
   ],
   [
+   "lafeltrinelli.it",
+   1
+  ],
+  [
    "agapea.com",
    1
   ],
   [
-   "standaardboekhandel.be",
-   1
-  ],
-  [
-   "inzicht.org",
-   1
-  ],
-  [
    "pocketbook.de",
-   1
-  ],
-  [
-   "labirint.ru",
    1
   ],
   [
@@ -1499,10 +1595,6 @@
    1
   ],
   [
-   "fnac.com",
-   1
-  ],
-  [
    "leslibraires.ca",
    1
   ],
@@ -1511,11 +1603,15 @@
    1
   ],
   [
-   "lubimyczytac.pl",
+   "kroliczajama.pl",
    1
   ],
   [
-   "kroliczajama.pl",
+   "antykwariatnws.pl",
+   1
+  ],
+  [
+   "skupszop.pl",
    1
   ],
   [
@@ -1535,31 +1631,11 @@
    1
   ],
   [
-   "epustakalay.com",
-   1
-  ],
-  [
-   "44books.com",
-   1
-  ],
-  [
    "catalign.in",
    1
   ],
   [
    "dlivros.com",
-   1
-  ],
-  [
-   "estantevirtual.com.br",
-   1
-  ],
-  [
-   "fr.wikisource.org",
-   1
-  ],
-  [
-   "eti.martin.free.fr",
    1
   ],
   [
@@ -1571,19 +1647,11 @@
    1
   ],
   [
-   "store.pothi.com",
-   1
-  ],
-  [
    "udumalai.com",
    1
   ],
   [
    "kinige.com",
-   1
-  ],
-  [
-   "pdfbooks.ourhindi.com",
    1
   ],
   [
@@ -1659,23 +1727,7 @@
    1
   ],
   [
-   "mystica.tv",
-   1
-  ],
-  [
-   "jetzt-tv.net",
-   1
-  ],
-  [
    "onderzoekhetzelf.nl",
-   1
-  ],
-  [
-   "freepressjournal.in",
-   1
-  ],
-  [
-   "storizen.com",
    1
   ],
   [
@@ -1692,6 +1744,206 @@
   ],
   [
    "thenaturalstate.film",
+   1
+  ],
+  [
+   "rts.ch",
+   1
+  ],
+  [
+   "analytics.wizdeo.com",
+   1
+  ],
+  [
+   "kiranprabha.podbean.com",
+   1
+  ],
+  [
+   "lucsala.nl",
+   1
+  ],
+  [
+   "ugscritti.blogspot.com",
+   1
+  ],
+  [
+   "feedthepeopleblog.substack.com",
+   1
+  ],
+  [
+   "jordanbates.substack.com",
+   1
+  ],
+  [
+   "wilhelmlamb.substack.com",
+   1
+  ],
+  [
+   "gururating.org",
+   1
+  ],
+  [
+   "samsarabooks.com",
+   1
+  ],
+  [
+   "boeddhistischdagblad.nl",
+   1
+  ],
+  [
+   "heiko-drewes.de",
+   1
+  ],
+  [
+   "wiki.yoga-vidya.de",
+   1
+  ],
+  [
+   "oshogulaab.com",
+   1
+  ],
+  [
+   "unicocomotu.wordpress.com",
+   1
+  ],
+  [
+   "ventosdepaz.blogspot.com",
+   1
+  ],
+  [
+   "enzoderuvo.it",
+   1
+  ],
+  [
+   "ganga.ru",
+   1
+  ],
+  [
+   "bookvoed.ru",
+   1
+  ],
+  [
+   "koob.ru",
+   1
+  ],
+  [
+   "ezo.club",
+   1
+  ],
+  [
+   "librarything.com",
+   1
+  ],
+  [
+   "alpheus.org",
+   1
+  ],
+  [
+   "waterstones.com",
+   1
+  ],
+  [
+   "ernster.com",
+   1
+  ],
+  [
+   "booktopia.com.au",
+   1
+  ],
+  [
+   "armitiere.com",
+   1
+  ],
+  [
+   "editorialsirio.com",
+   1
+  ],
+  [
+   "amazon.com.mx",
+   1
+  ],
+  [
+   "buchfindr.de",
+   1
+  ],
+  [
+   "booklooker.de",
+   1
+  ],
+  [
+   "deslegte.com",
+   1
+  ],
+  [
+   "screendaily.com",
+   1
+  ],
+  [
+   "dedanscommedehors.home.blog",
+   1
+  ],
+  [
+   "laprocure.com",
+   1
+  ],
+  [
+   "non-dualite.fr",
+   1
+  ],
+  [
+   "takutakugood.blogspot.com",
+   1
+  ],
+  [
+   "dr.com.tr",
+   1
+  ],
+  [
+   "kitapyurdu.com",
+   1
+  ],
+  [
+   "ko.wikipedia.org",
+   1
+  ],
+  [
+   "ebin.pub",
+   1
+  ],
+  [
+   "lifepositive.com",
+   1
+  ],
+  [
+   "mlbd.in",
+   1
+  ],
+  [
+   "rupapublications.co.in",
+   1
+  ],
+  [
+   "yadda.icm.edu.pl",
+   1
+  ],
+  [
+   "academia.edu",
+   1
+  ],
+  [
+   "iapsop.com",
+   1
+  ],
+  [
+   "theosophy.world",
+   1
+  ],
+  [
+   "theosophy.wiki",
+   1
+  ],
+  [
+   "agharta-mundointerior.blogspot.com",
    1
   ],
   [
@@ -1724,10 +1976,6 @@
   ],
   [
    "mail-archive.com",
-   1
-  ],
-  [
-   "nondualite.free.fr",
    1
   ],
   [
