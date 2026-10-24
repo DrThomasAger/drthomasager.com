@@ -27,7 +27,18 @@
    "goodreads.com",
    "inner-quest.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://www.goodreads.com/quotes/585068-to-be-yourself-requires-extraordinary-intelligence-you-are-blessed-with",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://www.beyond5.co.in/post/quotes-u-g-krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "Passage continues: one who lets his nature express itself in its own way is a 'natural man'"
+  ]
  },
  {
   "id": "qc6b6c3b1",
@@ -53,7 +64,12 @@
    "en.wikisource.org",
    "kwize.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qbd194c2e",
@@ -134,7 +150,17 @@
    "goodreads.com",
    "thequotearchive.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/984886-what-is-morality-it-is-not-the-following-of-enjoined",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti",
+   "https://thequotearchive.com/quotes/U.G.%20Krishnamurti",
+   "https://infant7sorrow.wordpress.com/ug/",
+   "https://www.beyond5.co.in/post/quotes-u-g-krishnamurti"
+  ],
+  "wording_variants": [
+   "Passage continues: 'Questioning your actions is destroying the expression of life.'"
+  ]
  },
  {
   "id": "qc80ccd13",
@@ -339,7 +365,17 @@
    "en.wikisource.org",
    "jhana8.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/ugbio/ugbio9.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://ug-k.blogspot.com/2007/04/aftermath-uniqueness-of-individual.html?m=0",
+   "https://jhana8.com/ug-krishnamurti-and-the-calamity-experience/"
+  ],
+  "wording_variants": [
+   "Each host renders the passage slightly differently; Wikisource has the fullest version"
+  ]
  },
  {
   "id": "qad57ce7d",
@@ -392,7 +428,12 @@
    "en.wikisource.org",
    "jhana8.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://www.dhammawheel.com/viewtopic.php?t=30425&start=120"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q2878603e",
@@ -418,7 +459,14 @@
    "en.wikisource.org",
    "simonandschuster.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://www.awakeningtoreality.com/2018/10/ug-krishnamurti-mystique-of.html",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q9aa9e10b",
@@ -598,7 +646,16 @@
    "hindu-blog.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923742/U-G-Krishnamurti-There-is-no-power-outside-of-man-Man-has-created-God-out-of-fear-So-the",
+   "https://www.azquotes.com/quote/811994",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.inspiringquotes.us/quotes/6S4w_WAf3b1CN",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q3148c69a",
@@ -624,7 +681,14 @@
    "azquotes.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923760/U-G-Krishnamurti-We-don-t-want-to-be-free-from-fear-All-that-we-want-to-do-is-to-play",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://o-meditation.com/more-masters-mystics-and-misfits/u-g-krishnamurti/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qb7fe3c01",
@@ -652,7 +716,16 @@
    "quotefancy.com",
    "quotlr.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti"
+  ],
+  "wording_variants": [
+   "Continues: 'the less phoney a helper is, and the more powerful or enlightened, the greater the misery and mischief he will cause'"
+  ]
  },
  {
   "id": "qfb105fa5",
@@ -811,7 +884,18 @@
    "quotefancy.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.goodreads.com/quotes/592471-thought-can-never-capture-the-movement-of-life-it-is",
+   "https://quotefancy.com/quote/923764/U-G-Krishnamurti-Thought-can-never-capture-the-movement-of-life-it-is-much-too-slow-It-is",
+   "https://www.azquotes.com/quote/1119868",
+   "https://quotepark.com/quotes/1356149-ug-krishnamurti-thought-can-never-capture-the-movement-of-life-it/"
+  ],
+  "wording_variants": [
+   "Some aggregators read 'moment of life' instead of 'movement of life'"
+  ]
  },
  {
   "id": "q118b8994",
@@ -866,7 +950,11 @@
    "en.wikisource.org",
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qd2169deb",
@@ -892,7 +980,12 @@
    "en.wikisource.org",
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/2210935/U-G-Krishnamurti-Sorrow-is-there-for-you-as-long-as-you-think-There-is-actually-no-sorrow",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qe6277a45",
@@ -961,7 +1054,17 @@
    "quotefancy.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/584727-if-you-have-the-courage-to-touch-life-for-the",
+   "https://quotefancy.com/quote/923773/U-G-Krishnamurti-If-you-have-the-courage-to-touch-life-for-the-first-time-you-will-never",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/quotes/1836321-ug-krishnamurti-if-you-have-the-courage-to-touch-life-for-the-firs/",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=2"
+  ],
+  "wording_variants": [
+   "praveennv.blogspot typo 'taught' for 'thought'"
+  ]
  },
  {
   "id": "qba7b8f15",
@@ -990,7 +1093,15 @@
    "libquotes.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://quotepark.com/quotes/1899973-ug-krishnamurti-it-is-the-ones-who-believe-in-god-who-preach-peac/",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbs1h8v",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "wording_variants": [
+   "Continues: compared to man's jungle, nature's jungle is tame; animals kill only for survival"
+  ]
  },
  {
   "id": "qd8034757",
@@ -1017,7 +1128,17 @@
    "quotefancy.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923781/U-G-Krishnamurti-There-is-no-such-thing-as-truth-The-only-thing-that-is-actually-there-is",
+   "https://www.azquotes.com/quote/755138",
+   "https://theysaidso.com/quote/u-g-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-that-is-actually",
+   "https://www.quoteslyfe.com/quote/There-is-no-such-thing-as-truth-1127802",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "wording_variants": [
+   "minor variation in quotation marks around 'logically' and 'truth'"
+  ]
  },
  {
   "id": "qa96fd115",
@@ -1104,7 +1225,14 @@
    "en.wikiquote.org",
    "remembering-ug.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.catalign.in/2020/06/why-does-u-g-krishnamurti-ask-is-there.html",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q2c9515a2",
@@ -1130,13 +1258,23 @@
    "en.wikiquote.org",
    "remembering-ug.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quotes/search",
+   "https://www.azquotes.com/quote/755136",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "http://remembering-ug.blogspot.com/2012/05/passages-220712.html"
+  ],
+  "wording_variants": [
+   "Some hosts run the two sentences together or reverse their order; preceded by 'I have searched everywhere to find an answer to my question...'"
+  ]
  },
  {
   "id": "q4fd55d91",
   "text": "God or Enlightenment is the ultimate pleasure, uninterrupted happiness. No such thing exists.",
-  "book": "Mind is a Myth",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
   "year": 1988,
   "confidence": "S",
   "kind": "verbatim",
@@ -1148,7 +1286,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": "Goodreads lists under Mind Is a Myth and No Way Out; Wikisource also has it in Thought is Your Enemy.",
+  "note": "Goodreads lists under Mind Is a Myth and No Way Out; Wikisource also has it in Thought is Your Enemy. Verification 2: Wikisource No Way Out ch. 1.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
    "https://en.wikisource.org/wiki/Thought_is_Your_Enemy"
@@ -1158,7 +1296,15 @@
    "en.wikisource.org",
    "goodreads.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_1",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti",
+   "http://praveennv.blogspot.com/2016/03/ug-krishnamurthi-on-god-or-enlightenment.html"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q3bdfe3cb",
@@ -1209,7 +1355,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": "Fragment on quotefancy ends at \"conform\"; \"It is grotesque.\" confirmed by summary. Goodreads also lists it under The Courage to Stand Alone.",
+  "note": "Fragment on quotefancy ends at \"conform\"; \"It is grotesque.\" confirmed by summary. Goodreads also lists it under The Courage to Stand Alone. Verification 2: Wikiquote sources the wording via Mahesh Bhatt's A Taste of Death.",
   "sources": [
    "https://quotefancy.com/quote/923745/",
    "https://quotlr.com/author/ug-krishnamurti"
@@ -1219,7 +1365,18 @@
    "quotefancy.com",
    "quotlr.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/73098-nature-is-busy-creating-absolutely-unique-individuals-whereas-culture-has",
+   "https://quotefancy.com/quote/923745/U-G-Krishnamurti-Nature-is-busy-creating-absolutely-unique-individuals-whereas-culture",
+   "https://www.azquotes.com/quote/363380",
+   "https://quotepark.com/quotes/1298546-ug-krishnamurti-nature-is-busy-creating-absolutely-unique-individu/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "wording_variants": [
+   "Some hosts omit the closing 'It is grotesque.'"
+  ],
+  "corrected": true
  },
  {
   "id": "qa8d80bc5",
@@ -1499,7 +1656,15 @@
    "en.wikiquote.org",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://libquotes.com/u-g-krishnamurti/quote/lbt8d9s",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/purpose",
+   "https://www.inspiringquotes.us/author/3700-u-g-krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qfd63f8c6",
@@ -1661,7 +1826,18 @@
    "libquotes.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923747/U-G-Krishnamurti-Everything-you-stand-for-believe-in-experience-and-aspire-to-is-the",
+   "https://libquotes.com/u-g-krishnamurti/quotes/thought",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "wording_variants": [
+   "Continues: 'thought is nothing more than a protective mechanism, programmed to protect its own interests at all costs'"
+  ]
  },
  {
   "id": "qf42bae73",
@@ -1818,7 +1994,16 @@
    "goodreads.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/590899-you-can-have-the-courage-to-climb-the-mountain-swim",
+   "https://www.azquotes.com/quote/487305",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbc3l4a",
+   "https://quotepark.com/quotes/1922951-ug-krishnamurti-you-can-have-the-courage-to-climb-the-mountain-sw/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q7f620b02",
@@ -2166,7 +2351,12 @@
    "goodreads.com",
    "praveennv.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qc774741b",
@@ -2193,7 +2383,13 @@
    "goodreads.com",
    "praveennv.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti",
+   "https://quotessayings.net/topics/krishnamurti-death/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q6fe326b5",
@@ -2221,7 +2417,13 @@
    "goodreads.com",
    "praveennv.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "https://quotessayings.net/topics/krishnamurti-death/",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qbd6fe67c",
@@ -2910,7 +3112,14 @@
    "goodreads.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3"
+  ],
+  "wording_variants": [
+   "Same passage: 'The ending of tradition is also courage'"
+  ]
  },
  {
   "id": "q85310fad",
@@ -2937,7 +3146,18 @@
    "en.wikiquote.org",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.azquotes.com/quote/1119867",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
+  ],
+  "wording_variants": [
+   "Second sentence often appended: 'he would say that if you fall, you will arise and walk'"
+  ]
  },
  {
   "id": "q373b0000",
@@ -3444,7 +3664,15 @@
    "medium.com",
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm",
+   "http://remembering-ug.blogspot.com/2012/07/talks-310812.html",
+   "https://www.youtube.com/watch?v=mYT8rJ2eQM8"
+  ],
+  "wording_variants": [
+   "inner-quest: 'I dont advise others not to see a doctor' (no apostrophe)"
+  ]
  },
  {
   "id": "qb87a576d",
@@ -3941,7 +4169,13 @@
    "people.well.com",
    "quotepark.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm",
+   "https://quotepark.com/quotes/1733648-ug-krishnamurti-it-thought-is-a-mechanical-thing-and-can-solve-o/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qd9a45360",
@@ -4041,7 +4275,14 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=3",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.wisefamousquotes.com/quotes-about-krishnamurti/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q1fb04988",
@@ -4176,7 +4417,7 @@
  {
   "id": "q25e43852",
   "text": "There is nothing there - no soul - there is only this question about after death.",
-  "book": "unassigned",
+  "book": "The Mystique of Enlightenment",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -4187,7 +4428,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "From a quote-collection page; book not identified.",
+  "note": "From a quote-collection page; book not identified. Verification 2: host-supplied book.",
   "sources": [
    "https://quotlr.com/author/ug-krishnamurti"
   ],
@@ -4195,7 +4436,17 @@
   "source_hosts": [
    "quotlr.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923782/U-G-Krishnamurti-There-is-nothing-there-no-soul-there-is-only-this-question-about-after",
+   "http://remembering-ug.blogspot.com/2012/03/quotes-080512.html",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://quotessayings.net/topics/krishnamurti-death/"
+  ],
+  "wording_variants": [
+   "Quotefancy adds the continuation that the question 'has to die now' for the reader to find their own answer"
+  ],
+  "corrected": true
  },
  {
   "id": "q7e344096",
@@ -4222,7 +4473,11 @@
    "intuition.org",
    "intuitionnetwork.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://www.intuitionnetwork.org/txt/krishna.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qf71956be",
@@ -4240,7 +4495,7 @@
    "book-stopped-in-our-tracks",
    "kind-fragment"
   ],
-  "note": "Reported speech in Chandrasekhar's journal, 1972 Bangalore period.",
+  "note": "Reported speech in Chandrasekhar's journal, 1972 Bangalore period. Verification 2: Chandrasekhar's narration quoting U.G. (Stopped in Our Tracks).",
   "sources": [
    "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/",
    "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
@@ -4250,7 +4505,12 @@
    "en.wikisource.org",
    "kwize.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qc032db3b",
@@ -4380,15 +4640,15 @@
   "book": "unassigned",
   "chapter": null,
   "year": null,
-  "confidence": "S",
-  "kind": "verbatim",
+  "confidence": "T",
+  "kind": "paraphrase",
   "tags": [
    "relationship",
    "love",
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: exact sentence not found; Wikisource No Way Out ch. 8 has the idea as 'all relationships are built on the foundation of What do I get out of this relationship?'.",
   "sources": [
    "https://www.inner-quest.org/UG_Words.htm"
   ],
@@ -4396,7 +4656,14 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8"
+  ],
+  "wording_variants": [
+   "Wikisource No Way Out ch. 8: all relationships are built on the foundation of 'What do I get out of this relationship?'"
+  ],
+  "corrected": true
  },
  {
   "id": "q3646651d",
@@ -4644,7 +4911,7 @@
    "book-thought-is-your-enemy",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
    "https://en.wikisource.org/wiki/Thought_is_Your_Enemy"
@@ -4654,7 +4921,10 @@
    "en.wikisource.org",
    "goodreads.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qd39fb8fe",
@@ -4707,7 +4977,16 @@
    "en.wikisource.org",
    "goodreads.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotepark.com/quotes/949961-ug-krishnamurti-we-are-not-created-for-any-grander-purpose-than-th/",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "wording_variants": [
+   "Full line adds '...or the mosquitoes sucking our blood'"
+  ]
  },
  {
   "id": "q0997ce6d",
@@ -4735,7 +5014,11 @@
    "amazon.com",
    "goodreads.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/45622919-ug-krishnamurti-society-it-s-terror-not-love-that-keeps-us-together"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa56a998d",
@@ -4764,7 +5047,15 @@
    "goodreads.com",
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/2210933/U-G-Krishnamurti-I-still-maintain-that-it-is-not-love-compassion-humanism-or-brotherly",
+   "https://www.goodreads.com/quotes/9453810-i-still-maintain-that-it-is-not-love-compassion-humanism",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
+  ],
+  "wording_variants": [
+   "Full form begins 'I still maintain that it is not love...' followed by 'No, not at all.'"
+  ]
  },
  {
   "id": "q3efc45a4",
@@ -4815,7 +5106,11 @@
   "source_hosts": [
    "ug-k.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://ug-k.blogspot.com/2007/04/conversations-following-conversations.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q828c848c",
@@ -4918,7 +5213,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/II",
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q4fc99cde",
@@ -5002,7 +5303,7 @@
  {
   "id": "qa095f585",
   "text": "I have one thing against medical technology…",
-  "book": "unassigned",
+  "book": "The Mystique of Enlightenment",
   "chapter": null,
   "year": 1982,
   "confidence": "S",
@@ -5014,7 +5315,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Dated 1982 on quotewise/quotepark; continues about controlling the human being.",
+  "note": "Dated 1982 on quotewise/quotepark; continues about controlling the human being. Verification 2: host-supplied book.",
   "sources": [
    "https://quotewise.io/o/U.G._Krishnamurti/",
    "https://quotepark.com/authors/ug-krishnamurti/"
@@ -5024,7 +5325,18 @@
    "quotepark.com",
    "quotewise.io"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://kwize.com/en/authors/U-G-Krishnamurti/",
+   "https://quotewise.io/o/U.G._Krishnamurti/",
+   "https://yquotes.com/quotes/u-g-krishnamurti/"
+  ],
+  "wording_variants": [
+   "Followed by: 'the very desire to understand the human being is to control him; the day you control the endocrine glands, you will change the personality of man'"
+  ],
+  "corrected": true
  },
  {
   "id": "qff9ae05a",
@@ -5418,7 +5730,17 @@
    "en.wikiquote.org",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone",
+   "https://www.azquotes.com/quote/487305",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbc3l4a",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://o-meditation.com/wp-content/uploads/2011/05/the-courage-to-stand-alone.pdf"
+  ],
+  "wording_variants": [
+   "A foreword-style note in one printing reads 'the courage to stand on your own solid feet'"
+  ]
  },
  {
   "id": "q4b30cd75",
@@ -5615,7 +5937,17 @@
   "source_hosts": [
    "mail-archive.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/ugbio/ugbio9.htm",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://ug-k.blogspot.com/2007/04/aftermath-uniqueness-of-individual.html?m=0",
+   "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/krishnamurti-u-g"
+  ],
+  "wording_variants": [
+   "Primary text reads 'Not a calamity to me but a calamity to those who have an image that something marvelous is going to happen' per Wikisource; some reproductions drop the second 'a calamity' (cf. qad57ce7d)"
+  ]
  },
  {
   "id": "q80ebe1ef",
@@ -5639,7 +5971,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
+   "http://remembering-ug.blogspot.com/2012/06/passages-060812.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q74cba27f",
@@ -5689,7 +6027,11 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qea825286",
@@ -5814,7 +6156,14 @@
    "heartofyoga.com",
    "jhana8.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.heartofyoga.com/blog/2021/3/12/the-influence-of-ug-krishnamurti-on-yoga",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "inner-quest continues: 'all these therapies, all these techniques, religious or otherwise, are only perpetuating the agony of man'"
+  ]
  },
  {
   "id": "q62dd75b6",
@@ -5839,7 +6188,17 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/765776",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "wording_variants": [
+   "Continues: 'It is strengthening the self, adding momentum, gathering momentum, so it is taking you in the opposite direction.'"
+  ]
  },
  {
   "id": "q08218f4e",
@@ -6015,7 +6374,15 @@
    "inner-quest.org",
    "nondualite.free.fr"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://nondualite.free.fr/c_ug_courage.htm",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "wording_variants": [
+   "Wikiquote: 'To be an individual and to be yourself you don't have to do a thing'"
+  ]
  },
  {
   "id": "qdb3fcee7",
@@ -6140,7 +6507,14 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.awakeningtoreality.com/2018/10/ug-krishnamurti-mystique-of.html",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611",
+   "https://www.amazon.com/Mystique-Enlightenment-Radical-Ideas-Krishnamurti/dp/0971078610"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa2698ac8",
@@ -6164,7 +6538,11 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q1676a73f",
@@ -6189,7 +6567,17 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/531154-it-is-fear-that-makes-you-believe-that-you-are",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://quotes.pub/q/it-is-fear-that-makes-you-believe-that-you-are-living-and-th-448733"
+  ],
+  "wording_variants": [
+   "Continues: 'That is why we have invented all these new minds, new sciences, new talks, therapies, choiceless awareness and various other gimmicks.'"
+  ]
  },
  {
   "id": "q679cf6ae",
@@ -6295,8 +6683,8 @@
  {
   "id": "q93823c44",
   "text": "It would be more interesting to learn from children, than try to teach them how to behave, how to live and how to function.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
   "year": null,
   "confidence": "T",
   "kind": "verbatim",
@@ -6306,7 +6694,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: host-supplied book.",
   "sources": [
    "https://www.idlehearts.com/authors/u-g-krishnamurti-quotes",
    "https://quotefancy.com/u-g-krishnamurti-quotes"
@@ -6316,13 +6704,22 @@
    "idlehearts.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/755132",
+   "https://quotefancy.com/quote/923746/U-G-Krishnamurti-It-would-be-more-interesting-to-learn-from-children-than-try-to-teach",
+   "https://peakd.com/@samstonehill/u-g-krishnamurti-of-the-day-we-must-learn-from-the-children",
+   "https://www.picturequotes.com/ug-krishnamurti-quotes",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q21e36727",
   "text": "Because you cannot face the impermanence of all relationships, you invent sentiments, romance, and dramatic emotions to give them certainty.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
   "year": null,
   "confidence": "T",
   "kind": "verbatim",
@@ -6333,7 +6730,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: host-supplied book and chapter.",
   "sources": [
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
   ],
@@ -6341,7 +6738,15 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://onlygodis.com/teachings/ug_krishnamurti.html",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q7660d023",
@@ -6393,7 +6798,16 @@
    "en.dharmapedia.net",
    "en.wikiquote.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923758/U-G-Krishnamurti-I-am-not-anti-rational-just-unrational-You-may-infer-a-rational-meaning",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=2",
+   "https://stillnessspeaks.com/images/uploaded/file/01-The%20Unrational%20Philosphy%20Of%20U_G_%20Krishnamurti.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qd69def2f",
@@ -6672,7 +7086,14 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/enemy0.htm",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "Sources read 'variations OF the same theme' not 'variations ON the same theme'"
+  ]
  },
  {
   "id": "qc852ca7b",
@@ -6750,7 +7171,11 @@
    "goodreads.com",
    "kwize.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q7f2ee6c3",
@@ -6774,7 +7199,11 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q77b540c6",
@@ -6799,7 +7228,11 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qbb683516",
@@ -6829,7 +7262,7 @@
  {
   "id": "qd74b2e4b",
   "text": "Political institutions and ideologies are the warty outgrowth of the religious thinking of the man; in a way responsible for the tragedy of mankind.",
-  "book": "Thought is Your Enemy",
+  "book": "No Way Out",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6841,7 +7274,7 @@
    "book-thought-is-your-enemy",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: Wikiquote, Goodreads and Libquotes all give No Way Out.",
   "sources": [
    "https://quotepark.com/authors/ug-krishnamurti/"
   ],
@@ -6849,7 +7282,15 @@
   "source_hosts": [
    "quotepark.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbz3d6j",
+   "https://www.goodreads.com/book/show/13440832-no-way-out",
+   "https://www.elephantjournal.com/2016/03/nobody-wants-you-to-read-these-quotes-they-set-you-free-from-being-brainwashed/"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q8d5e7e71",
@@ -6873,7 +7314,14 @@
   "source_hosts": [
    "holybooks.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "wording_variants": [
+   "hindu-blog: 'Human nature is basically violent, because thought is violent. Anything that is born out of thought is destructive.' (no leading 'Yes it is.')"
+  ]
  },
  {
   "id": "q3814bcc6",
@@ -6899,12 +7347,18 @@
   "source_hosts": [
    "holybooks.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "wording_variants": [
+   "hindu-blog spells 'love thy neighbour as thyself' (British spelling) and reads 'more than in all the recent wars put together'"
+  ]
  },
  {
   "id": "qb4728a46",
   "text": "The body does not exist except as a thought.",
-  "book": "unassigned",
+  "book": "Mind is a Myth",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6915,7 +7369,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: host-supplied book.",
   "sources": [
    "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
   ],
@@ -6923,7 +7377,16 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+  ],
+  "wording_variants": [
+   "Goodreads passage continues: 'your thoughts give form and definition to the body, otherwise you have no way of experiencing it'"
+  ],
+  "corrected": true
  },
  {
   "id": "q6a9a1403",
@@ -6979,8 +7442,8 @@
  {
   "id": "q4e912343",
   "text": "The knowledge about it, all that he has learned, is held in the background, unless there is a demand.",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
   "year": null,
   "confidence": "T",
   "kind": "verbatim",
@@ -6991,7 +7454,7 @@
    "book-the-natural-state",
    "kind-verbatim"
   ],
-  "note": "Third-person description of the natural state quoted on Jhana 8.",
+  "note": "Third-person description of the natural state quoted on Jhana 8. Verification 2: Wikisource places it in Mystique Part Two.",
   "sources": [
    "https://jhana8.com/ug-krishnamurtis-natural-state/"
   ],
@@ -6999,7 +7462,12 @@
   "source_hosts": [
    "jhana8.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q85d5f7a2",
@@ -7107,7 +7575,7 @@
   "chapter": null,
   "year": null,
   "confidence": "T",
-  "kind": "verbatim",
+  "kind": "paraphrase",
   "tags": [
    "love",
    "sex",
@@ -7115,7 +7583,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
@@ -7123,12 +7591,17 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/intro.html"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q6f67c3f2",
   "text": "All doctors should be shot.",
-  "book": "unassigned",
+  "book": "My Swan Song",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -7139,7 +7612,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Said he never took medicine or saw a doctor except once for typhoid; did not advise others against doctors.",
+  "note": "Said he never took medicine or saw a doctor except once for typhoid; did not advise others against doctors. Verification 2: host-supplied source.",
   "sources": [
    "https://www.inner-quest.org/UG.htm",
    "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
@@ -7149,7 +7622,18 @@
    "inner-quest.org",
    "medium.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://remembering-ug.blogspot.com/2012/07/talks-310812.html",
+   "https://www.youtube.com/watch?v=mYT8rJ2eQM8",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/"
+  ],
+  "wording_variants": [
+   "'all doctors should be shot dead' (talk title); Swan Song: 'Although I assert that all doctors should be shot, I don't advise others not to see a doctor'"
+  ],
+  "corrected": true
  },
  {
   "id": "q7969abd0",
