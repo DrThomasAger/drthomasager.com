@@ -70,6 +70,11 @@ ia download ug_hillside2 --destdir downloads/archive_org  # U.G. with Dr. Larry 
 ia download ug_no_enlightenment --destdir downloads/archive_org  # There is no such thing as Enlightenment.
 ia download ug_george_gary_kunm_radio_albu --destdir downloads/archive_org  # Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico
 ia download godmenconmen0000carr --destdir downloads/archive_org  # God Men Con Men — Robert Carr (with audio disc of conversations with U
+ia download ug_01_anger_is_energy_dec1587 --destdir downloads/archive_org  # Anger is Energy
+ia download ug_08_journalists_i-experss_week_kannada-prabha_jan1988 --destdir downloads/archive_org  # The India Express Journalists, Kannada Prabha (January 1988)
+ia download ug_w_donnald_ingram --destdir downloads/archive_org  # U.G. with Donald Ingram
+ia download elpensamientoest0000ugkr --destdir downloads/archive_org  # El Pensamiento es Tu Enemigo (Spanish translation of Thought Is Your E
+ia download ug_amsterdam_19820901 --destdir downloads/archive_org  # Conversation in Amsterdam (1 September 1982)
 
 # --- YouTube (pip install yt-dlp)
 yt-dlp -o 'downloads/youtube/%(uploader)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/channel/UCRLQIvQcoF41xZdrtKMXSvg'  # YouTube channel Lectures Beyond Beyond
@@ -713,3 +718,10 @@ wget -q -E -P downloads/pages 'https://rupapublications.co.in/public/book/the-as
 wget -q -E -P downloads/pages 'https://44books.com/dimag-hi-dushman-hai-u-g-krishnamurti.html'  # दिमाग ही दुश्मन है (Dimag Hi Dushman Hai) — Hindi Thought Is
 wget -q -E -P downloads/pages 'https://yadda.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_24917_20841043_12_2_12'  # Robert Trochonowicz, 'Total helplessness: A critical reconst
 wget -q -E -P downloads/pages 'https://agharta-mundointerior.blogspot.com/p/blog-page_27.html'  # Portuguese (Brazil) — no UG edition found; blog 'UG Krishnam
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/krishnamurti/'  # UG Krishnamurti and Genetics
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/atheism/'  # Extreme Atheist and Anti-Guru UG Krishnamurti interview. Fas
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/askphilosophy/'  # Western philosophies/"religions" akin to zen, Advaita, Taois
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/awakened/'  # UG Krishnamurti interview from 'Thinking Allowed' (Jeffrey M
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/nonduality/'  # U.G. Krishnamurti - Garden Conversation Bits
+wget -q -E -P downloads/pages 'https://www.reddit.com/r/psychonaut/'  # (untitled in index) U.G. Krishnamurti post
+wget -q -E -P downloads/pages 'https://www.socialgrep.com/search?query=ug+krishnamurti'  # UG on past, present and future (Thinking Allowed excerpt)

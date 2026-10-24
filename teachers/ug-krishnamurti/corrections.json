@@ -15,7 +15,9 @@
   "note": "Verification: cited to Stopped in Our Tracks Book Two, not Mind is a Myth."
  },
  "qfd63f8c6": {
-  "note": "Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy."
+  "note": "Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy. Verification 4: Wikisource Mind is a Myth ch. I ('tried' vs 'trying' between copies).",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything"
  },
  "q7fad3985": {
   "book": "The Courage to Stand Alone",
@@ -35,8 +37,9 @@
   "note": "Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks."
  },
  "q044d9da9": {
-  "book": "The Courage to Stand Alone",
-  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth."
+  "book": "Mind is a Myth",
+  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth. Verification 4: Wikisource, Goodreads and remembering-ug place it in Mind is a Myth ch. I.",
+  "chapter": "Ch. I The Certainty That Blasts Everything"
  },
  "qd1a6079f": {
   "book": "Stopped in Our Tracks",
@@ -200,5 +203,79 @@
  },
  "qba6902b4": {
   "note": "Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'."
+ },
+ "q96cd1f77": {
+  "book": "U.G. Krishnamurti: A Life",
+  "chapter": "Ch. 4 Locking of Horns",
+  "note": "Verification 4: Bhatt's biography ch. 4 (WELL ugbio4.htm), reported speech."
+ },
+ "q104a81af": {
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
+  "note": "Verification 4: Wikiquote and Quotepark give No Way Out ch. 7."
+ },
+ "q00193fb7": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 4: Chandrasekhar's Book Two excerpts (chandra.htm)."
+ },
+ "qa850f231": {
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
+  "note": "Verification 4: same chandra.htm sentence pair as q00193fb7."
+ },
+ "q1268f7b9": {
+  "note": "Verification 4: source wording is 'brush aside', not 'dismiss'; the Nov 1988 date is unconfirmed."
+ },
+ "q7bd7cc71": {
+  "note": "Verification 4: attribution conflict between Sage and the Housewife ch. 3 and No Way Out ch. 4."
+ },
+ "qc60032ad": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: carried as 'U.G. says that…', a press paraphrase, not his sentence."
+ },
+ "q0c6ee69f": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: 'a useless exercise' is Wikipedia's narrative voice, not a U.G. sentence."
+ },
+ "qdab04c55": {
+  "note": "Verification 4: the core sentence 'The natural state is a pure and simple, physical and physiological state of being' is U.G.'s own (inner-quest; WELL No Way Out ch. 1)."
+ },
+ "q707dda41": {
+  "note": "Verification 4: 'My aim is to silence you' not found verbatim; the only 'silence' line in Stopped in Our Tracks is Nagaraj's remark."
+ },
+ "q373b0000": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 4: the horizon passage is Mind is a Myth ch. I on Wikisource, not The Natural State."
+ },
+ "q3efc45a4": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 4: Wikisource Mind is a Myth ch. I."
+ },
+ "qeb9c85d2": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: an editor's bracketed third-person biographical note in Mystique Part One, not U.G.'s words."
+ },
+ "q718e3b22": {
+  "note": "Verification 4: disputed; the only 'no escape' ending found belongs to the Mind is a Myth sorrow passage, not No Way Out ch. 7."
+ },
+ "qc40e7904": {
+  "note": "Verification 4: a Terry Newland Introduction quotation."
+ },
+ "q5af2e554": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: publisher blurb, not U.G.'s sentence."
+ },
+ "q27ae73f0": {
+  "note": "Verification 4: editorial wording from the UG Cookbook."
+ },
+ "q85d5f7a2": {
+  "note": "Verification 4: wording is jhana8's biography, not a transcribed line."
  }
 }
