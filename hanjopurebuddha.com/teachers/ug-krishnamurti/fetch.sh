@@ -165,6 +165,36 @@ yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --wri
 yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=tRLAUKc0q20'  # YouTube: 'U.G. Krishnamurti Family Photos' slideshow
 yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=fFEyTmJhYAY'  # YouTube: 'U.G. Krishnamurti with friends – Gstaad (Switzerla
 yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=_dhB5Ycmhdc'  # The Natural State — Festival Trailer 2026 (YouTube)
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=OUPWLRrkN1Y'  # U.G. Krishnamurti - Your Expectation, Your Delusion
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=5YAS9hwhSZA'  # U.G. Krishnamurti - Is There Any Meaning In Making Love?
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=Cj1nlRwiLeQ'  # U.G. Krishnamurti - Can You Help Yourself?
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=ls7zX3FulU8'  # U.G. Krishnamurti - Thought Can Create Any Experience You Wa
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=mHKOOiFCdyc'  # U.G. Krishnamurti - At The Journey's End
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=wZQAH9iDLoE'  # U.G. Krishnamurti - Visiting New Zealand
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=DjaGjGXkxd8'  # U.G. Krishnamurti - You Wish
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=uFZAHwXFxl4'  # U.G. Krishnamurti - Garden Conversation Bits
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=WrpQcFJOFQ4'  # U.G. Krishnamurti on Parveen Babi
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=tOwUjafySNA'  # U.G. Krishnamurti - No Salvation (Interview & Answering Call
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=ejIHcYXkD7k'  # U.G. Krishnamurti - Paradise? When?
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=h3QijuluQJw'  # U.G. Krishnamurti - What Do I Think?
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=n6Tq-YOaMWk'  # U.G Krishnamurti - World Of Ideas
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=1-1IthbtzrE'  # U.G. Krishnamurti - Essential Questions on Life
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=XwIiPaxpeyI'  # U.G. Krishnamurti - The Computer Is Not Interested In...
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=_lbCuf-hgOM'  # U.G. Krishnamurti - The Delusion That Is You
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=1exoQ3W-6E4'  # U.G Krishnamurti - Snap Out of It!
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=dVqeMW-bfTo'  # U.G. Krishnamurti - Talks About His Calamity With David Bohm
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=EBL37cSYih4'  # U.G. Krishnamurti - You're Only Happy When You Get What You 
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=N37KSm45ZNY'  # U.G. Krishnamurti - Thoughts Will Not Help You
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=6deGa7wkidw'  # U.G. Krishnamurti - Thoughts, Language & Energy
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=kUw-SHVW7UM'  # U.G. Krishnamurti - Permanent Happiness
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=rkTZ7lAvU6Q'  # U.G. Krishnamurti - You're Not the Ideas You Pursue
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=AlVM1oM5FCw'  # U.G. Krishnamurti in New Zealand
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=d_B8_A-RSIY'  # U.G. Krishnamurti - Quest For Permanent Happiness
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=aP-JiJxcz3o'  # U.G. Krishnamurti (untitled upload; mentions walking and tal
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=rklxAMyAOpU'  # UG on the swing at Poorna Kutee Bangalore 1991
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=DprGwMVKFmM'  # Brahmachariji's mimicry before UG Poorna Kutee, Bangalore Ja
+yt-dlp -o 'downloads/youtube/%(title)s [%(id)s].%(ext)s' --write-info-json --write-subs --write-auto-subs 'https://www.youtube.com/watch?v=vXEkZUcToSc'  # UG and Mahesh Bhatt in the front-yard of Poorna Kutee, Banga
+yt-dlp -o 'downloads/youtube/%(uploader)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/@sekharsug63'  # korlimarla chandrasekhar babu (channel @sekharsug63)
 
 # --- SoundCloud (yt-dlp)
 yt-dlp -o 'downloads/soundcloud/%(uploader)s/%(title)s.%(ext)s' 'https://soundcloud.com/petermaverick/give-up-u-g-krishnamurti'  # "Give Up" tapes — Amsterdam talks recorded by Henk Schonewil
