@@ -805,7 +805,7 @@ def build_gurus():
     if mod.SITE.exists():
         shutil.rmtree(mod.SITE)
     mod.SITE.mkdir(parents=True)
-    cards = [mod.build_teacher(f, mod.SITE) for f in sorted(p for p in mod.TEACHERS.iterdir() if p.is_dir())]
+    cards = [mod.build_teacher(f, mod.SITE) for f in sorted(p for p in mod.TEACHERS.iterdir() if p.is_dir() and not p.name.startswith("_"))]
     mod.build_index(cards, mod.SITE / "index.html", prefix="")
     return len(cards)
 
