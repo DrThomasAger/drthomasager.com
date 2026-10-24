@@ -1,6 +1,6 @@
 {
  "summary": {
-  "items": 523,
+  "items": 524,
   "quotes": 267,
   "events": 84,
   "people": 87,
@@ -9,11 +9,11 @@
    "community": 22,
    "audio": 79,
    "image": 93,
-   "text": 142,
+   "text": 143,
    "video": 92
   },
   "items_by_confidence": {
-   "S": 482,
+   "S": 483,
    "T": 2,
    "lead": 39
   },
@@ -31,27 +31,27 @@
    "corroborated-primary": 10
   },
   "quotes_by_book": {
-   "The Mystique of Enlightenment": 46,
-   "Mind is a Myth": 43,
-   "Thought is Your Enemy": 18,
-   "The Courage to Stand Alone": 12,
+   "The Mystique of Enlightenment": 43,
+   "The Natural State": 15,
+   "No Way Out": 28,
+   "Mind is a Myth": 42,
+   "Stopped in Our Tracks": 7,
+   "Thought is Your Enemy": 16,
+   "The Courage to Stand Alone": 13,
    "A Taste of Death": 2,
-   "unassigned": 70,
-   "No Way Out": 24,
-   "The Natural State": 14,
+   "unassigned": 68,
    "My Swan Song": 17,
    "Stopped in Our Tracks, Book Two": 1,
    "U.G. Krishnamurti: A Life": 5,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
-   "Stopped in Our Tracks": 5,
    "The Biology of Enlightenment": 2,
    "Society: It's terror, not love that keeps us together": 1,
    "Certainty: Life has no beginning, no end": 1,
    "The Sage and the Housewife": 1,
    "Science and U.G.": 4
   },
-  "distinct_source_hosts": 284,
-  "items_self_sourced_only": 272,
+  "distinct_source_hosts": 285,
+  "items_self_sourced_only": 273,
   "items_with_second_source": 239,
   "issue_counts": {
    "event-date-conflict": 7,
@@ -60,7 +60,7 @@
    "item-possible-jk-contamination": 2,
    "quote-flagged-not-ug-or-editor": 4,
    "quote-near-duplicate": 6,
-   "quote-unassigned-book": 70,
+   "quote-unassigned-book": 68,
    "quote-very-short": 8
   }
  },
@@ -225,10 +225,6 @@
     "All your experiences, all your meditations, all your prayer,"
    ],
    [
-    "q41e40f21",
-    "There is no such thing as truth. The only thing..."
-   ],
-   [
     "q07528773",
     "whatever you do to be free from the self also is a self-cent"
    ],
@@ -247,10 +243,6 @@
    [
     "q2dd1ea30",
     "We never look at anything."
-   ],
-   [
-    "q64ffef08",
-    "Tell them that there is nothing to understand."
    ],
    [
     "qeee2e8cf",
@@ -1621,6 +1613,10 @@
   ],
   [
    "gnanudr.blogspot.com",
+   1
+  ],
+  [
+   "solvanam.com",
    1
   ],
   [

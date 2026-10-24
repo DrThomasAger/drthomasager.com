@@ -212,6 +212,26 @@ for q in quotes:
         q["verdict"] = "multi-source"
     else:
         q["verdict"] = "single-source"
+# Hand corrections (corrections.json beside this script), applied last.
+corr_path = HERE / "corrections.json"
+if corr_path.exists():
+    corr = json.loads(corr_path.read_text(encoding="utf-8"))
+    byid = {q["id"]: q for q in quotes}
+    applied = 0
+    for qid, fix in corr.items():
+        if qid.startswith("_") or qid not in byid:
+            continue
+        q = byid[qid]
+        for k, v in fix.items():
+            if k == "note":
+                q["note"] = ((q.get("note") or "") + " " + v).strip()
+            elif k == "book":
+                q["book"] = norm_book(v)
+            else:
+                q[k] = v
+        q["corrected"] = True
+        applied += 1
+    print(f"corrections applied: {applied}")
 if events:
     (HERE / "events.json").write_text(json.dumps(events, ensure_ascii=False, indent=1), encoding="utf-8")
 if people:

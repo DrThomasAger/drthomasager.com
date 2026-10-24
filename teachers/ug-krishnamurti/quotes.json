@@ -81,7 +81,7 @@
  {
   "id": "q36edddbf",
   "text": "Enlightenment (if there is any such thing as enlightenment) is not an experience at all.",
-  "book": "The Mystique of Enlightenment",
+  "book": "The Natural State",
   "chapter": null,
   "year": 1982,
   "confidence": "S",
@@ -92,7 +92,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification: Wikisource Mystique Pt. 4 lacks the parenthetical; the sentence as given is in The Natural State compilation.",
   "sources": [
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
   ],
@@ -106,7 +106,8 @@
   ],
   "wording_variants": [
    "Wikisource: 'this is not an experience which can be shared with somebody else; this is not an experience at all.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qac8b2fca",
@@ -687,8 +688,8 @@
  {
   "id": "qcd6ff1c7",
   "text": "We are not created for any grander purpose than the…",
-  "book": "The Mystique of Enlightenment",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 4 You Invent Your Reality",
   "year": 1982,
   "confidence": "S",
   "kind": "fragment",
@@ -698,7 +699,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification: Wikisource No Way Out ch. 4; pronoun differs between copies.",
   "sources": [
    "https://www.azquotes.com/quote/487332"
   ],
@@ -715,12 +716,13 @@
   ],
   "wording_variants": [
    "Wikisource addresses 'you' rather than 'we/us'; quote sites: '...than the ants that are there or the flies that are hovering around us'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q42bd7292",
   "text": "Nature is interested in only two things--to survive and to…",
-  "book": "The Mystique of Enlightenment",
+  "book": "No Way Out",
   "chapter": null,
   "year": 1982,
   "confidence": "S",
@@ -732,7 +734,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification: sources place this in No Way Out (ch. 4 or 7), not Mystique.",
   "sources": [
    "https://www.azquotes.com/quote/949641"
   ],
@@ -750,7 +752,8 @@
   ],
   "wording_variants": [
    "Full: 'Nature is interested in only two things – to survive and to reproduce one like itself. Anything you superimpose on that, all the cultural input, is responsible for the boredom of man.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q5af2e554",
@@ -1160,8 +1163,8 @@
  {
   "id": "q3bdfe3cb",
   "text": "I am not anti-rational, just unrational. You may infer a rational meaning in what I say or do, but it is your doing,…",
-  "book": "Mind is a Myth",
-  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "book": "No Way Out",
+  "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
   "year": 1988,
   "confidence": "S",
   "kind": "fragment",
@@ -1171,7 +1174,7 @@
    "book-mind-is-a-myth",
    "kind-fragment"
   ],
-  "note": "Book not confirmed by search; usually Mind is a Myth Ch.1. Elsewhere also filed under No Way Out ch.1 essay title.",
+  "note": "Book not confirmed by search; usually Mind is a Myth Ch.1. Elsewhere also filed under No Way Out ch.1 essay title. Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks.",
   "sources": [
    "https://quotefancy.com/quote/923758/"
   ],
@@ -1188,7 +1191,8 @@
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=2",
    "https://onlygodis.com/teachings/ug_krishnamurti.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q870d1afa",
@@ -1220,8 +1224,8 @@
  {
   "id": "qa8d80bc5",
   "text": "Food, clothing and shelter — these are the basic needs. Beyond that, if you…",
-  "book": "Mind is a Myth",
-  "chapter": null,
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
   "year": 1988,
   "confidence": "S",
   "kind": "fragment",
@@ -1232,7 +1236,7 @@
    "book-mind-is-a-myth",
    "kind-fragment"
   ],
-  "note": "Book not confirmed by search.",
+  "note": "Book not confirmed by search. Verification: cited to Stopped in Our Tracks Book Two, not Mind is a Myth.",
   "sources": [
    "https://quotefancy.com/quote/923757/"
   ],
@@ -1249,7 +1253,8 @@
   ],
   "wording_variants": [
    "Continuation: 'Beyond that, if you want anything, it is the beginning of self-deception.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qc40e7904",
@@ -1511,7 +1516,7 @@
    "book-thought-is-your-enemy",
    "kind-verbatim"
   ],
-  "note": "Context: desire is a bodily, natural matter.",
+  "note": "Context: desire is a bodily, natural matter. Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
   ],
@@ -1524,7 +1529,8 @@
    "https://www.goodreads.com/work/quotes/46398939-u-g-krishnamurti-certainty-life-has-no-beginning-no-end",
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q539055bd",
@@ -1693,7 +1699,7 @@
  {
   "id": "q7fad3985",
   "text": "everything you are doing to be at peace with yourself is what is destroying the peace that is already there.",
-  "book": "Thought is Your Enemy",
+  "book": "The Courage to Stand Alone",
   "chapter": null,
   "year": 1990,
   "confidence": "S",
@@ -1704,7 +1710,7 @@
    "book-thought-is-your-enemy",
    "kind-fragment"
   ],
-  "note": "Book not given by libquotes.",
+  "note": "Book not given by libquotes. Verification: transcript hosts place it in Courage to Stand Alone.",
   "sources": [
    "https://libquotes.com/u-g-krishnamurti/quotes/peace"
   ],
@@ -1720,12 +1726,13 @@
   ],
   "wording_variants": [
    "Full: 'That is an impossible goal for you because everything you are doing to be at peace with yourself is what is destroying the peace that is already there.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q95f072f5",
   "text": "…the constant use of thought to give continuity to your separate self.",
-  "book": "Thought is Your Enemy",
+  "book": "Mind is a Myth",
   "chapter": null,
   "year": 1990,
   "confidence": "S",
@@ -1737,7 +1744,7 @@
    "book-thought-is-your-enemy",
    "kind-fragment"
   ],
-  "note": "Book not given by quotefancy.",
+  "note": "Book not given by quotefancy. Verification: sourced form is 'constant utilization of thought…' in Mind is a Myth, not Thought is Your Enemy.",
   "sources": [
    "https://quotefancy.com/u-g-krishnamurti-quotes"
   ],
@@ -1757,7 +1764,8 @@
   "wording_variants": [
    "'Your constant utilization of thought to give continuity to your separate self is you.'",
    "'utilisation' / 'you' in quotes in some copies"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qf69919b2",
@@ -1827,7 +1835,7 @@
    "book-a-taste-of-death",
    "kind-verbatim"
   ],
-  "note": "Recorded by Mahesh Bhatt. Wikiquote warns Bhatt's own observation \"You are what you do, not what you say you want to do\" is often wrongly merged into this quote.",
+  "note": "Recorded by Mahesh Bhatt. Wikiquote warns Bhatt's own observation \"You are what you do, not what you say you want to do\" is often wrongly merged into this quote. Verification: reaches us via Mahesh Bhatt, A Taste of Death; Wikiquote warns Bhatt's own 'You are what you do…' is often wrongly merged in.",
   "sources": [
    "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
   ],
@@ -1846,7 +1854,8 @@
   ],
   "wording_variants": [
    "Often wrongly merged with Bhatt's own sentence 'You are what you do, not what you say you want to do.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q45036753",
@@ -1862,7 +1871,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Wikiquote Talk page, unsourced.",
+  "note": "Wikiquote Talk page, unsourced. Verification: via Bhatt's biography on the WELL; Wikiquote lists it unsourced.",
   "sources": [
    "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti"
   ],
@@ -1878,7 +1887,8 @@
    "https://academickids.com/encyclopedia/index.php/U._G._Krishnamurti",
    "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q40cf79f3",
@@ -2406,7 +2416,7 @@
    "book-the-courage-to-stand-alone",
    "kind-verbatim"
   ],
-  "note": "The second sentence also appears on Mind Is a Myth collections.",
+  "note": "The second sentence also appears on Mind Is a Myth collections. Verification: transcript hosts place it in Courage to Stand Alone.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone"
   ],
@@ -2420,7 +2430,8 @@
    "https://beyond-the-pale.co.uk/ugk3.htm",
    "https://libquotes.com/u-g-krishnamurti/quotes/courage"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qbb1ee524",
@@ -2513,7 +2524,7 @@
  {
   "id": "q8891a8e5",
   "text": "There seems to be no way out.",
-  "book": "The Courage to Stand Alone",
+  "book": "No Way Out",
   "chapter": null,
   "year": 1997,
   "confidence": "S",
@@ -2524,7 +2535,7 @@
    "book-the-courage-to-stand-alone",
    "kind-verbatim"
   ],
-  "note": "Closing line of a passage quoted on praveennv.blogspot, whose tagline is this line.",
+  "note": "Closing line of a passage quoted on praveennv.blogspot, whose tagline is this line. Verification: Wikiquote files it under No Way Out, not Courage to Stand Alone.",
   "sources": [
    "http://praveennv.blogspot.com/"
   ],
@@ -2539,7 +2550,8 @@
   ],
   "wording_variants": [
    "'But there seems to be no way out.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q9fd58abe",
@@ -2761,7 +2773,7 @@
  {
   "id": "q044d9da9",
   "text": "It is not an illusion, only your experience of it is an illusion.",
-  "book": "Mind is a Myth",
+  "book": "The Courage to Stand Alone",
   "chapter": null,
   "year": 1988,
   "confidence": "S",
@@ -2772,7 +2784,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification: Goodreads files it under Courage to Stand Alone, not Mind is a Myth.",
   "sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
@@ -2784,7 +2796,8 @@
   "confirming_sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qd05c2db1",
@@ -3108,8 +3121,8 @@
  {
   "id": "q41e40f21",
   "text": "There is no such thing as truth. The only thing...",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -3118,7 +3131,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Continuation per summary: the only thing that is actually there is your 'logically' ascertained premise, which you call truth. Other sites place it in Mind is a Myth ch. 1.",
+  "note": "Continuation per summary: the only thing that is actually there is your 'logically' ascertained premise, which you call truth. Other sites place it in Mind is a Myth ch. 1. Verification: given as Mind is a Myth ch. I.",
   "sources": [
    "https://www.azquotes.com/quote/755138"
   ],
@@ -3138,7 +3151,8 @@
   "wording_variants": [
    "single vs double quotation marks around 'logically'/'truth'",
    "Wikisource No Way Out ch.2: 'you can only say that there is a logically ascertained premise called truth'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q07528773",
@@ -3698,8 +3712,8 @@
  {
   "id": "q64ffef08",
   "text": "Tell them that there is nothing to understand.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
   "year": null,
   "confidence": "S",
   "kind": "verbatim",
@@ -3708,7 +3722,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Wikipedia attributes it to UG as expressing that his assertions were experiential and not speculative.",
+  "note": "Wikipedia attributes it to UG as expressing that his assertions were experiential and not speculative. Verification: given as the Mind is a Myth ch. IV title.",
   "sources": [
    "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
   ],
@@ -3721,7 +3735,8 @@
    "https://quotepark.com/authors/ug-krishnamurti/",
    "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qd70eb646",
@@ -3867,7 +3882,7 @@
  {
   "id": "qd1a6079f",
   "text": "There is no death for the body; there is only an exchange of atoms.",
-  "book": "Mind is a Myth",
+  "book": "Stopped in Our Tracks",
   "chapter": null,
   "year": 1988,
   "confidence": "T",
@@ -3878,7 +3893,7 @@
    "book-mind-is-a-myth",
    "kind-paraphrase"
   ],
-  "note": "Search summary paraphrase of a Goodreads body-and-death passage attributed to Mind Is a Myth.",
+  "note": "Search summary paraphrase of a Goodreads body-and-death passage attributed to Mind Is a Myth. Verification: kwize traces it to Chandrasekhar's recollection in Stopped in Our Tracks.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
   ],
@@ -3896,7 +3911,8 @@
   ],
   "wording_variants": [
    "Longer form: body is 'a fortuitous concourse of atoms'... 'nothing is born and nothing is dead'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q3987c101",
