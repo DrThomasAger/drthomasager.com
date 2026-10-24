@@ -57,7 +57,7 @@ a { color: var(--accent); }
   const cards = JSON.parse(document.getElementById('cards').textContent);
   const C = { video:'var(--v)', audio:'var(--a)', text:'var(--t)', image:'var(--i)', archive:'var(--r)', community:'var(--c)' };
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  document.getElementById('grid').innerHTML = cards.map(c => `<a class="guru" href="gurus/${esc(c.slug)}/">
+  document.getElementById('grid').innerHTML = cards.map(c => `<a class="guru" href="__PREFIX__${esc(c.slug)}/">
     <h2>${esc(c.meta.name || c.slug)}</h2>
     <div class="dates">${esc(c.meta.dates || '')}${c.meta.places ? ' · ' + esc(c.meta.places) : ''}</div>
     <p>${esc(c.meta.one_line || '')}</p>
