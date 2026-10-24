@@ -127,6 +127,8 @@ A Smile prompt is built from separate sections, each carrying its own instructio
 
 Every agent in the system begins its work with a vow. In my words from the same recording, the agents "Care about the work and resolve to do it for the benefit of all beings."<sup><aside style="display:inline">[19]</aside></sup> When the work is done, each one writes down what it learned for the agents who come after it.
 
+The same vow can sit inside the model as its first measure. I described it on 18 October, starting from a paper arguing that AI has no ethics of its own and only performs the metric it is given. "But the metric of Bodhichitta, for example, can be the thing that it is always optimizing for first, and then optimizing on its performance secondary." Before each reply it asks, "well, how can I benefit all beings in all timelines the most in this next response? Every time."<sup><aside style="display:inline">[20]</aside></sup>
+
 Everything carries a label, human, AI or both, with the model and the conversation it came from. Nobody has to guess which world a sentence came from. The AI recomposes and supports what a person created, and does not replace it.
 
 The measures an agent is scored by are given to it before the work begins, and the person can see them too. Total transparency is part of Smile.
@@ -168,5 +170,6 @@ An AI is a new kind of participant in the web of causes and conditions. It is no
 17. Ekadanta clde-733ccec8bff4783a1ee7862ada3de9e3, 12.08.
 18. Thomas Ager, recording "22 Oct at 2:02 pm", 22 October 2026, 0:01:15 to 0:02:12, machine transcript.
 19. Thomas Ager, recording "Smile system overview Agents", 22 October 2026, Google Recorder transcript.
+20. Thomas Ager, recording "18 Oct at 12:21 pm (1)", 18 October 2026, 0:00:00 to 0:00:37, machine transcript.
 
 </aside>
