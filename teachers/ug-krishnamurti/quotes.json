@@ -584,7 +584,15 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/mystiq1.htm",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf"
+  ],
+  "wording_variants": [
+   "By 1961 his money was finished, and he felt beginning within him a tremendous upheaval which he could not and did not wish to control, and which was to last six years and end with the 'calamity'."
+  ]
  },
  {
   "id": "q02c3e502",
@@ -886,7 +894,16 @@
    "books.google.com",
    "goodreads.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611",
+   "https://www.keplers.com/book/9780971078611",
+   "https://www.amazon.com/Mystique-Enlightenment-Radical-Ideas-Krishnamurti/dp/0971078610",
+   "https://archive.org/details/TheMystiqueOfEnlightenmentU.G.Krishnamurti"
+  ],
+  "wording_variants": [
+   "He states emphatically that one can do nothing to attain the natural state. In fact, any movement towards it separates one from it."
+  ]
  },
  {
   "id": "q7a1ee58c",
@@ -1480,7 +1497,16 @@
   "source_hosts": [
    "quotepark.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://people.well.com/user/jct/intro.html"
+  ],
+  "wording_variants": [
+   "I have been a damn fool all my life, searching for something which does not exist."
+  ]
  },
  {
   "id": "qee37e731",
@@ -1505,7 +1531,15 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://kwize.com/en/authors/U-G-Krishnamurti/",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "wording_variants": [
+   "Both the 'inner' and 'outer' worlds proceed from a point of thought [search-summary rendering of the Wikisource ch. I passage; companion line: 'It is not an illusion, only your experience of it is an illusion']"
+  ]
  },
  {
   "id": "qd124d20c",
@@ -1529,7 +1563,15 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
+  ],
+  "wording_variants": [
+   "You love the burden of the cultural garbage-sack, the dead refuse of the past... it has to drop away naturally."
+  ]
  },
  {
   "id": "q1bec15ca",
@@ -1582,7 +1624,11 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qdb7053b4",
@@ -1609,7 +1655,14 @@
    "libquotes.com",
    "quotepark.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/nwo1.htm"
+  ],
+  "wording_variants": [
+   "This is a jungle we have created. You can't survive in this world."
+  ]
  },
  {
   "id": "q406d4a93",
@@ -1773,7 +1826,15 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
+   "http://remembering-ug.blogspot.com/2012/10/passages-from-thought-is-your-enemy.html"
+  ],
+  "wording_variants": [
+   "[summary rendering] Without the knowledge that is passed on to us, you cannot experience your own body or your experiences... thought is memory"
+  ]
  },
  {
   "id": "q43697aec",
@@ -1800,7 +1861,16 @@
    "goodreads.com",
    "holybooks.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf"
+  ],
+  "wording_variants": [
+   "There is no such thing as your mind or my mind.",
+   "Thought is a very protective mechanism and is interested in its own survival."
+  ]
  },
  {
   "id": "q3b41db6a",
@@ -1861,7 +1931,16 @@
   "source_hosts": [
    "remembering-ug.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://remembering-ug.blogspot.com/2012/09/passages-from-thought-is-your-enemy.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
+   "https://dalemusings.wordpress.com/2012/12/25/thought-is-your-enemy-u-g-krishnamurti/"
+  ],
+  "wording_variants": [
+   "The reference point, the \"I\", cannot be eliminated through any volition on your part. In the final analysis, it is your genetically predetermined program, your \"script\".",
+   "No amount of cultivation, of either meekness or courage, will be of any help whatsoever."
+  ]
  },
  {
   "id": "q989dde8c",
@@ -2220,8 +2299,8 @@
  {
   "id": "q87a66997",
   "text": "your teacher must go, it doesn't matter who the teacher is",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Four",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -2231,7 +2310,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "hindu-blog collection, no book given.",
+  "note": "hindu-blog collection, no book given. Attribution pass 2: wikisource and well.com (mystiq4.htm) place it verbatim in The Mystique of Enlightenment, Part Four (conversations 1972-1980): 'the teacher you are running after and the stuff you are thinking about - that's the very thing that must go. Your teacher must go, it doesn't matter who the teacher is.' U.G. speaking.",
   "sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
@@ -2243,12 +2322,13 @@
   "confirming_sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qa86cd51d",
   "text": "the demand for permanence-permanent relationships, permanent happiness, and permanent bliss-in any field and in any area of human existence is the cause of human misery",
-  "book": "unassigned",
+  "book": "My Swan Song",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -2260,7 +2340,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "hindu-blog collection, no book given.",
+  "note": "hindu-blog collection, no book given. Attribution pass 2: well.com SWAN_SONG.htm and the Medium transcription place the long wording ('The demand for permanence - permanent relationships, permanent happiness, and permanent bliss - in any field and in any area of human existence is the cause of human misery') in U.G.'s Swan Song, dictated to Louis Brawley in mid-February 2007. Goodreads/quotefancy carry a shorter variant.",
   "sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
@@ -2276,7 +2356,8 @@
   ],
   "wording_variants": [
    "Followed by 'There is nothing to permanence.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qab99509d",
@@ -2310,7 +2391,7 @@
  {
   "id": "q1985d54c",
   "text": "basically violent, because thought is violent",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -2322,7 +2403,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "On human nature; hindu-blog collection, no book given.",
+  "note": "On human nature; hindu-blog collection, no book given. Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Fragment of 'Human nature is basically violent, because thought is violent' (same line as qac537b40).",
   "sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
@@ -2336,7 +2417,8 @@
   ],
   "wording_variants": [
    "Full: 'Human nature is basically violent, because thought is violent.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q6fe42d31",
@@ -2630,7 +2712,14 @@
   "source_hosts": [
    "quotefancy.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "wording_variants": [
+   "The death of fear is the only death."
+  ]
  },
  {
   "id": "q540a25ff",
@@ -2655,7 +2744,15 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/17878-the-body-is-a-fortuitous-concourse-of-atoms-there-is",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/"
+  ],
+  "wording_variants": [
+   "The body is a fortuitous concourse of atoms. There is no death for the body, only an exchange of atoms... In reality, nothing is born and nothing is dead."
+  ]
  },
  {
   "id": "q718e3b22",
@@ -2679,7 +2776,14 @@
   "source_hosts": [
    "quotepark.com"
   ],
-  "verdict": "single-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "wording_variants": [
+   "Thinking about and struggling against \"sorrow\" is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer. There is no way out, no escape."
+  ]
  },
  {
   "id": "q062c2482",
@@ -2812,7 +2916,16 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
+   "https://infant7sorrow.wordpress.com/ug/",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+  ],
+  "wording_variants": [
+   "Every time a thought is born, you are born. When the thought is gone, you are gone.",
+   "Thought in its very nature is shortlived, and once it is gone, that's the end of it... what the traditions probably meant by rebirth is death and birth and death and birth"
+  ]
  },
  {
   "id": "q3173b5b8",
@@ -3420,7 +3533,7 @@
  {
   "id": "qcb9a4286",
   "text": "All I can guarantee you is that as long as you are searching for happiness, you will remain unhappy.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -3431,7 +3544,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "No book given by the aggregator.",
+  "note": "No book given by the aggregator. Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Appears in the same compilation passage as 'All your experiences, all your meditations ... is self-centred'.",
   "sources": [
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
   ],
@@ -3446,12 +3559,13 @@
    "https://quotlr.com/author/ug-krishnamurti",
    "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q9fcae79f",
   "text": "All your experiences, all your meditations, all your prayer, all...",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -3463,7 +3577,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Partial.",
+  "note": "Partial. Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Same compilation passage ('All your experiences, all your meditations, all your prayer, all that you do, is self-centred ... whatever you do to be free from the self also is a self-centred activity').",
   "sources": [
    "https://www.azquotes.com/quote/765776"
   ],
@@ -3479,7 +3593,8 @@
    "https://quotlr.com/author/ug-krishnamurti",
    "https://www.inner-quest.org/UG_Words.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q41e40f21",
@@ -3520,7 +3635,7 @@
  {
   "id": "q07528773",
   "text": "whatever you do to be free from the self also is a self-centred activity",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -3531,7 +3646,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Same compilation passage ('All your experiences, all your meditations, all your prayer, all that you do, is self-centred ... whatever you do to be free from the self also is a self-centred activity').",
   "sources": [
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
   ],
@@ -3547,7 +3662,8 @@
   ],
   "wording_variants": [
    "'self' in quotation marks on inner-quest.org"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q68aa6bb3",
@@ -3632,7 +3748,17 @@
   "source_hosts": [
    "quotefancy.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923764/U-G-Krishnamurti-Thought-can-never-capture-the-movement-of-life-it-is-much-too-slow-It-is",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=2",
+   "https://libquotes.com/u-g-krishnamurti/quotes/thought"
+  ],
+  "wording_variants": [
+   "Thought can never capture the movement of life, it is much too slow. It is like lightning and thunder. They occur simultaneously, but sound, travelling slower than light, arrives later."
+  ],
   "corrected": true
  },
  {
@@ -3657,7 +3783,14 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2007/10/you-never-see-anything-ug-krishnamurti.html",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "We never look at anything. It is too dangerous to look because that \"looking\" destroys the continuity of thinking."
+  ],
   "corrected": true
  },
  {
@@ -3724,7 +3857,16 @@
    "groups.google.com",
    "sciforums.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "wording_variants": [
+   "[source phrases confirmed: 'counter to everything' ... 'any field of human thought'; full sentence identical across copies]"
+  ]
  },
  {
   "id": "q86ac0c5a",
@@ -3886,7 +4028,15 @@
    "people.well.com",
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/"
+  ],
+  "wording_variants": [
+   "Once this body is freed from the stranglehold of whatever is put in there either by spiritual teachers or secular teachers, or by those scientists and medical technology, it functions in a very efficient way."
+  ]
  },
  {
   "id": "q5e50266d",
@@ -4463,7 +4613,17 @@
   "source_hosts": [
    "en.wikiquote.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/mahesh.html",
+   "http://nirvana73.blogspot.com/2013/03/from-ug-krishnamurti-life-by-mahesh.html",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti"
+  ],
+  "wording_variants": [
+   "Thinking is a poor alternative to acting. Your thinking is consuming all your energy. Act, don't think!",
+   "\"Act, don't think!\" says U.G., turning his fire in my direction."
+  ]
  },
  {
   "id": "qeee2e8cf",
@@ -4539,7 +4699,7 @@
  {
   "id": "q1fb04988",
   "text": "All your experiences, all your meditations, all your prayer, all that you do, is self-centred. … whatever you do to be free from the self also is a self-centred activity … strengthening the self, adding momentum, gathering momentum, so it is taking you in the opposite direction.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -4552,7 +4712,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Stitched from two search renderings of azquotes 765776.",
+  "note": "Stitched from two search renderings of azquotes 765776. Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Same compilation passage ('All your experiences, all your meditations, all your prayer, all that you do, is self-centred ... whatever you do to be free from the self also is a self-centred activity').",
   "sources": [
    "https://www.azquotes.com/quote/765776"
   ],
@@ -4570,7 +4730,8 @@
   "wording_variants": [
    "Whatever you do to be free from the \"self\" also is a self-centred activity.",
    "By searching, you want to be free from the self, but whatever you are doing to free yourself from the self is the self."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q9cf31b1c",
@@ -4663,7 +4824,16 @@
    "sciforums.com",
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/"
+  ],
+  "wording_variants": [
+   "Sex is only for reproduction, but you have turned that into a pleasure movement.",
+   "An enlightened man can never have sex because he cannot reproduce another one like him."
+  ]
  },
  {
   "id": "q338b17ba",
@@ -4688,7 +4858,14 @@
   "source_hosts": [
    "ugkrishnamurti.in"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q25e43852",
@@ -4781,10 +4958,11 @@
    "en.wikisource.org",
    "kwize.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
    "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/",
-   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+   "https://people.well.com/user/jct/SIT/part_i.htm"
   ],
   "wording_variants": [],
   "corrected": true
@@ -4824,7 +5002,7 @@
  {
   "id": "q9a924078",
   "text": "We are trying to bridge this gap… with this fancy idea that there must be love between these two individuals.",
-  "book": "unassigned",
+  "book": "U.G. Krishnamurti Quotes (self-published booklet, Goodreads 43411143)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -4835,7 +5013,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Attribution pass 2: Goodreads work 43411143 ('Love : Love implies division, separation...') is the only host of this passage ('We are trying to bridge this gap ... with this fancy idea that there must be love between these two individuals'); no canonical book found. Nearest primary text No Way Out Ch. 8. U.G. speaking.",
   "sources": [
    "https://www.goodreads.com/work/quotes/43411143"
   ],
@@ -4851,7 +5029,8 @@
   ],
   "wording_variants": [
    "We are trying to bridge this gap, which is horrible for us, which has no meaning, which is demanding something from us, with this fancy idea that there must be love between these two individuals."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qc70b22b1",
@@ -4942,9 +5121,10 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://www.inner-quest.org/UG_Words.htm"
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://people.well.com/user/jct/mahesh.html"
   ],
   "wording_variants": [
    "By giving money they control you, and by not giving money they control you... As long as you want something from someone, there will always be someone out there to control you."
@@ -5004,11 +5184,17 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://www.inner-quest.org/UG_Words.htm"
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
   ],
-  "wording_variants": [],
+  "wording_variants": [
+   "There is nothing to your love: if you don't get what you want, what happens to your, 'I love you darling, dearie, honey bunch, shnookie putsie, sugar britches, petite shu-shu, sugar booger?'",
+   "The only relationship you have with anybody in this world is 'What do I get out of it?'"
+  ],
   "corrected": true
  },
  {
@@ -5035,7 +5221,16 @@
    "people.well.com",
    "ug-k.blogspot.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ],
+  "wording_variants": [
+   "I have wasted seven years listening to you.",
+   "I've wasted seven years."
+  ]
  },
  {
   "id": "q505bda73",
@@ -5059,7 +5254,11 @@
   "source_hosts": [
    "realitysandwich.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://realitysandwich.com/biology-enlightenment/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q2384f6fc",
@@ -5122,21 +5321,21 @@
    "cisindus.org",
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
-   "https://jhana8.com/ug-krishnamurti-biography/",
-   "https://people.well.com/user/jct/ugbio/ugbio4.htm"
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/mystiq1.htm",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf"
   ],
   "wording_variants": [
-   "This thing called moksha, can you give it to me? — I can give it, but can you take it?"
+   "I can give it, but can you take it?"
   ],
   "corrected": true
  },
  {
   "id": "qf83cd77e",
   "text": "Yoga, meditation and prayer are violent techniques. The living body is very peaceful; you don't have to do a thing.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -5150,7 +5349,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Quoted via Mark Whitwell / Heart of Yoga; Whitwell's Medium essay also carries the fragment 'Meditation is evil'.",
+  "note": "Quoted via Mark Whitwell / Heart of Yoga; Whitwell's Medium essay also carries the fragment 'Meditation is evil'. Attribution pass 2: found only on inner-quest.org UG_Words.htm (mirror of the WELL memorial compilation) and on ugarchive.blogspot / heartofyoga which copy it ('You are trying to enforce peace through violence. Yoga, meditation, prayers, mantras, are all violent techniques. The living organism is very peaceful; you don't have to do a thing'); The Mystique of Enlightenment Part Two has only the different 'body is a very peaceful organism' line. U.G. speaking.",
   "sources": [
    "https://www.heartofyoga.com/blog/2021/3/12/the-influence-of-ug-krishnamurti-on-yoga",
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf"
@@ -5160,7 +5359,17 @@
    "heartofyoga.com",
    "markwhitwell.medium.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.heartofyoga.com/blog/2021/3/12/the-influence-of-ug-krishnamurti-on-yoga",
+   "https://ugarchive.blogspot.com/2021/09/an-introduction-to-ug-krishnamurti.html",
+   "https://markwhitwell.medium.com/what-u-g-krishnamurti-did-for-yoga-mark-whitwell-4d399223e3c1",
+   "https://markwhitwell.medium.com/is-meditation-evil-mark-whitwell-bb32f52c348f"
+  ],
+  "wording_variants": [
+   "You are trying to enforce peace through violence. Yoga, meditation, prayers, mantras, are all violent techniques. The living organism is very peaceful; you don't have to do a thing."
+  ],
+  "corrected": true
  },
  {
   "id": "qbddfe57f",
@@ -5221,8 +5430,12 @@
   "source_hosts": [
    "beyond-the-pale.co.uk"
   ],
-  "verdict": "single-source",
-  "confirming_sources": [],
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://beyond-the-pale.co.uk/ugk3.htm",
+   "https://o-meditation.com/wp-content/uploads/2011/05/the-courage-to-stand-alone.pdf"
+  ],
   "wording_variants": [],
   "corrected": true
  },
@@ -5318,7 +5531,16 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://people.well.com/user/jct/enemy0.htm",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "wording_variants": [
+   "You have to liberate yourself, and you are unable to do that."
+  ]
  },
  {
   "id": "qb2f92764",
@@ -5456,7 +5678,15 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3",
+   "https://www.goodreads.com/quotes/7271037-what-i-am-emphasizing-is-that-we-are-trying-to",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I"
+  ],
+  "wording_variants": [
+   "What I am emphasizing is that we are trying to solve our basic human problems through a psychological framework when the problem is neurological."
+  ]
  },
  {
   "id": "q93a61f20",
@@ -5511,7 +5741,11 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Three"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q77d45a2c",
@@ -5621,7 +5855,7 @@
  {
   "id": "q4fc99cde",
   "text": "The peace you seek is already there; the effort to be at peace is what destroys it.",
-  "book": "unassigned",
+  "book": "The Courage to Stand Alone",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -5633,7 +5867,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Paraphrase of the libquotes 'peace' topic passage.",
+  "note": "Paraphrase of the libquotes 'peace' topic passage. Attribution pass 2: wikiquote places the source line in The Courage to Stand Alone: 'everything you are doing to be at peace with yourself is what is destroying the peace that is already there.' Paraphrase; a related 'there is already peace in man' passage is in Mind is a Myth Ch. V (wikisource). U.G. speaking.",
   "sources": [
    "https://libquotes.com/u-g-krishnamurti/quotes/peace",
    "https://www.inner-quest.org/UG_Words.htm"
@@ -5643,12 +5877,20 @@
    "inner-quest.org",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quotes/peace",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/V"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qac537b40",
   "text": "Human nature is basically violent because thought itself is violent.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -5660,7 +5902,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Hindu-blog collection; same page says the body dissolves into its elements at death and in that sense is immortal.",
+  "note": "Hindu-blog collection; same page says the body dissolves into its elements at death and in that sense is immortal. Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking.",
   "sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
@@ -5668,7 +5910,14 @@
   "source_hosts": [
    "hindu-blog.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qcfa88a48",
@@ -5695,7 +5944,14 @@
    "medium.com",
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
+   "http://remembering-ug.blogspot.com/2012/06/talks-100812.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa095f585",
@@ -5738,7 +5994,7 @@
  {
   "id": "qff9ae05a",
   "text": "The body knows what it needs to survive; if it lacks the means it goes gracefully.",
-  "book": "unassigned",
+  "book": "My Swan Song",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -5750,7 +6006,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Recurs in inner-quest 'UG Words', hindu-blog and the Swan Song.",
+  "note": "Recurs in inner-quest 'UG Words', hindu-blog and the Swan Song. Attribution pass 2: well.com SWAN_SONG.htm and the Medium transcription place it in U.G.'s Swan Song ('the body knows what it needs to do to survive; if it lacks the means to survive, it goes gracefully'), dictated to Louis Brawley, mid-February 2007. Also reproduced on inner-quest.org UG_Words.htm.",
   "sources": [
    "https://www.inner-quest.org/UG_Words.htm",
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
@@ -5760,7 +6016,15 @@
    "hindu-blog.com",
    "inner-quest.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q27ae73f0",
@@ -5786,6 +6050,14 @@
    "travelswithug.com"
   ],
   "verdict": "single-source",
+  "confirming_sources": [
+   "http://www.travelswithug.com/resources/UGCookbook.pdf",
+   "https://www.slideshare.net/slideshow/ugcookbookpdf/257314660",
+   "https://www.scribd.com/document/107499881/Ug-Cookbook"
+  ],
+  "wording_variants": [
+   "That's because I don't eat health food, I don't take vitamins, and I don't exercise!"
+  ],
   "corrected": true
  },
  {
@@ -5812,7 +6084,15 @@
    "people.well.com",
    "ug-k.blogspot.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html",
+   "https://egodeathfilms.wordpress.com/2017/06/14/ug-krishnamurti-pt7-ug-kusuma/"
+  ],
+  "wording_variants": [
+   "[reported speech] he was to say later that he knew without doubt he had made the biggest mistake of his life"
+  ]
  },
  {
   "id": "q2f03fb65",
@@ -5837,7 +6117,16 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8",
+   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti",
+   "https://file.true-dhamma.com/%E5%AE%9E%E7%9B%B8%E4%B8%8E%E8%A7%A3%E6%9E%84/U.G.%E5%85%8B%E9%87%8C%E5%B8%8C%E9%82%A3%E7%A9%86%E6%8F%90/No_Way_Out-U.G.Krishnamurti.pdf"
+  ],
+  "wording_variants": [
+   "[summary rendering] I tell people that if they could have sex with their mother without any problem, psychological or spiritual, then that will put an end to your sex. I am not advocating incest as a way of life.",
+   "Thought always interferes with sex."
+  ]
  },
  {
   "id": "q6bc8c471",
@@ -5894,7 +6183,16 @@
   "source_hosts": [
    "en.wikiquote.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://quotepark.com/quotes/1943820-ug-krishnamurti-people-call-me-an-enlightened-man-i-detest-that/",
+   "https://people.well.com/user/jct/mystiq1.htm",
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf"
+  ],
+  "wording_variants": [
+   "People call me an enlightened man — I detest that term — they can't find any other word to describe the way I am functioning."
+  ]
  },
  {
   "id": "q5e5b2970",
@@ -6044,11 +6342,15 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III"
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III",
+   "https://o-meditation.com/wp-content/uploads/2011/05/krishnamurti-u-g-mind-is-a-myth.pdf",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "And this knowledge is not yours; it is something which you and your ancestors have accumulated over a long time."
+  ]
  },
  {
   "id": "q4895987b",
@@ -6072,7 +6374,12 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Science_and_U.G.",
+   "https://people.well.com/user/jct/reddi.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qdcc7dd8b",
@@ -6163,12 +6470,14 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/No_Way_Out"
+   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti",
+   "http://ug-k.blogspot.com/2007/04/conversations-following-conversations.html",
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_7"
   ],
   "wording_variants": [
-   "Society has put before you the ideal of a 'perfect man'... (related Goodreads quote)"
+   "Unfortunately, the religious thinking of man for centuries has placed before us the model of a perfect being."
   ],
   "corrected": true
  },
@@ -6294,7 +6603,8 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/The_Natural_State"
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://content.e-bookshelf.de/media/reading/L-18427162-0b01407361.pdf"
   ],
   "wording_variants": []
  },
@@ -6351,8 +6661,12 @@
    "en.wikisource.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [],
-  "wording_variants": []
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_10"
+  ],
+  "wording_variants": [
+   "[not recovered; related lines: 'I am not anti-rational, just unrational'; 'pure science is nothing but speculation']"
+  ]
  },
  {
   "id": "q8017e676",
@@ -6378,7 +6692,7 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [
-   "https://people.well.com/user/jct/"
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
   ],
   "wording_variants": []
  },
@@ -6541,7 +6855,7 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [
-   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+   "https://kwize.com/en/authors/U-G-Krishnamurti/"
   ],
   "wording_variants": [],
   "corrected": true
@@ -6549,8 +6863,8 @@
  {
   "id": "qea825286",
   "text": "what you call sexual activity, which is biological in its nature, has been turned into a pleasure movement",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 8 The Build-Up of Sex and Love",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -6560,7 +6874,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Attribution pass 2: wikisource places the source passage in No Way Out, Ch. 8: 'sex ... is just a simple biological need of the living organism ... we have turned the basic biological functioning of the body into a pleasure movement.' Paraphrase; U.G. speaking. Also on Goodreads work 43411143 and the-natural-state.blogspot (Amsterdam 1983-84).",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
@@ -6568,7 +6882,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qbee19952",
@@ -6591,7 +6911,12 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://people.well.com/user/jct/mahesh.html"
+  ],
+  "wording_variants": [],
   "corrected": true
  },
  {
@@ -6618,12 +6943,16 @@
    "azquotes.com"
   ],
   "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_9"
+  ],
+  "wording_variants": [],
   "corrected": true
  },
  {
   "id": "q441961c4",
   "text": "nothing of what we consider to be good for the body is actually good for this body",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6635,7 +6964,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Attribution pass 2: found only on inner-quest.org UG.htm (a talk transcript hosted beside the memorial compilation; the 'eighty years' remark dates it to c. 1998-2007) and copied by actualized.org; not located on wikisource/well.com books. Assigned to the WELL/inner-quest compilation per pass-2 rule; the specific talk is unidentified. 'nothing of what we consider to be good for the body is actually good for this body', in a passage where U.G. says he has never been to a doctor, eats oatmeal and has survived eighty years. U.G. speaking.",
   "sources": [
    "https://www.inner-quest.org/UG_Words.htm"
   ],
@@ -6643,12 +6972,17 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qb5941095",
   "text": "You are trying to enforce peace through violence. Yoga, meditation, prayers, mantras, are all violent techniques.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6661,7 +6995,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Attribution pass 2: found only on inner-quest.org UG_Words.htm (mirror of the WELL memorial compilation) and on ugarchive.blogspot / heartofyoga which copy it ('You are trying to enforce peace through violence. Yoga, meditation, prayers, mantras, are all violent techniques. The living organism is very peaceful; you don't have to do a thing'); The Mystique of Enlightenment Part Two has only the different 'body is a very peaceful organism' line. U.G. speaking.",
   "sources": [
    "https://www.heartofyoga.com/blog/2021/3/12/the-influence-of-ug-krishnamurti-on-yoga",
    "https://jhana8.com/ug-krishnamurti-quotes/"
@@ -6678,12 +7012,13 @@
   ],
   "wording_variants": [
    "inner-quest continues: 'all these therapies, all these techniques, religious or otherwise, are only perpetuating the agony of man'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q62dd75b6",
   "text": "All your experiences, all your meditations, all your prayer, all that you do, is self-centred.",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6695,7 +7030,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Attribution pass 2: found only in the WELL memorial compilation 'Remembering UG Krishnamurti' (people.well.com/user/jct/Final_Remembering.htm, compiler not named in search results) and its mirror on inner-quest.org UG_Words.htm, plus quote aggregators; not located in any published book on wikisource/well.com. U.G. speaking. Same compilation passage ('All your experiences, all your meditations, all your prayer, all that you do, is self-centred ... whatever you do to be free from the self also is a self-centred activity').",
   "sources": [
    "https://www.azquotes.com/quote/765776"
   ],
@@ -6713,7 +7048,8 @@
   ],
   "wording_variants": [
    "Continues: 'It is strengthening the self, adding momentum, gathering momentum, so it is taking you in the opposite direction.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q08218f4e",
@@ -6738,7 +7074,14 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
+  ],
+  "wording_variants": [
+   "The body cannot be afraid of death. The movement that is created by society or culture is what does not want to come to an end."
+  ],
   "corrected": true
  },
  {
@@ -6765,7 +7108,15 @@
    "inner-quest.org",
    "people.well.com"
   ],
-  "verdict": "primary-source",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/Final_Remembering.htm",
+   "https://www.inner-quest.org/UG_R.htm",
+   "https://www.goodreads.com/book/show/53527"
+  ],
+  "wording_variants": [
+   "Life and death cannot be separated. When what you call clinical death takes place, the body breaks itself into its constituent elements and that provides the basis for the continuity of life. In that sense the body is immortal."
+  ],
   "corrected": true
  },
  {
@@ -6791,9 +7142,13 @@
    "en.wikisource.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [],
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV",
+   "https://nomindsland.blogspot.com/2016/03/u-g-krishnamurti-nothing-to-understand.html"
+  ],
   "wording_variants": [
-   "Wikiquote/praveennv carry related but different wording on 'nothing to understand'"
+   "[closest found] the understanding that there is nothing to understand, nothing to get, dawned on me (nomindsland blog transcript)",
+   "the truth has to dawn upon you that there is nothing to understand (Mind is a Myth ch. IV)"
   ]
  },
  {
@@ -6818,14 +7173,13 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
   "confirming_sources": [
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
-   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV",
-   "https://www.inner-quest.org/UG_Nothing.htm"
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
   ],
   "wording_variants": [
-   "In that sense, there is nothing to understand."
+   "Tell them that there is nothing to understand."
   ]
  },
  {
@@ -6999,8 +7353,12 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "single-source",
-  "confirming_sources": [],
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.actualfreedom.com.au/richard/selectedcorrespondence/sc-ug.htm",
+   "https://actualfreedom.com.au/richard/selectedcorrespondence/sc-ug2.htm",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III"
+  ],
   "wording_variants": [],
   "corrected": true
  },
@@ -7026,7 +7384,13 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm"
+  ],
+  "wording_variants": [
+   "I am not suggesting that you should not think. Thought is you."
+  ],
   "corrected": true
  },
  {
@@ -7085,11 +7449,14 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
   "confirming_sources": [
-   "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
+   "https://quotlr.com/author/ug-krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
   ],
-  "wording_variants": [],
+  "wording_variants": [
+   "I am not out to liberate anybody... I want to clear away the mystification in which those people in the 'holy business' have shrouded the whole thing."
+  ],
   "corrected": true
  },
  {
@@ -7152,7 +7519,14 @@
    "quotepark.com",
    "quotlr.com"
   ],
-  "verdict": "multi-source",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/"
+  ],
+  "wording_variants": [
+   "There is no power outside of man. Man has created God out of fear. So the problem is fear and not God."
+  ],
   "corrected": true
  },
  {
@@ -7177,7 +7551,14 @@
   "source_hosts": [
    "quotlr.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.goodreads.com/work/quotes/6212984"
+  ],
+  "wording_variants": [
+   "There is no power outside of man. Man has created God out of fear. So the problem is fear and not God."
+  ],
   "corrected": true
  },
  {
@@ -7201,7 +7582,11 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q2d12cceb",
@@ -7228,7 +7613,16 @@
   "source_hosts": [
    "quotepark.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotepark.com/quotes/1899973-ug-krishnamurti-it-is-the-ones-who-believe-in-god-who-preach-peac/",
+   "https://libquotes.com/u-g-krishnamurti/quote/lbs1h8v",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://o-meditation.com/wp-content/uploads/2011/05/krishnamurti-u-g-mind-is-a-myth.pdf"
+  ],
+  "wording_variants": [
+   "It is the ones who believe in God, who preach peace and talk of love, who have created the human jungle. Compared to man, the animals are not so violent... The so-called 'civilized' man kills for ideals and beliefs, while the animals kill only for survival."
+  ]
  },
  {
   "id": "q93823c44",
@@ -7425,7 +7819,15 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/there-is-no-moksha-no-jivanmukti-and-no.html"
+  ],
+  "wording_variants": [
+   "I am not a jivanmukta; nor am I an evolved being."
+  ]
  },
  {
   "id": "q55b7359d",
@@ -7484,7 +7886,16 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
+   "https://people.well.com/user/jct/Final_Remembering.htm",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://www.awakeningtoreality.com/2018/10/ug-krishnamurti-mystique-of.html"
+  ],
+  "wording_variants": [
+   "...a description of the way I am functioning."
+  ]
  },
  {
   "id": "q585101a0",
@@ -7510,7 +7921,12 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/mystiq1.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qb0c876bc",
@@ -7535,7 +7951,16 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/mystiq1.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "http://ug-k.blogspot.com/2007/04/early-years-real-guru-if-there-is-one.html"
+  ],
+  "wording_variants": [
+   "He knew Blavatsky (the founder of the Theosophical Society) and Olcott, and then, later on, the second and third generation of Theosophists. They all visited our house."
+  ]
  },
  {
   "id": "qea9473ac",
@@ -7561,7 +7986,13 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Three",
+   "https://people.well.com/user/jct/mystiq1.htm",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qaccf09f3",
@@ -7586,7 +8017,14 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Three",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-The-Mystique-of-Enlightenment.pdf"
+  ],
+  "wording_variants": [
+   "[summary rendering] something has to emerge to save the world... I believe it will come from the West, I cannot say from where... that is why I think India has no chance. I am no prophet of doom."
+  ]
  },
  {
   "id": "q0d1d00a2",
@@ -7610,7 +8048,11 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q4f2c81d1",
@@ -7634,7 +8076,15 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/V",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf",
+   "https://o-meditation.com/wp-content/uploads/2011/05/krishnamurti-u-g-mind-is-a-myth.pdf"
+  ],
+  "wording_variants": [
+   "Since we think all the time, the very birth of thought creates fear, and it is out of fear that all experience springs."
+  ]
  },
  {
   "id": "q39d01d99",
@@ -7692,12 +8142,21 @@
   "source_hosts": [
    "praveennv.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_2",
+   "https://quotepark.com/quotes/1932699-ug-krishnamurti-whether-you-are-interested-in-moksha-liberation/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+  ],
+  "wording_variants": [
+   "Whether you are interested in moksha, liberation, freedom, transformation, you name it, you are interested in happiness without one moment of unhappiness, pleasure without pain. It is the same thing."
+  ]
  },
  {
   "id": "qfc5867cf",
   "text": "There is no happiness.",
-  "book": "unassigned",
+  "book": "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -7707,7 +8166,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "Answer to a question about the secret of total happiness (inner-quest interview).",
+  "note": "Answer to a question about the secret of total happiness (inner-quest interview). Attribution pass 2: well.com Talk.htm places it in U.G.'s 1972 Bangalore public talk (the only public talk after the 'calamity'), questioner Mr. Kothari: 'Q: What is the secret of total happiness? U.G.: There is no happiness. Total happiness is an invention. Mr. Kothari: Invention of the mind, you mean? U.G.: There is no mind.' The inner-quest.org UG_Natural_State.htm page reproduces the same transcript. Not one of the published books.",
   "sources": [
    "https://www.inner-quest.org/UG_Natural_State.htm"
   ],
@@ -7715,7 +8174,14 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Natural_State.htm"
+  ],
+  "wording_variants": [
+   "Q: What is the secret of total happiness? U.G.: There is no happiness. ... Total happiness is an invention."
+  ],
+  "corrected": true
  },
  {
   "id": "q762cadb3",
@@ -7744,11 +8210,14 @@
    "goodreads.com",
    "kwize.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
+   "https://en.wikisource.org/wiki/Science_and_U.G.",
    "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "Thought is destructive; it is a self-protecting mechanism."
+  ]
  },
  {
   "id": "q7f2ee6c3",
@@ -7772,11 +8241,15 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
+   "https://en.wikisource.org/wiki/Science_and_U.G.",
+   "https://people.well.com/user/jct/reddi.htm",
    "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "The body or organism is not interested in spiritual matters. It only aims at survival and reproduction."
+  ]
  },
  {
   "id": "q77b540c6",
@@ -7803,7 +8276,9 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [
-   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/",
+   "https://en.wikisource.org/wiki/Science_and_U.G.",
+   "https://people.well.com/user/jct/reddi.htm"
   ],
   "wording_variants": []
  },
@@ -7830,11 +8305,15 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/Science_and_U.G."
+   "https://en.wikisource.org/wiki/Science_and_U.G.",
+   "https://people.well.com/user/jct/reddi.htm",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "Matter is not born, but changed."
+  ]
  },
  {
   "id": "qd74b2e4b",
@@ -7988,7 +8467,16 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/"
+  ],
+  "wording_variants": [
+   "All you know or can ever know is memory, and memory is thought. (The Natural State)",
+   "All you know, or can ever know, is memory, and memory is thought. (Mind is a Myth)"
+  ]
  },
  {
   "id": "qaa3bf764",
@@ -8014,7 +8502,17 @@
    "en.wikisource.org",
    "inner-quest.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://www.inner-quest.org/UG_Natural_State.htm",
+   "https://medium.com/@harpeony/book-summary-the-natural-state-in-the-words-of-u-g-krishnamurti-part-1-3-04f7c43a78c4",
+   "https://www.dailygood.org/pdf/ij.php?tid=118"
+  ],
+  "wording_variants": [
+   "...the ideal of a thoughtless state is one of the many hoaxes Hindus have fallen for.",
+   "Thoughts are there and will remain there."
+  ]
  },
  {
   "id": "q4e912343",
@@ -8069,7 +8567,16 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Natural_State.htm",
+   "https://jhana8.com/ug-krishnamurti-biography/",
+   "https://www.goodreads.com/book/show/13438871-the-natural-state"
+  ],
+  "wording_variants": [
+   "...a pure and simple physical and physiological state of being.",
+   "It is not a synonym for enlightenment, freedom or God-realization."
+  ]
  },
  {
   "id": "qa850f231",
@@ -8093,13 +8600,19 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm"
+  ],
+  "wording_variants": [
+   "I am not suggesting that you should not think. Thought is you."
+  ]
  },
  {
   "id": "qc60032ad",
   "text": "it is through this constant thinking that we are maintaining the continuity of what we call the 'I' or 'self'",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Three: What the Press and Others Say About U.G.",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -8110,7 +8623,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "WELL page paraphrasing U.G.",
+  "note": "WELL page paraphrasing U.G. Attribution pass 2: well.com ntbook3.htm is K. Chandrasekhar's compilation 'What the Press and Others Say About U.G.', Book Three of Stopped in Our Tracks. NOT U.G.'s own sentence: a press/commentator paraphrase of his position ('it is through this constant thinking that we are maintaining the continuity of what we call the I or self'). Nearest U.G. text is Thought is Your Enemy (continuity of thought snapped).",
   "sources": [
    "https://people.well.com/user/jct/ntbook3.htm"
   ],
@@ -8118,7 +8631,16 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://ia801804.us.archive.org/12/items/UGKrishnamurtiOnU.G185p/UG%20Krishnamurti%20-%20On%20U.G%20(185p).pdf"
+  ],
+  "wording_variants": [
+   "U.G. says that it is through this constant thinking that we are maintaining the continuity of what we call the 'I' or 'self'. Since it is the continuous thinking activity that gives the illusion of the 'self' or 'I', there is no feeling of 'self' or 'I' within him.",
+   "Your constant utilization of thought to give continuity to your separate self is 'you'. (1972 talk, On U.G.)"
+  ],
+  "corrected": true
  },
  {
   "id": "q7960d85e",
@@ -8143,7 +8665,14 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_9",
+   "http://www.travelswithug.com/resources/UGCookbook.pdf"
+  ],
+  "wording_variants": [
+   "That's because I don't eat health food, I don't take vitamins, and I don't exercise!"
+  ]
  },
  {
   "id": "qc213105f",
@@ -8215,7 +8744,7 @@
  {
   "id": "q7969abd0",
   "text": "modern day doctors are the modern day witches, and modern day medical technology the modern day witchcraft",
-  "book": "unassigned",
+  "book": "Remembering U.G. (WELL memorial compilation)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -8227,7 +8756,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Attribution pass 2: found only on inner-quest.org UG.htm (a talk transcript hosted beside the memorial compilation; the 'eighty years' remark dates it to c. 1998-2007) and copied by actualized.org; not located on wikisource/well.com books. Assigned to the WELL/inner-quest compilation per pass-2 rule; the specific talk is unidentified. 'modern day doctors are the modern day witches, and modern day medical technology the modern day witchcraft', alongside 'I have never seen a doctor'. U.G. speaking.",
   "sources": [
    "https://www.actualized.org/forum/topic/101055-making-sense-of-ug-krishnamurti-part-2/"
   ],
@@ -8235,12 +8764,18 @@
   "source_hosts": [
    "actualized.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG.htm",
+   "https://www.actualized.org/forum/topic/101055-making-sense-of-ug-krishnamurti-part-2/"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q55779bfa",
   "text": "eat what you like because the perfect intelligence of life knows exactly what to do with food",
-  "book": "unassigned",
+  "book": "Mark Whitwell recollection",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -8252,7 +8787,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "As recalled by Mark Whitwell.",
+  "note": "As recalled by Mark Whitwell. Attribution pass 2: markwhitwell.medium.com places it in Mark Whitwell's interview 'Understanding U.G. Krishnamurti, Part 4', Whitwell recalling U.G.'s view on diet (with U.G.'s radio remark that the body would know what to do even with sawdust and glue). Second-hand wording recorded by Mark Whitwell; no book.",
   "sources": [
    "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-4-cab1a90ea0b1"
   ],
@@ -8260,13 +8795,20 @@
   "source_hosts": [
    "markwhitwell.medium.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-4-cab1a90ea0b1"
+  ],
+  "wording_variants": [
+   "He would say eat what you like because the perfect intelligence of life knows exactly what to do with food."
+  ],
+  "corrected": true
  },
  {
   "id": "q104a81af",
   "text": "the fear of losing what we have and what we know is responsible for our problems",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of a Human Being Do You Want?",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -8276,7 +8818,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Aggregators attribute variously to Mystique of Enlightenment and No Way Out.",
+  "note": "Aggregators attribute variously to Mystique of Enlightenment and No Way Out. Attribution pass 2: wikiquote/goodreads place it in No Way Out, Ch. 7 ('The fact is that we don't want to be free. What is responsible for our problems is the fear of losing what we have and what we know.'). U.G. speaking.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
   ],
@@ -8284,13 +8826,23 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "wording_variants": [
+   "[fuller passage begins] people don't want to be free... the fear of losing what we have and what we know"
+  ],
+  "corrected": true
  },
  {
   "id": "q69a4a09e",
   "text": "I wasted seven years listening to him.",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "U.G. Krishnamurti: A Life",
+  "chapter": "Ch. 4 Locking of Horns",
   "year": 1953,
   "confidence": "T",
   "kind": "paraphrase",
@@ -8300,7 +8852,7 @@
    "book-unassigned",
    "kind-paraphrase"
   ],
-  "note": "Biographical accounts of his break with J. Krishnamurti; wording not confirmed. Not a J. Krishnamurti quote.",
+  "note": "Biographical accounts of his break with J. Krishnamurti; wording not confirmed. Not a J. Krishnamurti quote. Attribution pass 2: well.com (ugbio4.htm) places it in Mahesh Bhatt's biography, Ch. 4, where U.G. tells J. Krishnamurti 'I have wasted seven years listening to you' before leaving for New York; The Mystique of Enlightenment Part One (well.com mystiq1.htm) and Wikipedia give the shorter 'I've wasted seven years'. U.G.'s own recollection of the 1953 break, as quoted by Bhatt; paraphrase ('him' for 'you').",
   "sources": [
    "https://people.well.com/user/jct/ugbio/ugbio4.htm"
   ],
@@ -8308,7 +8860,15 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html"
+  ],
+  "wording_variants": [
+   "I have wasted seven years listening to you."
+  ],
+  "corrected": true
  },
  {
   "id": "q0c6ee69f",
@@ -8334,7 +8894,16 @@
   "source_hosts": [
    "cisindus.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en-academic.com/dic.nsf/enwiki/262193",
+   "https://www.heartofyoga.com/blog/ug-krishnamurti",
+   "https://www.inner-quest.org/UG_R.htm"
+  ],
+  "wording_variants": [
+   "[Wikipedia mirror] he would later also dismiss this period with Sivananda as a useless exercise",
+   "[dialogue variant] it didn't help, so I dropped it"
+  ]
  },
  {
   "id": "q610e5087",
@@ -8454,7 +9023,9 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q95504a40",
@@ -8478,7 +9049,9 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q707dda41",
@@ -8502,7 +9075,11 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q76f1764e",
@@ -8528,13 +9105,13 @@
   "source_hosts": [
    "realitysandwich.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
   "confirming_sources": [
-   "https://www.realitysandwich.com/"
+   "https://realitysandwich.com/introduction_u_g_krishnamurti/",
+   "https://www.everand.com/book/427470011/Biology-Of-Enlightenment"
   ],
   "wording_variants": [
-   "I wish I knew how I got into... what state? (Mystique Part One)",
-   "I somehow stumbled into this natural state on my own (The Natural State)"
+   "How I got into this state I will never be able to tell. I may trace it back to a particular point and beyond that I don't know what happened."
   ]
  },
  {
@@ -8560,7 +9137,11 @@
   "source_hosts": [
    "realitysandwich.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://realitysandwich.com/introduction_u_g_krishnamurti/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q93c2842f",
@@ -8586,7 +9167,16 @@
    "goodreads.com",
    "realitysandwich.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realitysandwich.com/introduction_u_g_krishnamurti/",
+   "https://www.goodreads.com/book/show/19120668",
+   "https://www.everand.com/book/427470011/Biology-Of-Enlightenment",
+   "https://books.google.com/books/about/The_Biology_of_Enlightenment.html?id=EFQOI25tLlQC"
+  ],
+  "wording_variants": [
+   "[Rao, reported speech] He insisted that whatever transformation he had undergone was within the structure of the human body and not in the mind at all."
+  ]
  },
  {
   "id": "q8305f222",
@@ -8636,7 +9226,16 @@
   "source_hosts": [
    "realitysandwich.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Natural_State.htm",
+   "https://realitysandwich.com/introduction_u_g_krishnamurti/",
+   "https://people.well.com/user/jct/nwo1.htm",
+   "https://en.wikisource.org/wiki/Science_and_U.G."
+  ],
+  "wording_variants": [
+   "The natural state is a pure and simple, physical and physiological state of being."
+  ]
  },
  {
   "id": "q8233c2a7",
@@ -8662,7 +9261,15 @@
    "en.wikisource.org",
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Sage_and_the_Housewife",
+   "https://people.well.com/user/jct/sage1.htm",
+   "https://ugkrishnamurti.in/ug-essence/book-pdf"
+  ],
+  "wording_variants": [
+   "Ramana or anybody for that matter undergoes the same physical suffering. No one escapes the natural laws."
+  ]
  },
  {
   "id": "q7bd7cc71",
@@ -8689,7 +9296,13 @@
    "en.wikiquote.org",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://libquotes.com/u-g-krishnamurti/quote/lby6y0i",
+   "https://quotepark.com/authors/ug-krishnamurti/culture/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q9feeb1bf",
@@ -8712,7 +9325,15 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/sage4.htm",
+   "https://www.inner-quest.org/UG_Natural_State.htm"
+  ],
+  "wording_variants": [
+   "[inner-quest interview parallel] For all practical purposes, I don't think I ever feel happy at all. That's why I don't even know what happiness is. Therefore I can never be unhappy either.",
+   "If you do not know what happiness is, you will never be unhappy. (No Way Out)"
+  ]
  },
  {
   "id": "q1268f7b9",
@@ -8735,6 +9356,14 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/sage7.htm",
+   "https://en.wikisource.org/wiki/The_Sage_and_the_Housewife",
+   "http://remembering-ug.blogspot.com/2012/01/ebook-february-26th-2012.html"
+  ],
+  "wording_variants": [
+   "[near-verbatim] if a Kundalini Shakti exists and rises, the person to whom it happens would brush aside the very concept of Kundalini"
+  ]
  }
 ]
