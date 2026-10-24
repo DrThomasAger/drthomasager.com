@@ -72,6 +72,7 @@ section[hidden] { display: none; }
 .card .title a:hover { text-decoration: underline; }
 .card .desc { color: var(--fg-2); font-size: 13.5px; margin: 0; }
 .pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); letter-spacing: .02em; }
+.pill.verdict-primary-source, .pill.verdict-corroborated-primary { color: var(--c); } .pill.verdict-multi-source, .pill.verdict-corroborated-secondary { color: var(--t); } .pill.verdict-single-source { color: var(--i); } .pill.verdict-disputed, .pill.verdict-not-ug { color: var(--a); }
 .pill.conf-S { color: var(--c); } .pill.conf-T { color: var(--i); } .pill.conf-lead { color: var(--fg-3); }
 .tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .tag { font-family: var(--mono); font-size: 11px; color: var(--fg-3); background: none; border: 0; padding: 0 2px; cursor: pointer; }
@@ -143,6 +144,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
   <button role="tab" data-tab="archive" aria-selected="true">Archive</button>
   <button role="tab" data-tab="quotes" aria-selected="false">Quotes</button>
   <button role="tab" data-tab="timeline" aria-selected="false">Timeline</button>
+  <button role="tab" data-tab="people" aria-selected="false">People</button>
   <button role="tab" data-tab="copyright" aria-selected="false">Copyright</button>
   <button role="tab" data-tab="sources" aria-selected="false">Sources</button>
   <button role="tab" data-tab="about" aria-selected="false">About</button>
@@ -194,6 +196,12 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
   <div class="events" id="events"></div>
 </section>
 
+<section id="tab-people" hidden>
+  <p class="note prose">Everyone connected to the record: family, companions, hosts, editors, publishers, recordists, photographers, interviewers, biographers, archivists. Each with what they made or hold, and the sources that say so.</p>
+  <div class="chips" id="roleChips" aria-label="Role"></div>
+  <div class="cards" id="people"></div>
+</section>
+
 <section id="tab-copyright" hidden>
   <div class="prose">
     <div class="eyebrow">In place of a copyright line, in every book of his conversations</div>
@@ -226,6 +234,8 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     <p>A catalogue of every located item by or about U.G. Krishnamurti, assembled on <span id="built"></span>. Each item records medium, title, date, place, people, format, language, host, a link, tags, a confidence mark and the sources that attest it. Quotes are held separately with the book and chapter they come from.</p>
     <h2>Confidence marks</h2>
     <dl class="kv" id="confdl"></dl>
+    <h2>Integrity</h2>
+    <dl class="kv" id="integrity"></dl>
     <h2>How it was gathered</h2>
     <p>The gathering session's network policy refused direct connections to every hosting site (the WELL, Wikisource, Wikiquote, the Internet Archive, YouTube, the quote aggregators), so no file was downloaded. Seven parallel researchers swept web search, one per medium, and every item here is what those searches surfaced, with the URL each one gave. The data files live beside this page in the repository and can be regenerated from them.</p>
   </div>
@@ -265,7 +275,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
   }
   tabs.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { showTab(b.dataset.tab); history.replaceState(null, '', '#' + b.dataset.tab); } });
   const initial = (location.hash || '').slice(1);
-  showTab(['archive','quotes','timeline','copyright','sources','about'].includes(initial) ? initial : 'archive');
+  showTab(['archive','quotes','timeline','people','copyright','sources','about'].includes(initial) ? initial : 'archive');
 
   // ---- archive filters
   const F = { q: '', media: new Set(), tags: new Set(), yfrom: '', yto: '', lang: '', place: '', person: '', host: '', conf: '' };
@@ -310,6 +320,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     return `<article class="card" style="border-left-color:${MCOLOR[i.medium] || 'var(--line)'}">
       <div class="row"><span class="pill" style="color:${MCOLOR[i.medium]}">${MLABEL[i.medium] || esc(i.medium)}</span>${i.year ? `<span>${esc(i.date || i.year)}</span>` : ''}${i.place ? `<span>${esc(i.place)}</span>` : ''}<span class="pill conf-${esc(i.confidence)}">${esc(i.confidence || 'lead')}</span></div>
       <div class="title">${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>` : esc(i.title)}</div>
+      ${i.also_titled && i.also_titled.length ? `<div class="row"><span class="pill">also listed as</span><span>${esc(i.also_titled.join(' · '))}</span></div>` : ''}
       ${i.description ? `<p class="desc">${esc(i.description)}</p>` : ''}
       <div class="row">${i.people.length ? `<span>${esc(i.people.join(', '))}</span>` : ''}${i.format ? `<span>${esc(i.format)}</span>` : ''}${i.language ? `<span>${esc(i.language)}</span>` : ''}${i.duration ? `<span>${esc(i.duration)}</span>` : ''}</div>
       ${i.hostname ? `<div class="host">${esc(i.hostname)}</div>` : ''}
@@ -346,7 +357,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     const q = QF.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const rows = quotes.filter(x => (!QF.books.size || QF.books.has(x.book)) && (!QF.conf || x.confidence === QF.conf) && q.every(w => x._s.includes(w)));
     $('#qcount').textContent = `${rows.length} of ${quotes.length} quotes`;
-    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote>${esc(x.text)}</blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span><span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
+    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote>${esc(x.text)}</blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
   }
   renderQuotes();
 
@@ -385,7 +396,24 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     svg.addEventListener('mousemove', e => { const r = e.target.closest('.hit'); if (!r) { hideTip(); return; } const o = byYear[r.dataset.y]; const tot = Object.values(o).reduce((a, b) => a + b, 0); showTip(e, `<b>${r.dataset.y}</b> · ${tot} item${tot === 1 ? '' : 's'}<br>` + MEDIA.filter(m => o[m]).map(m => `${MLABEL[m]} ${o[m]}`).join(' · ')); });
     svg.addEventListener('mouseleave', hideTip);
   }
-  $('#events').innerHTML = (meta.events || []).map(ev => `<div class="event"><div class="when">${esc(ev.date)}</div><p class="what">${esc(ev.event)}</p><div class="where">${esc(ev.place)}</div></div>`).join('');
+  const EVENTS = (D.events && D.events.length) ? D.events.map(e => ({date: e.date, event: e.event + (e.note ? ' (' + e.note + ')' : ''), place: e.place || '', sources: e.sources || [], confidence: e.confidence})) : (meta.events || []);
+  $('#events').innerHTML = EVENTS.map(ev => `<div class="event"><div class="when">${esc(ev.date)}${ev.confidence ? ` <span class="pill conf-${esc(ev.confidence)}">${esc(ev.confidence)}</span>` : ''}</div><p class="what">${esc(ev.event)}</p><div class="where">${esc(ev.place)}</div>${ev.sources && ev.sources.length ? `<details><summary>${ev.sources.length} source${ev.sources.length > 1 ? 's' : ''}</summary><ul>${ev.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('');
+
+  // ---- people
+  const PEOPLE = D.people || [];
+  const PF = { roles: new Set() };
+  const roles = uniq(PEOPLE.map(p => p.role)).sort();
+  function drawRoleChips() { $('#roleChips').innerHTML = roles.map(r => `<button class="chip" data-r="${esc(r)}" aria-pressed="${PF.roles.has(r)}">${esc(r)} <span class="n">${PEOPLE.filter(p => p.role === r).length}</span></button>`).join(''); }
+  function renderPeople() {
+    const rows = PEOPLE.filter(p => !PF.roles.size || PF.roles.has(p.role)).sort((a, b) => (a.role || '').localeCompare(b.role || '') || (a.name || '').localeCompare(b.name || ''));
+    $('#people').innerHTML = rows.length ? rows.map(p => `<article class="card"><div class="row"><span class="pill">${esc(p.role)}</span>${p.dates ? `<span>${esc(p.dates)}</span>` : ''}${p.place ? `<span>${esc(p.place)}</span>` : ''}<span class="pill conf-${esc(p.confidence || 'S')}">${esc(p.confidence || 'S')}</span></div><div class="title">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</div>${p.also_known_as && p.also_known_as.length ? `<div class="host">${esc(p.also_known_as.join(' · '))}</div>` : ''}${p.relation ? `<p class="desc">${esc(p.relation)}</p>` : ''}${p.material ? `<p class="desc">${esc(p.material)}</p>` : ''}${p.tags && p.tags.length ? `<div class="tags">${p.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</div>` : ''}${p.sources && p.sources.length ? `<details><summary>${p.sources.length} source${p.sources.length > 1 ? 's' : ''}</summary><ul>${p.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</article>`).join('') : '<div class="empty">No people recorded yet.</div>';
+  }
+  drawRoleChips(); renderPeople();
+  $('#roleChips').addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const r = b.dataset.r; PF.roles.has(r) ? PF.roles.delete(r) : PF.roles.add(r); drawRoleChips(); renderPeople(); });
+
+  // ---- integrity summary
+  const INT = (D.integrity && D.integrity.summary) || null;
+  $('#integrity').innerHTML = INT ? Object.entries(INT).filter(([k]) => k !== 'issue_counts').map(([k, v]) => `<dt>${esc(k.replace(/_/g, ' '))}</dt><dd>${esc(typeof v === 'object' ? Object.entries(v).map(([a, b]) => a + ' ' + b).join(' · ') : v)}</dd>`).join('') + (INT.issue_counts ? `<dt>open issues</dt><dd>${esc(Object.entries(INT.issue_counts).map(([a, b]) => a + ' ' + b).join(' · ') || 'none')}</dd>` : '') : '<dt>integrity</dt><dd>not yet run</dd>';
 
   // ---- sources
   const hosts = {};

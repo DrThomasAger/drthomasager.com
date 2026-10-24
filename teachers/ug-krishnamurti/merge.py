@@ -59,6 +59,19 @@ def enrich_tags(it, tags):
     if it.get("confidence"): add("confidence-" + it["confidence"])
     return out
 
+BOOKS = {
+    "mind is a myth": "Mind is a Myth", "thought is your enemy": "Thought is Your Enemy",
+    "the mystique of enlightenment": "The Mystique of Enlightenment", "mystique of enlightenment": "The Mystique of Enlightenment",
+    "no way out": "No Way Out", "the courage to stand alone": "The Courage to Stand Alone", "courage to stand alone": "The Courage to Stand Alone",
+    "the natural state": "The Natural State", "my swan song": "My Swan Song", "swan song": "My Swan Song",
+    "a taste of death": "A Taste of Death", "u.g. krishnamurti: a life": "U.G. Krishnamurti: A Life",
+    "stopped in our tracks": "Stopped in Our Tracks", "the biology of enlightenment": "The Biology of Enlightenment",
+    "the sage and the housewife": "The Sage and the Housewife",
+}
+def norm_book(b):
+    b = (b or "unassigned").strip()
+    return BOOKS.get(b.lower(), b)
+
 def norm_year(it):
     y = it.get("year")
     if isinstance(y, str) and y.strip().isdigit():
@@ -80,6 +93,8 @@ for f in sorted(src.glob("*.json")):
     if not isinstance(data, list):
         print(f"skip {f.name}: not a list"); continue
     n = 0
+    if f.name in ("events.json", "people.json", "verification.json"):
+        continue
     if f.name.startswith("quotes"):
         for q in data:
             text = (q.get("text") or "").strip()
@@ -92,7 +107,7 @@ for f in sorted(src.glob("*.json")):
             conf = q.get("confidence") or ("T" if q.get("kind") == "paraphrase" else "S")
             quotes.append({
                 "id": "q" + hashlib.sha1(key.encode()).hexdigest()[:8],
-                "text": text, "book": q.get("book") or "unassigned",
+                "text": text, "book": norm_book(q.get("book")),
                 "chapter": q.get("chapter"), "year": norm_year(q),
                 "confidence": conf, "kind": q.get("kind") or "verbatim",
                 "tags": norm_tags(q.get("tags")) + [t for t in ["book-" + slug(q.get("book") or "unassigned"), "kind-" + slug(q.get("kind") or "verbatim")] ],
@@ -131,6 +146,77 @@ for f in sorted(src.glob("*.json")):
             rec["tags"] = enrich_tags(rec, norm_tags(it.get("tags")) + [medium])
             n += 1
     counts[f.name] = n
+
+# Items that share a URL are one item: keep the richest, union the rest.
+by_url = {}
+merged = []
+for it in items:
+    u = it.get("url")
+    if not u:
+        merged.append(it); continue
+    if u in by_url:
+        keep = by_url[u]
+        if len(it.get("description") or "") > len(keep.get("description") or ""):
+            keep["description"], it["description"] = it["description"], keep["description"]
+        if it["title"].lower() != keep["title"].lower():
+            keep.setdefault("also_titled", [])
+            if it["title"] not in keep["also_titled"]:
+                keep["also_titled"].append(it["title"])
+        for k in ("tags", "sources", "people"):
+            for v in it.get(k) or []:
+                if v not in keep[k]:
+                    keep[k].append(v)
+        for k in ("date", "year", "place", "format", "language", "duration", "host"):
+            if not keep.get(k) and it.get(k):
+                keep[k] = it[k]
+        if keep.get("confidence") != "S" and it.get("confidence") == "S":
+            keep["confidence"] = "S"
+        keep.setdefault("origins", [keep["origin"]])
+        if it["origin"] not in keep["origins"]:
+            keep["origins"].append(it["origin"])
+    else:
+        by_url[u] = it
+        merged.append(it)
+print(f"url-merge: {len(items)} -> {len(merged)}")
+items = merged
+
+# Extra datasets: events, people, verification
+def load_list(name):
+    f = src / name
+    if not f.exists():
+        return []
+    try:
+        d = json.loads(f.read_text(encoding="utf-8"))
+        return d if isinstance(d, list) else []
+    except Exception as e:  # noqa
+        print(f"skip {name}: {e}"); return []
+
+events = load_list("events.json")
+people = load_list("people.json")
+verification = {v.get("id"): v for v in load_list("verification.json") if v.get("id")}
+for q in quotes:
+    hosts = set()
+    for u in q["sources"]:
+        m = re.match(r"https?://(?:www\.)?([^/]+)", u)
+        if m: hosts.add(m.group(1))
+    q["source_hosts"] = sorted(hosts)
+    primary = {"en.wikisource.org", "people.well.com", "archive.org", "ugkrishnamurti.in", "well.com"}
+    v = verification.get(q["id"])
+    if v:
+        q["verdict"] = v.get("verdict")
+        q["confirming_sources"] = v.get("confirming_sources") or []
+        q["wording_variants"] = v.get("wording_variants") or []
+    elif hosts & primary:
+        q["verdict"] = "primary-source"
+    elif len(hosts) >= 2:
+        q["verdict"] = "multi-source"
+    else:
+        q["verdict"] = "single-source"
+if events:
+    (HERE / "events.json").write_text(json.dumps(events, ensure_ascii=False, indent=1), encoding="utf-8")
+if people:
+    (HERE / "people.json").write_text(json.dumps(people, ensure_ascii=False, indent=1), encoding="utf-8")
+print(f"events={len(events)} people={len(people)} verified={len(verification)}")
 
 (HERE / "items.json").write_text(json.dumps(items, ensure_ascii=False, indent=1), encoding="utf-8")
 (HERE / "quotes.json").write_text(json.dumps(quotes, ensure_ascii=False, indent=1), encoding="utf-8")

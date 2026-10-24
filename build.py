@@ -54,16 +54,21 @@ def build_teacher(folder):
     items = read_json(folder / "items.json", [])
     quotes = read_json(folder / "quotes.json", [])
     meta["events"] = read_events(folder / "timeline.md")
+    events = read_json(folder / "events.json", [])
+    people = read_json(folder / "people.json", [])
+    integrity = read_json(folder / "integrity.json", {})
+    if integrity:
+        integrity = {"summary": integrity.get("summary", {})}
     meta["slug"] = slug
     out = SITE / "gurus" / slug
     out.mkdir(parents=True, exist_ok=True)
     tpl = (TPL / "teacher.html").read_text(encoding="utf-8")
-    html = (tpl.replace("/*__DATA__*/", embed({"items": items, "quotes": quotes, "meta": meta}))
+    html = (tpl.replace("/*__DATA__*/", embed({"items": items, "quotes": quotes, "meta": meta, "events": events, "people": people, "integrity": integrity}))
                .replace("__NAME__", meta.get("name", slug))
                .replace("__DATES__", meta.get("dates", ""))
                .replace("__ONELINE__", meta.get("one_line", "")))
     (out / "index.html").write_text(html, encoding="utf-8")
-    for name in ("items.json", "quotes.json", "meta.json"):
+    for name in ("items.json", "quotes.json", "meta.json", "events.json", "people.json", "integrity.json"):
         if (folder / name).exists():
             shutil.copy(folder / name, out / name)
     for md in folder.glob("*.md"):
@@ -72,7 +77,7 @@ def build_teacher(folder):
         shutil.copytree(folder / "catalogue", out / "catalogue", dirs_exist_ok=True)
     counts = {m: sum(1 for i in items if i.get("medium") == m)
               for m in ("video", "audio", "text", "image", "archive", "community")}
-    return {"slug": slug, "meta": meta, "counts": counts, "items": len(items), "quotes": len(quotes)}
+    return {"slug": slug, "meta": meta, "counts": counts, "items": len(items), "quotes": len(quotes), "people": len(people), "events": len(events) or len(meta["events"])}
 
 
 def build_index(cards):
