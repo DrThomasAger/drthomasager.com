@@ -22183,5 +22183,41 @@
    "http://gnanudr.blogspot.com/2008/12/blog-post_13.html"
   ],
   "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i5e848c2a",
+  "medium": "text",
+  "title": "…என்றார் யூ.ஜி.கிருஷ்ணமூர்த்தி ('…said U.G. Krishnamurti' – Solvanam Tamil web magazine article)",
+  "date": "2020-07-24",
+  "year": 2020,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "web-magazine-article",
+  "language": "Tamil",
+  "duration": "",
+  "host": "solvanam.com",
+  "url": "https://solvanam.com/2020/07/24/%E0%AE%8E%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%BE%E0%AE%B0%E0%AF%8D-%E0%AE%AF%E0%AF%82-%E0%AE%9C%E0%AE%BF-%E0%AE%95%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%A3%E0%AE%AE%E0%AF%82%E0%AE%B0/",
+  "description": "Tamil literary web magazine Solvanam's 2020 essay on U.G.'s sayings; notes he was unrelated to J. Krishnamurti.",
+  "tags": [
+   "tamil",
+   "article",
+   "essay",
+   "solvanam",
+   "text",
+   "2020s",
+   "2020",
+   "person-krishnamurti",
+   "host-solvanam-com",
+   "format-web-magazine-article",
+   "lang-tamil",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://solvanam.com/2020/07/24/%E0%AE%8E%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%BE%E0%AE%B0%E0%AF%8D-%E0%AE%AF%E0%AF%82-%E0%AE%9C%E0%AE%BF-%E0%AE%95%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%A3%E0%AE%AE%E0%AF%82%E0%AE%B0/"
+  ],
+  "origin": "wave4-indian-languages"
  }
 ]
