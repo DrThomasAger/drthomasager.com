@@ -1,6 +1,6 @@
 {
  "summary": {
-  "items": 509,
+  "items": 521,
   "quotes": 267,
   "events": 24,
   "people": 64,
@@ -9,11 +9,11 @@
    "community": 22,
    "audio": 79,
    "image": 93,
-   "text": 129,
-   "video": 91
+   "text": 140,
+   "video": 92
   },
   "items_by_confidence": {
-   "S": 469,
+   "S": 481,
    "T": 2,
    "lead": 38
   },
@@ -23,12 +23,12 @@
   },
   "quotes_by_verdict": {
    "multi-source": 53,
-   "primary-source": 80,
-   "disputed": 1,
-   "corroborated-secondary": 26,
-   "single-source": 99,
-   "corroborated-primary": 7,
-   "not-found": 1
+   "primary-source": 75,
+   "disputed": 2,
+   "corroborated-secondary": 34,
+   "single-source": 91,
+   "not-found": 2,
+   "corroborated-primary": 10
   },
   "quotes_by_book": {
    "The Mystique of Enlightenment": 46,
@@ -50,9 +50,9 @@
    "The Sage and the Housewife": 1,
    "Science and U.G.": 4
   },
-  "distinct_source_hosts": 271,
-  "items_self_sourced_only": 263,
-  "items_with_second_source": 234,
+  "distinct_source_hosts": 281,
+  "items_self_sourced_only": 271,
+  "items_with_second_source": 238,
   "issue_counts": {
    "item-duplicate-title": 3,
    "item-no-sources": 12,
@@ -502,7 +502,7 @@
  "hosts": [
   [
    "people.well.com",
-   104
+   105
   ],
   [
    "en.wikisource.org",
@@ -518,7 +518,7 @@
   ],
   [
    "youtube.com",
-   80
+   81
   ],
   [
    "amazon.com",
@@ -853,6 +853,14 @@
    3
   ],
   [
+   "panuval.com",
+   3
+  ],
+  [
+   "commonfolks.in",
+   3
+  ],
+  [
    "ugkrishnamurti.org",
    2
   ],
@@ -998,6 +1006,10 @@
   ],
   [
    "te.wikipedia.org",
+   2
+  ],
+  [
+   "gu.wikipedia.org",
    2
   ],
   [
@@ -1369,10 +1381,6 @@
    1
   ],
   [
-   "gu.wikipedia.org",
-   1
-  ],
-  [
    "kn.wikipedia.org",
    1
   ],
@@ -1529,15 +1537,47 @@
    1
   ],
   [
-   "panuval.com",
-   1
-  ],
-  [
    "udumalai.com",
    1
   ],
   [
    "kinige.com",
+   1
+  ],
+  [
+   "pdfbooks.ourhindi.com",
+   1
+  ],
+  [
+   "outlookhindi.com",
+   1
+  ],
+  [
+   "mr.wikipedia.org",
+   1
+  ],
+  [
+   "maayboli.com",
+   1
+  ],
+  [
+   "jeyamohan.in",
+   1
+  ],
+  [
+   "baski-reviews.blogspot.com",
+   1
+  ],
+  [
+   "thaaii.com",
+   1
+  ],
+  [
+   "noolulagam.com",
+   1
+  ],
+  [
+   "vallalarr.blogspot.com",
    1
   ],
   [
