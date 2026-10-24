@@ -70,7 +70,7 @@ def build_teacher(folder, out_root=None):
                .replace("__DATES__", meta.get("dates", ""))
                .replace("__ONELINE__", meta.get("one_line", "")))
     (out / "index.html").write_text(html, encoding="utf-8")
-    for name in ("items.json", "quotes.json", "meta.json", "events.json", "people.json", "integrity.json"):
+    for name in ("items.json", "quotes.json", "meta.json", "events.json", "people.json", "integrity.json", "download-manifest.json", "fetch.sh", "LICENSE"):
         if (folder / name).exists():
             shutil.copy(folder / name, out / name)
     for md in folder.glob("*.md"):
