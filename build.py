@@ -100,7 +100,7 @@ def main():
     if (ROOT / "CNAME").exists():
         shutil.copy(ROOT / "CNAME", SITE / "CNAME")
     cards = []
-    for folder in sorted(p for p in TEACHERS.iterdir() if p.is_dir()):
+    for folder in sorted(p for p in TEACHERS.iterdir() if p.is_dir() and not p.name.startswith("_")):
         card = build_teacher(folder)
         cards.append(card)
         print(f"{card['slug']}: {card['items']} items, {card['quotes']} quotes")
