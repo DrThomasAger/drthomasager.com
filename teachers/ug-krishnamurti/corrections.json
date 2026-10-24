@@ -15,7 +15,9 @@
   "note": "Verification: cited to Stopped in Our Tracks Book Two, not Mind is a Myth."
  },
  "qfd63f8c6": {
-  "note": "Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy."
+  "note": "Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy. Verification 4: Wikisource Mind is a Myth ch. I ('tried' vs 'trying' between copies).",
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything"
  },
  "q7fad3985": {
   "book": "The Courage to Stand Alone",
@@ -243,5 +245,37 @@
  },
  "q707dda41": {
   "note": "Verification 4: 'My aim is to silence you' not found verbatim; the only 'silence' line in Stopped in Our Tracks is Nagaraj's remark."
+ },
+ "q373b0000": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 4: the horizon passage is Mind is a Myth ch. I on Wikisource, not The Natural State."
+ },
+ "q3efc45a4": {
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
+  "note": "Verification 4: Wikisource Mind is a Myth ch. I."
+ },
+ "qeb9c85d2": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: an editor's bracketed third-person biographical note in Mystique Part One, not U.G.'s words."
+ },
+ "q718e3b22": {
+  "note": "Verification 4: disputed; the only 'no escape' ending found belongs to the Mind is a Myth sorrow passage, not No Way Out ch. 7."
+ },
+ "qc40e7904": {
+  "note": "Verification 4: a Terry Newland Introduction quotation."
+ },
+ "q5af2e554": {
+  "kind": "paraphrase",
+  "confidence": "T",
+  "note": "Verification 4: publisher blurb, not U.G.'s sentence."
+ },
+ "q27ae73f0": {
+  "note": "Verification 4: editorial wording from the UG Cookbook."
+ },
+ "q85d5f7a2": {
+  "note": "Verification 4: wording is jhana8's biography, not a transcribed line."
  }
 }
