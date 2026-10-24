@@ -194,7 +194,7 @@ def load_list(name):
 events = load_list("events.json")
 people = load_list("people.json")
 verification = {}
-for vf in sorted(src.glob("verification*.json")):
+for vf in sorted(list(src.glob("verification*.json")) + list(src.glob("local-verification*.json")) + list(HERE.glob("local-verification.json"))):
     for v in load_list(vf.name):
         if v.get("id") and v.get("searched", True) and v.get("verdict"):
             verification[v["id"]] = v
