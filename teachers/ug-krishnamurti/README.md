@@ -9,19 +9,19 @@ are published next to the page as JSON.
 
 ## The dataset now
 
+<!-- counts -->
 | File | What | Count |
 |---|---|---|
-| `items.json` | located media items across video, audio, text, image, archive, community | 509 |
-| `quotes.json` | his words, each with book, chapter, confidence, kind, verdict, sources | 267 |
-| `events.json` | dated life events with sources (from the chronology researcher) | 24 |
-| `people.json` | everyone connected to the record, with role and what they hold | 64 |
-| `catalogue/*.md` | the researchers' full reports, one per medium and wave | see folder |
-| `integrity-report.md` | the integrity checker's findings, regenerated after every merge | — |
+| `items.json` | located media items across video, audio, text, image, archive, community | 524 |
+| `quotes.json` | words of the teacher, each with book, chapter, confidence, kind, verdict, sources | 267 |
+| `events.json` | dated life events with sources | 84 |
+| `people.json` | everyone connected to the record, with role and what they hold | 87 |
 
-Items by medium: archive 95, community 22, audio 79, image 93, text 129, video 91.
-Items by confidence: S 469, T 2, lead 38.
-Quotes by verdict: multi-source 53, primary-source 80, disputed 1, corroborated-secondary 26, single-source 99, corroborated-primary 7, not-found 1.
-Distinct source hosts cited: 271.
+Items by medium: archive 95, community 22, audio 79, image 93, text 143, video 92.
+Items by confidence: S 483, T 2, lead 39.
+Quotes by verdict: multi-source 53, primary-source 75, disputed 2, corroborated-secondary 34, single-source 91, not-found 2, corroborated-primary 10.
+Distinct source hosts cited: 285.
+<!-- /counts -->
 
 ## The one-line answer on copyright
 
