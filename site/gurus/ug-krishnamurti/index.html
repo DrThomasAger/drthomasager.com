@@ -397,6 +397,13 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     let ax = `<line class="axis" x1="${L}" x2="${W - R}" y1="${T + ph}" y2="${T + ph}"/>`;
     for (let y = y0; y <= y1; y++) if ((y - y0) % step === 0 || y === y1) ax += `<text x="${L + (y - y0 + 0.5) * bw}" y="${H - 12}" text-anchor="middle">${y}</text>`;
     $('#yearChart').innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Items per year stacked by medium">${g}${bars}${ax}</svg>`;
+    // life events strip on the same scale
+    const evYears = EVENTS.map(e => { const m = String(e.date || '').match(/(18|19|20)\d\d/); return m ? +m[0] : null; }).filter(y => y && y >= y0 && y <= y1);
+    const evCount = {}; evYears.forEach(y => evCount[y] = (evCount[y] || 0) + 1);
+    let strip = `<svg class="chart" viewBox="0 0 ${W} 34" role="img" aria-label="Life events per year"><text x="${L - 6}" y="20" text-anchor="end">life</text>`;
+    Object.entries(evCount).forEach(([y, n]) => { const cx = L + (y - y0 + 0.5) * bw; strip += `<circle cx="${cx}" cy="16" r="${Math.min(3 + n, 9)}" fill="var(--accent)" opacity=".85"><title>${y}: ${n} event${n === 1 ? '' : 's'}</title></circle>`; });
+    strip += `</svg>`;
+    $('#yearChart').insertAdjacentHTML('beforeend', strip);
     const svg = $('#yearChart svg');
     svg.addEventListener('mousemove', e => { const r = e.target.closest('.hit'); if (!r) { hideTip(); return; } const o = byYear[r.dataset.y]; const tot = Object.values(o).reduce((a, b) => a + b, 0); showTip(e, `<b>${r.dataset.y}</b> · ${tot} item${tot === 1 ? '' : 's'}<br>` + MEDIA.filter(m => o[m]).map(m => `${MLABEL[m]} ${o[m]}`).join(' · ')); });
     svg.addEventListener('mouseleave', hideTip);
