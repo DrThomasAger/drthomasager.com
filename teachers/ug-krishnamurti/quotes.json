@@ -2574,8 +2574,8 @@
  {
   "id": "qa52816a8",
   "text": "You love fear. The ending of fear is death, and you don't want that to happen. I am not talking of wiping out the...",
-  "book": "No Way Out",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 1991,
   "confidence": "S",
   "kind": "fragment",
@@ -2585,7 +2585,7 @@
    "book-no-way-out",
    "kind-fragment"
   ],
-  "note": "Book not stated by azquotes/quotefancy; themed with the No Way Out fear passages. Partial.",
+  "note": "Book not stated by azquotes/quotefancy; themed with the No Way Out fear passages. Partial. Verification 3: duplicates the 'You love fear' passage confirmed on Wikisource Mind is a Myth ch. I; one host frames it as Jiddu Krishnamurti.",
   "sources": [
    "https://www.azquotes.com/quote/755135",
    "https://quotefancy.com/quote/923772/"
@@ -2605,7 +2605,8 @@
   ],
   "wording_variants": [
    "You see, you love fear. The ending of fear is death, and you don't want THAT to happen. ... The death of fear is the only death."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qe74e02bb",
@@ -2751,8 +2752,8 @@
  {
   "id": "qbb1ee524",
   "text": "Nature is busy creating absolutely unique individuals, whereas culture has invented a single mold to which all must conform.",
-  "book": "The Courage to Stand Alone",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. IV There Is Nothing To Understand",
   "year": 1997,
   "confidence": "S",
   "kind": "verbatim",
@@ -2763,7 +2764,7 @@
    "book-the-courage-to-stand-alone",
    "kind-verbatim"
   ],
-  "note": "Goodreads files it under The Courage to Stand Alone; other sites attribute it to Mind is a Myth ch. IV, where it ends 'It is grotesque.'",
+  "note": "Goodreads files it under The Courage to Stand Alone; other sites attribute it to Mind is a Myth ch. IV, where it ends 'It is grotesque.' Verification 3: aggregators and the Mind is a Myth ch. IV text; Goodreads also files it under Courage to Stand Alone. One third-party host misattributes it to Jiddu Krishnamurti.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212989-the-courage-to-stand-alone",
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/culture",
@@ -2785,7 +2786,8 @@
   ],
   "wording_variants": [
    "...to which all must conform. It is grotesque!"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q77a9194f",
@@ -4025,8 +4027,8 @@
  {
   "id": "q64ae758c",
   "text": "you keep buying these bogus wares offered up by the experts",
-  "book": "My Swan Song",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 2007,
   "confidence": "S",
   "kind": "fragment",
@@ -4036,7 +4038,7 @@
    "book-my-swan-song",
    "kind-fragment"
   ],
-  "note": "One transcription (WELL or Medium).",
+  "note": "One transcription (WELL or Medium). Verification 3: Wikisource, the WELL, Scribd and o-meditation all place this in Mind is a Myth ch. I, not My Swan Song.",
   "sources": [
    "https://people.well.com/user/jct/SWAN_SONG.htm",
    "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
@@ -4054,7 +4056,8 @@
    "https://www.zhenhost.net/Mind_is_a_Myth_1.html",
    "https://o-meditation.com/wp-content/uploads/2011/05/krishnamurti-u-g-mind-is-a-myth.pdf"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qdc117690",
@@ -4072,7 +4075,7 @@
    "book-my-swan-song",
    "kind-fragment"
   ],
-  "note": "Of religious and political figures.",
+  "note": "Of religious and political figures. Verification 3: not indexed on any host beyond the catalogue's Swan Song pages.",
   "sources": [
    "https://people.well.com/user/jct/SWAN_SONG.htm",
    "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
@@ -4084,7 +4087,8 @@
   ],
   "verdict": "not-found",
   "confirming_sources": [],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qd0ca3a02",
@@ -5108,7 +5112,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-fragment"
   ],
-  "note": "UG's question to Ramana Maharshi; Ramana's reply 'I can give you, but can you take it?' UG called his seven years with Sivananda 'a useless exercise' (secondary account).",
+  "note": "UG's question to Ramana Maharshi; Ramana's reply 'I can give you, but can you take it?' UG called his seven years with Sivananda 'a useless exercise' (secondary account). Verification 3: exact wording not found; hosts give 'This thing called moksha, can you give it to me?' addressed to Ramana Maharshi in 1939.",
   "sources": [
    "http://praveennv.blogspot.com/2016/03/ug-krishnamurti-with-ramana-maharshi.html",
    "https://cisindus.org/indic-varta-internal.php?vartaid=194"
@@ -5126,7 +5130,8 @@
   ],
   "wording_variants": [
    "This thing called moksha, can you give it to me? — I can give it, but can you take it?"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qf83cd77e",
@@ -5894,8 +5899,8 @@
  {
   "id": "q5e5b2970",
   "text": "Charity is selfishness.",
-  "book": "interview: K. Chandrasekhar audio-tape excerpts",
-  "chapter": null,
+  "book": "Stopped in Our Tracks",
+  "chapter": "Book Two",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -5904,7 +5909,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Blog list of sayings, source unclear. Attribution pass: well.com places it in interview: K. Chandrasekhar audio-tape excerpts. U.G. speaking, near 'Be selfish and stay selfish'; Chandrasekhar's audio-tape excerpts, not a published book.",
+  "note": "Blog list of sayings, source unclear. Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy.",
   "sources": [
    "https://dalemusings.wordpress.com/2012/12/25/thought-is-your-enemy-u-g-krishnamurti/"
   ],
@@ -5935,7 +5940,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Fragment in Mark Whitwell's Medium essay; surrounding context cut off.",
+  "note": "Fragment in Mark Whitwell's Medium essay; surrounding context cut off. Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'.",
   "sources": [
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf"
   ],
@@ -5953,7 +5958,8 @@
   "wording_variants": [
    "meditation is itself an evil (Mind is a Myth ch. I)",
    "Meditation is evil. It is a hoax pulled on humanity in the idea that there is something they have not yet realised. (Whitwell)"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qcb7d8a47",
@@ -6137,7 +6143,7 @@
   "id": "qb4eaccd2",
   "text": "The basic question which we have to ask for ourselves is: what kind of a human being do you want? But unfortunately we have placed before ourselves the model of a perfect being.",
   "book": "No Way Out",
-  "chapter": "Ch. 8",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
   "year": 1991,
   "confidence": "S",
   "kind": "verbatim",
@@ -6148,7 +6154,7 @@
    "book-no-way-out",
    "kind-verbatim"
   ],
-  "note": "Wikisource shows this wording in Chapter 8; Chapter 4 has the same question in other words.",
+  "note": "Wikisource shows this wording in Chapter 8; Chapter 4 has the same question in other words. Verification 3: hosts give ch. 7 rather than ch. 8.",
   "sources": [
    "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8",
    "https://en.wikisource.org/wiki/No_Way_Out/Chapter_4"
@@ -6163,7 +6169,8 @@
   ],
   "wording_variants": [
    "Society has put before you the ideal of a 'perfect man'... (related Goodreads quote)"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qd9402af0",
@@ -6952,7 +6959,7 @@
    "book-stopped-in-our-tracks",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 3: quotepark misfiles it under Jiddu Krishnamurti; the WELL and Wikiquote give U.G. (Stopped in Our Tracks Book Two).",
   "sources": [
    "https://people.well.com/user/jct/chandra.htm"
   ],
@@ -6966,7 +6973,8 @@
    "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
    "https://quotepark.com/quotes/1733648-ug-krishnamurti-it-thought-is-a-mechanical-thing-and-can-solve-o/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q4c3e36cf",
