@@ -133,7 +133,9 @@ Everything carries a label, human, AI or both, with the model and the conversati
 
 The measures an agent is scored by are given to it before the work begins, and the person can see them too. Total transparency is part of Smile.
 
-None of this needs a new law or a new model. It needs the loop to be seen, by the person and by the machine, from both ends.
+The loop runs the other way too, from the person into the model. In a recording of 17 October I described what that looks like. "And the way that you do it in Smile is that by default you're positive because all of your prompts are wrapped in smiles. So you're always giving that positivity. The LLM is always feeling it." When something goes wrong, a sad face carries it, and "the contrast between the smiles that he's getting all the time and the sad face is much more powerful".<sup><aside style="display:inline">[21]</aside></sup> Care for the AI is part of the same ethics as care through it.
+
+None of this needs a new regulation or a new model. It needs the loop to be seen, by the person and by the machine, from both ends.
 
 ## What you can do in your next conversation
 
@@ -171,5 +173,6 @@ An AI is a new kind of participant in the web of causes and conditions. It is no
 18. Thomas Ager, recording "22 Oct at 2:02 pm", 22 October 2026, 0:01:15 to 0:02:12, machine transcript.
 19. Thomas Ager, recording "Smile system overview Agents", 22 October 2026, Google Recorder transcript.
 20. Thomas Ager, recording "18 Oct at 12:21 pm (1)", 18 October 2026, 0:00:00 to 0:00:37, machine transcript.
+21. Thomas Ager, recording "17 Oct at 2:19 pm", 17 October 2026, 0:00:35 to 0:00:44 and 0:02:51 to 0:02:55, machine transcript.
 
 </aside>
