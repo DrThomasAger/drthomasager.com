@@ -15,7 +15,7 @@
   "duration": null,
   "host": "ugkrishnamurti.org",
   "url": "http://ugkrishnamurti.org",
-  "description": "Main UG site c. 2000s; carried the books in their entirety and audio recordings (an archive.org item is credited to it). Operator not established; associated with the Bangalore friends circle. Defunct or unresolved as a live site; Wayback captures exist.",
+  "description": "The .org site of the 2000s: full texts of the books (per Wikipedia Talk), 'photos and quotes' (per Narayana Moorty), audio (archive.org item ug_dr_kbr_sastrii_bramchari_babu is credited 'by: http://ugkrishnamurti.org'). No live page returned by search; Wayback captures exist but were not enumerated. Operator unconfirmed (Raj Mehta suggested, unverified).",
   "tags": [
    "website",
    "official",
@@ -38,7 +38,10 @@
    "natural-state",
    "text",
    "format-website-page",
-   "confidence-lead"
+   "confidence-lead",
+   "sister-domains",
+   "ugkrishnamurti-in",
+   "format-site-page"
   ],
   "confidence": "S",
   "sources": [
@@ -49,11 +52,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "ugkrishnamurti.org ('The Essential U.G.', associated with Peter Maverick)"
+   "ugkrishnamurti.org ('The Essential U.G.', associated with Peter Maverick)",
+   "ugkrishnamurti.org — U.G. Krishnamurti main site of his lifetime (defunct)"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave5-ugkin"
   ]
  },
  {
@@ -119,7 +124,10 @@
    "confidence-s",
    "ugkrishnamurti-net",
    "image",
-   "format-gallery-page"
+   "format-gallery-page",
+   "sister-domains",
+   "ugkrishnamurti-in",
+   "format-site-page"
   ],
   "confidence": "S",
   "sources": [
@@ -132,11 +140,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "ugkrishnamurti.net index page"
+   "ugkrishnamurti.net index page",
+   "ugkrishnamurti.net — full texts of UG's books"
   ],
   "origins": [
    "archives",
-   "images"
+   "images",
+   "wave5-ugkin"
   ]
  },
  {
@@ -178,22 +188,32 @@
    "lang-en",
    "place-bangalore",
    "place-mysore",
-   "confidence-lead"
+   "confidence-lead",
+   "home",
+   "site",
+   "ugkrishnamurti-in",
+   "format-site-page",
+   "operator",
+   "text"
   ],
   "confidence": "S",
   "sources": [
    "https://www.ugkrishnamurti.in/",
    "https://ugkrishnamurti.in/ug-speaks/interview-with-ug",
    "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
-   "https://people.well.com/user/jct/lists.html"
+   "https://people.well.com/user/jct/lists.html",
+   "https://www.ugkrishnamurti.in/resources-and-archive"
   ],
   "origin": "archives",
   "also_titled": [
-   "No UG Krishnamurti trust / centre / foundation in India found"
+   "No UG Krishnamurti trust / centre / foundation in India found",
+   "ugkrishnamurti.in — U.G. Krishnamurti: The Revolutionary Spiritual Teacher (home)",
+   "Who runs ugkrishnamurti.in — anonymous volunteer 'friends' (operator not named)"
   ],
   "origins": [
    "archives",
-   "wave2-img-arch"
+   "wave2-img-arch",
+   "wave5-ugkin"
   ]
  },
  {
@@ -213,7 +233,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/about-ug",
-  "description": "Born Machilipatnam 9 July 1918, raised in Gudivada by Theosophist lawyer grandfather; some sources (imeuswe) give Gudivada as birthplace. UG asked for no rituals or remembrance. No memorial, plaque or trust surfaced. Family-tree page: imeuswe.in/famous-families/Uppaluri-Krishnamurti.",
+  "description": "Biographical page. Includes Mukunda Rao's obituary account: UG fell and injured himself about seven weeks before his death, refused medical treatment, died 22 March 2007 at 2:30 pm aged 88/89 in the apartment built for him by friends Lucia, Anita and Giovanni in their villa at Vallecrosia, Italy; cremated next day (23 March, 2:45 pm) by Mahesh Bhatt without rituals. Page carries photographs.",
   "tags": [
    "website",
    "biography",
@@ -251,7 +271,13 @@
    "lang-en",
    "place-bangalore",
    "place-usa",
-   "place-uk"
+   "place-uk",
+   "press",
+   "format-obituary",
+   "about-ug",
+   "photos",
+   "format-site-page",
+   "place-italy"
   ],
   "confidence": "S",
   "sources": [
@@ -265,13 +291,17 @@
   "also_titled": [
    "ugkrishnamurti.in 'About UG' and 'Key Events' (pages carry photos)",
    "Machilipatnam / Gudivada - birthplace; no memorial or memorial house found",
-   "Mukunda Rao obituary / 'About UG' on ugkrishnamurti.in"
+   "Mukunda Rao obituary / 'About UG' on ugkrishnamurti.in",
+   "Obituary of U.G. Krishnamurti by Mukunda Rao (official site)",
+   "About UG (biography / obituary account by Mukunda Rao)"
   ],
   "origins": [
    "archives",
    "images",
    "wave2-img-arch",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press",
+   "wave5-ugkin"
   ]
  },
  {
@@ -282,14 +312,15 @@
   "year": 2007,
   "place": "Vallecrosia, Italy",
   "people": [
-   "Louis Brawley"
+   "Louis Brawley",
+   "U.G. Krishnamurti"
   ],
   "format": "website",
   "language": "English",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
-  "description": "Text of My Swan Song; no handwritten manuscript located. Discussion copies on Google Groups and sciforums.",
+  "description": "Full text of UG's final statement, dictated to Louis Brawley in mid-February 2007 and signed 'Vallecrosia, February 2007'. Opening: 'What I have found of and by myself is that all teachers religious, secular and those scientists and filthy doctors are wrong...'. The site's version closely matches the WELL transcription; the Medium '[Updated]' copy differs and contains inserted commentary. Thirteen quotes in the project quote-base cite this page.",
   "tags": [
    "website",
    "swan-song",
@@ -310,22 +341,29 @@
    "format-gallery-page",
    "document",
    "brawley",
-   "format-scanned-document"
+   "format-scanned-document",
+   "full-text",
+   "ug-essence",
+   "person-krishnamurti",
+   "format-site-page"
   ],
   "confidence": "S",
   "sources": [
    "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
    "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI",
-   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/"
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://people.well.com/user/jct/SWAN_SONG.htm"
   ],
   "origin": "archives",
   "also_titled": [
    "ugkrishnamurti.in 'My Swan Song' page",
-   "'My Swan Song' text (dictated to Louis Brawley, Feb 2007; no manuscript located)"
+   "'My Swan Song' text (dictated to Louis Brawley, Feb 2007; no manuscript located)",
+   "My Swan Song (text)"
   ],
   "origins": [
    "archives",
-   "images"
+   "images",
+   "wave5-ugkin"
   ]
  },
  {
@@ -333,15 +371,20 @@
   "medium": "archive",
   "title": "ugkrishnamurti.in — Books & PDFs",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
-  "people": [],
+  "people": [
+   "Mahesh Bhatt",
+   "Rodney Arms",
+   "Terry Newland",
+   "Peter Maverick"
+  ],
   "format": "website",
   "language": "English",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://ugkrishnamurti.in/ug-essence/book-pdf",
-  "description": "'Books & PDFs' page of ugkrishnamurti.in with Read Now links, including the conversation books and a life sketch.",
+  "description": "Page with 'Read Now' links to PDFs: the conversation books and a life sketch, including a 'UG Krishnamurti: A Life' PDF. Individual PDF link targets were not captured by search (a dedicated listing did not surface in one wave; the page URL is confirmed in another).",
   "tags": [
    "website",
    "pdfs",
@@ -364,7 +407,24 @@
    "courage-to-stand-alone",
    "natural-state",
    "text",
-   "format-full-text"
+   "format-full-text",
+   "ug-essence",
+   "format-site-page",
+   "book-pdf",
+   "1990s",
+   "1992",
+   "person-bhatt",
+   "format-pdf",
+   "1980s",
+   "1982",
+   "person-arms",
+   "confidence-lead",
+   "1988",
+   "person-newland",
+   "1990",
+   "1991",
+   "1997",
+   "person-maverick"
   ],
   "confidence": "S",
   "sources": [
@@ -372,22 +432,34 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "U.G. Krishnamurti books as PDFs on ugkrishnamurti.in"
+   "U.G. Krishnamurti books as PDFs on ugkrishnamurti.in",
+   "Books & PDFs (page)",
+   "U.G. Krishnamurti: A Life (Mahesh Bhatt) — PDF",
+   "Life sketch of U.G. — PDF",
+   "The Mystique of Enlightenment — PDF",
+   "Mind is a Myth — PDF",
+   "Thought is Your Enemy — PDF",
+   "No Way Out — PDF",
+   "The Courage to Stand Alone — PDF",
+   "The Natural State — PDF"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave5-ugkin"
   ]
  },
  {
   "id": "i2c3ed9c7",
   "medium": "archive",
   "title": "ugkrishnamurti.in — UG Speaks: Interviews with UG",
-  "date": null,
-  "year": null,
-  "place": null,
+  "date": "1972",
+  "year": 1972,
+  "place": "Bangalore, India",
   "people": [
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "ugkfriends@gmail.com",
+   "Willem de Ridder"
   ],
   "format": "website",
   "language": "English",
@@ -419,13 +491,31 @@
    "place-amsterdam",
    "ug-krishnamurti",
    "format-mp3-stream",
-   "lang-en"
+   "lang-en",
+   "site",
+   "text",
+   "person-ugkfriends-gmail-com",
+   "format-site-page",
+   "interviews-with-ug",
+   "ug-speaks",
+   "1970s",
+   "1972",
+   "format-recording",
+   "place-bangalore",
+   "place-india",
+   "1990s",
+   "1992",
+   "person-ridder",
+   "place-netherlands"
   ],
   "confidence": "S",
   "sources": [
    "https://ugkrishnamurti.in/ug-speaks/interview-with-ug",
    "https://people.well.com/user/jct/sagecon.htm",
-   "https://ugkrishnamurti.in/ug-speaks"
+   "https://ugkrishnamurti.in/ug-speaks",
+   "https://www.ugkrishnamurti.in/",
+   "https://archive.org/details/ug_institute-of-world-religion",
+   "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-conversation-in-amsterdam-09091992"
   ],
   "origin": "archives",
   "also_titled": [
@@ -435,13 +525,18 @@
    "First Last Public Talk (1972)",
    "Amsterdam 1982",
    "Amsterdam 1992",
-   "Conversation with Bhramchari Chandrashekar"
+   "Conversation with Bhramchari Chandrashekar",
+   "Contact: ugkfriends@gmail.com",
+   "Interviews with UG (index page)",
+   "First and Last Public Talk (1972)",
+   "Amsterdam 1992 (conversation with Willem de Ridder, 9 September 1992)"
   ],
   "origins": [
    "archives",
    "video",
    "wave2-av",
-   "wave3-items"
+   "wave3-items",
+   "wave5-ugkin"
   ]
  },
  {
@@ -749,7 +844,8 @@
    "Anita",
    "Giovanni",
    "Mahesh Bhatt",
-   "Valentine de Kerven"
+   "Valentine de Kerven",
+   "J.C. Thomas"
   ],
   "format": "website",
   "language": "English",
@@ -797,7 +893,12 @@
    "anthology",
    "remembering-ug",
    "text",
-   "format-anthology"
+   "format-anthology",
+   "press",
+   "obituary",
+   "person-thomas",
+   "format-obituary",
+   "place-usa"
   ],
   "confidence": "S",
   "sources": [
@@ -810,12 +911,14 @@
    "Vallecrosia, Liguria — place of death and cremation",
    "Gstaad and Saanen, Switzerland — the chalet and the apartment",
    "'Remembering UG Krishnamurti' (WELL page, may carry images)",
-   "Remembering UG Krishnamurti — anthology of remembrances (WELL)"
+   "Remembering UG Krishnamurti — anthology of remembrances (WELL)",
+   "Remembering UG Krishnamurti (WELL memorial page)"
   ],
   "origins": [
    "archives",
    "images",
-   "text"
+   "text",
+   "wave5-press"
   ]
  },
  {
@@ -919,7 +1022,12 @@
    "1989",
    "person-singh",
    "person-birla",
-   "place-switzerland"
+   "place-switzerland",
+   "press",
+   "patriot",
+   "delhi",
+   "host-the-patriot",
+   "format-interview"
   ],
   "confidence": "S",
   "sources": [
@@ -962,7 +1070,8 @@
    "Friends in Sidney [sic], 1990",
    "Kushvant Singh in India, 1989",
    "The Patriot, New Delhi, 1989",
-   "S.C. Birla in Gstaad, Switzerland, 1989"
+   "S.C. Birla in Gstaad, Switzerland, 1989",
+   "The Patriot (New Delhi) interview with U.G., 1989"
   ],
   "origins": [
    "archives",
@@ -972,7 +1081,8 @@
    "video",
    "wave2-av",
    "wave2-img-arch",
-   "wave3-items"
+   "wave3-items",
+   "wave5-press"
   ]
  },
  {
@@ -2051,7 +2161,7 @@
   "duration": null,
   "host": "home.online.nl",
   "url": "http://home.online.nl/prembuddha/u.g.html",
-  "description": "Legacy ISP-hosted Dutch obituary page; likely archived only.",
+  "description": "Dutch personal site notice of the death; the only Dutch-language-sphere item found.",
   "tags": [
    "website",
    "dutch",
@@ -2064,13 +2174,24 @@
    "format-website",
    "lang-dutch",
    "place-netherlands",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "text",
+   "format-obituary",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "http://home.online.nl/prembuddha/u.g.html"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "U.G. Krishnamurti died (prembuddha, Dutch site)"
+  ],
+  "origins": [
+   "archives",
+   "wave5-press"
+  ]
  },
  {
   "id": "ibd5777f2",
@@ -2119,7 +2240,9 @@
    "2007",
    "text",
    "person-krishnamurti",
-   "format-web-profile"
+   "format-web-profile",
+   "feature",
+   "format-feature"
   ],
   "confidence": "S",
   "sources": [
@@ -2133,13 +2256,15 @@
    "SpiritualTeachers.org profile (portrait)",
    "GAP: Reddit r/UGKrishnamurti image posts; Facebook group 'friends of UG Krishnamurti' albums",
    "Facebook group 'Friends of UG Krishnamurti' (URL and size unconfirmed)",
-   "spiritualteachers.org: 'U.G. Krishnamurti: The negating guru'"
+   "spiritualteachers.org: 'U.G. Krishnamurti: The negating guru'",
+   "The negating guru: U.G. Krishnamurti (spiritualteachers.org profile)"
   ],
   "origins": [
    "archives",
    "images",
    "wave2-img-arch",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press"
   ]
  },
  {
@@ -2529,7 +2654,10 @@
    "photo",
    "image",
    "host-sureshn13-medium-com",
-   "format-gallery-page"
+   "format-gallery-page",
+   "press",
+   "text",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
@@ -2537,11 +2665,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "Medium: 'Who is UG Krishnamurti' (sureshn13, photos)"
+   "Medium: 'Who is UG Krishnamurti' (sureshn13, photos)",
+   "Who is UG Krishnamurti (Suresh N., Medium)"
   ],
   "origins": [
    "archives",
-   "images"
+   "images",
+   "wave5-press"
   ]
  },
  {
@@ -2570,7 +2700,10 @@
    "photo",
    "image",
    "host-adesa-medium-com",
-   "format-gallery-page"
+   "format-gallery-page",
+   "press",
+   "text",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
@@ -2578,11 +2711,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "Medium: 'On UG Krishnamurti' (adesa)"
+   "Medium: 'On UG Krishnamurti' (adesa)",
+   "On UG Krishnamurti (adesa, Medium)"
   ],
   "origins": [
    "archives",
-   "images"
+   "images",
+   "wave5-press"
   ]
  },
  {
@@ -4584,14 +4719,15 @@
   "people": [
    "Larry Morris",
    "Susan Morris",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Hillside Church Group"
   ],
   "format": "person",
   "language": "English",
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_hillside",
-  "description": "Video collection item: discussion with Dr. Larry Morris recorded in Albuquerque; part 1 of 2. A later search result dates this Albuquerque discussion to 1992.",
+  "description": "identifier ug_hillside; first half of the Albuquerque discussion with Dr. Larry Morris / Hillside Church Group, April 1992 (title corrected from earlier wave: the item is not a Mill Valley recording).",
   "tags": [
    "person",
    "morris",
@@ -4613,22 +4749,30 @@
    "format-archive-org-video",
    "larry-morris",
    "person-krishnamurti",
-   "format-digitised-video"
+   "format-digitised-video",
+   "video-collection",
+   "jeff-kaplan-upload",
+   "person-group",
+   "format-video",
+   "place-mill-valley"
   ],
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_hillside",
-   "https://people.well.com/user/jct/Final_Remembering.htm"
+   "https://people.well.com/user/jct/Final_Remembering.htm",
+   "https://people.well.com/user/jct/index_main.html"
   ],
   "origin": "archives",
   "also_titled": [
    "U.G. with Dr. Larry Morris (1/2) — \"Hillside\", Albuquerque",
-   "U.G. with Dr. Larry Morris (1/2) (Hillside, Albuquerque)"
+   "U.G. with Dr. Larry Morris (1/2) (Hillside, Albuquerque)",
+   "U.G. with Dr. Larry Morris (1/2)"
   ],
   "origins": [
    "archives",
    "video",
-   "wave2-av"
+   "wave2-av",
+   "wave5-archive-items"
   ]
  },
  {
@@ -6913,13 +7057,24 @@
    "format-podcast-episode",
    "lang-english",
    "has-duration",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "essay",
+   "text",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
    "https://theobservingi.com/p/the-anti-guru-ug-krishnmurti-and-the-end-of-seeking"
   ],
-  "origin": "audio"
+  "origin": "audio",
+  "also_titled": [
+   "The Anti-Guru: U.G. Krishnamurti and the End of Seeking (The Observing I, Substack)"
+  ],
+  "origins": [
+   "audio",
+   "wave5-press"
+  ]
  },
  {
   "id": "i2a352d35",
@@ -6998,14 +7153,19 @@
    "KQED",
    "Susan Dean",
    "U.G. Krishnamurti",
-   "Willem de Ridder"
+   "Willem de Ridder",
+   "Donald Ingram Smith",
+   "Barbara Schuler",
+   "KAZU",
+   "BBC",
+   "ABC Radio National"
   ],
   "format": "hosting page (streaming/download)",
   "language": "English",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://ugkrishnamurti.in/ug-speaks/audios",
-  "description": "Essential Audios page: 'The Myth of Enlightenment' (Saanen talk part 1), 'The Misery of Enlightenment' (Saanen talk part 2), All India Radio interviews, Bangalore Talk 1984 12, KQED interview, Susan Dean interview, BBC Radio Guest of the Week, Sydney 1994 talk, Amsterdam recordings, UG Interview French.",
+  "description": "Streaming audio page under UG Speaks, arranged as Set One / Set Two. Entries recovered: Saanen talk parts 1-2, All India Radio interviews, Bangalore Talk 1984-12, KQED Talk Radio, Susan Dean, Alan Hunter, Donald Ingram Smith, Barbara Schuler 1989, BBC Guest of the Week, Sydney radio 1994, Sydney 17 Nov 1991, Amsterdam (Willem de Ridder), Interview in French. Durations are not given in the captured snippets.",
   "tags": [
    "hosting-page",
    "ugkrishnamurti-in",
@@ -7056,12 +7216,34 @@
    "format-streaming-audio",
    "ug-krishnamurti",
    "format-mp3-stream",
-   "lang-en"
+   "lang-en",
+   "essential-audios",
+   "ug-speaks",
+   "format-site-page",
+   "format-recording",
+   "1980s",
+   "1984",
+   "1990",
+   "person-smith",
+   "1989",
+   "person-schuler",
+   "person-kazu",
+   "person-bbc",
+   "person-national",
+   "1991",
+   "place-netherlands",
+   "lang-french"
   ],
   "confidence": "S",
   "sources": [
    "https://ugkrishnamurti.in/ug-speaks/audios",
-   "https://people.well.com/user/jct/index_main.html"
+   "https://people.well.com/user/jct/index_main.html",
+   "https://ugkrishnamurti.in/ug-speaks/old-audios",
+   "https://archive.org/details/ug_barbara_schuler_kazu_198905",
+   "https://archive.org/details/ug_guest_of_the_week_bbc_radio",
+   "http://remembering-ug.blogspot.com/2012/02/talks-310312.html",
+   "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-in-sydney-australia-17111991",
+   "https://archive.org/details/ug_interview_in_french"
   ],
   "origin": "audio",
   "also_titled": [
@@ -7081,12 +7263,25 @@
    "Interview in French",
    "All India Radio Interviews",
    "KQED Talk Radio",
-   "Donald Ingram Smith interview"
+   "Donald Ingram Smith interview",
+   "Essential Audios (index page; Set One / Set Two)",
+   "The Myth of Enlightenment — Saanen Talk Part 1",
+   "The Misery of Enlightenment — Saanen Talk Part 2",
+   "Bangalore Talk 1984-12",
+   "KQED Talk Radio interview",
+   "Donald Ingram Smith interview (Sydney 1990)",
+   "Barbara Schuler interview 1989 (KAZU radio)",
+   "Guest of the Week — BBC Radio",
+   "Sydney radio interview 1994 (ABC Radio National)",
+   "In Sydney, Australia — 17 November 1991",
+   "Amsterdam recordings (Willem de Ridder)",
+   "UG Interview French (Interview in French)"
   ],
   "origins": [
    "audio",
    "wave2-av",
-   "wave3-items"
+   "wave3-items",
+   "wave5-ugkin"
   ]
  },
  {
@@ -7097,7 +7292,9 @@
   "year": 1984,
   "place": "Bangalore, India",
   "people": [
-   "ugkrishnamurti.in"
+   "ugkrishnamurti.in",
+   "U.G. Krishnamurti",
+   "All India Radio"
   ],
   "format": "hosting page",
   "language": "English",
@@ -7133,12 +7330,21 @@
    "1988",
    "1989",
    "1990s",
-   "1990"
+   "1990",
+   "index",
+   "old-audios",
+   "ug-speaks",
+   "format-site-page",
+   "person-krishnamurti",
+   "person-radio",
+   "format-recording",
+   "place-netherlands"
   ],
   "confidence": "S",
   "sources": [
    "https://ugkrishnamurti.in/ug-speaks/old-audios",
-   "https://ugkrishnamurti.in/ug-speaks/audios"
+   "https://ugkrishnamurti.in/ug-speaks/audios",
+   "https://archive.org/details/ug_all_india_radio_interview"
   ],
   "origin": "audio",
   "also_titled": [
@@ -7155,11 +7361,24 @@
    "Kalyani singing 1988",
    "Who or what UG is (1989)",
    "Desire is a hormone, Part 1 (Bangalore June 1990)",
-   "Desire is a hormone, Part 2 (Bangalore June 1990)"
+   "Desire is a hormone, Part 2 (Bangalore June 1990)",
+   "Old Audios (index page; grouped 1970-80 / 1981-90 / 1991-2000)",
+   "Ending of knowledge is death — 12 December 1979 (All India Radio)",
+   "Man is just a machine — Bangalore, December 1984, Part 1",
+   "Man is just a machine — Bangalore, December 1984, Part 2",
+   "All you do is for pleasure — Part 1 (Amsterdam 1984)",
+   "All you do is for pleasure — Part 2 (labelled 1987)",
+   "Amsterdam, 29 October 1987 — Part 1",
+   "Amsterdam, 29 October 1987 — Part 2",
+   "Amsterdam, 31 October 1987 — Part 1",
+   "Amsterdam, 31 October 1987 — Part 2",
+   "Desire is a hormone — Bangalore, June 1990, Part 1",
+   "Desire is a hormone — Bangalore, June 1990, Part 2"
   ],
   "origins": [
    "audio",
-   "wave3-items"
+   "wave3-items",
+   "wave5-ugkin"
   ]
  },
  {
@@ -8398,7 +8617,7 @@
   "duration": null,
   "host": "rickarcher1.substack.com",
   "url": "https://rickarcher1.substack.com/p/177-louis-brawley-09b",
-  "description": "Interview pages carrying stills and photographs of U.G. and Brawley.",
+  "description": "Rick Archer's Substack page for the BatGap interview with Louis Brawley (author of Goner) about UG's last years.",
   "tags": [
    "brawley",
    "interview",
@@ -8410,14 +8629,26 @@
    "host-rickarcher1-substack-com",
    "format-video-still",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "substack",
+   "text",
+   "host-substack-com",
+   "format-interview"
   ],
   "confidence": "S",
   "sources": [
    "https://rickarcher1.substack.com/p/177-louis-brawley-09b",
    "https://batgap.com/louis-brawley-transcript/"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "Buddha at the Gas Pump #177: Louis Brawley (Substack page)"
+  ],
+  "origins": [
+   "images",
+   "wave5-press"
+  ]
  },
  {
   "id": "i9ef26a58",
@@ -8588,23 +8819,29 @@
    "2022",
    "person-krishnamurti",
    "format-interview-article",
-   "lang-en"
+   "lang-en",
+   "press",
+   "host-medium-com",
+   "format-interview"
   ],
   "confidence": "S",
   "sources": [
    "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
    "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d",
-   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html"
+   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-4-cab1a90ea0b1"
   ],
   "origin": "images",
   "also_titled": [
    "Palm Springs 2003 visit with Ram Dass (Mark Whitwell account)",
-   "Mark Whitwell, 'Understanding U.G. Krishnamurti' interview, Parts 1-2 (Medium, 2022)"
+   "Mark Whitwell, 'Understanding U.G. Krishnamurti' interview, Parts 1-2 (Medium, 2022)",
+   "Understanding U.G. Krishnamurti: an interview with Mark Whitwell, parts 1, 2 and 4"
   ],
   "origins": [
    "images",
    "video",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press"
   ]
  },
  {
@@ -8667,13 +8904,25 @@
    "host-markwhitwell-medium-com",
    "format-gallery-page",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "essay",
+   "text",
+   "host-medium-com",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "My Life with U.G. Krishnamurti (Mark Whitwell, Medium)"
+  ],
+  "origins": [
+   "images",
+   "wave5-press"
+  ]
  },
  {
   "id": "i48a71624",
@@ -9049,7 +9298,7 @@
   "duration": null,
   "host": "cuke.com",
   "url": "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
-  "description": "Compiles reports of UG's death on 22 March 2007 including a DNA (Daily News and Analysis) notice giving his age as 89; notes The Hindu reported the death on 25 March 2007.",
+  "description": "David Chadwick's cuke.com Death & Dying page compiles the DNA notice (age given as 89) and notes that The Hindu reported the death on 25 March 2007. Original DNA URL not recovered.",
   "tags": [
    "website",
    "vallecrosia",
@@ -9074,7 +9323,11 @@
    "person-krishnamurti",
    "person-bhatt",
    "format-web-compilation-of-death-notices",
-   "lang-en"
+   "lang-en",
+   "dna",
+   "cuke",
+   "format-obituary",
+   "place-mumbai"
   ],
   "confidence": "S",
   "sources": [
@@ -9083,11 +9336,13 @@
   "origin": "images",
   "also_titled": [
    "Vallecrosia, Italy — villa of Lucia, Anita and Giovanni (death 22 March 2007); no plaque or site photo found",
-   "cuke.com: Death of U.G. Krishnamurti (press compilation)"
+   "cuke.com: Death of U.G. Krishnamurti (press compilation)",
+   "DNA (Daily News & Analysis) death notice, as reproduced on cuke.com"
   ],
   "origins": [
    "images",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press"
   ]
  },
  {
@@ -9187,7 +9442,13 @@
    "india",
    "no-photo",
    "format-photograph",
-   "confidence-lead"
+   "confidence-lead",
+   "press",
+   "essay",
+   "memoir",
+   "text",
+   "host-medium-com",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
@@ -9195,10 +9456,12 @@
   ],
   "origin": "images",
   "also_titled": [
-   "Poornakutee (Purnakutee), Bangalore — no verified photo found"
+   "Poornakutee (Purnakutee), Bangalore — no verified photo found",
+   "My Journey with UG Krishnamurti (Uma Balaji, on sureshn13 Medium)"
   ],
   "origins": [
-   "images"
+   "images",
+   "wave5-press"
   ]
  },
  {
@@ -10719,16 +10982,19 @@
   "id": "iada592dd",
   "medium": "image",
   "title": "Scroll.in excerpt of This Dog Barking with panels",
-  "date": null,
+  "date": "2017",
   "year": 2017,
-  "place": null,
-  "people": [],
+  "place": "Mumbai",
+  "people": [
+   "Nicolas C. Grey",
+   "James Farley"
+  ],
   "format": "graphic novel",
   "language": "English",
   "duration": null,
   "host": "scroll.in",
   "url": "https://scroll.in/article/833558/ug-in-a-comic-book-the-strange-life-of-the-other-krishnamurti-who-broke-away-from-jiddu",
-  "description": "Scroll.in article reproducing panels from the graphic novel.",
+  "description": "Scroll.in feature/excerpt on the graphic novel This Dog Barking (HarperCollins India, 2017), reproducing panels.",
   "tags": [
    "graphic-novel",
    "drawing",
@@ -10740,30 +11006,48 @@
    "host-scroll-in",
    "format-graphic-novel",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "scroll",
+   "text",
+   "person-grey",
+   "person-farley",
+   "format-feature",
+   "place-mumbai",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
    "https://scroll.in/article/833558/ug-in-a-comic-book-the-strange-life-of-the-other-krishnamurti-who-broke-away-from-jiddu"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "UG in a comic book: the strange life of the other Krishnamurti who broke away from Jiddu"
+  ],
+  "origins": [
+   "images",
+   "wave5-press"
+  ]
  },
  {
   "id": "i9b405d00",
   "medium": "image",
   "title": "Scroll.in: Parveen Babi outtake panels from This Dog Barking",
-  "date": null,
+  "date": "2017",
   "year": 2017,
-  "place": null,
+  "place": "Mumbai",
   "people": [
-   "Parveen Babi"
+   "Parveen Babi",
+   "Mahesh Bhatt",
+   "Nicolas C. Grey",
+   "James Farley"
   ],
   "format": "graphic novel",
   "language": "English",
   "duration": null,
   "host": "scroll.in",
   "url": "https://scroll.in/reel/834110/the-bit-about-parveen-babi-that-you-wont-find-in-the-ug-krishnamurti-biography",
-  "description": "Outtake panels on Parveen Babi from the graphic novel.",
+  "description": "Scroll.in Reel piece publishing the Parveen Babi outtake panels from This Dog Barking; covers Bhatt bringing Babi to UG (1979–80).",
   "tags": [
    "graphic-novel",
    "drawing",
@@ -10777,28 +11061,46 @@
    "host-scroll-in",
    "format-graphic-novel",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "scroll",
+   "text",
+   "person-bhatt",
+   "person-grey",
+   "person-farley",
+   "format-feature",
+   "place-mumbai"
   ],
   "confidence": "S",
   "sources": [
    "https://scroll.in/reel/834110/the-bit-about-parveen-babi-that-you-wont-find-in-the-ug-krishnamurti-biography"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "The bit about Parveen Babi that you won't find in the UG Krishnamurti biography"
+  ],
+  "origins": [
+   "images",
+   "wave5-press"
+  ]
  },
  {
   "id": "i706388b3",
   "medium": "image",
   "title": "Tribune review 'Drawing out UG Krishnamurti'",
-  "date": null,
+  "date": "2017",
   "year": 2017,
-  "place": null,
-  "people": [],
+  "place": "Chandigarh",
+  "people": [
+   "Nicolas C. Grey",
+   "James Farley"
+  ],
   "format": "graphic novel",
   "language": "English",
   "duration": null,
   "host": "tribuneindia.com",
   "url": "https://www.tribuneindia.com/news/archive/book-reviews/drawing-out-ug-krishnamurti-401503",
-  "description": "Tribune India review of the graphic novel with artwork.",
+  "description": "The Tribune (Chandigarh) review of the graphic novel This Dog Barking.",
   "tags": [
    "graphic-novel",
    "review",
@@ -10810,13 +11112,26 @@
    "format-graphic-novel",
    "lang-english",
    "place-india",
-   "confidence-s"
+   "confidence-s",
+   "tribune",
+   "this-dog-barking",
+   "text",
+   "person-grey",
+   "person-farley",
+   "format-review"
   ],
   "confidence": "S",
   "sources": [
    "https://www.tribuneindia.com/news/archive/book-reviews/drawing-out-ug-krishnamurti-401503"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "Drawing out UG Krishnamurti (book review)"
+  ],
+  "origins": [
+   "images",
+   "wave5-press"
+  ]
  },
  {
   "id": "ibfef4d2d",
@@ -13660,7 +13975,7 @@
   "id": "ic373b97e",
   "medium": "text",
   "title": "ugkrishnamurti.in — Books about UG",
-  "date": null,
+  "date": "1996",
   "year": 1996,
   "place": "Bangalore",
   "people": [
@@ -13669,14 +13984,19 @@
    "Mahesh Bhatt",
    "Sabyasachi Guha (author)",
    "Sabyasachi Guha (translator)",
-   "Nannu Mahbub (translator)"
+   "Nannu Mahbub (translator)",
+   "Sabyasachi Guha",
+   "Nannu Mahbub",
+   "Cezary Wójcik",
+   "B.A. Ranganath",
+   "K.B. Ramakrishna Rao"
   ],
   "format": "website page",
   "language": "English",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
-  "description": "Official U.G. site's bibliography of books about U.G. and translations, the main online source for Hindi, Bengali, Kannada and Telugu edition data (Vani Prakashan Hindi 1996/1997, Bengali Guha translations 2009–2013, etc.). Companion: J.C. Tsai's well.com 'Books, Interviews, and References'.",
+  "description": "Bibliography of books about UG and of translations of his books — the main online source for Indian-language edition data (Hindi, Bengali, Kannada, Telugu) and for several European editions. Companion to J.C. Tsai's WELL 'Books, Interviews, and References'. Individual entries recovered are listed below.",
   "tags": [
    "website",
    "ugkrishnamurti-in",
@@ -13727,13 +14047,36 @@
    "archive",
    "format-web-bibliography",
    "lang-multilingual",
-   "place-india"
+   "place-india",
+   "books-about-ug",
+   "resources-archive",
+   "format-site-page",
+   "person-guha",
+   "person-mahbub",
+   "1990",
+   "lang-italian",
+   "place-italy",
+   "1980s",
+   "1989",
+   "lang-spanish",
+   "2002",
+   "lang-german",
+   "person-w-jcik",
+   "lang-polish",
+   "1970s",
+   "1978",
+   "person-ranganath",
+   "person-rao",
+   "lang-kannada",
+   "place-mysore"
   ],
   "confidence": "S",
   "sources": [
    "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
    "https://hi.wikipedia.org/wiki/%E0%A4%A8_%E0%A4%96%E0%A4%A4%E0%A5%8D%E0%A4%AE_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A5%87_%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%95%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A5%80",
-   "https://people.well.com/user/jct/lists.html"
+   "https://people.well.com/user/jct/lists.html",
+   "https://www.casadellibro.com/libro-la-mente-es-un-mito/9788478088959/2085884",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
   ],
   "origin": "text",
   "also_titled": [
@@ -13743,12 +14086,24 @@
    "ইউ জি-র সঙ্গে পাম স্প্রিং-এ চোদ্দ দিন (U.G.-r Sange Palm Spring-e Choddo Din – 'Fourteen Days with U.G. in Palm Springs')",
    "ইউ জি কৃষ্ণমূর্তি – এক জীবন্ত কাহিনী (U.G. Krishnamurti – Ek Jibanto Kahini; Bengali translation of Mahesh Bhatt's biography)",
    "নো ওয়ে আউট (No Way Out – Bengali translation, Dhaka)",
-   "ugkrishnamurti.in – Books About UG / Translations list (Indian-language editions)"
+   "ugkrishnamurti.in – Books About UG / Translations list (Indian-language editions)",
+   "Books about UG (bibliography page, with translations list)",
+   "ना ख़त्म होनेवाली कहानी (Na Khatm Honewali Kahani) — Hindi translation of Mahesh Bhatt's 'U.G. Krishnamurti: A Life', Vani Prakashan 1996",
+   "अब मैं कौन हूँ? (Ab Mai Kaun Hun?) — Hindi edition of Mahesh Bhatt's 'A Taste of Death', 1997",
+   "ইউ জি-র সঙ্গে পাম স্প্রিং-এ চোদ্দ দিন — 'Fourteen Days with U.G. in Palm Springs' (Sabyasachi Guha), Hindmotor 2009",
+   "ইউ জি কৃষ্ণমূর্তি – এক জীবন্ত কাহিনী — Bengali translation of Bhatt's biography (trans. Sabyasachi Guha), 2011; Deepa Prakashan, Kolkata 2013",
+   "নো ওয়ে আউট — Bengali 'No Way Out' (trans. Nannu Mahbub), Shrabon Prokashani, Dhaka 2014",
+   "Italian edition, Aequilibrium, 1990",
+   "Spanish 'La mente es un mito', Editorial Sirio (site dates first edition 1989; booksellers give 2002)",
+   "German online translation 'Das Ende der Sehnsucht' (2002)",
+   "Polish online translations by Cezary Wójcik — Mind Is a Myth, No Way Out, Courage to Stand Alone, Thought Is Your Enemy",
+   "ಇಲ್ಲಿ ವಾದವಿಲ್ಲ – ಇರುವುದೆಲ್ಲಾ ವೇದ (Illi Vadavilla – Iruvudella Veda) — Kannada 'Conversations', first book on UG, Mysore 1978 (trans. B.A. Ranganath)"
   ],
   "origins": [
    "text",
    "wave2-text",
-   "wave4-indian-languages"
+   "wave4-indian-languages",
+   "wave5-ugkin"
   ]
  },
  {
@@ -13887,7 +14242,7 @@
   "duration": null,
   "host": "medium.com",
   "url": "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
-  "description": "A version of 'My Swan Song' that differs in wording from the WELL copy and carries an inserted commentary section.",
+  "description": "Reproduces 'My Swan Song' (dictated Feb 2007) in a wording that differs from the WELL copy, with inserted commentary.",
   "tags": [
    "swan-song",
    "full-text",
@@ -13899,13 +14254,22 @@
    "host-medium-com",
    "format-full-text",
    "lang-english",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "format-essay"
   ],
   "confidence": "S",
   "sources": [
    "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
   ],
-  "origin": "text"
+  "origin": "text",
+  "also_titled": [
+   "U.G. Krishnamurti's Swan Song [Updated] (alysion42, Medium)"
+  ],
+  "origins": [
+   "text",
+   "wave5-press"
+  ]
  },
  {
   "id": "ie9d0736b",
@@ -14573,7 +14937,7 @@
   "duration": "2.5 h",
   "host": "ugkrishnamurti.in",
   "url": "https://ugkrishnamurti.in/ug-speaks",
-  "description": "Recorded sessions with NIMHANS (Bangalore) doctors, offered on ugkrishnamurti.in as video with PDFs. Meeting 23 Dec 1976, arranged by Sripada Gopalakrishnamurti, UG spoke c. 2.5 h (per Stopped in Our Tracks). Whether true video is unverified.",
+  "description": "Recorded sessions with doctors of NIMHANS (National Institute of Mental Health and Neurosciences), Bangalore, offered as video with accompanying PDFs. Per 'Stopped in Our Tracks' the meeting of 23 Dec 1976 was arranged by Sripada Gopalakrishnamurti; present were Drs Varma, Desiraju, Kapoor (former director) and six others; UG spoke about 2.5 hours. Whether the file is true video or audio with slides is unverified.",
   "tags": [
    "website",
    "ugkrishnamurti-in",
@@ -14605,23 +14969,34 @@
    "person-doctors",
    "format-video",
    "index",
-   "format-streaming-video-index"
+   "format-streaming-video-index",
+   "explore-videos",
+   "ug-speaks",
+   "format-site-page",
+   "pdf",
+   "text",
+   "format-pdf"
   ],
   "confidence": "S",
   "sources": [
    "https://ugkrishnamurti.in/ug-speaks",
    "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
-   "http://ug-k.blogspot.com/2007/04/conversations-following-conversations.html"
+   "http://ug-k.blogspot.com/2007/04/conversations-following-conversations.html",
+   "https://ugkrishnamurti.in/ug-speaks/interview-with-ug"
   ],
   "origin": "video",
   "also_titled": [
    "NIMHANS doctors' sessions, Bangalore, 23 December 1976",
    "UG's recorded sessions with NIMHANS doctors (1976) — video with PDFs",
-   "ugkrishnamurti.in 'Explore Videos' (talks and interviews captured over the years)"
+   "ugkrishnamurti.in 'Explore Videos' (talks and interviews captured over the years)",
+   "UG Speaks — Explore Videos (index)",
+   "Talks with NIMHANS Doctors, Bangalore, 23 December 1976 (video + PDFs)",
+   "NIMHANS 1976 — accompanying PDFs (transcripts)"
   ],
   "origins": [
    "video",
-   "wave2-av"
+   "wave2-av",
+   "wave5-ugkin"
   ]
  },
  {
@@ -15220,7 +15595,8 @@
    "Julie Thayer",
    "Jane Campion",
    "Mahesh Bhatt",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Matt Dougherty"
   ],
   "format": "documentary feature",
   "language": "English",
@@ -15262,7 +15638,10 @@
    "lang-en",
    "listing",
    "text",
-   "format-screening-listing"
+   "format-screening-listing",
+   "press",
+   "programme",
+   "format-news"
   ],
   "confidence": "S",
   "sources": [
@@ -15284,12 +15663,14 @@
   "origin": "video",
   "also_titled": [
    "The Natural State (2026, dir. Matthew Dougherty) - festival stills and listings",
-   "Upstate Films: The Natural State (film page)"
+   "Upstate Films: The Natural State (film page)",
+   "The Natural State – Upstate Films programme page"
   ],
   "origins": [
    "video",
    "wave2-img-arch",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press"
   ]
  },
  {
@@ -15338,7 +15719,12 @@
    "person-bhatt",
    "host-telluride-woodstock-festivals",
    "format-feature-documentary-from-hundreds-of-hours-of-lo-fi-consumer-home-video-digitised-by-the-director",
-   "place-gstaad"
+   "place-gstaad",
+   "press",
+   "the-natural-state",
+   "documentaries-org",
+   "text",
+   "format-news"
   ],
   "confidence": "S",
   "sources": [
@@ -15350,11 +15736,13 @@
   ],
   "origin": "video",
   "also_titled": [
-   "The Natural State (2026 feature documentary, dir. Matt Dougherty) — built from Julie Thayer's footage"
+   "The Natural State (2026 feature documentary, dir. Matt Dougherty) — built from Julie Thayer's footage",
+   "The UG Krishnamurti Documentary (Center for Independent Documentary project page)"
   ],
   "origins": [
    "video",
-   "wave2-av"
+   "wave2-av",
+   "wave5-press"
   ]
  },
  {
@@ -15372,7 +15760,7 @@
   "duration": null,
   "host": "bollywoodlife.com",
   "url": "https://www.bollywoodlife.com/ndtv/mahesh-bhatt-shoots-for-a-documentary-based-on-eminent-thinker-ug-krishnamurtis-life-194380/",
-  "description": "Earlier production report of Mahesh Bhatt shooting for a documentary on UG; no stand-alone Bhatt-directed UG documentary surfaced.",
+  "description": "NDTV-syndicated entertainment news item on Bhatt filming for a UG documentary (presumably the project that became The Natural State; Bhatt was interviewed in Varanasi). Date not captured.",
   "tags": [
    "documentary",
    "bhatt",
@@ -15384,13 +15772,26 @@
    "format-news-report",
    "lang-english",
    "place-india",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "ndtv",
+   "mahesh-bhatt",
+   "text",
+   "format-news",
+   "place-mumbai"
   ],
   "confidence": "S",
   "sources": [
    "https://www.bollywoodlife.com/ndtv/mahesh-bhatt-shoots-for-a-documentary-based-on-eminent-thinker-ug-krishnamurtis-life-194380/"
   ],
-  "origin": "video"
+  "origin": "video",
+  "also_titled": [
+   "Mahesh Bhatt shoots for a documentary based on eminent thinker UG Krishnamurti's life"
+  ],
+  "origins": [
+   "video",
+   "wave5-press"
+  ]
  },
  {
   "id": "if8341eee",
@@ -17679,18 +18080,21 @@
   "id": "i253e6759",
   "medium": "archive",
   "title": "ugkrishnamurti.in - 'The Revolutionary Spiritual Teacher' site with Resources & Archive",
-  "date": null,
-  "year": null,
+  "date": "1971-02-02",
+  "year": 1971,
   "place": "India",
   "people": [
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Deccan Herald",
+   "Sunday Observer",
+   "City magazine"
   ],
   "format": "website",
   "language": "en",
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/resources-and-archive",
-  "description": "Modern site with sections 'resources-and-archive' and 'resources-and-archive/book-about-ug'; lists a contact email. Operator not identified by search. A photo-gallery page was not surfaced.",
+  "description": "Section page with videos, audio and photos, and an index of magazine and newspaper clippings 1970-2000 (earliest snapshot 2 Feb 1971). Also touches on the Mahesh Bhatt / Parveen Babi episode. Sub-URLs for videos/audio/photos were not captured; no separate gallery URL surfaced.",
   "tags": [
    "website",
    "ugkrishnamurti-in",
@@ -17708,21 +18112,54 @@
    "clippings",
    "text",
    "format-press-clipping-index",
-   "place-bangalore"
+   "place-bangalore",
+   "index",
+   "format-feature",
+   "lang-english",
+   "place-bombay",
+   "photos",
+   "resources-archive",
+   "section",
+   "format-site-page",
+   "image",
+   "confidence-lead",
+   "format-press-clipping",
+   "clipping",
+   "1970s",
+   "1971",
+   "1980s",
+   "1981",
+   "person-herald",
+   "1982",
+   "person-observer",
+   "1987",
+   "person-magazine"
   ],
   "confidence": "S",
   "sources": [
    "https://www.ugkrishnamurti.in/",
    "https://www.ugkrishnamurti.in/resources-and-archive",
-   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug"
+   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+   "https://www.ugkrishnamurti.in/about-ug",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
   ],
   "origin": "wave2-img-arch",
   "also_titled": [
-   "ugkrishnamurti.in Resources & Archive: press clippings 1970-2000 (Deccan Herald 1981-1993 etc.)"
+   "ugkrishnamurti.in Resources & Archive: press clippings 1970-2000 (Deccan Herald 1981-1993 etc.)",
+   "Resources & Archive: press clippings about U.G., 1970–2000 (index)",
+   "Resources & Archive (section page)",
+   "Photos (Resources & Archive)",
+   "Press clippings index 1970-2000",
+   "Press clipping — earliest snapshot, 2 February 1971",
+   "Deccan Herald clippings 1981-1993 (Bangalore) — on the 'Natural State', money, and the 'godman' label",
+   "Sunday Observer review, 1982 — 'an honest, muddled, minor voice'",
+   "City magazine (Bombay), 1987"
   ],
   "origins": [
    "wave2-img-arch",
-   "wave2-text"
+   "wave2-text",
+   "wave5-press",
+   "wave5-ugkin"
   ]
  },
  {
@@ -18286,7 +18723,7 @@
    "Mahesh Bhatt"
   ],
   "format": "place",
-  "language": null,
+  "language": "English",
   "duration": null,
   "host": "various",
   "url": "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html",
@@ -18305,16 +18742,32 @@
    "place-vallecrosia",
    "place-india",
    "place-italy",
-   "confidence-lead"
+   "confidence-lead",
+   "press",
+   "obituary",
+   "oneindia",
+   "text",
+   "host-oneindia-com",
+   "format-news",
+   "lang-english",
+   "place-bangalore",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html",
    "https://www.biblio.com/9780143067160",
    "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
    "https://people.well.com/user/jct/Final_Remembering.htm"
   ],
-  "origin": "wave2-img-arch"
+  "origin": "wave2-img-arch",
+  "also_titled": [
+   "Philosopher U.G. Krishnamurti passes away"
+  ],
+  "origins": [
+   "wave2-img-arch",
+   "wave5-press"
+  ]
  },
  {
   "id": "idae2d36f",
@@ -18378,7 +18831,13 @@
    "host-substack-com-medium-com",
    "format-newsletter-essays",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "essay",
+   "text",
+   "host-substack-com",
+   "format-essay",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
@@ -18388,7 +18847,14 @@
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf",
    "https://theobservingi.com/"
   ],
-  "origin": "wave2-img-arch"
+  "origin": "wave2-img-arch",
+  "also_titled": [
+   "U.G.'s referents: The Mystique of Enlightenment (professordeino, Substack)"
+  ],
+  "origins": [
+   "wave2-img-arch",
+   "wave5-press"
+  ]
  },
  {
   "id": "i5a659157",
@@ -18437,7 +18903,7 @@
   "title": "2007 death coverage: The Hindu 'U.G. Krishnamurti passes away'; Oneindia; cuke.com; WELL 'Remembering UG'; Scribd 'The death of UG'",
   "date": "2007-03",
   "year": 2007,
-  "place": null,
+  "place": "Chennai",
   "people": [],
   "format": "news/obituary",
   "language": "en",
@@ -18458,17 +18924,34 @@
    "lang-en",
    "place-india",
    "place-uk",
-   "confidence-lead"
+   "confidence-lead",
+   "vallecrosia",
+   "text",
+   "host-thehindu-com",
+   "format-obituary",
+   "lang-english",
+   "place-vallecrosia",
+   "place-chennai",
+   "place-italy",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.thehindu.com/todays-paper/tp-national/U.G.-Krishnamurti-passes-away/article14737704.ece",
    "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html",
    "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
    "https://people.well.com/user/jct/Final_Remembering.htm",
-   "https://www.scribd.com/document/922484847/18651867-The-death-of-UG"
+   "https://www.scribd.com/document/922484847/18651867-The-death-of-UG",
+   "https://www.spiritualteachers.org/u-g-krishnamurti/"
   ],
-  "origin": "wave2-img-arch"
+  "origin": "wave2-img-arch",
+  "also_titled": [
+   "U.G. Krishnamurti passes away"
+  ],
+  "origins": [
+   "wave2-img-arch",
+   "wave5-press"
+  ]
  },
  {
   "id": "ic032fe7f",
@@ -18517,14 +19000,15 @@
   "people": [
    "Matthew Dougherty",
    "Jane Campion",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Matt Dougherty"
   ],
   "format": "interview / press article",
   "language": "en",
   "duration": null,
   "host": "deadline.com",
   "url": "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/",
-  "description": "Deadline interview ahead of the world premiere of the UG documentary The Natural State at Telluride 2026; Campion executive produced.",
+  "description": "Deadline interview with executive producer Jane Campion and director Matt Dougherty ahead of the Telluride world premiere (preview implies Saturday 5 Sept; Tribune gives 7 Sept).",
   "tags": [
    "press",
    "film",
@@ -18539,13 +19023,23 @@
    "host-deadline-com",
    "format-interview-press-article",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "deadline",
+   "format-interview",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://deadline.com/2026/09/the-natural-states-interview-jane-campion-matt-dougherty-1237068829/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "'The Natural State': Jane Campion and Matt Dougherty on their Telluride documentary (interview)"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "ie6e5439e",
@@ -18581,13 +19075,23 @@
    "lang-en",
    "place-mumbai",
    "place-india",
-   "confidence-s"
+   "confidence-s",
+   "variety-india",
+   "format-interview",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://varietyindia.com/mahesh-bhatt-on-matthew-doughertys-the-natural-state-the-film-has-been-born-the-director-has-been-born-ug-krishnamurti-has-escaped/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "Mahesh Bhatt on Matthew Dougherty's The Natural State: 'The film has been born, the director has been born, UG Krishnamurti has escaped'"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "i4faba8f0",
@@ -18598,7 +19102,8 @@
   "place": "Woodstock, NY",
   "people": [
    "Matthew Dougherty",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Matt Dougherty"
   ],
   "format": "film review",
   "language": "en",
@@ -18618,13 +19123,26 @@
    "host-thefilmstage-com",
    "format-film-review",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "film",
+   "film-stage",
+   "review",
+   "woodstock",
+   "format-review",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "Woodstock Review: The Natural State examines the contradictory state of non-belief"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "ie56c5d43",
@@ -18636,7 +19154,8 @@
   "people": [
    "Diane Carson",
    "Matthew Dougherty",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Matt Dougherty"
   ],
   "format": "film review",
   "language": "en",
@@ -18658,14 +19177,26 @@
    "host-awfj-org",
    "format-film-review",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "film",
+   "awfj",
+   "review",
+   "format-review",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://awfj.org/blog/2026/09/11/the-natural-state-telluride-ff-2026-review-by-diane-carson/",
    "https://awfj.org/blog/2026/09/11/telluride-film-festival-2026-overview-part-two-diane-carson-reports/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "The Natural State – Telluride FF 2026 review by Diane Carson"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "i769ae82f",
@@ -18677,7 +19208,8 @@
   "people": [
    "Matthew Dougherty",
    "Julie Thayer",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "Matt Dougherty"
   ],
   "format": "press feature",
   "language": "en",
@@ -18699,13 +19231,24 @@
    "host-theoverlooknews-com",
    "format-press-feature",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "overlook-news",
+   "woodstock",
+   "format-feature",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "A film 18 years in the making found its footing in a Hudson Valley WhatsApp group"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "ibf6d96fd",
@@ -19632,14 +20175,25 @@
    "format-magazine-essay",
    "lang-en",
    "place-uk",
-   "confidence-s"
+   "confidence-s",
+   "essay",
+   "caplan",
+   "format-essay",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "http://www.advaita.org.uk/discourses/teachers/ugk_caplan.htm",
    "https://awakeningtimes.com/u-g-krishnamurti-the-divine-anarchist/"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "U.G. Krishnamurti: The Divine Anarchist (Mariana Caplan)"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "i407952a5",
@@ -19712,14 +20266,27 @@
    "format-poetry-collection",
    "lang-en",
    "place-usa",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "review",
+   "host-the-mountain-path",
+   "format-review",
+   "lang-english",
+   "confidence-lead"
   ],
   "confidence": "S",
   "sources": [
    "http://thenaturalman.blogspot.com/2005/07/about-author.html",
    "http://thenaturalman.blogspot.com/2005/07/nirvakalpa-heart-u.html"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "also_titled": [
+   "Mountain Path review of Larry Morris, The Natural Man (1995)"
+  ],
+  "origins": [
+   "wave2-text",
+   "wave5-press"
+  ]
  },
  {
   "id": "i043d840c",
@@ -20442,14 +21009,16 @@
   "year": 1984,
   "place": "Bangalore",
   "people": [
-   "Brahmachari"
+   "Brahmachari",
+   "U.G. Krishnamurti",
+   "Brahmachari (Bramchari)"
   ],
   "format": "mp3/ogg",
   "language": "en",
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_bangalore_bramchari_chants",
-  "description": "[ug_bangalore_bramchari_chants] Bangalore 1984 with Brahmachari; includes chants",
+  "description": "identifier ug_bangalore_bramchari_chants; metadata gives 1984 (one year field reads 1982); conversations in Bangalore with Bramchari plus chants.",
   "tags": [
    "archive-org",
    "bangalore",
@@ -20463,13 +21032,27 @@
    "format-mp3-ogg",
    "lang-en",
    "place-bangalore",
-   "confidence-s"
+   "confidence-s",
+   "audio-collection",
+   "jeff-kaplan-upload",
+   "person-krishnamurti",
+   "person-bramchari",
+   "format-audio",
+   "lang-english-sanskrit-chants",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_bangalore_bramchari_chants"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "also_titled": [
+   "Bangalore conversations with Bhramchari some chants"
+  ],
+  "origins": [
+   "wave3-items",
+   "wave5-archive-items"
+  ]
  },
  {
   "id": "ic79aec63",
@@ -21299,14 +21882,29 @@
    "host-ugkrishnamurti-org",
    "format-index",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "audio-archive",
+   "sister-domains",
+   "ugkrishnamurti-in",
+   "ugkrishnamurti-net",
+   "ugkrishnamurti-org",
+   "host-ugkrishnamurti-net",
+   "format-site-page",
+   "lang-english"
   ],
   "confidence": "S",
   "sources": [
    "https://ugkrishnamurti-org.ugkrishnamurti.net/ug/ug_audio/index.html",
    "https://www.ugkrishnamurti.org/ug/ug_audio/index3.html"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "also_titled": [
+   "The Essential UG — Streaming Audio Archive (ugkrishnamurti.org mirror on ugkrishnamurti.net)"
+  ],
+  "origins": [
+   "wave3-items",
+   "wave5-ugkin"
+  ]
  },
  {
   "id": "id5c48d10",
@@ -21492,20 +22090,38 @@
   "id": "iffbc9bed",
   "medium": "text",
   "title": "ಇಲ್ಲಿ ವಾದವಿಲ್ಲ – ಇರುವುದೆಲ್ಲಾ ವೇದ (Illi Vadavilla – Iruvudella Veda; Kannada translation of 'Conversations', first book on U.G.)",
-  "date": "",
+  "date": "1918-07-09",
   "year": 1978,
   "place": "Mysore",
   "people": [
    "B.A. Ranganath (translator)",
    "K.B. Ramakrishna Rao",
-   "U.G. Krishnamurti"
+   "U.G. Krishnamurti",
+   "T.G. Krishnamurti",
+   "Durgamma",
+   "Annie Besant",
+   "C. Jinarajadasa",
+   "Ramana Maharshi",
+   "Kusuma Kumari",
+   "J. Krishnamurti",
+   "Vasant Kumar",
+   "Valentine de Kerven",
+   "T. Krishnamacharya",
+   "B.A. Ranganath",
+   "Terry Newland",
+   "Narayana Moorty",
+   "Rodney Arms",
+   "Dinesh Vaghela",
+   "K. Chandrasekhar",
+   "Louis Brawley",
+   "Mahesh Bhatt"
   ],
   "format": "book",
   "language": "Kannada",
   "duration": "",
   "host": "people.well.com / ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/about-ug/key-events",
-  "description": "The first publication on U.G. (1978): Kannada translation of the 'Conversations' booklet, translated by B.A. Ranganath; released in Mysore at Dr. K.B. Ramakrishna Rao's house on his 60th birthday, per ugkrishnamurti.in key events and J.C. Tsai's bibliography.",
+  "description": "Entry from the Key Events timeline on ugkrishnamurti.in (as recovered through search snippets and cross-checked in the wave-4 chronology). First publication on U.G.: Kannada translation of the 'Conversations' booklet (Illi Vadavilla – Iruvudella Veda), trans. B.A. Ranganath, released in Mysore at Dr K.B. Ramakrishna Rao's house on his 60th birthday.",
   "tags": [
    "kannada",
    "book",
@@ -21522,14 +22138,134 @@
    "format-book",
    "lang-kannada",
    "place-mysore",
-   "confidence-s"
+   "confidence-s",
+   "about-ug",
+   "photos",
+   "timeline",
+   "ugkrishnamurti-in",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "event",
+   "key-events",
+   "1910s",
+   "1918",
+   "place-madras",
+   "place-india",
+   "place-masulipatnam",
+   "person-durgamma",
+   "place-gudivada",
+   "1930s",
+   "1932",
+   "person-besant",
+   "person-jinarajadasa",
+   "confidence-lead",
+   "1939",
+   "person-maharshi",
+   "1940s",
+   "1941",
+   "1943",
+   "person-kumari",
+   "1949",
+   "place-new-york",
+   "place-usa",
+   "1950s",
+   "1953",
+   "1955",
+   "person-kumar",
+   "1960s",
+   "1960",
+   "place-london",
+   "place-paris",
+   "place-geneva",
+   "place-uk",
+   "1961",
+   "1963",
+   "person-kerven",
+   "place-switzerland",
+   "1967",
+   "place-saanen",
+   "1968",
+   "person-krishnamacharya",
+   "1972",
+   "place-bangalore",
+   "person-ranganath",
+   "1980s",
+   "1981",
+   "person-newland",
+   "person-moorty",
+   "place-mill-valley",
+   "place-california",
+   "1982",
+   "person-arms",
+   "person-vaghela",
+   "place-goa",
+   "1986",
+   "person-chandrasekhar",
+   "1990s",
+   "1991",
+   "2000s",
+   "2007",
+   "person-brawley",
+   "person-bhatt",
+   "place-vallecrosia",
+   "place-italy"
   ],
   "confidence": "S",
   "sources": [
    "https://people.well.com/user/jct/lists.html",
-   "https://www.ugkrishnamurti.in/about-ug/key-events"
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "https://www.ugkrishnamurti.in/about-ug",
+   "https://ugkrishnamurti.in/about-ug/life-background",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+   "https://www.inner-quest.org/UG_R.htm",
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html",
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven",
+   "https://people.well.com/user/jct/ugbio/ugbio8.htm",
+   "https://archive.org/details/ug_institute-of-world-religion",
+   "https://moortysblogpage.blogspot.com/2007/11/first-meetings-with-ug-first.html",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://archive.org/details/ug_ug_tv_int",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
   ],
-  "origin": "wave4-indian-languages"
+  "origin": "wave4-indian-languages",
+  "also_titled": [
+   "Key Events (timeline page)",
+   "Key event 1918-07-09: Born: Uppaluri Gopala Krishnamurti, Masulipatnam (Machilipatnam), Madras Presidency",
+   "Key event 1918-07: Mother Bharati dies seven days after his birth; raised in Gudivada by maternal grandparents T.G. Krishnamurti (lawyer, Theosophist) and Durgamma",
+   "Key event 1932-12: Attends Theosophical Society convention at Adyar; meets Annie Besant; C. Jinarajadasa presents the book 'I Promise' — described as the beginning of his sadhana (Bhatt dates this encounter to 1925)",
+   "Key event 1939: First trip overseas (destination not stated)",
+   "Key event 1939-12: Meets Ramana Maharshi at Tiruvannamalai: 'Can you give me what you have?' — 'I can give, but can you take it?'",
+   "Key event 1941: Joins the Theosophical Society formally and begins long involvement at Adyar (c. 1941)",
+   "Key event 1943-05: Marries Kusuma Kumari (arranged marriage); four children follow — Usha, Bharati, Vasant, Kumar",
+   "Key event 1949: First visit to New York, USA, as international lecturer of the Theosophical Society",
+   "Key event 1953: Quits Theosophical Society lecturing post 'in disgust'; December 1953 close encounter with J. Krishnamurti in Madras, followed by extended discussions",
+   "Key event 1955: Moves to the USA with Kusuma and polio-afflicted elder son Vasant for the boy's treatment",
+   "Key event 1955/1959: Lectures for a fee across the USA 1955-1959; fourth child born there; marriage breaks down and Kusuma returns to India with the children",
+   "Key event 1960/1963: European wanderings: London (c. three years, penniless), Paris, Geneva — the table frames these as 1960-1963",
+   "Key event 1961/1963: Last meeting with J. Krishnamurti, in London",
+   "Key event 1963-12: Geneva: refused repatriation by the Indian Consulate after Christmas 1963, UG is sheltered by consulate translator Valentine de Kerven",
+   "Key event 1967-07-09: The 'calamity': after hearing J. Krishnamurti in the Saanen tent, seven days of radical bodily changes culminate on his 49th birthday in the 'natural state'",
+   "Key event 1968-01: Visits Madras with Valentine; begins yoga lessons with T. Krishnamacharya",
+   "Key event 1972: First and only public talk after the calamity, Indian Institute of World Culture, Bangalore (Chandrasekhar: May 1972)",
+   "Key event 1978: First publication on U.G.: Kannada translation of the 'Conversations' booklet (Illi Vadavilla – Iruvudella Veda), trans. B.A. Ranganath, released in Mysore at Dr K.B. Ramakrishna Rao's house on his 60th birthday",
+   "Key event 1981: Travel to USA/UK begins (table); Mill Valley, California becomes a regular base (Terry Newland); Narayana Moorty meets UG c. September 1981",
+   "Key event 1982: First book, 'The Mystique of Enlightenment', edited by Rodney Arms, published by Dinesh Vaghela (5,000 copies)",
+   "Key event 1986: UG 'goes public' and gives his first television interview (channel/date not given)",
+   "Key event 1986-09: Valentine de Kerven moved permanently to Bangalore (Poornakutee) as Alzheimer's advances",
+   "Key event 1991-01-20: Valentine de Kerven dies at Poornakutee, Bangalore, aged about 90; UG is in California",
+   "Key event 2007-02: Fall at Vallecrosia c. seven weeks before death; refuses treatment; dictates 'My Swan Song' to Louis Brawley",
+   "Key event 2007-03-22: Dies 2:30 pm at Vallecrosia, Italy, in the apartment built by friends Lucia, Anita and Giovanni",
+   "Key event 2007-03-23: Cremated by Mahesh Bhatt at Vallecrosia, 2:45 pm, without rituals, as UG wished"
+  ],
+  "origins": [
+   "wave4-indian-languages",
+   "wave5-ugkin"
+  ]
  },
  {
   "id": "i01ed0107",
@@ -21713,7 +22449,7 @@
   "title": "यूजी कृष्णमूर्ति – अद्वितीय भारतीय विद्रोही दार्शनिक (Outlook Hindi birth-anniversary article)",
   "date": "",
   "year": null,
-  "place": "",
+  "place": "New Delhi",
   "people": [
    "U.G. Krishnamurti"
   ],
@@ -21735,13 +22471,26 @@
    "format-news-article",
    "lang-hindi",
    "place-masulipatnam",
-   "confidence-s"
+   "confidence-s",
+   "press",
+   "outlook",
+   "feature",
+   "format-feature",
+   "place-delhi",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
    "https://outlookhindi.com/country/state/ug-krishnamurti-birth-anniversary-special-article-77386"
   ],
-  "origin": "wave4-indian-languages"
+  "origin": "wave4-indian-languages",
+  "also_titled": [
+   "यूजी कृष्णमूर्ति – अद्वितीय भारतीय विद्रोही दार्शनिक (birth-anniversary special)"
+  ],
+  "origins": [
+   "wave4-indian-languages",
+   "wave5-press"
+  ]
  },
  {
   "id": "i0b3418ab",
@@ -22219,5 +22968,916 @@
    "https://solvanam.com/2020/07/24/%E0%AE%8E%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%BE%E0%AE%B0%E0%AF%8D-%E0%AE%AF%E0%AF%82-%E0%AE%9C%E0%AE%BF-%E0%AE%95%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%A3%E0%AE%AE%E0%AF%82%E0%AE%B0/"
   ],
   "origin": "wave4-indian-languages"
+ },
+ {
+  "id": "i5e286a2f",
+  "medium": "video",
+  "title": "You are a Parrot.",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "video (MPEG/MP4)",
+  "language": "English",
+  "duration": "c. 10 min (per well.com list)",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_parrot",
+  "description": "identifier ug_parrot; archive.org video item 'You are a Parrot.' in the collection 'U.G. Krishnamurti conversations and interviews - video' (uploader Jeff Kaplan, Aug 2012); corresponds to the 10-minute 'You are a Parrot' clip on the WELL streaming archive.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "short-clip",
+   "jeff-kaplan-upload",
+   "video",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-video",
+   "lang-english",
+   "has-duration",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_parrot",
+   "https://people.well.com/user/jct/index_main.html"
+  ],
+  "origin": "wave5-archive-items"
+ },
+ {
+  "id": "i27c2770f",
+  "medium": "video",
+  "title": "U.G. with Dr. Larry Morris (2/2)",
+  "date": "1992-04",
+  "year": 1992,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Larry Morris",
+   "Hillside Church Group"
+  ],
+  "format": "video",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_hillside2",
+  "description": "identifier ug_hillside2; second half of the Albuquerque discussion with Dr. Larry Morris and members of the Hillside Church Group (April 1992); companion to ug_hillside (1/2). The 'hillside' identifier refers to the Hillside Church Group, Albuquerque, not to Mill Valley.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "albuquerque",
+   "1992",
+   "jeff-kaplan-upload",
+   "video",
+   "1990s",
+   "person-krishnamurti",
+   "person-morris",
+   "person-group",
+   "host-archive-org",
+   "format-video",
+   "lang-english",
+   "place-mill-valley",
+   "place-albuquerque",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_hillside2",
+   "https://archive.org/details/ug_hillside",
+   "https://people.well.com/user/jct/index_main.html"
+  ],
+  "origin": "wave5-archive-items"
+ },
+ {
+  "id": "idb5770d1",
+  "medium": "video",
+  "title": "There is no such thing as Enlightenment.",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "video (small file, c. 9 MB)",
+  "language": "English",
+  "duration": "short clip",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_no_enlightenment",
+  "description": "identifier ug_no_enlightenment; short video clip in the U.G. video collection; title 'There is no such thing as Enlightenment.' (short-talks series alongside 'You are a Parrot', 'Spiritual Con', 'Sorrow').",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "short-clip",
+   "jeff-kaplan-upload",
+   "video",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-video",
+   "lang-english",
+   "has-duration",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_no_enlightenment"
+  ],
+  "origin": "wave5-archive-items"
+ },
+ {
+  "id": "i71595a7a",
+  "medium": "text",
+  "title": "U.G. Krishnamurti R.I.P. (Thomas Ligotti Online thread)",
+  "date": "2007-03",
+  "year": 2007,
+  "place": null,
+  "people": [],
+  "format": "news",
+  "language": "English",
+  "duration": null,
+  "host": "ligotti.net",
+  "url": "https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F=",
+  "description": "Reader-forum death thread, March 2007; the forum also has a U.G. Krishnamurti subforum (forumdisplay.php?f=42).",
+  "tags": [
+   "press",
+   "obituary",
+   "2007",
+   "forum",
+   "text",
+   "2000s",
+   "host-ligotti-net",
+   "format-news",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F=",
+   "https://ligotti.net/showthread.php?t=1098"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i3a349268",
+  "medium": "text",
+  "title": "The death of UG (Scribd compilation)",
+  "date": "2007",
+  "year": 2007,
+  "place": null,
+  "people": [],
+  "format": "obituary",
+  "language": "English",
+  "duration": null,
+  "host": "scribd.com",
+  "url": "https://www.scribd.com/document/922484847/18651867-The-death-of-UG",
+  "description": "Scribd document compiling accounts of the death and cremation at Vallecrosia.",
+  "tags": [
+   "press",
+   "obituary",
+   "2007",
+   "scribd",
+   "text",
+   "2000s",
+   "host-scribd-com",
+   "format-obituary",
+   "lang-english",
+   "place-vallecrosia",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.scribd.com/document/922484847/18651867-The-death-of-UG"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ica450c09",
+  "medium": "text",
+  "title": "Indian and Western newspaper obituaries not yet located (Deccan Herald, Times of India, Indian Express, Hindustan Times, Telegraph Kolkata, Outlook, Frontline, India Today, Tehelka, Guardian, Times, Daily Telegraph, Independent, NY Times, LA Times, Riviera/Sanremo press)",
+  "date": "2007-03",
+  "year": 2007,
+  "place": null,
+  "people": [],
+  "format": "obituary",
+  "language": "English",
+  "duration": null,
+  "host": null,
+  "url": null,
+  "description": "Target list from the research brief. Wave 2 and wave 5 searches surfaced no URL for any of these; the only confirmed mainstream Indian items are The Hindu (25 Mar 2007), Oneindia (24 Mar 2007) and the DNA notice quoted on cuke.com. Recorded as a lead for follow-up.",
+  "tags": [
+   "press",
+   "obituary",
+   "2007",
+   "gap",
+   "text",
+   "2000s",
+   "format-obituary",
+   "lang-english",
+   "place-india",
+   "place-uk",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.cuke.com/deathanddying/u-g-krsihnamurti.html",
+   "https://www.spiritualteachers.org/u-g-krishnamurti/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ie3bdcb7a",
+  "medium": "text",
+  "title": "Deccan Herald pieces on U.G. Krishnamurti, 1981–1993",
+  "date": "1981",
+  "year": 1981,
+  "place": "Bangalore",
+  "people": [],
+  "format": "feature",
+  "language": "English",
+  "duration": null,
+  "host": "deccanherald.com",
+  "url": null,
+  "description": "Series of Deccan Herald (Bangalore) features and reports 1981–93 on UG's 'Natural State', his views on money and the 'godman' label, listed in the official clipping index. No individual URLs.",
+  "tags": [
+   "press",
+   "deccan-herald",
+   "1980s",
+   "clippings",
+   "text",
+   "1981",
+   "host-deccanherald-com",
+   "format-feature",
+   "lang-english",
+   "place-bangalore",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i5c1b08c4",
+  "medium": "text",
+  "title": "Sunday Observer review of U.G. Krishnamurti (1982)",
+  "date": "1982",
+  "year": 1982,
+  "place": "Bombay",
+  "people": [],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "Sunday Observer",
+  "url": null,
+  "description": "1982 Sunday Observer review calling UG 'an honest, muddled, minor voice', per the official clipping index (likely of The Mystique of Enlightenment, 1982).",
+  "tags": [
+   "press",
+   "sunday-observer",
+   "1982",
+   "review",
+   "text",
+   "1980s",
+   "host-sunday-observer",
+   "format-review",
+   "lang-english",
+   "place-bombay",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i83acd266",
+  "medium": "text",
+  "title": "City magazine (Bombay) feature on U.G., 1987",
+  "date": "1987",
+  "year": 1987,
+  "place": "Bombay",
+  "people": [],
+  "format": "feature",
+  "language": "English",
+  "duration": null,
+  "host": "City magazine",
+  "url": null,
+  "description": "1987 City magazine (Bombay) piece listed in the official clipping index.",
+  "tags": [
+   "press",
+   "city-magazine",
+   "1987",
+   "text",
+   "1980s",
+   "host-city-magazine",
+   "format-feature",
+   "lang-english",
+   "place-bombay",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i4b609032",
+  "medium": "text",
+  "title": "Two Seers (Mahesh Bhatt, The Illustrated Weekly of India)",
+  "date": "1986-05-25",
+  "year": 1986,
+  "place": "Bombay",
+  "people": [
+   "Mahesh Bhatt",
+   "J. Krishnamurti"
+  ],
+  "format": "column",
+  "language": "English",
+  "duration": null,
+  "host": "The Illustrated Weekly of India",
+  "url": null,
+  "description": "Mahesh Bhatt's Illustrated Weekly article recording UG's most vehement attack on J. Krishnamurti after JK's death (Feb 1986); quoted in Bhatt's 'A Life' (WELL ch. 4) and on ug-k.blogspot ('Locking of horns').",
+  "tags": [
+   "press",
+   "illustrated-weekly",
+   "1986",
+   "mahesh-bhatt",
+   "text",
+   "1980s",
+   "person-bhatt",
+   "person-krishnamurti",
+   "host-the-illustrated-weekly-of-india",
+   "format-column",
+   "lang-english",
+   "place-bombay",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://ug-k.blogspot.com/2007/04/locking-of-horns-inspiration-is.html",
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i08f2afdf",
+  "medium": "text",
+  "title": "A Taste of Life: The Last Days of U.G. Krishnamurti (review, Journal of Cancer Research and Therapeutics)",
+  "date": "2015",
+  "year": 2015,
+  "place": "Mumbai",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "ovid.com",
+  "url": "https://www.ovid.com/jnls/cancerjournal/fulltext/10.4103/jcrat_2015114_1021~a-taste-of-life-the-last-days-of-ug-krishnamurti",
+  "description": "Medical-journal book review of Mahesh Bhatt's account of UG's dying.",
+  "tags": [
+   "press",
+   "review",
+   "2015",
+   "mahesh-bhatt",
+   "text",
+   "2010s",
+   "person-bhatt",
+   "host-ovid-com",
+   "format-review",
+   "lang-english",
+   "place-mumbai",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ovid.com/jnls/cancerjournal/fulltext/10.4103/jcrat_2015114_1021~a-taste-of-life-the-last-days-of-ug-krishnamurti"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "id31fecb4",
+  "medium": "text",
+  "title": "Mahesh Bhatt on UG Krishnamurti (book excerpt)",
+  "date": null,
+  "year": null,
+  "place": "New Delhi",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "format": "feature",
+  "language": "English",
+  "duration": null,
+  "host": "theprint.in",
+  "url": "https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/",
+  "description": "ThePrint PageTurner excerpt from a Mahesh Bhatt memoir on UG; carries the b/w cover photo of Bhatt with UG. Date not captured.",
+  "tags": [
+   "press",
+   "theprint",
+   "excerpt",
+   "mahesh-bhatt",
+   "text",
+   "person-bhatt",
+   "host-theprint-in",
+   "format-feature",
+   "lang-english",
+   "place-delhi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i64c27d23",
+  "medium": "text",
+  "title": "The Natural Man blog (Larry Morris)",
+  "date": "2005",
+  "year": 2005,
+  "place": null,
+  "people": [
+   "Larry Morris"
+  ],
+  "format": "essay",
+  "language": "English",
+  "duration": null,
+  "host": "thenaturalman.blogspot.com",
+  "url": "http://thenaturalman.blogspot.com/2005/07/nirvakalpa-heart-u.html",
+  "description": "Larry Morris's blog republishing The Natural Man material and the Mountain Path review.",
+  "tags": [
+   "press",
+   "blog",
+   "essay",
+   "text",
+   "2000s",
+   "2005",
+   "person-morris",
+   "host-thenaturalman-blogspot-com",
+   "format-essay",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://thenaturalman.blogspot.com/2005/07/nirvakalpa-heart-u.html",
+   "http://thenaturalman.blogspot.com/2005/07/about-author.html"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i120752ab",
+  "medium": "text",
+  "title": "Long-form and magazine items not located (Open, Caravan, Mint Lounge, The India Forum 2021, Swarajya, Firstpost, LiveMint, Tricycle, What Is Enlightenment?/EnlightenNext, Parabola, Nonduality, Noumenon, Yoga Journal, Hinduism Today, Spirituality & Health, Quest, Sufi journals; Khushwant Singh / Pritish Nandy print interviews; Mahesh Bhatt columns in HT, Mumbai Mirror, Mid-Day, Firstpost, Quint, Wire)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Khushwant Singh",
+   "Pritish Nandy",
+   "Mahesh Bhatt"
+  ],
+  "format": "feature",
+  "language": "English",
+  "duration": null,
+  "host": null,
+  "url": null,
+  "description": "Targets from the brief for which no URL has yet surfaced in waves 2–5. Note: Gulf News 'Goodbye my love' (Bhatt on Parveen Babi, 18 Sept 2006) is not about UG and should not be catalogued as such.",
+  "tags": [
+   "press",
+   "gap",
+   "text",
+   "person-singh",
+   "person-nandy",
+   "person-bhatt",
+   "format-feature",
+   "lang-english",
+   "place-mumbai",
+   "place-india",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://gulfnews.com/lifestyle/goodbye-my-love-1.255609"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "icfbe7a28",
+  "medium": "text",
+  "title": "The Natural State review: decoding India's fiercest anti-guru U.G. Krishnamurti",
+  "date": "2026-09",
+  "year": 2026,
+  "place": "Mumbai",
+  "people": [
+   "Matt Dougherty"
+  ],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "varietyindia.com",
+  "url": "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/",
+  "description": "Variety India review of the 100-minute documentary.",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "the-natural-state",
+   "variety-india",
+   "review",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "host-varietyindia-com",
+   "format-review",
+   "lang-english",
+   "place-mumbai",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "id2804031",
+  "medium": "text",
+  "title": "'UG threw me back into life': Mahesh Bhatt on the brutal, beautiful mystery of UG Krishnamurti",
+  "date": "2026-09",
+  "year": 2026,
+  "place": "Chandigarh",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "format": "interview",
+  "language": "English",
+  "duration": null,
+  "host": "tribuneindia.com",
+  "url": "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti",
+  "description": "The Tribune interview with Bhatt around the Telluride premiere (gives premiere date 7 Sept 2026).",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "the-natural-state",
+   "tribune",
+   "mahesh-bhatt",
+   "text",
+   "2020s",
+   "person-bhatt",
+   "host-tribuneindia-com",
+   "format-interview",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "icbe96fde",
+  "medium": "text",
+  "title": "Matthew Dougherty interview (Hammer to Nail)",
+  "date": "2026",
+  "year": 2026,
+  "place": null,
+  "people": [
+   "Matthew Dougherty",
+   "Julie Thayer"
+  ],
+  "format": "interview",
+  "language": "English",
+  "duration": null,
+  "host": "hammertonail.com",
+  "url": "https://www.hammertonail.com/interviews/matthew-dougherty/",
+  "description": "Hammer to Nail interview with the director on digitising Thayer's 'hundreds of hours' of lo-fi home video.",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "the-natural-state",
+   "hammer-to-nail",
+   "interview",
+   "text",
+   "2020s",
+   "person-dougherty",
+   "person-thayer",
+   "host-hammertonail-com",
+   "format-interview",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.hammertonail.com/interviews/matthew-dougherty/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ie52c2048",
+  "medium": "text",
+  "title": "The Natural State (2026) – Woodstock 2026 (Unseen Films)",
+  "date": "2026-10",
+  "year": 2026,
+  "place": null,
+  "people": [],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "unseenfilms.net",
+  "url": "http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html",
+  "description": "Unseen Films festival review from Woodstock 2026.",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "the-natural-state",
+   "review",
+   "woodstock",
+   "text",
+   "2020s",
+   "host-unseenfilms-net",
+   "format-review",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i693a74c4",
+  "medium": "text",
+  "title": "The Natural State (Next Best Picture)",
+  "date": "2026",
+  "year": 2026,
+  "place": null,
+  "people": [],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "nextbestpicture.com",
+  "url": "https://nextbestpicture.com/the-natural-state/",
+  "description": "Next Best Picture film page/review.",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "the-natural-state",
+   "review",
+   "text",
+   "2020s",
+   "host-nextbestpicture-com",
+   "format-review",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://nextbestpicture.com/the-natural-state/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i7eeef415",
+  "medium": "text",
+  "title": "2026 film coverage not located (Variety US, IndieWire, Hollywood Reporter, Screen Daily, The Hindu, Scroll, Telluride and Woodstock printed programmes)",
+  "date": "2026",
+  "year": 2026,
+  "place": null,
+  "people": [],
+  "format": "news",
+  "language": "English",
+  "duration": null,
+  "host": null,
+  "url": null,
+  "description": "Brief targets not surfaced in waves 2–5; search budget exhausted in wave 5 before any new query ran.",
+  "tags": [
+   "press",
+   "film",
+   "2026",
+   "gap",
+   "text",
+   "2020s",
+   "format-news",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "iaa718eab",
+  "medium": "text",
+  "title": "Life & Background",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://ugkrishnamurti.in/about-ug/life-background",
+  "description": "Life-background sub-page. Gives birth at Masulipatnam 9 July 1918; the December 1953 encounter with J. Krishnamurti; and places the onset of 'the most astounding and almost incomprehensible mystical experiences' in Paris, April 1967, in his 49th year (only this site gives Paris/April).",
+  "tags": [
+   "about-ug",
+   "biography",
+   "ugkrishnamurti-in",
+   "text",
+   "person-krishnamurti",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "place-paris",
+   "place-masulipatnam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ugkrishnamurti.in/about-ug/life-background",
+   "https://www.ugkrishnamurti.in/about-ug/key-events"
+  ],
+  "origin": "wave5-ugkin"
+ },
+ {
+  "id": "id9286847",
+  "medium": "text",
+  "title": "Valentine de Kerven (page)",
+  "date": null,
+  "year": null,
+  "place": "Geneva / Saanen / Bangalore",
+  "people": [
+   "Valentine de Kerven",
+   "U.G. Krishnamurti",
+   "K. Chandrasekhar"
+  ],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven",
+  "description": "Page on Valentine de Kerven, the Swiss consulate translator who sheltered UG in Geneva in December 1963 (she was about 63), gave up her job to look after him, set him up in Saanen near Gstaad during the 'halcyon days' 1963-67, was moved permanently to Bangalore in September 1986 as Alzheimer's advanced, and died at Poornakutee, Bangalore, 20 January 1991.",
+  "tags": [
+   "about-ug",
+   "biography",
+   "ugkrishnamurti-in",
+   "valentine-de-kerven",
+   "text",
+   "person-kerven",
+   "person-krishnamurti",
+   "person-chandrasekhar",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "place-gstaad",
+   "place-saanen",
+   "place-bangalore",
+   "place-geneva",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven",
+   "https://www.ugkrishnamurti.in/about-ug/key-events",
+   "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html"
+  ],
+  "origin": "wave5-ugkin"
+ },
+ {
+  "id": "ib47bcab9",
+  "medium": "text",
+  "title": "UG's Essence in Words (section index)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/ug-essence/",
+  "description": "Section grouping 'My Approach', 'My Swan Song', 'Books & PDFs' and 'Quotes'. Section URL inferred from the sub-page paths; the index page itself was not captured.",
+  "tags": [
+   "section",
+   "ug-essence",
+   "ugkrishnamurti-in",
+   "text",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://ugkrishnamurti.in/ug-essence/book-pdf"
+  ],
+  "origin": "wave5-ugkin"
+ },
+ {
+  "id": "i3bdf612e",
+  "medium": "text",
+  "title": "My Approach",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/ug-essence/my-approach",
+  "description": "Navigation item under UG's Essence in Words. Exact URL and content not captured by search; likely UG's standard disclaimer that his 'teaching' has no copyright and is not a teaching.",
+  "tags": [
+   "my-approach",
+   "ug-essence",
+   "ugkrishnamurti-in",
+   "text",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "wave5-ugkin"
+ },
+ {
+  "id": "i8ab34b2e",
+  "medium": "text",
+  "title": "Quotes",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/ug-essence/quotes",
+  "description": "Navigation item under UG's Essence in Words. URL guessed from the section pattern; content not captured.",
+  "tags": [
+   "quotes",
+   "ug-essence",
+   "ugkrishnamurti-in",
+   "text",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
+  ],
+  "origin": "wave5-ugkin"
+ },
+ {
+  "id": "i541d6296",
+  "medium": "text",
+  "title": "Remembering UG — 'Stories from those who knew UG' (section)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "site page",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/remembering-ug",
+  "description": "Section of reflections and stories by friends who knew UG. The section is confirmed from site navigation; individual story titles and authors were not captured by search, and the section URL is inferred from the site's path pattern.",
+  "tags": [
+   "remembering-ug",
+   "section",
+   "stories",
+   "ugkrishnamurti-in",
+   "text",
+   "host-ugkrishnamurti-in",
+   "format-site-page",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/"
+  ],
+  "origin": "wave5-ugkin"
  }
 ]

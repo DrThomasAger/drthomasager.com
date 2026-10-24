@@ -65,6 +65,9 @@ ia download ug_11_book_review_mystique_of_enlightenment --destdir downloads/arch
 ia download ug_palm_reading --destdir downloads/archive_org  # Palm Reading
 ia download ug_f2f_3 --destdir downloads/archive_org  # U.G. Radio Interview (3/3)
 ia download UGKrishnamurtiThoughtIsYourEnemy88p --destdir downloads/archive_org  # Thought Is Your Enemy (88 p.)
+ia download ug_parrot --destdir downloads/archive_org  # You are a Parrot.
+ia download ug_hillside2 --destdir downloads/archive_org  # U.G. with Dr. Larry Morris (2/2)
+ia download ug_no_enlightenment --destdir downloads/archive_org  # There is no such thing as Enlightenment.
 
 # --- YouTube (pip install yt-dlp)
 yt-dlp -o 'downloads/youtube/%(uploader)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/channel/UCRLQIvQcoF41xZdrtKMXSvg'  # YouTube channel Lectures Beyond Beyond
@@ -527,3 +530,19 @@ wget -q -E -P downloads/pages 'https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.
 wget -q -E -P downloads/pages 'https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B3%88.%E0%B2%8E%E0%B2%A8%E0%B3%8D.%E0%B2%95%E0%B3%83%E0%B2%B7%E0%B3%8D%E0%B2%A3%E0%B2%AE%E0%B3%82%E0%B2%B0%E0%B3%8D%E0%B2%A4%E0%B2%BF'  # ವೈ.ಎನ್.ಕೃಷ್ಣಮೂರ್ತಿ (Kannada Wikipedia article on Y.N. Krishn
 wget -q -E -P downloads/pages 'http://gnanudr.blogspot.com/2008/12/blog-post_13.html'  # ಚಿಂತನ ದರ್ಶನ: ವೈಚಾರಿಕ (Kannada blog post grouping U.G. with J
 wget -q -E -P downloads/pages 'https://solvanam.com/2020/07/24/%E0%AE%8E%E0%AE%A9%E0%AF%8D%E0%AE%B1%E0%AE%BE%E0%AE%B0%E0%AF%8D-%E0%AE%AF%E0%AF%82-%E0%AE%9C%E0%AE%BF-%E0%AE%95%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%B7%E0%AF%8D%E0%AE%A3%E0%AE%AE%E0%AF%82%E0%AE%B0/'  # …என்றார் யூ.ஜி.கிருஷ்ணமூர்த்தி ('…said U.G. Krishnamurti' – 
+wget -q -E -P downloads/pages 'https://www.ligotti.net/index.php?threads%2Fu-g-krishnamurti-r-i-p.1098%2F='  # U.G. Krishnamurti R.I.P. (Thomas Ligotti Online thread)
+wget -q -E -P downloads/pages 'https://www.scribd.com/document/922484847/18651867-The-death-of-UG'  # The death of UG (Scribd compilation)
+wget -q -E -P downloads/pages 'https://www.ovid.com/jnls/cancerjournal/fulltext/10.4103/jcrat_2015114_1021~a-taste-of-life-the-last-days-of-ug-krishnamurti'  # A Taste of Life: The Last Days of U.G. Krishnamurti (review,
+wget -q -E -P downloads/pages 'https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/'  # Mahesh Bhatt on UG Krishnamurti (book excerpt)
+wget -q -E -P downloads/pages 'http://thenaturalman.blogspot.com/2005/07/nirvakalpa-heart-u.html'  # The Natural Man blog (Larry Morris)
+wget -q -E -P downloads/pages 'https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/'  # The Natural State review: decoding India's fiercest anti-gur
+wget -q -E -P downloads/pages 'https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti'  # 'UG threw me back into life': Mahesh Bhatt on the brutal, be
+wget -q -E -P downloads/pages 'https://www.hammertonail.com/interviews/matthew-dougherty/'  # Matthew Dougherty interview (Hammer to Nail)
+wget -q -E -P downloads/pages 'http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html'  # The Natural State (2026) – Woodstock 2026 (Unseen Films)
+wget -q -E -P downloads/pages 'https://nextbestpicture.com/the-natural-state/'  # The Natural State (Next Best Picture)
+wget -q -E -P downloads/pages 'https://ugkrishnamurti.in/about-ug/life-background'  # Life & Background
+wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/about-ug/valentine-de-kerven'  # Valentine de Kerven (page)
+wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/'  # UG's Essence in Words (section index)
+wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/my-approach'  # My Approach
+wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/ug-essence/quotes'  # Quotes
+wget -q -E -P downloads/pages 'https://www.ugkrishnamurti.in/remembering-ug'  # Remembering UG — 'Stories from those who knew UG' (section)
