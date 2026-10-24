@@ -447,6 +447,20 @@
    "medium": "video",
    "url": "https://archive.org/details/ug_no_enlightenment",
    "identifier": "ug_no_enlightenment"
+  },
+  {
+   "id": "i1d1288a9",
+   "title": "Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico",
+   "medium": "audio",
+   "url": "https://archive.org/details/ug_george_gary_kunm_radio_albu",
+   "identifier": "ug_george_gary_kunm_radio_albu"
+  },
+  {
+   "id": "i6ebefe42",
+   "title": "U. G. Krishnamurti tapes (thisrobotdreaming blog post)",
+   "medium": "text",
+   "url": "https://archive.org/details/thisrobotdreaming",
+   "identifier": "thisrobotdreaming"
   }
  ],
  "youtube": [

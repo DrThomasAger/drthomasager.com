@@ -6283,7 +6283,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_parapsy",
-  "description": "Audio version of the US cable programme 'Dimensions in Parapsychology' with Bryce Bond; WELL index 5-5; video at ug_ug_parapsy_150.",
+  "description": "identifier ug_ug_parapsy; audio of the TV programme 'Dimensions in Parapsychology' hosted by Bryce Bond (interviewer name confirmed by search snippet); video pair ug_ug_parapsy_150.",
   "tags": [
    "tv",
    "interview",
@@ -6306,7 +6306,11 @@
    "place-new-york",
    "ug-krishnamurti",
    "format-mp3-ogg",
-   "lang-en"
+   "lang-en",
+   "audio-collection",
+   "television",
+   "jeff-kaplan-upload",
+   "format-audio"
   ],
   "confidence": "S",
   "sources": [
@@ -6316,12 +6320,14 @@
   "origin": "audio",
   "also_titled": [
    "U.G. on Dimensions in Parapsychology (audio version)",
-   "Audio version of 'U.G. on Dimensions in Parapsychology'"
+   "Audio version of 'U.G. on Dimensions in Parapsychology'",
+   "Audio version of \"U.G. on Dimensions in Parapsychology\""
   ],
   "origins": [
    "audio",
    "wave2-av",
-   "wave3-items"
+   "wave3-items",
+   "wave5-archive-items"
   ]
  },
  {
@@ -23082,6 +23088,79 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_no_enlightenment"
+  ],
+  "origin": "wave5-archive-items"
+ },
+ {
+  "id": "i1d1288a9",
+  "medium": "audio",
+  "title": "Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico",
+  "date": null,
+  "year": null,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "George Gary"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_george_gary_kunm_radio_albu",
+  "description": "identifier ug_george_gary_kunm_radio_albu; radio conversation on KUNM (University of New Mexico public radio) with George Gary, Albuquerque; title misspelled on archive.org ('Converstaion', 'Albuquerqe'). Probably from the April 1992 Albuquerque visit (same trip as ug_hillside).",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "radio",
+   "albuquerque",
+   "jeff-kaplan-upload",
+   "audio",
+   "person-krishnamurti",
+   "person-gary",
+   "host-archive-org",
+   "format-audio",
+   "lang-english",
+   "place-albuquerque",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_george_gary_kunm_radio_albu"
+  ],
+  "origin": "wave5-archive-items"
+ },
+ {
+  "id": "i6ebefe42",
+  "medium": "text",
+  "title": "U. G. Krishnamurti tapes (thisrobotdreaming blog post)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog post linking to archive.org uploads",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/thisrobotdreaming",
+  "description": "identifier thisrobotdreaming; LEAD, not an archive.org identifier: blog post at thisrobotdreaming.com says the author uploaded all their U.G. cassette tapes (1967 to the 1990s, converted to MP3) to the Internet Archive with a 'listen here' link; uploader username and item identifiers not surfaced by search.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "cassette",
+   "thisrobotdreaming",
+   "text",
+   "person-krishnamurti",
+   "host-archive-org",
+   "format-blog-post-linking-to-archive-org-uploads",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes"
   ],
   "origin": "wave5-archive-items"
  },

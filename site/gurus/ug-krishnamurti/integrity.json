@@ -1,21 +1,21 @@
 {
  "summary": {
-  "items": 550,
+  "items": 552,
   "quotes": 267,
   "events": 84,
   "people": 87,
   "items_by_medium": {
    "archive": 95,
    "community": 22,
-   "audio": 79,
+   "audio": 80,
    "image": 93,
-   "text": 166,
+   "text": 167,
    "video": 95
   },
   "items_by_confidence": {
-   "S": 501,
+   "S": 502,
    "T": 2,
-   "lead": 47
+   "lead": 48
   },
   "quotes_by_confidence": {
    "S": 183,
@@ -51,8 +51,8 @@
    "Science and U.G.": 4
   },
   "distinct_source_hosts": 285,
-  "items_self_sourced_only": 282,
-  "items_with_second_source": 255,
+  "items_self_sourced_only": 283,
+  "items_with_second_source": 256,
   "issue_counts": {
    "event-date-conflict": 7,
    "item-duplicate-title": 3,
@@ -533,7 +533,7 @@
   ],
   [
    "archive.org",
-   104
+   105
   ],
   [
    "en.wikisource.org",
@@ -700,6 +700,10 @@
    6
   ],
   [
+   "thisrobotdreaming.com",
+   6
+  ],
+  [
    "ligotti.net",
    6
   ],
@@ -713,10 +717,6 @@
   ],
   [
    "sciforums.com",
-   5
-  ],
-  [
-   "thisrobotdreaming.com",
    5
   ],
   [

@@ -68,6 +68,8 @@ ia download UGKrishnamurtiThoughtIsYourEnemy88p --destdir downloads/archive_org 
 ia download ug_parrot --destdir downloads/archive_org  # You are a Parrot.
 ia download ug_hillside2 --destdir downloads/archive_org  # U.G. with Dr. Larry Morris (2/2)
 ia download ug_no_enlightenment --destdir downloads/archive_org  # There is no such thing as Enlightenment.
+ia download ug_george_gary_kunm_radio_albu --destdir downloads/archive_org  # Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico
+ia download thisrobotdreaming --destdir downloads/archive_org  # U. G. Krishnamurti tapes (thisrobotdreaming blog post)
 
 # --- YouTube (pip install yt-dlp)
 yt-dlp -o 'downloads/youtube/%(uploader)s/%(title)s [%(id)s].%(ext)s' --write-info-json 'https://www.youtube.com/channel/UCRLQIvQcoF41xZdrtKMXSvg'  # YouTube channel Lectures Beyond Beyond
