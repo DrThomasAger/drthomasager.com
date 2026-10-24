@@ -93,7 +93,7 @@ for f in sorted(src.glob("*.json")):
     if not isinstance(data, list):
         print(f"skip {f.name}: not a list"); continue
     n = 0
-    if f.name in ("events.json", "people.json", "verification.json"):
+    if f.name in ("events.json", "people.json") or f.name.startswith("verification"):
         continue
     if f.name.startswith("quotes"):
         for q in data:
@@ -193,7 +193,11 @@ def load_list(name):
 
 events = load_list("events.json")
 people = load_list("people.json")
-verification = {v.get("id"): v for v in load_list("verification.json") if v.get("id")}
+verification = {}
+for vf in sorted(src.glob("verification*.json")):
+    for v in load_list(vf.name):
+        if v.get("id") and v.get("searched", True) and v.get("verdict"):
+            verification[v["id"]] = v
 for q in quotes:
     hosts = set()
     for u in q["sources"]:
