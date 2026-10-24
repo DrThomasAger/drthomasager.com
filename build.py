@@ -401,7 +401,7 @@ def header():
         for root, cats in ROOTS.items())
     return (f'<header class="top"><a class="brand" href="index.html">'
             f'<span class="brand-mark">(-:</span> {SITE_NAME}</a>'
-            f'<nav>{nav}<a href="shop.html">Shop</a></nav>'
+            f'<nav>{nav}<a href="gurus/">Gurus</a><a href="shop.html">Shop</a></nav>'
             f'<button class="btn btn-small" type="button" data-open-popup>'
             f'Join the List</button></header>')
 
@@ -790,6 +790,25 @@ def page_names():
             names += [slugify(ch) for ch in s["children"]]
     return names
 
+def build_gurus():
+    """The guru browsing section, built by hanjopurebuddha.com/build.py into
+    site/gurus/. That folder is a self-contained site of its own (one
+    teacher per folder under its teachers/); here it renders as a section."""
+    import importlib.util
+    src = ROOT / "hanjopurebuddha.com" / "build.py"
+    if not src.exists():
+        return 0
+    spec = importlib.util.spec_from_file_location("gurus_build", src)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod.SITE = SITE / "gurus"
+    if mod.SITE.exists():
+        shutil.rmtree(mod.SITE)
+    mod.SITE.mkdir(parents=True)
+    cards = [mod.build_teacher(f, mod.SITE) for f in sorted(p for p in mod.TEACHERS.iterdir() if p.is_dir())]
+    mod.build_index(cards, mod.SITE / "index.html", prefix="")
+    return len(cards)
+
 def main():
     SITE.mkdir(exist_ok=True)
     out_assets = SITE / "assets"
@@ -804,7 +823,9 @@ def main():
     build_posts(posts)
     build_feed(posts)
     build_shop()
+    n_gurus = build_gurus()
     build_sitemap(posts, page_names() + ["shop"])
+    print(f"Guru section: {n_gurus} teacher page(s) in {SITE / 'gurus'}")
     print(f"Built {1 + len(CATEGORIES) + n_subs + len(posts)} "
           f"pages into {SITE}")
 

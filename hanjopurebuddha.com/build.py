@@ -48,7 +48,9 @@ def embed(payload):
     return json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
 
 
-def build_teacher(folder):
+def build_teacher(folder, out_root=None):
+    """Render one teacher into <out_root>/<slug>/ (default: site/gurus/)."""
+    out_root = out_root or (SITE / "gurus")
     slug = folder.name
     meta = read_json(folder / "meta.json", {})
     items = read_json(folder / "items.json", [])
@@ -60,7 +62,7 @@ def build_teacher(folder):
     if integrity:
         integrity = {"summary": integrity.get("summary", {})}
     meta["slug"] = slug
-    out = SITE / "gurus" / slug
+    out = out_root / slug
     out.mkdir(parents=True, exist_ok=True)
     tpl = (TPL / "teacher.html").read_text(encoding="utf-8")
     html = (tpl.replace("/*__DATA__*/", embed({"items": items, "quotes": quotes, "meta": meta, "events": events, "people": people, "integrity": integrity}))
@@ -80,10 +82,14 @@ def build_teacher(folder):
     return {"slug": slug, "meta": meta, "counts": counts, "items": len(items), "quotes": len(quotes), "people": len(people), "events": len(events) or len(meta["events"])}
 
 
-def build_index(cards):
+def build_index(cards, out_path=None, prefix="gurus/"):
+    """Render the guru grid. prefix is the path from the index to the teacher
+    folders ("gurus/" when the index sits at the site root, "" when the index
+    sits inside the gurus folder itself)."""
+    out_path = out_path or (SITE / "index.html")
     tpl = (TPL / "index.html").read_text(encoding="utf-8")
-    html = tpl.replace("/*__CARDS__*/", embed(cards))
-    (SITE / "index.html").write_text(html, encoding="utf-8")
+    html = tpl.replace("/*__CARDS__*/", embed(cards)).replace("__PREFIX__", prefix)
+    out_path.write_text(html, encoding="utf-8")
 
 
 def main():
