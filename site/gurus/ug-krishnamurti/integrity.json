@@ -18,8 +18,8 @@
    "lead": 76
   },
   "quotes_by_confidence": {
-   "S": 188,
-   "T": 94
+   "S": 189,
+   "T": 93
   },
   "quotes_by_verdict": {
    "corroborated-primary": 59,
@@ -31,19 +31,20 @@
    "single-source": 73
   },
   "quotes_by_book": {
-   "The Mystique of Enlightenment": 49,
-   "The Natural State": 16,
+   "The Mystique of Enlightenment": 50,
+   "The Natural State": 15,
    "No Way Out": 39,
    "Mind is a Myth": 46,
    "Stopped in Our Tracks": 14,
    "Thought is Your Enemy": 15,
    "The Courage to Stand Alone": 13,
-   "A Taste of Death": 5,
-   "unassigned": 36,
+   "A Taste of Death": 4,
+   "unassigned": 35,
    "My Swan Song": 20,
    "Stopped in Our Tracks, Book Two": 1,
    "U.G. Krishnamurti: A Life": 6,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
+   "Love (ed. Sunita Pant Bansal)": 2,
    "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
    "Certainty: Life has no beginning, no end": 1,
@@ -61,8 +62,8 @@
    "item-possible-jk-contamination": 3,
    "quote-flagged-not-ug-or-editor": 6,
    "quote-near-duplicate": 7,
-   "quote-possible-jk-contamination": 1,
-   "quote-unassigned-book": 36,
+   "quote-possible-jk-contamination": 2,
+   "quote-unassigned-book": 35,
    "quote-very-short": 9
   }
  },
@@ -263,10 +264,6 @@
     "as long as you depend upon somebody for solving your problem"
    ],
    [
-    "qeee2e8cf",
-    "Everything you stand for, believe in, experience and aspire "
-   ],
-   [
     "qacfbd56d",
     "Life has to be described in pure and simple physical and phy"
    ],
@@ -275,12 +272,12 @@
     "All your experiences, all your meditations, all your prayer,"
    ],
    [
-    "qc032db3b",
-    "Love implies division, separation. Wherever there is divisio"
-   ],
-   [
     "q9a924078",
     "We are trying to bridge this gap… with this fancy idea that "
+   ],
+   [
+    "q59326449",
+    "The pleasure of sex, for instance, is by nature temporary. T"
    ],
    [
     "qec037541",
@@ -289,6 +286,10 @@
    [
     "qf83cd77e",
     "Yoga, meditation and prayer are violent techniques. The livi"
+   ],
+   [
+    "q46e8ac7b",
+    "Charity is the filthiest invention of the human mind: first…"
    ],
    [
     "q4fc99cde",
@@ -309,10 +310,6 @@
    [
     "q4b9ab831",
     "I am not against the scientific method per se."
-   ],
-   [
-    "q74cba27f",
-    "wherever there is division, there can't be love"
    ],
    [
     "qea825286",
@@ -372,6 +369,10 @@
    ]
   ],
   "quote-possible-jk-contamination": [
+   [
+    "q181d741b",
+    "…all the positive approaches that man has invented and used "
+   ],
    [
     "q190abbe4",
     "The belief in reincarnation will only help us to look the ot"

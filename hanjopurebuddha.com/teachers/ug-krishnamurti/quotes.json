@@ -3674,7 +3674,7 @@
    "book-my-swan-song",
    "kind-fragment"
   ],
-  "note": "WELL page title, all caps as published; truncated in the listing. ugkrishnamurti.in gives the opening as 'What I have found of and by myself,'.",
+  "note": "WELL page title, all caps as published; truncated in the listing. ugkrishnamurti.in gives the opening as 'What I have found of and by myself,'. Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently.",
   "sources": [
    "https://people.well.com/user/jct/SWAN_SONG.htm",
    "https://www.ugkrishnamurti.in/ug-essence/my-swan-song"
@@ -3695,7 +3695,8 @@
   "wording_variants": [
    "Capitalised line is the WELL page TITLE; body text versions phrase it differently, e.g. ugkrishnamurti.in: 'freed from the stranglehold of whatever is put in there either by spiritual teachers or secular teachers, or by those scientists and medical technology'",
    "Medium 'updated' version adds bracketed insertions such as '[and political people]'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qae3cbc6d",
@@ -4191,8 +4192,8 @@
   "book": "The Mystique of Enlightenment",
   "chapter": null,
   "year": 1982,
-  "confidence": "T",
-  "kind": "paraphrase",
+  "confidence": "S",
+  "kind": "verbatim",
   "tags": [
    "fear",
    "death",
@@ -4200,7 +4201,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-paraphrase"
   ],
-  "note": "Only the opening clause is confirmed verbatim ('It is fear that makes you believe that you are living and that you will be dead'); one aggregator cites Mystique p.83. Wording variants 'new science'/'new sciences' reported.",
+  "note": "Only the opening clause is confirmed verbatim ('It is fear that makes you believe that you are living and that you will be dead'); one aggregator cites Mystique p.83. Wording variants 'new science'/'new sciences' reported. Verification 3: verbatim on hosts; Goodreads files it under No Way Out, catalogue under Mystique.",
   "sources": [
    "https://www.goodreads.com/quotes/531154-it-is-fear-that-makes-you-believe-that-you-are",
    "https://quotes.pub/q/it-is-fear-that-makes-you-believe-that-you-are-living-and-th-448733",
@@ -4222,7 +4223,8 @@
   ],
   "wording_variants": [
    "'It is the fear that makes you believe'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qb253e5d0",
@@ -4462,8 +4464,8 @@
  {
   "id": "qeee2e8cf",
   "text": "Everything you stand for, believe in, experience and aspire to is the result of thought. And thought is destructive…",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -4474,7 +4476,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification 3: the Moorty/Noronha 2002 compilation ch. 7.",
   "sources": [
    "https://quotefancy.com/quote/923747/U-G-Krishnamurti-Everything-you-stand-for-believe-in-experience-and-aspire-to-is-the",
    "https://libquotes.com/u-g-krishnamurti/quotes/thought"
@@ -4495,7 +4497,8 @@
   ],
   "wording_variants": [
    "Continues: 'Thought is destructive; it is a self-protecting mechanism'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qacfbd56d",
@@ -4785,7 +4788,7 @@
  {
   "id": "qc032db3b",
   "text": "Love implies division, separation. Wherever there is division, there can't be love.",
-  "book": "unassigned",
+  "book": "Love (ed. Sunita Pant Bansal)",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -4796,7 +4799,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Goodreads work 43411143 is titled after this quote.",
+  "note": "Goodreads work 43411143 is titled after this quote. Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth.",
   "sources": [
    "https://www.goodreads.com/work/quotes/43411143-love-love-implies-division-separation"
   ],
@@ -4811,7 +4814,8 @@
    "https://www.amazon.com/U-G-Krishnamurti-implies-division-separation-ebook/dp/B009YZ95P8",
    "https://true-dhamma.com/u.g.%E5%85%8B%E9%87%8C%E5%B8%8C%E9%82%A3%E7%A9%86%E6%8F%90/%E5%AE%9E%E7%9B%B8%E4%B8%8E%E8%A7%A3%E6%9E%84/%E7%88%B1-%E7%88%B1%E6%84%8F%E5%91%B3%E7%9D%80%E5%88%86%E8%A3%82-%E5%88%86%E7%A6%BB/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q9a924078",
@@ -4881,7 +4885,7 @@
  {
   "id": "q59326449",
   "text": "The pleasure of sex, for instance, is by nature temporary. The body can't take uninterrupted pleasure for long, it would be destroyed.",
-  "book": "No Way Out",
+  "book": "unassigned",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -4893,7 +4897,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Attribution pass: goodreads/wikisource places it in No Way Out. U.G. speaking; also anthologised in The Natural State.",
+  "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned.",
   "sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=3"
   ],
@@ -5204,7 +5208,7 @@
    "book-the-courage-to-stand-alone",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification 3: no hit for the exact phrase; results swamped by Jiddu Krishnamurti pages, who has a published passage on an overlapping theme. Treat with care.",
   "sources": [
    "https://beyond-the-pale.co.uk/ugk3.htm"
   ],
@@ -5214,13 +5218,14 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q46e8ac7b",
   "text": "Charity is the filthiest invention of the human mind: first… [people give charity to prevent the have-nots from rebelling, and it also makes them feel less guilty].",
-  "book": "A Taste of Death",
-  "chapter": "Snatches from U.G.'s Conversations",
+  "book": "unassigned",
+  "chapter": null,
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -5231,7 +5236,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Opening clause verbatim; bracketed continuation is a summary rendering. A blog also lists 'Charity is selfishness.' Attribution pass: well.com places it in A Taste of Death, Snatches from U.G.'s Conversations. U.G.'s remark as recorded by Mahesh Bhatt; AZQuotes alternatively cites Mystique of Enlightenment p. 57 (unverified).",
+  "note": "Opening clause verbatim; bracketed continuation is a summary rendering. A blog also lists 'Charity is selfishness.' Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced.",
   "sources": [
    "https://www.azquotes.com/quote/943427",
    "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/giving"
@@ -6230,8 +6235,8 @@
  {
   "id": "qdc4e8ecb",
   "text": "Anything you touch is always translated as hard, soft, warm, cold, wet, dry and so on.",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "The Mystique of Enlightenment",
+  "chapter": "Part Two",
   "year": null,
   "confidence": "S",
   "kind": "verbatim",
@@ -6242,7 +6247,7 @@
    "book-the-natural-state",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Verification 3: hosts place it in Mystique Part Two, not The Natural State.",
   "sources": [
    "https://en.wikisource.org/wiki/The_Natural_State"
   ],
@@ -6255,7 +6260,8 @@
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Two",
    "http://remembering-ug.blogspot.com/2012/03/quotes-110412.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qcf088078",
@@ -6475,7 +6481,7 @@
  {
   "id": "q74cba27f",
   "text": "wherever there is division, there can't be love",
-  "book": "unassigned",
+  "book": "Love (ed. Sunita Pant Bansal)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -6486,7 +6492,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth.",
   "sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
@@ -6499,7 +6505,8 @@
    "https://www.goodreads.com/work/quotes/43411143-u-g-krishnamurti-love-love-implies-division-separation",
    "https://www.amazon.com/U-G-Krishnamurti-implies-division-separation-ebook/dp/B009YZ95P8"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q39067cd0",
