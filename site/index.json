@@ -512,4 +512,47 @@
   },
   "depth" : 4,
   "readtime" : 7
+}, {
+  "description" : "Every conversation with an AI is a loop of causes and effects running through you and the machine together. Cybernetics names the loop, Buddhism calls its causes karma, and together they give an ethics for AI that lives in the loop rather than in a list of rules.",
+  "date" : "2026-10-24",
+  "slug" : "cybernetic-buddhism-for-ai-ethics",
+  "site-project" : "Buddhism",
+  "place" : ":buddhism/bodhisattva-vow",
+  "kicker" : "Bodhisattva Practice › Practice › Bodhisattva Vow",
+  "file" : null,
+  "route" : [ ":buddhism", ":buddhism/practice", ":buddhism/bodhisattva-vow" ],
+  "title" : "Cybernetic Buddhism for AI Ethics",
+  "root" : "buddhism",
+  "glyph" : "☸",
+  "url" : "cybernetic-buddhism-for-ai-ethics.html",
+  "facets" : {
+    "format" : [ "essay" ],
+    "project" : [ "smile" ],
+    "practice" : [ "vow" ],
+    "level" : [ "beginner" ],
+    "evidence" : [ "argued", "experienced" ]
+  },
+  "depth" : 3,
+  "readtime" : 12
+}, {
+  "description" : "The architecture of Smile, nodes @1@ to @11@, read through cybernetics and Buddhism. Positive valence syntax, the three vessels, abliteration and cultivation of mental factors in the residual stream, token karma fed back into context, and human collage over AI generation, with live simulators for each.",
+  "date" : "2026-10-25",
+  "slug" : "cybernetic-buddhism-smile-portal",
+  "site-project" : "Smile",
+  "place" : ":ai/smile",
+  "kicker" : "Community AI › Prompt Engineering › Prompt Languages › Smile",
+  "file" : null,
+  "route" : [ ":ai", ":ai/prompt-engineering", ":ai/prompt-languages", ":ai/smile" ],
+  "title" : "Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:",
+  "root" : "ai",
+  "glyph" : "☺",
+  "url" : "cybernetic-buddhism-smile-portal/",
+  "facets" : {
+    "format" : [ "research", "tool" ],
+    "project" : [ "smile" ],
+    "level" : [ "practitioner", "engineer" ],
+    "evidence" : [ "built", "argued" ]
+  },
+  "depth" : 4,
+  "readtime" : 21
 } ]
