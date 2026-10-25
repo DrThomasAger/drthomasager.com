@@ -1,52 +1,62 @@
 {
  "summary": {
-  "items": 102,
-  "quotes": 63,
+  "items": 135,
+  "quotes": 151,
   "events": 37,
   "people": 24,
   "items_by_medium": {
-   "archive": 27,
-   "community": 7,
-   "video": 8,
-   "audio": 6,
-   "image": 15,
-   "text": 39
+   "archive": 32,
+   "community": 14,
+   "video": 20,
+   "audio": 7,
+   "image": 16,
+   "text": 46
   },
   "items_by_confidence": {
-   "S": 81,
+   "S": 114,
    "lead": 12,
    "T": 9
   },
   "quotes_by_confidence": {
-   "S": 14,
-   "T": 49
+   "S": 68,
+   "T": 83
   },
   "quotes_by_verdict": {
-   "single-source": 16,
-   "multi-source": 34,
-   "primary-source": 13
+   "single-source": 41,
+   "corroborated-primary": 16,
+   "corroborated-secondary": 35,
+   "disputed": 5,
+   "not-ug": 9,
+   "not-found": 2,
+   "primary-source": 10,
+   "multi-source": 33
   },
   "quotes_by_book": {
-   "The Experience of No-Self": 16,
-   "The Path to No-Self": 9,
-   "What Is Self?": 10,
-   "The Real Christ": 5,
+   "The Experience of No-Self": 28,
+   "Mystics, Masters, Saints and Sages (2001), her autobiographical sketch": 4,
+   "The Path to No-Self": 22,
+   "interview: Stephan Bodian 1986": 34,
+   "What Is Self?": 20,
+   "The Real Christ": 19,
    "Contemplative": 1,
-   "Essays on the Christian Contemplative Journey": 4,
-   "interview: Stephan Bodian 1986": 7,
-   "essay: Christ as the Definition of Non-duality": 1,
+   "Essays on the Christian Contemplative Journey": 3,
    "essay: What Is Self?": 1,
-   "unassigned": 8,
-   "letter": 1
+   "unassigned": 12,
+   "letter": 1,
+   "autobiographical sketch: Mystics, Masters, Saints and Sages (2001)": 1,
+   "How it Works (short essay reproduced on Western Mystics)": 2,
+   "Contemplative: Autobiography of the Early Years": 3
   },
-  "distinct_source_hosts": 89,
-  "items_self_sourced_only": 42,
-  "items_with_second_source": 60,
+  "distinct_source_hosts": 111,
+  "items_self_sourced_only": 60,
+  "items_with_second_source": 75,
   "issue_counts": {
    "event-date-conflict": 5,
    "person-no-sources": 2,
-   "quote-unassigned-book": 8,
-   "quote-very-short": 1
+   "quote-flagged-not-ug-or-editor": 16,
+   "quote-near-duplicate": 1,
+   "quote-unassigned-book": 12,
+   "quote-very-short": 2
   }
  },
  "issues": {
@@ -54,13 +64,79 @@
    [
     "q7aa41b1d",
     "absolute nothingness"
+   ],
+   [
+    "q36aa0c20",
+    "forcing the fit"
+   ]
+  ],
+  "quote-flagged-not-ug-or-editor": [
+   [
+    "qbb7bfd78",
+    "the only mystic I know who says something about this step be"
+   ],
+   [
+    "qafca4e1c",
+    "In the second contemplative movement, self and God fall away"
+   ],
+   [
+    "q0b54eb65",
+    "Christ is not the self, but that which remains when there is"
+   ],
+   [
+    "qee0b27d3",
+    "Put another way, that which remains when there is no self is"
+   ],
+   [
+    "qdffeb96d",
+    "the true nature of self IS consciousness"
+   ],
+   [
+    "q674005ff",
+    "\"self\" and \"consciousness\" are synonyms... The self has two,"
+   ],
+   [
+    "qf4de088e",
+    "Roberts was reluctant at first, protesting that others who h"
+   ],
+   [
+    "q98059cf9",
+    "the no-self event is not a part of the world's mystical lite"
+   ],
+   [
+    "q5a3ce845",
+    "Could you talk briefly about the first three stages of the C"
+   ],
+   [
+    "q5bf1f073",
+    "once we have adjusted to the unitive state, the spiritual jo"
+   ],
+   [
+    "qa1d5eefd",
+    "revolutionary, not just because of the depth to which it is "
+   ],
+   [
+    "q747d1ceb",
+    "she could find no other term that so precisely expresses the"
+   ],
+   [
+    "q0656d525",
+    "Roberts describes this unconscious mechanism of the mind ref"
+   ],
+   [
+    "q145166d9",
+    "it is not a matter of discarding one religion for another, b"
+   ],
+   [
+    "q7c229bd4",
+    "Roberts's insight into Buddhism far surpasses that of many B"
+   ],
+   [
+    "qa96e5453",
+    "the revelation and mystery of Christ has [to be] exploded to"
    ]
   ],
   "quote-unassigned-book": [
-   [
-    "q32025793",
-    "the terms \"self\" and \"consciousness\" express the same experi"
-   ],
    [
     "qdde04e58",
     "It never goes outside itself to know itself because the unma"
@@ -74,10 +150,6 @@
     "the second movement as a continuation and completion of the "
    ],
    [
-    "q0608ea9b",
-    "without a personal God, the Buddhist must have a much strong"
-   ],
-   [
     "q336b7ef3",
     "God is everything that exists, except the self"
    ],
@@ -88,6 +160,36 @@
    [
     "q98059cf9",
     "the no-self event is not a part of the world's mystical lite"
+   ],
+   [
+    "q1c7dca73",
+    "The process of unveiling will eventually bring us in contact"
+   ],
+   [
+    "q76139afc",
+    "come off the top of the head"
+   ],
+   [
+    "q022454d5",
+    "universal human nature is not a numerical one among many - n"
+   ],
+   [
+    "q9a2a3189",
+    "Christ is the eternal Godhead, while man is once removed fro"
+   ],
+   [
+    "q215e7bff",
+    "He thinks what I mean by No-Self is no different than what t"
+   ],
+   [
+    "q36aa0c20",
+    "forcing the fit"
+   ]
+  ],
+  "quote-near-duplicate": [
+   [
+    "wherebuddhadescribedtheexperiencechristmanifesteditwithoutwo",
+    2
    ]
   ],
   "event-date-conflict": [
@@ -124,78 +226,102 @@
  "hosts": [
   [
    "archive.org",
-   39
+   50
   ],
   [
    "goodreads.com",
-   26
+   43
   ],
   [
    "spiritualteachers.org",
-   21
-  ],
-  [
-   "amazon.com",
-   15
-  ],
-  [
-   "abebooks.com",
-   14
+   42
   ],
   [
    "bernadetteroberts.blogspot.com",
-   13
+   29
+  ],
+  [
+   "o-meditation.com",
+   27
+  ],
+  [
+   "youtube.com",
+   27
+  ],
+  [
+   "awakeningtoreality.com",
+   24
+  ],
+  [
+   "amazon.com",
+   18
+  ],
+  [
+   "azquotes.com",
+   18
+  ],
+  [
+   "abebooks.com",
+   17
   ],
   [
    "books.google.com",
    13
   ],
   [
-   "azquotes.com",
+   "innerexplorations.com",
    13
   ],
   [
-   "innerexplorations.com",
-   11
-  ],
-  [
-   "o-meditation.com",
-   11
-  ],
-  [
-   "youtube.com",
-   11
-  ],
-  [
-   "en.wikipedia.org",
-   8
-  ],
-  [
-   "awakeningtoreality.com",
-   7
-  ],
-  [
-   "enlightened-people.com",
-   7
-  ],
-  [
-   "everand.com",
-   7
-  ],
-  [
-   "sunypress.edu",
-   6
+   "pdfcoffee.com",
+   13
   ],
   [
    "shalomplace.org",
-   6
+   12
+  ],
+  [
+   "everand.com",
+   12
   ],
   [
    "realization.org",
-   5
+   12
+  ],
+  [
+   "enlightened-people.com",
+   11
+  ],
+  [
+   "sunypress.edu",
+   10
+  ],
+  [
+   "en.wikipedia.org",
+   9
+  ],
+  [
+   "westernmystics.wordpress.com",
+   8
+  ],
+  [
+   "nomindsland.blogspot.com",
+   6
   ],
   [
    "libquotes.com",
+   6
+  ],
+  [
+   "standinginanopenfield.wordpress.com",
+   5
+  ],
+  [
+   "citatis.com",
+   5
+  ],
+  [
+   "ia601903.us.archive.org",
    5
   ],
   [
@@ -203,31 +329,31 @@
    4
   ],
   [
+   "openlibrary.org",
+   4
+  ],
+  [
+   "douglaslockhart.com",
+   4
+  ],
+  [
    "podcasts.apple.com",
    4
   ],
   [
-   "westernmystics.wordpress.com",
+   "perlego.com",
    4
   ],
   [
-   "nomindsland.blogspot.com",
-   4
-  ],
-  [
-   "citatis.com",
-   4
-  ],
-  [
-   "openlibrary.org",
+   "bernadettesfriends.blogspot.com",
    3
   ],
   [
-   "standinginanopenfield.wordpress.com",
+   "wikidata.org",
    3
   ],
   [
-   "douglaslockhart.com",
+   "imere.org",
    3
   ],
   [
@@ -236,6 +362,14 @@
   ],
   [
    "podtail.com",
+   3
+  ],
+  [
+   "dharmaoverground.org",
+   3
+  ],
+  [
+   "julianjaynes.org",
    3
   ],
   [
@@ -259,16 +393,8 @@
    3
   ],
   [
-   "bernadettesfriends.blogspot.com",
-   2
-  ],
-  [
-   "wikidata.org",
-   2
-  ],
-  [
-   "imere.org",
-   2
+   "quotefancy.com",
+   3
   ],
   [
    "unexplained-mysteries.com",
@@ -279,7 +405,7 @@
    2
   ],
   [
-   "julianjaynes.org",
+   "play.google.com",
    2
   ],
   [
@@ -288,6 +414,14 @@
   ],
   [
    "openroadmedia.com",
+   2
+  ],
+  [
+   "holyfamilyretreat.org",
+   2
+  ],
+  [
+   "contemplativeoutreach.org",
    2
   ],
   [
@@ -311,15 +445,35 @@
    2
   ],
   [
-   "pdfcoffee.com",
+   "vitalsource.com",
    2
   ],
   [
-   "quotefancy.com",
+   "amazon.de",
+   2
+  ],
+  [
+   "archive.scienceandnonduality.com",
+   2
+  ],
+  [
+   "spiritualteachers.proboards.com",
+   2
+  ],
+  [
+   "medium.com",
+   2
+  ],
+  [
+   "freddieyam.com",
    2
   ],
   [
    "thedaobums.com",
+   2
+  ],
+  [
+   "minimalistquotes.com",
    2
   ],
   [
@@ -331,11 +485,19 @@
    1
   ],
   [
-   "dancingparadox.podbean.com",
+   "nonduality.com",
    1
   ],
   [
-   "dharmaoverground.org",
+   "kundaliniandcelltowers.com",
+   1
+  ],
+  [
+   "advaita.org.uk",
+   1
+  ],
+  [
+   "dancingparadox.podbean.com",
    1
   ],
   [
@@ -344,6 +506,10 @@
   ],
   [
    "tatfoundation.org",
+   1
+  ],
+  [
+   "indiadivine.org",
    1
   ],
   [
@@ -359,11 +525,11 @@
    1
   ],
   [
-   "programs.newdimensions.org",
+   "dbpedia.org",
    1
   ],
   [
-   "play.google.com",
+   "programs.newdimensions.org",
    1
   ],
   [
@@ -376,14 +542,6 @@
   ],
   [
    "betterworldbooks.com",
-   1
-  ],
-  [
-   "holyfamilyretreat.org",
-   1
-  ],
-  [
-   "contemplativeoutreach.org",
    1
   ],
   [
@@ -435,19 +593,7 @@
    1
   ],
   [
-   "vitalsource.com",
-   1
-  ],
-  [
    "amazon.co.uk",
-   1
-  ],
-  [
-   "amazon.de",
-   1
-  ],
-  [
-   "perlego.com",
    1
   ],
   [
@@ -463,11 +609,27 @@
    1
   ],
   [
-   "medium.com",
+   "imprint.co.uk",
    1
   ],
   [
-   "freddieyam.com",
+   "books.google.de",
+   1
+  ],
+  [
+   "seko-online.de",
+   1
+  ],
+  [
+   "thriftbooks.com",
+   1
+  ],
+  [
+   "beingwithoutself.org",
+   1
+  ],
+  [
+   "hridaya-yoga.com",
    1
   ],
   [
@@ -476,6 +638,34 @@
   ],
   [
    "taooflightyoga.com",
+   1
+  ],
+  [
+   "epdf.pub",
+   1
+  ],
+  [
+   "goldenageofgaia.com",
+   1
+  ],
+  [
+   "books.google.gm",
+   1
+  ],
+  [
+   "dn721908.ca.archive.org",
+   1
+  ],
+  [
+   "scribd.com",
+   1
+  ],
+  [
+   "tesli.org",
+   1
+  ],
+  [
+   "amazon.in",
    1
   ]
  ]

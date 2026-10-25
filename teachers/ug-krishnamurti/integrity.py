@@ -88,7 +88,7 @@ for q in quotes:
     if q.get("confidence") not in ("S", "T"):
         issues["quote-bad-confidence"].append((q["id"], q.get("confidence")))
     note = (q.get("note") or "").lower()
-    if any(w in note for w in ("editor", "bhatt's own", "not ug", "newland quoting", "misattribut")):
+    if any(w in note for w in ("editor", "bhatt's own", "not ug", "not u.g.", "newland quoting", "misattribut", "foreword", "not roberts", "not her words", "interviewer", "publisher blurb", "reviewer")):
         issues["quote-flagged-not-ug-or-editor"].append((q["id"], q["text"][:60]))
     if "jiddu" in note or any(m in " ".join(q.get("sources") or []).lower() for m in JK_MARKERS):
         issues["quote-possible-jk-contamination"].append((q["id"], q["text"][:60]))
