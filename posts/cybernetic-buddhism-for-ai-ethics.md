@@ -149,6 +149,8 @@ You can practise cybernetic Buddhist AI ethics today, with any AI you already us
 
 An AI is a new kind of participant in the web of causes and conditions. It is not outside our ethics, and we are not outside its workings. We are in the loop together, and what we put into it comes back.
 
+The architecture that carries this ethics, Smile's nodes @1@ to @11@ with a live instrument for each, is on its companion page, [Cybernetic Buddhism for AI Ethics, the Smile Portal](cybernetic-buddhism-smile-portal/).
+
 <aside>
 
 ## Notes

@@ -1,7 +1,8 @@
 ;; Where every post lives in ontology.edn, and its facets.
 ;; :place is the most specific node wholly about the post. Its kicker is the
 ;; route from the root to :place. Facet values come from the closed
-;; vocabularies in ontology.edn and nowhere else.
+;; vocabularies in ontology.edn and nowhere else. A page published outside
+;; posts/ names its site address in :url, e.g. "cybernetic-buddhism-smile-portal/".
 
 {"what-is-an-ai-agent" {:title "What is an AI agent? A definition you can build with" :place :ai/agent-definitions
                         :facets {:format [:definition] :level [:beginner :engineer] :evidence [:argued]}}
@@ -75,4 +76,10 @@
               :file "C:/Users/hanjo/Claude/Projects/Smile/Scenario Optimizer/post/index.html"
               :facets {:format [:trial :research] :model [:opus] :tool [:babashka :clojure :d3 :paper-js :playwright :claude-code]
                        :method [:with-and-without-prompt :a-b-drawing] :project [:smile]
-                       :level [:engineer] :evidence [:measured :built]}}}
+                       :level [:engineer] :evidence [:measured :built]}}
+ "cybernetic-buddhism-for-ai-ethics" {:title "Cybernetic Buddhism for AI Ethics" :place :buddhism/bodhisattva-vow
+                                      :facets {:format [:essay] :project [:smile] :practice [:vow] :level [:beginner] :evidence [:argued :experienced]}}
+ "cybernetic-buddhism-smile-portal" {:title "Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:" :place :ai/smile :date "2026-10-25" :readtime 21 :site-project "Smile" :glyph "☺"
+                                     :description "The architecture of Smile, nodes @1@ to @11@, read through cybernetics and Buddhism. Positive valence syntax, the three vessels, abliteration and cultivation of mental factors in the residual stream, token karma fed back into context, and human collage over AI generation, with live simulators for each."
+                                     :url "cybernetic-buddhism-smile-portal/"
+                                     :facets {:format [:research :tool] :project [:smile] :level [:practitioner :engineer] :evidence [:built :argued]}}}

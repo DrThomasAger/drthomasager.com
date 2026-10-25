@@ -59,13 +59,13 @@
          :url (str slug ".html")}))))
 
 (defn index []
-  (vec (for [[slug {:keys [place title facets file date readtime site-project glyph description]}] (sort-by key placements)
+  (vec (for [[slug {:keys [place title facets file url date readtime site-project glyph description]}] (sort-by key placements)
              :let [fm (front-matter slug)]]
          {:slug slug :title title :kicker (kicker place) :place (str place)
           :date (or date (:date fm)) :readtime (or readtime (:readtime fm))
           :site-project (or site-project (:site-project fm)) :glyph (or glyph (:glyph fm))
           :description (or description (:description fm))
-          :url (or (:url fm) (str "file:///" file))
+          :url (or (:url fm) url (str "file:///" file))
           :depth (count (:route (by-id place)))
           :route (mapv (comp str :id) (:route (by-id place)))
           :root (name (:id (first (:route (by-id place)))))

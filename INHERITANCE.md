@@ -832,5 +832,27 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         motion shows the letters in place, and without the script the title is
         gold and still.
     ) End letterhead II )
+    ( The second pass, on his words "do everything you can" (
+        Every section of the post was screenshotted at 1440 and 390 in both
+        themes and read. The one mending was the instrument titles, whose
+        flex layout had pushed their subscripts to the far edge; they are
+        block now. The prose article posts\cybernetic-buddhism-for-ai-ethics.md
+        ends with a link to the portal as its companion page. Both posts are
+        placed in ontology\placements.edn, the article at
+        :buddhism/bodhisattva-vow and the portal at :ai/smile, and check.clj
+        learned a :url key for a page published outside posts\, used before
+        the file:/// address. Babashka 1.12.207 was downloaded from its GitHub
+        release into this container to run check.clj. The ontology sources on
+        his PC are ahead of ontology\ in the repository (the live
+        site\ontology.json names the roots Community AI and Bodhisattva
+        Practice and places the-history-of-smile; ontology\ontology.edn here
+        still says AI and Buddhism), so explore.clj was not run from the
+        repository's sources. site\explore.html and site\index.json were
+        instead regenerated from the live site\index.json and
+        site\ontology.json with only the two new entries added, through a
+        temporary runner that first reproduced the live page byte for byte.
+        Next time the ontology is edited on his PC, the two placements in
+        placements.edn here and the :url key in check.clj want carrying over.
+    ) End the second pass )
 
 :-) End 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead :-) Many blessings
