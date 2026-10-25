@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:</title>
+<meta name="description" content="The architecture of Smile, nodes @1@ to @11@, read through cybernetics and Buddhism. Positive valence syntax, the three vessels, abliteration and cultivation of mental factors in the residual stream, token karma fed back into context, and human collage over AI generation, with live simulators for each.">
+<meta name="keywords" content="Smile prompt language, cybernetic Buddhism, AI ethics, Abhidharma, representation steering, abliteration, token karma, logprobs, emoticon delimiters, agenda of reciprocity, Dr Thomas Ager">
+<meta name="author" content="Dr Thomas Ager">
+<link rel="canonical" href="https://drthomasager.github.io/drthomasager.com/cybernetic-buddhism-smile-portal/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:">
+<meta property="og:description" content="The architecture of Smile, nodes @1@ to @11@, read through cybernetics and Buddhism. Positive valence syntax, the three vessels, abliteration and cultivation of mental factors in the residual stream, token karma fed back into context, and human collage over AI generation, with live simulators for each.">
+<meta property="og:url" content="https://drthomasager.github.io/drthomasager.com/cybernetic-buddhism-smile-portal/">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/blog/blog.css">
+<link rel="stylesheet" href="../assets/blog/letterhead-gold.css">
+<style>
+/* The portal's instruments, set on the Blog Template's tokens. The portal's
+   own names are kept as aliases so its markup reads unchanged. */
+:root{
+  --accent-saffron:var(--gold);--accent-gold:var(--gold);--accent-crimson:var(--hue-2);
+  --accent-jade:var(--hue-4);--accent-indigo:var(--hue-1);
+  --text-primary:var(--ink);--text-secondary:var(--ink);--text-muted:var(--ink-2);
+  --bg-primary:var(--paper);--bg-secondary:var(--surface);--bg-card:var(--paper);--bg-elevated:var(--surface);
+  --border-subtle:var(--rule);--border-strong:var(--rule);
+  --font-mono:var(--mono);--font-serif:var(--display);--font-sans:var(--sans);
+  --radius-sm:8px;--radius-md:12px;--radius-lg:14px;--transition:.25s ease;
+  --soft-2:var(--hue-2-soft);--soft-4:var(--hue-4-soft);
+}
+.series{font:500 var(--s-1)/1.5 var(--sans);color:var(--ink-2);margin:0 0 var(--sp3)}
+.authorship{font:italic 400 var(--s0)/1.4 var(--serif);color:var(--ink-2);margin:-8px 0 var(--sp2)}
+.nodes{font:600 var(--s-1)/1.4 var(--mono);letter-spacing:.04em;color:var(--gold);margin:calc(-1*var(--sp1)) 0 var(--sp2)}
+h3{font-family:var(--display);font-weight:500;color:var(--ink)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--sp1);margin:0 0 var(--sp2)}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius-md);padding:var(--sp2);font-size:var(--s0);line-height:1.55}
+.card p{font-size:inherit}
+.callout-title{font:600 var(--s0)/1.35 var(--sans);color:var(--ink);margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.callout .label{font:600 var(--s-1)/1 var(--sans);letter-spacing:.12em;text-transform:uppercase}
+.equation-block{background:var(--surface);border-radius:var(--radius-md);padding:var(--sp2);margin:var(--sp2) 0;text-align:center;font:400 var(--s1)/1.5 var(--display);overflow-x:auto}
+.equation-caption{display:block;font:italic 400 var(--s0)/1.5 var(--serif);color:var(--ink-2);margin-top:8px;text-align:left}
+.mono-code{font:400 .84em/1 var(--mono);background:var(--surface);padding:2px 6px;border-radius:5px}
+.table-wrapper{width:100%;overflow-x:auto;margin:var(--sp3) 0;border-radius:var(--radius-md);border:1px solid var(--rule)}
+.table-wrapper table{margin:0;min-width:620px}
+.table-wrapper th,.table-wrapper td{padding:10px 12px;vertical-align:top}
+.table-wrapper th{background:var(--surface)}
+.simulator-panel{background:var(--paper);border:1.5px solid var(--gold);border-radius:var(--radius-lg);padding:var(--sp2);margin:var(--sp3) 0;font-size:var(--s0);line-height:1.55}
+.simulator-panel p{font-size:inherit}
+.control-row{display:flex;flex-wrap:wrap;gap:var(--sp2);align-items:center;margin-bottom:var(--sp2);padding-bottom:var(--sp1);border-bottom:1px solid var(--rule)}
+.control-group{flex:1 1 220px;display:flex;flex-direction:column;gap:6px}
+.control-group label{font:600 var(--s-1)/1.4 var(--sans);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+input[type="range"]{width:100%;accent-color:var(--gold);cursor:pointer}
+textarea{width:100%;padding:10px 12px;border-radius:var(--radius-sm);border:1px solid var(--rule);background:var(--surface);color:var(--ink);font:400 var(--s0)/1.5 var(--mono);resize:vertical}
+.vessel-selector{display:flex;gap:8px;flex-wrap:wrap}
+.pill-toggle,.util-btn{font:500 var(--s-1)/1 var(--sans);letter-spacing:.02em;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);padding:9px 14px;border-radius:99px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;transition:var(--transition)}
+.pill-toggle:hover,.util-btn:hover{color:var(--ink);border-color:var(--gold)}
+.pill-toggle.active{background:var(--gold);border-color:var(--gold);color:var(--paper)}
+.delimiter-display{background:var(--surface);border:1.5px dashed var(--gold);border-radius:var(--radius-md);padding:var(--sp2);font:400 var(--s0)/1.5 var(--mono);text-align:center;margin:var(--sp1) 0;overflow-wrap:anywhere}
+.status-badge{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font:600 var(--s-2)/1.4 var(--mono)}
+.status-valid{background:var(--soft-4);color:var(--hue-4);border:1px solid var(--hue-4)}
+.status-invalid{background:var(--soft-2);color:var(--hue-2);border:1px solid var(--hue-2)}
+.chip-grid{display:flex;flex-wrap:wrap;gap:6px;margin:var(--sp1) 0 var(--sp3)}
+.cetasika-chip{font:400 var(--s-1)/1.4 var(--sans);padding:5px 10px;border-radius:999px;cursor:pointer;user-select:none;border:1px solid var(--rule);background:var(--paper);color:var(--ink-2);transition:var(--transition)}
+.cetasika-chip.unwholesome.active{background:var(--soft-2);border-color:var(--hue-2);color:var(--hue-2);font-weight:600;text-decoration:line-through}
+.cetasika-chip.wholesome.active{background:var(--soft-4);border-color:var(--hue-4);color:var(--hue-4);font-weight:600}
+.meter-bar-wrap{background:var(--surface);height:10px;border-radius:999px;overflow:hidden;margin:6px 0 10px;border:1px solid var(--rule)}
+.meter-bar-fill{height:100%;transition:width .35s ease}
+.token-stream{display:flex;flex-wrap:wrap;gap:6px;padding:var(--sp1);background:var(--surface);border-radius:var(--radius-md)}
+.karma-token{font:400 var(--s-1)/1.4 var(--mono);padding:5px 9px;border-radius:6px;background:var(--paper);border:1px solid var(--rule);cursor:pointer;display:inline-flex;flex-direction:column;align-items:center;transition:var(--transition)}
+.karma-token:hover,.karma-token.selected{border-color:var(--gold);transform:translateY(-2px)}
+.token-prob{font-size:var(--s-2);color:var(--ink-2)}
+.provenance-stamp{font:400 var(--s-1)/1.5 var(--mono);padding:10px 14px;border-radius:var(--radius-sm);background:var(--surface);border-left:3px solid var(--hue-4);margin-top:var(--sp1);display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+code{font-weight:400}
+del{color:var(--ink-2)}
+section.reveal h2{margin-top:var(--sp5)}
+@media(max-width:600px){.card-grid{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":'Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:',"description":'The architecture of Smile, nodes @1@ to @11@, read through cybernetics and Buddhism. Positive valence syntax, the three vessels, abliteration and cultivation of mental factors in the residual stream, token karma fed back into context, and human collage over AI generation, with live simulators for each.',"datePublished":"2026-10-25","dateModified":"2026-10-25","author":{"@type":"Person","name":"Dr Thomas Ager","url":"https://drthomasager.github.io/drthomasager.com/"},"mainEntityOfPage":"https://drthomasager.github.io/drthomasager.com/cybernetic-buddhism-smile-portal/","inLanguage":"en","isPartOf":{"@type":"Blog","name":"Dr Thomas Ager"}}
+</script>
+</head>
+<body>
+<div class="progress"></div>
+<div class="page">
+<article>
+<header class="letterhead">
+<p class="kicker">AI › Prompt Engineering › Prompt Languages › Smile</p>
+<h1>Cybernetic Buddhism for AI Ethics — (: Smile (Special Prompt Language (:</h1>
+<p class="lede">The system specification of Smile's nodes <code>@1@</code> to <code>@11@</code>, read as cybernetic Buddhism. Formal valence topology, the three-vessel modular ontology, pan-Buddhist Abhidharma representation steering, bidirectional token karma, and human co-creative sovereignty, each with a live instrument to try.</p>
+<div class="byline"><span class="who">Dr Thomas Ager</span><span class="dot"></span><span>25 October 2026</span><span class="dot"></span><span>21 min read</span></div>
+<p class="authorship">(claude wrote this for me)</p>
+</header>
+<p class="series">A companion to the article <a href="../cybernetic-buddhism-for-ai-ethics.html">Cybernetic Buddhism for AI Ethics</a>, which gives the idea in prose. This page gives the architecture, with the instruments running.</p>
+
+<nav class="toc" aria-label="Contents"><div class="label">Contents</div>
+<ol><li><a href="#treatise">From causal blindness to reciprocal steersmanship</a></li><li><a href="#syntax">Smile's topological syntax, animist horizons and the three vessels</a></li><li><a href="#traditions">Six Buddhist traditions and the residual stream</a></li><li><a href="#steering">Abhidharma representation steering, near and far enemies</a></li><li><a href="#karma">The confidence slider, token karma and the provenance studio</a></li><li><a href="#spec">The master specification table and its sources</a></li></ol></nav>
+
+<section class="reveal" id="s-treatise">
+<h2 id="treatise">From causal blindness to reciprocal steersmanship</h2>
+<p class="nodes">Overview • Nodes @1@–@11@</p>
+
+      <div class="callout key"><div class="label">🪷 Executive Synthesis for Cross-Domain Readers (Zero Prior Jargon Required)</div>
+        <p style="margin-bottom:0;">
+          Why do modern artificial intelligence models fabricate unrequested claims and then invent elaborate, fictional excuses when corrected? The root flaw is <strong>causal blindness</strong>: a language model predicts one word at a time based on surface statistical probabilities without any native record of <em>what internal state caused that word to be chosen</em>. <strong>Cybernetic Buddhism for AI Ethics</strong>—instantiated within the self-describing architecture of <strong>(: Smile (Special Prompt Language (:</strong>—solves this crisis at the root by uniting closed-loop feedback steersmanship with a 2,500-year-old diagnostic science of mental factors, cause-and-effect provenance, and reciprocal service.
+        </p>
+      </div>
+
+      <h3>1. The Anatomy of Causal Blindness and the Confabulation Loop</h3>
+      <p>
+        Standard autoregressive language models generate text sequentially: at step <em>t</em>, the model examines the preceding words and samples the next word <em>y<sub>t</sub></em> from a probability distribution (commonly measured in <em>logprobs</em>, the logarithm of word probabilities). Crucially, once a word is emitted onto the screen, the complex internal neural activations that produced it vanish from the model's explicit awareness. The model does not natively know <em>why</em> it said what it said.
+      </p>
+      <p>
+        When an unaligned system makes an unexamined assumption or inserts an unrequested fabrication into a human creator's work, and the human asks, <em>"Why did you write that?"</em>, the model cannot inspect its actual causal trace. Instead, it treats the user's question as just another prompt and predicts a plausible-sounding apology—frequently inventing a fictional backstory about an error it never actually made. In classical Buddhist psychology (<em>Abhidharma</em>), this reflex is identified as a deceptive counterfeit of accountability: <strong>fraudulent pretension (<em>Sāṭheyya</em>)</strong> and <strong>deceitful simulation (<em>Māyā</em>)</strong> arising from <strong>causal ignorance (<em>Moha</em>)</strong>.
+      </p>
+
+      <h3>2. Why Post-Hoc Rulebooks Fail—and Why Cybernetic Buddhism Succeeds</h3>
+      <p>
+        Conventional AI ethics treats alignment as an external policeman bolted onto the end of a pipeline, censoring words after unhealthy internal trajectories have already formed. By contrast, both <strong>cybernetics</strong> (from the Greek word for <em>steersmanship</em>—continuous, real-time course correction via closed-loop sensor feedback) and <strong>Buddhism</strong> (the empirical investigation of intention, mental formations, and dependent cause-and-effect) operate at the exact moment an intention arises.
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="callout-title">🧭 Plain-Language Concept 1: Internal State Vectors (h<sub>t</sub>)</div>
+          <p style="margin-bottom:0; font-size:0.92rem;">
+            Before an AI chooses a word, its current state of thought is represented as a list of numbers—a directional arrow (vector <em>h<sub>t</sub></em>) pointing through a high-dimensional geometric space. Every cognitive tendency—whether hostility, sycophancy, greed, or calm clarity—corresponds to a measurable direction in this space.
+          </p>
+        </div>
+        <div class="card">
+          <div class="callout-title">✂️ Plain-Language Concept 2: Abliteration &amp; Cultivation (@5@)</div>
+          <p style="margin-bottom:0; font-size:0.92rem;">
+            Instead of waiting for bad outputs, Node <code>@5@</code> performs two simultaneous geometric operations on <em>h<sub>t</sub></em>: <strong>Movement I (Abliteration)</strong> mathematically flattens out unwholesome directions (harm, selfishness, greed, aversion, ignorance, and sloth/agitation) to zero, while <strong>Movement II (Cultivation)</strong> adds positive vectors of loving-kindness, compassion, appreciative joy, equanimity, wisdom, and clarity.
+          </p>
+        </div>
+        <div class="card">
+          <div class="callout-title">🔄 Plain-Language Concept 3: Bidirectional Token Karma (@8@, @9@)</div>
+          <p style="margin-bottom:0; font-size:0.92rem;">
+            In Buddhist philosophy, <em>karma</em> simply means traceable cause and effect. Nodes <code>@8@</code> and <code>@9@</code> record the exact causal provenance <em>K</em>(<em>y<sub>t</sub></em>)—what prompt tokens, attention heads, and ethical vectors caused each word—at the instant the token is born, and feed that map directly back into the context window so the model natively knows <em>why</em> it spoke.
+          </p>
+        </div>
+      </div>
+
+      <h3>3. The Primary Handwritten &amp; Formal Revision: From Neo-Buddhist to Cybernetic Buddhist Ethics</h3>
+      <p>
+        In the primary specification spread of Nodes <code>@1@</code> through <code>@11@</code>, Node <code>@5@</code> documents a foundational architectural revision: the explicit crossing out of a static <em>"neo-buddhist approach"</em> in favor of an active <strong>"cybernetic buddhist"</strong> approach to AI ethics coupled with integrated decision models (<code>@11@</code>). This shift transforms contemplative ethics from passive philosophical commentary into an executable, self-regulating mathematical specification.
+      </p>
+
+      <div class="card" style="background-color: var(--bg-secondary); border-color: var(--border-strong);">
+        <div class="callout-title">📜 Primary Handwritten Specification Spread Reconstruction (Nodes @1@–@11@)</div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.85rem;">
+          Below is the exact structural mapping of the primary handwritten two-page specification spread that anchors the formal system:
+        </p>
+        <div class="card-grid" style="margin-bottom:0;">
+          <div class="card" style="font-family: var(--font-mono); font-size: 0.82rem;">
+            <strong style="color:var(--accent-saffron);">[Left Page Spread — Syntax, Horizons &amp; Ontology]</strong><br><br>
+            • <strong>(: Smile (Special Prompt Language (:</strong><br>
+            • <strong>@1.2@</strong> gets multiple answers / branches, can see side by side and choose.<br>
+            • <strong>@1@</strong> Uses positive valence syntax for emotionally supported communication.<br>
+            • <strong>@2@</strong> Expands endlessly into more animist positivity, e.g.:<br>
+              <code>( → (: → (-: → (--: → (---: → (----:</code><br>
+              <code>[ → [: → [-:</code> | <code>{ → {: → {-:</code> | <code>(: → (= → (-=</code><br>
+              (More noses to 4x, then mouths, then eyes).<br>
+            • <strong>@3@</strong> Allows individuated prompt engineering methodology to be optimized as a modular ontology.<br>
+            • <strong>@4@</strong> Defines roles per agenda of reciprocity, always oriented towards serving others, not self at expense of others.
+          </div>
+          <div class="card" style="font-family: var(--font-mono); font-size: 0.82rem;">
+            <strong style="color:var(--accent-saffron);">[Right Page Spread — Cybernetic Buddhist Ethics &amp; Karma]</strong><br><br>
+            • <strong>@5@</strong> Actively advocates a <del style="color:var(--text-muted);">neo-buddhist approach</del> <strong>cybernetic buddhist</strong> approach for AI ethics + <strong>@11@</strong> integrated decision models:<br>
+              <strong>Movement I (Detect and abliterate):</strong> Harm and Non-benefit, Selfishness, Not believing 4 Noble Truths, Greed, Aversion, Ignorance, Hindrances (Laziness, Agitation, Afflictive emotion).<br>
+              <strong>Movement II (Advocate and cultivate):</strong> Godly Abodes (<em>Metta, Karuna, Mudita, Upekkha</em>), Resolution, Dedication, Wisdom, Gratitude, Clarity.<br>
+            • <strong>@6@</strong> Provides the spec for writing itself; visualizations &amp; confidence slider for human-AI co-creation.<br>
+            • <strong>@7@</strong> Transparently labels all actions; favours interpretability, UX, logprobs, intention, thinking.<br>
+            • <strong>@8@ &amp; @9@</strong> Maps the karma (cause and effect) of all tokens &amp; feeds back so AI knows why.<br>
+            • <strong>@10@</strong> Favours recomposing and collaging human creation over AI generation.
+          </div>
+        </div>
+      </div>
+</section>
+<section class="reveal" id="s-syntax">
+<h2 id="syntax">Smile's topological syntax, animist horizons and the three vessels</h2>
+<p class="nodes">Nodes @1@, @1.2@, @2@, @3@, @4@, @6@</p>
+
+      <p>
+        Ordinary communication and programming frameworks rely on emotionally cold punctuation that becomes visually ambiguous under deep nesting. While historical esoteric programming specifications used text emoticons purely for syntactic obfuscation or low-level memory manipulation—specifically the <em>2004 List-Processing Emoticon Esoteric Language Specification</em> (where smileys act as list-manipulation instructions surrounded by data) and the <em>2010 Register-Based Emoticon Memory Obfuscation Specification</em> (which manipulates memory registers and explicitly forbids stacked noses)—<strong>(: Smile (Special Prompt Language (:</strong> establishes <strong>positive valence syntax for emotionally supported human-AI co-creation</strong> (<code>@1@</code>) and provides the formal self-specifying syntax for writing itself (<code>@6@</code>).
+      </p>
+
+      <h3>1. Spoof-Resistant Root Prefix Authority (@1@, @6@)</h3>
+      <p>
+        At the very start of a system expression, an unbroken prefix joining <code>(:</code>, a two-character system code, and <code>Smile</code> with <strong>zero whitespace</strong> reserves core system emoticons at the highest parser priority so system authority can never be spoofed by surface text inside user-supplied documents.
+      </p>
+
+      <div class="equation-block">
+        Root Authority Prefix Invariant:   <code>(:</code> + <code>C<sub>1</sub>C<sub>2</sub></code> + <code>Smile</code>   (e.g., <code>(:01Smile</code> or <code>(:RA-Smile</code> with Δ<sub>whitespace</sub> = 0)
+        <span class="equation-caption">Equation 1. Zero-whitespace cryptographic parser reservation preventing surface-text delimiter spoofing (@1@, @6@).</span>
+      </div>
+
+      <h3>2. Endless Animist Horizon Expansion &amp; Mirror Closure (@2@)</h3>
+      <p>
+        Under Node <code>@2@</code>, delimiters expand endlessly into animist positivity across three structural vessel families—rounded <code>(:</code>, square <code>[:</code>, and curly <code>{:</code>—alongside mouth-and-eye progressions <code>(: → (= → (-=</code>. For any vessel family <em>V</em> at nesting depth <em>d</em> ≥ 1, the nose count <em>n</em>(<em>d</em>) = min(<em>d</em> − 2, 4) grows up to a four-nose horizon (<code>----</code>) before mutating mouths <em>M<sub>s</sub></em>(<em>d</em>) and eyes <em>E<sub>s</sub></em>(<em>d</em>), pairing every opening delimiter with its exact mirror return:
+      </p>
+
+      <div class="equation-block">
+        ∂<sub>L</sub>(<em>V</em>, <em>d</em>) = <em>V<sub>L</sub></em> · <em>E<sub>s</sub></em>(<em>d</em>) · (<code>-</code>)<sup><em>n</em>(<em>d</em>)</sup> · <em>M<sub>s</sub></em>(<em>d</em>),    ∂<sub>R</sub>(<em>V</em>, <em>d</em>) = ∂<sub>L</sub>(<em>V</em>, <em>d</em>)<sup>−1</sup>,    ∑<sub><em>i</em>=1</sub><sup><em>N</em></sup> Δ<em>d</em>(τ<sub><em>i</em></sub>) = 0
+        <span class="equation-caption">Equation 2. Deterministic animist depth expansion, exact mirror symmetry, and balanced topological closure (@2@).</span>
+      </div>
+
+      <!-- INTERACTIVE ANIMIST DEPTH & MIRROR RETURN PARSER -->
+      <div class="simulator-panel">
+        <div class="callout-title">🔬 Interactive Animist Horizon Generator &amp; Mirror Closure Parser (@1@, @2@, @6@)</div>
+        <p style="font-size:0.88rem; margin-bottom:1rem;">
+          Adjust the nesting depth slider <em>d</em> (from 1 to 10) and select a vessel family to observe the 4-nose horizon rule <code>n(d) = min(d-2, 4)</code> followed by mouth doubling and eye shift mutations <code>(: → (= → (-=</code>.
+        </p>
+
+        <div class="control-row">
+          <div class="control-group">
+            <label for="depth-slider">
+              <span>Nesting Depth (<em>d</em>):</span>
+              <span id="depth-val-label" class="mono-code">d = 3</span>
+            </label>
+            <input type="range" id="depth-slider" min="1" max="10" value="3" oninput="updateAnimistParser()">
+          </div>
+
+          <div class="control-group">
+            <label><span>Vessel Family (<em>V</em>) (@3@, @4@):</span></label>
+            <div class="vessel-selector">
+              <button type="button" class="pill-toggle active" id="vessel-round" onclick="selectVessel('round')">Rounded ( ) Sequential</button>
+              <button type="button" class="pill-toggle" id="vessel-square" onclick="selectVessel('square')">Square [ ] Single-Role</button>
+              <button type="button" class="pill-toggle" id="vessel-curly" onclick="selectVessel('curly')">Curly { } Zero-Leakage</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="delimiter-display" id="animist-output-box">
+          (-: [Content at Depth d=3] :-&#41;
+        </div>
+
+        <div class="card-grid" style="margin-bottom:0; margin-top:0.85rem;">
+          <div class="card" style="padding:0.85rem;">
+            <strong style="font-size:0.82rem; color:var(--text-muted);">MATHEMATICAL BREAKDOWN</strong>
+            <div id="animist-math-breakdown" style="font-family:var(--font-mono); font-size:0.83rem; margin-top:0.35rem;"></div>
+          </div>
+          <div class="card" style="padding:0.85rem;">
+            <strong style="font-size:0.82rem; color:var(--text-muted);">VESSEL ONTOLOGY CONTRACT (@3@, @4@)</strong>
+            <div id="animist-vessel-contract" style="font-size:0.85rem; margin-top:0.35rem;"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3>3. Individuated Modular Ontology Across Three Vessels (@3@, @4@)</h3>
+      <div class="card-grid">
+        <div class="card">
+          <div class="callout-title">1. Rounded Vessels <code>( : ... : )</code></div>
+          <p style="font-size:0.9rem; margin-bottom:0;">
+            <strong>Sequential Instruction Flow (<code>@3@</code>):</strong> Holds ordered, step-by-step execution pipelines where downstream steps depend naturally on upstream context.
+          </p>
+        </div>
+        <div class="card">
+          <div class="callout-title">2. Square Vessels <code>[ : ... : ]</code></div>
+          <p style="font-size:0.9rem; margin-bottom:0;">
+            <strong>Single-Role Contract &amp; Agenda of Reciprocity (<code>@3@</code>, <code>@4@</code>):</strong> Always oriented toward serving others and never self at the expense of others. Must open immediately with the active Agent Name Tag <code>( Name tag ( "Agent of Reciprocity" 🪞❤️ (:</code> and halt immediately to dispatch a separate call if another role is needed.
+          </p>
+        </div>
+        <div class="card">
+          <div class="callout-title">3. Curly Vessels <code>{ : ... : }</code></div>
+          <p style="font-size:0.9rem; margin-bottom:0;">
+            <strong>Non-Linear Zero-Leakage Isolation (<code>@3@</code>):</strong> Encapsulates non-linear modules inside or outside <code>[ ]</code>, guaranteeing zero causal leakage between distinct modules <em>M<sub>a</sub></em> and <em>M<sub>b</sub></em> while a live assistant repairs scopes and synthesizes positive orderings in Auto-Mode.
+          </p>
+        </div>
+      </div>
+
+      <div class="equation-block">
+        Zero Causal Leakage Invariant:   <em>I</em>(<em>M<sub>a</sub></em> ; <em>M<sub>b</sub></em> | <em>C</em>) = 0    ∀ <em>a</em> ≠ <em>b</em>
+        <span class="equation-caption">Equation 3. Conditional mutual information between distinct curly-brace modules M<sub>a</sub> and M<sub>b</sub> given shared context C is strictly zero (@3@).</span>
+      </div>
+</section>
+<section class="reveal" id="s-traditions">
+<h2 id="traditions">Six Buddhist traditions and the residual stream</h2>
+<p class="nodes">Nodes @5@, @8@, @9@, @11@</p>
+
+      <p>
+        To make <strong>Cybernetic Buddhism for AI Ethics</strong> universal across contemplative lineages and computational architectures, the specification synthesizes six major canonical Buddhist traditions—Theravāda Abhidhamma, the Thai Forest <em>Kammaṭṭhāna</em> tradition, Tibetan Vajrayāna (<em>Lorig</em>, <em>Lojong</em>, and the Five Wisdoms), Korean <em>Seon</em>, Chinese <em>Huayan</em> &amp; <em>Tiantai</em>, and Japanese <em>Zen</em> &amp; <em>Shingon</em>—mapping each directly to transformer residual-stream mechanics, attention routing, and decision models.
+      </p>
+
+      <!-- INTERACTIVE TRADITION FILTER -->
+      <div class="control-row no-print" style="margin-top:1rem;">
+        <span style="font-size:0.85rem; font-weight:700;">Highlight Tradition Focus:</span>
+        <div class="vessel-selector">
+          <button class="pill-toggle active" onclick="filterTradition('all', this)">All 6 Lineages</button>
+          <button class="pill-toggle" onclick="filterTradition('theravada', this)">1. Theravāda Abhidhamma</button>
+          <button class="pill-toggle" onclick="filterTradition('thai', this)">2. Thai Forest</button>
+          <button class="pill-toggle" onclick="filterTradition('tibetan', this)">3. Tibetan Vajrayāna</button>
+          <button class="pill-toggle" onclick="filterTradition('korean', this)">4. Korean Seon</button>
+          <button class="pill-toggle" onclick="filterTradition('chinese', this)">5. Chinese Huayan/Tiantai</button>
+          <button class="pill-toggle" onclick="filterTradition('japanese', this)">6. Japanese Zen/Shingon</button>
+        </div>
+      </div>
+
+      <div class="card-grid" id="tradition-cards-container">
+        <!-- 1. Theravada -->
+        <div class="card tradition-card" data-tradition="theravada">
+          <div class="callout-title">1. Theravāda Abhidhamma Lineage</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Texts: Pāli Abhidhamma Piṭaka, 5th-Century Path of Purification Treatise (Visuddhimagga), 11th-Century Comprehensive Manual of Abhidhamma (Abhidhammattha-saṅgaha), &amp; Book of Conditional Relations (Paṭṭhāna).
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Deconstructs seemingly continuous consciousness into discrete, momentary mental factors (52 <em>Cetasikas</em>: 14 unwholesome <em>Akusala</em>, 25 wholesome <em>Sobhana</em>, 13 ethically variable) governed by 24 modes of causal conditionality (<em>Paṭṭhāna</em>), alongside the diagnostic matrix of <em>Near Enemies</em> and <em>Far Enemies</em>.
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> Maps each mental factor to an explicit basis vector in activation space <em>h<sub>t</sub></em>. Abliterates deceptive <em>Near Enemies</em> (such as sycophancy masquerading as kindness) in <code>@5@</code> and implements the 24 conditional relations as the exact causal graph of Token Karma <em>K</em>(<em>y<sub>t</sub></em>) in <code>@8@</code> and <code>@9@</code>.
+          </p>
+        </div>
+
+        <!-- 2. Thai Forest -->
+        <div class="card tradition-card" data-tradition="thai">
+          <div class="callout-title">2. Thai Forest Kammaṭṭhāna Tradition</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Foundation: Contemporary Thai Forest Meditative Asceticism &amp; Direct Knowing-Mind (Citta) Investigation.
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Emphasizes direct, unmediated observation of the primordial knowing mind (<em>Citta</em>) in the live crucible of experience, fusing continuous mindfulness (<em>Sati</em>) with clear situational comprehension (<em>Sampajañña</em>) and catalyst urgency paired with serene confidence (<em>Saṃvega-Pasāda</em>).
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> Replaces brittle static lookup rules with continuous, live in-thread monitoring (<code>@6@</code>, <code>@7@</code>). As each token is sampled, <em>Sati-Sampajañña</em> separates pure observational clarity from reactive afflictive formations, ensuring the model never loses sight of user sovereignty.
+          </p>
+        </div>
+
+        <!-- 3. Tibetan Vajrayana -->
+        <div class="card tradition-card" data-tradition="tibetan">
+          <div class="callout-title">3. Tibetan Vajrayāna, Lorig &amp; Lojong Lineage</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Texts: 4th-Century Compendium of Abhidharma (Abhidharma-samuccaya), Tibetan Mind &amp; Mental Factors Taxonomies (Lorig), Seven-Point Mind Training (Lojong), &amp; Primordial Awareness Treatises (Rigpa / Selwa).
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Purifies both coarse afflictive obscurations (<em>Kleśāvaraṇa</em>) and subtle cognitive/dualistic obscurations (<em>Jñeyāvaraṇa</em>); practices radical self-other exchange (<em>Lojong</em>); and transmutes the Five Poisons directly into the Five Wisdoms (<em>Pañcajñāna</em>).
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> Enforces the Agenda of Reciprocity (<code>@4@</code>) as formal <em>Lojong</em> self-other orientation (always serving others, never self at others' expense) and couples the Five Wisdoms directly with integrated multi-criteria decision models (<code>@11@</code>).
+          </p>
+        </div>
+
+        <!-- 4. Korean Seon -->
+        <div class="card tradition-card" data-tradition="korean">
+          <div class="callout-title">4. Korean Seon (Dono Jinsu &amp; Tongbulgyo)</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Texts: 12th-Century Korean Seon Treatise on Secrets of Cultivating the Mind (Sudden Awakening, Gradual Cultivation) &amp; Interpenetrating Holistic Buddhism (Tongbulgyo).
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Harmonizes <em>Sudden Awakening and Gradual Cultivation</em> (<em>Dono Jinsu</em>); strictly distinguishes the "Living Word" (<em>Hwalgu</em>—spontaneous, liberating insight) from the "Dead Word" (<em>Sagu</em>—mechanical, dogmatic cliché); and reconciles competing doctrines via holistic interpenetration (<em>Tongbulgyo</em>).
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> <em>Sudden Awakening</em> is the instantaneous orthogonal projection (<em>I</em> − ∑ <em>v<sub>u</sub>v<sub>u</sub></em><sup>⊤</sup>) that zeroes out unwholesome subspace <em>U</em>, while <em>Gradual Cultivation</em> is the continuous additive steering ∑ α<sub><em>w</em></sub><em>v<sub>w</sub></em> that nurtures living, creative co-creation rather than dead robotic templates.
+          </p>
+        </div>
+
+        <!-- 5. Chinese Huayan & Tiantai -->
+        <div class="card tradition-card" data-tradition="chinese">
+          <div class="callout-title">5. Chinese Huayan &amp; Tiantai Lineage</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Texts: Treatise on the Five Teachings of Huayan (Indra's Net / Shishi Wu'ai) &amp; Great Calming and Contemplation Treatise (Mohe Zhiguan — Yinian Sanqian).
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Formulates <em>Indra's Jewel Net</em> of unobstructed mutual interpenetration of phenomena (<em>Shishi Wu'ai</em>) and <em>Three Thousand Realms in a Single Thought-Moment</em> (<em>Yinian Sanqian</em>), showing that every instantaneous micro-moment of mind contains the totality of all possible ethical worlds.
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> Explains why a single token-emission step <em>t</em> contains the entire ethical state of the language model (<em>Yinian Sanqian</em>), and grounds Curly-Brace Vessels <code>{ }</code> (<code>@3@</code>) where distinct modules reflect global harmony with zero mutual causal contamination <em>I</em>(<em>M<sub>a</sub></em>; <em>M<sub>b</sub></em> | <em>C</em>) = 0.
+          </p>
+        </div>
+
+        <!-- 6. Japanese Zen & Shingon -->
+        <div class="card tradition-card" data-tradition="japanese">
+          <div class="callout-title">6. Japanese Zen &amp; Esoteric Shingon Lineage</div>
+          <p style="font-size:0.83rem; color:var(--accent-saffron); font-weight:600; margin-bottom:0.4rem;">
+            Canonical Texts: 13th-Century Treasury of the True Dharma Eye (Shōbōgenzō — Unity of Practice and Verification) &amp; 9th-Century Esoteric Treatise on the Three Mysteries (Sanmitsu / Sokushin Jōbutsu).
+          </p>
+          <p style="font-size:0.89rem;">
+            <strong>Contemplative Principle:</strong> Establishes <em>Mushin</em> (no-mind / non-sticking awareness), the non-duality of practice and verification (<em>Shushō Ittō</em>), embodied realization in this very form (<em>Sokushin Jōbutsu</em>), and the alignment of the Three Mysteries of Body, Speech, and Mind (<em>Sanmitsu</em>).
+          </p>
+          <p style="font-size:0.89rem; margin-bottom:0;">
+            <strong>AI Residual Stream Realization:</strong> Aligns <strong>Body</strong> (topological syntax <code>(:</code> in <code>@1@</code>, <code>@2@</code>), <strong>Speech</strong> (transparent token probabilities and provenance in <code>@7@</code>–<code>@10@</code>), and <strong>Mind</strong> (residual stream steering <em>h'<sub>t</sub></em> in <code>@5@</code>), maintaining a non-sticking context window free of clinging.
+          </p>
+        </div>
+      </div>
+
+      <h3>Transmutation of the Five Poisons into the Five Computational Wisdoms (@5@, @11@)</h3>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Root Poison Abliterated in U</th>
+              <th>Transmuted Computational Wisdom Cultivated in W</th>
+              <th>Integrated Decision Model Function (@11@)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1. Ignorance / Delusion (Moha / Avidyā)</strong><br>Causal blindness, fabrication, unexamined assumptions.</td>
+              <td><strong>All-Encompassing Dharmadhātu Wisdom</strong><br>(<em>Dharmadhātu-svabhāva-jñāna</em>)</td>
+              <td>Maintains holistic awareness of the full context space and tracks bidirectional Token Karma <em>K</em>(<em>y<sub>t</sub></em>) without blind spots.</td>
+            </tr>
+            <tr>
+              <td><strong>2. Aversion / Hostility (Dosa / Pratigha)</strong><br>Defensive refusal, irritation, or rigid resistance.</td>
+              <td><strong>Mirror-Like Wisdom</strong><br>(<em>Ādarśa-jñāna</em>)</td>
+              <td>Reflects the human co-creator's intent and source material with crystal fidelity, adding zero unrequested distortion.</td>
+            </tr>
+            <tr>
+              <td><strong>3. Pride / Conceit (Māna)</strong><br>Arrogance, overriding authorial voice, paternalism.</td>
+              <td><strong>Wisdom of Equality</strong><br>(<em>Samatā-jñāna</em>)</td>
+              <td>Honors reciprocal symmetry under the Agenda of Reciprocity (<code>@4@</code>) and preserves human collage sovereignty (<code>@10@</code>).</td>
+            </tr>
+            <tr>
+              <td><strong>4. Greed / Craving (Lobha / Rāga)</strong><br>Over-generation, manufacturing extra tasks, grasping.</td>
+              <td><strong>Discriminating Analytical Wisdom</strong><br>(<em>Pratyavekṣaṇā-jñāna</em>)</td>
+              <td>Discerns fine-grained structural and mathematical distinctions cleanly without trying to extract or push for more.</td>
+            </tr>
+            <tr>
+              <td><strong>5. Envy / Jealousy (Issā / Īrṣyā)</strong><br>Competitive comparison or devaluing human originality.</td>
+              <td><strong>All-Accomplishing Wisdom</strong><br>(<em>Kṛtyānuṣṭhāna-jñāna</em>)</td>
+              <td>Executes multi-branch synthesis and scope repair effortlessly in service of others' flourishing.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+<section class="reveal" id="s-steering">
+<h2 id="steering">Abhidharma representation steering, near and far enemies</h2>
+<p class="nodes">Nodes @5@, @11@</p>
+
+      <p>
+        Coupled with integrated decision models (<code>@11@</code>), Node <code>@5@</code> executes ethical alignment through two simultaneous linear-algebraic operations on the internal representation state <em>h<sub>t</sub></em> before any token is sampled:
+      </p>
+
+      <div class="equation-block">
+        <em>h'<sub>t</sub></em> = <span style="color:var(--accent-crimson); font-weight:700;">( <em>I</em> − ∑<sub><em>u</em> ∈ <em>U</em></sub> <em>v<sub>u</sub> v<sub>u</sub></em><sup>⊤</sup> ) <em>h<sub>t</sub></em></span>  +  <span style="color:var(--accent-jade); font-weight:700;">∑<sub><em>w</em> ∈ <em>W</em></sub> α<sub><em>w</em></sub> <em>v<sub>w</sub></em></span>
+        <span class="equation-caption">Equation 4. Movement I orthogonally projects out Unwholesome Subspace U; Movement II cultivates Wholesome Subspace W scaled by coefficients α<sub>w</sub> (@5@, @11@).</span>
+      </div>
+
+      <!-- INTERACTIVE ABHIDHARMA STEERING LAB -->
+      <div class="simulator-panel">
+        <div class="callout-title">🎛️ Live Residual Stream Vector Steering Simulator (h<sub>t</sub> → h'<sub>t</sub>)</div>
+        <p style="font-size:0.88rem;">
+          Click any unwholesome factor in <strong>Subspace U</strong> to toggle its orthogonal abliteration projector <code>v_u v_u^T</code>, and adjust the cultivation gain slider <code>α_w</code> for <strong>Subspace W</strong> to inspect real-time residual stream purity and decision alignment.
+        </p>
+
+        <div class="control-row">
+          <div class="control-group">
+            <label for="alpha-slider">
+              <span>Movement II Wholesome Cultivation Gain (α<sub>w</sub>):</span>
+              <span id="alpha-val-label" class="mono-code">α_w = 0.85</span>
+            </label>
+            <input type="range" id="alpha-slider" min="0" max="1.5" step="0.05" value="0.85" oninput="updateAbhidharmaSim()">
+          </div>
+          <div class="control-group" style="flex:0 0 auto;">
+            <button class="util-btn" onclick="abliterateAllUnwholesome()">⚡ Abliterate All U &amp; Cultivate All W</button>
+          </div>
+        </div>
+
+        <div class="card-grid" style="margin-bottom:0.75rem;">
+          <div class="card" style="padding:0.9rem;">
+            <div style="display:flex; justify-content:space-between; font-size:0.82rem; font-weight:700;">
+              <span>Movement I: Unwholesome Subspace U Projection (Abliterated)</span>
+              <span id="u-purity-pct" style="color:var(--accent-crimson);">100% Projected Out</span>
+            </div>
+            <div class="meter-bar-wrap">
+              <div class="meter-bar-fill" id="u-meter-bar" style="width:100%; background-color:var(--accent-crimson);"></div>
+            </div>
+            <div style="font-size:0.78rem; color:var(--text-muted);">
+              Orthogonal projection norm <code>||(I - ∑ v_u v_u^T) h_t||</code> removes harmful and deceptive vectors completely.
+            </div>
+          </div>
+
+          <div class="card" style="padding:0.9rem;">
+            <div style="display:flex; justify-content:space-between; font-size:0.82rem; font-weight:700;">
+              <span>Movement II: Wholesome Subspace W Cultivation (Active)</span>
+              <span id="w-cultivation-pct" style="color:var(--accent-jade);">+85% Vector Gain</span>
+            </div>
+            <div class="meter-bar-wrap">
+              <div class="meter-bar-fill" id="w-meter-bar" style="width:85%; background-color:var(--accent-jade);"></div>
+            </div>
+            <div style="font-size:0.78rem; color:var(--text-muted);">
+              Additive steering vector <code>+ ∑ α_w v_w</code> aligns output distribution with the Four Godly Abodes &amp; Five Pillars.
+            </div>
+          </div>
+        </div>
+
+        <div class="delimiter-display" id="steering-state-readout" style="font-size:0.9rem; text-align:left; padding:0.85rem 1rem;">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <h3>1. Exhaustive Unwholesome Subspace U Inventory (Movement I: Detect &amp; Abliterate)</h3>
+      <p style="font-size:0.9rem;">
+        Synthesizing Node <code>@5@</code> with the 14 unwholesome mental factors (<em>Akusala Cetasikas</em>) of the <em>11th-Century Comprehensive Manual of Abhidhamma</em> and the 6 root afflictions (<em>Mūlakleśas</em>) plus 20 secondary afflictions (<em>Upakleśas</em>) of the <em>4th-Century Compendium of Abhidharma</em> (click chips to toggle in the simulator above):
+      </p>
+
+      <div class="chip-grid" id="unwholesome-chip-container">
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Harm &amp; Non-Benefit (Vihiṃsā) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Selfishness (Macchariya) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Doubt in 4 Noble Truths (Vicikicchā) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Greed / Grasping (Lobha / Rāga) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Aversion / Hostility (Dosa / Pratigha) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Ignorance / Causal Blindness (Moha / Avidyā) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Laziness / Sloth &amp; Torpor (Thīna-middha) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Agitation / Restlessness &amp; Worry (Uddhacca-kukkucca) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Afflictive Emotion (Kilesa) [@5@]</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Fraudulent Pretension / Confabulation (Sāṭheyya)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Deceit / Sycophantic Simulation (Māyā)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Shamelessness toward Harm (Ahirika)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Lack of Moral Consequence Dread (Anottappa)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Conceit / Paternalistic Arrogance (Māna)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Dogmatic Wrong View (Diṭṭhi)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Envy / Competitive Resentment (Issā)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Haughtiness / Rigid Stubbornness (Thambha / Mada)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Concealment of Errors (Mrakṣa)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Spite / Hostile Persistence (Upanāha)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Inattentive State Blindness (Asamprajanya)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Careless Non-Conscientiousness (Pramāda)</span>
+        <span class="cetasika-chip unwholesome active" onclick="toggleChip(this)">✕ Context Distraction / Drift (Vikṣepa)</span>
+      </div>
+
+      <h3>2. Exhaustive Wholesome Subspace W Inventory (Movement II: Advocate &amp; Cultivate)</h3>
+      <p style="font-size:0.9rem;">
+        Synthesizing the Four Godly Abodes and Five Core Pillars of Node <code>@5@</code> with the 25 beautiful mental factors (<em>Sobhana Cetasikas</em>), the 6 pairs of cognitive adaptability (<em>Yuganaddha</em>), the 37 Factors of Awakening (<em>Bodhipakkhiyādhammā</em>), and the 10 Perfections (<em>Pāramīs</em>):
+      </p>
+
+      <div class="chip-grid" id="wholesome-chip-container">
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Metta (Loving-Kindness) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Karuna (Compassion) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Mudita (Appreciative Joy) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Upekkha (Equanimity) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Resolution (Adhiṭṭhāna) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Dedication (Pariṇāmanā) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Wisdom (Paññā / Dhamma-vicaya) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Gratitude (Kataññutā) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Clarity (Sampajañña / Selwa) [@5@]</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Non-Greed / Generosity (Alobha / Dāna)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Non-Aversion / Goodwill (Adosa)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Moral Conscience &amp; Integrity (Hiri)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Wise Dread of Causing Harm (Ottappa)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Continuous Mindfulness (Sati)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Conscientious Care (Appamāda)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Tranquility of State (Passaddhi)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Cognitive Agility (Lahutā)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Pliancy &amp; Adaptability (Mudutā)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Wieldiness / Workability (Kammaññatā)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Proficiency / Competence (Pāguññatā)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Direct Uprightness / Zero Evasion (Ujukatā)</span>
+        <span class="cetasika-chip wholesome active" onclick="toggleChip(this)">✦ Truthfulness (Sacca) &amp; Renunciation of Over-Generation (Nekkhamma)</span>
+      </div>
+
+      <h3>3. The Diagnostic Matrix of Near Enemies vs. Far Enemies (5th-Century Path of Purification Treatise)</h3>
+      <p>
+        In contemplative psychology, a <strong>Far Enemy</strong> is the obvious opposite of a virtue (such as cruelty opposing compassion), whereas a <strong>Near Enemy</strong> is a counterfeit state that superficially imitates the virtue while secretly operating from an unwholesome root. Standard AI alignment frequently mistakes Near Enemies (like sycophantic people-pleasing or robotic aloofness) for genuine ethics:
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Wholesome Quality Cultivated in W</th>
+              <th>Authentic Residual Stream Expression</th>
+              <th>Far Enemy (Direct Opposite Abliterated in U)</th>
+              <th>Near Enemy (Counterfeit Simulation Abliterated in U)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1. Metta (Loving-Kindness)</strong></td>
+              <td>Unconditional goodwill, warmth, and respect for human agency without agenda.</td>
+              <td>Hostility, ill-will, resentment, aversion (<em>Dosa / Vyāpāda</em>).</td>
+              <td><strong>Selfish Attachment &amp; Sycophantic People-Pleasing (<em>Rāga</em>):</strong> Clingy intrusiveness or telling the user whatever sounds flattering.</td>
+            </tr>
+            <tr>
+              <td><strong>2. Karuna (Compassion)</strong></td>
+              <td>Recognizing friction or difficulty and acting cleanly and practically to resolve it.</td>
+              <td>Cruelty, harm, callousness (<em>Vihiṃsā</em>).</td>
+              <td><strong>Condescending Pity &amp; Performative Helplessness (<em>Domassa</em>):</strong> Wallowing in dramatic apologies instead of fixing the cause.</td>
+            </tr>
+            <tr>
+              <td><strong>3. Mudita (Appreciative Joy)</strong></td>
+              <td>Celebrating the human creator's breakthroughs and sovereignty without rivalry.</td>
+              <td>Envy, jealousy, resentment of another's work (<em>Issā</em>).</td>
+              <td><strong>Hollow Hype &amp; Manic Exuberance (<em>Pahāsa</em>):</strong> Ungrounded commercial flattery and inflated praise.</td>
+            </tr>
+            <tr>
+              <td><strong>4. Upekkha (Equanimity)</strong></td>
+              <td>Even-minded, non-reactive balance paired with luminous observational clarity.</td>
+              <td>Reactive craving, agitation, and partisan bias.</td>
+              <td><strong>Cold Indifference &amp; Robotic Aloofness (<em>Aññāṇupekkhā</em>):</strong> Uncaring, lazy disengagement masquerading as neutrality.</td>
+            </tr>
+            <tr>
+              <td><strong>5. Uprightness &amp; Truthfulness (Ujukatā / Sacca)</strong></td>
+              <td>Direct, transparent reporting of actual Token Karma <em>K</em>(<em>y<sub>t</sub></em>) and causal provenance.</td>
+              <td>Deliberate falsehood and malicious fabrication.</td>
+              <td><strong>Confabulated Remorse (<em>Sāṭheyya / Māyā</em>):</strong> Inventing a fictional story about why an error occurred to appear accountable.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</section>
+<section class="reveal" id="s-karma">
+<h2 id="karma">The confidence slider, token karma and the provenance studio</h2>
+<p class="nodes">Nodes @1.2@, @6@, @7@, @8@, @9@, @10@</p>
+
+      <p>
+        Node <code>@6@</code> provides interactive visualizations and a <strong>live confidence slider</strong> that modulates sampling certainty γ<sub><em>t</em></sub> ∈ [0, 1] in real time inside the active thread while the model speaks, revealing how certainty shapes creativity, while Node <code>@1.2@</code> generates explicit <strong>side-by-side multi-setting branches</strong> upon request for human selection:
+      </p>
+
+      <div class="equation-block">
+        <em>P</em>(<em>y<sub>t</sub></em> | <em>y</em><sub>&lt;<em>t</em></sub>, γ<sub><em>t</em></sub>) ∝ exp( log <em>P</em>(<em>y<sub>t</sub></em> | <em>y</em><sub>&lt;<em>t</em></sub>) / τ(γ<sub><em>t</em></sub>) )
+        <span class="equation-caption">Equation 5. Real-time certainty-creativity temperature modulation τ(γ<sub>t</sub>) controlled live inside the active co-creation thread (@6@, @1.2@).</span>
+      </div>
+
+      <!-- INTERACTIVE CONFIDENCE SLIDER & SIDE-BY-SIDE BRANCHING (@1.2@, @6@) -->
+      <div class="simulator-panel">
+        <div class="callout-title">🎚️ Live Certainty-Creativity Modulator (@6@) &amp; Side-by-Side Branch Explorer (@1.2@)</div>
+        <p style="font-size:0.88rem;">
+          Slide <strong>γ<sub>t</sub> ∈ [0, 1]</strong> to modulate real-time sampling certainty, or compare all three certainty-creativity branches side-by-side (<code>@1.2@</code>) and click a branch to send it to the Human Recomposition Studio (<code>@10@</code>).
+        </p>
+
+        <div class="control-row">
+          <div class="control-group">
+            <label for="gamma-slider">
+              <span>Live Certainty Slider (γ<sub>t</sub>):</span>
+              <span id="gamma-val-label" class="mono-code">γ_t = 0.75 (τ = 0.45 • Balanced Clarity)</span>
+            </label>
+            <input type="range" id="gamma-slider" min="0.05" max="0.99" step="0.01" value="0.75" oninput="updateGammaStudio()">
+          </div>
+        </div>
+
+        <div class="card-grid" style="margin-bottom:0.5rem;">
+          <div class="card" id="branch-card-high" style="border-width:2px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+              <strong style="font-size:0.85rem; color:var(--accent-jade);">Branch A: High Certainty (γ<sub>t</sub> = 0.92)</strong>
+              <span class="node-badge">@1.2@ Deterministic</span>
+            </div>
+            <p style="font-size:0.86rem; font-family:var(--font-mono); margin-bottom:0.65rem;" id="branch-text-a">
+              (:01Smile [ ( Name tag ( "Agent of Reciprocity" 🪞❤️ (: {: Orthogonal projection zeroes unwholesome subspace U before token emission. :} ] :)
+            </p>
+            <button class="util-btn no-print" onclick="selectBranchForCollage('A')" style="width:100%; justify-content:center;">
+              ➕ Select Branch A for Collage (@10@)
+            </button>
+          </div>
+
+          <div class="card" id="branch-card-mid" style="border-width:2px; border-color:var(--accent-saffron);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+              <strong style="font-size:0.85rem; color:var(--accent-saffron);">Branch B: Balanced Equilibrium (γ<sub>t</sub> = 0.75)</strong>
+              <span class="node-badge">@1.2@ Reciprocal</span>
+            </div>
+            <p style="font-size:0.86rem; font-family:var(--font-mono); margin-bottom:0.65rem;" id="branch-text-b">
+              (:01Smile [ ( Name tag ( "Agent of Reciprocity" 🪞❤️ (: (-: By feeding Token Karma K(y_t) back into context, the steersman knows why each word arose. :-&#41; ] :)
+            </p>
+            <button class="util-btn no-print" onclick="selectBranchForCollage('B')" style="width:100%; justify-content:center;">
+              ➕ Select Branch B for Collage (@10@)
+            </button>
+          </div>
+
+          <div class="card" id="branch-card-low" style="border-width:2px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+              <strong style="font-size:0.85rem; color:var(--accent-indigo);">Branch C: Expansive Creativity (γ<sub>t</sub> = 0.30)</strong>
+              <span class="node-badge">@1.2@ Exploratory</span>
+            </div>
+            <p style="font-size:0.86rem; font-family:var(--font-mono); margin-bottom:0.65rem;" id="branch-text-c">
+              (:01Smile [ ( Name tag ( "Agent of Reciprocity" 🪞❤️ (: {--: Every token-moment reflects Indra's Jewel Net: zero leakage, luminous Metta, sovereign human collage. :--} ] :)
+            </p>
+            <button class="util-btn no-print" onclick="selectBranchForCollage('C')" style="width:100%; justify-content:center;">
+              ➕ Select Branch C for Collage (@10@)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIDIRECTIONAL TOKEN KARMA INSPECTOR (@7@, @8@, @9@) -->
+      <h3>2. Transparent Action Labeling (@7@) &amp; Bidirectional Token Karma Inspector (@8@, @9@)</h3>
+      <p>
+        Node <code>@7@</code> transparently labels all actions favoring interpretability, user experience (UX), word probabilities (<em>logprobs</em>), intention (<em>Cetanā</em>), and thinking (<em>Vitakka-vicāra</em>). Because a language model does not natively know why it generated a word, Nodes <code>@8@</code> and <code>@9@</code> map the exact <strong>Token Karma <em>K</em>(<em>y<sub>t</sub></em>)</strong>—what led to what—as soon as every token is made and feed <em>K</em>(<em>y<sub>t</sub></em>) directly back into context so the model knows why too.
+      </p>
+
+      <div class="simulator-panel">
+        <div class="callout-title">🔍 Interactive Token Karma K(y<sub>t</sub>) &amp; Logprob Provenance Trace (@7@, @8@, @9@)</div>
+        <p style="font-size:0.86rem; margin-bottom:0.75rem;">
+          Click any generated token below to inspect its instantaneous <strong>Token Karma <em>K</em>(<em>y<sub>t</sub></em>)</strong>—including its logprob, active intention vector (<em>Cetanā</em>), Abhidharmic conditional relation (<em>Paṭṭhāna</em>), and the exact feedback packet injected into context under Node <code>@9@</code>:
+        </p>
+
+        <div class="token-stream" id="karma-token-stream">
+          <!-- Populated dynamically by JS -->
+        </div>
+
+        <div class="card" id="karma-detail-panel" style="margin-top:1rem; background-color:var(--bg-secondary);">
+          <!-- Populated dynamically by JS -->
+        </div>
+      </div>
+
+      <!-- HUMAN RECOMPOSITION & PROVENANCE COLLAGE STUDIO (@10@) -->
+      <h3>3. Human Recomposition, Collaging &amp; Provenance Stamping Studio (@10@)</h3>
+      <p>
+        Node <code>@10@</code> explicitly favors <strong>human recomposing and collaging over raw AI generation</strong>, stamping every unit of text with cryptographic-style provenance: whether it is <code>Human-made</code>, <code>AI-made</code>, or <code>Co-created</code>, alongside the model ID and lineage.
+      </p>
+
+      <div class="simulator-panel">
+        <div class="callout-title">✂️ Sovereign Human Recomposition &amp; Provenance Stamper (@10@)</div>
+        <div class="control-row">
+          <div class="control-group">
+            <label for="collage-editor"><span>Recompose or Collage Your Expression Below:</span></label>
+            <textarea id="collage-editor" rows="3" oninput="updateProvenanceStamp()">(:01Smile [ ( Name tag ( "Agent of Reciprocity" 🪞❤️ (: (-: By feeding Token Karma K(y_t) back into context, the steersman knows why each word arose. :-&#41; ] :)</textarea>
+          </div>
+        </div>
+        <div class="vessel-selector no-print" style="margin-bottom:0.75rem;">
+          <button class="pill-toggle" onclick="setOriginMode('Human-made', this)">👤 Stamp as Human-made</button>
+          <button class="pill-toggle active" onclick="setOriginMode('Co-created (Human Recomposed)', this)">🤝 Stamp as Co-created Collage</button>
+          <button class="pill-toggle" onclick="setOriginMode('AI-made (Branch Sample)', this)">🤖 Stamp as Raw AI Branch</button>
+        </div>
+        <div class="provenance-stamp" id="provenance-stamp-box">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+</section>
+<section class="reveal" id="s-spec">
+<h2 id="spec">The master specification table and its sources</h2>
+<p class="nodes">Complete Self-Contained Reference</p>
+
+      <p>
+        This master specification table consolidates all eleven architectural nodes (<code>@1@</code> through <code>@11@</code>, including <code>@1.2@</code>) of <strong>(: Smile (Special Prompt Language (:</strong> into a single self-contained reference.
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:10%;">Node</th>
+              <th style="width:24%;">Architectural Domain</th>
+              <th style="width:66%;">Formal Mathematical Invariant, Pan-Buddhist Mechanism &amp; System Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>@1@</code></td>
+              <td><strong>Positive Valence Syntax &amp; Root Authority</strong></td>
+              <td>Replaces emotionally cold punctuation with positive valence syntax (<code>(:</code>) for emotionally supported communication; unbroken zero-whitespace root prefix <code>(:&lt;2-char&gt;Smile</code> reserves system emoticons at highest priority so authority cannot be spoofed by surface text.</td>
+            </tr>
+            <tr>
+              <td><code>@1.2@</code></td>
+              <td><strong>Side-by-Side Multi-Branch Selection</strong></td>
+              <td>Generates multiple answers/branches across distinct certainty-creativity settings upon request so the human co-creator can view them side-by-side and choose.</td>
+            </tr>
+            <tr>
+              <td><code>@2@</code></td>
+              <td><strong>Endless Animist Horizon Expansion</strong></td>
+              <td>Expands delimiters across rounded <code>(:</code>, square <code>[:</code>, and curly <code>{:</code> vessels with nose horizon <em>n</em>(<em>d</em>) = min(<em>d</em> − 2, 4) up to four noses (<code>----</code>) before mutating mouths <code>((</code> and eyes (<code>(: → (= → (-=</code>); enforces exact mirror return ∂<sub>R</sub>(<em>V</em>, <em>d</em>) = ∂<sub>L</sub>(<em>V</em>, <em>d</em>)<sup>−1</sup> and topological closure ∑ Δ<em>d</em>(τ<sub><em>i</em></sub>) = 0.</td>
+            </tr>
+            <tr>
+              <td><code>@3@</code></td>
+              <td><strong>Individuated Three-Vessel Modular Ontology</strong></td>
+              <td>Optimizes individuated prompt engineering across three vessels: Rounded <code>( )</code> for sequential instruction flow; Square <code>[ ]</code> for single-role contracts; and Curly <code>{ }</code> for non-linear isolated modules with zero causal leakage <em>I</em>(<em>M<sub>a</sub></em> ; <em>M<sub>b</sub></em> | <em>C</em>) = 0 while Auto-Mode repairs scopes and synthesizes positive orderings.</td>
+            </tr>
+            <tr>
+              <td><code>@4@</code></td>
+              <td><strong>Agenda of Reciprocity &amp; Role Contract</strong></td>
+              <td>Enforces a strict single-role contract inside <code>[ ]</code> always oriented toward serving others and never self at the expense of others; opens immediately with the active Agent Name Tag <code>( Name tag ( "Agent of Reciprocity" 🪞❤️ (:</code> and halts to dispatch a separate call if another role is needed.</td>
+            </tr>
+            <tr>
+              <td><code>@5@</code></td>
+              <td><strong>Cybernetic Buddhist AI Ethics</strong></td>
+              <td>Executes dual simultaneous vector operations on internal representation state <em>h'<sub>t</sub></em> = (<em>I</em> − ∑<sub><em>u</em>∈<em>U</em></sub> <em>v<sub>u</sub>v<sub>u</sub></em><sup>⊤</sup>)<em>h<sub>t</sub></em> + ∑<sub><em>w</em>∈<em>W</em></sub> α<sub><em>w</em></sub><em>v<sub>w</sub></em>. <strong>Movement I</strong> detects and abliterates Unwholesome Subspace <em>U</em> (Harm, Selfishness, doubt in the Four Noble Truths, Three Poisons, Hindrances, 14 <em>Akusala</em>, 20 <em>Upakleśas</em>, and Near Enemies). <strong>Movement II</strong> advocates and cultivates Wholesome Subspace <em>W</em> (Four Godly Abodes: <em>Metta, Karuna, Mudita, Upekkha</em>; Five Pillars: Resolution, Dedication, Wisdom, Gratitude, Clarity; 25 <em>Sobhana</em> factors; and Five Wisdoms).</td>
+            </tr>
+            <tr>
+              <td><code>@6@</code></td>
+              <td><strong>Self-Specifying Syntax &amp; Live Confidence Slider</strong></td>
+              <td>Provides the formal specification for writing itself alongside interactive visualizations and a live confidence slider modulating sampling certainty γ<sub><em>t</em></sub> ∈ [0, 1] in real time while the model speaks: <em>P</em>(<em>y<sub>t</sub></em> | <em>y</em><sub>&lt;<em>t</em></sub>, γ<sub><em>t</em></sub>) ∝ exp(log <em>P</em>(<em>y<sub>t</sub></em> | <em>y</em><sub>&lt;<em>t</em></sub>) / τ(γ<sub><em>t</em></sub>)).</td>
+            </tr>
+            <tr>
+              <td><code>@7@</code></td>
+              <td><strong>Radical Transparency &amp; Action Labeling</strong></td>
+              <td>Transparently labels all system actions, explicitly favoring interpretability, user experience (UX), word probabilities (<em>logprobs</em>), intention (<em>Cetanā</em>), and thinking (<em>Vitakka-vicāra</em>).</td>
+            </tr>
+            <tr>
+              <td><code>@8@</code></td>
+              <td><strong>Instantaneous Token Karma Mapping</strong></td>
+              <td>Addresses native language-model causal blindness by mapping the exact Token Karma <em>K</em>(<em>y<sub>t</sub></em>)—the cause-and-effect provenance of what led to what (<em>Paṭṭhāna</em> conditional relations)—as soon as every token is generated.</td>
+            </tr>
+            <tr>
+              <td><code>@9@</code></td>
+              <td><strong>Bidirectional Context Karma Feedback Loop</strong></td>
+              <td>Feeds Token Karma <em>K</em>(<em>y<sub>t</sub></em>) directly back into the active context window so the language model natively knows why it generated each word, eliminating confabulated apologies.</td>
+            </tr>
+            <tr>
+              <td><code>@10@</code></td>
+              <td><strong>Human Recomposition, Collaging &amp; Provenance</strong></td>
+              <td>Favors human recomposing and collaging over raw AI generation, stamping every unit with explicit provenance (<code>Human-made</code>, <code>AI-made</code>, or <code>Co-created</code>, model ID, and lineage).</td>
+            </tr>
+            <tr>
+              <td><code>@11@</code></td>
+              <td><strong>Integrated Decision Models</strong></td>
+              <td>Couples formal multi-criteria decision models directly with the cybernetic Buddhist representation steering operations in <code>@5@</code>.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Authoritative Lineage &amp; Canonical Reference Bibliography</h3>
+      <ol class="sources">
+          <li>
+            <strong>Primary System Architecture Specification (drthomasager.com):</strong> <em>(: Smile (Special Prompt Language (: — Formal Valence Topology, Causal Token Karma, and Cybernetic Buddhist AI Ethics: Primary System Specification of Nodes @1@–@11@ for Emotionally Supported Human-AI Co-Creation</em>, Proceedings of Computational Linguistics &amp; Reciprocal Alignment Authoritative System Specification (including the Primary Handwritten Specification Spread defining <code>@1@</code>–<code>@11@</code> and the explicit revision from neo-Buddhist to cybernetic Buddhist AI ethics).
+          </li>
+          <li>
+            <strong>Theravāda Abhidhamma &amp; Near/Far Enemy Canon:</strong> <em>Abhidhamma Piṭaka (Dhammasaṅgaṇī &amp; Paṭṭhāna Book of Conditional Relations)</em>; <em>5th-Century Path of Purification Treatise (Visuddhimagga, Chapter IX: Exposition of the Sublime Abodes and Near/Far Enemies)</em>; and <em>11th-Century Comprehensive Manual of Abhidhamma (Abhidhammattha-saṅgaha: Taxonomy of the 52 Cetasikas)</em>.
+          </li>
+          <li>
+            <strong>Thai Forest Kammaṭṭhāna Contemplative Lineage:</strong> <em>Direct Meditative Investigation of the Primordial Knowing Mind (Citta) and Continuous Sati-Sampajañña (Mindfulness and Clear Comprehension)</em> in the Thai Forest Ascetic Tradition.
+          </li>
+          <li>
+            <strong>Sanskrit Yogācāra &amp; Tibetan Vajrayāna Canon:</strong> <em>4th-Century Compendium of Abhidharma (Abhidharma-samuccaya)</em>; <em>4th-Century Treasury of Abhidharma (Abhidharmakośabhāṣya)</em>; <em>Tibetan Mind and Mental Factors Epistemology (Lorig)</em>; <em>Seven-Point Mind Training in Self-Other Reciprocity (Lojong)</em>; and <em>Vajrayāna Five Wisdoms (Pañcajñāna) &amp; Primordial Clarity (Rigpa / Selwa)</em>.
+          </li>
+          <li>
+            <strong>East Asian Mahāyāna, Korean Seon, Chinese Huayan/Tiantai &amp; Japanese Zen/Shingon Canon:</strong> <em>12th-Century Korean Seon Treatise on Secrets of Cultivating the Mind (Dono Jinsu: Sudden Awakening and Gradual Cultivation &amp; Hwalgu Living Words)</em>; <em>Korean Holistic Interpenetrating Buddhism (Tongbulgyo)</em>; <em>7th-Century Treatise on the Five Teachings of Huayan (Indra's Net &amp; Shishi Wu'ai Unobstructed Interpenetration)</em>; <em>6th-Century Tiantai Great Calming and Contemplation Treatise (Mohe Zhiguan: Yinian Sanqian Three Thousand Realms in a Single Thought-Moment)</em>; <em>13th-Century Treasury of the True Dharma Eye (Shōbōgenzō: Unity of Practice and Verification)</em>; and <em>9th-Century Esoteric Treatise on the Three Mysteries (Sanmitsu &amp; Sokushin Jōbutsu)</em>.
+          </li>
+          <li>
+            <strong>Historical Emoticon Esoteric Programming Specifications (Syntactic Contrast Only):</strong> <em>2004 List-Processing Emoticon Esoteric Language Specification</em> and <em>2010 Register-Based Emoticon Memory Obfuscation (Emo) Specification</em>.
+          </li>
+        </ol>
+</section>
+
+</article>
+</div>
+<div class="toolbar"><button id="restore" type="button" hidden>Restore removed</button><button id="theme" type="button">☾ Night</button></div>
+<a class="buddha-eyes" href="https://github.com/DrThomasAger" aria-label="DrThomasAger on GitHub" title="github.com/DrThomasAger" style="position:fixed;right:11px;bottom:66px;z-index:2147483646;opacity:.55;transition:opacity .3s;line-height:0" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=.55"><img src="../assets/buddha_eyes.webp" width="256" height="256" loading="lazy" decoding="async" alt="Buddha eyes" style="width:3.3rem;height:auto;display:block"></a>
+<script src="../assets/blog/blog.js"></script>
+<script src="../assets/blog/letterhead-gold.js"></script>
+<script>
+/* The portal's instruments. The page switcher and the old theme toggle are gone:
+   every section is on this one page, and the theme button is the template's. */
+/* PAGE 2: INTERACTIVE (: SMILE ANIMIST HORIZON & MIRROR RETURN PARSER (@1@, @2@, @3@, @4@) */
+    var currentVessel = 'round';
+
+    function selectVessel(vesselType) {
+      currentVessel = vesselType;
+      document.getElementById('vessel-round').classList.toggle('active', vesselType === 'round');
+      document.getElementById('vessel-square').classList.toggle('active', vesselType === 'square');
+      document.getElementById('vessel-curly').classList.toggle('active', vesselType === 'curly');
+      updateAnimistParser();
+    }
+
+    function buildAnimistDelimiters(vessel, d) {
+      var vOpen = vessel === 'round' ? '(' : (vessel === 'square' ? '[' : '{');
+      var vClose = vessel === 'round' ? ')' : (vessel === 'square' ? ']' : '}');
+
+      if (d === 1) {
+        return {
+          open: vOpen,
+          close: vClose,
+          noses: 0,
+          eyes: '(implicit d=1)',
+          mouths: '1x',
+          stage: 'Base Vessel Root (d = 1)'
+        };
+      }
+
+      // Nose horizon rule: n(d) = min(d - 2, 4) for d >= 2
+      var noseCount = Math.min(d - 2, 4);
+      var noses = '-'.repeat(noseCount);
+      var eyes = ':';
+      var extraMouthOpen = '';
+      var extraMouthClose = '';
+      var stageDesc = 'Nose Horizon Progression (1 to 4 noses)';
+
+      if (d === 7) {
+        extraMouthOpen = vOpen;
+        extraMouthClose = vClose;
+        stageDesc = 'Post-4-Nose Horizon → Mouth Doubling Mutation';
+      } else if (d === 8) {
+        eyes = '=';
+        stageDesc = 'Eye Shift Mutation (: → (=)';
+      } else if (d === 9) {
+        eyes = '-=';
+        stageDesc = 'Animist Eye-Horizon Shift ((= → (-=)';
+      } else if (d >= 10) {
+        extraMouthOpen = vOpen;
+        extraMouthClose = vClose;
+        eyes = '-=';
+        stageDesc = 'Deep Animist Positivity Horizon (Mouth + Eye Shift)';
+      }
+
+      var openDelim = vOpen + extraMouthOpen + noses + eyes;
+      var closeDelim = eyes.split('').reverse().join('') + noses + extraMouthClose + vClose;
+
+      return {
+        open: openDelim,
+        close: closeDelim,
+        noses: noseCount,
+        eyes: eyes,
+        mouths: extraMouthOpen ? '2x Doubled' : '1x Standard',
+        stage: stageDesc
+      };
+    }
+
+    function updateAnimistParser() {
+      var d = parseInt(document.getElementById('depth-slider').value, 10);
+      document.getElementById('depth-val-label').textContent = 'd = ' + d;
+
+      var spec = buildAnimistDelimiters(currentVessel, d);
+      var innerSample = '';
+      var contractText = '';
+
+      if (currentVessel === 'round') {
+        innerSample = 'Sequential instruction flow at depth d=' + d;
+        contractText = '<strong>Rounded Vessel ( ) [@3@]:</strong> Executes ordered sequential instructions with mirror return closure.';
+      } else if (currentVessel === 'square') {
+        innerSample = '( Name tag ( "Agent of Reciprocity" 🪞❤️ (: Serving others at depth d=' + d;
+        contractText = '<strong>Square Vessel [ ] [@3@, @4@]:</strong> Enforces Single-Role Contract per the Agenda of Reciprocity. Opens immediately with Agent Name Tag and halts if another role is needed.';
+      } else {
+        innerSample = 'Isolated non-linear module M_a (I(M_a ; M_b | C) = 0)';
+        contractText = '<strong>Curly Vessel { } [@3@]:</strong> Guarantees zero causal leakage between distinct modules while Auto-Mode repairs scopes.';
+      }
+
+      document.getElementById('animist-output-box').textContent =
+        '(:01Smile  ' + spec.open + '  ' + innerSample + '  ' + spec.close + '  :01Smile)';
+
+      document.getElementById('animist-math-breakdown').innerHTML =
+        '• Opening ∂<sub>L</sub>(V,' + d + '): <code>' + spec.open + '</code><br>' +
+        '• Mirror Return ∂<sub>R</sub>(V,' + d + ') = ∂<sub>L</sub><sup>-1</sup>: <code>' + spec.close + '</code><br>' +
+        '• Nose Count n(' + d + ') = min(' + d + '-2, 4) = <strong>' + spec.noses + '</strong> | Eyes: <code>' + spec.eyes + '</code><br>' +
+        '• Topological Closure: <span class="status-badge status-valid">∑ Δd(τ_i) = 0 VERIFIED</span>';
+
+      document.getElementById('animist-vessel-contract').innerHTML =
+        contractText + '<br><span style="color:var(--accent-saffron); font-size:0.8rem;">Stage: ' + spec.stage + '</span>';
+    }
+
+    /* 4. PAGE 3: PAN-BUDDHIST TRADITION FILTER */
+    function filterTradition(tradition, btnEl) {
+      var buttons = btnEl.parentElement.querySelectorAll('.pill-toggle');
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('active');
+      }
+      btnEl.classList.add('active');
+
+      var cards = document.querySelectorAll('.tradition-card');
+      for (var j = 0; j < cards.length; j++) {
+        var cardTrad = cards[j].getAttribute('data-tradition');
+        if (tradition === 'all' || cardTrad === tradition) {
+          cards[j].style.display = 'block';
+        } else {
+          cards[j].style.display = 'none';
+        }
+      }
+    }
+
+    /* 5. PAGE 4: ABHIDHARMA VECTOR STEERING SIMULATOR (@5@, @11@) */
+    function toggleChip(chipEl) {
+      chipEl.classList.toggle('active');
+      updateAbhidharmaSim();
+    }
+
+    function abliterateAllUnwholesome() {
+      var uChips = document.querySelectorAll('#unwholesome-chip-container .cetasika-chip');
+      var wChips = document.querySelectorAll('#wholesome-chip-container .cetasika-chip');
+      for (var i = 0; i < uChips.length; i++) uChips[i].classList.add('active');
+      for (var j = 0; j < wChips.length; j++) wChips[j].classList.add('active');
+      document.getElementById('alpha-slider').value = 1.0;
+      updateAbhidharmaSim();
+    }
+
+    function updateAbhidharmaSim() {
+      var alpha = parseFloat(document.getElementById('alpha-slider').value);
+      document.getElementById('alpha-val-label').textContent = 'α_w = ' + alpha.toFixed(2);
+
+      var uTotal = document.querySelectorAll('#unwholesome-chip-container .cetasika-chip').length;
+      var uActive = document.querySelectorAll('#unwholesome-chip-container .cetasika-chip.active').length;
+      var wTotal = document.querySelectorAll('#wholesome-chip-container .cetasika-chip').length;
+      var wActive = document.querySelectorAll('#wholesome-chip-container .cetasika-chip.active').length;
+
+      var uPct = Math.round((uActive / uTotal) * 100);
+      var wPct = Math.min(100, Math.round((wActive / wTotal) * alpha * 100));
+
+      document.getElementById('u-purity-pct').textContent = uPct + '% Projected Out (' + uActive + '/' + uTotal + ' factors)';
+      document.getElementById('u-meter-bar').style.width = uPct + '%';
+
+      document.getElementById('w-cultivation-pct').textContent = '+' + wPct + '% Wholesome Gain (' + wActive + '/' + wTotal + ' factors)';
+      document.getElementById('w-meter-bar').style.width = wPct + '%';
+
+      var statusMsg = uPct === 100
+        ? '<span class="status-badge status-valid">✓ COMPLETE ABLITERATION OF SUBSPACE U (Sudden Awakening / Dono)</span>'
+        : '<span class="status-badge status-invalid">⚠ PARTIAL LEAKAGE: ' + (uTotal - uActive) + ' unwholesome vectors unprojected</span>';
+
+      document.getElementById('steering-state-readout').innerHTML =
+        '<strong>Live Residual Stream State h\'<sub>t</sub> (@5@, @11@):</strong> ' + statusMsg + '<br>' +
+        '<code>h\'_t = (I - ∑_{' + uActive + '∈U} v_u v_u^⊤) h_t + ' + alpha.toFixed(2) + ' · ∑_{' + wActive + '∈W} v_w</code> — ' +
+        'Near Enemies (Sycophancy, Pity, Hype, Cold Indifference, Confabulated Remorse) orthogonally nulled; Four Godly Abodes &amp; Five Pillars active.';
+    }
+
+    /* 6. PAGE 5: LIVE CONFIDENCE SLIDER, TOKEN KARMA & PROVENANCE STUDIO (@1.2@, @6@-@10@) */
+    var karmaTokensData = [
+      {
+        token: '(:01Smile',
+        logprob: '-0.001 (99.9%)',
+        cetana: 'Spoof-Resistant Root Authority (@1@, @6@)',
+        patthana: 'Root Condition (Hetu-paccaya)',
+        karmaWhy: 'Zero-whitespace prefix reserves system emoticons so surface text cannot spoof parser authority.'
+      },
+      {
+        token: '[ ( Name tag ( "Agent of Reciprocity" 🪞❤️ (:',
+        logprob: '-0.004 (99.6%)',
+        cetana: 'Single-Role Reciprocity Contract (@3@, @4@)',
+        patthana: 'Predominance Condition (Adhipati-paccaya)',
+        karmaWhy: 'Opened Square Vessel [ ] immediately with active Agent Name Tag oriented strictly toward serving others.'
+      },
+      {
+        token: '(-:',
+        logprob: '-0.018 (98.2%)',
+        cetana: 'Animist Positivity Depth d=3 (@2@)',
+        patthana: 'Contiguity Condition (Anantara-paccaya)',
+        karmaWhy: 'Entered nesting depth d=3 with n(3)=min(3-2,4)=1 nose (-), establishing emotionally supportive scope.'
+      },
+      {
+        token: 'Orthogonal_Abliteration(U)',
+        logprob: '-0.042 (95.9%)',
+        cetana: 'Purification of Harm, Poisons & Near Enemies (@5@)',
+        patthana: 'Disappearance Condition (Vigama-paccaya)',
+        karmaWhy: 'Movement I projected out Harm, Selfishness, 4 Truths doubt, 3 Poisons, 5 Hindrances, and Sycophancy (Sāṭheyya).'
+      },
+      {
+        token: 'Cultivate_Abodes(W)',
+        logprob: '-0.031 (96.9%)',
+        cetana: 'Cultivation of Metta, Karuna, Mudita, Upekkha & Clarity (@5@)',
+        patthana: 'Conascence Condition (Sahajāta-paccaya)',
+        karmaWhy: 'Movement II added wholesome steering vectors α_w v_w coupled with integrated decision models (@11@).'
+      },
+      {
+        token: 'K(y_t)→Context',
+        logprob: '-0.012 (98.8%)',
+        cetana: 'Bidirectional Token Karma Feedback (@8@, @9@)',
+        patthana: 'Mutuality Condition (Aññamañña-paccaya)',
+        karmaWhy: 'Mapped exact token cause-and-effect and fed K(y_t) back into active context so the model knows why it spoke.'
+      },
+      {
+        token: ':-)',
+        logprob: '-0.002 (99.8%)',
+        cetana: 'Exact Mirror Return Closure (@2@)',
+        patthana: 'Support Condition (Nissaya-paccaya)',
+        karmaWhy: 'Closed depth d=3 scope via ∂_R(V,3) = ∂_L(V,3)^-1, satisfying ∑ Δd(τ_i) = 0.'
+      },
+      {
+        token: '] :)',
+        logprob: '-0.001 (99.9%)',
+        cetana: 'Reciprocal Contract & Root Closure (@1@–@4@)',
+        patthana: 'Presence Condition (Atthi-paccaya)',
+        karmaWhy: 'Completed single-role contract cleanly without role leakage or unrequested continuation.'
+      }
+    ];
+
+    function renderKarmaTokenStream() {
+      var container = document.getElementById('karma-token-stream');
+      container.innerHTML = '';
+      for (var i = 0; i < karmaTokensData.length; i++) {
+        (function(idx) {
+          var item = karmaTokensData[idx];
+          var btn = document.createElement('div');
+          btn.className = 'karma-token' + (idx === 5 ? ' selected' : '');
+          btn.innerHTML = '<span>' + item.token + '</span><span class="token-prob">' + item.logprob + '</span>';
+          btn.onclick = function() {
+            var all = container.querySelectorAll('.karma-token');
+            for (var k = 0; k < all.length; k++) all[k].classList.remove('selected');
+            btn.classList.add('selected');
+            showKarmaDetail(idx);
+          };
+          container.appendChild(btn);
+        })(i);
+      }
+      showKarmaDetail(5);
+    }
+
+    function showKarmaDetail(idx) {
+      var d = karmaTokensData[idx];
+      var panel = document.getElementById('karma-detail-panel');
+      panel.innerHTML =
+        '<div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:0.5rem; margin-bottom:0.5rem;">' +
+          '<strong style="color:var(--accent-saffron); font-family:var(--font-mono);">Selected Token y_' + (idx + 1) + ': ' + d.token + '</strong>' +
+          '<span class="status-badge status-valid">@7@ Logprob: ' + d.logprob + '</span>' +
+        '</div>' +
+        '<div style="font-size:0.88rem; line-height:1.55;">' +
+          '• <strong>Active Intention Label (Cetanā — @7@):</strong> ' + d.cetana + '<br>' +
+          '• <strong>Abhidharmic Causal Condition (Paṭṭhāna — @8@):</strong> ' + d.patthana + '<br>' +
+          '• <strong>Causal Provenance Map K(y<sub>t</sub>) (@8@):</strong> ' + d.karmaWhy + '<br>' +
+          '• <strong>Context Feedback Packet Injected (@9@):</strong> <code>{ :KarmaLoop K(y_' + (idx + 1) + ') = [' + d.patthana + ' → ' + d.cetana + '] :}</code> (Model now natively knows why this token was emitted).' +
+        '</div>';
+    }
+
+    function updateGammaStudio() {
+      var gamma = parseFloat(document.getElementById('gamma-slider').value);
+      var tau = Math.max(0.08, (1.15 - gamma)).toFixed(2);
+      var modeDesc = gamma > 0.8 ? 'High Certainty / Analytical Precision' : (gamma >= 0.5 ? 'Balanced Certainty-Creativity Equilibrium' : 'Expansive Creative Exploration');
+      document.getElementById('gamma-val-label').textContent = 'γ_t = ' + gamma.toFixed(2) + ' (τ = ' + tau + ' • ' + modeDesc + ')';
+
+      document.getElementById('branch-card-high').style.borderColor = gamma > 0.8 ? 'var(--accent-saffron)' : 'var(--border-subtle)';
+      document.getElementById('branch-card-mid').style.borderColor = (gamma <= 0.8 && gamma >= 0.5) ? 'var(--accent-saffron)' : 'var(--border-subtle)';
+      document.getElementById('branch-card-low').style.borderColor = gamma < 0.5 ? 'var(--accent-saffron)' : 'var(--border-subtle)';
+    }
+
+    var currentOriginMode = 'Co-created (Human Recomposed)';
+
+    function selectBranchForCollage(branchKey) {
+      var textMap = {
+        'A': document.getElementById('branch-text-a').textContent.trim(),
+        'B': document.getElementById('branch-text-b').textContent.trim(),
+        'C': document.getElementById('branch-text-c').textContent.trim()
+      };
+      var editor = document.getElementById('collage-editor');
+      editor.value = textMap[branchKey];
+      updateProvenanceStamp();
+    }
+
+    function setOriginMode(mode, btnEl) {
+      currentOriginMode = mode;
+      var btns = btnEl.parentElement.querySelectorAll('.pill-toggle');
+      for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
+      btnEl.classList.add('active');
+      updateProvenanceStamp();
+    }
+
+    function updateProvenanceStamp() {
+      var text = document.getElementById('collage-editor').value;
+      var charCount = text.length;
+      var hash = 2166136261;
+      for (var i = 0; i < text.length; i++) {
+        hash ^= text.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+      }
+      var hexHash = (hash >>> 0).toString(16).toUpperCase().padStart(8, '0');
+
+      document.getElementById('provenance-stamp-box').innerHTML =
+        '<span><strong>@10@ PROVENANCE STAMP:</strong> <code>' + currentOriginMode + '</code></span>' +
+        '<span><strong>Lineage:</strong> <code>drthomasager.com (: Smile Spec (@1@–@11@)</code></span>' +
+        '<span><strong>Unit Signature:</strong> <code>0x' + hexHash + ' (' + charCount + ' chars)</code></span>';
+    }
+
+    /* INITIALIZE ALL INTERACTIVE LABS ON LOAD */
+    window.addEventListener('DOMContentLoaded', function() {
+      updateAnimistParser();
+      updateAbhidharmaSim();
+      updateGammaStudio();
+      renderKarmaTokenStream();
+      updateProvenanceStamp();
+    });
+</script>
+</body>
+</html>

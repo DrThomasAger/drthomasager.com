@@ -765,12 +765,15 @@ def build_sitemap(posts, names):
     latest = posts[0]["date"] if posts else "2026-08-30"
     rows = [("", latest)] + [(f"{n}.html", latest) for n in names]
     rows += [(f'{p["slug"]}.html', p.get("updated", p["date"])) for p in posts]
-    # the history of Smile, released one page a day into site/history-of-smile
-    # by drafts/the-history-of-smile/stage.clj, outside posts/ and the feed
-    hist = SITE / "history-of-smile"
-    if hist.exists():
-        rows += [(f.parent.relative_to(SITE).as_posix() + "/", latest)
-                 for f in sorted(hist.glob("**/index.html"))]
+    # HTML posts outside posts/ and the feed: the history of Smile, released
+    # one page a day into site/history-of-smile by
+    # drafts/the-history-of-smile/stage.clj, and the standalone pages in the
+    # Blog Template, one folder each
+    for folder in ("history-of-smile", "cybernetic-buddhism-smile-portal"):
+        here = SITE / folder
+        if here.exists():
+            rows += [(f.parent.relative_to(SITE).as_posix() + "/", latest)
+                     for f in sorted(here.glob("**/index.html"))]
     urls = "".join(f"<url><loc>{SITE_URL}{path}</loc>"
                    f"<lastmod>{day}</lastmod></url>" for path, day in rows)
     (SITE / "sitemap.xml").write_text(
