@@ -672,8 +672,8 @@
   "id": "ic430cec2",
   "medium": "archive",
   "title": "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available'",
-  "date": null,
-  "year": null,
+  "date": "2021-09",
+  "year": 2021,
   "place": null,
   "people": [
    "Bernadette Roberts"
@@ -683,7 +683,7 @@
   "duration": null,
   "host": "aquariancatholicspiritualcommunity.net",
   "url": "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available",
-  "description": "Page advertising availability of her recorded talks (DVD set).",
+  "description": "Notice that the recorded retreat talks Roberts gave over her lifetime are now available to view at no cost, with a link to the viewing site and a warning that the talks are long; recommends re-watching and taking notes. Search snippets do not expose the target URL.",
   "tags": [
    "recordings",
    "distribution",
@@ -692,13 +692,29 @@
    "host-aquariancatholicspiritualcommunity-net",
    "format-webpage",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "retreat-talks",
+   "free-online",
+   "2021-release",
+   "notice",
+   "community",
+   "2020s",
+   "2021",
+   "format-blog-post",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available' (Sept 2021 notice)"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "ia687f018",
