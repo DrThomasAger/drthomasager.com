@@ -198,7 +198,10 @@ def build_teacher(folder, out_root=None):
              ("sources/", "Sources", "", "every cited URL, by host"),
              ("about/", "About", "", "how this was gathered")]
     doors_html = "".join(f'<a class="door" href="{h}"><b>{t}</b><span class="n">{n}</span><span>{d}</span></a>' for h, t, n, d in doors)
-    featured = [q for q in ordered if 60 <= len(q["text"]) <= 260 and q.get("kind", "verbatim") == "verbatim"][:6] or ordered[:6]
+    def clean_note(q):
+        n = (q.get("note") or "").lower()
+        return not any(w in n for w in ("bhatt", "editor", "not u.g.", "not ug", "publisher", "narrat", "reported speech", "disputed", "not found", "jiddu", "paraphrase"))
+    featured = [q for q in ordered if 60 <= len(q["text"]) <= 260 and q.get("kind", "verbatim") == "verbatim" and clean_note(q)][:6] or ordered[:6]
     feat_html = "".join(f'<a class="q" href="quotes/{q["id"]}/"><blockquote>{esc(q["text"])}</blockquote><div class="meta"><span>{esc(q.get("book") or "")}</span><span class="pill">{esc(q.get("verdict") or "")}</span></div></a>' for q in featured)
     evs = [{"date": e.get("date"), "event": e.get("event"), "place": e.get("place")} for e in (events or meta["events"])][:10]
     ev_html = "".join(f'<div class="event"><div class="when">{esc(e["date"])}</div><p>{esc(e["event"])}</p><div class="when">{esc(e["place"])}</div></div>' for e in evs)
