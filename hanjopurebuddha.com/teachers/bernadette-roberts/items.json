@@ -9,14 +9,15 @@
   "people": [
    "Bernadette Roberts",
    "Ramesh Balakrishnan",
-   "Pat Masters"
+   "Pat Masters",
+   "Patricia (Pat) Masters"
   ],
   "format": "website",
   "language": "en",
   "duration": null,
   "host": "bernadetteroberts.blogspot.com",
   "url": "http://bernadetteroberts.blogspot.com/",
-  "description": "Site set up during her lifetime (c. 2013) in her own first-person voice; lists her four books, the 'Recorded Talks' page selling the DVD set of the retreat 'The Essence of Christian Mysticism' (nine hours in four files, with handouts) and the talk 'A Passage Through Self'; states she considered the recorded retreat a prerequisite for The Real Christ. Maintainer after 2017 unknown (friends/family). Still online.",
+  "description": "The home page thanks Ramesh Balakrishnan for setting the site up and says Pat Masters manages it; a later note says Patricia Masters, who managed the site for many years, died peacefully on 31 May 2024. The site was created by friends who knew Roberts since the early 1980s; reports her death 27 Nov 2017 at home in Southern California after an ALS diagnosis a year earlier. Who now holds the DVD masters is not stated.",
   "tags": [
    "official-site",
    "blogspot",
@@ -38,7 +39,13 @@
    "text",
    "person-balakrishnan",
    "person-masters",
-   "format-website-page"
+   "format-website-page",
+   "operators",
+   "custodians",
+   "death-notice",
+   "host-blogspot",
+   "format-web-page",
+   "place-california"
   ],
   "confidence": "S",
   "sources": [
@@ -48,11 +55,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "BERNADETTE ROBERTS (bernadetteroberts.blogspot.com) - home"
+   "BERNADETTE ROBERTS (bernadetteroberts.blogspot.com) - home",
+   "bernadetteroberts.blogspot.com: operators"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
@@ -89,7 +98,12 @@
    "friends",
    "the-real-christ",
    "text",
-   "format-website-page"
+   "format-website-page",
+   "fullerton",
+   "dvd-orders",
+   "host-blogspot",
+   "format-web-site",
+   "place-california"
   ],
   "confidence": "S",
   "sources": [
@@ -98,11 +112,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "BERNADETTE'S FRIENDS (bernadettesfriends.blogspot.com)"
+   "BERNADETTE'S FRIENDS (bernadettesfriends.blogspot.com)",
+   "bernadettesfriends.blogspot.com (Bernadette's Friends)"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
@@ -513,10 +529,10 @@
   ],
   "format": "webpage",
   "language": "en",
-  "duration": null,
+  "duration": "26 pp",
   "host": "nonduality.com",
   "url": "https://www.nonduality.com/berna.htm",
-  "description": "Jerry Katz's Nonduality Salon page on Roberts, carrying excerpts/essay; Katz also included her in his anthology One: Essential Writings on Nonduality (Sentient, 2007). Page status unverified (possible Wayback-only).",
+  "description": "Katz's outline of The Experience of No-Self; a 26-page PDF print of the page (dated 23 Dec 2011) is mirrored at kundaliniandcelltowers.com. No Wayback capture confirmed by search. Katz's anthology 'One: Essential Writings on Nonduality' includes her and a reader's comment that she 'misses the essential insights of Advaita'.",
   "tags": [
    "nonduality",
    "excerpts",
@@ -526,14 +542,30 @@
    "host-nonduality-com",
    "format-webpage",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "jerry-katz",
+   "outline",
+   "wayback-unverified",
+   "format-web-page-pdf-mirror",
+   "has-duration",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.unexplained-mysteries.com/forum/topic/370876-bernadette-roberts-on-the-experience-of-no-self/",
-   "https://www.goodreads.com/en/book/show/907675.One"
+   "https://www.goodreads.com/en/book/show/907675.One",
+   "https://www.nonduality.com/berna.htm",
+   "https://kundaliniandcelltowers.com/bernadette-roberts-the-experience-of-no-self-outline.pdf",
+   "http://www.advaita.org.uk/discourses/teachers/nonduality_katz.htm"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "nonduality.com/berna.htm (Jerry Katz outline of The Experience of No-Self)"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "ie745002d",
@@ -626,8 +658,8 @@
   "id": "i312e8d7b",
   "medium": "archive",
   "title": "Douglas Lockhart: 'Bernadette Roberts & the No-Self' (PDF)",
-  "date": null,
-  "year": null,
+  "date": "2019",
+  "year": 2019,
   "place": null,
   "people": [
    "Douglas Lockhart",
@@ -638,7 +670,7 @@
   "duration": null,
   "host": "douglaslockhart.com",
   "url": "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf",
-  "description": "Essay/chapter on Roberts by the writer Douglas Lockhart, freely available as PDF.",
+  "description": "Copyright 2019 Douglas Lockhart; listed on his Religion page as 'a new essay'; has a section 'The Jesus Problem'; calls her stage writings among the most original contributions in a Christian context. Not part of Jesus the Heretic or The Dark Side of God as far as search shows.",
   "tags": [
    "essay",
    "archive",
@@ -653,27 +685,35 @@
    "pdf",
    "text",
    "format-chapter",
-   "confidence-lead"
+   "confidence-lead",
+   "douglas-lockhart",
+   "critique",
+   "2010s",
+   "2019",
+   "format-pdf-essay"
   ],
   "confidence": "S",
   "sources": [
-   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf"
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf",
+   "https://www.douglaslockhart.com/religion"
   ],
   "origin": "archives",
   "also_titled": [
-   "Bernadette Roberts & the No-Self (Douglas Lockhart, PDF)"
+   "Bernadette Roberts & the No-Self (Douglas Lockhart, PDF)",
+   "Douglas Lockhart, 'Bernadette Roberts & the No-Self' (essay, 2019)"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
   "id": "ic430cec2",
   "medium": "archive",
   "title": "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available'",
-  "date": null,
-  "year": null,
+  "date": "2021-09",
+  "year": 2021,
   "place": null,
   "people": [
    "Bernadette Roberts"
@@ -683,7 +723,7 @@
   "duration": null,
   "host": "aquariancatholicspiritualcommunity.net",
   "url": "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available",
-  "description": "Page advertising availability of her recorded talks (DVD set).",
+  "description": "Notice that the recorded retreat talks Roberts gave over her lifetime 'are now available to view at no cost', linking to the viewing site (URL not exposed in search snippets) and warning that the talks are long; recommends re-watching and taking notes. The retreat named is 'The Essence of Christian Mysticism' (Trinity, Christ, Faith).",
   "tags": [
    "recordings",
    "distribution",
@@ -692,13 +732,29 @@
    "host-aquariancatholicspiritualcommunity-net",
    "format-webpage",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "retreat-talks",
+   "free-online",
+   "2021-release",
+   "notice",
+   "community",
+   "2020s",
+   "2021",
+   "format-blog-post",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available' (notice, Sept 2021)"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "ia687f018",
@@ -810,7 +866,8 @@
   "place": null,
   "people": [
    "Phil St. Romain",
-   "Bernadette Roberts"
+   "Bernadette Roberts",
+   "Philip St. Romain"
   ],
   "format": "forum threads",
   "language": "en",
@@ -827,14 +884,24 @@
    "host-shalomplace-org",
    "format-forum-threads",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "shalom-place",
+   "philip-st-romain",
+   "format-forum-thread"
   ],
   "confidence": "S",
   "sources": [
    "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238",
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Shalom Place thread: Bernadette Roberts on Buddhism, No-Ego, and No-Self"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "id94ddeb5",
@@ -843,27 +910,40 @@
   "date": null,
   "year": null,
   "place": null,
-  "people": [],
+  "people": [
+   "Bernadette Roberts"
+  ],
   "format": "forum threads",
   "language": "en",
   "duration": null,
   "host": "actualized.org",
   "url": "https://www.actualized.org/forum/topic/112427-the-great-bernadette-roberts/",
-  "description": "'The Great Bernadette Roberts' and a 10/10 review thread of What Is Self?.",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
   "tags": [
    "forum",
    "community",
    "host-actualized-org",
    "format-forum-threads",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "discussion",
+   "secondary",
+   "person-roberts",
+   "format-web-page-forum-thread"
   ],
   "confidence": "S",
   "sources": [
    "https://www.actualized.org/forum/topic/112427-the-great-bernadette-roberts/",
    "https://www.actualized.org/forum/topic/1769-book-what-is-self-bernadette-roberts-1010/"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Actualized.org forum: 'The Great Bernadette Roberts'"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i5d26cbd7",
@@ -902,26 +982,39 @@
   "date": null,
   "year": null,
   "place": null,
-  "people": [],
+  "people": [
+   "Bernadette Roberts"
+  ],
   "format": "forum thread",
   "language": "en",
   "duration": null,
   "host": "forumserver.twoplustwo.com",
   "url": "https://forumserver.twoplustwo.com/137/religion-god-theology/christian-mysticism-interview-christian-contemplative-bernadette-roberts-1364245/",
-  "description": "Reposts the Bodian interview with discussion.",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
   "tags": [
    "forum",
    "community",
    "host-forumserver-twoplustwo-com",
    "format-forum-thread",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "discussion",
+   "secondary",
+   "person-roberts",
+   "format-web-page-forum-thread"
   ],
   "confidence": "S",
   "sources": [
    "https://forumserver.twoplustwo.com/137/religion-god-theology/christian-mysticism-interview-christian-contemplative-bernadette-roberts-1364245/"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Two Plus Two forum: 'Christian Mysticism: an interview with Christian contemplative Bernadette Roberts'"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i9ef04bb0",
@@ -987,19 +1080,28 @@
    "image",
    "person-roberts",
    "format-photograph",
-   "place-usa"
+   "place-usa",
+   "photo",
+   "grailville",
+   "2006-retreat",
+   "licence-unknown",
+   "format-web-article-with-photo",
+   "place-india"
   ],
   "confidence": "S",
   "sources": [
-   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm"
+   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm",
+   "https://www.indiadivine.org/content/topic/1385743-notes-from-tat-re-bernadette-roberts-grailville-retreat-upcoming/"
   ],
   "origin": "archives",
   "also_titled": [
-   "Bernadette Roberts at Loveland OH retreat, May 2006"
+   "Bernadette Roberts at Loveland OH retreat, May 2006",
+   "TAT Forum Aug 2006: 'The Essence of Christian Mysticism: Reflections on a weekend retreat with Bernadette Roberts — part 1' (Dan Garmat & Heidi Munn)"
   ],
   "origins": [
    "archives",
-   "images"
+   "images",
+   "wave2-gaps"
   ]
  },
  {
@@ -1126,7 +1228,11 @@
    "bibliography",
    "text",
    "format-website-page",
-   "confidence-lead"
+   "confidence-lead",
+   "books",
+   "blogspot",
+   "host-blogspot",
+   "format-web-page"
   ],
   "confidence": "S",
   "sources": [
@@ -1135,11 +1241,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "Bernadette Roberts: Books / Manuscripts (bernadetteroberts.blogspot.com)"
+   "Bernadette Roberts: Books / Manuscripts (bernadetteroberts.blogspot.com)",
+   "bernadetteroberts.blogspot.com: Books page"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
@@ -1157,7 +1265,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/roberts.real-christ",
-  "description": "Same uploader series (roberts.*): The Real Christ (2017 printing) and Contemplative: Autobiography of the Early Years PDFs.",
+  "description": "The Real Christ PDF (572 pp scan vs 524 print) uploaded by 'Manonasha' on 30 May 2020; same uploader series roberts.* (what-is-self, path-to-no-self, christian-contemplative-journey, contemplative-autobiography). Unauthorised per her site.",
   "tags": [
    "archive-org",
    "full-text",
@@ -1172,7 +1280,14 @@
    "text",
    "2010s",
    "2017",
-   "format-full-text"
+   "format-full-text",
+   "scans",
+   "internet-archive",
+   "unauthorised",
+   "2020s",
+   "2020",
+   "host-internet-archive",
+   "format-pdf-scans"
   ],
   "confidence": "S",
   "sources": [
@@ -1181,11 +1296,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "The Real Christ - archive.org scan"
+   "The Real Christ - archive.org scan",
+   "archive.org uploads of her books (uploader Manonasha)"
   ],
   "origins": [
    "archives",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
@@ -1274,15 +1391,16 @@
   "id": "i8e9347f0",
   "medium": "archive",
   "title": "Dancing Paradox podcast: 'Bernadette Roberts: The Path to No-Self'",
-  "date": null,
+  "date": "2023-01-21",
   "year": 2023,
   "place": null,
   "people": [
-   "Bernadette Roberts"
+   "Bernadette Roberts",
+   "Alex Hickman"
   ],
   "format": "podcast audio",
   "language": "en",
-  "duration": null,
+  "duration": "12:52",
   "host": "podtail.com / Apple Podcasts",
   "url": "https://podtail.com/en/podcast/dancing-paradox/bernadette-roberts-the-path-to-no-self/",
   "description": "c.14-minute excerpt of Roberts speaking on no-self, lifted from a YouTube upload; per the Friends blog any such audio is unauthorized.",
@@ -1296,14 +1414,28 @@
    "host-podtail-com-apple-podcasts",
    "format-podcast-audio",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "dancing-paradox",
+   "christ",
+   "audio",
+   "person-hickman",
+   "host-podtail-podbean",
+   "format-podcast-episode",
+   "has-duration"
   ],
   "confidence": "S",
   "sources": [
    "https://podtail.com/en/podcast/dancing-paradox/bernadette-roberts-the-path-to-no-self/",
    "https://podcasts.apple.com/us/podcast/bernadette-roberts-the-path-to-no-self/id1326902050?i=1000595862178"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Dancing Paradox: Bernadette Roberts | Why Christ Is Not In Christianity"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i90c7b312",
@@ -1314,14 +1446,16 @@
   "place": null,
   "people": [
    "Jim Marion",
-   "Phil St. Romain"
+   "Phil St. Romain",
+   "Bernadette Roberts",
+   "Philip St. Romain"
   ],
   "format": "PDF dialogue",
   "language": "en",
   "duration": null,
   "host": "shalomplace.com",
   "url": "https://shalomplace.com/res/psr-marion.pdf",
-  "description": "Marion states he wrote about 'the American Catholic contemplative Bernadette Roberts' in Putting on the Mind of Christ (Hampton Roads 2000, foreword Ken Wilber); exchange on True Self vs Christ Self.",
+  "description": "Marion: he wrote about 'the American Catholic contemplative Bernadette Roberts, a former nun' in Putting on the Mind of Christ, regards her no-self experience as authentic; St. Romain: 'I know her and we've corresponded extensively', and mentions a theology-forum thread he featured on her. A Goodreads review says Marion references Roberts and disagrees where he thinks she has not explained herself well. No verbatim Marion passage quoting her surfaced (Google Books: no preview).",
   "tags": [
    "scholarship",
    "marion",
@@ -1332,14 +1466,27 @@
    "host-shalomplace-com",
    "format-pdf-dialogue",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "jim-marion",
+   "philip-st-romain",
+   "putting-on-the-mind-of-christ",
+   "text",
+   "person-roberts"
   ],
   "confidence": "S",
   "sources": [
    "https://shalomplace.com/res/psr-marion.pdf",
-   "https://www.amazon.com/Putting-Mind-Christ-Christian-Spirituality/dp/157174357X"
+   "https://www.amazon.com/Putting-Mind-Christ-Christian-Spirituality/dp/157174357X",
+   "https://www.goodreads.com/en/book/show/432305.Putting_on_the_Mind_of_Christ"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "Jim Marion / Philip St. Romain dialogue (shalomplace.com PDF)"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "ie3d148bf",
@@ -1400,13 +1547,15 @@
   "date": null,
   "year": null,
   "place": "Big Sur, California",
-  "people": [],
+  "people": [
+   "Bernadette Roberts"
+  ],
   "format": "institution / audio archive",
   "language": "en",
   "duration": null,
   "host": "newcamaldoli.engagewisdom.com",
   "url": "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage",
-  "description": "Camaldolese hermitage where she made retreats for forty years; its EngageWisdom audio archive is a lead for any talks she may have given there (none confirmed).",
+  "description": "Searches for New Camaldoli + Roberts returned only tourism pages and a DBpedia backlink from her Wikipedia article; no hermitage talk, audio or memoir mention surfaced.",
   "tags": [
    "institution",
    "camaldolese",
@@ -1416,14 +1565,26 @@
    "format-institution-audio-archive",
    "lang-en",
    "place-california",
-   "confidence-lead"
+   "confidence-lead",
+   "new-camaldoli",
+   "negative-result",
+   "person-roberts",
+   "format-negative-result"
   ],
   "confidence": "lead",
   "sources": [
    "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage",
-   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://dbpedia.org/page/New_Camaldoli_Hermitage"
   ],
-  "origin": "archives"
+  "origin": "archives",
+  "also_titled": [
+   "New Camaldoli Hermitage: no recordings or mentions found"
+  ],
+  "origins": [
+   "archives",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i912232b6",
@@ -1503,7 +1664,13 @@
    "website",
    "recordings",
    "text",
-   "format-website-page"
+   "format-website-page",
+   "retreat-talks",
+   "sales",
+   "masters",
+   "archive",
+   "host-blogspot",
+   "format-web-page"
   ],
   "confidence": "S",
   "sources": [
@@ -1511,18 +1678,21 @@
    "https://en.wikipedia.org/wiki/Bernadette_Roberts",
    "http://bernadettesfriends.blogspot.com/",
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148",
-   "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available"
+   "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available",
+   "http://bernadetteroberts.blogspot.com/"
   ],
   "origin": "av",
   "also_titled": [
    "A Passage Through Self (recorded talk, 2-DVD set)",
    "A Passage Through Self / The Essence of Christian Mysticism — DVD set packaging (recorded retreat)",
-   "BERNADETTE ROBERTS: RECORDED TALKS (DVD/CD page)"
+   "BERNADETTE ROBERTS: RECORDED TALKS (DVD/CD page)",
+   "bernadetteroberts.blogspot.com: Recorded Talks page (DVD/CD)"
   ],
   "origins": [
    "av",
    "images",
-   "text"
+   "text",
+   "wave2-gaps"
   ]
  },
  {
@@ -1717,13 +1887,26 @@
    "host-youtube-com",
    "format-youtube-video",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "unauthorised",
+   "host-youtube",
+   "format-youtube-clip",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=KLEGj0HEUV8"
   ],
-  "origin": "av"
+  "origin": "av",
+  "also_titled": [
+   "Bernadette Roberts (untitled passage)"
+  ],
+  "origins": [
+   "av",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i2061ca4f",
@@ -1831,7 +2014,10 @@
    "person-roberts",
    "format-still",
    "place-usa",
-   "confidence-lead"
+   "confidence-lead",
+   "compilation",
+   "host-youtube",
+   "format-youtube-compilation"
   ],
   "confidence": "S",
   "sources": [
@@ -1842,11 +2028,13 @@
   ],
   "origin": "av",
   "also_titled": [
-   "'No Self ~ Bernadette Roberts ~ Christian Mystics' — YouTube video thumbnail/stills"
+   "'No Self ~ Bernadette Roberts ~ Christian Mystics' — YouTube video thumbnail/stills",
+   "No Self ~ Bernadette Roberts ~ Christian Mystics"
   ],
   "origins": [
    "av",
-   "images"
+   "images",
+   "wave2-gaps"
   ]
  },
  {
@@ -2520,18 +2708,19 @@
   "id": "i46aecf08",
   "medium": "image",
   "title": "YouTube playlist 'Bernadette Roberts' — retreat-talk video stills",
-  "date": null,
-  "year": null,
+  "date": "2021",
+  "year": 2021,
   "place": null,
   "people": [
-   "Bernadette Roberts"
+   "Bernadette Roberts",
+   "Phoenix Kennedy"
   ],
   "format": "still",
   "language": "en",
-  "duration": null,
+  "duration": "c. 9 h in total (DVD set) if complete",
   "host": "youtube.com",
   "url": "https://www.youtube.com/playlist?list=PLni-GlNUOJfZQx47wittRX-i63CvNV2E8",
-  "description": "Playlist surfaced alongside the 2021 'talks available at no cost' announcement; probably hosts the recorded retreat talks (video of Roberts speaking, usable for stills). Authorisation status unclear — the friends' blog disclaims all YouTube uploads.",
+  "description": "Best available identification of the 2021 release: no Google Drive, Vimeo or blog-hosted copy surfaced, and bernadetteroberts.blogspot.com still lists the DVD set (Talk #1-#4) for sale and still states that no online recordings are authorised. The only free viewing route found is the YouTube series of 'Bernadette Roberts on ...' clips cut from the 4-hour/9-hour 'Essence of Christian Mysticism' DVDs, gathered in the playlist 'Bernadette Roberts' ('the most original and controversial mystic of all time'); clip descriptions link to www.bernadetterobertsisnotmyguru.com, the site of Phoenix Kennedy, author of five books on her. Inference: the 2021 'free' release is this unauthorised clip series/playlist, not a release by Bernadette's Friends. Needs a page fetch of the Aquarian post's outbound link to confirm.",
   "tags": [
    "video-still",
    "youtube",
@@ -2543,14 +2732,42 @@
    "format-still",
    "lang-en",
    "place-usa",
-   "confidence-lead"
+   "confidence-lead",
+   "2021-release",
+   "retreat-talks",
+   "essence-of-christian-mysticism",
+   "unauthorised",
+   "phoenix-kennedy",
+   "lead",
+   "video",
+   "2020s",
+   "2021",
+   "person-kennedy",
+   "host-youtube",
+   "format-youtube-uploads",
+   "has-duration",
+   "format-youtube-playlist",
+   "confidence-s"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/playlist?list=PLni-GlNUOJfZQx47wittRX-i63CvNV2E8",
-   "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available"
+   "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available",
+   "https://www.youtube.com/watch?v=Cd51CBt3Hyc",
+   "https://www.youtube.com/watch?v=rpxp25Y4aTA",
+   "http://bernadetteroberts.blogspot.com/",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html",
+   "https://www.goodreads.com/book/show/34570077-bernadette-roberts-is-not-my-guru"
   ],
-  "origin": "images"
+  "origin": "images",
+  "also_titled": [
+   "The 2021 'free online' retreat recordings: identification (lead)",
+   "YouTube playlist 'Bernadette Roberts'"
+  ],
+  "origins": [
+   "images",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i0ecbd7b8",
@@ -3961,13 +4178,24 @@
    "host-shalomplace-org",
    "format-website-page",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "shalom-place",
+   "philip-st-romain",
+   "community",
+   "format-forum-thread"
   ],
   "confidence": "S",
   "sources": [
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148"
   ],
-  "origin": "text"
+  "origin": "text",
+  "also_titled": [
+   "Shalom Place thread: Bernadette Roberts: A Passage through Self (review)"
+  ],
+  "origins": [
+   "text",
+   "wave2-gaps"
+  ]
  },
  {
   "id": "i763b3b44",
@@ -4104,5 +4332,1173 @@
    "https://www.goodreads.com/work/quotes/335418"
   ],
   "origin": "text"
+ },
+ {
+  "id": "i73a0b654",
+  "medium": "video",
+  "title": "Bernadette Roberts (untitled)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=6I0hgKYIEO8",
+  "description": "Surfaced alongside the series; content not described in snippets.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.youtube.com/watch?v=6I0hgKYIEO8"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ifaf7ce25",
+  "medium": "video",
+  "title": "Bernadette Roberts on the Death of Christ (not Jesus)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=18-Bj7xvHj0",
+  "description": "Explains what it means to say 'God left the man' on the Cross.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=18-Bj7xvHj0"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "icea31e91",
+  "medium": "video",
+  "title": "Bernadette Roberts on what God gave her to reveal about Christ",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=V-3UXm55nTs",
+  "description": "'Bombarded by Grace, yet very little of what God gave her to know fit in with the Party Line presentation of Christianity'; asks whether reform is needed.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=V-3UXm55nTs"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ic901b8f5",
+  "medium": "video",
+  "title": "Bernadette Roberts on how Christianity turned into a Jesus cult",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=GEOkuAmGDs4",
+  "description": "Defines anthropolatry as worship of a man as God / God as a man, and calls it paganism.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=GEOkuAmGDs4"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "icff8f283",
+  "medium": "video",
+  "title": "Bernadette Roberts on the theological gem of all time - Hilary's three states of Christ",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=K7mfU0UbGq0",
+  "description": "On Hilary of Poitiers' three states of Christ.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=K7mfU0UbGq0"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i8f30f935",
+  "medium": "video",
+  "title": "Bernadette Roberts on the Resurrection and Ascension speaking from experience",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=29wjxzg8GSQ",
+  "description": "Her reply to a question at the end of the 9-hour DVD series.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=29wjxzg8GSQ"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i836bebbe",
+  "medium": "video",
+  "title": "Bernadette Roberts on Heaven",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=rpxp25Y4aTA",
+  "description": "Description points to www.bernadetterobertsisnotmyguru.com.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=rpxp25Y4aTA"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "iac3205e5",
+  "medium": "video",
+  "title": "Bernadette Roberts on Kenosis",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=Cd51CBt3Hyc",
+  "description": "'Kenosis or Self-emptying'; description points to www.bernadetterobertsisnotmyguru.com.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=Cd51CBt3Hyc"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i5f539858",
+  "medium": "video",
+  "title": "Bernadette Roberts on God in Nature",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=ExnJrvMrbdg",
+  "description": "Same series; description links bernadetterobertsisnotmyguru.com.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=ExnJrvMrbdg"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ia4eb9efa",
+  "medium": "video",
+  "title": "Bernadette Roberts on the Logos",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=wjdV_hdlssc",
+  "description": "Same series; description links bernadetterobertsisnotmyguru.com.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=wjdV_hdlssc"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ia1db2b5c",
+  "medium": "video",
+  "title": "Bernadette Roberts on how Jesus still had a ways to go and how Christianity is monophysitic",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube clip (DVD excerpt, unauthorised per her site)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=B-Pgjk4GWF8",
+  "description": "Same series; description links bernadetterobertsisnotmyguru.com.",
+  "tags": [
+   "dvd-excerpt",
+   "essence-of-christian-mysticism",
+   "youtube",
+   "unauthorised",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube-clip",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=B-Pgjk4GWF8"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i6a976b21",
+  "medium": "video",
+  "title": "Bernadette Roberts: How it Works",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "YouTube (reading of her text)",
+  "language": "en",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=ot5Ncae6zs0",
+  "description": "Reading of the 'How it Works' passage from The Experience of No-Self (matches the spiritualteachers.org podcast episode).",
+  "tags": [
+   "reading",
+   "youtube",
+   "experience-of-no-self",
+   "video",
+   "person-roberts",
+   "host-youtube",
+   "format-youtube",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=ot5Ncae6zs0"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i84fd4e79",
+  "medium": "archive",
+  "title": "bernadetteroberts.blogspot.com: Papers for Download page",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page",
+  "language": "en",
+  "duration": "",
+  "host": "Blogspot",
+  "url": "http://bernadetteroberts.blogspot.com/p/research-paper.html",
+  "description": "Hosts 'Non-duality as a definition of Christ' (paper presented at SAND, San Jose, 22 Oct 2015) and 'What Is Self? A Research Paper' for download.",
+  "tags": [
+   "papers",
+   "sand-2015",
+   "what-is-self",
+   "blogspot",
+   "archive",
+   "person-roberts",
+   "host-blogspot",
+   "format-web-page",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/research-paper.html"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ib2564b88",
+  "medium": "archive",
+  "title": "ContemplativeChristians.com Publishing (imprint)",
+  "date": "2017",
+  "year": 2017,
+  "place": "Austin, Texas",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "imprint / postal address",
+  "language": "en",
+  "duration": "",
+  "host": "ContemplativeChristians.com",
+  "url": "https://www.abebooks.com/9780692987216/Christian-Contemplative-Journey-Essays-Path-0692987215/plp",
+  "description": "Copyright pages: 'Published by ContemplativeChristians.com, June 2018 / November 2018, P.O. Box 164202, Austin, TX 78716' (Contemplative: Autobiography of the Early Years; The Christian Contemplative Journey). The Real Christ: first printing Feb 2017, ISBN 978-0-692-85115-9. No operator name, email or Wayback capture surfaced.",
+  "tags": [
+   "publisher",
+   "copyright",
+   "austin",
+   "estate",
+   "archive",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-contemplativechristians-com",
+   "format-imprint-postal-address",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.abebooks.com/9780692987216/Christian-Contemplative-Journey-Essays-Path-0692987215/plp",
+   "https://archive.org/details/roberts.real-christ"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i758bacb2",
+  "medium": "text",
+  "title": "Non-duality as a Definition of Christ (paper presented at SAND, San Jose, 22 Oct 2015)",
+  "date": "2015-10-22",
+  "year": 2015,
+  "place": "San Jose, California",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "PDF paper",
+  "language": "en",
+  "duration": "",
+  "host": "o-meditation.com / bernadetteroberts.blogspot.com",
+  "url": "https://o-meditation.com/wp-content/uploads/2019/12/non-duality-as-a-definition-of-christ-3.pdf",
+  "description": "Title page: 'Paper Presented at the SAND Conference - Science and Nonduality - San Jose, California'. Argues the unitive state is not nondual and man's oneness with God does not make him God. Reworked as the essay 'Christ as the Definition of Non-duality' in The Christian Contemplative Journey (2017). No SAND video of the session surfaced; SAND archive has a speaker page for her.",
+  "tags": [
+   "sand-2015",
+   "paper",
+   "nonduality",
+   "christ",
+   "text",
+   "2010s",
+   "2015",
+   "person-roberts",
+   "host-o-meditation-com-bernadetteroberts-blogspot-com",
+   "format-pdf-paper",
+   "lang-en",
+   "place-california",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://o-meditation.com/wp-content/uploads/2019/12/non-duality-as-a-definition-of-christ-3.pdf",
+   "http://bernadetteroberts.blogspot.com/p/research-paper.html",
+   "https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "if55e553e",
+  "medium": "archive",
+  "title": "SAND archive speaker page: Bernadette Roberts",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page",
+  "language": "en",
+  "duration": "",
+  "host": "archive.scienceandnonduality.com",
+  "url": "https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/",
+  "description": "Speaker page exists on the SAND archive site; whether it carries a session video is not shown in snippets (SAND YouTube channel returned nothing for her).",
+  "tags": [
+   "sand",
+   "speaker-page",
+   "video-unconfirmed",
+   "archive",
+   "person-roberts",
+   "host-archive-scienceandnonduality-com",
+   "format-web-page",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i505e962f",
+  "medium": "text",
+  "title": "What is Self? A Research Paper — Journal of Consciousness Studies 23(1-2), Jan/Feb 2016, p. 80",
+  "date": "2016-01",
+  "year": 2016,
+  "place": "Exeter, UK",
+  "people": [
+   "Bernadette Roberts",
+   "Nini Praetorius"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": "",
+  "host": "Imprint Academic",
+  "url": "https://www.imprint.co.uk/jcs-vol-23-no-1-2-januaryfebruary-2016/",
+  "description": "Published in JCS vol. 23 no. 1-2 (2016) at p. 80 in the section of 'target papers by spiritual masters'. Preface: written at the request of Dr Nini Praetorius, Docent Professor, University of Copenhagen, for her research project on a new approach to the self; thesis: 'self is the cause of individuation'. Free PDF on her blog and on o-meditation.com.",
+  "tags": [
+   "what-is-self",
+   "research-paper",
+   "jcs",
+   "praetorius",
+   "journal",
+   "text",
+   "2010s",
+   "2016",
+   "person-roberts",
+   "person-praetorius",
+   "host-imprint-academic",
+   "format-journal-article",
+   "lang-en",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.imprint.co.uk/jcs-vol-23-no-1-2-januaryfebruary-2016/",
+   "https://o-meditation.com/wp-content/uploads/2019/12/what-is-self-a-research-paper-by-bernadette-roberts-5.pdf",
+   "http://bernadetteroberts.blogspot.com/p/research-paper.html"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i09b287e8",
+  "medium": "archive",
+  "title": "bernadetterobertsisnotmyguru.com (Phoenix Kennedy)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Phoenix Kennedy"
+  ],
+  "format": "web site",
+  "language": "en",
+  "duration": "",
+  "host": "bernadetterobertsisnotmyguru.com",
+  "url": "http://www.bernadetterobertsisnotmyguru.com",
+  "description": "Site 'devoted to her work' linked from the YouTube clip descriptions and recommended by spiritualteachers.org; a commenter says the first half of all of Kennedy's books about her can be downloaded free there. Own pages did not surface in search; operator affiliation with her estate: none (her friends' site disowns all online recordings).",
+  "tags": [
+   "phoenix-kennedy",
+   "fan-site",
+   "unauthorised",
+   "clip-source",
+   "archive",
+   "person-roberts",
+   "person-kennedy",
+   "host-bernadetterobertsisnotmyguru-com",
+   "format-web-site",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts/",
+   "https://www.youtube.com/watch?v=Cd51CBt3Hyc",
+   "https://www.youtube.com/watch?v=rpxp25Y4aTA"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i9d5419e9",
+  "medium": "text",
+  "title": "Phoenix Kennedy's books on Bernadette Roberts",
+  "date": "2017",
+  "year": 2017,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Phoenix Kennedy"
+  ],
+  "format": "Kindle / paperback",
+  "language": "en",
+  "duration": "",
+  "host": "Amazon / Goodreads",
+  "url": "https://www.goodreads.com/author/list/16570706.Phoenix_Kennedy",
+  "description": "Titles: 'Bernadette Roberts is not my guru! An introduction to, and exploration of, her amazing writings' (Goodreads 34570077); 'Bernadette Roberts - God's Big Experiment' (ASIN B07BVJHDCL; 2020 re-issue B0848S946N); 'The Essential Bernadette Roberts: in her own words' (B0965QM3MY, chronological excerpt anthology); 'A Study Guide for The Real Christ'; 'The Unofficial Study Guide to ...'. Amazon reviewers say Kennedy wrote despite her repeated requests that he not do so.",
+  "tags": [
+   "phoenix-kennedy",
+   "secondary-literature",
+   "unauthorised",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "person-kennedy",
+   "host-amazon-goodreads",
+   "format-kindle-paperback",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.goodreads.com/author/list/16570706.Phoenix_Kennedy",
+   "https://www.amazon.com/Bernadette-Roberts-Gods-Big-Experiment-ebook/dp/B07BVJHDCL",
+   "https://www.amazon.com/Essential-Bernadette-Roberts-her-words-ebook/dp/B0965QM3MY",
+   "https://www.goodreads.com/book/show/34570077-bernadette-roberts-is-not-my-guru"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ib420c839",
+  "medium": "archive",
+  "title": "Wikipedia article, talk page and history; Wikidata Q4892809",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "wiki",
+  "language": "en",
+  "duration": "",
+  "host": "Wikipedia / Wikidata",
+  "url": "https://en.wikipedia.org/wiki/Talk:Bernadette_Roberts",
+  "description": "Talk page and revision history are not indexed by search; need a direct fetch (https://en.wikipedia.org/w/index.php?title=Bernadette_Roberts&action=history). Wikidata item Q4892809 (thin). No German/Spanish/Italian Wikipedia article surfaced.",
+  "tags": [
+   "wikipedia",
+   "wikidata",
+   "unverified",
+   "archive",
+   "person-roberts",
+   "host-wikipedia-wikidata",
+   "format-wiki",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.wikidata.org/wiki/Q4892809"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "if6772cf2",
+  "medium": "text",
+  "title": "The Experience of No-Self: editions (Goodreads work 345092, 12 editions)",
+  "date": "1982",
+  "year": 1982,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book editions",
+  "language": "en",
+  "duration": "",
+  "host": "Goodreads / Open Library / booksellers",
+  "url": "https://www.goodreads.com/author/list/197971.Bernadette_Roberts",
+  "description": "Goodreads: published 1982, 12 editions, 194 ratings, 4.27. Editions: Iroquois House 1982 ISBN 0931980070 (Open Library OL1741268M); Shambhala Aug 1984 ISBN 0877732892 (204 pp; Random House distribution ISBN 9780394726939); SUNY Press revised edition Mar 1993 ISBN 9780791416945 (213 pp); SUNY e-book 9781438417462; Kindle B08XN3P55C; Dev Publishers (India) 2017 ISBN 9789381406731 (212 pp).",
+  "tags": [
+   "editions",
+   "isbn",
+   "goodreads",
+   "open-library",
+   "text",
+   "1980s",
+   "1982",
+   "person-roberts",
+   "host-goodreads-open-library-booksellers",
+   "format-book-editions",
+   "lang-en",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.goodreads.com/author/list/197971.Bernadette_Roberts",
+   "https://openlibrary.org/books/OL1741268M/The_experience_of_no-self",
+   "https://www.abebooks.com/9780877732891/Experience-No-Self-Roberts-Bernadette-0877732892/plp",
+   "https://www.abebooks.com/9789381406731/Experience-No-Self-Contemplative-Journey-Bernadette-9381406731/plp",
+   "https://www.vitalsource.com/products/experience-of-no-self-the-bernadette-roberts-v9781438417462"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i3184d535",
+  "medium": "text",
+  "title": "Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (German edition)",
+  "date": "1997-10-15",
+  "year": 1997,
+  "place": "Freiburg, Germany",
+  "people": [
+   "Bernadette Roberts",
+   "Lienhard Valentin"
+  ],
+  "format": "hardback 186 pp; EPUB 2018",
+  "language": "de",
+  "duration": "",
+  "host": "Arbor Verlag",
+  "url": "https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht/dp/3924195277",
+  "description": "Arbor Verlag, 15 Oct 1997, ISBN 3924195277 / 978-3924195274, 186 pp; EPUB new edition 2018 ISBN 9783867812221. Google Books lists Lienhard Valentin as contributor (probably translator). Which English title it renders is not stated (186 pp suggests The Experience of No-Self).",
+  "tags": [
+   "german-edition",
+   "translation",
+   "arbor-verlag",
+   "isbn",
+   "text",
+   "1990s",
+   "1997",
+   "person-roberts",
+   "person-valentin",
+   "host-arbor-verlag",
+   "format-hardback-186-pp-epub-2018",
+   "lang-de",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht/dp/3924195277",
+   "https://books.google.de/books/about/Jenseits_von_Ego_und_Selbst.html?id=lCpyAAAACAAJ",
+   "https://www.goodreads.com/book/show/47505217-jenseits-von-ego-und-selbst",
+   "https://www.seko-online.de/shop/item/9783867812221"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i55742e36",
+  "medium": "text",
+  "title": "Ken Wilber: direct citations of Roberts — negative result",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Ken Wilber"
+  ],
+  "format": "negative result",
+  "language": "en",
+  "duration": "",
+  "host": "",
+  "url": "https://www.integralworld.net/bibliography.html",
+  "description": "Two searches across One Taste, Sex Ecology Spirituality, Integral Spirituality, Grace and Grit, Integral Psychology, The Eye of Spirit, A Brief History of Everything and Transformations of Consciousness found no indexed Wilber passage naming her; only a bookseller blurb on What Is Self? and a Shalom Place poster claiming Wilber 'adopted her testimony as an example of Christian nonduality'. Indexes must be checked in print.",
+  "tags": [
+   "ken-wilber",
+   "negative-result",
+   "text",
+   "person-roberts",
+   "person-wilber",
+   "host-integralworld-net",
+   "format-negative-result",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.thriftbooks.com/w/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness_bernadette-roberts/522646/",
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ib11d02de",
+  "medium": "text",
+  "title": "Jeff Shore foreword to What Is Self? (Sentient Publications, 2005)",
+  "date": "2005",
+  "year": 2005,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Jeff Shore",
+   "Ric Williams"
+  ],
+  "format": "book foreword",
+  "language": "en",
+  "duration": "",
+  "host": "Sentient Publications",
+  "url": "https://beingwithoutself.org/publications/",
+  "description": "Front matter: Foreword by Jeff Shore, followed by a foreword by Ric Williams. Shore's publications page (beingwithoutself.org) confirms the credit. The Path to No-Self has a foreword by Thomas Keating instead.",
+  "tags": [
+   "jeff-shore",
+   "foreword",
+   "what-is-self",
+   "text",
+   "2000s",
+   "2005",
+   "person-roberts",
+   "person-shore",
+   "person-williams",
+   "host-sentient-publications",
+   "format-book-foreword",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://beingwithoutself.org/publications/",
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i32675e97",
+  "medium": "community",
+  "title": "Shalom Place thread: Bernadette Roberts responds to Jim Arraj",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Philip St. Romain"
+  ],
+  "format": "forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "shalomplace.org",
+  "url": "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506",
+  "description": "Multi-page thread (18+ pages) arguing her unitive-state and no-self views from a Catholic perspective ('No-Self is not even meant for this world').",
+  "tags": [
+   "shalom-place",
+   "forum",
+   "philip-st-romain",
+   "community",
+   "person-roberts",
+   "person-romain",
+   "host-shalomplace-org",
+   "format-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i84894df6",
+  "medium": "community",
+  "title": "Shalom Place thread: Bernadette Roberts' new book, The Real Christ",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts",
+   "Philip St. Romain"
+  ],
+  "format": "forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "shalomplace.org",
+  "url": "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/1/xsl/print_topic",
+  "description": "Discussion including the criticism that she splits the humanity of Jesus from 'Christ'.",
+  "tags": [
+   "shalom-place",
+   "forum",
+   "philip-st-romain",
+   "community",
+   "person-roberts",
+   "person-romain",
+   "host-shalomplace-org",
+   "format-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/1/xsl/print_topic"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i797ce216",
+  "medium": "image",
+  "title": "IMERE portrait credit: 'Bernadette Roberts from www.spiritualteachers.org'",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web photo",
+  "language": "en",
+  "duration": "",
+  "host": "imere.org",
+  "url": "https://imere.org/third-party-story/mystical-experience-bernadette-roberts/",
+  "description": "The only photo credit found anywhere: IMERE credits its image to 'Bernadette Roberts from www.spiritualteachers.org'; no photographer, date or licence. spiritualteachers.org pages show no credit in snippets.",
+  "tags": [
+   "photo",
+   "portrait",
+   "licence-unknown",
+   "spiritualteachers",
+   "image",
+   "person-roberts",
+   "host-imere-org",
+   "format-web-photo",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://imere.org/third-party-story/mystical-experience-bernadette-roberts/",
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i6b047de0",
+  "medium": "community",
+  "title": "Contemplative Enrichment Day: 'The Astounding Bernadette Roberts: Insights & Experiences of a Modern Christian Mystic' (Fr Michael K. Holleran)",
+  "date": "2022-02-19",
+  "year": 2022,
+  "place": "Holy Family Passionist Retreat Center, West Hartford, Connecticut",
+  "people": [
+   "Bernadette Roberts",
+   "Michael K. Holleran"
+  ],
+  "format": "workshop (in person + Zoom)",
+  "language": "en",
+  "duration": "9:00-16:30",
+  "host": "Contemplative Outreach / Holy Family Retreat Center",
+  "url": "https://www.contemplativeoutreach.org/event/the-astounding-bernadette-roberts-insights-and-experiences-of-a-modern-christian-mystic/",
+  "description": "Day on The Experience of No-Self with two Centering Prayer sessions; quotes Keating calling the book one of the best since St John of the Cross.",
+  "tags": [
+   "event",
+   "contemplative-outreach",
+   "holleran",
+   "2022",
+   "community",
+   "2020s",
+   "person-roberts",
+   "person-holleran",
+   "host-contemplative-outreach-holy-family-retreat-center",
+   "format-workshop",
+   "lang-en",
+   "has-duration",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.contemplativeoutreach.org/event/the-astounding-bernadette-roberts-insights-and-experiences-of-a-modern-christian-mystic/",
+   "https://www.holyfamilyretreat.org/calendar/cce-enrichment-feb2022"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ib44e259b",
+  "medium": "audio",
+  "title": "Sat Sangha Salon (o-meditation.com): Bernadette Roberts audio downloads",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "MP3 downloads (page listing)",
+  "language": "en",
+  "duration": "",
+  "host": "o-meditation.com",
+  "url": "https://o-meditation.com/downloadable-books/bernadette-roberts-books/",
+  "description": "Page says 'a few audio files of interviews available for download' (left-click to listen / right-click save-as); the listed item is The Passion of Grace (New Dimensions Radio). Also hosts the 1986 Bodian interview text and PDFs of the two papers.",
+  "tags": [
+   "audio",
+   "new-dimensions",
+   "o-meditation",
+   "unauthorised",
+   "audio",
+   "person-roberts",
+   "host-o-meditation-com",
+   "format-mp3-downloads",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://o-meditation.com/downloadable-books/bernadette-roberts-books/",
+   "https://o-meditation.com/downloadable-books/"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "ic047d43d",
+  "medium": "community",
+  "title": "Hridaya Yoga: 'Bernadette Roberts: A Way of Seeing and Knowing'",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page / forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "",
+  "url": "https://hridaya-yoga.com/knowledge/mystics/bernadette-roberts-a-way-of-seeing-and-knowing/",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
+  "tags": [
+   "discussion",
+   "secondary",
+   "community",
+   "person-roberts",
+   "host-hridaya-yoga-com",
+   "format-web-page-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://hridaya-yoga.com/knowledge/mystics/bernadette-roberts-a-way-of-seeing-and-knowing/"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i28ef30cd",
+  "medium": "community",
+  "title": "spiritualteachers.proboards: 'On why Bernadette Roberts is not a non-dualist'",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page / forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "",
+  "url": "https://spiritualteachers.proboards.com/thread/1735/why-bernadette-roberts-non-dualist",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
+  "tags": [
+   "discussion",
+   "secondary",
+   "community",
+   "person-roberts",
+   "host-spiritualteachers-proboards-com",
+   "format-web-page-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://spiritualteachers.proboards.com/thread/1735/why-bernadette-roberts-non-dualist"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i75ad854a",
+  "medium": "community",
+  "title": "Medium (J. Kowall): 'No-Self is True Self'",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page / forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "",
+  "url": "https://medium.com/@jkowall031/no-self-is-true-self-60acba043307",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
+  "tags": [
+   "discussion",
+   "secondary",
+   "community",
+   "person-roberts",
+   "host-medium-com",
+   "format-web-page-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://medium.com/@jkowall031/no-self-is-true-self-60acba043307"
+  ],
+  "origin": "wave2-gaps"
+ },
+ {
+  "id": "i54ea4582",
+  "medium": "community",
+  "title": "freddieyam.com: 'Bernadette Roberts's assessment of Anadi (Kristof Aziz)'",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "web page / forum thread",
+  "language": "en",
+  "duration": "",
+  "host": "",
+  "url": "https://freddieyam.com/wordpress/bernadette-robertss-assessment-of-anadi-kristof-aziz/",
+  "description": "Discussion page about Roberts surfaced during this pass; not previously catalogued.",
+  "tags": [
+   "discussion",
+   "secondary",
+   "community",
+   "person-roberts",
+   "host-freddieyam-com",
+   "format-web-page-forum-thread",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://freddieyam.com/wordpress/bernadette-robertss-assessment-of-anadi-kristof-aziz/"
+  ],
+  "origin": "wave2-gaps"
  }
 ]
