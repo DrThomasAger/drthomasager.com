@@ -119,8 +119,19 @@ def embed(payload):
     return json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
 
 
+SECTIONS = ["archive", "quotes", "timeline", "people", "copyright", "sources", "about"]
+VERDICT_RANK = {"corroborated-primary": 0, "corroborated-secondary": 1, "primary-source": 2, "multi-source": 3, "single-source": 4, "disputed": 6, "not-found": 7, "not-ug": 9}
+
+
+def esc(s):
+    import html as _h
+    return _h.escape(str(s if s is not None else ""))
+
+
 def build_teacher(folder, out_root=None):
-    """Render one teacher into <out_root>/<slug>/ (default: site/gurus/)."""
+    """Render one teacher as a small site under <out_root>/<slug>/:
+    index.html (home), <section>/index.html for each section of the browser,
+    quotes/<id>/index.html for every quote, plus the data files."""
     out_root = out_root or (SITE / "gurus")
     slug = folder.name
     meta = read_json(folder / "meta.json", {})
@@ -135,27 +146,84 @@ def build_teacher(folder, out_root=None):
     meta["slug"] = slug
     out = out_root / slug
     out.mkdir(parents=True, exist_ok=True)
-    tpl = (TPL / "teacher.html").read_text(encoding="utf-8")
+    name, dates, one = meta.get("name", slug), meta.get("dates", ""), meta.get("one_line", "")
+    insta = (meta.get("instagram") or "").strip().lstrip("@")
+    insta_url = f"https://www.instagram.com/{insta}/" if insta else ""
     cv = folder / "copyright-view.md"
     copyright_html = md_lite(cv.read_text(encoding="utf-8")) if cv.exists() else "<p>No statement recorded yet.</p>"
-    html = (tpl.replace("/*__DATA__*/", embed({"items": items, "quotes": quotes, "meta": meta, "events": events, "people": people, "integrity": integrity}))
-               .replace("__COPYRIGHT_HTML__", copyright_html)
-               .replace("/*__TEACHER_STYLE__*/", teacher_style(meta))
-               .replace("__FONT_LINK__", font_link(meta))
-               .replace("__NAME__", meta.get("name", slug))
-               .replace("__DATES__", meta.get("dates", ""))
-               .replace("__ONELINE__", meta.get("one_line", "")))
+    common = {"__NAME__": name, "__DATES__": dates, "__ONELINE__": one, "__FONT_LINK__": font_link(meta), "/*__TEACHER_STYLE__*/": teacher_style(meta)}
+
+    # section pages
+    tpl = (TPL / "teacher.html").read_text(encoding="utf-8")
+    data = embed({"items": items, "quotes": quotes, "meta": meta, "events": events, "people": people, "integrity": integrity})
+    for sec in SECTIONS:
+        html = tpl.replace("/*__DATA__*/", data).replace("__COPYRIGHT_HTML__", copyright_html).replace("__INITIAL_TAB__", sec)
+        for k, v in common.items():
+            html = html.replace(k, v)
+        d = out / sec; d.mkdir(exist_ok=True)
+        (d / "index.html").write_text(html, encoding="utf-8")
+
+    # quote pages
+    qtpl = (TPL / "quote.html").read_text(encoding="utf-8")
+    ordered = sorted(quotes, key=lambda q: (VERDICT_RANK.get(q.get("verdict"), 5), q.get("book") or "", q.get("id")))
+    for i, q in enumerate(ordered):
+        d = out / "quotes" / q["id"]; d.mkdir(parents=True, exist_ok=True)
+        v = q.get("verdict") or ""
+        cls = "good" if v.startswith("corroborated-primary") else "ok" if v in ("corroborated-secondary", "primary-source") else "warn" if v in ("multi-source", "single-source") else "bad"
+        pills = f'<span class="pill {cls}">{esc(v)}</span><span class="pill">{esc(q.get("kind") or "verbatim")}</span><span class="pill">confidence {esc(q.get("confidence"))}</span>' + (f'<span>{esc(q.get("year"))}</span>' if q.get("year") else "")
+        prev_q = ordered[i - 1] if i > 0 else None
+        next_q = ordered[i + 1] if i + 1 < len(ordered) else None
+        html = qtpl
+        for k, v2 in common.items():
+            html = html.replace(k, v2)
+        html = (html.replace("__TEXT__", esc(q["text"])).replace("__TEXT_SHORT__", esc(q["text"][:150]))
+                    .replace("__TEXT_JSON__", json.dumps(q["text"]))
+                    .replace("__BOOK__", esc(q.get("book") or "unassigned")).replace("__CHAPTER__", (", " + esc(q["chapter"])) if q.get("chapter") else "")
+                    .replace("__PILLS__", pills)
+                    .replace("__NOTE__", f'<p class="note">{esc(q["note"])}</p>' if q.get("note") else "")
+                    .replace("__SOURCES__", "".join(f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a></li>' for u in q.get("sources") or []) or "<li>No source recorded.</li>")
+                    .replace("__INSTAGRAM_BTN__", f'<a class="btn primary" href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)} on Instagram</a>' if insta else "")
+                    .replace("__PREV__", f'<a href="../{prev_q["id"]}/">← previous</a>' if prev_q else "")
+                    .replace("__NEXT__", f'<a href="../{next_q["id"]}/">next →</a>' if next_q else ""))
+        (d / "index.html").write_text(html, encoding="utf-8")
+
+    # home
+    htpl = (TPL / "home.html").read_text(encoding="utf-8")
+    counts = {m: sum(1 for i in items if i.get("medium") == m) for m in ("video", "audio", "text", "image", "archive", "community")}
+    doors = [("quotes/", "Quotes", len(quotes), "his words" if meta.get("pronoun", "their") == "his" else "their words, by source"),
+             ("archive/", "Archive", len(items), "video, audio, text, image, archive, community"),
+             ("timeline/", "Life", len(events) or len(meta["events"]), "dated events with sources"),
+             ("people/", "People", len(people), "everyone in the record"),
+             ("copyright/", "Copyright", "", "their position on their words"),
+             ("sources/", "Sources", "", "every cited URL, by host"),
+             ("about/", "About", "", "how this was gathered")]
+    doors_html = "".join(f'<a class="door" href="{h}"><b>{t}</b><span class="n">{n}</span><span>{d}</span></a>' for h, t, n, d in doors)
+    featured = [q for q in ordered if 60 <= len(q["text"]) <= 260 and q.get("kind", "verbatim") == "verbatim"][:6] or ordered[:6]
+    feat_html = "".join(f'<a class="q" href="quotes/{q["id"]}/"><blockquote>{esc(q["text"])}</blockquote><div class="meta"><span>{esc(q.get("book") or "")}</span><span class="pill">{esc(q.get("verdict") or "")}</span></div></a>' for q in featured)
+    evs = [{"date": e.get("date"), "event": e.get("event"), "place": e.get("place")} for e in (events or meta["events"])][:10]
+    ev_html = "".join(f'<div class="event"><div class="when">{esc(e["date"])}</div><p>{esc(e["event"])}</p><div class="when">{esc(e["place"])}</div></div>' for e in evs)
+    lead_q = meta.get("lead_quote") or (featured[0]["text"] if featured else "")
+    lead_src = meta.get("lead_quote_source") or (featured[0].get("book") if (not meta.get("lead_quote") and featured) else "")
+    statement = f'<blockquote class="statement">{esc(lead_q)}<span class="src">{esc(lead_src)}</span></blockquote>' if lead_q else ""
+    portrait = f'<figure class="portrait"><img src="{esc(meta["portrait"])}" alt="{esc(name)}" loading="lazy"><figcaption class="credit">{esc(meta.get("portrait_credit") or "")}</figcaption></figure>' if meta.get("portrait") else ""
+    html = htpl
+    for k, v in common.items():
+        html = html.replace(k, v)
+    html = (html.replace("__BORN__", esc(meta.get("born") or "")).replace("__DIED__", esc(meta.get("died") or ""))
+                .replace("__STATEMENT__", statement).replace("__PORTRAIT__", portrait).replace("__DOORS__", doors_html)
+                .replace("__FEATURED__", feat_html or "<p>Quotes are being gathered.</p>").replace("__EVENTS__", ev_html or "<p>The chronology is being gathered.</p>")
+                .replace("__INSTAGRAM_BTN__", f'<a class="btn primary" href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)} on Instagram</a>' if insta else "")
+                .replace("__INSTAGRAM_FOOT__", f'Daily quotes at <a href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)}</a>.' if insta else ""))
     (out / "index.html").write_text(html, encoding="utf-8")
-    for name in ("items.json", "quotes.json", "meta.json", "events.json", "people.json", "integrity.json", "download-manifest.json", "fetch.sh", "LICENSE"):
-        if (folder / name).exists():
-            shutil.copy(folder / name, out / name)
+
+    for n in ("items.json", "quotes.json", "meta.json", "events.json", "people.json", "integrity.json", "download-manifest.json", "fetch.sh", "LICENSE"):
+        if (folder / n).exists():
+            shutil.copy(folder / n, out / n)
     for md in folder.glob("*.md"):
         shutil.copy(md, out / md.name)
     if (folder / "catalogue").is_dir():
         shutil.copytree(folder / "catalogue", out / "catalogue", dirs_exist_ok=True)
-    counts = {m: sum(1 for i in items if i.get("medium") == m)
-              for m in ("video", "audio", "text", "image", "archive", "community")}
-    return {"slug": slug, "meta": meta, "counts": counts, "items": len(items), "quotes": len(quotes), "people": len(people), "events": len(events) or len(meta["events"])}
+    return {"slug": slug, "meta": {k: v for k, v in meta.items() if k != "events"}, "counts": counts, "items": len(items), "quotes": len(quotes), "people": len(people), "events": len(events) or len(meta["events"]), "pages": 1 + len(SECTIONS) + len(quotes)}
 
 
 def build_index(cards, out_path=None, prefix="gurus/"):
@@ -179,9 +247,17 @@ def main():
     for folder in sorted(p for p in TEACHERS.iterdir() if p.is_dir() and not p.name.startswith("_")):
         card = build_teacher(folder)
         cards.append(card)
-        print(f"{card['slug']}: {card['items']} items, {card['quotes']} quotes")
+        print(f"{card['slug']}: {card['items']} items, {card['quotes']} quotes, {card['pages']} pages")
     build_index(cards)
-    print(f"-> {SITE}")
+    base = "https://hanjopurebuddha.com"
+    urls = [f"{base}/"]
+    for f in sorted(SITE.rglob("index.html")):
+        rel = f.parent.relative_to(SITE).as_posix()
+        if rel != ".":
+            urls.append(f"{base}/{rel}/")
+    (SITE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>\n", encoding="utf-8")
+    (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    print(f"-> {SITE} ({len(urls)} urls)")
 
 
 if __name__ == "__main__":

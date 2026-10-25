@@ -1,0 +1,482 @@
+{
+ "summary": {
+  "items": 102,
+  "quotes": 63,
+  "events": 37,
+  "people": 24,
+  "items_by_medium": {
+   "archive": 27,
+   "community": 7,
+   "video": 8,
+   "audio": 6,
+   "image": 15,
+   "text": 39
+  },
+  "items_by_confidence": {
+   "S": 81,
+   "lead": 12,
+   "T": 9
+  },
+  "quotes_by_confidence": {
+   "S": 14,
+   "T": 49
+  },
+  "quotes_by_verdict": {
+   "single-source": 16,
+   "multi-source": 34,
+   "primary-source": 13
+  },
+  "quotes_by_book": {
+   "The Experience of No-Self": 16,
+   "The Path to No-Self": 9,
+   "What Is Self?": 10,
+   "The Real Christ": 5,
+   "Contemplative": 1,
+   "Essays on the Christian Contemplative Journey": 4,
+   "interview: Stephan Bodian 1986": 7,
+   "essay: Christ as the Definition of Non-duality": 1,
+   "essay: What Is Self?": 1,
+   "unassigned": 8,
+   "letter": 1
+  },
+  "distinct_source_hosts": 89,
+  "items_self_sourced_only": 42,
+  "items_with_second_source": 60,
+  "issue_counts": {
+   "event-date-conflict": 5,
+   "person-no-sources": 2,
+   "quote-unassigned-book": 8,
+   "quote-very-short": 1
+  }
+ },
+ "issues": {
+  "quote-very-short": [
+   [
+    "q7aa41b1d",
+    "absolute nothingness"
+   ]
+  ],
+  "quote-unassigned-book": [
+   [
+    "q32025793",
+    "the terms \"self\" and \"consciousness\" express the same experi"
+   ],
+   [
+    "qdde04e58",
+    "It never goes outside itself to know itself because the unma"
+   ],
+   [
+    "q35f54d7e",
+    "and when I finally saw 'that' which remains when there is no"
+   ],
+   [
+    "qad3c641c",
+    "the second movement as a continuation and completion of the "
+   ],
+   [
+    "q0608ea9b",
+    "without a personal God, the Buddhist must have a much strong"
+   ],
+   [
+    "q336b7ef3",
+    "God is everything that exists, except the self"
+   ],
+   [
+    "q7ebeb747",
+    "Camaldoli is my only true home on this earth"
+   ],
+   [
+    "q98059cf9",
+    "the no-self event is not a part of the world's mystical lite"
+   ]
+  ],
+  "event-date-conflict": [
+   [
+    "c. 1957",
+    "Leaves the cloister with the permission of her superiors to "
+   ],
+   [
+    "c. 1960",
+    "Returns to her parents' home in Hollywood and takes a degree"
+   ],
+   [
+    "c. 1975",
+    "The falling away of self: it begins while she is praying the"
+   ],
+   [
+    "c. 1977",
+    "End of the two-year passage described in The Experience of N"
+   ],
+   [
+    "2012",
+    "The Real Christ: Wikipedia and a 2015 blog date the work to "
+   ]
+  ],
+  "person-no-sources": [
+   [
+    "Bernard McGinn"
+   ],
+   [
+    "Jeffrey Kripal"
+   ]
+  ]
+ },
+ "hosts": [
+  [
+   "archive.org",
+   39
+  ],
+  [
+   "goodreads.com",
+   26
+  ],
+  [
+   "spiritualteachers.org",
+   21
+  ],
+  [
+   "amazon.com",
+   15
+  ],
+  [
+   "abebooks.com",
+   14
+  ],
+  [
+   "bernadetteroberts.blogspot.com",
+   13
+  ],
+  [
+   "books.google.com",
+   13
+  ],
+  [
+   "azquotes.com",
+   13
+  ],
+  [
+   "innerexplorations.com",
+   11
+  ],
+  [
+   "o-meditation.com",
+   11
+  ],
+  [
+   "youtube.com",
+   11
+  ],
+  [
+   "en.wikipedia.org",
+   8
+  ],
+  [
+   "awakeningtoreality.com",
+   7
+  ],
+  [
+   "enlightened-people.com",
+   7
+  ],
+  [
+   "everand.com",
+   7
+  ],
+  [
+   "sunypress.edu",
+   6
+  ],
+  [
+   "shalomplace.org",
+   6
+  ],
+  [
+   "realization.org",
+   5
+  ],
+  [
+   "libquotes.com",
+   5
+  ],
+  [
+   "josephbray.wordpress.com",
+   4
+  ],
+  [
+   "podcasts.apple.com",
+   4
+  ],
+  [
+   "westernmystics.wordpress.com",
+   4
+  ],
+  [
+   "nomindsland.blogspot.com",
+   4
+  ],
+  [
+   "citatis.com",
+   4
+  ],
+  [
+   "openlibrary.org",
+   3
+  ],
+  [
+   "standinginanopenfield.wordpress.com",
+   3
+  ],
+  [
+   "douglaslockhart.com",
+   3
+  ],
+  [
+   "aquariancatholicspiritualcommunity.net",
+   3
+  ],
+  [
+   "podtail.com",
+   3
+  ],
+  [
+   "shalomplace.com",
+   3
+  ],
+  [
+   "barnesandnoble.com",
+   3
+  ],
+  [
+   "open.spotify.com",
+   3
+  ],
+  [
+   "overdrive.com",
+   3
+  ],
+  [
+   "nodualidad.info",
+   3
+  ],
+  [
+   "bernadettesfriends.blogspot.com",
+   2
+  ],
+  [
+   "wikidata.org",
+   2
+  ],
+  [
+   "imere.org",
+   2
+  ],
+  [
+   "unexplained-mysteries.com",
+   2
+  ],
+  [
+   "actualized.org",
+   2
+  ],
+  [
+   "julianjaynes.org",
+   2
+  ],
+  [
+   "listennotes.com",
+   2
+  ],
+  [
+   "openroadmedia.com",
+   2
+  ],
+  [
+   "ebay.com",
+   2
+  ],
+  [
+   "alibris.com",
+   2
+  ],
+  [
+   "abebooks.co.uk",
+   2
+  ],
+  [
+   "theosophical.org",
+   2
+  ],
+  [
+   "zvab.com",
+   2
+  ],
+  [
+   "pdfcoffee.com",
+   2
+  ],
+  [
+   "quotefancy.com",
+   2
+  ],
+  [
+   "thedaobums.com",
+   2
+  ],
+  [
+   "wikiwand.com",
+   1
+  ],
+  [
+   "sentientpublications.com",
+   1
+  ],
+  [
+   "dancingparadox.podbean.com",
+   1
+  ],
+  [
+   "dharmaoverground.org",
+   1
+  ],
+  [
+   "forumserver.twoplustwo.com",
+   1
+  ],
+  [
+   "tatfoundation.org",
+   1
+  ],
+  [
+   "ia601904.us.archive.org",
+   1
+  ],
+  [
+   "anamchara.com",
+   1
+  ],
+  [
+   "newcamaldoli.engagewisdom.com",
+   1
+  ],
+  [
+   "programs.newdimensions.org",
+   1
+  ],
+  [
+   "play.google.com",
+   1
+  ],
+  [
+   "podbay.fm",
+   1
+  ],
+  [
+   "audible.com",
+   1
+  ],
+  [
+   "betterworldbooks.com",
+   1
+  ],
+  [
+   "holyfamilyretreat.org",
+   1
+  ],
+  [
+   "contemplativeoutreach.org",
+   1
+  ],
+  [
+   "simonandschuster.com",
+   1
+  ],
+  [
+   "strandbooks.com",
+   1
+  ],
+  [
+   "ebooks.com",
+   1
+  ],
+  [
+   "contemplativechristians.com",
+   1
+  ],
+  [
+   "christianbook.com",
+   1
+  ],
+  [
+   "eurobuch.at",
+   1
+  ],
+  [
+   "spirituelle-krisen.net",
+   1
+  ],
+  [
+   "issuu.com",
+   1
+  ],
+  [
+   "cloisteredlife.com",
+   1
+  ],
+  [
+   "flickr.com",
+   1
+  ],
+  [
+   "angelusnews.com",
+   1
+  ],
+  [
+   "rob-being.blogspot.com",
+   1
+  ],
+  [
+   "vitalsource.com",
+   1
+  ],
+  [
+   "amazon.co.uk",
+   1
+  ],
+  [
+   "amazon.de",
+   1
+  ],
+  [
+   "perlego.com",
+   1
+  ],
+  [
+   "ebay.de",
+   1
+  ],
+  [
+   "katolisitas.org",
+   1
+  ],
+  [
+   "actualfreedom.com.au",
+   1
+  ],
+  [
+   "medium.com",
+   1
+  ],
+  [
+   "freddieyam.com",
+   1
+  ],
+  [
+   "melotree-star.win",
+   1
+  ],
+  [
+   "taooflightyoga.com",
+   1
+  ]
+ ]
+}

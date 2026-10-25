@@ -62,6 +62,7 @@ a { color: var(--accent); }
     <div class="dates">${esc(c.meta.dates || '')}${c.meta.places ? ' · ' + esc(c.meta.places) : ''}</div>
     <p>${esc(c.meta.one_line || '')}</p>
     ${c.meta.lead_quote ? `<div class="quote">${esc(c.meta.lead_quote)}</div>` : ''}
+    ${c.meta.instagram ? `<div class="dates">@${esc(c.meta.instagram)} on Instagram</div>` : ''}
     <div class="counts">${Object.entries(c.counts).filter(([m, n]) => n).map(([m, n]) => `<span><i style="background:${C[m]}"></i>${n} ${m}</span>`).join('')}<span>${c.quotes} quotes</span></div>
   </a>`).join('');
 })();
