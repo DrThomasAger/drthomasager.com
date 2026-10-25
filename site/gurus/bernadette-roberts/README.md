@@ -11,15 +11,15 @@ below regenerate from `integrity.json`.
 <!-- counts -->
 | File | What | Count |
 |---|---|---|
-| `items.json` | located media items across video, audio, text, image, archive, community | 102 |
+| `items.json` | located media items across video, audio, text, image, archive, community | 135 |
 | `quotes.json` | words of the teacher, each with book, chapter, confidence, kind, verdict, sources | 109 |
 | `events.json` | dated life events with sources | 37 |
 | `people.json` | everyone connected to the record, with role and what they hold | 24 |
 
-Items by medium: archive 27, community 7, video 8, audio 6, image 15, text 39.
-Items by confidence: S 82, lead 11, T 9.
-Quotes by verdict: single-source 42, corroborated-primary 13, corroborated-secondary 21, disputed 4, multi-source 18, not-found 1, not-ug 3, primary-source 7.
-Distinct source hosts cited: 92.
+Items by medium: archive 32, community 14, video 20, audio 7, image 16, text 46.
+Items by confidence: S 114, lead 12, T 9.
+Quotes by verdict: single-source 39, corroborated-primary 13, corroborated-secondary 27, disputed 5, not-ug 5, not-found 2, primary-source 6, multi-source 12.
+Distinct source hosts cited: 104.
 <!-- /counts -->
 
 Her position on the copyright of her own words is recorded in

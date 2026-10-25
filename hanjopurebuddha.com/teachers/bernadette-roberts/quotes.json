@@ -360,7 +360,16 @@
   "source_hosts": [
    "innerexplorations.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "all particulars dissolved into absolute nothingness",
+   "out of nothingness arises the greatest of great realities",
+   "As the river flows, from out of the formless void arises the greatest of great realities, a simple smile."
+  ]
  },
  {
   "id": "q99a5d3a7",
@@ -388,7 +397,12 @@
    "douglaslockhart.com",
    "innerexplorations.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm",
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q61fe2ed4",
@@ -483,7 +497,14 @@
   "source_hosts": [
    "nomindsland.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/",
+   "https://nomindsland.blogspot.com/2018/11/bernadette-roberts-experience-of-no-self.html"
+  ],
+  "wording_variants": [
+   "In the first movement, self is not yet lost, but functions as a higher self in its union with God. In the second movement, self and God fall away."
+  ]
  },
  {
   "id": "qa6a54e9d",
@@ -1899,7 +1920,17 @@
    "archive.org",
    "julianjaynes.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://www.julianjaynes.org/jjsforum/viewtopic.php?t=414"
+  ],
+  "wording_variants": [
+   "the terms \"self\" and \"consciousness\" express the same experiences",
+   "No-self, then, means no-consciousness."
+  ]
  },
  {
   "id": "qdde04e58",
@@ -1927,7 +1958,11 @@
    "spiritualteachers.org",
    "westernmystics.wordpress.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q35f54d7e",
@@ -1953,7 +1988,13 @@
   "source_hosts": [
    "innerexplorations.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm",
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf",
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506/p/15?csra=Y&f=18910625&a=tpc&m=86510506&s=577106381&p=15"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qad3c641c",
@@ -1978,7 +2019,11 @@
   "source_hosts": [
    "innerexplorations.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q0608ea9b",
@@ -2005,7 +2050,17 @@
    "innerexplorations.com",
    "thedaobums.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+   "https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "As I see it, without a personal God, the Buddhist must have a much stronger faith in the \"unconditioned and unbegotten\""
+  ]
  },
  {
   "id": "q336b7ef3",
@@ -2032,7 +2087,15 @@
    "innerexplorations.com",
    "shalomplace.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/catchspmys/Critical_4.htm",
+   "https://enlightened-people.com/2014/07/bernadette-roberts/",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "Truly, God is all that exists–all, of course, but the self."
+  ]
  },
  {
   "id": "q9bc5472b",
@@ -2059,7 +2122,11 @@
    "innerexplorations.com",
    "shalomplace.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "wording_variants": [
+   "When her time has come, every woman must go it alone. (reader-comment attribution, unverified)"
+  ]
  },
  {
   "id": "q7ebeb747",
@@ -2086,7 +2153,14 @@
    "en.wikipedia.org",
    "westernmystics.wordpress.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.wikiwand.com/en/articles/Bernadette_Roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
+   "https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q98059cf9",
@@ -2111,7 +2185,13 @@
   "source_hosts": [
    "spiritualteachers.org"
   ],
-  "verdict": "single-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "She insists that the no-self event is not a part of the world's mystical literature and that her's is the first attempt to describe what is beyond the unitive stage."
+  ]
  },
  {
   "id": "qb1a2d107",
