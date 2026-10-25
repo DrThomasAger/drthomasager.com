@@ -23,7 +23,11 @@
   "source_hosts": [
    "innerexplorations.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q5a5cf149",
@@ -50,7 +54,11 @@
   "source_hosts": [
    "douglaslockhart.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q230710f7",
@@ -81,7 +89,14 @@
    "goodreads.com",
    "sunypress.edu"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.goodreads.com/book/show/345092.The_Experience_of_No_Self",
+   "https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised/dp/0791416941",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-revised-edition-pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q45cc28ad",
@@ -109,7 +124,15 @@
    "goodreads.com",
    "sunypress.edu"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://www.goodreads.com/en/book/show/345092",
+   "https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised/dp/0791416941"
+  ],
+  "wording_variants": [
+   "Thus it is only where these writers leave off that I propose to begin."
+  ]
  },
  {
   "id": "q45d56e01",
@@ -138,7 +161,14 @@
    "enlightened-people.com",
    "o-meditation.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://enlightened-people.com/2014/07/bernadette-roberts/",
+   "https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
+   "https://nomindsland.blogspot.com/2020/06/bernadette-roberts-in-absence-of.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q64642b84",
@@ -166,7 +196,14 @@
    "enlightened-people.com",
    "nomindsland.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://nomindsland.blogspot.com/2018/11/bernadette-roberts-experience-of-no-self.html",
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-revised-edition-pdf"
+  ],
+  "wording_variants": [
+   "on previous occasions, I had come upon a pervasive silence of the faculties so total as to give rise to subtle apprehensions of fear"
+  ]
  },
  {
   "id": "q2f5dd30c",
@@ -194,7 +231,13 @@
    "enlightened-people.com",
    "nomindsland.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://nomindsland.blogspot.com/2018/11/bernadette-roberts-experience-of-no-self.html"
+  ],
+  "wording_variants": [
+   "One day that silence could not be broken, for the fear did not come."
+  ]
  },
  {
   "id": "q60937155",
@@ -221,7 +264,11 @@
    "enlightened-people.com",
    "innerexplorations.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q066e6835",
@@ -249,7 +296,14 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-pdf",
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://quotlr.com/author/bernadette-roberts",
+   "https://citatis.com/a30913/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qf9657fc9",
@@ -276,7 +330,12 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://quotlr.com/author/bernadette-roberts"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q7aa41b1d",
@@ -354,7 +413,14 @@
   "source_hosts": [
    "shalomplace.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148",
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "wording_variants": [
+   "decided that Christ WAS the joy, the emptiness itself"
+  ]
  },
  {
   "id": "qbb7bfd78",
@@ -383,7 +449,14 @@
    "goodreads.com",
    "medium.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://medium.com/@jkowall031/bernadette-roberts-who-is-a-catholic-nun-described-the-experience-of-no-self-in-her-book-the-466cb2174974",
+   "https://epdf.pub/the-experience-of-no-self-a-contemplative-journeyd841f9966b8b0166ae5e16ce9e51cdda3520.html"
+  ],
+  "wording_variants": [
+   "the journey beyond union, beyond self and God, a journey into the silent and still regions of the Unknown"
+  ]
  },
  {
   "id": "qafca4e1c",
@@ -438,7 +511,17 @@
    "goodreads.com",
    "josephbray.wordpress.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://citatis.com/a30913/",
+   "https://libquotes.com/bernadette-roberts",
+   "https://quotlr.com/author/bernadette-roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "the falling away of the self and a coming upon of 'that' which remains when it is gone"
+  ]
  },
  {
   "id": "q9d30b69a",
@@ -467,7 +550,15 @@
    "azquotes.com",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://quotefancy.com/quote/1637798/Bernadette-Roberts-The-truest-communication-with-God-is-absolute-total-silence-there-is",
+   "https://libquotes.com/bernadette-roberts/quote/lbs7n1w",
+   "https://citatis.com/a30913/",
+   "https://www.surrender2god.com/silence.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qfd33296f",
@@ -498,7 +589,17 @@
    "goodreads.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "And when there is no longer a cyclone, there is also no longer an eye."
+  ]
  },
  {
   "id": "q19a3d246",
@@ -527,7 +628,14 @@
    "azquotes.com",
    "libquotes.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html",
+   "https://books.google.gm/books?id=XpJFAgAAQBAJ",
+   "https://quotlr.com/author/bernadette-roberts"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q78be2fac",
@@ -553,7 +661,16 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html",
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-2-pdf-free.html",
+   "https://libquotes.com/bernadette-roberts"
+  ],
+  "wording_variants": [
+   "a movement that ultimately leads to no-self (no true-self and no-union)"
+  ]
  },
  {
   "id": "q88fe120c",
@@ -585,7 +702,15 @@
    "libquotes.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://quotefancy.com/bernadette-roberts-quotes",
+   "https://citatis.com/a30913/",
+   "https://quotlr.com/author/bernadette-roberts",
+   "https://www.wisefamousquotes.com/bernadette-roberts-quotes/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa2082e12",
@@ -612,7 +737,18 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/963052",
+   "https://minimalistquotes.com/bernadette-roberts-quote-321691/",
+   "https://libquotes.com/bernadette-roberts",
+   "https://citatis.com/a30913/",
+   "https://goldenageofgaia.com/2021/08/13/bernadette-roberts-describes-her-ascension-part-2-2/"
+  ],
+  "wording_variants": [
+   "It can no longer be tested by any force or trial, nor moved by the winds of change, and at this point the self has obviously outworn its function; it is no longer needed or useful, and life can go on without it.",
+   "...outgrown its function (goldenageofgaia variant)"
+  ]
  },
  {
   "id": "qfb8ae3e7",
@@ -637,7 +773,15 @@
   "source_hosts": [
    "azquotes.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/963052",
+   "https://libquotes.com/bernadette-roberts",
+   "https://citatis.com/a30913/"
+  ],
+  "wording_variants": [
+   "a point is reached where the self is so completely aligned with the still-point that it can no longer be moved..."
+  ]
  },
  {
   "id": "qbe7feed4",
@@ -666,7 +810,9 @@
    "azquotes.com",
    "pdfcoffee.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q09b3c0c6",
@@ -698,7 +844,15 @@
    "libquotes.com",
    "quotefancy.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/1637797/Bernadette-Roberts-Only-God-is-love-and-for-this-love-to-be-fully-realized-self-must-step",
+   "https://citatis.com/a30913/",
+   "http://www.numii.net/word_press/gurus/bernadette-roberts",
+   "https://enlightened-people.com/2014/07/bernadette-roberts/",
+   "https://idlehearts.com/quotes/author/bernadette-roberts"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qfc9565bd",
@@ -727,7 +881,17 @@
    "freddieyam.com",
    "goodreads.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/7507838-the-major-problem-with-the-notion-of-transformation-is-that",
+   "https://www.goodreads.com/work/quotes/335419-what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousnes",
+   "https://www.theendofseeking.org/bernadette-roberts",
+   "https://quotefancy.com/bernadette-roberts-quotes",
+   "https://citatis.com/a30913/"
+  ],
+  "wording_variants": [
+   "There is a major problem with the notion of transformation..."
+  ]
  },
  {
   "id": "q91b0441a",
@@ -754,7 +918,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
+   "https://www.goodreads.com/quotes/7507838-the-major-problem-with-the-notion-of-transformation-is-that",
+   "https://www.theendofseeking.org/bernadette-roberts"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qf3f06c8c",
@@ -783,7 +953,13 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://dn721908.ca.archive.org/0/items/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q0b54eb65",
@@ -811,7 +987,14 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "wording_variants": [
+   "...that which remains when there is no self (The Experience of No-Self, p. 140)"
+  ]
  },
  {
   "id": "qee0b27d3",
@@ -839,7 +1022,11 @@
    "goodreads.com",
    "innerexplorations.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qaf2a7bb7",
@@ -870,7 +1057,17 @@
    "goodreads.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
+   "https://www.goodreads.com/work/quotes/66521494-the-christian-contemplative-journey-essays-on-the-path",
+   "https://tyler-newman.medium.com/what-jesus-christ-and-the-buddha-unearthed-within-themselves-28b40f757cf",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/"
+  ],
+  "wording_variants": [
+   "Both Christ and Buddha saw the passage as one of suffering, and basically found identical ways out."
+  ]
  },
  {
   "id": "qdffeb96d",
@@ -897,7 +1094,13 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
+   "https://epdf.pub/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qe5c7c65f",
@@ -925,7 +1128,13 @@
    "archive.org",
    "melotree-star.win"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
+   "https://www.melotree-star.win/bernadette.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q00062066",
@@ -953,7 +1162,14 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://epdf.pub/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness.html"
+  ],
+  "wording_variants": [
+   "In Part I, Bernadette begins by describing self as the mind bending on itself to know and see itself, which she calls reflexion."
+  ]
  },
  {
   "id": "q674005ff",
@@ -979,7 +1195,11 @@
   "source_hosts": [
    "theosophical.org"
   ],
-  "verdict": "single-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://www.melotree-star.win/bernadette.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qffee5269",
@@ -1005,7 +1225,11 @@
   "source_hosts": [
    "archive.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qaf5c7608",
@@ -1034,7 +1258,14 @@
    "archive.org",
    "goodreads.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://transcendentalist.substack.com/p/from-the-desk-of-the-absolute-bernadette"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa88289be",
@@ -1061,7 +1292,16 @@
   "source_hosts": [
    "archive.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf",
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
+   "http://bernadettesfriends.blogspot.com/",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "wording_variants": [
+   "Since God is neither mother, father, son or daughter, these metaphors must not be taken literally or understood as God ad intra (God-in-Itself)."
+  ]
  },
  {
   "id": "q008ac23e",
@@ -1087,7 +1327,16 @@
   "source_hosts": [
    "archive.org"
   ],
-  "verdict": "primary-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/1/xsl/print_topic"
+  ],
+  "wording_variants": [
+   "if the incarnation was just about one human being's oneness with God, it would be meaningless to the rest of mankind",
+   "Christ is God creating Its own human nature - i.e., man's one universal human nature - eternally one with Itself"
+  ]
  },
  {
   "id": "qc32db283",
@@ -1141,7 +1390,11 @@
    "archive.org",
    "goodreads.com"
   ],
-  "verdict": "primary-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qc6f04319",
@@ -1167,7 +1420,13 @@
   "source_hosts": [
    "josephbray.wordpress.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/",
+   "https://www.thriftbooks.com/w/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness_bernadette-roberts/522646/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa96340fd",
@@ -1200,7 +1459,14 @@
    "goodreads.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/10113283-as-a-christian-i-saw-the-no-self-experience-as-the",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://citatis.com/a30913/",
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q885f4c3e",
@@ -1232,7 +1498,16 @@
    "goodreads.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": [
+   "comparable, perhaps to the eye of a cyclone, a spot or center of calm, imperturbability, and non-movement"
+  ]
  },
  {
   "id": "qbbc255fb",
@@ -1263,7 +1538,16 @@
    "goodreads.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/66521494-the-christian-contemplative-journey-essays-on-the-path",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/"
+  ],
+  "wording_variants": [
+   "Buddha's \"emptiness\" or \"void\", a refuge from the swirling cyclone of endless suffering",
+   "Christ articulated the eye in more positive terms as the \"Kingdom of God\" or the \"Spirit within\""
+  ]
  },
  {
   "id": "qca48c952",
@@ -1290,7 +1574,14 @@
    "realization.org",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "http://taooflightyoga.com/index.php/blog/bernadette-roberts-interview-from-the-book-timeless-visions-healing-voices-by-stephan-bodian",
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qc464e660",
@@ -1319,7 +1610,17 @@
    "realization.org",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+   "https://www.thedaobums.com/topic/33012-bernadette-roberts-christian-contemplative-view-on-buddhism/",
+   "https://realtruthlife.blogspot.com/p/experience-of-no-self.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q7502014e",
@@ -1346,7 +1647,11 @@
    "realization.org",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://realtruthlife.blogspot.com/p/experience-of-no-self.html"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qa8726644",
@@ -1376,7 +1681,17 @@
    "spiritualteachers.org",
    "thedaobums.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+   "https://www.dharmaoverground.org/discussion/-/message_boards/message/753213",
+   "https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q147cc879",
@@ -1406,7 +1721,16 @@
    "spiritualteachers.org",
    "standinginanopenfield.wordpress.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+   "https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "qd595c753",
@@ -1433,7 +1757,17 @@
    "o-meditation.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/"
+  ],
+  "wording_variants": [
+   "some 20 years after leaving the convent"
+  ]
  },
  {
   "id": "qf4de088e",
@@ -1462,7 +1796,14 @@
    "spiritualteachers.org",
    "taooflightyoga.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "not-ug",
+  "confirming_sources": [
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "wording_variants": []
  },
  {
   "id": "q196b5e82",
@@ -1490,7 +1831,16 @@
    "bernadetteroberts.blogspot.com",
    "books.google.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf",
+   "https://www.scribd.com/document/494418064/Bernadette-Roberts-The-Real-Christ",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "wording_variants": [
+   "Christ is not the oneness of two persons, two individuals or two beings (a divine being and a human being), rather, Christ is the eternal oneness of two natures, divine and human."
+  ]
  },
  {
   "id": "qe87885fb",
@@ -1760,6 +2110,1234 @@
   "origin": "quotes-b",
   "source_hosts": [
    "spiritualteachers.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qb1a2d107",
+  "text": "In some ways, all our experiences of God are beyond belief, because all conceptual beliefs pale when compared to the experiential reality.",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "god",
+   "experience",
+   "belief",
+   "faith",
+   "book-the-path-to-no-self",
+   "kind-verbatim"
+  ],
+  "note": "AZQuotes cites The Path to No-Self: Life at the Center (SUNY Press 1985), p.34; same wording on QuoteFancy, Citatis, Quotlr, LibQuotes.",
+  "sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://quotefancy.com/bernadette-roberts-quotes",
+   "https://citatis.com/a30913/",
+   "https://libquotes.com/bernadette-roberts"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "azquotes.com",
+   "citatis.com",
+   "libquotes.com",
+   "quotefancy.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q5ed0c359",
+  "text": "In the absence of self, all that remained was an immovable stillness, an unbreakable, unfeeling silence.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "no-self",
+   "stillness",
+   "silence",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "From the autobiographical sketch Roberts wrote for Mystics, Masters, Saints and Sages (Ullman & Reichenberg-Ullman, 2001), reposted on No Mind's Land (2020) and Sat Sangha Salon; an Enlightened People commenter attributes it to The Experience of No-Self. Attribution conflict.",
+  "sources": [
+   "https://nomindsland.blogspot.com/2020/06/bernadette-roberts-in-absence-of.html",
+   "https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/",
+   "https://enlightened-people.com/bernadette-roberts-enlightenment-story/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "enlightened-people.com",
+   "nomindsland.blogspot.com",
+   "o-meditation.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q1c7dca73",
+  "text": "The process of unveiling will eventually bring us in contact with ultimate reality – a reality we cannot define or talk about using words.",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "ultimate-reality",
+   "unveiling",
+   "ineffability",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "Quoted by The Enlightenment & Simple Living Institute (tesli.org); original book not named.",
+  "sources": [
+   "https://tesli.org/whats-left-after-unveiling/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "tesli.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q38827d6b",
+  "text": "a time of transition and revelation as it gradually comes upon \"that\" which remains when there is no self",
+  "book": "The Experience of No-Self",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "no-self",
+   "that-which-remains",
+   "transition",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "Fragment as given in a compiled quote collection; describes the two-year period the book covers (a period of adjusting to a new way of seeing).",
+  "sources": [
+   "https://www.azquotes.com/author/28250-Bernadette_Roberts",
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "azquotes.com",
+   "goodreads.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q03c1375a",
+  "text": "the self has obviously outworn its function",
+  "book": "The Experience of No-Self",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "self",
+   "function",
+   "journey-s-end",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "Fragment; search summary gives 'the point where it has obviously outworn its function'.",
+  "sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "innerexplorations.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q34bda6ae",
+  "text": "Since I hold no human being is God, those who disagree will only find this book upsetting and disagreeable.",
+  "book": "The Real Christ",
+  "chapter": null,
+  "year": 2017,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "christ",
+   "jesus",
+   "incarnation",
+   "no-human-being-is-god",
+   "book-the-real-christ",
+   "kind-verbatim"
+  ],
+  "note": "From the author's warning on her Books page (bernadetteroberts.blogspot.com) regarding The Real Christ.",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "bernadetteroberts.blogspot.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qf93dffc2",
+  "text": "This book is an account of my spiritual journey from birth to seventeen. Since my earlier work, The Path to No-Self, begins at seventeen",
+  "book": "Contemplative: Autobiography of the Early Years",
+  "chapter": null,
+  "year": 2008,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "autobiography",
+   "childhood",
+   "journey",
+   "book-contemplative-autobiography-of-the-early-years",
+   "kind-fragment"
+  ],
+  "note": "Opening sentence(s) of the book, as excerpted in the archive.org scan description / search snippet; second sentence truncated.",
+  "sources": [
+   "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "archive.org"
+  ],
+  "verdict": "primary-source"
+ },
+ {
+  "id": "q9e579964",
+  "text": "I never came upon anything mom called a \"true self\". As I saw it, my one single self was true",
+  "book": "Contemplative: Autobiography of the Early Years",
+  "chapter": null,
+  "year": 2008,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "childhood",
+   "true-self",
+   "self",
+   "mother",
+   "book-contemplative-autobiography-of-the-early-years",
+   "kind-fragment"
+  ],
+  "note": "Childhood passage; sentence truncated in the search summary.",
+  "sources": [
+   "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "archive.org"
+  ],
+  "verdict": "primary-source"
+ },
+ {
+  "id": "qf4d4dd93",
+  "text": "a path exists between the transcendence of the ego (self-center), which begins the unitive state, and the later falling away of all self (the true self), which ends the unitive state",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "unitive-state",
+   "ego",
+   "true-self",
+   "path",
+   "book-the-path-to-no-self",
+   "kind-fragment"
+  ],
+  "note": "From the publisher's description (SUNY Press / Google Play); phrased 'The author shows that a path exists...' so may be publisher wording built from her preface.",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self",
+   "https://play.google.com/store/books/details?id=XpJFAgAAQBAJ"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "play.google.com",
+   "sunypress.edu"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "qa1678a05",
+  "text": "the Passive Night of the Spirit as the falling away of the ego-center, the dire experience of emptiness and void in ourselves",
+  "book": "The Path to No-Self",
+  "chapter": "Preface",
+  "year": 1985,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "dark-night",
+   "passive-night",
+   "ego",
+   "emptiness",
+   "john-of-the-cross",
+   "book-the-path-to-no-self",
+   "kind-fragment"
+  ],
+  "note": "Preface excerpt as summarized from a PDF mirror; sentence structure may be altered.",
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q23bf0396",
+  "text": "entrance into the Passive Night of the Spirit is the beginning of the unitive state or unitive way of life",
+  "book": "The Path to No-Self",
+  "chapter": "Preface",
+  "year": 1985,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "dark-night",
+   "passive-night",
+   "unitive-state",
+   "book-the-path-to-no-self",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q35883b4d",
+  "text": "a movement from an I-thou consciousness to a simple and singular We consciousness",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "unitive-state",
+   "consciousness",
+   "i-thou",
+   "we",
+   "book-the-path-to-no-self",
+   "kind-fragment"
+  ],
+  "note": "Describes the change at entry into the unitive state.",
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q5bf1f073",
+  "text": "once we have adjusted to the unitive state, the spiritual journey moves on to yet another more final ending",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "unitive-state",
+   "journey",
+   "ending",
+   "book-the-path-to-no-self",
+   "kind-fragment"
+  ],
+  "note": "Publisher blurb wording; may be editorial rather than hers.",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "sunypress.edu"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q3050a57c",
+  "text": "there is no such \"thing\" as \"the unconscious\" or an \"unconscious self\"",
+  "book": "What Is Self?",
+  "chapter": null,
+  "year": 1989,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "unconscious",
+   "jung",
+   "self",
+   "psychology",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "Search summary attributes it to 'a separate essay' arguing that 'unconscious' is only a label for what one does not know; could belong to the Jung section of What Is Self? or to the essays volume.",
+  "sources": [
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://www.julianjaynes.org/jjsforum/viewtopic.php?t=414"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "archive.org",
+   "julianjaynes.org"
+  ],
+  "verdict": "primary-source"
+ },
+ {
+  "id": "q77f89b56",
+  "text": "With the disappearance of self and God, the entire affective system of feeling and emotion disappeared",
+  "book": "The Experience of No-Self",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "no-self",
+   "god",
+   "affective-system",
+   "feeling",
+   "emotion",
+   "book-the-experience-of-no-self",
+   "kind-verbatim"
+  ],
+  "note": "Quoted by a Dharma Overground poster collecting passages parallel to Advaita Vedanta.",
+  "sources": [
+   "https://www.dharmaoverground.org/discussion/-/message_boards/message/753213"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "dharmaoverground.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q4d0a46fa",
+  "text": "a dynamic, intense state of taking care of whatever arises in the now-moment",
+  "book": "The Experience of No-Self",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "no-self",
+   "now-moment",
+   "daily-life",
+   "marketplace",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "Quoted by a Dharma Overground poster.",
+  "sources": [
+   "https://www.dharmaoverground.org/discussion/-/message_boards/message/753213"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "dharmaoverground.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q24ebcf72",
+  "text": "the purpose of the Incarnation was to reveal Man, God's eternal plan for oneness with God",
+  "book": "The Real Christ",
+  "chapter": null,
+  "year": 2017,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "incarnation",
+   "man",
+   "oneness",
+   "christ",
+   "book-the-real-christ",
+   "kind-paraphrase"
+  ],
+  "note": "As given by a Shalom Place poster discussing The Real Christ; 'the Incarnation's purpose was to reveal Man, not the man Jesus'.",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/1/xsl/print_topic"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "shalomplace.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q76139afc",
+  "text": "come off the top of the head",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "no-self",
+   "thought",
+   "speech",
+   "passage-through-self",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "From the talk/booklet 'A Passage Through Self', describing how words arise in the no-self state; quoted on Shalom Place.",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "shalomplace.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qa1d5eefd",
+  "text": "revolutionary, not just because of the depth to which it is taken, but because it is done in terms of consciousness itself",
+  "book": "What Is Self?",
+  "chapter": "Foreword (Jeff Shore)",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "foreword",
+   "jeff-shore",
+   "consciousness",
+   "christian-path",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "NOT Roberts: Jeff Shore's foreword, on her Christian contemplative path.",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "everand.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q747d1ceb",
+  "text": "she could find no other term that so precisely expresses the truth of the matter",
+  "book": "What Is Self?",
+  "chapter": "Foreword (Jeff Shore)",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "foreword",
+   "jeff-shore",
+   "no-self",
+   "terminology",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "NOT Roberts: Jeff Shore's foreword, on why she uses the term 'no-self'.",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "everand.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q0656d525",
+  "text": "Roberts describes this unconscious mechanism of the mind reflecting or bending on itself \"reflexive consciousness\" and \"self-reflexion\"",
+  "book": "What Is Self?",
+  "chapter": "Foreword (Jeff Shore)",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "foreword",
+   "jeff-shore",
+   "reflexive-consciousness",
+   "self-reflexion",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "NOT Roberts: Jeff Shore's foreword.",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "everand.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q145166d9",
+  "text": "it is not a matter of discarding one religion for another, but of delving to the very depths",
+  "book": "What Is Self?",
+  "chapter": "Foreword (Jeff Shore)",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "foreword",
+   "jeff-shore",
+   "religion",
+   "catholicism",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "NOT Roberts: Jeff Shore's foreword.",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "everand.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q7c229bd4",
+  "text": "Roberts's insight into Buddhism far surpasses that of many Buddhist writers",
+  "book": "What Is Self?",
+  "chapter": "Foreword (Jeff Shore)",
+  "year": 2005,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "foreword",
+   "jeff-shore",
+   "buddhism",
+   "book-what-is-self",
+   "kind-paraphrase"
+  ],
+  "note": "NOT Roberts: Jeff Shore's foreword, as paraphrased by the search summary.",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "everand.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q6cb1010b",
+  "text": "a personality cult, worshipping the man Jesus rather than acknowledging the \"mystery of God's indivisible oneness with the essence of mankind\"",
+  "book": "The Real Christ",
+  "chapter": null,
+  "year": 2017,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "jesus",
+   "christ",
+   "incarnation",
+   "oneness",
+   "mankind",
+   "book-the-real-christ",
+   "kind-fragment"
+  ],
+  "note": "Book description (likely author-written) on Amazon/Goodreads; the inner quotation is marked as hers.",
+  "sources": [
+   "https://www.goodreads.com/book/show/40613741-the-real-christ",
+   "https://www.amazon.in/Real-Christ-Bernadette-Roberts/dp/1591812828"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "amazon.in",
+   "goodreads.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q692cbd54",
+  "text": "Down the road from where I lived there was a monastery by the sea, and on afternoons when I could get away I liked to spend some time alone in the silence of its chapel.",
+  "book": "The Experience of No-Self",
+  "chapter": "Part I: The Journey, ch. 1",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "chapel",
+   "monastery",
+   "silence",
+   "first-days",
+   "opening",
+   "book-the-experience-of-no-self",
+   "kind-verbatim"
+  ],
+  "note": "Opening sentence of Chapter 1 as shown in the Perlego preview of the 2nd (SUNY) edition.",
+  "sources": [
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-pdf"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "perlego.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qdec4ad93",
+  "text": "Sister was rattling the keys of the chapel door",
+  "book": "The Experience of No-Self",
+  "chapter": "Part I: The Journey, ch. 1",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "chapel",
+   "first-days",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "End of the opening chapel passage, per the Perlego preview.",
+  "sources": [
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-pdf"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "perlego.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qef5dd361",
+  "text": "the moment was unheralded, unrecognized, and unknown; it was the moment \"I\" entered a great silence and never returned",
+  "book": "The Experience of No-Self",
+  "chapter": "Part I: The Journey, ch. 1",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "great-silence",
+   "no-self",
+   "moment",
+   "first-days",
+   "book-the-experience-of-no-self",
+   "kind-verbatim"
+  ],
+  "note": "Extends the already-harvested fragment 'it was the moment \"I\" entered a great silence and never returned' with its opening clause.",
+  "sources": [
+   "https://enlightened-people.com/bernadette-roberts-enlightenment-story/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "enlightened-people.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q889cddbc",
+  "text": "the more it tried to reflect back on itself, the more overpowering the silence",
+  "book": "The Experience of No-Self",
+  "chapter": "Part I: The Journey",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "silence",
+   "mind",
+   "reflexion",
+   "no-self",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "'it' = the mind, which in no-self could no longer see itself as an object. Quoted on Enlightened People and o-meditation.",
+  "sources": [
+   "https://enlightened-people.com/bernadette-roberts-enlightenment-story/",
+   "https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "enlightened-people.com",
+   "o-meditation.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q4d3eaaf1",
+  "text": "a journey into the silent and still regions of the Unknown",
+  "book": "The Experience of No-Self",
+  "chapter": "Introduction",
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "introduction",
+   "journey",
+   "unknown",
+   "silence",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "From the Introduction; follows the already-harvested 'It is only where these writers leave off that I propose to begin.'",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://www.goodreads.com/book/show/345092.The_Experience_of_No_Self"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "goodreads.com",
+   "sunypress.edu"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q1e2addbd",
+  "text": "desiring for them the same good we desire for ourselves",
+  "book": "The Experience of No-Self",
+  "chapter": null,
+  "year": 1982,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "love",
+   "neighbour",
+   "others",
+   "book-the-experience-of-no-self",
+   "kind-fragment"
+  ],
+  "note": "Highlighted line on the Goodreads book page, on love for others.",
+  "sources": [
+   "https://www.goodreads.com/book/show/345092.The_Experience_of_No_Self"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "goodreads.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qd5f844f5",
+  "text": "There is far more to the elusive experience we call self than just the ego.",
+  "book": "interview: Stephan Bodian 1986",
+  "chapter": null,
+  "year": 1986,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "self",
+   "ego",
+   "no-ego",
+   "no-self",
+   "book-interview-stephan-bodian-1986",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "o-meditation.com",
+   "realization.org",
+   "spiritualteachers.org"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q8cae5ac0",
+  "text": "loss of ego, loss of self, is just a by-product of this surrender; it is not the true goal, not an end in itself",
+  "book": "interview: Stephan Bodian 1986",
+  "chapter": null,
+  "year": 1986,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "surrender",
+   "ego",
+   "no-self",
+   "goal",
+   "book-interview-stephan-bodian-1986",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "o-meditation.com",
+   "realization.org",
+   "spiritualteachers.org"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q820137ed",
+  "text": "I think it may be too late for me to ever have a good understanding of how other religions make this passage.",
+  "book": "interview: Stephan Bodian 1986",
+  "chapter": null,
+  "year": 1986,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "religions",
+   "buddhism",
+   "passage",
+   "comparison",
+   "book-interview-stephan-bodian-1986",
+   "kind-verbatim"
+  ],
+  "note": null,
+  "sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "o-meditation.com",
+   "realization.org",
+   "spiritualteachers.org"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q3440ffc3",
+  "text": "to eliminate any possibility for misunderstanding",
+  "book": "interview: Stephan Bodian 1986",
+  "chapter": null,
+  "year": 1986,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "interview",
+   "written-answers",
+   "book-interview-stephan-bodian-1986",
+   "kind-fragment"
+  ],
+  "note": "Bodian's preamble explaining why Roberts answered in writing; may be Bodian's wording rather than hers.",
+  "sources": [
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "o-meditation.com",
+   "realization.org",
+   "spiritualteachers.org"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "q83876db2",
+  "text": "something like an underground explosion, with all parts of being thrown out of control in every direction",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "dark-night",
+   "explosion",
+   "interior-center",
+   "book-the-path-to-no-self",
+   "kind-paraphrase"
+  ],
+  "note": "Describes the deepest interior center during the Passive Night; wording as summarized from a PDF mirror near its p.47 marker.",
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-2-pdf-free.html",
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qfe900dfc",
+  "text": "once the denial is completed, the energies vanish and a blessed, divine stillness takes their place",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "stillness",
+   "energies",
+   "denial",
+   "dark-night",
+   "book-the-path-to-no-self",
+   "kind-paraphrase"
+  ],
+  "note": "Summarized from a PDF mirror; 'blessed, divine stillness' appears verbatim.",
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q6e665603",
+  "text": "the silence no longer produces any energy, because everything has become immovably still",
+  "book": "The Path to No-Self",
+  "chapter": null,
+  "year": 1985,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "silence",
+   "stillness",
+   "energy",
+   "book-the-path-to-no-self",
+   "kind-paraphrase"
+  ],
+  "note": "Summarized from a PDF mirror; 'immovably still' appears verbatim.",
+  "sources": [
+   "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "pdfcoffee.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qd8821dc7",
+  "text": "self is the entire system of consciousness, from the unconscious to God-consciousness",
+  "book": "What Is Self?",
+  "chapter": null,
+  "year": 1989,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "self",
+   "consciousness",
+   "unconscious",
+   "god-consciousness",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": null,
+  "sources": [
+   "https://archive.org/details/roberts.what-is-self",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "archive.org",
+   "awakeningtoreality.com"
+  ],
+  "verdict": "primary-source"
+ },
+ {
+  "id": "qa96e5453",
+  "text": "the revelation and mystery of Christ has [to be] exploded to reveal and include all Truth",
+  "book": "What Is Self?",
+  "chapter": null,
+  "year": 1989,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "christ",
+   "revelation",
+   "truth",
+   "book-what-is-self",
+   "kind-fragment"
+  ],
+  "note": "Cited at p.127 by a secondary source; bracketed words are the reviewer's.",
+  "sources": [
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "awakeningtoreality.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q022454d5",
+  "text": "universal human nature is not a numerical one among many - nor is God a numerical one among many",
+  "book": "unassigned",
+  "chapter": null,
+  "year": 2015,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "christ",
+   "non-duality",
+   "human-nature",
+   "god",
+   "two-natures",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "From her 2015 SAND Conference paper 'Nonduality as a Definition of Christ' (o-meditation PDF); closely related to the essay 'Christ as the Definition of Non-duality'.",
+  "sources": [
+   "https://o-meditation.com/downloadable-books/bernadette-roberts-books/non-duality-as-a-definition-of-christ-3/"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "o-meditation.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q9a2a3189",
+  "text": "Christ is the eternal Godhead, while man is once removed from the Godhead",
+  "book": "unassigned",
+  "chapter": null,
+  "year": null,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "christ",
+   "godhead",
+   "man",
+   "trinity",
+   "book-unassigned",
+   "kind-paraphrase"
+  ],
+  "note": "Forum poster's rendering of her position; not verified against a text.",
+  "sources": [
+   "https://spiritualteachers.proboards.com/thread/1735/why-bernadette-roberts-non-dualist"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "spiritualteachers.proboards.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q215e7bff",
+  "text": "He thinks what I mean by No-Self is no different than what the Buddhists mean by their an-atman doctrine",
+  "book": "unassigned",
+  "chapter": null,
+  "year": 2008,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "arraj",
+   "buddhism",
+   "anatman",
+   "no-self",
+   "reply",
+   "book-unassigned",
+   "kind-verbatim"
+  ],
+  "note": "From her 2008 'Reply to James Arraj's comments' (blog), as quoted by a Shalom Place poster; 'He' = Jim Arraj.",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506?r=46410706"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "shalomplace.org"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q36aa0c20",
+  "text": "forcing the fit",
+  "book": "unassigned",
+  "chapter": null,
+  "year": 2008,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "nondualism",
+   "misinterpretation",
+   "almaas",
+   "marion",
+   "arraj",
+   "book-unassigned",
+   "kind-fragment"
+  ],
+  "note": "Her phrase for nondualist misreadings of her paradigm; also the title of her 2008 spiral-bound manuscript 'Forcing the Fit' addressing A.H. Almaas, James Marion and Jim Arraj.",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "awakeningtoreality.com",
+   "bernadetteroberts.blogspot.com"
+  ],
+  "verdict": "multi-source"
+ },
+ {
+  "id": "qfd5bc008",
+  "text": "What they discovered and revealed to us was that each of us has within himself or herself a \"stillpoint\"",
+  "book": "Essays on the Christian Contemplative Journey",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "fragment",
+  "tags": [
+   "stillpoint",
+   "christ",
+   "buddha",
+   "book-essays-on-the-christian-contemplative-journey",
+   "kind-fragment"
+  ],
+  "note": "Variant opening of the already-harvested 'each person has within a stillpoint...' passage (Goodreads); 'they' = Christ and Buddha.",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "goodreads.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "qc5b19862",
+  "text": "Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth.",
+  "book": "Essays on the Christian Contemplative Journey",
+  "chapter": null,
+  "year": 2007,
+  "confidence": "S",
+  "kind": "verbatim",
+  "tags": [
+   "buddha",
+   "christ",
+   "no-self",
+   "truth",
+   "book-essays-on-the-christian-contemplative-journey",
+   "kind-verbatim"
+  ],
+  "note": "Goodreads author-quotes page; book attribution inferred from its neighbours (the stillpoint/cyclone passage credited to the essays volume).",
+  "sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "goodreads.com"
+  ],
+  "verdict": "single-source"
+ },
+ {
+  "id": "q743f2e6e",
+  "text": "Christ is neither a divine being nor a human being",
+  "book": "The Real Christ",
+  "chapter": null,
+  "year": 2017,
+  "confidence": "S",
+  "kind": "paraphrase",
+  "tags": [
+   "christ",
+   "two-natures",
+   "incarnation",
+   "book-the-real-christ",
+   "kind-paraphrase"
+  ],
+  "note": "Search summary: 'The same passage denies that Christ is either a divine being or a human being' (follows 'Christ is the eternal oneness of two natures').",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "origin": "quotes-d",
+  "source_hosts": [
+   "bernadetteroberts.blogspot.com"
   ],
   "verdict": "single-source"
  }
