@@ -200,7 +200,7 @@ def build_teacher(folder, out_root=None):
     doors_html = "".join(f'<a class="door" href="{h}"><b>{t}</b><span class="n">{n}</span><span>{d}</span></a>' for h, t, n, d in doors)
     def clean_note(q):
         n = (q.get("note") or "").lower()
-        return not any(w in n for w in ("bhatt", "editor", "not u.g.", "not ug", "publisher", "narrat", "reported speech", "disputed", "not found", "jiddu", "paraphrase"))
+        return not any(w in n for w in ("bhatt", "editor", "not u.g.", "not ug", "publisher", "narrat", "reported speech", "disputed", "not found", "jiddu", "paraphrase", "foreword", "not roberts", "not her", "interviewer", "reviewer", "preamble"))
     featured = [q for q in ordered if 60 <= len(q["text"]) <= 260 and q.get("kind", "verbatim") == "verbatim" and clean_note(q)][:6] or ordered[:6]
     feat_html = "".join(f'<a class="q" href="quotes/{q["id"]}/"><blockquote>{esc(q["text"])}</blockquote><div class="meta"><span>{esc(q.get("book") or "")}</span><span class="pill">{esc(q.get("verdict") or "")}</span></div></a>' for q in featured)
     evs = [{"date": e.get("date"), "event": e.get("event"), "place": e.get("place")} for e in (events or meta["events"])][:10]
