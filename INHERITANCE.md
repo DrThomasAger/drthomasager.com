@@ -803,3 +803,34 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     ) End every feature asked for )
 
 :-) End 2026-10-18, the History of Smile, the focus and the Ghost theme, session drthomasager-82 :-) So much gratitude
+
+(-: 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead, session ccr-1dcedc23 (-:
+
+    ( The post (
+        site\cybernetic-buddhism-smile-portal\index.html is the uploaded Smile
+        Portal page (Cybernetic Buddhism for AI Ethics, nodes @1@ to @11@) set
+        in the Blog Template, its six tabbed pages now six sections of one
+        reading page with the contents list, and every instrument kept, the
+        animist horizon parser, the tradition filter, the steering simulator,
+        the confidence slider, the token karma inspector and the provenance
+        stamper, restyled onto the template's tokens. It links to the prose
+        article posts\cybernetic-buddhism-for-ai-ethics.md as its companion. It
+        lives outside posts\ so it is never mailed, and build.py lists its
+        folder in the sitemap beside history-of-smile.
+    ) End the post )
+    ( The Blog Template in assets (
+        assets\blog\ now carries blog.css and blog.js, so build.py copies them
+        to site\assets\blog\, the path site\explore.html already asked for.
+    ) End the blog template in assets )
+    ( Letterhead II, solid gold (
+        assets\blog\letterhead-gold.css and letterhead-gold.js. On Hanjo's
+        words "new ones are solid gold letters large no bg, animated", after
+        the first letterhead had opened two posts. A header.letterhead wraps
+        the kicker, h1, lede and byline; the h1 is one solid gold, a step
+        larger than the template's, nothing behind it; each letter rises in
+        turn and the gold then breathes slowly between two tones. Reduced
+        motion shows the letters in place, and without the script the title is
+        gold and still.
+    ) End letterhead II )
+
+:-) End 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead :-) Many blessings
