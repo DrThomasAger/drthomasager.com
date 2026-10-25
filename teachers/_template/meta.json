@@ -1,21 +1,32 @@
 {
-  "name": "Teacher Name",
-  "full_name": "Full given name",
-  "dates": "YYYY – YYYY",
-  "born": "day month year, place",
-  "died": "day month year, place",
-  "places": "Place · Place · Place",
-  "one_line": "One or two sentences that say who this was without praise.",
-  "lead_quote": "One short line in the teacher's own words, with a source in quotes.json.",
-  "portrait": "https://... (a URL you may show, with licence)",
-  "portrait_credit": "Photographer, licence, host",
-  "copyright_statement": "The teacher's own words on ownership of their words, or an empty string.",
-  "built": "YYYY-MM-DD",
-  "subject": "Teacher Name (YYYY-YYYY)",
-  "media": ["video", "audio", "text", "image", "archive", "community"],
-  "confidence": {
-    "S": "wording or existence confirmed against a quoted copy or direct description during gathering",
-    "T": "from memory of the published text or a secondary account; wants checking against the full text",
-    "lead": "an unverified lead reported by a researcher; location given, content unseen"
-  }
+ "name": "Teacher Name",
+ "full_name": "Full given name",
+ "dates": "YYYY – YYYY",
+ "born": "day month year, place",
+ "died": "day month year, place",
+ "places": "Place · Place · Place",
+ "one_line": "One or two sentences that say who this was without praise.",
+ "lead_quote": "One short line in the teacher's own words, with a source in quotes.json.",
+ "portrait": "https://... (a URL you may show, with licence)",
+ "portrait_credit": "Photographer, licence, host",
+ "copyright_statement": "The teacher's own words on ownership of their words, or an empty string.",
+ "built": "YYYY-MM-DD",
+ "subject": "Teacher Name (YYYY-YYYY)",
+ "media": [
+  "video",
+  "audio",
+  "text",
+  "image",
+  "archive",
+  "community"
+ ],
+ "confidence": {
+  "S": "wording or existence confirmed against a quoted copy or direct description during gathering",
+  "T": "from memory of the published text or a secondary account; wants checking against the full text",
+  "lead": "an unverified lead reported by a researcher; location given, content unseen"
+ },
+ "instagram": "instagram handle without @, or empty",
+ "accent": "",
+ "accent_dark": "",
+ "display_font": ""
 }

@@ -1,0 +1,450 @@
+[
+ {
+  "name": "Ron Danko",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "former husband; married after she left Carmel, left in 1976; marriage later annulled",
+  "dates": null,
+  "place": "California",
+  "material": null,
+  "url": "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+  "tags": [
+   "family",
+   "husband"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "name": "Mark Danko",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "son (one of four children)",
+  "dates": null,
+  "place": null,
+  "material": "possible heir to literary estate; not confirmed",
+  "url": "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+  "tags": [
+   "family",
+   "child"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "name": "Marcel Danko",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "son",
+  "dates": null,
+  "place": null,
+  "material": null,
+  "url": "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+  "tags": [
+   "family",
+   "child"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "name": "Melanie Danko",
+  "also_known_as": [],
+  "role": "family",
+  "relation": "daughter",
+  "dates": null,
+  "place": null,
+  "material": null,
+  "url": "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+  "tags": [
+   "family",
+   "child"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "name": "Michaela Danko",
+  "also_known_as": [
+   "Kayla"
+  ],
+  "role": "family",
+  "relation": "daughter",
+  "dates": null,
+  "place": null,
+  "material": null,
+  "url": "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+  "tags": [
+   "family",
+   "child"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "name": "Bernadette's Friends (anonymous student circle)",
+  "also_known_as": [
+   "ContemplativeChristians.com",
+   "bernadettesfriends.blogspot.com"
+  ],
+  "role": "executor",
+  "relation": "unnamed friends/students who ran her two Blogspot sites, organised the Fullerton retreats (limited to 13), sold the DVD set, announced her death ('she asked us to notify her friends'), and publish her later books under the ContemplativeChristians.com imprint; de facto custodians of her literary estate",
+  "dates": "c. 2013–present",
+  "place": "Southern California (Fullerton / Laguna Beach)",
+  "material": "DVD set 'The Essence of Christian Mysticism' (9 h, 4 files, handouts); DVD 'A Passage Through Self'; The Real Christ; The Christian Contemplative Journey; Contemplative: Autobiography of the Early Years; essays and manuscripts",
+  "url": "http://bernadettesfriends.blogspot.com/",
+  "tags": [
+   "student",
+   "executor",
+   "publisher",
+   "recordist"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadettesfriends.blogspot.com/",
+   "http://bernadetteroberts.blogspot.com/",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ]
+ },
+ {
+  "name": "Stephan Bodian",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "editor of Yoga Journal; interviewed her for the Nov/Dec 1986 issue, reprinted in Timeless Visions, Healing Voices (1991); the most widely circulated primary interview",
+  "dates": "1986",
+  "place": "USA",
+  "material": "interview text",
+  "url": "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+  "tags": [
+   "interviewer",
+   "yoga-journal"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ]
+ },
+ {
+  "name": "Jerry Katz",
+  "also_known_as": [],
+  "role": "editor",
+  "relation": "founder of nonduality.com / Nonduality Salon (1997–98); included her in One: Essential Writings on Nonduality (Sentient, 2007); hosts an excerpt page (berna.htm)",
+  "dates": "1997–",
+  "place": "Halifax, Nova Scotia",
+  "material": "anthology excerpt; nonduality.com page",
+  "url": "https://www.nonduality.com/berna.htm",
+  "tags": [
+   "editor",
+   "nonduality"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.goodreads.com/en/book/show/907675.One",
+   "https://sentientpublications.com/authors/jerry-katz/"
+  ]
+ },
+ {
+  "name": "Connie Shaw",
+  "also_known_as": [],
+  "role": "publisher",
+  "relation": "founder/publisher of Sentient Publications (Boulder), publisher of What Is Self? (2005) and of Katz's anthology",
+  "dates": "2005",
+  "place": "Boulder, Colorado",
+  "material": "What Is Self? editions",
+  "url": "https://sentientpublications.com/collections/bernadette-roberts",
+  "tags": [
+   "publisher",
+   "sentient"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://sentientpublications.com/collections/bernadette-roberts"
+  ]
+ },
+ {
+  "name": "SUNY Press",
+  "also_known_as": [
+   "State University of New York Press"
+  ],
+  "role": "publisher",
+  "relation": "publisher of the revised The Experience of No-Self (1993) and The Path to No-Self (1991); current rights-holder",
+  "dates": "1991–",
+  "place": "Albany, New York",
+  "material": "book editions, ebooks",
+  "url": "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+  "tags": [
+   "publisher"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self"
+  ]
+ },
+ {
+  "name": "Shambhala Publications",
+  "also_known_as": [],
+  "role": "publisher",
+  "relation": "original publisher of The Experience of No-Self (1982/84) and The Path to No-Self (1985)",
+  "dates": "1982–1985",
+  "place": "Boulder / Boston",
+  "material": "first editions",
+  "url": "https://www.abebooks.com/9780877732891/Experience-0877732892/plp",
+  "tags": [
+   "publisher"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.abebooks.com/9780877732891/Experience-0877732892/plp"
+  ]
+ },
+ {
+  "name": "Jim Marion",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "author of Putting on the Mind of Christ (2000, foreword Ken Wilber) which discusses her as 'the American Catholic contemplative'; debated her no-self with Philip St. Romain",
+  "dates": "2000",
+  "place": "USA",
+  "material": "book chapter; Shalom Place dialogue PDF",
+  "url": "https://shalomplace.com/res/psr-marion.pdf",
+  "tags": [
+   "scholar",
+   "integral"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://shalomplace.com/res/psr-marion.pdf",
+   "https://www.amazon.com/Putting-Mind-Christ-Christian-Spirituality/dp/157174357X"
+  ]
+ },
+ {
+  "name": "Ken Wilber",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "wrote the foreword to Marion's book that treats her; listed with her among nondual writers (Anamchara 'Footnote #45'); direct citations of Roberts in his own books not confirmed by search",
+  "dates": null,
+  "place": "Denver / Boulder",
+  "material": null,
+  "url": "https://www.anamchara.com/the-nondual-writers-of-footnote-45/",
+  "tags": [
+   "scholar",
+   "integral"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.anamchara.com/the-nondual-writers-of-footnote-45/",
+   "https://www.amazon.com/Putting-Mind-Christ-Christian-Spirituality/dp/157174357X"
+  ]
+ },
+ {
+  "name": "Philip St. Romain",
+  "also_known_as": [
+   "Phil St. Romain"
+  ],
+  "role": "scholar",
+  "relation": "Catholic spiritual director; runs Shalom Place forum with threads on her no-self and 'A Passage through Self'; dialogue partner of Jim Marion",
+  "dates": null,
+  "place": "Kansas",
+  "material": "forum threads; dialogue PDF",
+  "url": "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238",
+  "tags": [
+   "scholar",
+   "catholic",
+   "forum"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238",
+   "https://shalomplace.com/res/psr-marion.pdf"
+  ]
+ },
+ {
+  "name": "James Arraj",
+  "also_known_as": [
+   "Jim Arraj"
+  ],
+  "role": "scholar",
+  "relation": "Thomist/Jungian author (Inner Explorations); wrote the critical essay 'Bernadette Roberts and the Experience of No-Self'",
+  "dates": null,
+  "place": "Oregon",
+  "material": "essay",
+  "url": "https://www.innerexplorations.com/ewtext/br.htm",
+  "tags": [
+   "scholar",
+   "critique"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ]
+ },
+ {
+  "name": "Nini Praetorius",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "Docent Professor, University of Copenhagen (psychology); commissioned her research paper 'What Is Self?'",
+  "dates": null,
+  "place": "Copenhagen",
+  "material": "commissioned paper",
+  "url": "https://o-meditation.com/wp-content/uploads/2019/12/what-is-self-a-research-paper-by-bernadette-roberts-5.pdf",
+  "tags": [
+   "scholar",
+   "copenhagen"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://o-meditation.com/wp-content/uploads/2019/12/what-is-self-a-research-paper-by-bernadette-roberts-5.pdf"
+  ]
+ },
+ {
+  "name": "Douglas Lockhart",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "author; essay 'Bernadette Roberts & the No-Self'",
+  "dates": null,
+  "place": "Tasmania/UK",
+  "material": "essay PDF",
+  "url": "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf",
+  "tags": [
+   "scholar"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf"
+  ]
+ },
+ {
+  "name": "Dan Garmat",
+  "also_known_as": [],
+  "role": "student",
+  "relation": "TAT Foundation member; attended and circulated notice of her May 2006 weekend retreat; co-wrote the TAT Forum report",
+  "dates": "2006",
+  "place": null,
+  "material": "retreat report",
+  "url": "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm",
+  "tags": [
+   "student",
+   "tat"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm"
+  ]
+ },
+ {
+  "name": "Heidi Munn",
+  "also_known_as": [],
+  "role": "student",
+  "relation": "co-author of the TAT Forum report on the May 2006 retreat",
+  "dates": "2006",
+  "place": null,
+  "material": "retreat report",
+  "url": "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm",
+  "tags": [
+   "student",
+   "tat"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm"
+  ]
+ },
+ {
+  "name": "Shawn Ellison",
+  "also_known_as": [],
+  "role": "interviewer",
+  "relation": "YouTube presenter of 'The Path to No-Self: Beyond Unitive Consciousness with Bernadette Roberts' (secondary teaching video)",
+  "dates": "2023",
+  "place": null,
+  "material": "video",
+  "url": "https://www.youtube.com/watch?v=Qoqfir9czOY",
+  "tags": [
+   "youtube",
+   "secondary"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=Qoqfir9czOY"
+  ]
+ },
+ {
+  "name": "Carl McColman",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "Anamchara blogger listing her among nondual Christian writers",
+  "dates": null,
+  "place": "Georgia",
+  "material": "blog post",
+  "url": "https://www.anamchara.com/the-nondual-writers-of-footnote-45/",
+  "tags": [
+   "blogger"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.anamchara.com/the-nondual-writers-of-footnote-45/"
+  ]
+ },
+ {
+  "name": "Camaldolese monks of New Camaldoli Hermitage",
+  "also_known_as": [
+   "Immaculate Heart Hermitage, Big Sur"
+  ],
+  "role": "friend",
+  "relation": "community with whom she made extended retreats for forty years",
+  "dates": "c. 1977–2017",
+  "place": "Big Sur, California",
+  "material": "possible recordings in hermitage audio archive (unconfirmed)",
+  "url": "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage",
+  "tags": [
+   "monastic",
+   "retreat"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage"
+  ]
+ },
+ {
+  "name": "Bernard McGinn",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "no connection to Roberts found in search; listed as a negative result",
+  "dates": null,
+  "place": "Chicago",
+  "material": null,
+  "url": null,
+  "tags": [
+   "negative-result"
+  ],
+  "confidence": "T",
+  "sources": []
+ },
+ {
+  "name": "Jeffrey Kripal",
+  "also_known_as": [],
+  "role": "scholar",
+  "relation": "no connection to Roberts found in search; listed as a negative result",
+  "dates": null,
+  "place": "Houston",
+  "material": null,
+  "url": null,
+  "tags": [
+   "negative-result"
+  ],
+  "confidence": "T",
+  "sources": []
+ }
+]

@@ -17,6 +17,11 @@ from urllib.parse import urlparse, parse_qs
 
 HERE = pathlib.Path(__file__).resolve().parent
 items = json.loads((HERE / "items.json").read_text(encoding="utf-8"))
+meta = json.loads((HERE / "meta.json").read_text(encoding="utf-8")) if (HERE / "meta.json").exists() else {}
+if meta.get("fetch") is False:
+    (HERE / "download-manifest.json").write_text(json.dumps({"fetch": False, "note": meta.get("fetch_note", "")}, ensure_ascii=False, indent=1), encoding="utf-8")
+    (HERE / "fetch.sh").write_text("#!/usr/bin/env bash\n# No downloads for this teacher.\n# " + (meta.get("fetch_note") or "") + "\n", encoding="utf-8")
+    print("fetch disabled for this teacher"); raise SystemExit(0)
 
 groups = {"archive_org": [], "youtube": [], "soundcloud": [], "wikisource": [], "pdf": [], "well": [], "other_pages": []}
 seen = set()

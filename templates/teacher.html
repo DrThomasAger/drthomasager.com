@@ -48,9 +48,9 @@ header.top p { margin: 6px 0 0; color: var(--fg-2); max-width: 60ch; }
 .stat b { font-size: 18px; font-weight: 600; }
 .stat .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; transform: translateY(-1px); }
 nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); display: flex; gap: 2px; overflow-x: auto; border-bottom: 1px solid var(--line); margin-block: 8px 20px; }
-nav.tabs button { font: inherit; font-weight: 500; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--fg-2); padding: 10px 14px; cursor: pointer; white-space: nowrap; }
-nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
-nav.tabs button:focus-visible, .chip:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+nav.tabs a { font: inherit; font-weight: 500; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--fg-2); padding: 10px 14px; cursor: pointer; white-space: nowrap; text-decoration: none; }
+nav.tabs a[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+nav.tabs a:focus-visible, .chip:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 section[hidden] { display: none; }
 
 .filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; align-items: end; }
@@ -130,13 +130,14 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 .hostcard li { overflow-wrap: anywhere; }
 .empty { color: var(--fg-3); padding: 24px; text-align: center; }
 .note { font-size: 13px; color: var(--fg-2); }
-@media (prefers-reduced-motion: no-preference) { .chip, nav.tabs button { transition: background .15s, color .15s; } }
+@media (prefers-reduced-motion: no-preference) { .chip, nav.tabs a { transition: background .15s, color .15s; } }
+/*__TEACHER_STYLE__*/
 </style>
-
+__FONT_LINK__
 <div class="wrap">
 <header class="top">
   <div>
-    <div class="eyebrow"><a href="../">gurus</a> · __DATES__</div>
+    <div class="eyebrow"><a href="../../">gurus</a> · <a href="../">__NAME__</a> · __DATES__</div>
     <h1>__NAME__</h1>
     <p>__ONELINE__ Everything located across video, audio, text, image, archive and community, each item tagged, dated and traced to its source.</p>
   </div>
@@ -144,13 +145,14 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 </header>
 
 <nav class="tabs" role="tablist" id="tabs">
-  <button role="tab" data-tab="archive" aria-selected="true">Archive</button>
-  <button role="tab" data-tab="quotes" aria-selected="false">Quotes</button>
-  <button role="tab" data-tab="timeline" aria-selected="false">Timeline</button>
-  <button role="tab" data-tab="people" aria-selected="false">People</button>
-  <button role="tab" data-tab="copyright" aria-selected="false">Copyright</button>
-  <button role="tab" data-tab="sources" aria-selected="false">Sources</button>
-  <button role="tab" data-tab="about" aria-selected="false">About</button>
+  <a role="tab" data-tab="home" href="../" aria-selected="false">Home</a>
+  <a role="tab" data-tab="archive" href="../archive/" aria-selected="false">Archive</a>
+  <a role="tab" data-tab="quotes" href="../quotes/" aria-selected="false">Quotes</a>
+  <a role="tab" data-tab="timeline" href="../timeline/" aria-selected="false">Life</a>
+  <a role="tab" data-tab="people" href="../people/" aria-selected="false">People</a>
+  <a role="tab" data-tab="copyright" href="../copyright/" aria-selected="false">Copyright</a>
+  <a role="tab" data-tab="sources" href="../sources/" aria-selected="false">Sources</a>
+  <a role="tab" data-tab="about" href="../about/" aria-selected="false">About</a>
 </nav>
 
 <section id="tab-archive">
@@ -208,22 +210,9 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 
 <section id="tab-copyright" hidden>
   <div class="prose">
-    <div class="eyebrow">In place of a copyright line, in every book of his conversations</div>
+    <div class="eyebrow">The teacher's own position on the ownership of their words</div>
     <blockquote class="statement" id="statement"></blockquote>
-    <h2>Where it is printed</h2>
-    <dl class="kv">
-      <dt>The Mystique of Enlightenment</dt><dd>ed. Rodney Arms, Dinesh Publications, Goa, 1982. First appearance.</dd>
-      <dt>Mind is a Myth</dt><dd>ed. Terry Newland, Dinesh Publications, 1988.</dd>
-      <dt>Thought is Your Enemy</dt><dd>ed. Frank Noronha and J.S.R.L. Narayana Moorty, Sowmya Publishers, 1990.</dd>
-      <dt>No Way Out</dt><dd>ed. Frank Noronha, 1991.</dd>
-      <dt>The Courage to Stand Alone</dt><dd>ed. Ellen J. Chrystal, 1997.</dd>
-      <dt>The Natural State</dt><dd>compiled by Peter Maverick, 2005.</dd>
-    </dl>
-    <h2>What he said about publishing at all</h2>
-    <p>Dinesh Vaghela's publisher's note to <em>Mind is a Myth</em> quotes him when the idea of publishing excerpts was put to him. "Why bother publishing my conversations. It has not helped you, and it is not going to help anybody else." The publisher went ahead anyway. The first book had been <em>The Mystique of Enlightenment</em>, which U.G. called the "Mistake of Enlightenment".</p>
-    <h2>How the release has been treated</h2>
-    <p>Wikisource hosts the conversation books under the notice that the work is in the public domain worldwide because it has been so released by the copyright holder. The Internet Archive carries scans under Public Domain Mark 1.0. The WELL placed all the works in their entirety for free download. Commercial editions continue (Sentient 2001–2002, Penguin India 2007, HarperCollins 2018, e-artnow 2021–2022), which the statement also permits.</p>
-    <p>The release gives away authorship itself. The permission to "even claim authorship" removes the attribution interest that most free licences keep. It is not a legal template. It is a sentence in his voice where a copyright line goes, and no estate has contested it since there is no estate. He founded nothing, left no will and no property, and asked that no rituals follow his death.</p>
+    <div id="copyrightBody">__COPYRIGHT_HTML__</div>
   </div>
 </section>
 
@@ -241,7 +230,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     <h2>Integrity</h2>
     <dl class="kv" id="integrity"></dl>
     <h2>Getting the files themselves</h2>
-    <p>The data files sit beside this page: <a href="items.json">items.json</a>, <a href="quotes.json">quotes.json</a>, <a href="events.json">events.json</a>, <a href="people.json">people.json</a>, <a href="integrity.json">integrity.json</a>, the full researcher reports under <a href="catalogue/">catalogue/</a>, and <a href="fetch.sh">fetch.sh</a>, a generated script that pulls every machine-fetchable item (archive.org items, YouTube and SoundCloud recordings, Wikisource texts, PDFs, WELL pages) onto a machine that can reach those hosts. The <a href="download-manifest.json">download manifest</a> is the same list as JSON.</p>
+    <p>The data files sit beside this page: <a href="../items.json">items.json</a>, <a href="../quotes.json">quotes.json</a>, <a href="../events.json">events.json</a>, <a href="../people.json">people.json</a>, <a href="../integrity.json">integrity.json</a>, the full researcher reports under <a href="../catalogue/">catalogue/</a>, and <a href="../fetch.sh">fetch.sh</a>, a generated script that pulls every machine-fetchable item (archive.org items, YouTube and SoundCloud recordings, Wikisource texts, PDFs, WELL pages) onto a machine that can reach those hosts. The <a href="../download-manifest.json">download manifest</a> is the same list as JSON.</p>
     <h2>How it was gathered</h2>
     <p>The gathering session's network policy refused direct connections to every hosting site (the WELL, Wikisource, Wikiquote, the Internet Archive, YouTube, the quote aggregators), so no file was downloaded. Seven parallel researchers swept web search, one per medium, and every item here is what those searches surfaced, with the URL each one gave. The data files live beside this page in the repository and can be regenerated from them.</p>
   </div>
@@ -268,20 +257,18 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 
   // ---- header stats
   $('#stats').innerHTML = MEDIA.map(m => { const n = items.filter(i => i.medium === m).length; return `<div class="stat"><span class="dot" style="background:${MCOLOR[m]}"></span><b>${n}</b><span>${MLABEL[m]}</span></div>`; }).join('') + `<div class="stat"><b>${quotes.length}</b><span>Quotes</span></div>`;
-  $('#statement').textContent = meta.copyright_statement;
+  $('#statement').textContent = meta.copyright_statement || ''; if (!meta.copyright_statement) $('#statement').hidden = true;
   $('#built').textContent = meta.built;
   $('#confdl').innerHTML = Object.entries(meta.confidence).map(([k, v]) => `<dt><span class="pill conf-${k}">${k}</span></dt><dd>${esc(v)}</dd>`).join('');
 
   // ---- tabs
   const tabs = $('#tabs');
   function showTab(name) {
-    tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+    tabs.querySelectorAll('a').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
     document.querySelectorAll('section[id^="tab-"]').forEach(s => s.hidden = (s.id !== 'tab-' + name));
     if (name === 'timeline') drawYears();
   }
-  tabs.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { showTab(b.dataset.tab); history.replaceState(null, '', '#' + b.dataset.tab); } });
-  const initial = (location.hash || '').slice(1);
-  showTab(['archive','quotes','timeline','people','copyright','sources','about'].includes(initial) ? initial : 'archive');
+  showTab('__INITIAL_TAB__');
 
   // ---- archive filters
   const F = { q: '', media: new Set(), tags: new Set(), yfrom: '', yto: '', lang: '', place: '', person: '', host: '', conf: '' };
@@ -367,7 +354,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
     const q = QF.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const rows = quotes.filter(x => (!QF.books.size || QF.books.has(x.book)) && (!QF.conf || x.confidence === QF.conf) && (!QF.verdicts.size || QF.verdicts.has(x.verdict)) && q.every(w => x._s.includes(w)));
     $('#qcount').textContent = `${rows.length} of ${quotes.length} quotes`;
-    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote>${esc(x.text)}</blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
+    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote><a href="../quotes/${esc(x.id)}/" style="color:inherit;text-decoration:none">${esc(x.text)}</a></blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
   }
   renderQuotes();
 

@@ -1,0 +1,647 @@
+[
+ {
+  "date": "1931",
+  "year": 1931,
+  "event": "Born in California to devout Catholic parents; the family home she later returns to is in Hollywood, Los Angeles. (Site tradition: Los Angeles; Wikipedia gives only 'California'.)",
+  "place": "Los Angeles (Hollywood), California",
+  "people": [],
+  "tags": [
+   "birth",
+   "family"
+  ],
+  "confidence": "T",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 1935",
+  "year": 1935,
+  "event": "Childhood in a home of 'extraordinary love of God and Catholic faith'; the early spiritual experiences of these years are the subject of Contemplative: Autobiography of the Early Years (birth to seventeen). Her later turn, per one reviewer, was 'much to the chagrin of her parents'.",
+  "place": "Los Angeles, California",
+  "people": [],
+  "tags": [
+   "childhood",
+   "family",
+   "experience"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://www.goodreads.com/en/book/show/43069226-contemplative",
+   "https://www.abebooks.com/9780692125175/Contemplative-Autobiography-Early-Years-Roberts-0692125175/plp"
+  ]
+ },
+ {
+  "date": "1949-01",
+  "year": 1949,
+  "event": "Enters the Monastery of Discalced Carmelite Nuns, Alhambra, California, aged seventeen.",
+  "place": "Alhambra, California",
+  "people": [],
+  "tags": [
+   "carmel",
+   "cloister"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
+   "https://enlightened-people.com/2014/07/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 1950",
+  "year": 1950,
+  "event": "The 'transforming process' and the unitive state, reached in Carmel in her late teens and twenties; the no-self event comes 'some 25 years after the transforming process' (Bodian interview) or 'some 20 years after leaving the convent' (summaries). Her cloister years are described in The Path to No-Self.",
+  "place": "Alhambra, California",
+  "people": [],
+  "tags": [
+   "milestone",
+   "unitive-state",
+   "carmel"
+  ],
+  "confidence": "T",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "c. 1957",
+  "year": 1957,
+  "event": "Leaves the cloister with the permission of her superiors to live the contemplative life outside. Length of stay given as eight and a half years (Wikipedia; implies mid-1957), nine years (SUNY blurb, Bodian; 1958) or ten years (Hridaya, Enlightened People; 1959).",
+  "place": "Alhambra, California",
+  "people": [],
+  "tags": [
+   "carmel",
+   "leaving"
+  ],
+  "confidence": "conflict",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://hridaya-yoga.com/knowledge/mystics/bernadette-roberts-a-way-of-seeing-and-knowing/",
+   "https://enlightened-people.com/2014/07/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 1957",
+  "year": 1957,
+  "event": "Enters the University of Utah as a pre-medical student for three years.",
+  "place": "Salt Lake City, Utah",
+  "people": [],
+  "tags": [
+   "education"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 1960",
+  "year": 1960,
+  "event": "Returns to her parents' home in Hollywood and takes a degree in philosophy at the University of Southern California. Degrees are given variously: a philosophy degree (Wikipedia); BA Philosophy and later MA Early Childhood Education, both USC (spiritualteachers.org); 'a graduate degree in education' (SUNY blurb).",
+  "place": "Los Angeles, California",
+  "people": [],
+  "tags": [
+   "education"
+  ],
+  "confidence": "conflict",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts/",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self"
+  ]
+ },
+ {
+  "date": "c. 1962",
+  "year": 1962,
+  "event": "Teaches physiology and algebra for four years at Our Lady of Loretto High School, Los Angeles, where she meets and marries a fellow teacher. Four children follow (names not public).",
+  "place": "Los Angeles, California",
+  "people": [],
+  "tags": [
+   "teaching",
+   "marriage",
+   "family"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 1968",
+  "year": 1968,
+  "event": "Earns a Montessori credential in London.",
+  "place": "London",
+  "people": [],
+  "tags": [
+   "education",
+   "teaching"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "1969",
+  "year": 1969,
+  "event": "Opens a Montessori school in Montana (one source: Kalispell). Over her career she teaches at pre-school, high-school and junior-college level.",
+  "place": "Montana",
+  "people": [],
+  "tags": [
+   "teaching"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.spiritualteachers.org/bernadette-roberts/",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self"
+  ]
+ },
+ {
+  "date": "c. 1975",
+  "year": 1975,
+  "event": "The falling away of self: it begins while she is praying the 'prayer of quiet' in the chapel of a monastery by the sea; the following year, on retreat at New Camaldoli Hermitage, Big Sur, she reaches a more profound stillness and emptiness. The Experience of No-Self records the two-year journey that followed ('the passage'). Dating is contested: site tradition c. 1973–75 at about forty; a secondary site 'around 1979'; Bodian '25 years after the transforming process'; no source states her age.",
+  "place": "Big Sur, California (New Camaldoli Hermitage)",
+  "people": [],
+  "tags": [
+   "milestone",
+   "no-self",
+   "passage",
+   "big-sur"
+  ],
+  "confidence": "conflict",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://www.melotree-star.win/bernadette.html",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "c. 1977",
+  "year": 1977,
+  "event": "End of the two-year passage described in The Experience of No-Self; the book 'only covers a two-year period after the events described'. (Placed two years after the preceding entry; same dating uncertainty.)",
+  "place": "California",
+  "people": [],
+  "tags": [
+   "milestone",
+   "passage"
+  ],
+  "confidence": "conflict",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://www.goodreads.com/book/show/6266080",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self"
+  ]
+ },
+ {
+  "date": "c. 1977",
+  "year": 1977,
+  "event": "Begins the annual extended retreats with the Camaldolese monks on the Big Sur coast that she keeps up for about forty years, until her death; she later says 'Camaldoli is my only true home on this earth'.",
+  "place": "Big Sur, California (New Camaldoli Hermitage)",
+  "people": [],
+  "tags": [
+   "big-sur",
+   "retreat",
+   "camaldoli"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://www.wikiwand.com/en/articles/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "1982",
+  "year": 1982,
+  "event": "The Experience of No-Self: A Contemplative Journey published by Shambhala (Boston). Some catalogues give 1984 for the Boston & London Shambhala printing.",
+  "place": "Boston",
+  "people": [],
+  "tags": [
+   "book"
+  ],
+  "confidence": "S",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://www.goodreads.com/book/show/345092.The_Experience_of_No_Self",
+   "https://archive.org/details/roberts.experience-of-no-self",
+   "https://www.innerexplorations.com/ewtext/br.htm",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "c. 1983",
+  "year": 1983,
+  "event": "After the first book she is invited to speak around the country with the talk 'A Passage Through Self', built on a series of circle diagrams of the journey in terms of consciousness; she offers it as a retreat for about thirty years. Over the same span she gives an annual retreat 'The Essence of Christian Mysticism' (Trinity, Christ, Faith).",
+  "place": "United States",
+  "people": [],
+  "tags": [
+   "retreat",
+   "seminar",
+   "teaching"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html"
+  ]
+ },
+ {
+  "date": "1985",
+  "year": 1985,
+  "event": "The Path to No-Self: Life at the Center published by Shambhala (Boston); covers her life from entering the cloister.",
+  "place": "Boston",
+  "people": [],
+  "tags": [
+   "book"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.amazon.com/Path-No-Self-Bernadette-Roberts/dp/0877733066",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://archive.org/details/roberts.path-to-no-self"
+  ]
+ },
+ {
+  "date": "1986-11",
+  "year": 1986,
+  "event": "Interview with Stephan Bodian published in the Nov/Dec 1986 Yoga Journal; she answered written questions and Bodian never met her face to face. Reprinted in Bodian's Timeless Visions, Healing Voices (1991).",
+  "place": "",
+  "people": [
+   "Stephan Bodian"
+  ],
+  "tags": [
+   "interview"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
+   "https://www.spiritualteachers.org/bernadette-roberts-interview/",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ]
+ },
+ {
+  "date": "1989",
+  "year": 1989,
+  "event": "What Is Self? A Study of the Spiritual Journey in Terms of Consciousness, first edition, published in Austin, Texas by Mary Botsford Goens (some listings: DeVorss & Co / Mary Goens Publishing), ISBN 0962399302.",
+  "place": "Austin, Texas",
+  "people": [
+   "Mary Botsford Goens"
+  ],
+  "tags": [
+   "book"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://archive.org/details/whatisselfstudyo00robe",
+   "https://www.abebooks.com/9780962399305/What-Study-Spiritual-Journey-Terms-0962399302/plp"
+  ]
+ },
+ {
+  "date": "1991",
+  "year": 1991,
+  "event": "The Path to No-Self reissued by State University of New York Press.",
+  "place": "Albany, New York",
+  "people": [],
+  "tags": [
+   "book",
+   "edition"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "1993",
+  "year": 1993,
+  "event": "The Experience of No-Self, revised edition, State University of New York Press.",
+  "place": "Albany, New York",
+  "people": [],
+  "tags": [
+   "book",
+   "edition"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "1994",
+  "year": 1994,
+  "event": "The 'circles' talk ('A Passage Through Self') recorded on videotape, later issued as a DVD set (nine hours in four files, with handouts) through her own site; a reviewer dates the original VHS recording to 1994.",
+  "place": "",
+  "people": [],
+  "tags": [
+   "recording",
+   "retreat"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html",
+   "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available"
+  ]
+ },
+ {
+  "date": "2005-01-15",
+  "year": 2005,
+  "event": "What Is Self?, revised edition, Sentient Publications, Boulder, Colorado (208 pp.).",
+  "place": "Boulder, Colorado",
+  "people": [],
+  "tags": [
+   "book",
+   "edition"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.theosophical.org/publications/quest-magazine/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness",
+   "https://sentientpublications.com/collections/bernadette-roberts",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "2006-05",
+  "year": 2006,
+  "event": "Weekend retreat given in May 2006 (brochure quoted in the TAT Forum); venue not named.",
+  "place": "",
+  "people": [],
+  "tags": [
+   "retreat"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm"
+  ]
+ },
+ {
+  "date": "c. 2010",
+  "year": 2010,
+  "event": "Living in Santa Monica, California; her site states that apart from the annual retreat she offers she does not see people individually, and that no video or audio recordings of her online are authorised.",
+  "place": "Santa Monica, California",
+  "people": [],
+  "tags": [
+   "residence",
+   "retreat",
+   "recording"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "http://bernadetteroberts.blogspot.com/",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self"
+  ]
+ },
+ {
+  "date": "2012",
+  "year": 2012,
+  "event": "The Real Christ: Wikipedia and a 2015 blog date the work to 2012 (self-published form); the archived ContemplativeChristians.com Publishing (Austin, TX) copy states 'First Printing, February, 2017'.",
+  "place": "Austin, Texas",
+  "people": [],
+  "tags": [
+   "book"
+  ],
+  "confidence": "conflict",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "c. 2013",
+  "year": 2013,
+  "event": "The thirty-year 'A Passage Through Self' retreat ends once it is recorded and released as a DVD set; the DVD notice says she offered it 'for 30 years, until it was recorded'.",
+  "place": "",
+  "people": [],
+  "tags": [
+   "retreat",
+   "recording"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html"
+  ]
+ },
+ {
+  "date": "c. 2016",
+  "year": 2016,
+  "event": "Diagnosed with ALS, about a year before her death (Wikipedia; friends' notice on her site; forum comments).",
+  "place": "California",
+  "people": [],
+  "tags": [
+   "illness"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "http://bernadetteroberts.blogspot.com/",
+   "https://www.dharmaoverground.org/discussion/-/message_boards/message/7049212"
+  ]
+ },
+ {
+  "date": "2017-02",
+  "year": 2017,
+  "event": "The Real Christ, first printing by ContemplativeChristians.com Publishing, Austin, Texas (see 2012 entry for the conflict).",
+  "place": "Austin, Texas",
+  "people": [],
+  "tags": [
+   "book",
+   "imprint"
+  ],
+  "confidence": "S",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf",
+   "https://www.americanbookwarehouse.com/2667149/"
+  ]
+ },
+ {
+  "date": "2017",
+  "year": 2017,
+  "event": "Moves from Santa Monica to Laguna Beach, California, where she lives briefly.",
+  "place": "Laguna Beach, California",
+  "people": [],
+  "tags": [
+   "residence"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ]
+ },
+ {
+  "date": "2017-10-02",
+  "year": 2017,
+  "event": "The Path to No-Self reprinted in paperback by Dev Publishers & Distributors (India).",
+  "place": "New Delhi",
+  "people": [],
+  "tags": [
+   "book",
+   "edition"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.amazon.com/Path-No-Self-Bernadette-Roberts/dp/938140674X"
+  ]
+ },
+ {
+  "date": "2017-11-27",
+  "year": 2017,
+  "event": "Dies in her sleep at home in Southern California, aged 86. Wikipedia's infobox gives Laguna Beach; the friends' notice says only 'her home in Southern California'. No public funeral, memorial or burial notice located.",
+  "place": "Laguna Beach, California",
+  "people": [],
+  "tags": [
+   "death"
+  ],
+  "confidence": "S",
+  "note": "conflicting accounts",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "http://bernadetteroberts.blogspot.com/",
+   "https://www.spiritualteachers.org/bernadette-roberts/",
+   "https://www.dharmaoverground.org/discussion/-/message_boards/message/7049212"
+  ]
+ },
+ {
+  "date": "2017-11-28",
+  "year": 2017,
+  "event": "Friends post the death notice on her site: she had asked that her friends be told when the time came; 'she is with God'.",
+  "place": "",
+  "people": [],
+  "tags": [
+   "death",
+   "website"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/",
+   "https://www.spiritualteachers.org/bernadette-roberts/"
+  ]
+ },
+ {
+  "date": "2017-12-02",
+  "year": 2017,
+  "event": "The Christian Contemplative Journey: Essays on the Path published posthumously by ContemplativeChristians.com Publishing (306 pp., ISBN 9780692987216); Kindle edition 20 November 2018.",
+  "place": "Austin, Texas",
+  "people": [],
+  "tags": [
+   "book",
+   "posthumous"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://sandmanbooks.com/book/9780692987216",
+   "https://www.amazon.com/Christian-Contemplative-Journey-Essays-Path-ebook/dp/B07KRHFHVS",
+   "https://www.abebooks.com/9780692987216/Christian-Contemplative-Journey-Essays-Path-0692987215/plp"
+  ]
+ },
+ {
+  "date": "2018",
+  "year": 2018,
+  "event": "Contemplative: Autobiography of the Early Years published posthumously by ContemplativeChristians.com (ISBN 9780692125175; Kindle Nov 2018); covers birth to seventeen, written as background to The Path to No-Self.",
+  "place": "Austin, Texas",
+  "people": [],
+  "tags": [
+   "book",
+   "posthumous"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.abebooks.com/9780692125175/Contemplative-Autobiography-Early-Years-Roberts-0692125175/plp",
+   "https://www.amazon.com/Contemplative-Autobiography-Early-Bernadette-Roberts-ebook/dp/B07KV3FQYK",
+   "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf"
+  ]
+ },
+ {
+  "date": "2018-03",
+  "year": 2018,
+  "event": "'From Bernadette' posted on her site: the site continues after her death as the outlet for her books and recordings.",
+  "place": "",
+  "people": [],
+  "tags": [
+   "posthumous",
+   "website",
+   "papers"
+  ],
+  "confidence": "T",
+  "note": null,
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/2018/03/from-bernadette.html"
+  ]
+ },
+ {
+  "date": "2021",
+  "year": 2021,
+  "event": "Her site announces that the recorded retreat talks she gave over her lifetime are now available to view at no cost (contrasting with its earlier statement that no recordings online were authorised).",
+  "place": "",
+  "people": [],
+  "tags": [
+   "posthumous",
+   "recording"
+  ],
+  "confidence": "T",
+  "note": "conflicting accounts",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html"
+  ]
+ },
+ {
+  "date": "2022-02-19",
+  "year": 2022,
+  "event": "Posthumous reception: one-day workshop 'The Astounding Bernadette Roberts: Insights & Experiences of a Modern Christian Mystic' at Holy Family Passionist Retreat Center, Connecticut (in person and Zoom), listed by Contemplative Outreach.",
+  "place": "West Hartford, Connecticut",
+  "people": [],
+  "tags": [
+   "posthumous",
+   "reception"
+  ],
+  "confidence": "S",
+  "note": null,
+  "sources": [
+   "https://www.holyfamilyretreat.org/calendar/cce-enrichment-feb2022",
+   "https://www.contemplativeoutreach.org/event/the-astounding-bernadette-roberts-insights-and-experiences-of-a-modern-christian-mystic/"
+  ]
+ }
+]
