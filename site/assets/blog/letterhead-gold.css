@@ -1,0 +1,53 @@
+/* Letterhead II, solid gold.
+   Written 2026-10-25 by Agent Of Reciprocity on Hanjo's words "new ones are
+   solid gold letters large no bg, animated", after the first letterhead (the
+   ink kicker, title and lede of blog.css) had opened two posts.
+
+   The title is set in one solid gold, a step larger than the template's h1,
+   with nothing behind it. Each letter rises into place in turn, and once
+   settled the gold breathes very slowly between two solid tones. A reader
+   who asks for reduced motion sees the letters already in place. With
+   letterhead-gold.js absent the title is simply gold and still. */
+
+:root{
+  --gold:#a67c0a;      /* old gold on the light paper */
+  --gold-2:#c4951a;    /* the tone it breathes toward */
+}
+:root[data-theme="night"]{
+  --gold:#e0b23b;
+  --gold-2:#f2cd63;
+}
+
+.letterhead{margin:0 0 var(--sp3)}
+.letterhead .kicker{color:var(--gold)}
+.letterhead h1{
+  font:500 calc(var(--s4) * 1.272)/1.02 var(--display);
+  font-variation-settings:"opsz" 144,"SOFT" 30;
+  letter-spacing:-.025em;
+  color:var(--gold);
+  background:none;
+  margin:0 0 var(--sp3);
+  text-wrap:balance;
+  animation:lh-breathe 9s ease-in-out 1.6s infinite alternate;
+}
+.letterhead h1 .w{display:inline-block;white-space:nowrap}
+.letterhead h1 .ch{
+  display:inline-block;
+  opacity:0;
+  transform:translateY(.42em) rotate(-5deg);
+  transform-origin:50% 100%;
+  animation:lh-rise .95s cubic-bezier(.2,.8,.2,1) forwards;
+  animation-delay:calc(var(--i) * 42ms);
+}
+.letterhead .lede{margin-top:0}
+
+@keyframes lh-rise{to{opacity:1;transform:none}}
+@keyframes lh-breathe{from{color:var(--gold)}to{color:var(--gold-2)}}
+
+@media (max-width:600px){
+  .letterhead h1{font-size:calc(var(--s4) * 1.1);letter-spacing:-.02em}
+}
+@media (prefers-reduced-motion: reduce){
+  .letterhead h1{animation:none}
+  .letterhead h1 .ch{animation:none;opacity:1;transform:none}
+}
