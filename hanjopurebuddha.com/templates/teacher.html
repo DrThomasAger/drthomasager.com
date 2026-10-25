@@ -131,8 +131,9 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 .empty { color: var(--fg-3); padding: 24px; text-align: center; }
 .note { font-size: 13px; color: var(--fg-2); }
 @media (prefers-reduced-motion: no-preference) { .chip, nav.tabs button { transition: background .15s, color .15s; } }
+/*__TEACHER_STYLE__*/
 </style>
-
+__FONT_LINK__
 <div class="wrap">
 <header class="top">
   <div>
@@ -208,22 +209,9 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 
 <section id="tab-copyright" hidden>
   <div class="prose">
-    <div class="eyebrow">In place of a copyright line, in every book of his conversations</div>
+    <div class="eyebrow">The teacher's own position on the ownership of their words</div>
     <blockquote class="statement" id="statement"></blockquote>
-    <h2>Where it is printed</h2>
-    <dl class="kv">
-      <dt>The Mystique of Enlightenment</dt><dd>ed. Rodney Arms, Dinesh Publications, Goa, 1982. First appearance.</dd>
-      <dt>Mind is a Myth</dt><dd>ed. Terry Newland, Dinesh Publications, 1988.</dd>
-      <dt>Thought is Your Enemy</dt><dd>ed. Frank Noronha and J.S.R.L. Narayana Moorty, Sowmya Publishers, 1990.</dd>
-      <dt>No Way Out</dt><dd>ed. Frank Noronha, 1991.</dd>
-      <dt>The Courage to Stand Alone</dt><dd>ed. Ellen J. Chrystal, 1997.</dd>
-      <dt>The Natural State</dt><dd>compiled by Peter Maverick, 2005.</dd>
-    </dl>
-    <h2>What he said about publishing at all</h2>
-    <p>Dinesh Vaghela's publisher's note to <em>Mind is a Myth</em> quotes him when the idea of publishing excerpts was put to him. "Why bother publishing my conversations. It has not helped you, and it is not going to help anybody else." The publisher went ahead anyway. The first book had been <em>The Mystique of Enlightenment</em>, which U.G. called the "Mistake of Enlightenment".</p>
-    <h2>How the release has been treated</h2>
-    <p>Wikisource hosts the conversation books under the notice that the work is in the public domain worldwide because it has been so released by the copyright holder. The Internet Archive carries scans under Public Domain Mark 1.0. The WELL placed all the works in their entirety for free download. Commercial editions continue (Sentient 2001–2002, Penguin India 2007, HarperCollins 2018, e-artnow 2021–2022), which the statement also permits.</p>
-    <p>The release gives away authorship itself. The permission to "even claim authorship" removes the attribution interest that most free licences keep. It is not a legal template. It is a sentence in his voice where a copyright line goes, and no estate has contested it since there is no estate. He founded nothing, left no will and no property, and asked that no rituals follow his death.</p>
+    <div id="copyrightBody">__COPYRIGHT_HTML__</div>
   </div>
 </section>
 
@@ -268,7 +256,7 @@ svg.chart .label { fill: var(--fg-2); font-size: 11px; }
 
   // ---- header stats
   $('#stats').innerHTML = MEDIA.map(m => { const n = items.filter(i => i.medium === m).length; return `<div class="stat"><span class="dot" style="background:${MCOLOR[m]}"></span><b>${n}</b><span>${MLABEL[m]}</span></div>`; }).join('') + `<div class="stat"><b>${quotes.length}</b><span>Quotes</span></div>`;
-  $('#statement').textContent = meta.copyright_statement;
+  $('#statement').textContent = meta.copyright_statement || ''; if (!meta.copyright_statement) $('#statement').hidden = true;
   $('#built').textContent = meta.built;
   $('#confdl').innerHTML = Object.entries(meta.confidence).map(([k, v]) => `<dt><span class="pill conf-${k}">${k}</span></dt><dd>${esc(v)}</dd>`).join('');
 
