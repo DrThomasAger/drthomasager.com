@@ -854,5 +854,14 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         Next time the ontology is edited on his PC, the two placements in
         placements.edn here and the :url key in check.clj want carrying over.
     ) End the second pass )
+    ( The notebook (
+        requirements\notebook-2026-10-26.md is his leather notebook, eight
+        photographs transcribed word for word with [?] on every uncertain
+        reading. The to-do list on its second spread is the list this session
+        has been working down: blog, intro email, free prompt pack, follow up
+        with blog, latest blog posts auto connected, full aesthetic, large
+        gold letterheads, Cybernetic Buddhism for AI Ethics paper and blog,
+        then social media posts, promotional material and the link in bio.
+    ) End the notebook )
 
 :-) End 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead :-) Many blessings
