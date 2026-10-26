@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1200" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive,sans-serif" font-size="32" fill="#111">
+<title>Spread 4, Universal Platforms, redrawn from the notebook</title>
+<desc>Left page: the heading, three universal platforms, the ad campaign note, then three columns under VICTORY, Dr. Thomas Ager and Hanjo Purebuddha, with an arrow from VICTORY up to the universal platforms. Right page: the three numbered accounts, each marked Has UP, and a tick.</desc>
+<style>text{white-space:pre} .q{fill:#999;font-size:20px} .ink{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round} .strike{stroke:#111;stroke-width:4}</style>
+<rect width="2000" height="1200" fill="#fbfaf6"/><line x1="985" y1="0" x2="985" y2="1200" stroke="#ddd"/>
+<text x="90" y="110" font-size="44" letter-spacing="2">UNIVERSAL PLATFORMS</text>
+<path d="M90 125 q40 14 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0" class="ink"/>
+<circle cx="800" cy="105" r="24" class="ink"/><text x="784" y="114" font-size="22">UP</text>
+<text x="90" y="190">Reddit</text>
+<text x="90" y="240">Discord</text>
+<text x="90" y="300">Ghost (+ whatever</text><text x="420" y="340">mail thing)</text>
+<text x="330" y="190" font-size="26">(Ad campaign platforms:</text>
+<text x="360" y="225" font-size="26">Google, platforms - specific)</text>
+<!-- column heads -->
+<text x="90" y="430" font-size="30" font-weight="bold">VICTORY</text><path d="M90 442 q30 10 60 0 t60 0 t40 0" class="ink"/>
+<path d="M300 440 L300 370 M285 388 L300 368 L315 388" class="ink" stroke-width="4"/>
+<text x="340" y="430" font-size="30">Dr. Thomas Ager</text><path d="M340 442 q40 12 80 0 t80 0 t60 0" class="ink"/>
+<text x="650" y="430" font-size="30">Hanjo Purebuddha</text><path d="M650 442 q40 12 80 0 t80 0 t60 0" class="ink"/>
+<!-- VICTORY column -->
+<text x="100" y="475" font-size="22">Ghost Community</text>
+<text x="90" y="530" font-size="26">Patreon<tspan class="q"> [?]</tspan></text><line x1="90" y1="520" x2="200" y2="520" class="strike"/>
+<text x="215" y="515" font-size="18">repeats<tspan class="q"> [?]</tspan></text>
+<text x="90" y="590">Youtube</text>
+<text x="90" y="650">Twitch</text>
+<!-- Dr Thomas Ager column -->
+<text x="350" y="490" font-size="26">DrThomasAger</text>
+<text x="350" y="535" font-size="26"><tspan fill="#777">Smle</tspan> Smile</text><line x1="350" y1="526" x2="400" y2="526" class="strike"/>
+<text x="350" y="580" font-size="26">Github</text>
+<text x="350" y="625" font-size="26">Product Hunt</text>
+<text x="350" y="670" font-size="26">Facebook - Pages</text>
+<text x="420" y="698" font-size="20">↳ AI Groups</text>
+<text x="350" y="735" font-size="26">Twitter</text>
+<text x="350" y="780" font-size="26">Hackernews</text>
+<text x="350" y="825" font-size="26">AI Groups</text>
+<text x="350" y="870" font-size="26">Microsoft</text>
+<!-- Hanjo Purebuddha column -->
+<text x="660" y="490" font-size="24">Crystallization Culture</text>
+<text x="660" y="535" font-size="26">Instagram</text>
+<text x="660" y="580" font-size="26">Facebook</text>
+<path d="M640 630 C 620 645, 620 655, 640 665 M625 650 L655 650" class="ink"/>
+<text x="660" y="640" font-size="26">comic/art site<tspan class="q"> [?]</tspan></text>
+<text x="660" y="690" font-size="26">Scrungle tech<tspan class="q"> [?]</tspan></text>
+<!-- right page -->
+<g font-size="34">
+<circle cx="1080" cy="300" r="22" class="ink"/><text x="1072" y="309" font-size="22">1</text>
+<text x="1120" y="310" font-size="38" letter-spacing="3">VICTORY</text><text x="1340" y="310">- Has</text><circle cx="1460" cy="300" r="24" class="ink"/><text x="1444" y="309" font-size="22">UP</text>
+<circle cx="1080" cy="370" r="22" class="ink"/><text x="1072" y="379" font-size="22">2</text>
+<text x="1120" y="380">DR. Thomas Ager - Has</text><circle cx="1530" cy="370" r="24" class="ink"/><text x="1514" y="379" font-size="22">UP</text>
+<circle cx="1080" cy="440" r="22" class="ink"/><text x="1072" y="449" font-size="22">3</text>
+<text x="1120" y="450">Hanjo Pure buddha - Has</text><circle cx="1600" cy="440" r="24" class="ink"/><text x="1584" y="449" font-size="22">UP</text>
+</g>
+<path d="M1420 760 L1470 830 L1600 700" class="ink" stroke-width="7"/>
+</svg>

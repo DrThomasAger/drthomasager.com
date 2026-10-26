@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1400" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive,sans-serif" font-size="30" fill="#1b2a6b">
+<title>Spread 3, the eight paths and the map around Smile, redrawn from the notebook</title>
+<desc>Left page: the numbered list, the circled Horizontal Progression with its line into the map, tutorial island with its line into the map. Right page: the map in blue ink around a smiling face labelled Smile. Positions follow the page; words are his, [?] marks an uncertain reading.</desc>
+<style>text{white-space:pre} .q{fill:#999;font-size:20px} .ink{fill:none;stroke:#1b2a6b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}</style>
+<rect width="2000" height="1400" fill="#fbfaf6"/><line x1="985" y1="0" x2="985" y2="1400" stroke="#ddd"/>
+<!-- left page -->
+<text x="110" y="120">1. Prompt Engineering (Str)</text>
+<text x="110" y="170">2. Coding with AI co-creator (Def<tspan class="q"> [?]</tspan>)</text>
+<text x="110" y="220">3. Creating Individuated</text>
+<text x="160" y="262">   autonomous beings (mage)</text>
+<text x="110" y="312">4. Wise Asian elder (prayer)</text>
+<text x="110" y="362">5. Multiclassing / syncretizing (HP)</text>
+<text x="110" y="412">6. Sangha building (construction)</text>
+<text x="180" y="458">   A. Lineage</text>
+<text x="180" y="500">   B. Dharma</text>
+<ellipse cx="420" cy="690" rx="330" ry="150" class="ink"/>
+<text x="230" y="700" font-size="40">Horizontal Progression</text>
+<path d="M750 700 C 820 720, 880 760, 900 800 L 1020 820 C 1040 840, 1050 880, 1060 905" class="ink"/>
+<text x="700" y="880" font-size="26">(Attack)</text>
+<text x="110" y="930">7. Poison purification</text>
+<text x="180" y="975">   A. greed</text>
+<text x="180" y="1015">   B.<tspan class="q"> [written like a D]</tspan> Aversion</text>
+<text x="180" y="1055">   C. Ignorance</text>
+<text x="180" y="1095">   D. Hindrances</text>
+<text x="650" y="940">8. Generosity</text>
+<text x="650" y="985">   (Herblore)</text>
+<text x="640" y="1120" font-size="26">tutorial</text>
+<text x="660" y="1150" font-size="26">island</text>
+<path d="M760 1135 C 860 1140, 920 1120, 1000 1100" class="ink"/>
+<!-- right page, top left cluster -->
+<text x="1090" y="330" font-size="26">$ graphs</text>
+<text x="1200" y="345" font-size="22">wins</text>
+<text x="1085" y="395" font-size="26" letter-spacing="2">||||</text>
+<text x="1190" y="320" font-size="22" letter-spacing="2">||||</text>
+<circle cx="1170" cy="385" r="22" class="ink"/><text x="1159" y="394" font-size="26">A</text>
+<rect x="1255" y="280" width="140" height="80" rx="6" class="ink"/><rect x="1275" y="295" width="85" height="30" rx="4" class="ink"/><text x="1290" y="318" font-size="20">· · ·</text>
+<path d="M1190 370 L1255 330" class="ink"/>
+<path d="M1190 395 L1245 430" class="ink"/><text x="1255" y="445" font-size="34">JVM</text>
+<path d="M1175 405 L1200 515" class="ink"/><text x="1210" y="535">codebase</text>
+<path d="M1160 405 L1110 470" class="ink"/><text x="1070" y="470" font-size="24">Research</text>
+<path d="M1150 400 L1095 560" class="ink"/><text x="1050" y="555" font-size="24">local</text>
+<path d="M1085 580 L1070 630" class="ink"/><text x="1050" y="645">Online DB</text>
+<path d="M1150 655 L1200 680" class="ink"/><text x="1210" y="690">Instance</text><text x="1210" y="722">logs</text>
+<path d="M1095 660 L1090 735" class="ink"/><text x="1070" y="755" font-size="24">Memory</text>
+<text x="1030" y="820" font-size="24">AI</text>
+<path d="M1120 770 L1150 800" class="ink"/><text x="1120" y="820">Bank</text><text x="1210" y="820">RAG</text>
+<text x="1310" y="790" font-size="24">talking<tspan class="q"> [?]</tspan></text>
+<rect x="1160" y="835" width="130" height="40" rx="18" class="ink"/><text x="1175" y="863" font-size="24">trading</text>
+<!-- the wavy line from codebase down to Ganapati -->
+<path d="M1330 540 C 1350 580, 1310 620, 1350 660 C 1390 700, 1400 740, 1440 760 C 1460 770, 1480 790, 1500 820" class="ink"/>
+<!-- Account -->
+<path d="M1040 880 L1180 880 L1180 940 L1040 940 Z" class="ink"/><text x="1055" y="920" font-size="26">ACCOUNT</text>
+<path d="M1060 940 L1060 1010 M1090 940 L1090 1030 M1120 940 L1120 1000" class="ink"/>
+<ellipse cx="1150" cy="1030" rx="80" ry="50" class="ink"/><text x="1105" y="1030" font-size="22">Collab</text><text x="1125" y="1058" font-size="22">logs</text>
+<!-- AI cloud above Smile -->
+<path d="M1230 920 c-20-30 20-60 50-45 c10-30 60-30 70 0 c30-10 60 20 40 45 c20 30-20 50-50 40 c-20 20-60 15-70-10 c-30 10-60-10-40-30 z" class="ink"/>
+<text x="1265" y="935" font-size="18">DR</text><text x="1255" y="958" font-size="18">T. AGER<tspan class="q"> [?]</tspan></text>
+<!-- Smile -->
+<ellipse cx="1430" cy="1160" rx="240" ry="190" class="ink"/>
+<path d="M1340 1090 C 1290 1120, 1290 1210, 1340 1240" class="ink" stroke-width="6"/>
+<circle cx="1390" cy="1110" r="10" class="ink" stroke-width="5"/><circle cx="1390" cy="1200" r="10" class="ink" stroke-width="5"/>
+<text x="1440" y="1215" font-size="110" font-style="italic">S</text><text x="1505" y="1210" font-size="46" font-style="italic">mile!</text>
+<!-- characters and below -->
+<text x="1020" y="1120" font-size="24">characters</text>
+<path d="M1120 1130 L1160 1150 M1100 1140 L1080 1210 M1130 1150 L1180 1240 M1140 1160 L1230 1300 M1150 1170 L1300 1330" class="ink"/>
+<text x="1030" y="1235" font-size="24">stats</text>
+<text x="1180" y="1270" font-size="24">magic</text>
+<text x="1225" y="1215" font-size="22">invent</text>
+<text x="1330" y="1250" font-size="22">resources</text>
+<text x="1340" y="1300" font-size="22">prayer ghosts</text>
+<text x="1400" y="1370" font-size="22">grand exchange</text>
+<path d="M1395 1360 L1380 1340" class="ink"/>
+<!-- Orchestrator -->
+<text x="1455" y="710" font-size="26">Ganapati</text>
+<circle cx="1500" cy="780" r="55" class="ink"/><text x="1482" y="795" font-size="40">O</text>
+<path d="M1445 790 C 1400 820, 1380 850, 1380 890 L 1430 890" class="ink"/>
+<text x="1420" y="860" font-size="26">Orchestrator</text>
+<path d="M1500 835 C 1520 900, 1540 940, 1560 980" class="ink"/>
+<!-- Game Worlds cloud -->
+<path d="M1470 430 l30-25 25 22 25-30 25 30 35-20 12 35 40-10 5 38 40 8 -14 34 36 20 -30 26 20 38 -40 8 2 40 -40-8 -18 36 -36-18 -30 32 -24-32 -38 22 -14-38 -40 6 4-40 -40-14 24-32 -26-28 32-22 -14-36 z" class="ink"/>
+<text x="1560" y="500" font-size="54" font-weight="bold" letter-spacing="5">GAME</text>
+<text x="1530" y="565" font-size="52" font-weight="bold" letter-spacing="4">WORLDS</text>
+<text x="1475" y="385" font-size="26">sc2</text><path d="M1500 395 L1510 420" class="ink"/>
+<text x="1610" y="370" font-size="26">class</text><text x="1640" y="400" font-size="24">1</text>
+<text x="1740" y="365" font-size="20">Self</text><text x="1740" y="390" font-size="20">driving<tspan class="q"> [?]</tspan></text><text x="1760" y="415" font-size="20">withers<tspan class="q"> [?]</tspan></text>
+<path d="M1700 410 L1720 395" class="ink"/>
+<text x="1390" y="640" font-size="24">bio</text><text x="1385" y="668" font-size="24">data</text><path d="M1430 625 L1470 590" class="ink"/>
+<text x="1395" y="705" font-size="26">OSRS</text><path d="M1440 680 L1490 625" class="ink"/>
+<text x="1620" y="690" font-size="26">WoW</text><path d="M1620 660 L1605 630" class="ink"/>
+<text x="1760" y="690" font-size="26">HS</text><path d="M1760 655 L1740 625" class="ink"/>
+<!-- the long loop from Game Worlds down the right side -->
+<path d="M1560 620 C 1540 660, 1560 700, 1600 760 C 1660 850, 1700 900, 1700 1000 C 1700 1080, 1660 1120, 1640 1150" class="ink"/>
+<text x="1720" y="830" font-size="26">optimise<tspan class="q"> [?]</tspan></text><path d="M1735 845 L1720 880" class="ink"/>
+<text x="1680" y="930" font-size="26">Speedrunning</text><path d="M1670 920 L1600 970" class="ink"/>
+<path d="M1690 945 L1700 990" class="ink"/>
+<text x="1720" y="1030" font-size="24">Segmented</text><text x="1690" y="1065" font-size="24">route</text>
+<text x="1600" y="1300" font-size="30">"Main quest"</text><text x="1600" y="1340" font-size="28">(tutorial)</text>
+<path d="M1600 1300 L1540 1330" class="ink"/>
+</svg>

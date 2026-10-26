@@ -862,6 +862,14 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
         with blog, latest blog posts auto connected, full aesthetic, large
         gold letterheads, Cybernetic Buddhism for AI Ethics paper and blog,
         then social media posts, promotional material and the link in bio.
+        On his words "not detailed or specific. i also want you to replicate
+        diagrams" the transcription was redone from enlarged crops with every
+        mark, underline, box, arrow and crossing out in its place, and the
+        four drawn pages are redrawn as SVG in
+        requirements\notebook-2026-10-26\, games, the Smile map, Universal
+        Platforms and certainty at the token. The brackets after the eight
+        paths on spread 3 are OSRS skills, Str, Def, mage, prayer, HP,
+        construction, Attack, Herblore.
     ) End the notebook )
 
 :-) End 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead :-) Many blessings

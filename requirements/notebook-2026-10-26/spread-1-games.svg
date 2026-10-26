@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1200" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive,sans-serif" font-size="32" fill="#111">
+<title>Spread 1, games and their mechanics, redrawn from the notebook</title>
+<desc>Left page: the games list, with a second column written diagonally down the right, Mechanics how underlined, the Ip Man note, RIP in a box over DIRECT COPY!, and the boss line. Right page: the mechanics list, each with its mark.</desc>
+<style>text{white-space:pre} .q{fill:#999;font-size:20px} .ink{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round}</style>
+<rect width="2000" height="1200" fill="#fbfaf6"/><line x1="985" y1="0" x2="985" y2="1200" stroke="#ddd"/>
+<text x="110" y="120" font-size="40">TTYD<tspan class="q"> [?]</tspan></text>
+<text x="110" y="190">Genshin</text>
+<text x="190" y="260">Knockout City</text>
+<text x="110" y="330">Mechanics how</text><line x1="110" y1="342" x2="420" y2="342" class="ink"/>
+<g transform="rotate(14 560 130)">
+<text x="560" y="130">V Rising</text>
+<text x="820" y="150">OSRS</text>
+<text x="840" y="200" font-size="22">Mafia<tspan class="q"> [?]</tspan></text>
+<text x="600" y="210">Realm Royale</text>
+<text x="800" y="270">BR</text>
+<text x="700" y="330">Mordhau<tspan class="q"> [?]</tspan></text>
+</g>
+<text x="150" y="420">* Ip Man "let him</text>
+<text x="190" y="470">fight" 10 people</text>
+<text x="190" y="520">"I want to see</text>
+<text x="190" y="570">how strong he is"</text>
+<rect x="170" y="605" width="150" height="70" rx="22" class="ink"/><text x="195" y="652" font-size="34">RIP</text>
+<text x="160" y="720" font-size="30" letter-spacing="2">DIRECT</text>
+<text x="160" y="760" font-size="30" letter-spacing="2">COPY!</text>
+<text x="110" y="880">* You defeat the boss to</text>
+<text x="150" y="930">unlock being able to play</text>
+<text x="150" y="980">as them</text>
+<!-- right page -->
+<text x="1060" y="200">x Megaman teaching</text><text x="1110" y="245">through play conditioning</text>
+<text x="1060" y="320">x OSRS horizontal</text><text x="1110" y="365">progression</text>
+<text x="1060" y="450">x PU passive menuing<tspan class="q"> [?]</tspan></text>
+<text x="1060" y="530">x KH imagination</text>
+<text x="1060" y="610">x Warioware minigames</text>
+<text x="1060" y="690">y Treasure, Loot, gear,</text><text x="1100" y="735">Epic, Legendary like WoW</text>
+<text x="1060" y="820">* Many different PvP</text><text x="1100" y="865">modes (minecraft,</text>
+<text x="1100" y="915">R<tspan class="q"> [hidden by the finger] </tspan>)</text>
+</svg>

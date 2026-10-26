@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1300" font-family="'Segoe Print','Bradley Hand','Comic Sans MS',cursive,sans-serif" font-size="30" fill="#111">
+<title>Page 5, certainty at the token, redrawn from the notebook</title>
+<desc>A1 circled top left; Uncertainty 100%, Token 5; at token 5 a circled Ping to all agents, the question beside it, an arrow from the question down to Supply best fit is determined by Ganapati; the capitals CERTIFIED PROMPT AGENT GENIUS down the left; A2 boxed at the bottom with the Hold Up line.</desc>
+<style>text{white-space:pre} .q{fill:#999;font-size:20px} .ink{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round} .strike{stroke:#111;stroke-width:4}</style>
+<rect width="1000" height="1300" fill="#fbfaf6"/>
+<circle cx="130" cy="140" r="30" class="ink"/><text x="108" y="150" font-size="26">A1</text>
+<text x="190" y="140" font-size="36">Uncertainty: 100%</text>
+<text x="190" y="200" font-size="36">Token: 5</text>
+<text x="90" y="320" font-size="34">at token 5,</text>
+<circle cx="520" cy="320" r="48" class="ink"/><text x="485" y="332" font-size="30">Ping</text>
+<text x="470" y="400" font-size="26">to all</text><text x="455" y="432" font-size="26">agents</text><text x="470" y="464" font-size="26">please</text><text x="455" y="500" font-size="26">Ganapati</text>
+<text x="660" y="330" font-size="28">ask:</text>
+<text x="650" y="370" font-size="24">who has</text><text x="660" y="400" font-size="24">certainty</text><text x="675" y="430" font-size="24">in this</text><text x="660" y="470" font-size="24">verbatim</text><text x="650" y="500" font-size="24">context?</text>
+<path d="M700 520 L580 690 M580 690 L590 650 M580 690 L620 680" class="ink"/>
+<g font-size="52" letter-spacing="6">
+<text x="90" y="530">CERTIFIED</text>
+<text x="90" y="600">PROMPT</text>
+<text x="90" y="670">AGENT</text>
+<text x="90" y="740">GENIUS.</text>
+</g>
+<text x="400" y="780" font-size="30">Supply</text>
+<text x="400" y="830" font-size="30">best fit</text>
+<text x="320" y="890" font-size="30">is determined by</text>
+<text x="650" y="860" font-size="24">Ganapati</text>
+<text x="700" y="900" font-size="30" fill="#777">AI</text><path d="M690 870 l50 40 m0-40 l-50 40 m10-45 l40 50 m-45-30 l50 20" class="strike"/>
+<rect x="80" y="1040" width="100" height="90" rx="24" class="ink"/><text x="100" y="1100" font-size="40">A2</text>
+<text x="70" y="1170" font-size="22">selected</text><text x="80" y="1200" font-size="22">role</text>
+<text x="300" y="1020" font-size="28" fill="#777">PM</text><line x1="290" y1="1012" x2="350" y2="1012" class="strike"/>
+<text x="250" y="1065" font-size="24" fill="#777">[a scribbled word]</text><line x1="250" y1="1057" x2="470" y2="1057" class="strike"/>
+<text x="480" y="1060" font-size="28">Ganapati folders</text>
+<text x="230" y="1100" font-size="32">Hold Up!</text>
+<text x="230" y="1150" font-size="30">you are uncertain. Can I</text>
+<text x="300" y="1200" font-size="30">take this one?</text>
+</svg>
