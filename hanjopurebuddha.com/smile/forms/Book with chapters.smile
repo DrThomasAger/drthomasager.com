@@ -1,0 +1,17 @@
+(-: A book of {teacher}'s words (-:
+
+    ( What to write (
+        A book of {teacher}'s words on {topic}. A title and subtitle, a
+        contents list, a preface of your own under 400 words, then six to
+        twelve chapters. Each chapter has a title, an opening paragraph of
+        your own, the quotations that belong to it in a deliberate order with
+        their source lines, and a closing line. Then a short afterword and
+        the Sources. The length follows the material, with no padding.
+    ) End what to write ) Many blessings
+
+    [= The reply [=
+        Markdown, the book's title as a # heading, each chapter a ## heading,
+        each quotation a blockquote with its source line after it.
+    =] End the reply =] Warm thanks
+
+:-) End a book of {teacher}'s words :-) So much gratitude

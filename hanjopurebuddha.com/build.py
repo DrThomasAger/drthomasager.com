@@ -24,6 +24,9 @@ import re
 import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parent
+import sys
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))  # smilecompose sits beside this file, also when another build loads it
 TEACHERS = ROOT / "teachers"
 SITE = ROOT / "site"
 TPL = ROOT / "templates"
@@ -44,6 +47,31 @@ def read_events(p):
                 events.append({"date": cells[0], "event": cells[1], "place": cells[2]})
     return events
 
+
+
+SONG_PARTS = ("STYLE", "LYRICS", "SOURCES", "COUNT")
+
+
+def song_html(body):
+    """A Suno song's reply (STYLE, LYRICS, SOURCES, COUNT, each on a line of
+    its own) with its line breaks kept and the style and lyrics ready to copy.
+    Returns None for any other body."""
+    import html as _h
+    lines = body.splitlines()
+    marks = [i for i, l in enumerate(lines) if l.strip() in SONG_PARTS]
+    if not any(lines[i].strip() == "LYRICS" for i in marks):
+        return None
+    head = "\n".join(lines[:marks[0]]).strip()
+    out = [md_lite(head)] if head else []
+    names = {"STYLE": "Style", "LYRICS": "Lyrics", "SOURCES": "Sources", "COUNT": "Count"}
+    for n, i in enumerate(marks):
+        part = lines[i].strip()
+        text = "\n".join(lines[i + 1:(marks[n + 1] if n + 1 < len(marks) else len(lines))]).strip("\n")
+        copy = (f' <button class="btn copy" type="button" data-copy="{part.lower()}">Copy {names[part].lower()} for Suno</button>'
+                if part in ("STYLE", "LYRICS") else "")
+        size = f' <span class="note">{len(text):,} characters</span>' if part in ("STYLE", "LYRICS") else ""
+        out.append(f'<h2>{names[part]}{size}{copy}</h2><pre class="song" id="song-{part.lower()}">{_h.escape(text)}</pre>')
+    return "\n".join(out)
 
 def md_lite(text):
     """A small markdown-to-HTML for the prose files: headings, paragraphs,
@@ -267,7 +295,8 @@ def build_teacher(folder, out_root=None):
                        "edit_urls": {"edits": edit_url(slug, "edits.json"), "compositions_new": edit_url(slug, "compositions", new=True),
                                      "formats": (f"https://github.com/{SITE_CONF.get('repo')}/edit/{SITE_CONF.get('branch','main')}/{SITE_CONF.get('prefix','')}formats.json" if SITE_CONF.get("repo") else ""),
                                      "posts_new": (f"https://github.com/{SITE_CONF.get('posts_repo')}/new/{SITE_CONF.get('branch','main')}/{SITE_CONF.get('posts_path','posts')}" if SITE_CONF.get("posts_repo") else "")}})
-    compose_data = embed({"quotes": quotes, "meta": {k: v for k, v in meta.items() if k != "events"}, "formats": FORMATS,
+    import smilecompose
+    compose_data = embed({"quotes": quotes, "meta": {k: v for k, v in meta.items() if k != "events"}, "formats": FORMATS, "texts": smilecompose.module_texts(), "edits": edits,
                           "site": SITE_CONF, "slug": slug, "edit_urls": json.loads(tool_data.replace("<\\/", "</"))["edit_urls"]})
     for page, tname, payload in (("compose", "compose.html", compose_data), ("edit", "editor.html", tool_data)):
         tp = TPL / tname
@@ -293,7 +322,7 @@ def build_teacher(folder, out_root=None):
             html = ctpl
             for k, v in common.items():
                 html = html.replace(k, v)
-            html = (html.replace("__TITLE__", esc(title)).replace("__BODY__", md_lite(body))
+            html = (html.replace("__TITLE__", esc(title)).replace("__BODY__", song_html(body) or md_lite(body))
                         .replace("__FMT__", esc(fm.get("format", ""))).replace("__TOPIC__", esc(fm.get("topic", "")))
                         .replace("__DATE__", esc(fm.get("date", ""))).replace("__MODEL__", esc(fm.get("model", "")))
                         .replace("__EDIT__", edit_url(slug, f"compositions/{f.name}")))

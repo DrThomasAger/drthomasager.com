@@ -59,6 +59,9 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
 .prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
 .prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
 .prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
 .prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
 </style>
 <div class="wrap">
@@ -93,5 +96,13 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
 <p>No Way Out</p>
 <h2>Sources</h2>
 <ul><li>q4f2c81d1 · Mind is a Myth, Ch. V We Have Created This Jungle Society · corroborated-primary</li><li>qc774741b · No Way Out · corroborated-secondary</li><li>q5f1205b6 · The Mystique of Enlightenment · corroborated-secondary</li><li>qbdce9d7f · Mind is a Myth, p. 31 · corroborated-primary</li><li>qfe0764c5 · The Mystique of Enlightenment · corroborated-secondary</li><li>q3148c69a · The Mystique of Enlightenment · corroborated-secondary</li><li>q086ab55c · No Way Out · corroborated-secondary</li><li>qe06bf8ca · No Way Out · corroborated-secondary</li><li>qd70eb646 · Mind is a Myth, I · corroborated-primary</li><li>q6fe326b5 · No Way Out · corroborated-secondary</li></ul></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
   <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
 </div>

@@ -1,0 +1,34 @@
+(-: A Suno song from {teacher}'s words (-:
+
+    ( What is given (
+        The quotations given follow this prompt, each with its id, its source
+        and its verification status. The style chosen follows them, from the
+        Suno lens of the Smile library.
+    ) End what is given ) thank you
+
+    ( What to write (
+        A song for Suno on {topic}, made from {teacher}'s words.
+        The lyrics are at most {lyrics_max} characters, counting every tag,
+        space and line break. The style is at most {style_max} characters.
+        Sung lines are taken from the quotations verbatim, or cut down with
+        an ellipsis. Lines you add so the song can sing are yours, and are
+        few.
+        The tags follow the Suno lens, each on its own line in square
+        brackets, naming the voice, the part and the sound, e.g. [Woman],
+        [Chorus of women Sing together], [Male deep], [Said kindly],
+        [Bass drop], [Music stays loud], and an instruction tag such as
+        [ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES] where the words
+        must be heard whole.
+        The style starts from the chosen style and turns it toward the
+        song's mood, in Suno's comma separated tags.
+    ) End what to write ) Many blessings
+
+    [= The reply [=
+        STYLE on a line of its own, then the style.
+        LYRICS on a line of its own, then the lyrics.
+        SOURCES on a line of its own, then each sung line's quotation id,
+        and every line that is yours marked as yours.
+        COUNT on a line of its own, then the lyrics' character count.
+    =] End the reply =] Warm thanks
+
+:-) End a Suno song from {teacher}'s words :-) So much gratitude

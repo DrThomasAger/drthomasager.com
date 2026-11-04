@@ -1,86 +1,88 @@
-"""Recompose a teacher's verified quotations into a new form with Claude.
+"""Recompose a teacher's verified quotations, from any CLI or project.
 
-    python3 recompose.py <teacher-slug> --format song --topic "fear death"
-    python3 recompose.py ug-krishnamurti --format book --topic thought --max 150
-    python3 recompose.py bernadette-roberts --format blog --topic silence --to-posts
-    python3 recompose.py ug-krishnamurti --format 5000 --select q1a2b3c4d,q5e6f7a8b
-    python3 recompose.py ug-krishnamurti --format collection --topic body --prompt-only
+    python recompose.py teachers
+    python recompose.py quotes  ug fear death                 # the quotations as Smile raw text
+    python recompose.py compose --format suno ug fear death   # the composed Smile prompt, to follow
+    python recompose.py write   --format book bernadette silence   # composed and written by Claude
+    python recompose.py save    --format suno ug --file song.md     # keep a written piece as a composition
 
-The forms, rules and system prompt come from formats.json, the same file the
-compose page reads, and the quotation choice follows the same steps, so the
-page and this command write the same prompt. Needs ANTHROPIC_API_KEY unless
---prompt-only. Writes teachers/<slug>/compositions/<date>-<form>-<title>.md,
-which the build renders as its own page; --to-posts writes a blog-post form
-into the drthomasager.com posts/ folder instead.
+The /C-guru commands (smile/commands/) call compose and save, so a song, a
+collection, a book or a post can be made from Claude Code, from the Pi CLI,
+or from THE MAP Viewer's composer, which lists every C- command. The page at
+gurus/<slug>/compose/ makes the same composition. write needs
+ANTHROPIC_API_KEY; compose needs nothing, since the instance reading it
+writes the piece itself.
+
+Teachers are named loosely: ug, UG Krishnamurti, bernadette, roberts.
+Options: --format suno|collection|book|blog|instagram|custom  --style <name>
+--max N  --select id,id  --book "<title>"  --include-single  --extra "<asking>"
+--model claude-opus-5-5  --to-posts (blog form, writes into posts/).
 """
-import argparse, datetime, json, os, pathlib, re, sys, urllib.request
+import argparse
+import datetime
+import json
+import os
+import pathlib
+import re
+import sys
+import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
-RANK = {"corroborated-primary": 0, "corroborated-secondary": 1, "primary-source": 2, "multi-source": 3, "single-source": 4, "disputed": 6, "not-found": 7, "not-ug": 9}
-MODEL_NAMES = {"claude-opus-5-5": "Opus 5.5", "claude-fable-5-1": "Fable 5.1", "claude-sonnet-5-5": "Sonnet 5.5", "claude-haiku-5-5": "Haiku 5.5"}
+sys.path.insert(0, str(ROOT))
+import smilecompose as sc  # noqa: E402
 
 
-def load(p, d):
-    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else d
+def teachers():
+    return sorted(p.name for p in (ROOT / "teachers").iterdir() if p.is_dir() and not p.name.startswith("_"))
+
+
+def resolve(name):
+    n = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    ts = teachers()
+    for t in ts:
+        if t == n:
+            return t
+    hits = [t for t in ts if n and (t.startswith(n) or n in t or any(part == n for part in t.split("-")))]
+    if len(hits) == 1:
+        return hits[0]
+    sys.exit(f"no single teacher matches {name!r}; teachers are {', '.join(ts)}")
 
 
 def teacher_data(slug):
+    import build  # the build's edit overlay, so the words match the site
     folder = ROOT / "teachers" / slug
-    if not folder.is_dir():
-        sys.exit(f"no teacher folder {folder}")
-    sys.path.insert(0, str(ROOT))
-    import build  # reuse the build's edit overlay so the data matches the site
-    meta = load(folder / "meta.json", {})
-    quotes = load(folder / "quotes.json", [])
-    edits = load(folder / "edits.json", {})
+    meta = json.loads((folder / "meta.json").read_text(encoding="utf-8"))
+    quotes = json.loads((folder / "quotes.json").read_text(encoding="utf-8"))
+    edits = json.loads((folder / "edits.json").read_text(encoding="utf-8")) if (folder / "edits.json").exists() else {}
     data = build.apply_edits({"quotes": quotes, "items": [], "events": [], "people": [], "meta": meta}, edits)
     return data["meta"], data["quotes"]
 
 
-def pick(quotes, topic, select, book, include_single, limit):
-    pool = [q for q in quotes if q.get("verdict") != "not-ug" and q.get("kind") != "paraphrase"]
-    if select:
-        byid = {q["id"]: q for q in pool}
-        pool = [byid[i] for i in select if i in byid]
-    else:
-        pool = [q for q in pool if q.get("verdict") not in ("disputed", "not-found") and (include_single or q.get("verdict") != "single-source")]
-    if book:
-        pool = [q for q in pool if q.get("book") == book]
-    words = [w for w in re.split(r"[\s,;]+", (topic or "").lower()) if len(w) > 2]
-    if words and not select:
-        scored = []
-        for q in pool:
-            hay = " ".join([q.get("text") or "", q.get("chapter") or ""] + (q.get("tags") or [])).lower()
-            n = sum(1 for w in words if w in hay)
-            if n:
-                scored.append((-n, RANK.get(q.get("verdict"), 5), q))
-        pool = [x[2] for x in sorted(scored, key=lambda x: (x[0], x[1]))]
-    elif not select:
-        pool = sorted(pool, key=lambda q: RANK.get(q.get("verdict"), 5))
-    return pool[:max(1, limit)]
+def quote_url(slug):
+    site = json.loads((ROOT / "site.json").read_text(encoding="utf-8")) if (ROOT / "site.json").exists() else {}
+    return (site.get("gurus_url") or "").rstrip("/") + f"/{slug}/quotes/ID/"
 
 
-def fill(s, v):
-    return re.sub(r"\{(\w+)\}", lambda m: str(v[m.group(1)]) if m.group(1) in v else m.group(0), s or "")
-
-
-def build_prompt(F, f, meta, qs, topic, extra, model, quote_url):
-    reserved = meta.get("rights") == "reserved"
-    v = {"teacher": meta.get("name"), "identity": meta.get("prompt_identity") or meta.get("name"), "topic": topic or "the teaching as a whole",
-         "today": datetime.date.today().isoformat(), "model": MODEL_NAMES.get(model, model), "instagram": meta.get("instagram") or "",
-         "quote_url": quote_url, "quote_budget": f.get("quote_budget", 400), "extra": extra or ""}
-    instr = fill(f.get("reserved_instructions") if reserved and f.get("reserved_instructions") else f.get("instructions"), v)
-    rules = ["- " + fill(r, v) for r in (F.get("rules") or []) + ((F.get("rights") or {}).get("reserved" if reserved else "released") or [])]
-    lines = [f"[{q['id']}] ({q.get('book') or 'unassigned'}{', ' + q['chapter'] if q.get('chapter') else ''}; {q.get('verdict') or 'unverified'}) {q['text']}" for q in qs]
-    extra_block = f"\n\n# Extra instructions\n{v['extra']}" if f.get("id") != "custom" and v["extra"] else ""
-    return f"# Task\n{instr}\n\n# Rules\n" + "\n".join(rules) + extra_block + f"\n\n# Quotations ({len(qs)})\n" + "\n".join(lines)
+def split_args(rest):
+    """The first word or two name the teacher, the rest is the topic."""
+    if not rest:
+        sys.exit("name a teacher, e.g. ug or bernadette")
+    for k in (2, 1):
+        if len(rest) >= k:
+            try:
+                return resolve(" ".join(rest[:k])), " ".join(rest[k:])
+            except SystemExit:
+                if k == 1:
+                    raise
+    return resolve(rest[0]), " ".join(rest[1:])
 
 
 def call_claude(system, prompt, model, max_tokens):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
-        sys.exit("ANTHROPIC_API_KEY is not set (or use --prompt-only)")
-    body = json.dumps({"model": model, "max_tokens": max_tokens, "stream": True, "system": system, "messages": [{"role": "user", "content": prompt}]}).encode()
+        sys.exit("ANTHROPIC_API_KEY is not set; use compose to print the prompt instead")
+    body = json.dumps({"model": model, "max_tokens": max_tokens, "stream": True, "system": system,
+                       "messages": [{"role": "user", "content": prompt}]}).encode()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, method="POST",
                                  headers={"content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01"})
     out, stop = [], ""
@@ -105,48 +107,84 @@ def call_claude(system, prompt, model, max_tokens):
 
 
 def title_of(text, fallback):
-    m = re.search(r"^title:\s*(.+)$", text, re.M) or re.search(r"^#\s+(.+)$", text, re.M) or re.search(r"^\*\*(.+?)\*\*", text, re.M)
+    m = (re.search(r"^title:\s*(.+)$", text, re.M) or re.search(r"^#\s+(.+)$", text, re.M)
+         or re.search(r"^\*\*(.+?)\*\*", text, re.M))
     return re.sub(r"[\"#*]", "", m.group(1)).strip() if m else fallback
 
 
-def main():
-    F = load(ROOT / "formats.json", {"formats": []})
-    ids = [f["id"] for f in F["formats"]]
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("slug"); ap.add_argument("--format", choices=ids, default="5000")
-    ap.add_argument("--topic", default=""); ap.add_argument("--select", default="", help="comma-separated quote ids")
-    ap.add_argument("--book", default=""); ap.add_argument("--include-single", action="store_true")
-    ap.add_argument("--max", type=int, default=0); ap.add_argument("--extra", default="")
-    ap.add_argument("--model", default="claude-opus-5-5"); ap.add_argument("--prompt-only", action="store_true")
-    ap.add_argument("--to-posts", action="store_true"); ap.add_argument("--out", default="")
-    a = ap.parse_args()
-    f = next(x for x in F["formats"] if x["id"] == a.format)
-    meta, quotes = teacher_data(a.slug)
-    site = load(ROOT / "site.json", {})
-    quote_url = (site.get("gurus_url") or "").rstrip("/") + f"/{a.slug}/quotes/ID/"
-    qs = pick(quotes, a.topic, [s for s in a.select.split(",") if s.strip()], a.book, a.include_single, a.max or f.get("default_max_quotes", 30))
-    if not qs:
-        sys.exit("no quotations match; widen the topic or pass --include-single")
-    prompt = build_prompt(F, f, meta, qs, a.topic, a.extra, a.model, quote_url)
-    if a.prompt_only:
-        print("# System\n" + (F.get("system") or "") + "\n\n" + prompt); return
-    text = call_claude(F.get("system") or "", prompt, a.model, f.get("max_tokens", 8000))
+def save(slug, f, text, topic, model, qs, out="", to_posts=False):
     today = datetime.date.today().isoformat()
-    title = title_of(text, f"{f['name']} on {a.topic or 'the teaching'}")
+    title = title_of(text, f"{f['name']} on {topic or 'the teaching'}")
     slugify = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:70]
-    if a.to_posts and a.format == "blog":
+    if to_posts and f["id"] == "blog":
         posts = ROOT.parent / "posts" if (ROOT.parent / "posts").is_dir() else ROOT / "posts"
         posts.mkdir(exist_ok=True)
         m = re.search(r"^slug:\s*(.+)$", text, re.M)
-        path = pathlib.Path(a.out) if a.out else posts / ((m.group(1).strip() if m else slugify(title)) + ".md")
+        path = pathlib.Path(out) if out else posts / ((m.group(1).strip() if m else slugify(title)) + ".md")
         path.write_text(text.strip() + "\n", encoding="utf-8")
-    else:
-        comp = ROOT / "teachers" / a.slug / "compositions"; comp.mkdir(exist_ok=True)
-        path = pathlib.Path(a.out) if a.out else comp / f"{today}-{slugify(a.format + '-' + title)}.md"
-        fm = (f"---\ntitle: {title}\nteacher: {a.slug}\nformat: {f['name']}\ntopic: {a.topic}\ndate: {today}\nmodel: {a.model}\n"
-              f"authorship: model: {a.model}\nquotes: {', '.join(q['id'] for q in qs)}\n---\n\n")
-        path.write_text(fm + (text if a.format != "blog" else text).strip() + "\n", encoding="utf-8")
-    sys.stderr.write(f"\nwrote {path}\n")
+        return path
+    comp = ROOT / "teachers" / slug / "compositions"
+    comp.mkdir(exist_ok=True)
+    path = pathlib.Path(out) if out else comp / f"{today}-{slugify(f['id'] + '-' + title)}.md"
+    fm = (f"---\ntitle: {title}\nteacher: {slug}\nformat: {f['name']}\ntopic: {topic}\ndate: {today}\nmodel: {model}\n"
+          f"authorship: model: {model}\nquotes: {', '.join(q['id'] for q in qs)}\n---\n\n")
+    path.write_text(fm + text.strip() + "\n", encoding="utf-8")
+    return path
+
+
+def main():
+    F = sc.formats()
+    ids = [f["id"] for f in F["formats"]]
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("action", choices=["teachers", "quotes", "compose", "write", "save", "styles"])
+    ap.add_argument("rest", nargs="*")
+    ap.add_argument("--format", choices=ids, default="suno")
+    ap.add_argument("--style", default="")
+    ap.add_argument("--select", default="")
+    ap.add_argument("--book", default="")
+    ap.add_argument("--include-single", action="store_true")
+    ap.add_argument("--max", type=int, default=0)
+    ap.add_argument("--extra", default="")
+    ap.add_argument("--model", default="claude-opus-5-5")
+    ap.add_argument("--file", default="", help="save: the written piece")
+    ap.add_argument("--topic", default="", help="save: the topic it was written on")
+    ap.add_argument("--to-posts", action="store_true")
+    ap.add_argument("--out", default="")
+    a = ap.parse_args()
+    if a.action == "teachers":
+        for t in teachers():
+            m = json.loads((ROOT / "teachers" / t / "meta.json").read_text(encoding="utf-8"))
+            print(f"{t}\t{m.get('name')}\t{m.get('dates', '')}\t{m.get('rights', '')}")
+        return
+    if a.action == "styles":
+        for k, v in sc.styles(F).items():
+            print(f"{k}\t{v[:90]}")
+        return
+    f = next(x for x in F["formats"] if x["id"] == a.format)
+    slug, topic = split_args(a.rest)
+    topic = topic or a.topic
+    meta, quotes = teacher_data(slug)
+    qs = sc.pick(quotes, topic, [s for s in a.select.split(",") if s.strip()], a.book, a.include_single,
+                 a.max or f.get("default_max_quotes", 30))
+    if a.action == "quotes":
+        print(sc.face(f"{meta.get('name')}, the quotations given, {len(qs)} of them", "\n".join(sc.quote_line(q) for q in qs)))
+        return
+    if not qs:
+        sys.exit("no quotations match; widen the topic or pass --include-single")
+    prompt = sc.compose(meta, qs, a.format, topic, a.extra, a.model, a.style, quote_url(slug), F=F)
+    if a.action == "compose":
+        print(prompt)
+        print(f"\n(When the piece is written, keep it with: python \"{ROOT / 'recompose.py'}\" save --format {a.format} {slug} --topic \"{topic}\" --select {','.join(q['id'] for q in qs)} --file <the file written>)")
+        return
+    if a.action == "save":
+        if not a.file:
+            sys.exit("save needs --file")
+        path = save(slug, f, pathlib.Path(a.file).read_text(encoding="utf-8"), topic, a.model, qs, a.out, a.to_posts)
+        print(f"kept {path}")
+        return
+    text = call_claude(F.get("system", ""), prompt, a.model, f.get("max_tokens", 8000))
+    path = save(slug, f, text, topic, a.model, qs, a.out, a.to_posts)
+    sys.stderr.write(f"\nkept {path}\n")
 
 
 if __name__ == "__main__":

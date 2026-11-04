@@ -1,0 +1,180 @@
+<title>You Love Fear · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>You Love Fear</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">fear death</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-04-suno-you-love-fear.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">344 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">festival anthem, hype anime opening, 808 sub-bass, hard 808s, blown out kicks, deep bass beats, recurring theme melody, upright bass, flowing melodies, hypnotic dreamy layers, lush synth pads, chorus, chanting, mantra, kirtan, stark spoken male verses, women&#x27;s chorus answering, slow build to a heavy drop, the words always clear above the beat</pre>
+<h2>Lyrics <span class="note">1,824 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+
+[Intro]
+[Male deep]
+[Said kindly]
+the very birth of thought creates fear
+
+[Verse 1]
+[Male deep]
+What you call &#x27;yourself&#x27; is fear.
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+
+[Pre-Chorus]
+[Woman]
+It is fear that makes you believe that you are living
+and that you will be dead.
+
+[Chorus]
+[Chorus of women Sing together]
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+
+[Bass drop]
+[Music stays loud]
+
+[Verse 2]
+[Male deep]
+There is no power outside of man.
+Man has created God out of fear.
+So the problem is fear and not God.
+[Said kindly]
+it is the mind that has created God out of fear
+
+[Pre-Chorus]
+[Woman]
+We don&#x27;t want to be free from fear.
+All that we want to do is to play games with it
+and talk about freeing ourselves from fear.
+
+[Chorus]
+[Chorus of women Sing together]
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+Fear is the very thing that you do not want to be free from.
+
+[Bridge]
+[Male deep]
+[Said kindly]
+The fact is that we don&#x27;t want to be free.
+What is responsible for our problems
+is the fear of losing what we have and what we know.
+
+[Bass drop]
+[Music stays loud]
+
+[Verse 3]
+[Woman]
+The body cannot be afraid of death.
+The movement that is created by society or culture
+is what does not want to come to an end.
+[Male deep]
+The body changes from one state into another
+as recycling of matter.
+
+[Final Chorus]
+[Chorus of women Sing together]
+The body cannot be afraid of death.
+in that sense the body is immortal
+The body cannot be afraid of death.
+in that sense the body is immortal
+
+[Outro]
+[Male deep]
+[Said kindly]
+What we do not want is the fear to come to an end.</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">[Intro] the very birth of thought creates fear — q4f2c81d1
+[Verse 1] What you call &#x27;yourself&#x27; is fear … dies in fear. — qc774741b (line breaks only)
+[Pre-Chorus] It is fear that makes you believe … you will be dead. — q1676a73f
+[Chorus] You love fear. The ending of fear is death, and you don&#x27;t want that to happen. — qa52816a8, cut before &quot;I am not talking …&quot;; the same words as qd70eb646, which writes THAT in capitals
+[Verse 2] There is no power outside of man … not God. — q5f1205b6
+[Verse 2] it is the mind that has created God out of fear — qbdce9d7f
+[Pre-Chorus] We don&#x27;t want to be free from fear … freeing ourselves from fear. — q3148c69a
+[Chorus] Fear is the very thing that you do not want to be free from. — q086ab55c
+[Bridge] The fact is that we don&#x27;t want to be free … what we know. — qe06bf8ca
+[Verse 3] The body cannot be afraid of death … come to an end. — q6fe326b5
+[Verse 3] The body changes from one state into another as recycling of matter. — qbb683516
+[Final Chorus] The body cannot be afraid of death. — q08218f4e
+[Final Chorus] in that sense the body is immortal — q1a68f39e
+[Outro] What we do not want is the fear to come to an end. — qfe0764c5
+No line is mine. The order, the repetitions and the tags are the arrangement.</pre>
+<h2>Count</h2><pre class="song" id="song-count">1824 characters</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

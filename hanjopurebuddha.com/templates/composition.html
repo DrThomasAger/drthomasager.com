@@ -59,6 +59,9 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
 .prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
 .prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
 .prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
 .prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
 </style>
 <div class="wrap">
@@ -66,5 +69,13 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
   <h1>__TITLE__</h1>
   <div class="row" style="margin:8px 0 18px"><span class="pill">__FMT__</span><span class="note">__TOPIC__</span><span class="note">__DATE__ · composed with __MODEL__ from the verified quotations</span><a class="note" href="__EDIT__" target="_blank" rel="noopener">Edit this page</a></div>
   <div class="prose">__BODY__</div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
   <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
 </div>

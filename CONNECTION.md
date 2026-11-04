@@ -60,6 +60,18 @@ INHERITANCE.md it lives.
   sessions (`src\reader\prefs.clj`), for any page that wants to know who
   is signed in. Hanjo's interface decisions as they live in Mahodara's
   code, listed in that section.
+- **A teacher's words, recomposed** (`hanjopurebuddha.com\RECOMPOSE.md`),
+  the verified quotations of U.G. Krishnamurti and Bernadette Roberts as
+  Smile raw text, and their recompositions as Smile compositions, a Suno
+  song, a collection on a topic, a book with chapters, a blog post through
+  /C-blog, an Instagram post. From any project, `/C-guru <teacher> <topic>`
+  prints the quotations to carry into the work at hand, and
+  `/C-guru-suno`, `/C-guru-collection`, `/C-guru-book`, `/C-guru-blog`,
+  `/C-guru-instagram` compose and keep a piece. They are written into
+  `~\.claude\commands` and Pi's prompt templates by
+  `python hanjopurebuddha.com\smile\install.py`, and THE MAP Viewer's
+  composer lists them with every other C- command. Underneath,
+  `python hanjopurebuddha.com\recompose.py quotes|compose|write|save`.
 - **Finding an earlier chat** ("Finding an earlier chat of his"), one
   file with every prompt Hanjo has typed in Claude Code, by project and
   session.
