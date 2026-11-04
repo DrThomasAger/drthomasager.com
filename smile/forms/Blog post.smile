@@ -1,0 +1,34 @@
+(-: A blog post on {teacher} for drthomasager.com (-:
+
+    ( What it carries (
+        Hanjo's blog post skill, /C-blog, is gathered beside this module and
+        holds the post's requirements. This module adds the teacher, the
+        quotations and the site's front matter.
+    ) End what it carries ) thank you
+
+    ( What to write (
+        A blog post on {teacher} and {topic}. An opening paragraph that
+        answers the title directly, three to six sections with ## headings
+        phrased as the questions people ask, quotations as blockquotes each
+        followed by its source line, a closing section, and the Sources.
+        Between 900 and 1,600 words.
+    ) End what to write ) Many blessings
+
+    [= The reply [=
+        One markdown file beginning with this front matter, filled in.
+        ---
+        title: <a question or phrase people search for>
+        slug: <the title in lowercase with hyphens>
+        description: <one or two sentences that answer the title>
+        subcategory: Commentaries
+        date: {today}
+        readtime: <minutes>
+        glyph: ☸
+        project: Buddhism
+        authors: Dr. Thomas Ager, {model}
+        tags: <four or five search phrases, comma separated>
+        ---
+        Then the body.
+    =] End the reply =] Warm thanks
+
+:-) End a blog post on {teacher} for drthomasager.com :-) So much gratitude

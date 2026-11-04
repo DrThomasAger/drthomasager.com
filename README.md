@@ -10,8 +10,13 @@ next teacher is added by adding a folder.
 
 ## Editing and recomposing
 
-Every teacher has an Edit page and a Compose page. `RECOMPOSE.md` explains both,
-the forms in `formats.json`, and `recompose.py` for the command line.
+Every teacher has an Edit page and a Compose page. The quotations are Smile raw
+text and every recomposition (Suno song, collection on a topic, book with
+chapters, blog post through /C-blog, Instagram post) is a Smile composition
+made of the modules in `smile/`. `python smile/install.py` writes the /C-guru
+commands into `~/.claude/commands` and Pi, so any project composes from here,
+and THE MAP Viewer's composer lists them. `RECOMPOSE.md` explains all of it,
+with `recompose.py` and `smilecompose.py` underneath.
 
 ## How it is built
 

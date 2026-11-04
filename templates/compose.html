@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 __FONT_LINK__
 <style>
+[hidden] { display: none !important; }
 :root {
   --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
   --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
@@ -56,20 +57,23 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
 <div class="wrap">
   <div class="eyebrow"><a href="../../">gurus</a> · <a href="../">__NAME__</a> · compose</div>
   <h1>Recompose __NAME__</h1>
-  <p class="lede">Choose a form and a topic. The page gathers the verified quotations that fit, writes the full prompt with the rules that keep every quotation exact and sourced, and either hands you the prompt to paste into any Claude or sends it to Claude directly with your own API key. The result is yours to edit, keep, and add to the site.</p>
-  <nav class="tools"><a href="../quotes/">Choose quotes one by one</a><a href="../edit/">Edit the data</a><a id="editFormats" href="#" target="_blank" rel="noopener">Edit the forms</a></nav>
+  <p class="lede">Choose a form and a topic. The page composes one Smile prompt, the way THE MAP Viewer's composer does: the rules that keep every quotation exact, the form, what the form gathers, and the verified quotations as raw text. Send it to Claude here, paste it into any Claude or Pi, or run the same form from the command line with <code>/C-guru-suno</code>, <code>/C-guru-book</code> and their siblings.</p>
+  <nav class="tools"><a href="../quotes/">Choose quotes one by one</a><a href="../edit/">Edit the data</a><a id="editForm" href="#" target="_blank" rel="noopener">Edit this form's Smile module</a></nav>
   <div id="rightsNote"></div>
   <div class="cols">
     <div class="panel">
       <label>Form <select id="fmt"></select></label>
+      <label id="styleRow">Suno style, from the Suno lens <select id="style"></select></label>
       <label>Topic <input id="topic" type="text" placeholder="e.g. fear, death, the body, silence" autocomplete="off"></label>
       <label class="inline"><input id="useSel" type="checkbox"> Use the quotes I selected (<span id="selN">0</span>)</label>
       <label>Book <select id="book"><option value="">any</option></select></label>
       <label class="inline"><input id="incSingle" type="checkbox"> Include single-source quotes</label>
       <label>At most <input id="maxq" type="number" min="1" max="400" value="30"></label>
-      <label>Extra instructions <textarea id="extra" rows="4" placeholder="Anything to add: a voice, an audience, a length, a structure."></textarea></label>
+      <label>Extra asking <textarea id="extra" rows="4" placeholder="Anything to add: a voice, an audience, a length, a structure."></textarea></label>
       <div class="status" id="poolN"></div>
       <details><summary class="note">Quotations going in</summary><div class="list" id="pool"></div></details>
+      <h2>From the command line</h2>
+      <pre class="note" id="cli" style="white-space:pre-wrap;overflow-wrap:anywhere;margin:0"></pre>
       <h2>Send to Claude</h2>
       <label>Model <select id="model">
         <option value="claude-opus-5-5">Claude Opus 5.5</option>
@@ -79,20 +83,26 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
       </select></label>
       <label>Anthropic API key <input id="key" type="password" placeholder="sk-ant-…" autocomplete="off"></label>
       <label class="inline"><input id="remember" type="checkbox"> Remember the key on this device</label>
-      <p class="note">The key goes only from this browser to api.anthropic.com. Without a key, copy the prompt and paste it into any Claude chat.</p>
+      <p class="note">The key goes only from this browser to api.anthropic.com.</p>
       <div class="row">
-        <button class="btn" id="copyPrompt" type="button">Copy prompt</button>
+        <button class="btn" id="copyPrompt" type="button">Copy the composition</button>
         <button class="btn primary" id="go" type="button">Compose with Claude</button>
         <button class="btn" id="stop" type="button" hidden>Stop</button>
       </div>
       <div class="status" id="state"></div>
     </div>
     <div class="panel">
-      <label>The prompt <textarea id="prompt" class="mono" rows="10"></textarea></label>
-      <label>The composition (editable) <textarea id="out" class="big" placeholder="The composition appears here as Claude writes it. You can also paste a result from any chat."></textarea></label>
+      <label>The composition, rendered and writable <textarea id="prompt" class="mono" rows="14"></textarea></label>
+      <div id="renderEdits" hidden class="warn"><span id="renderN"></span>
+        <div class="row" style="margin-top:6px"><button class="btn" id="keepOv" type="button">Keep in this composition</button><button class="btn" id="toQuotes" type="button">Write into the quotes</button><button class="btn" id="undoRender" type="button">Undo</button></div>
+      </div>
+      <div class="status" id="ovN"></div>
+      <label>The piece (editable) <textarea id="out" class="big" placeholder="The piece appears here as Claude writes it. You can also paste a result from any chat or CLI."></textarea></label>
       <div class="status" id="count"></div>
       <div class="row">
         <button class="btn" id="copyOut" type="button">Copy</button>
+        <button class="btn" id="copyLyrics" type="button" hidden>Copy lyrics for Suno</button>
+        <button class="btn" id="copyStyle" type="button" hidden>Copy style for Suno</button>
         <button class="btn" id="dl" type="button">Download .md</button>
         <button class="btn" id="save" type="button">Keep in this browser</button>
         <a class="btn" id="publish" href="#" target="_blank" rel="noopener">Add to the site</a>
@@ -111,75 +121,116 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
   const $ = s => document.querySelector(s);
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const store = { get(k, d) { try { const v = localStorage.getItem('ug:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem('ug:' + k, JSON.stringify(v)); } catch (e) {} }, del(k) { try { localStorage.removeItem('ug:' + k); } catch (e) {} } };
-  const F = D.formats || { formats: [] }, meta = D.meta || {}, slug = D.slug;
+  const F = D.formats || { formats: [] }, T = D.texts || {}, meta = D.meta || {}, slug = D.slug;
   const RANK = { 'corroborated-primary': 0, 'corroborated-secondary': 1, 'primary-source': 2, 'multi-source': 3, 'single-source': 4, 'disputed': 6, 'not-found': 7, 'not-ug': 9 };
+  const MODEL_NAMES = { 'claude-opus-5-5': 'Opus 5.5', 'claude-fable-5-1': 'Fable 5.1', 'claude-sonnet-5-5': 'Sonnet 5.5', 'claude-haiku-5-5': 'Haiku 5.5' };
   const reserved = meta.rights === 'reserved';
   const today = new Date().toISOString().slice(0, 10);
   const teacherBase = new URL('../', location.href).href;
-  if (D.edit_urls && D.edit_urls.formats) $('#editFormats').href = D.edit_urls.formats; else $('#editFormats').hidden = true;
-  if (reserved) $('#rightsNote').innerHTML = '<p class="warn">' + esc(meta.name) + '’s words are under copyright, so every form here quotes briefly and sparingly, with the writing mostly in Claude’s own words as commentary or study. The limits are in the forms file.</p>';
+  const byId = Object.fromEntries(D.quotes.map(q => [q.id, q]));
+  if (reserved) $('#rightsNote').innerHTML = '<p class="warn">' + esc(meta.name) + '’s words are under copyright, so every form here gathers the brief-quotation module and its under-copyright variant: short quotations serving writing mostly in Claude’s own words.</p>';
 
   $('#fmt').innerHTML = F.formats.map(f => '<option value="' + esc(f.id) + '">' + esc(f.name) + '</option>').join('');
+  $('#style').innerHTML = Object.keys(T.styles || {}).map(s => '<option>' + esc(s) + '</option>').join('');
   const books = [...new Set(D.quotes.map(q => q.book).filter(Boolean))].sort();
   $('#book').innerHTML += books.map(b => '<option>' + esc(b) + '</option>').join('');
   const sel = store.get('sel:' + slug, []);
-  $('#selN').textContent = sel.length;
-  if (sel.length) $('#useSel').checked = true;
+  $('#selN').textContent = sel.length; if (sel.length) $('#useSel').checked = true;
   const saved = store.get('compose:' + slug, {});
-  ['fmt', 'topic', 'book', 'maxq', 'extra', 'model'].forEach(k => { if (saved[k] != null) $('#' + k).value = saved[k]; });
+  ['fmt', 'style', 'topic', 'book', 'maxq', 'extra', 'model'].forEach(k => { if (saved[k] != null && $('#' + k).querySelector && ($('#' + k).tagName !== 'SELECT' || [...$('#' + k).options].some(o => o.value === saved[k]))) $('#' + k).value = saved[k]; });
   if (saved.incSingle) $('#incSingle').checked = true;
+  if (!saved.style && F.formats[0] && F.formats[0].default_style) $('#style').value = F.formats[0].default_style;
   const k0 = store.get('key', ''); if (k0) { $('#key').value = k0; $('#remember').checked = true; }
   const fmt = () => F.formats.find(f => f.id === $('#fmt').value) || F.formats[0];
+  let overrides = store.get('overrides:' + slug, {});
   $('#fmt').addEventListener('change', () => { $('#maxq').value = fmt().default_max_quotes || 30; update(); });
 
-  function fill(s, v) { return String(s || '').replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m)); }
+  // ---- the composition, line for line with smilecompose.compose
+  const fill = (s, v) => String(s || '').replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
+  const indent = (t, n) => t.split('\n').map(l => l.trim() ? ' '.repeat(n) + l : l).join('\n');
+  const face = (name, words) => '    (: ' + name + ' (:\n' + indent(words.trim(), 8) + '\n    :) End ' + name.charAt(0).toLowerCase() + name.slice(1) + ' :) thank you';
+  const quoteLine = (q, ov) => '[' + q.id + '] (' + (q.book || 'unassigned') + (q.chapter ? ', ' + q.chapter : '') + '; ' + (q.verdict || 'unverified') + ') ' + (ov != null ? ov : q.text);
   function pick() {
     const useSel = $('#useSel').checked && sel.length, book = $('#book').value, inc = $('#incSingle').checked;
     let pool = D.quotes.filter(q => q.verdict !== 'not-ug' && q.kind !== 'paraphrase');
-    if (useSel) { const set = new Set(sel); pool = sel.map(id => pool.find(q => q.id === id)).filter(Boolean); }
-    else { pool = pool.filter(q => !['disputed', 'not-found'].includes(q.verdict) && (inc || q.verdict !== 'single-source')); }
+    if (useSel) pool = sel.map(id => pool.find(q => q.id === id)).filter(Boolean);
+    else pool = pool.filter(q => !['disputed', 'not-found'].includes(q.verdict) && (inc || q.verdict !== 'single-source'));
     if (book) pool = pool.filter(q => q.book === book);
     const words = $('#topic').value.toLowerCase().split(/[\s,;]+/).filter(w => w.length > 2);
     if (words.length && !useSel) {
-      pool = pool.map(q => { const hay = [q.text, q.chapter, ...(q.tags || [])].join(' ').toLowerCase(); return [words.reduce((n, w) => n + (hay.includes(w) ? 1 : 0), 0), q]; })
-        .filter(x => x[0] > 0).sort((a, b) => b[0] - a[0] || (RANK[a[1].verdict] ?? 5) - (RANK[b[1].verdict] ?? 5)).map(x => x[1]);
+      pool = pool.map(q => { const hay = [q.text, q.chapter, ...(q.tags || [])].join(' ').toLowerCase(); return [-words.reduce((n, w) => n + (hay.includes(w) ? 1 : 0), 0), RANK[q.verdict] ?? 5, q]; })
+        .filter(x => x[0] < 0).sort((a, b) => a[0] - b[0] || a[1] - b[1]).map(x => x[2]);
     } else if (!useSel) pool.sort((a, b) => (RANK[a.verdict] ?? 5) - (RANK[b.verdict] ?? 5));
     return pool.slice(0, Math.max(1, +$('#maxq').value || 30));
   }
-  function buildPrompt(f, qs) {
-    const v = { teacher: meta.name, identity: meta.prompt_identity || meta.name, topic: $('#topic').value.trim() || 'the teaching as a whole', today, model: $('#model').selectedOptions[0].textContent.replace('Claude ', ''), instagram: meta.instagram || '', quote_url: teacherBase + 'quotes/ID/', quote_budget: f.quote_budget || 400, extra: $('#extra').value.trim() };
-    const instr = fill(reserved && f.reserved_instructions ? f.reserved_instructions : f.instructions, v);
-    const rules = [...(F.rules || []), ...((F.rights || {})[reserved ? 'reserved' : 'released'] || [])].map(r => '- ' + fill(r, v));
-    const lines = qs.map(q => '[' + q.id + '] (' + (q.book || 'unassigned') + (q.chapter ? ', ' + q.chapter : '') + '; ' + (q.verdict || 'unverified') + ') ' + q.text);
-    const extra = f.id !== 'custom' && v.extra ? '\n\n# Extra instructions\n' + v.extra : '';
-    return '# Task\n' + instr + '\n\n# Rules\n' + rules.join('\n') + extra + '\n\n# Quotations (' + qs.length + ')\n' + lines.join('\n');
+  function compose(f, qs) {
+    const v = { teacher: meta.name, identity: meta.prompt_identity || meta.name, topic: $('#topic').value.trim() || 'the teaching as a whole', today, model: MODEL_NAMES[$('#model').value] || $('#model').value, instagram: meta.instagram || '', quote_url: teacherBase + 'quotes/ID/', quote_budget: f.quote_budget || 400, lyrics_max: f.lyrics_max || 5000, style_max: f.style_max || 1000, extra: $('#extra').value.trim() || 'the piece asked for in the extra asking' };
+    const mods = (F.rules || []).map(r => T[r]);
+    mods.push(T[(F.rights || {})[reserved ? 'reserved' : 'released']]);
+    mods.push(T[reserved && f.reserved_module ? f.reserved_module : f.module]);
+    if ((f.gathers || []).includes('C-blog')) mods.push(T['C-blog']);
+    const parts = mods.filter(m => m && m.trim()).map(m => indent(fill(m, v).trim(), 4));
+    if ((f.gathers || []).includes('style')) { const st = (T.styles || {})[$('#style').value || f.default_style]; if (st) parts.push(face('The style chosen', st)); }
+    const extra = $('#extra').value.trim();
+    if (extra && f.id !== 'custom') parts.push(face('The extra asking', extra));
+    parts.push(face('The quotations given, ' + qs.length + ' of them', qs.map(q => quoteLine(q, overrides[q.id])).join('\n')));
+    return '(-: Smile Prompt Language! (-:\n\n' + parts.join('\n\n') + '\n\n:-) End Smile Prompt Language! :-) So much gratitude\n';
   }
-  let current = [];
+  let current = [], rendered = '';
   function update() {
+    const f = fmt();
+    $('#styleRow').hidden = !(f.gathers || []).includes('style');
     current = pick();
     $('#poolN').textContent = current.length + ' quotation' + (current.length === 1 ? '' : 's') + ' will go in.';
-    $('#pool').innerHTML = current.map(q => '<div class="li"><div class="t">' + esc(q.text.slice(0, 220)) + '<div class="s">' + esc(q.id) + ' · ' + esc(q.book || '') + ' · ' + esc(q.verdict || '') + '</div></div></div>').join('') || '<div class="li">Nothing matches. Widen the topic or include single-source quotes.</div>';
-    $('#prompt').value = buildPrompt(fmt(), current);
-    store.set('compose:' + slug, { fmt: $('#fmt').value, topic: $('#topic').value, book: $('#book').value, maxq: $('#maxq').value, extra: $('#extra').value, model: $('#model').value, incSingle: $('#incSingle').checked });
-    pubLinks();
+    $('#pool').innerHTML = current.map(q => '<div class="li"><div class="t">' + esc((overrides[q.id] || q.text).slice(0, 220)) + '<div class="s">' + esc(q.id) + ' · ' + esc(q.book || '') + ' · ' + esc(q.verdict || '') + (overrides[q.id] ? ' · changed in this composition' : '') + '</div></div></div>').join('') || '<div class="li">Nothing matches. Widen the topic or include single-source quotes.</div>';
+    rendered = compose(f, current); $('#prompt').value = rendered; $('#renderEdits').hidden = true;
+    const n = Object.keys(overrides).length; $('#ovN').textContent = n ? n + ' quotation' + (n === 1 ? '' : 's') + ' carry this composition’s own wording.' : '';
+    const sl = slug.split('-')[0], top = $('#topic').value.trim();
+    $('#cli').textContent = '/C-guru-' + f.id + ' ' + sl + (top ? ' ' + top : '') + '\n\npython recompose.py compose --format ' + f.id + ((f.gathers || []).includes('style') ? ' --style "' + $('#style').value + '"' : '') + ' ' + sl + (top ? ' ' + top : '');
+    $('#editForm').href = D.site && D.site.repo ? 'https://github.com/' + D.site.repo + '/edit/' + (D.site.branch || 'main') + '/' + (D.site.prefix || '') + encodeURI(reserved && f.reserved_module ? f.reserved_module : f.module) : '#';
+    store.set('compose:' + slug, { fmt: $('#fmt').value, style: $('#style').value, topic: $('#topic').value, book: $('#book').value, maxq: $('#maxq').value, extra: $('#extra').value, model: $('#model').value, incSingle: $('#incSingle').checked });
+    sunoBits(); pubLinks();
   }
-  ['topic', 'book', 'maxq', 'extra', 'model', 'useSel', 'incSingle'].forEach(k => $('#' + k).addEventListener('input', update));
+  ['style', 'topic', 'book', 'maxq', 'extra', 'model', 'useSel', 'incSingle'].forEach(k => $('#' + k).addEventListener('input', update));
+
+  // ---- composing from inside the render: a changed quotation line is found by its id
+  function renderChanges() {
+    const ch = {};
+    $('#prompt').value.split('\n').forEach(l => { const m = l.match(/^\s*\[(\w+)\] \((.*?); ([\w-]+)\) (.*)$/); if (m && byId[m[1]]) { const was = overrides[m[1]] ?? byId[m[1]].text; if (m[4] !== was) ch[m[1]] = m[4]; } });
+    return ch;
+  }
+  $('#prompt').addEventListener('input', () => { const ch = renderChanges(), n = Object.keys(ch).length; $('#renderEdits').hidden = !n; $('#renderN').textContent = n ? n + ' quotation' + (n === 1 ? ' was' : 's were') + ' changed in the render. Keep the change in this composition only, or write it into the quote itself so every composition and the site carry it.' : ''; });
+  $('#keepOv').addEventListener('click', () => { Object.assign(overrides, renderChanges()); store.set('overrides:' + slug, overrides); update(); });
+  $('#toQuotes').addEventListener('click', () => {
+    const ch = renderChanges(), key = 'edits:' + slug;
+    const e = store.get(key, null) || JSON.parse(JSON.stringify(D.edits || {}));
+    e.quotes = Object.assign({ update: {}, add: [], remove: [] }, e.quotes || {});
+    Object.entries(ch).forEach(([id, t]) => { e.quotes.update[id] = Object.assign({}, e.quotes.update[id] || {}, { text: t }); byId[id].text = t; delete overrides[id]; });
+    store.set(key, e); store.set('overrides:' + slug, overrides); update();
+    $('#state').innerHTML = 'Written into the quotes in this browser. <a href="../edit/">Open the Edit page</a> to copy edits.json into the site.';
+  });
+  $('#undoRender').addEventListener('click', () => { $('#prompt').value = rendered; $('#renderEdits').hidden = true; });
 
   function copy(text, btn) {
-    const done = () => { const t = btn.textContent; btn.textContent = 'Copied'; setTimeout(() => btn.textContent = t, 1400); };
-    (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(text) : Promise.reject()).then(done).catch(() => { const ta = btn.id === 'copyPrompt' ? $('#prompt') : $('#out'); ta.focus(); ta.select(); btn.textContent = 'Selected, press copy'; });
+    const t0 = btn.textContent, done = () => { btn.textContent = 'Copied'; setTimeout(() => btn.textContent = t0, 1400); };
+    (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(text) : Promise.reject()).then(done).catch(() => { btn.textContent = 'Copy failed, select the text'; });
   }
   $('#copyPrompt').addEventListener('click', () => copy($('#prompt').value, $('#copyPrompt')));
   $('#copyOut').addEventListener('click', () => copy($('#out').value, $('#copyOut')));
+  const part = (name) => { const t = $('#out').value, m = t.match(new RegExp('^' + name + '\\s*\\n([\\s\\S]*?)(?=^(STYLE|LYRICS|SOURCES|COUNT)\\s*$|$(?![\\s\\S]))', 'm')); return m ? m[1].trim() : ''; };
+  $('#copyLyrics').addEventListener('click', () => copy(part('LYRICS'), $('#copyLyrics')));
+  $('#copyStyle').addEventListener('click', () => copy(part('STYLE'), $('#copyStyle')));
+  function sunoBits() {
+    const isSuno = fmt().id === 'suno'; $('#copyLyrics').hidden = !isSuno; $('#copyStyle').hidden = !isSuno; counts();
+  }
 
   let ctrl = null;
   $('#go').addEventListener('click', async () => {
     const key = $('#key').value.trim();
-    if (!key) { $('#state').textContent = 'Add an Anthropic API key above, or copy the prompt into any Claude chat.'; return; }
+    if (!key) { $('#state').textContent = 'Add an Anthropic API key above, or copy the composition into any Claude or Pi, or use the command line.'; return; }
     if ($('#remember').checked) store.set('key', key); else store.del('key');
-    if (fmt().id === 'custom' && !$('#extra').value.trim()) { $('#state').textContent = 'The custom form needs your instructions in Extra instructions.'; return; }
-    ctrl = new AbortController();
-    $('#go').disabled = true; $('#stop').hidden = false; $('#out').value = ''; $('#state').textContent = 'Writing…';
+    if (fmt().id === 'custom' && !$('#extra').value.trim()) { $('#state').textContent = 'The custom form needs your asking in Extra asking.'; return; }
+    ctrl = new AbortController(); $('#go').disabled = true; $('#stop').hidden = false; $('#out').value = ''; $('#state').textContent = 'Writing…';
     try {
       const res = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST', signal: ctrl.signal,
         headers: { 'content-type': 'application/json', 'x-api-key': key, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
@@ -198,19 +249,24 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
           if (ev.type === 'error') throw new Error(ev.error && ev.error.message || 'stream error');
         }
       }
-      $('#state').textContent = stopReason === 'max_tokens' ? 'Stopped at the length limit for this form. Raise max_tokens in the forms file to go longer.' : 'Done.';
+      $('#state').textContent = stopReason === 'max_tokens' ? 'Stopped at this form’s length limit. Raise max_tokens in formats.json to go longer.' : 'Done.';
     } catch (e) { $('#state').textContent = e.name === 'AbortError' ? 'Stopped.' : 'Claude could not be reached: ' + e.message; }
     $('#go').disabled = false; $('#stop').hidden = true; counts(); pubLinks();
   });
   $('#stop').addEventListener('click', () => ctrl && ctrl.abort());
 
-  function counts() { const t = $('#out').value; $('#count').textContent = t.length.toLocaleString() + ' characters · ' + (t.trim() ? t.trim().split(/\s+/).length : 0).toLocaleString() + ' words'; }
+  function counts() {
+    const t = $('#out').value; let s = t.length.toLocaleString() + ' characters · ' + (t.trim() ? t.trim().split(/\s+/).length : 0).toLocaleString() + ' words';
+    if (fmt().id === 'suno') { const L = part('LYRICS').length, S = part('STYLE').length, f = fmt(); s += ' · lyrics ' + L.toLocaleString() + ' of ' + (f.lyrics_max || 5000).toLocaleString() + (L > (f.lyrics_max || 5000) ? ' (over Suno’s limit)' : '') + ' · style ' + S + ' of ' + (f.style_max || 1000) + (S > (f.style_max || 1000) ? ' (over)' : ''); }
+    $('#count').textContent = s;
+  }
   $('#out').addEventListener('input', () => { counts(); pubLinks(); });
-  function titleOf(t) { const m = t.match(/^title:\s*(.+)$/m) || t.match(/^#\s+(.+)$/m) || t.match(/^\*\*(.+?)\*\*/m); return (m ? m[1] : fmt().name + ' on ' + ($('#topic').value || 'the teaching')).replace(/["#*]/g, '').trim(); }
+  function titleOf(t) { const m = t.match(/^title:\s*(.+)$/m) || t.match(/^#\s+(.+)$/m) || t.match(/^\*\*(.+?)\*\*/m) || t.match(/^\[?Title:?\s*(.+?)\]?$/mi); return (m ? m[1] : fmt().name + ' on ' + ($('#topic').value || 'the teaching')).replace(/["#*\[\]]/g, '').trim(); }
   const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70);
   function fileText() {
     const t = $('#out').value; if (fmt().id === 'blog') return t;
-    return '---\ntitle: ' + titleOf(t) + '\nteacher: ' + slug + '\nformat: ' + fmt().name + '\ntopic: ' + ($('#topic').value || '') + '\ndate: ' + today + '\nmodel: ' + $('#model').value + '\nauthorship: model: ' + $('#model').value + '\nquotes: ' + current.map(q => q.id).join(', ') + '\n---\n\n' + t + '\n';
+    const ov = Object.fromEntries(current.filter(q => overrides[q.id]).map(q => [q.id, overrides[q.id]]));
+    return '---\ntitle: ' + titleOf(t) + '\nteacher: ' + slug + '\nformat: ' + fmt().name + '\ntopic: ' + ($('#topic').value || '') + '\ndate: ' + today + '\nmodel: ' + $('#model').value + '\nauthorship: model: ' + $('#model').value + (fmt().id === 'suno' ? '\nstyle: ' + $('#style').value : '') + '\nquotes: ' + current.map(q => q.id).join(', ') + (Object.keys(ov).length ? '\noverrides: ' + JSON.stringify(ov) : '') + '\n---\n\n' + t + '\n';
   }
   function fileName() { return today + '-' + slugify(fmt().id + '-' + titleOf($('#out').value)) + '.md'; }
   function pubLinks() {
@@ -221,7 +277,7 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
     const pb = D.edit_urls && D.edit_urls.posts_new;
     if (fmt().id === 'blog' && pb && t.trim()) { const s = (t.match(/^slug:\s*(.+)$/m) || [])[1] || slugify(titleOf(t)); $('#publishPost').hidden = false; $('#publishPost').href = pb + '?filename=' + encodeURIComponent(s.trim() + '.md') + (short ? '&value=' + encodeURIComponent(t) : ''); }
     else $('#publishPost').hidden = true;
-    $('#pubNote').textContent = t.trim() ? (short ? 'Add to the site opens GitHub with the file filled in; commit it and the site rebuilds with the composition as its own page.' : 'This piece is long, so GitHub opens with the name filled in: download the .md and paste or upload its text there, then commit.') : '';
+    $('#pubNote').textContent = t.trim() ? (short ? 'Add to the site opens GitHub with the file filled in. Commit it and it becomes its own page.' : 'This piece is long, so GitHub opens with the name filled in. Download the .md and paste its text there, then commit.') : '';
   }
   $('#dl').addEventListener('click', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([fileText()], { type: 'text/markdown' })); a.download = fileName(); document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); });
   function drawKept() {
@@ -230,7 +286,7 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
   }
   $('#save').addEventListener('click', () => { const kept = store.get('kept:' + slug, []); kept.unshift({ title: titleOf($('#out').value), format: fmt().name, fmt: fmt().id, date: today, text: $('#out').value, topic: $('#topic').value }); store.set('kept:' + slug, kept.slice(0, 50)); drawKept(); });
   $('#kept').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; const kept = store.get('kept:' + slug, []);
-    if (b.dataset.load) { const k = kept[+b.dataset.load]; $('#fmt').value = k.fmt || $('#fmt').value; $('#topic').value = k.topic || ''; $('#out').value = k.text; update(); counts(); }
+    if (b.dataset.load) { const k = kept[+b.dataset.load]; $('#fmt').value = k.fmt || $('#fmt').value; $('#topic').value = k.topic || ''; update(); $('#out').value = k.text; counts(); pubLinks(); }
     if (b.dataset.del) { kept.splice(+b.dataset.del, 1); store.set('kept:' + slug, kept); drawKept(); } });
   drawKept(); update(); counts();
 })();
