@@ -28,5 +28,8 @@
  "instagram": "instagram handle without @, or empty",
  "accent": "",
  "accent_dark": "",
- "display_font": ""
+ "display_font": "",
+ "rights": "released | reserved",
+ "prompt_identity": "Full name (dates), one line that tells them apart from namesakes.",
+ "pronoun": "his | her | their"
 }

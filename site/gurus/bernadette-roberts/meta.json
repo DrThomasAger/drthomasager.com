@@ -30,5 +30,9 @@
  "display_font": "Cormorant",
  "instagram": "bernadette_roberts_quotes",
  "fetch": false,
- "fetch_note": "Her books and recordings are under ordinary copyright and her site objects to unauthorised recordings, so this archive links to each item and pulls nothing down."
+ "fetch_note": "Her books and recordings are under ordinary copyright and her site objects to unauthorised recordings, so this archive links to each item and pulls nothing down.",
+ "rights": "reserved",
+ "prompt_identity": "Bernadette Roberts (1931–2017), the American Catholic contemplative, former Carmelite nun, author of The Experience of No-Self.",
+ "pronoun": "her",
+ "slug": "bernadette-roberts"
 }

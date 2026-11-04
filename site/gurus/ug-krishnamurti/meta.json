@@ -25,5 +25,9 @@
  "lead_quote": "My teaching, if that is the word you want to use, has no copyright.",
  "portrait": "https://commons.wikimedia.org/wiki/Special:FilePath/UGKrishnamurti.jpg",
  "portrait_credit": "Video capture by Giuliano Sauro, GFDL, Wikimedia Commons",
- "instagram": "ug_krishnamurti_quotes"
+ "instagram": "ug_krishnamurti_quotes",
+ "rights": "released",
+ "prompt_identity": "U.G. Krishnamurti (Uppaluri Gopala Krishnamurti, 1918–2007), the Indian speaker who refused to be a guru. Not Jiddu Krishnamurti.",
+ "pronoun": "his",
+ "slug": "ug-krishnamurti"
 }

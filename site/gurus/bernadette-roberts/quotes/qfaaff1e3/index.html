@@ -41,6 +41,9 @@ ul { padding-left: 18px; } li { overflow-wrap: anywhere; font-size: 13.5px; }
   <div class="actions">
     <a class="btn primary" href="https://www.instagram.com/bernadette_roberts_quotes/" target="_blank" rel="noopener">@bernadette_roberts_quotes on Instagram</a>
     <button class="btn copy" type="button" id="copy">Copy quote</button>
+    <button class="btn" type="button" id="selq">Add to a composition</button>
+    <a class="btn" href="../../compose/">Compose</a>
+    <a class="btn" href="../../edit/#qfaaff1e3">Edit</a>
     <a class="btn" href="../">All quotes</a>
   </div>
   <h2>Where this was found</h2>
@@ -48,5 +51,6 @@ ul { padding-left: 18px; } li { overflow-wrap: anywhere; font-size: 13.5px; }
   <div class="nav"><span><a href="../qebefbf9d/">← previous</a></span><span><a href="../q053b8a3b/">next →</a></span></div>
 </div>
 <script>
+(function(){ const id='qfaaff1e3', k='ug:sel:bernadette-roberts'; const b=document.getElementById('selq'); let s=[]; try{ s=JSON.parse(localStorage.getItem(k)||'[]'); }catch(e){} const draw=()=>{ b.textContent = s.includes(id) ? '✓ In your selection' : 'Add to a composition'; }; draw(); b.addEventListener('click',()=>{ s = s.includes(id) ? s.filter(x=>x!==id) : s.concat([id]); try{ localStorage.setItem(k, JSON.stringify(s)); }catch(e){} draw(); }); })();
 (function(){ const b=document.getElementById('copy'); const t="This journey then, is nothing more, yet nothing less than a period of acclimating to a new way of seeing, a time of transition and revelation as it gradually comes upon \"that\" which remains when there is no self. This is not a journey for those who expect love and bliss." + "\n— Bernadette Roberts" ; b.addEventListener('click',()=>{ (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(t) : Promise.reject()).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy quote',1500);}).catch(()=>{ const r=document.createRange(); r.selectNodeContents(document.querySelector('blockquote.big')); const s=getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent='Selected, press copy'; }); }); })();
 </script>
