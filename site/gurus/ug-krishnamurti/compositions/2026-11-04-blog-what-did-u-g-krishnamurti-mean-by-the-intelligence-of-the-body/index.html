@@ -1,0 +1,139 @@
+<title>What Did U.G. Krishnamurti Mean by the Intelligence of the Body? · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>What Did U.G. Krishnamurti Mean by the Intelligence of the Body?</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Blog post</span><span class="note">the body intelligence</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-04-blog-what-did-u-g-krishnamurti-mean-by-the-intelligence-of-the-body.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><p><em>U.G. Krishnamurti taught that the living body already functions with an intelligence of its own, and that thought and culture interfere with it. He described the natural state as a physical condition, never as a psychological or spiritual attainment.</em></p>
+<p>U.G. Krishnamurti (1918–2007) meant something simple and difficult by the intelligence of the body. The living organism already knows how to function, he said, and what we call the spiritual search is thought interfering with that functioning. He did not offer the body as a new path to walk. He described what he called the natural state as something that happened in the body, and he refused to dress it in the language of bliss. He is not Jiddu Krishnamurti, the better known teacher whose name he shared. This post gathers his own words on the body, so that you can meet them as he gave them.</p>
+<h2>Who was U.G. Krishnamurti, and why did he speak of the body at all?</h2>
+<p>He grew up among Theosophists, spent his youth and middle years in the religious search, and in his late forties went through a change he would only ever call a calamity. After it he spoke for four decades to anyone who came, in living rooms across India, Europe and America, and he would not be anyone&#x27;s guru. What he described again and again was physical. He insisted on this so that no one could turn it into a mystical goal.</p>
+<blockquote><p>This state is a physical condition of your being. It is not some kind of psychological mutation.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em></p>
+<p>That sentence closes a door that most teachings leave open. If the state is physical, there is no technique of mind that can bring it about, and no inner experience that proves you have arrived. The rest of what he said about the body follows from here.</p>
+<h2>What is the intelligence of the body?</h2>
+<blockquote><p>To be yourself requires extraordinary intelligence. You are blessed with that intelligence…</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em>, Part One</p>
+<p>The intelligence he meant is not cleverness, and it is not anything you can learn or improve. It is the same intelligence that heals a cut, digests a meal and keeps the heart beating through the night without your help. You are already blessed with it. What gets in the way is the effort to become something other than what you are.</p>
+<blockquote><p>…this is the way you, stripped of the machinations of thought, are also functioning.</p></blockquote>
+<p>— <em>The Biology of Enlightenment</em></p>
+<p>Notice the word also. He was not describing a special body that only he possessed. He was saying that your body works this way right now, underneath the commentary that thought keeps running about it. The trouble, in his telling, is that culture has trained every one of us toward the same model of a good and spiritual person, and the organism&#x27;s own way gets buried under that training.</p>
+<blockquote><p>…nature had been allowed to go on in its own way, everybody would have become a unique flower.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em></p>
+<h2>Is the body interested in enlightenment?</h2>
+<blockquote><p>The body or organism is not interested in spiritual matters.</p></blockquote>
+<p>— <em>Science and U.G.</em></p>
+<p>For a seeker this may be the hardest sentence in the collection. The body does not want God, liberation or permanent peace. It wants to survive, and it wants to stay sensitive to what is happening around it. Thought is the one that wants a happiness that never ends, and it drives the body toward states the body cannot bear.</p>
+<blockquote><p>The pleasure of sex, for instance, is by nature temporary. The body can&#x27;t take uninterrupted pleasure for long, it would be destroyed.</p></blockquote>
+<p>— <em>No Way Out</em></p>
+<p>He chose the most ordinary example on purpose. Pleasure comes and goes, and the coming and going protects the organism. The dream of an enlightenment that is bliss without end asks the body for something that would destroy it. Seen this way, the spiritual search is not a higher calling. It works against the very life it claims to serve.</p>
+<h2>Why did he call the natural state a calamity?</h2>
+<blockquote><p>I call these events a calamity because from the point of view of one who thinks this is something fantastic, blissful, full of love, ecstasy and all that kind of a thing, this is physical torture.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em>, Part One</p>
+<p>The word was a warning to the people who came to him hoping to hear about ecstasy. He made it clear whose calamity it was.</p>
+<blockquote><p>Not a calamity to me but to those who have an image that something marvelous is going to happen.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em>, Part One</p>
+<p>When he did describe the change, he spoke like someone reporting symptoms. He told of days in which the body seemed to go through death, of the senses beginning to work without a coordinating center, and of a body felt only where it touched the world.</p>
+<blockquote><p>the hands and feet become cold, the body becomes stiff, the heartbeat slows down</p></blockquote>
+<p>— <em>The Natural State</em></p>
+<blockquote><p>My body had gone away and it has never come back. The points of contact are all that is there for the body.</p></blockquote>
+<p>— <em>The Natural State</em></p>
+<p>He did not say that anyone could reach this by following him, or by following anyone. He said that nothing caused it.</p>
+<blockquote><p>The natural state is acausal: it just happens.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em></p>
+<h2>Does the body fear death?</h2>
+<blockquote><p>The body cannot be afraid of death. The movement that is created by society or culture is what does not want to come to an end.</p></blockquote>
+<p>— <em>No Way Out</em></p>
+<p>Here the intelligence of the body becomes something you can test against your own life. The fear of dying, he said, does not belong to the organism. It belongs to the self that culture has built, the continuous story of a person who wants to go on. The body has no such wish. When it dies, nothing is lost to it.</p>
+<blockquote><p>The body changes from one state into another as recycling of matter.</p></blockquote>
+<p>— <em>Science and U.G.</em></p>
+<blockquote><p>in that sense the body is immortal</p></blockquote>
+<p>— <em>Mind is a Myth</em>, Ch. I</p>
+<p>The immortality he spoke of is not a soul that survives. It is matter going on as matter, the atoms of this body becoming other living things. There is no comfort in it for the one who wants to continue, and he did not offer any.</p>
+<h2>Is the body, then, the real self?</h2>
+<p>It would be easy to turn all of this into a new belief, with the body as the true self and thought as the false one. He took that belief away too.</p>
+<blockquote><p>What is there is only the body. It is actually a computer, but we are not ready to accept it.</p></blockquote>
+<p>— Interview with Jeffrey Mishlove on <em>Thinking Allowed</em>, Mind As a Myth</p>
+<blockquote><p>The body does not exist except as a thought.</p></blockquote>
+<p>— <em>Mind is a Myth</em></p>
+<p>Both sentences are his, and he left them side by side. The body functions, and it needs nothing from us in order to do so. The moment we hold an idea of the body, a picture of what it is and what it knows, we are back in thought again. The intelligence he described is not a thing you can know. It is the functioning itself, going on before any word about it.</p>
+<h2>What is left when the search ends?</h2>
+<blockquote><p>The search ends with the realization that there is no such thing as enlightenment.</p></blockquote>
+<p>— <em>The Mystique of Enlightenment</em></p>
+<p>U.G. Krishnamurti never told anyone to trust the body, to listen to it, or to practice anything with it. Every such instruction would only be thought again, trying to use the organism for its own ends. What he left instead was a description, and a suggestion that the life in you is already doing what it needs to do. You may find that simply reading his words, slowly and without trying to make them into a method, has its own quiet effect. Or you may find that nothing happens at all. He would have been content with either.</p>
+<h2>Sources</h2>
+<ul><li>qe646b0ed — <em>The Mystique of Enlightenment</em> (corroborated-primary)</li><li>qbe66ba38 — <em>The Mystique of Enlightenment</em>, Part One (corroborated-primary)</li><li>q2384f6fc — <em>The Biology of Enlightenment</em> (corroborated-primary)</li><li>qde44a012 — <em>The Mystique of Enlightenment</em> (corroborated-secondary)</li><li>q7f2ee6c3 — <em>Science and U.G.</em> (corroborated-primary)</li><li>q59326449 — <em>No Way Out</em> (corroborated-primary)</li><li>q37d40528 — <em>The Mystique of Enlightenment</em>, Part One (corroborated-primary)</li><li>qad57ce7d — <em>The Mystique of Enlightenment</em>, Part One (corroborated-primary)</li><li>qc0edce3e — <em>The Natural State</em> (corroborated-primary)</li><li>q4b30cd75 — <em>The Natural State</em> (corroborated-primary)</li><li>q2878603e — <em>The Mystique of Enlightenment</em> (corroborated-primary)</li><li>q6fe326b5 — <em>No Way Out</em> (corroborated-secondary)</li><li>qbb683516 — <em>Science and U.G.</em> (corroborated-primary)</li><li>q1a68f39e — <em>Mind is a Myth</em>, Ch. I (corroborated-primary)</li><li>q7e344096 — Interview with Jeffrey Mishlove on <em>Thinking Allowed</em>, Mind As a Myth (corroborated-secondary)</li><li>qb4728a46 — <em>Mind is a Myth</em> (corroborated-secondary)</li><li>qfc6d0e49 — <em>The Mystique of Enlightenment</em> (corroborated-primary)</li></ul></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

@@ -1,0 +1,127 @@
+<title>What Comes After the Unitive State? Bernadette Roberts on No-Self · Bernadette Roberts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+:root { --accent: #3B1E14; } @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #00B5B8; } } :root[data-theme="dark"] { --accent: #00B5B8; } :root { --display: "Cormorant", Georgia, serif; }
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">Bernadette Roberts</a> · composition</div>
+  <h1>What Comes After the Unitive State? Bernadette Roberts on No-Self</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Blog post</span><span class="note">unitive state no-self</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/bernadette-roberts/compositions/2026-11-04-blog-what-comes-after-the-unitive-state-bernadette-roberts-on-no-self.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><p><em>Bernadette Roberts taught that the unitive state, the union of the true self with God, is not the end of the Christian contemplative journey but its midpoint. Beyond it lies the falling away of the true self itself, which she called no-self.</em></p>
+<p>For Bernadette Roberts, what comes after the unitive state is the end of the self altogether. Most Christian contemplative writing describes a long journey that culminates in the union of the soul with God, where the ego has gone and a true self lives in oneness with the divine. Roberts lived that union for many years and then found that it, too, came to an end. The true self fell away, the divine center went with it, and what remained she called no-self. Her books are an attempt to map this second passage, which she believed the tradition had left almost entirely undescribed.</p>
+<h2>Who was Bernadette Roberts?</h2>
+<p>Bernadette Roberts (1931–2017) was an American Catholic contemplative. She spent years as a Carmelite nun, later left the monastery, married, raised a family and taught. Through all of it she kept a contemplative life, and she wrote about it with unusual precision. Her first book, <em>The Experience of No-Self</em>, appeared in 1982. <em>The Path to No-Self</em> and <em>What Is Self?</em> followed, and near the end of her life <em>The Real Christ</em>. She was not a teacher of techniques. She wrote as a witness, describing what had happened to her and comparing it, with great care, to what the Christian mystics had written before her.</p>
+<p>That comparison is where her work begins. She read the classic accounts of the spiritual journey and recognized her own path in them, up to a point. Past that point, she found nothing written.</p>
+<blockquote><p>It is only where these writers leave off that I propose to begin.</p></blockquote>
+<p>— <em>The Experience of No-Self</em>, Introduction</p>
+<h2>What is the unitive state in Christian contemplation?</h2>
+<p>The unitive state is the traditional summit of the contemplative life. After long purification, the soul ceases to live from its small, defended center, and it comes to rest in God. The tradition speaks of this as the death of the ego and the birth of the true self. Roberts accepted this description and gave it a precise place in her account.</p>
+<blockquote><p>the unitive state follows the falling away or transcendence of the ego and entails a radical change or transformation of consciousness</p></blockquote>
+<p>— <em>What Is Self?</em></p>
+<p>She did not treat the unitive state lightly. In her telling it is a real and lasting transformation, a life lived in steady oneness with the divine. It is not a peak experience that comes and goes. For many contemplatives it is the whole of the journey, and they live in it until death. She simply denied that it was the end.</p>
+<h2>Is union with God the final goal?</h2>
+<p>This is the point on which Roberts parted from almost everyone who had written before her.</p>
+<blockquote><p>The assumption that the egoless condition, or union of self and God, is man&#x27;s final goal and ultimate destiny is a great mistake.</p></blockquote>
+<p>— <em>The Path to No-Self</em>, Preface</p>
+<p>Her reason was that the ego is not the whole of the self. When the ego goes, a deeper self remains, the self that knows God, rests in God and feels its oneness with God. That self is real, and it too is a self.</p>
+<blockquote><p>It may be the end of the ego-self, but by no means is it the end of the self—either the true self or the phenomenal self.</p></blockquote>
+<p>— <em>What Is Self?</em></p>
+<p>So she placed the unitive state in the middle of the journey rather than at its close. It is a way of living, a long road with its own work, and its own trials, that leads somewhere further.</p>
+<blockquote><p>the unitive state is no longer regarded as the ultimate goal but, instead, is seen as the midpoint of the passage</p></blockquote>
+<p>— <em>What Is Self?</em></p>
+<blockquote><p>My purpose here is to affirm that the unitive state is a hidden path in itself</p></blockquote>
+<p>— <em>The Path to No-Self</em>, Preface</p>
+<h2>What happens when the true self falls away?</h2>
+<p>Roberts described the second passage as beginning without warning. After many years in the unitive life, the self that had been united with God was simply no longer there.</p>
+<blockquote><p>The onset of this second movement is characterized by the falling away of self and coming upon &quot;that&quot; which remains when it is gone.</p></blockquote>
+<p>— <em>The Experience of No-Self</em>, Introduction</p>
+<p>She wrote of looking inward, as she had done for years, to the quiet center where she had always found herself and God together. That center was empty.</p>
+<blockquote><p>Instead of the usual unlocalized centre of myself, there was nothing there, it was empty, and at the moment of seeing this there was a flood of quiet joy.</p></blockquote>
+<p>— <em>The Experience of No-Self</em>, Part I</p>
+<p>The joy is worth noticing, because what followed was not easy. In her account the loss of the true self takes the divine center with it. If there is no one left to be united, there is no longer a God to be united with in that way. Speaking to Stephan Bodian in 1986, she used the image of a coin whose two faces are self and God.</p>
+<blockquote><p>the divine center – the coin, or &quot;true self&quot; – suddenly disappeared, and without center or circumference there is no self, and no divine.</p></blockquote>
+<p>— Interview with Stephan Bodian, 1986</p>
+<p>This is the part of her teaching most easily softened, and she did not soften it. No-self is not a deeper union, and it is not a higher self. It is the end of the self that had been the knower of God. What remains is not experienced by anyone, because there is no one there to experience it.</p>
+<h2>How is no-self different from losing the ego?</h2>
+<p>The difference lies in what goes. When the ego falls away, a person loses a false center and finds a true one. When the true self falls away, there is no center to find. Roberts came to see the self itself, in all its levels, as something temporary.</p>
+<blockquote><p>Self is not our true life or our real nature; it is but a temporary mechanism</p></blockquote>
+<p>— <em>What Is Self?</em></p>
+<p>That sentence can sound bleak. In her writing it reads more like relief. A mechanism serves for a time and then it is no longer needed. The self had been the means by which a person came to know God, and once its work was done, it fell away of its own accord. She did not believe this was something anyone could bring about by effort.</p>
+<h2>Why does her account matter to contemplatives today?</h2>
+<p>Roberts wrote for people who had reached a place the books did not describe, and who feared they had gone wrong. A contemplative who loses the felt presence of God after years of union may take it as failure, or as a dark night that will end with union restored. Roberts offered another reading. The loss may be the next step of a path that does not end in a self at all.</p>
+<p>Her account also opens a quiet conversation with other traditions. She was a Catholic to the end, and she read the death and resurrection of Christ as the pattern of this passage. Yet she recognized something of her own experience in Buddhist accounts of the end of self, and she wrote about both with respect.</p>
+<h2>Closing</h2>
+<p>Bernadette Roberts asked a simple question of the Christian contemplative tradition. If the ego is gone and a true self remains, is the journey over? Her answer, from her own life, was no. The unitive state is real, lasting and good, and it is also a path, and at its end the self that walked it falls away. She did not offer this as a goal to strive for. She offered it as a map for those who find themselves there, so that they need not be afraid.</p>
+<h2>Sources</h2>
+<ul><li>q45cc28ad — <em>The Experience of No-Self</em>, Introduction (corroborated-primary)</li><li>qe90c1adb — <em>What Is Self?</em> (primary-source)</li><li>q19a3d246 — <em>The Path to No-Self</em>, Preface (corroborated-primary)</li><li>qda52d28f — <em>What Is Self?</em> (primary-source)</li><li>qd5f1bcc1 — <em>What Is Self?</em> (primary-source)</li><li>q78be2fac — <em>The Path to No-Self</em>, Preface (corroborated-primary)</li><li>qa6a54e9d — <em>The Experience of No-Self</em>, Introduction (corroborated-secondary)</li><li>q066e6835 — <em>The Experience of No-Self</em>, Part I (corroborated-primary)</li><li>q147cc879 — Interview with Stephan Bodian, 1986 (corroborated-secondary)</li><li>qe5c7c65f — <em>What Is Self?</em> (corroborated-primary)</li></ul></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

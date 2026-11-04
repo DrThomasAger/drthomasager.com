@@ -8,7 +8,7 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - Forms: 6 (Suno song, Collection on a topic, Book with chapters, Blog post, Instagram post, Custom), each a .smile module in smile/forms, with 3 carrying a variant for words under copyright.
 - Suno styles held as copies: 4.
 - Commands: 6 (C-guru-blog, C-guru-book, C-guru-collection, C-guru-instagram, C-guru-suno, C-guru), for Claude Code, Pi and THE MAP Viewer's composer through smile/install.py.
-- Pages in the built site: 459.
+- Pages in the built site: 466.
 
 ## Bernadette Roberts
 
@@ -51,14 +51,14 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | form | made | titles |
 |---|---|---|
-| Suno song | 0 | not yet made |
+| Suno song | 1 | No One to Come Back |
 | Collection on a topic | 1 | Where the Writers Leave Off |
 | Book with chapters | 1 | The Falling Away of Self |
-| Blog post | 0 | not yet made |
-| Instagram post | 0 | not yet made |
-| Custom | 0 | not yet made |
+| Blog post | 1 | What Comes After the Unitive State? Bernadette Roberts on No-Self |
+| Instagram post | 1 | Instagram post on silence |
+| Custom | 1 | Self, God and Christ in Bernadette Roberts, a Reading Guide |
 
-- Compositions whose every quoted line is checked against their quotations: 2. Lines not found: 0.
+- Compositions whose every quoted line is checked against their quotations: 6. Lines not found: 0.
 
 ### Media files
 
@@ -74,10 +74,6 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - 4 disputed and 2 not found, never quoted.
 - 14 archive items are leads or likely, not yet confirmed by a source.
 - 58 archive items have no year (websites and accounts among them, which take none).
-- No Suno song composition yet.
-- No Blog post composition yet.
-- No Instagram post composition yet.
-- No Custom composition yet.
 
 ## U.G. Krishnamurti
 
@@ -122,11 +118,11 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | Suno song | 1 | You Love Fear |
 | Collection on a topic | 1 | Born of Fear |
 | Book with chapters | 1 | Nothing Is Put in Its Place |
-| Blog post | 0 | not yet made |
-| Instagram post | 0 | not yet made |
-| Custom | 0 | not yet made |
+| Blog post | 1 | What Did U.G. Krishnamurti Mean by the Intelligence of the Body? |
+| Instagram post | 1 | Instagram post on fear |
+| Custom | 1 | Questions of a Seeker |
 
-- Compositions whose every quoted line is checked against their quotations: 3. Lines not found: 0.
+- Compositions whose every quoted line is checked against their quotations: 6. Lines not found: 0.
 
 ### Media files
 
@@ -143,7 +139,4 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - 10 disputed and 4 not found, never quoted.
 - 68 archive items are leads or likely, not yet confirmed by a source.
 - 339 archive items have no year (websites and accounts among them, which take none).
-- No Blog post composition yet.
-- No Instagram post composition yet.
-- No Custom composition yet.
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.

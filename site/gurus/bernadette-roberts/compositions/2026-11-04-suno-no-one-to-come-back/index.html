@@ -1,0 +1,157 @@
+<title>No One to Come Back · Bernadette Roberts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+:root { --accent: #3B1E14; } @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #00B5B8; } } :root[data-theme="dark"] { --accent: #00B5B8; } :root { --display: "Cormorant", Georgia, serif; }
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">Bernadette Roberts</a> · composition</div>
+  <h1>No One to Come Back</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">silence no-self</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/bernadette-roberts/compositions/2026-11-04-suno-no-one-to-come-back.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">412 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">festival anthem, victory anthem, hype anime opening, 808 sub-bass, hard 808s, blown out kicks, deep bass beats, recurring theme melody, upright bass, flowing melodies, hypnotic dreamy layers, complex mixtures, rich samples, nature, lush synth pads, chorus, chanting, mantra, kirtan, a hush before every drop, warm female lead, deep male verses, spoken bridge over held pads, the words always clear above the beat</pre>
+<h2>Lyrics <span class="note">1,629 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+
+[Intro]
+[Woman]
+[Sung softly]
+Hush now, the bell has stopped ringing
+Nobody left here to listen
+
+[Verse 1]
+[Male deep]
+I went looking for a quiet place inside
+I thought that I would find myself there waiting
+I kept the candle burning through the night
+And every prayer I said came back unspoken
+
+[Pre-Chorus]
+[Woman]
+Then the one who prayed went quiet too
+And there was no one left to tell it to
+
+[Chorus]
+[Chorus of women sing together]
+Silence, silence, nothing to hold
+No center, no circle, no story told
+Silence, silence, open and wide
+No one to come back, nothing inside
+
+[Bass drop]
+[Music stays loud]
+
+[Verse 2]
+[Male deep]
+The storm was turning round an eye of stillness
+I made my home inside that eye for years
+Then the wind died down and the eye went with it
+No stillness left to hold, and no one here
+
+[Bridge]
+[Music drops to held pads]
+[Spoken softly, the words of Bernadette Roberts]
+&quot;…entered a great silence and never returned.&quot;
+[Spoken softly, the words of Bernadette Roberts]
+&quot;…an immovable stillness, an unbreakable, unfeeling silence.&quot;
+
+[Chorus]
+[Chorus of women sing together]
+Silence, silence, nothing to hold
+No center, no circle, no story told
+Silence, silence, open and wide
+No one to come back, nothing inside
+
+[Verse 3]
+[Woman]
+I thought of Christ upon the hill
+And all that he let go
+The self went down into the dark
+And what remained has no name I know
+
+[Outro]
+[Chorus of women, chanting]
+Silence, silence
+No one to come back
+Silence, silence
+[Spoken softly, the words of Bernadette Roberts]
+&quot;…entered a great silence and never returned.&quot;
+[Fade out]</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">- Intro, my own words, inspired by q9d30b69a
+- Verse 1, my own words, inspired by q4d3eaaf1 and q889cddbc
+- Pre-Chorus, my own words, inspired by q889cddbc
+- Chorus, my own words, inspired by q147cc879 and q45d56e01
+- Verse 2, my own words, inspired by qfd33296f
+- Bridge, two brief lines quoted from Bernadette Roberts, cut from q45d56e01 and q5ed0c359 (Mystics, Masters, Saints and Sages, 2001, her autobiographical sketch; both corroborated-secondary)
+- Verse 3, my own words, inspired by q61fe2ed4 and qa96340fd
+- Outro, my own words, inspired by q45d56e01, closing with the quoted line from q45d56e01 once more
+- Every sung line outside the three marked as the words of Bernadette Roberts is my own, written for this song, and none of it is hers.</pre>
+<h2>Count</h2><pre class="song" id="song-count">Quoted words 21 of the 60 allowed, in two quoted lines of 7 words each, one of them given twice. Lyrics 1,623 characters of the 5,000 allowed. Style 412 characters of the 1,000 allowed.</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>
