@@ -153,6 +153,8 @@ __FONT_LINK__
   <a role="tab" data-tab="copyright" href="../copyright/" aria-selected="false">Copyright</a>
   <a role="tab" data-tab="sources" href="../sources/" aria-selected="false">Sources</a>
   <a role="tab" data-tab="about" href="../about/" aria-selected="false">About</a>
+  <a role="tab" data-tab="compose" href="../compose/" aria-selected="false">Compose</a>
+  <a role="tab" data-tab="edit" href="../edit/" aria-selected="false">Edit</a>
 </nav>
 
 <section id="tab-archive">
@@ -187,7 +189,7 @@ __FONT_LINK__
   </div>
   <div class="chips" id="bookChips" aria-label="Book"></div>
   <div class="chips" id="verdictChips" aria-label="Verdict"></div>
-  <div class="toolbar"><div id="qcount"></div></div>
+  <div class="toolbar"><div id="qcount"></div><div class="right"><span id="selInfo" class="note"></span> <a class="btn" href="../compose/">Compose from selection</a> <button id="selClear" type="button">Clear selection</button></div></div>
   <div id="quotes"></div>
 </section>
 
@@ -350,11 +352,17 @@ __FONT_LINK__
   bookChips.addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; const v = b.dataset.b; QF.books.has(v) ? QF.books.delete(v) : QF.books.add(v); drawBookChips(); renderQuotes(); });
   $('#qq').addEventListener('input', e => { QF.q = e.target.value; renderQuotes(); });
   $('#qconf').addEventListener('input', e => { QF.conf = e.target.value; renderQuotes(); });
+  const SELKEY = 'sel:' + (meta.slug || '');
+  const SEL = new Set(store.get(SELKEY, []));
+  function drawSel() { const el = $('#selInfo'); if (el) el.textContent = SEL.size ? SEL.size + ' selected for composing' : 'Select quotes to compose from them'; }
+  $('#quotes').addEventListener('click', e => { const b = e.target.closest('.selq'); if (!b) return; const id = b.dataset.q; SEL.has(id) ? SEL.delete(id) : SEL.add(id); store.set(SELKEY, [...SEL]); b.textContent = SEL.has(id) ? '✓ selected' : '+ select'; drawSel(); });
+  if ($('#selClear')) $('#selClear').addEventListener('click', () => { SEL.clear(); store.set(SELKEY, []); renderQuotes(); drawSel(); });
+  drawSel();
   function renderQuotes() {
     const q = QF.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const rows = quotes.filter(x => (!QF.books.size || QF.books.has(x.book)) && (!QF.conf || x.confidence === QF.conf) && (!QF.verdicts.size || QF.verdicts.has(x.verdict)) && q.every(w => x._s.includes(w)));
     $('#qcount').textContent = `${rows.length} of ${quotes.length} quotes`;
-    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote><a href="../quotes/${esc(x.id)}/" style="color:inherit;text-decoration:none">${esc(x.text)}</a></blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
+    $('#quotes').innerHTML = rows.length ? rows.map(x => `<div class="quote"><blockquote><a href="../quotes/${esc(x.id)}/" style="color:inherit;text-decoration:none">${esc(x.text)}</a></blockquote><div class="row"><span class="pill conf-${esc(x.confidence)}">${esc(x.confidence)}</span>${x.verdict ? `<span class="pill verdict-${esc(x.verdict)}">${esc(x.verdict)}</span>` : ''}${x.kind && x.kind !== 'verbatim' ? `<span class="pill">${esc(x.kind)}</span>` : ''}<span>${esc(x.book)}</span>${x.chapter ? `<span>${esc(x.chapter)}</span>` : ''}${x.year ? `<span>${x.year}</span>` : ''}${x.tags.length ? `<span class="tags">${x.tags.map(t => `<span class="tag">#${esc(t)}</span>`).join('')}</span>` : ''}</div><button class="tag selq" data-q="${esc(x.id)}" type="button">${SEL.has(x.id) ? '✓ selected' : '+ select'}</button> <a class="tag" href="../edit/#${esc(x.id)}">edit</a>${x.note ? `<div class="note">${esc(x.note)}</div>` : ''}${x.sources.length ? `<details><summary>${x.sources.length} source${x.sources.length > 1 ? 's' : ''}</summary><ul>${x.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>`).join('')}</ul></details>` : ''}</div>`).join('') : `<div class="empty">No quotes match.</div>`;
   }
   renderQuotes();
 

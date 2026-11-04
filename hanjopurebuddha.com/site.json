@@ -1,0 +1,9 @@
+{
+ "_comment": "Where the site lives and where its files are edited. Inside drthomasager.com the prefix is hanjopurebuddha.com/; in the standalone repository set repo to DrThomasAger/hanjopurebuddha.com, prefix to empty, gurus_url to https://hanjopurebuddha.com/gurus/.",
+ "repo": "DrThomasAger/drthomasager.com",
+ "branch": "main",
+ "prefix": "hanjopurebuddha.com/",
+ "gurus_url": "https://drthomasager.github.io/drthomasager.com/gurus/",
+ "posts_repo": "DrThomasAger/drthomasager.com",
+ "posts_path": "posts"
+}

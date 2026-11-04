@@ -1,0 +1,199 @@
+<title>__NAME__ · Edit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+__FONT_LINK__
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+/*__TEACHER_STYLE__*/
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../">gurus</a> · <a href="../">__NAME__</a> · edit</div>
+  <h1>Edit __NAME__</h1>
+  <p class="lede">Change any quote, item, event, person or the page details. Your changes collect in this browser as one file, <code>edits.json</code>. Put that file into the repository and the site applies it on its next build, on top of the gathered data, so a later research merge never overwrites what you changed.</p>
+  <div class="row" style="margin-bottom:14px">
+    <span class="status" id="pending"></span>
+    <button class="btn primary" id="copyEdits" type="button">Copy edits.json</button>
+    <button class="btn" id="dlEdits" type="button">Download edits.json</button>
+    <a class="btn" id="ghEdits" href="#" target="_blank" rel="noopener">Open edits.json on GitHub</a>
+    <button class="btn" id="discard" type="button">Discard browser changes</button>
+  </div>
+  <p class="note" id="howto">On GitHub, select all the text in the open file, paste the copied edits.json over it, and commit. The site rebuilds within a few minutes.</p>
+  <div class="cols">
+    <div class="panel">
+      <div class="row" id="dsTabs"></div>
+      <label>Find <input id="find" type="search" placeholder="words, ids, books, names" autocomplete="off"></label>
+      <div class="status" id="listN"></div>
+      <div class="list" id="list" style="max-height:560px"></div>
+      <button class="btn" id="newRec" type="button">New record</button>
+    </div>
+    <div class="panel">
+      <div class="status" id="recId"></div>
+      <form id="form"></form>
+      <div class="row">
+        <button class="btn primary" id="saveRec" type="button">Save change</button>
+        <button class="btn" id="delRec" type="button">Remove this record</button>
+        <a class="btn" id="viewRec" href="#" hidden>View on the site</a>
+      </div>
+      <div class="status" id="saved"></div>
+      <h2>Changes in this file</h2>
+      <div class="list" id="changes"></div>
+    </div>
+  </div>
+</div>
+<script id="data" type="application/json">/*__TOOL_DATA__*/</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const store = { get(k, d) { try { const v = localStorage.getItem('ug:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem('ug:' + k, JSON.stringify(v)); } catch (e) {} }, del(k) { try { localStorage.removeItem('ug:' + k); } catch (e) {} } };
+  const slug = D.slug;
+  const blank = () => ({ _comment: 'Hand edits applied at build time, on top of the merged data. Written by the editor page or by hand.', quotes: { update: {}, add: [], remove: [] }, items: { update: {}, add: [], remove: [] }, events: { update: {}, add: [], remove: [] }, people: { update: {}, add: [], remove: [] }, meta: {} });
+  const embedded = Object.assign(blank(), JSON.parse(JSON.stringify(D.edits || {})));
+  let edits = store.get('edits:' + slug, null) || JSON.parse(JSON.stringify(embedded));
+  ['quotes', 'items', 'events', 'people'].forEach(ds => { edits[ds] = Object.assign({ update: {}, add: [], remove: [] }, edits[ds] || {}); });
+  edits.meta = edits.meta || {};
+  const L = s => s.split(/\n/).map(x => x.trim()).filter(Boolean), C = s => s.split(',').map(x => x.trim()).filter(Boolean);
+  const FIELDS = {
+    quotes: [['text', 'area'], ['book'], ['chapter'], ['year', 'num'], ['kind', ['verbatim', 'fragment', 'paraphrase']], ['confidence', ['S', 'T']], ['verdict', ['corroborated-primary', 'corroborated-secondary', 'primary-source', 'multi-source', 'single-source', 'disputed', 'not-found', 'not-ug']], ['tags', 'list'], ['note', 'area'], ['sources', 'lines']],
+    items: [['medium', ['video', 'audio', 'text', 'image', 'archive', 'community']], ['title'], ['date'], ['year', 'num'], ['place'], ['people', 'list'], ['format'], ['language'], ['duration'], ['host'], ['url'], ['description', 'area'], ['tags', 'list'], ['confidence', ['S', 'T', 'lead']], ['sources', 'lines']],
+    events: [['date'], ['year', 'num'], ['event', 'area'], ['place'], ['people', 'list'], ['tags', 'list'], ['confidence', ['S', 'T', 'conflict']], ['note', 'area'], ['sources', 'lines']],
+    people: [['name'], ['also_known_as', 'list'], ['role'], ['relation', 'area'], ['dates'], ['place'], ['material', 'area'], ['url'], ['tags', 'list'], ['confidence', ['S', 'T']], ['sources', 'lines']],
+    meta: [['name'], ['full_name'], ['dates'], ['born'], ['died'], ['places'], ['one_line', 'area'], ['lead_quote', 'area'], ['lead_quote_source'], ['portrait'], ['portrait_credit'], ['instagram'], ['accent'], ['accent_dark'], ['display_font'], ['prompt_identity', 'area'], ['rights', ['released', 'reserved']], ['copyright_statement', 'area']]
+  };
+  const LABEL = { quotes: 'Quotes', items: 'Archive', events: 'Life', people: 'People', meta: 'Page details' };
+  const PREFIX = { quotes: 'q', items: 'i', events: 'ev', people: 'p' };
+  let ds = 'quotes', cur = null;
+  function records(name) {
+    if (name === 'meta') return [Object.assign({ id: 'meta' }, D.meta, edits.meta)];
+    const e = edits[name], removed = new Set(e.remove);
+    const base = (D[name] || []).filter(r => !removed.has(r.id)).map(r => Object.assign({}, r, e.update[r.id] || {}));
+    const have = new Set(base.map(r => r.id));
+    return base.concat(e.add.filter(a => !have.has(a.id)));
+  }
+  const labelOf = r => r.text || r.title || r.event || r.name || r.id;
+  $('#dsTabs').innerHTML = Object.keys(FIELDS).map(k => '<button class="btn" data-ds="' + k + '" type="button">' + LABEL[k] + '</button>').join('');
+  $('#dsTabs').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; ds = b.dataset.ds; cur = null; drawTabs(); drawList(); drawForm(); });
+  function drawTabs() { $('#dsTabs').querySelectorAll('button').forEach(b => b.classList.toggle('primary', b.dataset.ds === ds)); $('#newRec').hidden = ds === 'meta'; }
+  function drawList() {
+    const q = $('#find').value.toLowerCase().trim();
+    const rs = records(ds).filter(r => !q || JSON.stringify(r).toLowerCase().includes(q));
+    $('#listN').textContent = rs.length + ' record' + (rs.length === 1 ? '' : 's');
+    $('#list').innerHTML = rs.slice(0, 400).map(r => '<div class="li' + (cur && cur.id === r.id ? ' on' : '') + '" data-id="' + esc(r.id) + '" style="cursor:pointer"><div class="t">' + esc(String(labelOf(r)).slice(0, 140)) + '<div class="s">' + esc(r.id) + (r.book ? ' · ' + esc(r.book) : '') + (r.medium ? ' · ' + esc(r.medium) : '') + (r.date ? ' · ' + esc(r.date) : '') + (isChanged(r.id) ? ' · changed' : '') + '</div></div></div>').join('');
+  }
+  function isChanged(id) { const e = edits[ds]; return ds !== 'meta' && e && (e.update[id] || e.add.some(a => a.id === id)); }
+  $('#find').addEventListener('input', drawList);
+  $('#list').addEventListener('click', e => { const li = e.target.closest('.li'); if (!li) return; cur = records(ds).find(r => r.id === li.dataset.id); drawList(); drawForm(); if (innerWidth < 860) $('#recId').scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  function val(r, k, t) { const v = r[k]; if (t === 'list') return (v || []).join(', '); if (t === 'lines') return (v || []).join('\n'); return v == null ? '' : v; }
+  function drawForm() {
+    if (ds === 'meta') cur = records('meta')[0];
+    if (!cur) { $('#form').innerHTML = '<p class="note">Choose a record on the left, or make a new one.</p>'; $('#recId').textContent = ''; $('#viewRec').hidden = true; return; }
+    $('#recId').textContent = (ds === 'meta' ? 'page details' : cur.id) + (cur._new ? ' · new' : '');
+    $('#form').innerHTML = FIELDS[ds].map(([k, t]) => {
+      const v = esc(val(cur, k, t)), id = 'f_' + k;
+      if (Array.isArray(t)) return '<label>' + k + '<select id="' + id + '"><option value=""></option>' + t.map(o => '<option' + (String(cur[k]) === o ? ' selected' : '') + '>' + o + '</option>').join('') + '</select></label>';
+      if (t === 'area' || t === 'lines') return '<label>' + k + (t === 'lines' ? ' (one per line)' : '') + '<textarea id="' + id + '" rows="' + (k === 'text' ? 6 : 3) + '">' + v + '</textarea></label>';
+      return '<label>' + k + (t === 'list' ? ' (comma separated)' : '') + '<input id="' + id + '" type="' + (t === 'num' ? 'number' : 'text') + '" value="' + v + '"></label>';
+    }).join('');
+    $('#viewRec').hidden = !(ds === 'quotes' && !cur._new); if (ds === 'quotes') $('#viewRec').href = '../quotes/' + encodeURIComponent(cur.id) + '/';
+    $('#delRec').hidden = ds === 'meta';
+  }
+  function readForm() {
+    const out = {};
+    FIELDS[ds].forEach(([k, t]) => { const el = $('#f_' + k); if (!el) return; let v = el.value;
+      if (t === 'list') v = C(v); else if (t === 'lines') v = L(v); else if (t === 'num') v = v === '' ? null : +v; out[k] = v; });
+    return out;
+  }
+  const same = (a, b) => JSON.stringify(a ?? null) === JSON.stringify(b ?? null);
+  $('#saveRec').addEventListener('click', () => {
+    if (!cur) return; const f = readForm();
+    if (ds === 'meta') { const orig = D.meta; Object.keys(f).forEach(k => { if (!same(f[k] === '' ? null : f[k], orig[k] ?? null)) edits.meta[k] = f[k]; else delete edits.meta[k]; }); }
+    else {
+      const e = edits[ds], added = e.add.find(a => a.id === cur.id);
+      if (added) Object.assign(added, f, { id: cur.id });
+      else { const orig = (D[ds] || []).find(r => r.id === cur.id) || {}; const ch = {}; Object.keys(f).forEach(k => { if (!same(f[k] === '' ? (orig[k] == null ? null : '') : f[k], orig[k] ?? (f[k] === '' ? null : orig[k]))) ch[k] = f[k]; }); if (Object.keys(ch).length) e.update[cur.id] = ch; else delete e.update[cur.id]; }
+    }
+    persist(); $('#saved').textContent = 'Saved in this browser. Copy edits.json when you are ready.'; cur = records(ds).find(r => r.id === cur.id); drawList(); drawChanges();
+  });
+  $('#delRec').addEventListener('click', () => {
+    if (!cur || ds === 'meta') return; const e = edits[ds];
+    const ai = e.add.findIndex(a => a.id === cur.id);
+    if (ai >= 0) e.add.splice(ai, 1); else { if (!e.remove.includes(cur.id)) e.remove.push(cur.id); delete e.update[cur.id]; }
+    cur = null; persist(); drawList(); drawForm(); drawChanges();
+  });
+  $('#newRec').addEventListener('click', () => {
+    const id = PREFIX[ds] + 'e' + Math.random().toString(16).slice(2, 9);
+    const rec = { id, _new: true }; FIELDS[ds].forEach(([k, t]) => rec[k] = t === 'list' || t === 'lines' ? [] : '');
+    if (ds === 'quotes') { rec.kind = 'verbatim'; rec.confidence = 'T'; rec.verdict = 'single-source'; }
+    edits[ds].add.push(Object.assign({}, rec, { _new: undefined })); cur = rec; persist(); drawList(); drawForm(); drawChanges();
+  });
+  function clean(o) { return JSON.parse(JSON.stringify(o, (k, v) => (k === '_new' ? undefined : v))); }
+  function persist() { const c = clean(edits); if (same(c, clean(embedded))) store.del('edits:' + slug); else store.set('edits:' + slug, c); drawPending(); }
+  function count(e) { return ['quotes', 'items', 'events', 'people'].reduce((n, k) => n + Object.keys(e[k].update).length + e[k].add.length + e[k].remove.length, 0) + Object.keys(e.meta || {}).length; }
+  function drawPending() { const n = count(edits), m = count(embedded), local = !same(clean(edits), clean(embedded)); $('#pending').textContent = n + ' change' + (n === 1 ? '' : 's') + ' in the file' + (local ? ', some only in this browser so far' : ', all already in the site'); }
+  function drawChanges() {
+    const rows = [];
+    ['quotes', 'items', 'events', 'people'].forEach(k => { const e = edits[k];
+      Object.keys(e.update).forEach(id => rows.push([LABEL[k], id, 'changed ' + Object.keys(e.update[id]).join(', ')]));
+      e.add.forEach(a => rows.push([LABEL[k], a.id, 'added']));
+      e.remove.forEach(id => rows.push([LABEL[k], id, 'removed'])); });
+    Object.keys(edits.meta || {}).forEach(k => rows.push(['Page details', k, 'changed']));
+    $('#changes').innerHTML = rows.map(r => '<div class="li"><div class="t">' + esc(r[0]) + ' · ' + esc(r[1]) + '<div class="s">' + esc(r[2]) + '</div></div></div>').join('') || '<div class="li">No changes yet.</div>';
+  }
+  const text = () => JSON.stringify(clean(edits), null, 1) + '\n';
+  $('#copyEdits').addEventListener('click', () => { const b = $('#copyEdits'); (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(text()) : Promise.reject()).then(() => { b.textContent = 'Copied'; setTimeout(() => b.textContent = 'Copy edits.json', 1400); }).catch(() => { b.textContent = 'Copy failed, use Download'; }); });
+  $('#dlEdits').addEventListener('click', () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text()], { type: 'application/json' })); a.download = 'edits.json'; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); });
+  if (D.edit_urls && D.edit_urls.edits) $('#ghEdits').href = D.edit_urls.edits; else { $('#ghEdits').hidden = true; $('#howto').hidden = true; }
+  $('#discard').addEventListener('click', () => { edits = JSON.parse(JSON.stringify(embedded)); store.del('edits:' + slug); cur = null; drawList(); drawForm(); drawChanges(); drawPending(); });
+  const h = (location.hash || '').slice(1);
+  if (h) { for (const k of ['quotes', 'items', 'events', 'people']) { const r = records(k).find(x => x.id === h); if (r) { ds = k; cur = r; break; } } }
+  drawTabs(); drawList(); drawForm(); drawChanges(); drawPending();
+})();
+</script>
