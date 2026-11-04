@@ -8,6 +8,11 @@ their life in dates. Every line traced to where it was found.
 The first teacher is U.G. Krishnamurti. The structure is made so the
 next teacher is added by adding a folder.
 
+## Editing and recomposing
+
+Every teacher has an Edit page and a Compose page. `RECOMPOSE.md` explains both,
+the forms in `formats.json`, and `recompose.py` for the command line.
+
 ## How it is built
 
 ```
