@@ -4,7 +4,9 @@
         A song for Suno on {topic}, in your own words, carrying the spirit of
         {teacher}'s teaching as the quotations given show it. At most two
         brief lines are quoted, each under ten words, each marked as
-        {teacher}'s. The lyrics are at most {lyrics_max} characters, the
+        {teacher}'s, and each quoted line in the lyrics sits inside double
+        quotation marks so it can be checked against the quotations; your
+        own lines carry none. The lyrics are at most {lyrics_max} characters, the
         style at most {style_max}. The tags follow the Suno lens, each on its
         own line in square brackets.
     ) End what to write ) Many blessings

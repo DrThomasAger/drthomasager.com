@@ -160,7 +160,10 @@ for f in sorted((HERE / "compositions").glob("*.md")) if (HERE / "compositions")
     if re.search(r"^LYRICS\s*$", body, re.M):
         lyr = re.split(r"^LYRICS\s*$", body, flags=re.M)[1]
         lyr = re.split(r"^(SOURCES|COUNT)\s*$", lyr, flags=re.M)[0]
-        lines += [l.strip() for l in lyr.splitlines() if l.strip() and not l.strip().startswith("[")]
+        sung = [l.strip() for l in lyr.splitlines() if l.strip() and not l.strip().startswith("[")]
+        marked = [l.strip('"\u201c\u201d') for l in sung if l[:1] in ('"', "\u201c")]
+        # a song made mostly of the writer's own lines marks the teacher's in quotation marks
+        lines += marked if marked else sung
     if re.search(r"^QUOTE\s*$", body, re.M):
         qb = re.split(r"^QUOTE\s*$", body, flags=re.M)[1]
         qb = re.split(r"^(CAPTION|SOURCE|LINK|TAGS)\s*$", qb, flags=re.M)[0]

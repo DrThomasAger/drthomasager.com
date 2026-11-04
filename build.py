@@ -322,6 +322,10 @@ def build_teacher(folder, out_root=None):
         fm, body = front_matter(f.read_text(encoding="utf-8"))
         cname = f.stem
         title = fm.get("title") or cname.replace("-", " ")
+        inner = re.match(r"(?s)\A\s*---\r?\n(.*?)\r?\n---\r?\n", body)  # a blog post's own front matter
+        if inner:
+            desc = re.search(r"^description:\s*(.+)$", inner.group(1), re.M)
+            body = (f"*{desc.group(1).strip()}*\n\n" if desc else "") + body[inner.end():]
         first = body.lstrip().splitlines()[0] if body.strip() else ""
         if first.lstrip("# ").strip() == title.strip():
             body = body.lstrip()[len(first):].lstrip("\n")
