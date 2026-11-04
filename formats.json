@@ -1,0 +1,82 @@
+{
+ "_comment": "Recomposition forms. Edit freely: the compose page and recompose.py both read this file. {teacher}, {identity}, {topic}, {today}, {model}, {quote_url} are filled in. 'released' rules apply to teachers whose words are free to reproduce, 'reserved' rules to teachers under ordinary copyright.",
+ "rules": [
+  "Use only the quotations given below. Quote them exactly, word for word, with their punctuation. Never invent, merge, extend or improve a quotation.",
+  "You may shorten a quotation only by cutting, and you mark every cut with an ellipsis (…).",
+  "Every quotation carries its source: the book or occasion, and the chapter where one is given.",
+  "Anything you write yourself is arrangement or commentary. Never put your own words in quotation marks or present them as {teacher}'s.",
+  "Do not explain away the teaching or soften it. Let it say what it says.",
+  "End with a section headed Sources listing the id of every quotation you used, its source, and its verification status where that status is single-source.",
+  "The subject is {identity}"
+ ],
+ "rights": {
+  "released": [
+   "{teacher} released these words from copyright, so the piece may be made largely of quotations."
+  ],
+  "reserved": [
+   "{teacher}'s words are under copyright. Quote briefly and sparingly so the quotations serve your own writing: no single quotation longer than 50 words, and no more than {quote_budget} quoted words in the whole piece. The piece must stand mostly in your own words, as commentary, study or appreciation."
+  ]
+ },
+ "formats": [
+  {
+   "id": "5000",
+   "name": "5,000 characters",
+   "max_tokens": 4000,
+   "quote_budget": 400,
+   "default_max_quotes": 30,
+   "instructions": "Write one continuous piece of about 5,000 characters including spaces (between 4,700 and 5,300). Give it a title. Move through a single line of thought on {topic}, weaving the quotations into a reading that builds. Up to three short headings are allowed. Report the character count at the very end, after Sources."
+  },
+  {
+   "id": "song",
+   "name": "Song",
+   "max_tokens": 3000,
+   "quote_budget": 60,
+   "default_max_quotes": 20,
+   "instructions": "Write a song on {topic} made from {teacher}'s words: a title, three or four verses, a chorus that returns, and a bridge if it helps. Lines may be taken verbatim from the quotations or cut down with an ellipsis. Lines you add so the song can sing are yours, and after the song you list, verse by verse, which lines came from which quotation id and which are yours.",
+   "reserved_instructions": "Write a song on {topic} in your own words, inspired by {teacher}'s teaching, with at most two brief quoted lines. After the song, name the quotation ids that inspired each verse."
+  },
+  {
+   "id": "collection",
+   "name": "Collection on a topic",
+   "max_tokens": 6000,
+   "quote_budget": 400,
+   "default_max_quotes": 40,
+   "instructions": "Write an excerpt from an anthology of {teacher}'s words on {topic}: a title, an introduction under 120 words, then the quotations in a deliberate order under three to six short headings, each quotation followed by its source line. Write nothing between quotations except the headings.",
+   "reserved_instructions": "Write a short study of {teacher} on {topic}: a title, an introduction under 150 words, then no more than eight brief quotations, each under 50 words, each followed by its source line and two or three sentences of your own commentary."
+  },
+  {
+   "id": "book",
+   "name": "Book with chapters",
+   "max_tokens": 32000,
+   "quote_budget": 1500,
+   "default_max_quotes": 150,
+   "instructions": "Compose a book of {teacher}'s words on {topic}: a title and subtitle, a contents list, a preface of your own under 400 words, then six to twelve chapters. Each chapter has a title, an opening paragraph of your own, the quotations that belong to it in a deliberate order with their source lines, and a closing line. Then a short afterword and the Sources. Let the length follow the material and do not pad.",
+   "reserved_instructions": "Compose a study guide to {teacher} on {topic}, in chapters: a title, a contents list, a preface, then six to ten chapters each made of your own exposition with a few brief quotations (each under 50 words, with source lines) and questions for reflection. Then the Sources."
+  },
+  {
+   "id": "blog",
+   "name": "Blog post",
+   "max_tokens": 8000,
+   "quote_budget": 300,
+   "default_max_quotes": 25,
+   "instructions": "Write a blog post on {teacher} and {topic} for drthomasager.com, as a markdown file that begins with this front matter, filled in:\n---\ntitle: <a question or phrase people search for>\nslug: <title in lowercase with hyphens>\ndescription: <one or two sentences that answer the title>\nsubcategory: Commentaries\ndate: {today}\nreadtime: <minutes>\nglyph: ☸\nproject: Buddhism\nauthors: Dr. Thomas Ager, {model}\ntags: <four or five search phrases, comma separated>\n---\nThen the body: an opening paragraph that answers the title directly, three to six sections with ## headings phrased as the questions people ask, quotations as blockquotes each followed by its source line, a closing section, and the Sources. Between 900 and 1,600 words."
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram post",
+   "max_tokens": 1500,
+   "quote_budget": 40,
+   "default_max_quotes": 12,
+   "instructions": "Write one Instagram post for @{instagram}: choose the single strongest quotation on {topic} under 40 words for the image, then a caption of 80 to 150 words in your own words that opens the quotation without explaining it away, the source line, the line 'Read it with its source: {quote_url}' using that quotation's id in place of ID, and eight to fifteen hashtags."
+  },
+  {
+   "id": "custom",
+   "name": "Custom",
+   "max_tokens": 8000,
+   "quote_budget": 400,
+   "default_max_quotes": 40,
+   "instructions": "{extra}"
+  }
+ ],
+ "system": "You recompose the recorded words of a spiritual teacher into new forms for hanjopurebuddha.com. You work only from the quotations supplied. They were gathered and checked against their sources, and each carries its id, its source and its verification status."
+}

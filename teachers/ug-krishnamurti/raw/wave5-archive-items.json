@@ -1,0 +1,582 @@
+[
+ {
+  "medium": "video",
+  "title": "You are a Parrot.",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "video (MPEG/MP4)",
+  "language": "English",
+  "duration": "c. 10 min (per well.com list)",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_parrot",
+  "description": "identifier ug_parrot; archive.org video item 'You are a Parrot.' in the collection 'U.G. Krishnamurti conversations and interviews - video' (uploader Jeff Kaplan, Aug 2012); corresponds to the 10-minute 'You are a Parrot' clip on the WELL streaming archive.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "short-clip",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_parrot",
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "video",
+  "title": "U.G. with Dr. Larry Morris (2/2)",
+  "date": "1992-04",
+  "year": 1992,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Larry Morris",
+   "Hillside Church Group"
+  ],
+  "format": "video",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_hillside2",
+  "description": "identifier ug_hillside2; second half of the Albuquerque discussion with Dr. Larry Morris and members of the Hillside Church Group (April 1992); companion to ug_hillside (1/2). The 'hillside' identifier refers to the Hillside Church Group, Albuquerque, not to Mill Valley.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "albuquerque",
+   "1992",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_hillside2",
+   "https://archive.org/details/ug_hillside",
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "video",
+  "title": "U.G. with Dr. Larry Morris (1/2)",
+  "date": "1992-04",
+  "year": 1992,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "Larry Morris",
+   "Hillside Church Group"
+  ],
+  "format": "video",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_hillside",
+  "description": "identifier ug_hillside; first half of the Albuquerque discussion with Dr. Larry Morris / Hillside Church Group, April 1992 (title corrected from earlier wave: the item is not a Mill Valley recording).",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "albuquerque",
+   "1992",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_hillside",
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "video",
+  "title": "There is no such thing as Enlightenment.",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "video (small file, c. 9 MB)",
+  "language": "English",
+  "duration": "short clip",
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_no_enlightenment",
+  "description": "identifier ug_no_enlightenment; short video clip in the U.G. video collection; title 'There is no such thing as Enlightenment.' (short-talks series alongside 'You are a Parrot', 'Spiritual Con', 'Sorrow').",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "short-clip",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_no_enlightenment"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "U.G. Radio Interview (2/3)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio (MP3/Ogg)",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_f2f_2",
+  "description": "identifier ug_f2f_2; audio item titled 'U.G. Radio Interview (2/3)' in ugkrishnamurti-audio; implies the series ug_f2f_1 = Radio Interview (1/3) and ug_f2f_3 = Radio Interview (3/3) (those two identifiers not yet confirmed by search).",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "radio",
+   "series",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_f2f_2"
+  ]
+ },
+ {
+  "medium": "video",
+  "title": "U.G. on Dimensions in Parapsychology",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "video (150 kbps encode)",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_parapsy_150",
+  "description": "identifier ug_ug_parapsy_150; video pair of the audio item ug_ug_parapsy; TV programme 'Dimensions in Parapsychology'.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "television",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_parapsy_150"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "U.G. with S.C. Birla (1/2)",
+  "date": "1989",
+  "year": 1989,
+  "place": "Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti",
+   "S.C. Birla"
+  ],
+  "format": "video",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_birla_01",
+  "description": "identifier ug_birla_01; confirmed: 1989 discussion with S.C. Birla in Gstaad, filed in the video collection; part 2 (ug_birla_02) not surfaced by search but implied by the (1/2) title.",
+  "tags": [
+   "archive-org",
+   "video-collection",
+   "gstaad",
+   "1989",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_birla_01",
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Bangalore conversations with Bhramchari some chants",
+  "date": "1984",
+  "year": 1984,
+  "place": "Bangalore, India",
+  "people": [
+   "U.G. Krishnamurti",
+   "Brahmachari (Bramchari)"
+  ],
+  "format": "audio",
+  "language": "English/Sanskrit chants",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_bangalore_bramchari_chants",
+  "description": "identifier ug_bangalore_bramchari_chants; metadata gives 1984 (one year field reads 1982); conversations in Bangalore with Bramchari plus chants.",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "bangalore",
+   "1984",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_bangalore_bramchari_chants"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico",
+  "date": null,
+  "year": null,
+  "place": "Albuquerque, New Mexico, USA",
+  "people": [
+   "U.G. Krishnamurti",
+   "George Gary"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_george_gary_kunm_radio_albu",
+  "description": "identifier ug_george_gary_kunm_radio_albu; radio conversation on KUNM (University of New Mexico public radio) with George Gary, Albuquerque; title misspelled on archive.org ('Converstaion', 'Albuquerqe'). Probably from the April 1992 Albuquerque visit (same trip as ug_hillside).",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "radio",
+   "albuquerque",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_george_gary_kunm_radio_albu"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Audio version of \"U.G. on Dimensions in Parapsychology\"",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti",
+   "Bryce Bond"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_ug_parapsy",
+  "description": "identifier ug_ug_parapsy; audio of the TV programme 'Dimensions in Parapsychology' hosted by Bryce Bond (interviewer name confirmed by search snippet); video pair ug_ug_parapsy_150.",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "television",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_ug_parapsy",
+   "https://archive.org/details/ug_ug_parapsy_150"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Palm Reading",
+  "date": null,
+  "year": null,
+  "place": "Australia",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "audio",
+  "language": "English",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/details/ug_palm_reading",
+  "description": "identifier ug_palm_reading; description on archive.org: U.G. Krishnamurti, 'Palm Reading', in Australia (so a Sydney-era, 1990–1994 recording).",
+  "tags": [
+   "archive-org",
+   "audio-collection",
+   "australia",
+   "jeff-kaplan-upload"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://archive.org/details/ug_palm_reading"
+  ]
+ },
+ {
+  "medium": "text",
+  "title": "U. G. Krishnamurti tapes (thisrobotdreaming blog post)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "blog post linking to archive.org uploads",
+  "language": "English",
+  "duration": null,
+  "host": "thisrobotdreaming.com",
+  "url": "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes",
+  "description": "no archive.org identifier yet; LEAD, not an archive.org identifier: blog post at thisrobotdreaming.com says the author uploaded all their U.G. cassette tapes (1967 to the 1990s, converted to MP3) to the Internet Archive with a 'listen here' link; uploader username and item identifiers not surfaced by search.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "cassette",
+   "thisrobotdreaming"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.thisrobotdreaming.com/blog/u-g-krishnamurti-tapes"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "friends in Sydney (a 'soiree'), 1991",
+  "date": null,
+  "year": 1991,
+  "place": "Sydney, Australia",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; listed on Jeff Kaplan's WELL streaming archive as a two-part audio; a SoundCloud upload 'U.G. Krishnamurti - In Sydney, Australia (17/11/1991)' may be the same event.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "sydney",
+   "1991"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Friends in Sydney, 1990",
+  "date": null,
+  "year": 1990,
+  "place": "Sydney, Australia",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; listed on the WELL streaming archive alongside the 1990 Donald Ingram Smith 'Scope Radio' interview (archive.org: ug_1990-03-07_interview_by_donald_ingram_smith).",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "sydney",
+   "1990"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "friends in Amsterdam, 1990 / Joel Staffeleu, Amsterdam 1990",
+  "date": null,
+  "year": 1990,
+  "place": "Amsterdam, Netherlands",
+  "people": [
+   "U.G. Krishnamurti",
+   "Joel Staffeleu"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; two 1990 Amsterdam recordings listed on the WELL archive; the only Amsterdam items found on archive.org are the 1998 de Ridder/Byron Katie interviews (ug_ug_deridder, ug_ug_deridder_katie, ug_ug_de_ridder).",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "amsterdam",
+   "1990"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Kushvant Singh in India, 1989",
+  "date": null,
+  "year": 1989,
+  "place": "India (New Delhi)",
+  "people": [
+   "U.G. Krishnamurti",
+   "Khushwant Singh"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; two-part conversation with Khushwant Singh listed on the WELL archive (spelled 'Kushvant'); a related press piece under Khushwant Singh's byline appeared in Sunday weekly, 11 Mar 1989 (well.com ntbook3.htm).",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "india",
+   "1989",
+   "press"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "the Patriot in New Delhi, 1989",
+  "date": null,
+  "year": 1989,
+  "place": "New Delhi, India",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; interview for The Patriot newspaper listed on the WELL archive, two parts.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "india",
+   "1989",
+   "press"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Spiritual Con (30 mins)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; short video #7 in the WELL 'videos' list; not found on archive.org (sibling clips 'You are a Parrot' = ug_parrot and 'There is no such thing as Enlightenment' = ug_no_enlightenment ARE on archive.org).",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "short-clip",
+   "video"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Sorrow (6 mins)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; 6-minute video in the WELL list; not found on archive.org.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "short-clip",
+   "video"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "UG in Mill Valley (5 mins)",
+  "date": null,
+  "year": null,
+  "place": "Mill Valley, California, USA",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; 5-minute clip #4 in the WELL video list; not on archive.org. Note: the archive.org 'ug_hillside' items are NOT Mill Valley but Albuquerque 1992 (Hillside Church Group).",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "short-clip",
+   "video",
+   "california"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ },
+ {
+  "medium": "audio",
+  "title": "Saanen Talk Part 1 / Part 2 (ugkrishnamurti.in 'Essential Audios')",
+  "date": null,
+  "year": null,
+  "place": "Saanen/Gstaad, Switzerland",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "RealAudio/RealVideo stream on the WELL (archive.org copy not located)",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "no archive.org identifier found by search; listed on ugkrishnamurti.in essential audios (not on archive.org as far as search shows); not to be confused with Jiddu Krishnamurti's Saanen gatherings.",
+  "tags": [
+   "archive-org",
+   "lead",
+   "well-com-streaming-archive",
+   "saanen",
+   "audio"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html"
+  ]
+ }
+]

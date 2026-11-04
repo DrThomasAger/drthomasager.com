@@ -1,0 +1,962 @@
+[
+ {
+  "id": "q044d9da9",
+  "text_checked": "only your experience of it is an illusion",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+  ],
+  "book_per_sources": "Goodreads: The Courage to Stand Alone (dataset says Mind is a Myth)",
+  "wording_variants": [],
+  "note": "Only Goodreads hit. Book attribution conflicts: Goodreads files it under Courage to Stand Alone, not Mind is a Myth. Attributed to UG, not JK.",
+  "searched": true
+ },
+ {
+  "id": "q07528773",
+  "text_checked": "whatever you do to be free from the self",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti"
+  ],
+  "book_per_sources": "none given (inner-quest: talk transcript)",
+  "wording_variants": [
+   "'self' in quotation marks on inner-quest.org"
+  ],
+  "note": "Three independent secondary hosts beyond azquotes; no primary full text. UG attribution consistent.",
+  "searched": true
+ },
+ {
+  "id": "q1bec15ca",
+  "text_checked": "Your traditions are choking you",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://kwize.com/en/authors/U-G-Krishnamurti/",
+   "http://praveennv.blogspot.com/2016/04/spirituality-is-invention-of-mind-and.html",
+   "http://remembering-ug.blogspot.com/2012/07/passages-270812.html"
+  ],
+  "book_per_sources": "Mind is a Myth (remembering-ug 'Passages from Mind is a Myth'; praveennv)",
+  "wording_variants": [],
+  "note": "Two blog hosts confirm wording and book; no Wikisource hit in results.",
+  "searched": true
+ },
+ {
+  "id": "q1c893a18",
+  "text_checked": "Thinking about and struggling against sorrow is sorrow",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+  ],
+  "book_per_sources": "Mind is a Myth (Goodreads)",
+  "wording_variants": [],
+  "note": "Only Goodreads carries this wording; many JK (Jiddu) sorrow transcripts surfaced but none contain this line. Attributed to UG.",
+  "searched": true
+ },
+ {
+  "id": "q1e9233a1",
+  "text_checked": "Courage is not an instrument or quality you can use",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth",
+   "https://beyond-the-pale.co.uk/ugk3.htm",
+   "https://libquotes.com/u-g-krishnamurti/quotes/courage"
+  ],
+  "book_per_sources": "Goodreads: Mind is a Myth; beyond-the-pale.co.uk: Courage to Stand Alone Pt. III",
+  "wording_variants": [],
+  "note": "Book disputed between Mind is a Myth (Goodreads) and Courage to Stand Alone (beyond-the-pale transcript, dataset). The passage continues 'ending of tradition within you is courage'.",
+  "searched": true
+ },
+ {
+  "id": "q241d3a5e",
+  "text_checked": "depend upon somebody for solving your problems",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [],
+  "note": "Only praveennv blog; continuation: 'this helplessness is exploited by the people who actually do not have the answers'.",
+  "searched": true
+ },
+ {
+  "id": "q2959c7d4",
+  "text_checked": "no such thing as spiritual or psychological enlightenment",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.catalign.in/2020/06/why-does-u-g-krishnamurti-ask-is-there.html"
+  ],
+  "book_per_sources": "Mind is a Myth (Wikiquote); some aggregators say Mystique of Enlightenment",
+  "wording_variants": [
+   "...no such thing as spirit or psyche at all."
+  ],
+  "note": "Wikisource Mystique Part Two surfaced but for a related, not identical, passage; no primary full-text hit for this exact line. 'at all' variant exists.",
+  "searched": true
+ },
+ {
+  "id": "q3173b5b8",
+  "text_checked": "it has to dawn on you that it is not leading you anywhere",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://libquotes.com/u-g-krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://yquotes.com/quotes/u-g-krishnamurti/",
+   "http://nondualite.free.fr/c_ug_courage.htm",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "The Courage to Stand Alone (2001, ed. Ellen J. Chrystal)",
+  "wording_variants": [
+   "Full sentence: 'Whatever pursuit you are indulging in, somewhere along the line it has to dawn on you that it is not leading you anywhere.'"
+  ],
+  "note": "Multiple hosts incl. a full transcript page (nondualite.free.fr) agree on book.",
+  "searched": true
+ },
+ {
+  "id": "q36edddbf",
+  "text_checked": "if there is any such thing as enlightenment / is not an experience at all",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part Four (Wikisource)",
+  "wording_variants": [
+   "Wikisource: 'this is not an experience which can be shared with somebody else; this is not an experience at all.'"
+  ],
+  "note": "Primary (Wikisource) has 'is not an experience at all' but NOT the parenthetical 'if there is any such thing as enlightenment' in that sentence; the dataset wording appears to be a conflation/paraphrase. Only one host.",
+  "searched": true
+ },
+ {
+  "id": "q3bdfe3cb",
+  "text_checked": "I am not anti-rational, just unrational",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923758/U-G-Krishnamurti-I-am-not-anti-rational-just-unrational-You-may-infer-a-rational-meaning",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=2",
+   "https://onlygodis.com/teachings/ug_krishnamurti.html"
+  ],
+  "book_per_sources": "Wikiquote: No Way Out (2002) Ch.1 'The Unrational Philosophy of U.G. Krishnamurti'; aggregators: Mind is a Myth Ch.1; one site: Mystique p.57",
+  "wording_variants": [],
+  "note": "Wording widely confirmed; book attribution disputed across three titles. Wikiquote places it in No Way Out, not Mind is a Myth.",
+  "searched": true
+ },
+ {
+  "id": "q406d4a93",
+  "text_checked": "Don't follow me, I'm lost",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923750/U-G-Krishnamurti-Don-t-follow-me-I-m-lost",
+   "https://quotepark.com/quotes/1271340-ug-krishnamurti-dont-follow-me-im-lost/",
+   "https://www.azquotes.com/quote/456918",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "book_per_sources": "Thought is Your Enemy (Goodreads, quotepark); some listings unsourced",
+  "wording_variants": [],
+  "note": "Widely repeated on aggregators; no primary full-text confirmation found.",
+  "searched": true
+ },
+ {
+  "id": "q42bd7292",
+  "text_checked": "Nature is interested in only two things--to survive and to",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510738-nature-is-interested-in-only-two-things-to-survive-and-to",
+   "https://quotefancy.com/quote/923749/U-G-Krishnamurti-Nature-is-interested-in-only-two-things-to-survive-and-to-reproduce-one",
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://quotepark.com/authors/ug-krishnamurti/man/"
+  ],
+  "book_per_sources": "No Way Out (2002): azquotes Ch.4 'You Invent Your Reality'; quotepark Ch.7 'What Kind of Human Being Do You Want?' (dataset: Mystique of Enlightenment)",
+  "wording_variants": [
+   "Full: 'Nature is interested in only two things – to survive and to reproduce one like itself. Anything you superimpose on that, all the cultural input, is responsible for the boredom of man.'"
+  ],
+  "note": "Wording confirmed by several hosts; book attribution in dataset (Mystique) conflicts with majority (No Way Out).",
+  "searched": true
+ },
+ {
+  "id": "q45036753",
+  "text_checked": "A real guru, if there is one, frees you from himself",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://yquotes.com/u-g-krishnamurti/83670/",
+   "http://ug-k.blogspot.com/2007/04/early-years-real-guru-if-there-is-one.html",
+   "https://people.well.com/user/jct/ugbio/ugbio2.htm",
+   "https://academickids.com/encyclopedia/index.php/U._G._Krishnamurti",
+   "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti"
+  ],
+  "book_per_sources": "none; Wikiquote lists as Unsourced; appears as chapter heading in WELL biography 'UG Krishnamurti: A Life' (Mahesh Bhatt) ch. 2 Early Years",
+  "wording_variants": [],
+  "note": "The WELL (primary host) carries it in Mahesh Bhatt's biography, so the line is mediated by Bhatt's narrative; Wikiquote keeps it unsourced.",
+  "searched": true
+ },
+ {
+  "id": "q64ffef08",
+  "text_checked": "Tell them that there is nothing to understand",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "Mind is a Myth (1987) Ch.4 'There Is Nothing To Understand' (quotepark)",
+  "wording_variants": [],
+  "note": "Second host (quotepark) confirms and names a book/chapter; dataset leaves it unassigned.",
+  "searched": true
+ },
+ {
+  "id": "q66516e8f",
+  "text_checked": "if you don't have a problem, you create one",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "No Way Out (Goodreads et al.); Wikiquote cites it to A Taste of Death (1995) by Mahesh Bhatt",
+  "wording_variants": [
+   "Continuation: '...if you don't have a problem you don't feel alive'"
+  ],
+  "note": "Book disputed: No Way Out vs A Taste of Death (recorded by Bhatt). Attributed to UG in all.",
+  "searched": true
+ },
+ {
+  "id": "q68aa6bb3",
+  "text_checked": "gurus are welfare organizations providing petty experiences",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html",
+   "https://sulochanosho.wordpress.com/tag/ug-quotes/",
+   "https://grokipedia.com/page/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [
+   "Follow-up line: 'The guru game is a profitable industry; try and make two million dollars a year any other way.'"
+  ],
+  "note": "Two blogs plus Grokipedia; no book citation anywhere. Several JK pages surfaced but none carry the line.",
+  "searched": true
+ },
+ {
+  "id": "q6ae4e93f",
+  "text_checked": "has no copyright. You are free to reproduce, distribute, interpret, misinterpret, distort, garble",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotefancy.com/quote/923763/U-G-Krishnamurti-My-teaching-if-that-is-the-word-you-want-to-use-has-no-copyright-You-are",
+   "https://www.ugkrishnamurti.in/",
+   "https://www.penguin.co.in/book/the-penguin-u-g-krishnamurti-reader/"
+  ],
+  "book_per_sources": "Front-matter disclaimer in Thought is Your Enemy (Wikisource), Mind is a Myth, Mystique of Enlightenment, Penguin UG Reader",
+  "wording_variants": [],
+  "note": "Wikisource full text of Thought is Your Enemy confirms wording as opening disclaimer; Wikiquote notes copyright restrictions nonetheless apply to the editions.",
+  "searched": true
+ },
+ {
+  "id": "q7f620b02",
+  "text_checked": "Thinking is a poor alternative to acting / Act, don't think",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://people.well.com/user/jct/mahesh.html",
+   "http://nirvana73.blogspot.com/2013/03/from-ug-krishnamurti-life-by-mahesh.html",
+   "https://quotefancy.com/quote/923753/U-G-Krishnamurti-You-think-when-you-don-t-want-to-do-anything-Thinking-is-a-poor",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "book_per_sources": "A Taste of Death: Thirty Days with U.G. in Gstaad (1995) by Mahesh Bhatt",
+  "wording_variants": [
+   "Often wrongly merged with Bhatt's own sentence 'You are what you do, not what you say you want to do.'"
+  ],
+  "note": "WELL (primary host) Mahesh Bhatt journal confirms; words are UG's as recorded by Bhatt. Bhatt's framing sentence is not UG's.",
+  "searched": true
+ },
+ {
+  "id": "q7fad3985",
+  "text_checked": "to be at peace with yourself is what is destroying the peace that is already there",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://libquotes.com/u-g-krishnamurti/quotes/peace",
+   "https://yquotes.com/quotes/u-g-krishnamurti/",
+   "http://nondualite.free.fr/c_ug_courage.htm"
+  ],
+  "book_per_sources": "The Courage to Stand Alone (nondualite.free.fr transcript) (dataset: Thought is Your Enemy)",
+  "wording_variants": [
+   "Full: 'That is an impossible goal for you because everything you are doing to be at peace with yourself is what is destroying the peace that is already there.'"
+  ],
+  "note": "Confirming transcript places it in Courage to Stand Alone, not Thought is Your Enemy.",
+  "searched": true
+ },
+ {
+  "id": "qa86cd51d",
+  "text_checked": "the demand for permanence - permanent relationships, permanent happiness",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
+  ],
+  "book_per_sources": "Medium post places it in My Swan Song (2007 deathbed dictation); hindu-blog/inner-quest give no book",
+  "wording_variants": [
+   "Followed by 'There is nothing to permanence.'"
+  ],
+  "note": "Two further hosts; Medium associates it with My Swan Song.",
+  "searched": true
+ },
+ {
+  "id": "qa8d80bc5",
+  "text_checked": "Food, clothing and shelter — these are the basic needs",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923757/U-G-Krishnamurti-Food-clothing-and-shelter-these-are-the-basic-needs-Beyond-that-if-you",
+   "https://www.azquotes.com/quote/818215",
+   "https://quotessayings.net/quotes/food-clothing-and-shelter-these-are-the-basic-needs-1684795.html",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "book_per_sources": "Stopped in Our Tracks, Book Two: Excerpts from U.G.'s Dialogues (K. Chandrasekhar, 2005) per azquotes/quotessayings (dataset: Mind is a Myth)",
+  "wording_variants": [
+   "Continuation: 'Beyond that, if you want anything, it is the beginning of self-deception.'"
+  ],
+  "note": "Book attribution in dataset (Mind is a Myth) not supported; sources cite Stopped in Our Tracks Book Two.",
+  "searched": true
+ },
+ {
+  "id": "qa96fd115",
+  "text_checked": "no qualitative change in man's thinking / destroy our neighbor",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/man/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/quotes/1928276-ug-krishnamurti-our-mind-and-there-are-no-individual-minds-only/"
+  ],
+  "book_per_sources": "Mind is a Myth (1987) Ch.1",
+  "wording_variants": [],
+  "note": "Wikiquote (second host) confirms wording and chapter; no Wikisource hit. Covers qcbb3c5aa too.",
+  "searched": true
+ },
+ {
+  "id": "qcbb3c5aa",
+  "text_checked": "our ability to destroy our neighbor and his property",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotepark.com/authors/ug-krishnamurti/man/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "Mind is a Myth (1987) Ch.1",
+  "wording_variants": [],
+  "note": "Same passage as qa96fd115; confirmed by Wikiquote in addition to quotepark.",
+  "searched": true
+ },
+ {
+  "id": "qcb9a4286",
+  "text_checked": "as long as you are searching for happiness, you will remain unhappy",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923756/U-G-Krishnamurti-All-I-can-guarantee-you-is-that-as-long-as-you-are-searching-for",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1"
+  ],
+  "book_per_sources": "none given anywhere",
+  "wording_variants": [],
+  "note": "Wording stable across aggregators; no book, talk or primary host.",
+  "searched": true
+ },
+ {
+  "id": "qcd6ff1c7",
+  "text_checked": "We are not created for any grander purpose than",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_4",
+   "https://www.goodreads.com/quotes/591002-we-are-not-created-for-any-grander-purpose-than-the",
+   "https://quotepark.com/quotes/949961-ug-krishnamurti-we-are-not-created-for-any-grander-purpose-than-th/",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+  ],
+  "book_per_sources": "No Way Out (2002, ed. Moorty & Naronha) Ch.4 'You Invent Your Reality' (dataset: Mystique of Enlightenment)",
+  "wording_variants": [
+   "Wikisource addresses 'you' rather than 'we/us'; quote sites: '...than the ants that are there or the flies that are hovering around us'"
+  ],
+  "note": "Primary Wikisource text confirms, but in No Way Out ch.4, not Mystique; pronoun differs.",
+  "searched": true
+ },
+ {
+  "id": "qd05c2db1",
+  "text_checked": "only interested in making it crystal clear that there is nothing to understand",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV"
+  ],
+  "book_per_sources": "Mind is a Myth Ch. IV 'There Is Nothing to Understand' (Wikisource)",
+  "wording_variants": [],
+  "note": "Exact match on the primary Wikisource page (already the dataset's source); no second host found.",
+  "searched": true
+ },
+ {
+  "id": "qde44a012",
+  "text_checked": "everybody would have become a unique flower",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://yquotes.com/quotes/u-g-krishnamurti/"
+  ],
+  "book_per_sources": "Wikiquote/kwize: The Mystique of Enlightenment (1982); quotepark: No Way Out (2002) Ch.7",
+  "wording_variants": [
+   "Nearby: 'if it had not been for the culture, Nature would have thrown up many more flowers'"
+  ],
+  "note": "Book disputed Mystique vs No Way Out. yquotes also lists the line on a Gautama Buddha page (misattribution).",
+  "searched": true
+ },
+ {
+  "id": "qe06bf8ca",
+  "text_checked": "What is responsible for our problems is the fear of losing what we have and what we know",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti",
+   "https://thequotearchive.com/quotes/U.G.%20Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://quotefancy.com/u-g-krishnamurti-quotes"
+  ],
+  "book_per_sources": "No Way Out (Goodreads)",
+  "wording_variants": [],
+  "note": "Multiple hosts; JK 'fear of the known coming to an end' is a distinct line that surfaced alongside, not a conflict.",
+  "searched": true
+ },
+ {
+  "id": "qe27976db",
+  "text_checked": "You hook up each thought with the next, creating a false continuity",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
+  ],
+  "book_per_sources": "Mind is a Myth (Goodreads)",
+  "wording_variants": [],
+  "note": "Only Goodreads.",
+  "searched": true
+ },
+ {
+  "id": "qf0b3cb2e",
+  "text_checked": "basic method of maintaining the continuity is the repetition of the question",
+  "verdict": "not-found",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "book_per_sources": "Wikisource Mystique Part Four has a related 'How?' passage: 'that structure is permanently establishing itself there and getting its continuity'",
+  "wording_variants": [
+   "Mystique Pt.4 (Wikisource): the 'How?' question lets the structure establish itself and get its continuity"
+  ],
+  "note": "Exact Goodreads wording not found on any other host; only JK transcripts and a related UG passage in Mystique Pt.4 surfaced. Wording unverified.",
+  "searched": true
+ },
+ {
+  "id": "qf1800473",
+  "text_checked": "a bunch of exploiters, thriving on the gullibility of the people",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://quotepark.com/authors/ug-krishnamurti/",
+   "https://www.inner-quest.org/UG_Words.htm",
+   "https://books.google.com/books/about/The_Mystique_of_Enlightenment.html?id=zt1hEAAAQBAJ",
+   "https://gururating.org/u-g-krishnamurti/"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment (1982) (Wikiquote, Google Books)",
+  "wording_variants": [],
+  "note": "Google Books listing of Mystique carries the phrase; archive.org 'On U.G.' PDF also surfaced.",
+  "searched": true
+ },
+ {
+  "id": "qf42bae73",
+  "text_checked": "protective mechanism, programmed to protect its own interests at all costs",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923747/U-G-Krishnamurti-Everything-you-stand-for-believe-in-experience-and-aspire-to-is-the",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/"
+  ],
+  "book_per_sources": "none given by aggregators (dataset: Thought is Your Enemy)",
+  "wording_variants": [
+   "Related primary-style line: 'a protective mechanism. It draws frontiers around itself, and it wants to protect itself.'"
+  ],
+  "note": "Aggregators agree on wording; no book or primary text found for this exact phrasing.",
+  "searched": true
+ },
+ {
+  "id": "qfb105fa5",
+  "text_checked": "There is no such thing as experience here",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/934218",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti"
+  ],
+  "book_per_sources": "azquotes: No Way Out; another listing: The Mystique of Enlightenment p.121 (Sentient)",
+  "wording_variants": [
+   "Continuation: imagination has to end; absence of will, effort and movement 'cannot be experienced at all. It is not an experience.'"
+  ],
+  "note": "Second host is a minor aggregator; book disputed (No Way Out vs Mystique).",
+  "searched": true
+ },
+ {
+  "id": "qfc6d0e49",
+  "text_checked": "The search ends with the realization that there is no such thing as enlightenment",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
+   "https://www.azquotes.com/quote/610426",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://people.well.com/user/jct/mystiq1.htm"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part Four (Wikisource); WELL hosts Mystique Pt.1",
+  "wording_variants": [],
+  "note": "Primary Wikisource Part Four confirms; conversations dated 1973-76.",
+  "searched": true
+ },
+ {
+  "id": "qfd63f8c6",
+  "text_checked": "suppress, control, and moralize about desire",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/46398939-u-g-krishnamurti-certainty-life-has-no-beginning-no-end",
+   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+  ],
+  "book_per_sources": "Goodreads: Certainty: Life Has No Beginning, No End (dataset: Thought is Your Enemy)",
+  "wording_variants": [],
+  "note": "Only Goodreads (same host); Goodreads books it under 'Certainty', not Thought is Your Enemy.",
+  "searched": true
+ },
+ {
+  "id": "qe6277a45",
+  "text_checked": "Only if you reject all the other paths can you discover your own path",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm",
+   "https://www.goodreads.com/quotes/729309-only-if-you-reject-all-the-other-paths-can-you",
+   "https://www.azquotes.com/quote/504919",
+   "https://astitvawellbeing.com/2020/11/20/discover-your-own-path-u-g-krishnamurti/",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://quotlr.com/author/ug-krishnamurti"
+  ],
+  "book_per_sources": "Aggregators: Mind is a Myth; WELL: K. Chandrasekhar 'Excerpts from Dialogues' (Stopped in Our Tracks material)",
+  "wording_variants": [
+   "Goodreads/azquotes prefix an asterisk: '*Only if you reject...'"
+  ],
+  "note": "WELL (primary host) carries the dialogue context; book attribution split between Mind is a Myth and Chandrasekhar's excerpts. Also covers paraphrase q9bf6e642.",
+  "searched": true
+ },
+ {
+  "id": "q9bf6e642",
+  "text_checked": "Only if you reject all the other paths can you discover your own path (verbatim form of paraphrase)",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chandra.htm",
+   "https://www.goodreads.com/quotes/729309-only-if-you-reject-all-the-other-paths-can-you",
+   "https://www.azquotes.com/quote/504919"
+  ],
+  "book_per_sources": "Mind is a Myth (aggregators); Chandrasekhar dialogues (WELL)",
+  "wording_variants": [
+   "Dataset paraphrase 'The only way to find your own path is to reject the others' not found verbatim anywhere"
+  ],
+  "note": "Paraphrase; underlying verbatim line is well attested (see qe6277a45).",
+  "searched": true
+ },
+ {
+  "id": "qb87a576d",
+  "text_checked": "I don't know what I will do if I am in a situation where I want to prolong my life",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "none given (dataset: My Swan Song; inner-quest talk collection)",
+  "wording_variants": [],
+  "note": "inner-quest.org is a second independent host to the Medium source; context: never taken medicine nor seen a doctor. No primary text hit.",
+  "searched": true
+ },
+ {
+  "id": "qc80ccd13",
+  "text_checked": "What is morality? It is not the following of enjoined",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/984886-what-is-morality-it-is-not-the-following-of-enjoined",
+   "https://www.goodreads.com/work/quotes/52201-the-mystique-of-enlightenment-the-radical-ideas-of-u-g-krishnamurti",
+   "https://www.beyond5.co.in/post/quotes-u-g-krishnamurti",
+   "https://quotessayings.net/topics/not-following-rules/"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment (Goodreads)",
+  "wording_variants": [
+   "Full: '...enjoined rules of conduct... Unquestioned action is morality. Questioning your actions is destroying the expression of life.'"
+  ],
+  "note": "Two further hosts (beyond5.co.in, quotessayings) beyond Goodreads; no Wikisource hit.",
+  "searched": true
+ },
+ {
+  "id": "qc97ac3cc",
+  "text_checked": "nothing to do with the spiritual nonsense they preach",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "book_per_sources": "My Swan Song (dictated to Louis Brawley, Feb 2007)",
+  "wording_variants": [
+   "Punctuation/capitalisation differs between copies; Medium copy marked 'Updated'"
+  ],
+  "note": "Two primary hosts (WELL, ugkrishnamurti.in) carry the full text.",
+  "searched": true
+ },
+ {
+  "id": "q1985d54c",
+  "text_checked": "basically violent, because thought is violent",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [
+   "Full: 'Human nature is basically violent, because thought is violent.'"
+  ],
+  "note": "inner-quest.org is a second independent host to hindu-blog; no book.",
+  "searched": true
+ },
+ {
+  "id": "q87a66997",
+  "text_checked": "your teacher must go, it doesn't matter who the teacher is",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [],
+  "note": "Only hindu-blog.",
+  "searched": true
+ },
+ {
+  "id": "qab99509d",
+  "text_checked": "blind acceptance of authority, all second-hand stuff",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [],
+  "note": "Only hindu-blog.",
+  "searched": true
+ },
+ {
+  "id": "q41e40f21",
+  "text_checked": "There is no such thing as truth. The only thing that is actually there is your 'logically' ascertained premise",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotefancy.com/quote/923781/U-G-Krishnamurti-There-is-no-such-thing-as-truth-The-only-thing-that-is-actually-there-is",
+   "https://quotepark.com/quotes/1787020-ug-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-th/",
+   "https://theysaidso.com/quote/u-g-krishnamurti-there-is-no-such-thing-as-truth-the-only-thing-that-is-actually",
+   "https://www.quoteslyfe.com/quote/There-is-no-such-thing-as-truth-1127802",
+   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html?m=1",
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_2"
+  ],
+  "book_per_sources": "Mind is a Myth (1987) Ch.1 'The Certainty That Blasts Everything' (quotepark, quotefancy); Wikisource No Way Out Ch.2 has a related but differently worded line",
+  "wording_variants": [
+   "single vs double quotation marks around 'logically'/'truth'",
+   "Wikisource No Way Out ch.2: 'you can only say that there is a logically ascertained premise called truth'"
+  ],
+  "note": "Dataset leaves book unassigned; multiple aggregators give Mind is a Myth ch.1. Primary (Wikisource) has only a cognate line in No Way Out.",
+  "searched": true
+ },
+ {
+  "id": "q9fcae79f",
+  "text_checked": "All your experiences, all your meditations, all your prayer",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/765776",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "none given",
+  "wording_variants": [],
+  "note": "Several hosts, consistent wording, no book.",
+  "searched": true
+ },
+ {
+  "id": "qbd6fe67c",
+  "text_checked": "The body cannot be afraid of death / What you are afraid of is not death",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
+   "https://quotessayings.net/topics/krishnamurti-death/"
+  ],
+  "book_per_sources": "No Way Out (Goodreads)",
+  "wording_variants": [],
+  "note": "Goodreads plus a quotessayings topic page (which mixes JK and UG death quotes); weak second host. Same passage as q6fe326b5.",
+  "searched": true
+ },
+ {
+  "id": "q95f072f5",
+  "text_checked": "the constant use of thought to give continuity to your separate self",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://libquotes.com/u-g-krishnamurti/quote/lbz3k3b",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://forum.aypsite.org/t/u-g-krishnamurti-quotes/7543",
+   "https://www.awakin.org/v2/read/view.php?tid=118",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "Mind is a Myth (libquotes, Sentient 2007 ed.) (dataset: Thought is Your Enemy)",
+  "wording_variants": [
+   "'Your constant utilization of thought to give continuity to your separate self is you.'",
+   "'utilisation' / 'you' in quotes in some copies"
+  ],
+  "note": "Dataset wording ('constant use') is a variant of the sourced 'constant utilization'; libquotes books it under Mind is a Myth.",
+  "searched": true
+ },
+ {
+  "id": "q02c3e502",
+  "text_checked": "is like a nuclear explosion",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.simonandschuster.com/books/The-Mystique-of-Enlightenment/U-G-Krishnamurti/9780971078611",
+   "https://www.amazon.com/Mystique-Enlightenment-Radical-Ideas-Krishnamurti/dp/0971078610",
+   "https://www.keplers.com/book/9780971078611",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Mystique-of-Enlightenment/",
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment (publisher blurb); Wikisource transcripts describe the 'explosion' in fuller wording",
+  "wording_variants": [
+   "Publisher blurb phrasing; transcripts speak of an explosion that 'shatters the body' and alters its chemistry"
+  ],
+  "note": "The exact 'is like a nuclear explosion' phrase is publisher-blurb wording repeated on retailer pages; Wikisource has the explosion metaphor but not this exact clause confirmed.",
+  "searched": true
+ },
+ {
+  "id": "q6f33cc13",
+  "text_checked": "the same old nonsense repeating itself",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
+  ],
+  "book_per_sources": "The Natural State (kwize)",
+  "wording_variants": [],
+  "note": "Only kwize; inner-quest Natural State page surfaced but exact phrase not confirmed there. JK memory transcripts are unrelated.",
+  "searched": true
+ },
+ {
+  "id": "q6fe42d31",
+  "text_checked": "Charity ... have-nots from rebelling ... guilt",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://www.azquotes.com/quote/943427",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti",
+   "https://www.inspiringquotes.us/author/3700-u-g-krishnamurti"
+  ],
+  "book_per_sources": "one compilation: Mystique of Enlightenment p.2 (Sentient); otherwise none",
+  "wording_variants": [
+   "'Charity is the filthiest invention of the human mind: first you take away what belongs to others by the law and various other means, then you give a little back to keep the have-nots from rebelling against you; it also makes you feel less guilty.'",
+   "Wikiquote Talk variant ends with 'a policeman and an atom bomb'"
+  ],
+  "note": "Dataset text is a paraphrase; verbatim form is the 'filthiest invention' passage, widely repeated but with two endings.",
+  "searched": true
+ },
+ {
+  "id": "q8891a8e5",
+  "text_checked": "There seems to be no way out",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "http://praveennv.blogspot.com/2016/03/questioning-solutions-requires.html"
+  ],
+  "book_per_sources": "Wikiquote: No Way Out (2002) section ('But there seems to be no way out'); praveennv blog uses it as banner over Courage to Stand Alone excerpts",
+  "wording_variants": [
+   "'But there seems to be no way out.'"
+  ],
+  "note": "Wikiquote places the line under No Way Out, not Courage to Stand Alone as the dataset has it.",
+  "searched": true
+ },
+ {
+  "id": "q0e92d293",
+  "text_checked": "The native intelligence of the human body is amazing",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://groups.google.com/g/noshonuts/c/fGiwo09RzyI"
+  ],
+  "book_per_sources": "My Swan Song (dictated to Louis Brawley, Feb 2007)",
+  "wording_variants": [
+   "'...is amazing, and that is all it needs to survive in any dangerous situation in life' (dataset has 'it is all it needs')"
+  ],
+  "note": "Two primary hosts confirm; dataset marked paraphrase; minor word difference 'that is' vs 'it is'.",
+  "searched": true
+ },
+ {
+  "id": "q5e50266d",
+  "text_checked": "an enlightened man can never have sex",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.actualized.org/forum/topic/101055-making-sense-of-ug-krishnamurti-part-2/"
+  ],
+  "book_per_sources": "none given (forum repost); dataset: My Swan Song",
+  "wording_variants": [
+   "Forum: enlightened man 'cannot reproduce another one like him, so he cannot have sex'; sexual function 'only for reproduction'"
+  ],
+  "note": "Only a forum repost found beyond ugkrishnamurti.in; dataset marks it a paraphrase. Context is the story about his own birth/mother.",
+  "searched": true
+ },
+ {
+  "id": "q86ac0c5a",
+  "text_checked": "more despicable than all other life forms",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://www.ugkrishnamurti.in/ug-essence/my-swan-song",
+   "https://people.well.com/user/jct/SWAN_SONG.htm",
+   "https://www.sciforums.com/threads/the-last-message-of-u-g-krishnamurti.95095/",
+   "https://medium.com/@alysion42/u-g-krishnamurtis-swan-song-updated-e36a07cc0595"
+  ],
+  "book_per_sources": "My Swan Song (dictated to Louis Brawley, Feb 2007)",
+  "wording_variants": [
+   "Verbatim: 'The human being is a more despicable thing than all the other forms of life on this planet.'",
+   "Medium copy inserts '[modern]' editorially"
+  ],
+  "note": "Dataset text is a paraphrase; primary hosts confirm the underlying sentence.",
+  "searched": true
+ },
+ {
+  "id": "q373b0000",
+  "text_checked": "The highest goal ... like a horizon ... projection of your own fear",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "The Natural State (kwize); Wikisource Natural State has the 'highest goal' discussion but not the horizon sentence confirmed",
+  "wording_variants": [],
+  "note": "Horizon passage only on kwize; Wikisource supports context ('ultimate goal society has set before us ... has to go') but exact wording unconfirmed. Dataset marks paraphrase.",
+  "searched": true
+ },
+ {
+  "id": "q72c0b555",
+  "text_checked": "Questioning the solutions requires a tremendous courage",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2016/03/questioning-solutions-requires.html",
+   "http://praveennv.blogspot.com/2016/03/do-you-have-any-question-which-you-can.html"
+  ],
+  "book_per_sources": "The Courage to Stand Alone (praveennv)",
+  "wording_variants": [
+   "Blog heading adds '!!!'; body text: 'you never question the solutions'"
+  ],
+  "note": "Only one host (two posts on praveennv); the heading may be the blogger's summary rather than UG's sentence.",
+  "searched": true
+ },
+ {
+  "id": "q9fd58abe",
+  "text_checked": "You cannot look at your thought / separate yourself from thought",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://praveennv.blogspot.com/2008/03/ug-krishnamurti-on-thoughts.html",
+   "http://praveennv.blogspot.com/2016/03/you-have-no-answer-of-your-own.html"
+  ],
+  "book_per_sources": "The Courage to Stand Alone (praveennv)",
+  "wording_variants": [
+   "Blog: 'So you cannot actually separate yourself from thought and look at it.'"
+  ],
+  "note": "Only praveennv (two overlapping posts); dataset wording is a compression of the blog text.",
+  "searched": true
+ },
+ {
+  "id": "qd1a6079f",
+  "text_checked": "There is no death for the body / only an exchange of atoms",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-Stopped-in-Our-Tracks-Stories-of-U-G-in-India/"
+  ],
+  "book_per_sources": "kwize: Stopped in Our Tracks: Stories of U.G. in India (K. Chandrasekhar) — recalled beside a dead friend's body; aggregators give none (dataset: Mind Is a Myth)",
+  "wording_variants": [
+   "Longer form: body is 'a fortuitous concourse of atoms'... 'nothing is born and nothing is dead'"
+  ],
+  "note": "Book attribution Mind Is a Myth unsupported; kwize places it in Stopped in Our Tracks (a memoir, so wording is Chandrasekhar's recollection). Covers q540a25ff theme too.",
+  "searched": true
+ },
+ {
+  "id": "qc45e9d64",
+  "text_checked": "natural state is not a synonym for enlightenment, freedom or God-realization",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://medium.com/@harpeony/book-summary-the-natural-state-in-the-words-of-u-g-krishnamurti-part-1-3-04f7c43a78c4"
+  ],
+  "book_per_sources": "The Natural State (compiled by Peter Maverick) — Wikisource",
+  "wording_variants": [
+   "Wikisource: 'It is not a synonymous term for enlightenment or God-realization or self-realization.' (dataset/Medium: 'is not a synonym for enlightenment, freedom or God-realization')"
+  ],
+  "note": "Primary text confirms the sense; 'freedom' and 'synonym' are the Medium summariser's wording. Also confirms the sentence 'Enlightenment, if there is any such thing, is not an experience at all' (relevant to q36edddbf).",
+  "searched": true
+ },
+ {
+  "id": "q6518586c",
+  "text_checked": "By 1961 my money was finished",
+  "verdict": "not-found",
+  "confirming_sources": [
+   "http://ug-k.blogspot.com/2007/04/adrift-in-london-experiences-of-others.html",
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "context (1961 London/Geneva penury) in Mahesh Bhatt biography and Wikipedia; exact sentence not found outside Wikisource Mystique",
+  "wording_variants": [
+   "Biographical accounts: 'down to his last five pence', 'his last 150 francs', 'I am finished'"
+  ],
+  "note": "Exact phrase not retrievable by search on any second host; biographical context corroborated. Remains single-source (Wikisource).",
+  "searched": true
+ },
+ {
+  "id": "q9aa9e10b",
+  "text_checked": "The things that had astonished me that week had become permanent fixtures",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://nuthanapati.blogspot.com/2011/11/natural-state-miracles-experienced-by.html"
+  ],
+  "book_per_sources": "nuthanapati blog: The Natural State ch.1.2 (dataset: Mystique of Enlightenment via Wikisource)",
+  "wording_variants": [],
+  "note": "Second host is a blog reproducing the same calamity narrative (Natural State compilation reuses Mystique text).",
+  "searched": true
+ },
+ {
+  "id": "qc3857d6f",
+  "text_checked": "There is no need to change this world or yourself",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://jhana8.com/ug-krishnamurti-quotes/",
+   "https://quotefancy.com/u-g-krishnamurti-quotes",
+   "https://www.emperyquotes.com/authors/ug-krishnamurti",
+   "https://www.azquotes.com/author/17848-U_G_Krishnamurti",
+   "https://quotlr.com/author/ug-krishnamurti",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "aggregators: none; Wikisource Natural State has cognate 'you don't need to change anything'; Medium Swan Song places it in the deathbed text",
+  "wording_variants": [
+   "Aggregator form: 'there is no need to change the world at all, and no need to change yourself either'"
+  ],
+  "note": "Dataset marks paraphrase; sentiment widely attested, exact sentence not in a primary host. A JK transcript with similar phrasing surfaced but is a different speaker.",
+  "searched": true
+ }
+]

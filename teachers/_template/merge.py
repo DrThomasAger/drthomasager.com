@@ -1,6 +1,6 @@
 """Merge researcher JSON files into items.json and quotes.json.
 
-Usage: python3 merge.py <dir-with-json-files>
+Usage: python3 merge.py [dir-with-json-files]   (default: raw/ beside this script)
 Reads every *.json in the directory. Files named quotes*.json are quote
 lists; everything else is an item list. Normalises keys, drops exact
 duplicates (same url + title, or same quote text), assigns stable ids,
@@ -13,7 +13,7 @@ import sys
 import hashlib
 
 HERE = pathlib.Path(__file__).resolve().parent
-src = pathlib.Path(sys.argv[1])
+src = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else HERE / "raw"
 
 MEDIA = {"video", "audio", "text", "image", "archive", "community"}
 

@@ -1,0 +1,24 @@
+{
+ "_comment": "Hand edits applied at build time, on top of the merged data. Written by the editor page or by hand. Keys: quotes / items / events / people each {update: {id: {field: value}}, add: [records], remove: [ids]}; meta {field: value}.",
+ "quotes": {
+  "update": {},
+  "add": [],
+  "remove": []
+ },
+ "items": {
+  "update": {},
+  "add": [],
+  "remove": []
+ },
+ "events": {
+  "update": {},
+  "add": [],
+  "remove": []
+ },
+ "people": {
+  "update": {},
+  "add": [],
+  "remove": []
+ },
+ "meta": {}
+}

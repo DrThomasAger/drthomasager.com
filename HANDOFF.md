@@ -81,6 +81,11 @@ STEP 6 — the second teacher (only if asked)
   gathering briefs in GATHERING.md with parallel researchers, then the merge,
   integrity, readme, manifest and build steps. The index grid picks it up.
 
+STEP 7 — recompositions (only if asked)
+  Read hanjopurebuddha.com/RECOMPOSE.md. With ANTHROPIC_API_KEY set, run
+  recompose.py for the forms and topics asked for, read each result against
+  the quotations it lists, commit the good ones into compositions/.
+
 RULES
   - Commit and push after each step. Keep the attribution footer lines the
     repository's commits already carry.
