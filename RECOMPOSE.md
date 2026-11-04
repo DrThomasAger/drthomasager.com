@@ -126,5 +126,17 @@ in, when it is short enough) under `teachers/<slug>/compositions/`. Commit
 it and it becomes its own page, listed on the teacher's home. Blog posts get
 a second button that opens a new file in `posts/` instead.
 
-`teachers/ug-krishnamurti/compositions/2026-11-04-collection-born-of-fear.md`
-is a first example.
+## Every composition is checked
+
+`integrity.py` in each teacher's folder reads every composition and finds
+each quoted line (each `>` line, and each sung line of a Suno song's lyrics)
+word for word in the quotations its front matter lists, its own overrides
+and the edited quote texts included, cuts marked with an ellipsis allowed.
+For words under copyright it also reports any quotation over 50 words. A
+line it cannot find is listed in `integrity-report.md`.
+
+The first compositions are `teachers/ug-krishnamurti/compositions/` "Born of
+Fear" (a collection) and "You Love Fear" (a Suno song, every sung line
+U.G.'s), and `teachers/bernadette-roberts/compositions/` "Where the Writers
+Leave Off" (a short study under the copyright forms, eight brief quotations,
+133 words quoted).

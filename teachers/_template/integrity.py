@@ -8,8 +8,9 @@ schema (required keys, types), URL well-formedness, duplicate URLs and
 near-duplicate titles/quotes, years inside the life span, missing
 sources, items whose only source is themselves, Jiddu Krishnamurti
 contamination (names and J.K. host names), empty tags, confidence
-values, quotes with no book, quotes attributed to editors, and the
-per-host distribution of sources.
+values, quotes with no book, quotes attributed to editors, every quoted line
+of a composition against the quotations it lists (and the 50 word limit
+where the words are reserved), and the per-host distribution of sources.
 """
 import json
 import pathlib
@@ -124,6 +125,43 @@ for q in quotes:
         m = re.match(r"https?://(?:www\.)?([^/]+)", s)
         if m: hosts[m.group(1)] += 1
 
+# ---- compositions: every quoted line is found word for word in a listed quotation
+def norm(s):
+    s = s.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+meta = load("meta.json") or {}
+edits = load("edits.json") or {}
+qtext = {q["id"]: [q.get("text") or ""] for q in quotes}
+for qid, ch in ((edits.get("quotes") or {}).get("update") or {}).items():
+    if ch.get("text"):
+        qtext.setdefault(qid, []).append(ch["text"])
+compositions_checked = 0
+for f in sorted((HERE / "compositions").glob("*.md")) if (HERE / "compositions").is_dir() else []:
+    raw = f.read_text(encoding="utf-8")
+    m = re.match(r"(?s)---\r?\n(.*?)\r?\n---\r?\n(.*)", raw)
+    fm, body = (m.group(1), m.group(2)) if m else ("", raw)
+    ids = re.findall(r"q[0-9a-f]{8}", (re.search(r"^quotes:(.*)$", fm, re.M) or [None, ""])[1])
+    ov = re.search(r"^overrides:\s*(\{.*\})\s*$", fm, re.M)
+    pool = [norm(x) for i in ids for x in qtext.get(i, [])] + ([norm(v) for v in json.loads(ov.group(1)).values()] if ov else [])
+    for i in ids:
+        if i not in qtext:
+            issues["composition_unknown_quote_id"].append((f.name, i))
+    lines = [l[1:].strip() for l in body.splitlines() if l.startswith(">")]
+    if re.search(r"^LYRICS\s*$", body, re.M):
+        lyr = re.split(r"^LYRICS\s*$", body, flags=re.M)[1]
+        lyr = re.split(r"^(SOURCES|COUNT)\s*$", lyr, flags=re.M)[0]
+        lines += [l.strip() for l in lyr.splitlines() if l.strip() and not l.strip().startswith("[")]
+    compositions_checked += 1
+    for l in lines:
+        parts = [norm(x) for x in re.split(r"\s*(?:\u2026|\.\.\.)\s*", l) if norm(x).strip(" .,;:'\"")]
+        if parts and not any(all(p in q for p in parts) for q in pool):
+            issues["composition_line_not_in_its_quotes"].append((f.name, l[:120]))
+        if meta.get("rights") == "reserved" and len(l.split()) > 50:
+            issues["composition_quote_over_50_words"].append((f.name, len(l.split()), l[:80]))
+
+
 summary = {
     "items": len(items), "quotes": len(quotes), "events": len(events), "people": len(people),
     "items_by_medium": dict(Counter(i.get("medium") for i in items)),
@@ -134,6 +172,7 @@ summary = {
     "distinct_source_hosts": len(hosts),
     "items_self_sourced_only": sum(1 for i in items if i.get("url") and set(i.get("sources") or []) == {i["url"]}),
     "items_with_second_source": sum(1 for i in items if len(set(i.get("sources") or []) - {i.get("url")}) >= 1),
+    "compositions_checked": compositions_checked,
     "issue_counts": {k: len(v) for k, v in sorted(issues.items())},
 }
 (HERE / "integrity.json").write_text(json.dumps({"summary": summary, "issues": issues, "hosts": hosts.most_common()}, ensure_ascii=False, indent=1), encoding="utf-8")

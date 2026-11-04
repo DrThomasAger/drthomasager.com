@@ -50,6 +50,7 @@
   "distinct_source_hosts": 111,
   "items_self_sourced_only": 60,
   "items_with_second_source": 75,
+  "compositions_checked": 1,
   "issue_counts": {
    "event-date-conflict": 5,
    "person-no-sources": 2,
