@@ -35,6 +35,7 @@ def key(s):
 
 
 issues = defaultdict(list)
+recorded_conflicts = []  # sources disagree on a date; both are given on the timeline, not an error
 items, quotes, events, people = load("items.json"), load("quotes.json"), load("events.json"), load("people.json")
 
 # ---- items
@@ -61,11 +62,12 @@ for it in items:
     if len(it.get("tags") or []) < 3:
         issues["item-thin-tags"].append((it["id"], it["title"]))
     blob = " ".join(str(it.get(k) or "") for k in ("title", "description", "url")).lower()
-    if any(m in blob for m in JK_MARKERS) and "not jiddu" not in blob and "u.g." not in blob and "ug " not in blob:
+    if "jk-contamination" not in (it.get("reviewed") or []) and any(m in blob for m in JK_MARKERS) and "not jiddu" not in blob and "u.g." not in blob and "ug " not in blob:
         issues["item-possible-jk-contamination"].append((it["id"], it["title"]))
     if it.get("url"):
         urls[it["url"]] += 1
-    titles[key(it["title"])] += 1
+    if not it.get("duplicate_of") and "duplicate-title" not in (it.get("reviewed") or []):
+        titles[key(it["title"])] += 1
 for u, n in urls.items():
     if n > 1:
         issues["item-duplicate-url"].append((u, n))
@@ -89,14 +91,17 @@ for q in quotes:
     if q.get("confidence") not in ("S", "T"):
         issues["quote-bad-confidence"].append((q["id"], q.get("confidence")))
     note = (q.get("note") or "").lower()
-    if any(w in note for w in ("editor", "bhatt's own", "not ug", "not u.g.", "newland quoting", "misattribut", "foreword", "not roberts", "not her words", "interviewer", "publisher blurb", "reviewer")):
+    rev = set(q.get("reviewed") or [])
+    settled = q.get("verdict") in ("not-ug", "not-found", "disputed") or q.get("kind") == "paraphrase" and q.get("verdict") != "corroborated-primary"
+    if not settled and "flagged-not-ug-or-editor" not in rev and any(w in note for w in ("editor", "bhatt's own", "not ug", "not u.g.", "newland quoting", "misattribut", "foreword", "not roberts", "not her words", "interviewer", "publisher blurb", "reviewer")):
         issues["quote-flagged-not-ug-or-editor"].append((q["id"], q["text"][:60]))
-    if "jiddu" in note or any(m in " ".join(q.get("sources") or []).lower() for m in JK_MARKERS):
+    if "jk-contamination" not in rev and ("jiddu" in note or any(m in " ".join(q.get("sources") or []).lower() for m in JK_MARKERS)):
         issues["quote-possible-jk-contamination"].append((q["id"], q["text"][:60]))
-    if len(q.get("text", "")) < 25:
+    if len(q.get("text", "")) < 25 and "very-short" not in rev:
         issues["quote-very-short"].append((q["id"], q["text"]))
     k = key(q["text"])[:80]
-    qkeys[k] += 1
+    if not q.get("duplicate_of") and not q.get("same_passage_as"):
+        qkeys[k] += 1
 for k, n in qkeys.items():
     if n > 1:
         issues["quote-near-duplicate"].append((k[:60], n))
@@ -109,7 +114,7 @@ for e in events:
     if not e.get("sources"):
         issues["event-no-sources"].append((e.get("date"), (e.get("event") or "")[:60]))
     if e.get("confidence") == "conflict":
-        issues["event-date-conflict"].append((e.get("date"), (e.get("event") or "")[:60]))
+        recorded_conflicts.append((e.get("date"), (e.get("event") or "")[:60]))
 for p in people:
     if not p.get("sources"):
         issues["person-no-sources"].append((p.get("name"),))
@@ -153,6 +158,10 @@ for f in sorted((HERE / "compositions").glob("*.md")) if (HERE / "compositions")
         lyr = re.split(r"^LYRICS\s*$", body, flags=re.M)[1]
         lyr = re.split(r"^(SOURCES|COUNT)\s*$", lyr, flags=re.M)[0]
         lines += [l.strip() for l in lyr.splitlines() if l.strip() and not l.strip().startswith("[")]
+    if re.search(r"^QUOTE\s*$", body, re.M):
+        qb = re.split(r"^QUOTE\s*$", body, flags=re.M)[1]
+        qb = re.split(r"^(CAPTION|SOURCE|LINK|TAGS)\s*$", qb, flags=re.M)[0]
+        lines += [l.strip().strip('"\u201c\u201d') for l in qb.splitlines() if l.strip()]
     compositions_checked += 1
     for l in lines:
         parts = [norm(x) for x in re.split(r"\s*(?:\u2026|\.\.\.)\s*", l) if norm(x).strip(" .,;:'\"")]
@@ -173,9 +182,11 @@ summary = {
     "items_self_sourced_only": sum(1 for i in items if i.get("url") and set(i.get("sources") or []) == {i["url"]}),
     "items_with_second_source": sum(1 for i in items if len(set(i.get("sources") or []) - {i.get("url")}) >= 1),
     "compositions_checked": compositions_checked,
+    "events_with_recorded_date_conflict": len(recorded_conflicts),
+    "quotes_marked_duplicate": sum(1 for q in quotes if q.get("duplicate_of")),
     "issue_counts": {k: len(v) for k, v in sorted(issues.items())},
 }
-(HERE / "integrity.json").write_text(json.dumps({"summary": summary, "issues": issues, "hosts": hosts.most_common()}, ensure_ascii=False, indent=1), encoding="utf-8")
+(HERE / "integrity.json").write_text(json.dumps({"summary": summary, "issues": issues, "recorded_conflicts": recorded_conflicts, "hosts": hosts.most_common()}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 lines = ["# Integrity report", "", "Generated by `integrity.py`. Re-run after every merge.", ""]
 lines += ["## Summary", ""]

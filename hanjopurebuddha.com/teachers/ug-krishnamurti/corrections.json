@@ -34,7 +34,8 @@
  "q3bdfe3cb": {
   "book": "No Way Out",
   "chapter": "Ch. 1 The Unrational Philosophy of U.G. Krishnamurti",
-  "note": "Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks."
+  "note": "Verification: attribution split three ways; Wikiquote gives No Way Out ch. 1, Dharmapedia gives Stopped in Our Tracks. Reviewed 2026-11-04 (integrity pass): a fragment of q01ae8cf2.",
+  "duplicate_of": "q01ae8cf2"
  },
  "q044d9da9": {
   "book": "Mind is a Myth",
@@ -64,7 +65,11 @@
   "note": "Verification: Wikisource Mystique Pt. 4 lacks the parenthetical; the sentence as given is in The Natural State compilation."
  },
  "q7f620b02": {
-  "note": "Verification: reaches us via Mahesh Bhatt, A Taste of Death; Wikiquote warns Bhatt's own 'You are what you do…' is often wrongly merged in."
+  "note": "Verification: reaches us via Mahesh Bhatt, A Taste of Death; Wikiquote warns Bhatt's own 'You are what you do…' is often wrongly merged in. Reviewed 2026-11-04 (integrity pass): U.G.'s words as recorded by Mahesh Bhatt; Bhatt's own line is not part of it.",
+  "reviewed": [
+   "flagged-not-ug-or-editor",
+   "very-short"
+  ]
  },
  "q45036753": {
   "note": "Verification: via Bhatt's biography on the WELL; Wikiquote lists it unsourced."
@@ -86,7 +91,11 @@
  "qc213105f": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line."
+  "note": "Verification 2: appears only in Terry Newland's editorial introduction to Mind is a Myth as a summary of U.G.'s positions, not a transcribed line. Reviewed 2026-11-04 (integrity pass): appears only in Terry Newland's introduction as a summary of U.G.'s positions.",
+  "verdict": "disputed",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "q25e43852": {
   "book": "The Mystique of Enlightenment",
@@ -120,7 +129,10 @@
   "note": "Verification 2: exact sentence not found; Wikisource No Way Out ch. 8 has the idea as 'all relationships are built on the foundation of What do I get out of this relationship?'."
  },
  "q190abbe4": {
-  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk."
+  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk. Reviewed 2026-11-04 (integrity pass): not found, so never quoted.",
+  "reviewed": [
+   "jk-contamination"
+  ]
  },
  "q870d1afa": {
   "note": "Verification 2: Wikiquote sources the wording via Mahesh Bhatt's A Taste of Death."
@@ -131,7 +143,8 @@
  "qdb3fcee7": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words."
+  "note": "Attribution pass: this sentence is Dr T.R. Raghunath's introductory essay (No Way Out ch. 1, nwo1.htm), not U.G.'s own words. Reviewed 2026-11-04 (integrity pass): Dr T.R. Raghunath's introductory essay in No Way Out, not U.G.'s words.",
+  "verdict": "not-ug"
  },
  "qdc4e8ecb": {
   "book": "The Mystique of Enlightenment",
@@ -153,17 +166,27 @@
  },
  "qc032db3b": {
   "book": "Love (ed. Sunita Pant Bansal)",
-  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth. Reviewed 2026-11-04 (integrity pass): U.G.'s words in the Bansal-edited compilation; the foreword is Bhatt's, the words are not.",
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ]
  },
  "q74cba27f": {
   "book": "Love (ed. Sunita Pant Bansal)",
-  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth."
+  "note": "Verification 3: from the Bansal-edited 'Love' ebook with Bhatt foreword, not Mind is a Myth. Reviewed 2026-11-04 (integrity pass): a fragment of qc032db3b.",
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "duplicate_of": "qc032db3b"
  },
  "q46e8ac7b": {
   "note": "Verification 3: disputed; wording differs materially between AZQuotes and Wikiquote Talk, which lists it as unsourced."
  },
  "q181d741b": {
-  "note": "Verification 3: no hit for the exact phrase; results swamped by Jiddu Krishnamurti pages, who has a published passage on an overlapping theme. Treat with care."
+  "note": "Verification 3: no hit for the exact phrase; results swamped by Jiddu Krishnamurti pages, who has a published passage on an overlapping theme. Treat with care. Reviewed 2026-11-04 (integrity pass): verified primary in Courage to Stand Alone in a later pass; search noise is Jiddu's pages.",
+  "reviewed": [
+   "jk-contamination"
+  ]
  },
  "q91eb04cf": {
   "note": "Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently."
@@ -176,12 +199,20 @@
  "qbb1ee524": {
   "book": "Mind is a Myth",
   "chapter": "Ch. IV There Is Nothing To Understand",
-  "note": "Verification 3: aggregators and the Mind is a Myth ch. IV text; Goodreads also files it under Courage to Stand Alone. One third-party host misattributes it to Jiddu Krishnamurti."
+  "note": "Verification 3: aggregators and the Mind is a Myth ch. IV text; Goodreads also files it under Courage to Stand Alone. One third-party host misattributes it to Jiddu Krishnamurti. Reviewed 2026-11-04 (integrity pass): U.G.'s, Mind is a Myth ch. IV; one host misfiles it under Jiddu. The same passage as q870d1afa.",
+  "reviewed": [
+   "flagged-not-ug-or-editor",
+   "jk-contamination"
+  ],
+  "duplicate_of": "q870d1afa"
  },
  "qa52816a8": {
   "book": "Mind is a Myth",
   "chapter": "Ch. I The Certainty That Blasts Everything",
-  "note": "Verification 3: duplicates the 'You love fear' passage confirmed on Wikisource Mind is a Myth ch. I; one host frames it as Jiddu Krishnamurti."
+  "note": "Verification 3: duplicates the 'You love fear' passage confirmed on Wikisource Mind is a Myth ch. I; one host frames it as Jiddu Krishnamurti. Reviewed 2026-11-04 (integrity pass): U.G.'s, Mind is a Myth ch. I on Wikisource; one host frames it as Jiddu.",
+  "reviewed": [
+   "jk-contamination"
+  ]
  },
  "qb4eaccd2": {
   "chapter": "Ch. 7 What Kind of Human Being Do You Want?",
@@ -190,19 +221,29 @@
  "q5e5b2970": {
   "book": "Stopped in Our Tracks",
   "chapter": "Book Two",
-  "note": "Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy."
+  "note": "Verification 3: the WELL places it in Chandrasekhar's Book Two excerpts; a blog says Thought is Your Enemy.",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "qca29deea": {
   "note": "Verification 3: exact wording not found; hosts give 'This thing called moksha, can you give it to me?' addressed to Ramana Maharshi in 1939."
  },
  "q5061960a": {
-  "note": "Verification 3: quotepark misfiles it under Jiddu Krishnamurti; the WELL and Wikiquote give U.G. (Stopped in Our Tracks Book Two)."
+  "note": "Verification 3: quotepark misfiles it under Jiddu Krishnamurti; the WELL and Wikiquote give U.G. (Stopped in Our Tracks Book Two). Reviewed 2026-11-04 (integrity pass): U.G.'s, Stopped in Our Tracks Book Two; quotepark misfiles it under Jiddu. A fragment of q610e5087.",
+  "reviewed": [
+   "jk-contamination"
+  ],
+  "duplicate_of": "q610e5087"
  },
  "qdc117690": {
   "note": "Verification 3: not indexed on any host beyond the catalogue's Swan Song pages."
  },
  "qba6902b4": {
-  "note": "Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'."
+  "note": "Verification 3: printed form in Mark Whitwell's recollection is 'meditation is itself an evil'.",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "q96cd1f77": {
   "book": "U.G. Krishnamurti: A Life",
@@ -217,7 +258,10 @@
  "q00193fb7": {
   "book": "Stopped in Our Tracks",
   "chapter": "Book Two",
-  "note": "Verification 4: Chandrasekhar's Book Two excerpts (chandra.htm)."
+  "note": "Verification 4: Chandrasekhar's Book Two excerpts (chandra.htm).",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "qa850f231": {
   "book": "Stopped in Our Tracks",
@@ -233,15 +277,20 @@
  "qc60032ad": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification 4: carried as 'U.G. says that…', a press paraphrase, not his sentence."
+  "note": "Verification 4: carried as 'U.G. says that…', a press paraphrase, not his sentence. Reviewed 2026-11-04 (integrity pass): a press paraphrase compiled by K. Chandrasekhar, not U.G.'s sentence.",
+  "verdict": "not-ug"
  },
  "q0c6ee69f": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification 4: 'a useless exercise' is Wikipedia's narrative voice, not a U.G. sentence."
+  "note": "Verification 4: 'a useless exercise' is Wikipedia's narrative voice, not a U.G. sentence.",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "qdab04c55": {
-  "note": "Verification 4: the core sentence 'The natural state is a pure and simple, physical and physiological state of being' is U.G.'s own (inner-quest; WELL No Way Out ch. 1)."
+  "note": "Verification 4: the core sentence 'The natural state is a pure and simple, physical and physiological state of being' is U.G.'s own (inner-quest; WELL No Way Out ch. 1). Reviewed 2026-11-04 (integrity pass): Mukunda Rao's editorial sentence; only its opening clause is U.G.'s own.",
+  "verdict": "disputed"
  },
  "q707dda41": {
   "note": "Verification 4: 'My aim is to silence you' not found verbatim; the only 'silence' line in Stopped in Our Tracks is Nagaraj's remark."
@@ -259,23 +308,72 @@
  "qeb9c85d2": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification 4: an editor's bracketed third-person biographical note in Mystique Part One, not U.G.'s words."
+  "note": "Verification 4: an editor's bracketed third-person biographical note in Mystique Part One, not U.G.'s words.",
+  "reviewed": [
+   "very-short"
+  ]
  },
  "q718e3b22": {
   "note": "Verification 4: disputed; the only 'no escape' ending found belongs to the Mind is a Myth sorrow passage, not No Way Out ch. 7."
  },
  "qc40e7904": {
-  "note": "Verification 4: a Terry Newland Introduction quotation."
+  "note": "Verification 4: a Terry Newland Introduction quotation. Reviewed 2026-11-04 (integrity pass): placeholder; the passage text was never recovered.",
+  "verdict": "not-found"
  },
  "q5af2e554": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification 4: publisher blurb, not U.G.'s sentence."
+  "note": "Verification 4: publisher blurb, not U.G.'s sentence. Reviewed 2026-11-04 (integrity pass): publisher or introduction wording, not U.G.'s sentence; kept for the record, never quoted.",
+  "verdict": "not-ug"
  },
  "q27ae73f0": {
-  "note": "Verification 4: editorial wording from the UG Cookbook."
+  "note": "Verification 4: editorial wording from the UG Cookbook. Reviewed 2026-11-04 (integrity pass): a paraphrase, so never quoted; the passage is No Way Out ch. 4.",
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ]
  },
  "q85d5f7a2": {
   "note": "Verification 4: wording is jhana8's biography, not a transcribed line."
+ },
+ "q0997ce6d": {
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "note": "Reviewed 2026-11-04 (integrity pass): U.G.'s words in the Bansal-edited compilation."
+ },
+ "q3987c101": {
+  "duplicate_of": "q610e5087",
+  "note": "Reviewed 2026-11-04 (integrity pass): a shorter cut of q610e5087."
+ },
+ "q2d12cceb": {
+  "duplicate_of": "qba7b8f15",
+  "note": "Reviewed 2026-11-04 (integrity pass): the same passage as qba7b8f15, which carries the chapter."
+ },
+ "q2959c7d4": {
+  "duplicate_of": "q69f83f72",
+  "note": "Reviewed 2026-11-04 (integrity pass): the same passage as q69f83f72."
+ },
+ "q062c2482": {
+  "duplicate_of": "q77f34910",
+  "note": "Reviewed 2026-11-04 (integrity pass): a fragment of q77f34910."
+ },
+ "q989dde8c": {
+  "same_passage_as": "qeee2e8cf",
+  "note": "Reviewed 2026-11-04 (integrity pass): the same words are carried in Thought is Your Enemy and No Way Out ch. 7."
+ },
+ "q88d291eb": {
+  "reviewed": [
+   "very-short"
+  ]
+ },
+ "qfc5867cf": {
+  "reviewed": [
+   "very-short"
+  ]
+ },
+ "q95504a40": {
+  "reviewed": [
+   "very-short"
+  ]
  }
 }

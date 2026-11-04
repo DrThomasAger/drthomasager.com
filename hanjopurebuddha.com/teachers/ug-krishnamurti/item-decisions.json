@@ -1,0 +1,165 @@
+[
+ {
+  "id": "i1d15f423",
+  "duplicate_of": "icd3d513c",
+  "note": "Reviewed 2026-11-04: the same archive.org audio collection as icd3d513c, listed with a sort parameter."
+ },
+ {
+  "id": "i60606c6c",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the video collection, distinct from the audio one."
+ },
+ {
+  "id": "i22145c7d",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the PhilPapers record of the same 2010 book as i50047add."
+ },
+ {
+  "id": "i3bf73c52",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: a different playlist from if85fd17f."
+ },
+ {
+  "id": "ia36a58b0",
+  "same_recording_as": "i867b1f0d",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the BitChute copy of the YouTube video i867b1f0d."
+ },
+ {
+  "id": "i11ef8023",
+  "same_recording_as": "i26336e4e",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the BitChute copy of the YouTube video i26336e4e."
+ },
+ {
+  "id": "i7f2af2d6",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the Reddit thread sharing i26336e4e."
+ },
+ {
+  "id": "i124859e1",
+  "same_recording_as": "i2c7101bc",
+  "reviewed": [
+   "duplicate-title"
+  ],
+  "note": "Reviewed 2026-11-04: the BitChute copy of the YouTube video i2c7101bc."
+ },
+ {
+  "id": "iada592dd",
+  "reviewed": [
+   "jk-contamination"
+  ],
+  "note": "Reviewed 2026-11-04: U.G.'s graphic biography; the address only names Jiddu to tell them apart."
+ },
+ {
+  "id": "icc612fee",
+  "reviewed": [
+   "jk-contamination"
+  ],
+  "note": "Reviewed 2026-11-04: the Italian article on U.G., which tells him apart from Jiddu."
+ },
+ {
+  "id": "if30146e9",
+  "reviewed": [
+   "jk-contamination"
+  ],
+  "confidence": "lead",
+  "note": "Reviewed 2026-11-04: a record of a search gap, not an item; stock libraries returned only Jiddu."
+ },
+ {
+  "id": "i89b31d47",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i40d556ae",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i8ec5c4ad",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "ic085b7a4",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i6803d7f4",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i9a6d4f2c",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "icfbe7a28",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "ie52c2048",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i693a74c4",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "ie98fff2e",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i4a4796af",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i36212fab",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i15f89bb9",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ },
+ {
+  "id": "i91b59bba",
+  "reviewed": [
+   "duplicate-title"
+  ]
+ }
+]

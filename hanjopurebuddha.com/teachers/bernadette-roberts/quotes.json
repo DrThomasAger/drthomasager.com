@@ -372,7 +372,11 @@
    "all particulars dissolved into absolute nothingness",
    "out of nothingness arises the greatest of great realities",
    "As the river flows, from out of the formless void arises the greatest of great realities, a simple smile."
-  ]
+  ],
+  "reviewed": [
+   "very-short"
+  ],
+  "corrected": true
  },
  {
   "id": "q99a5d3a7",
@@ -456,7 +460,7 @@
    "book-the-experience-of-no-self",
    "kind-paraphrase"
   ],
-  "note": "Medium/Goodreads reviewers paraphrase her; another version: 'the only mystic the author could find who spoke of this stage beyond union, beyond self and God, was Meister Eckhart'. Verification: a commentator's or reviewer's sentence, not hers.",
+  "note": "Medium/Goodreads reviewers paraphrase her; another version: 'the only mystic the author could find who spoke of this stage beyond union, beyond self and God, was Meister Eckhart'. Verification: a commentator's or reviewer's sentence, not hers. Reviewed 2026-11-04 (integrity pass): a reviewer's sentence about her, not hers.",
   "sources": [
    "https://medium.com/@jkowall031/bernadette-roberts-who-is-a-catholic-nun-described-the-experience-of-no-self-in-her-book-the-466cb2174974",
    "https://www.goodreads.com/en/book/show/345092"
@@ -466,7 +470,7 @@
    "goodreads.com",
    "medium.com"
   ],
-  "verdict": "disputed",
+  "verdict": "not-ug",
   "confirming_sources": [
    "https://medium.com/@jkowall031/bernadette-roberts-who-is-a-catholic-nun-described-the-experience-of-no-self-in-her-book-the-466cb2174974",
    "https://epdf.pub/the-experience-of-no-self-a-contemplative-journeyd841f9966b8b0166ae5e16ce9e51cdda3520.html"
@@ -1007,7 +1011,7 @@
    "book-what-is-self",
    "kind-verbatim"
   ],
-  "note": "Quoted in Jeff Shore's foreword / book preview as her definition of Christ. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers).",
+  "note": "Quoted in Jeff Shore's foreword / book preview as her definition of Christ. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword; only \"that which remains when there is no self\" is hers.",
   "sources": [
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
    "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf"
@@ -1017,7 +1021,7 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "disputed",
+  "verdict": "not-ug",
   "confirming_sources": [
    "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
@@ -1117,7 +1121,7 @@
    "book-what-is-self",
    "kind-fragment"
   ],
-  "note": "Her thesis as quoted in the Foreword (Jeff Shore).",
+  "note": "Her thesis as quoted in the Foreword (Jeff Shore). Reviewed 2026-11-04 (integrity pass): her thesis in her words, as quoted in Shore's foreword.",
   "sources": [
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
    "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf"
@@ -1133,7 +1137,11 @@
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
    "https://epdf.pub/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "corrected": true
  },
  {
   "id": "qe5c7c65f",
@@ -2647,7 +2655,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-fragment"
   ],
-  "note": "NOT her words: Stephan Bodian's opening question (recorded for context).",
+  "note": "NOT her words: Stephan Bodian's opening question (recorded for context). Reviewed 2026-11-04 (integrity pass): Stephan Bodian's question, kept for context, never quoted as hers.",
   "sources": [
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
    "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
@@ -2659,7 +2667,8 @@
    "o-meditation.com",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "not-ug",
+  "corrected": true
  },
  {
   "id": "q2c9d67d9",
@@ -3388,7 +3397,7 @@
    "book-essays-on-the-christian-contemplative-journey",
    "kind-verbatim"
   ],
-  "note": "Full sentence behind catalogue qc5b19862 (which stops at 'same truth'). Goodreads only.",
+  "note": "Full sentence behind catalogue qc5b19862 (which stops at 'same truth'). Goodreads only. Reviewed 2026-11-04 (integrity pass): the same words in the Essays and in the Bodian interview.",
   "sources": [
    "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts"
   ],
@@ -3396,7 +3405,9 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "same_passage_as": "qc5b19862",
+  "corrected": true
  },
  {
   "id": "qb1a2d107",
@@ -3758,7 +3769,7 @@
    "book-the-path-to-no-self",
    "kind-fragment"
   ],
-  "note": "Publisher blurb wording; may be editorial rather than hers.",
+  "note": "Publisher blurb wording; may be editorial rather than hers. Reviewed 2026-11-04 (integrity pass): publisher blurb wording, not confirmed as hers.",
   "sources": [
    "https://sunypress.edu/Books/T/The-Path-to-No-Self"
   ],
@@ -3766,7 +3777,8 @@
   "source_hosts": [
    "sunypress.edu"
   ],
-  "verdict": "single-source"
+  "verdict": "disputed",
+  "corrected": true
  },
  {
   "id": "q3050a57c",
@@ -4054,7 +4066,7 @@
    "book-what-is-self",
    "kind-paraphrase"
   ],
-  "note": "NOT Roberts: Jeff Shore's foreword, as paraphrased by the search summary. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers).",
+  "note": "NOT Roberts: Jeff Shore's foreword, as paraphrased by the search summary. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword, not hers.",
   "sources": [
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
   ],
@@ -4062,7 +4074,7 @@
   "source_hosts": [
    "everand.com"
   ],
-  "verdict": "single-source",
+  "verdict": "not-ug",
   "corrected": true
  },
  {
@@ -4522,7 +4534,7 @@
    "book-what-is-self",
    "kind-fragment"
   ],
-  "note": "Cited at p.127 by a secondary source; bracketed words are the reviewer's.",
+  "note": "Cited at p.127 by a secondary source; bracketed words are the reviewer's. Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's.",
   "sources": [
    "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
   ],
@@ -4530,7 +4542,11 @@
   "source_hosts": [
    "awakeningtoreality.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "corrected": true
  },
  {
   "id": "q022454d5",
@@ -4639,7 +4655,11 @@
    "awakeningtoreality.com",
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "multi-source"
+  "verdict": "multi-source",
+  "reviewed": [
+   "very-short"
+  ],
+  "corrected": true
  },
  {
   "id": "qfd5bc008",

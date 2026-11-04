@@ -22,12 +22,12 @@
    "T": 94
   },
   "quotes_by_verdict": {
-   "corroborated-primary": 102,
-   "corroborated-secondary": 127,
+   "corroborated-primary": 98,
+   "corroborated-secondary": 125,
    "primary-source": 5,
-   "disputed": 6,
-   "not-found": 6,
-   "not-ug": 1,
+   "disputed": 8,
+   "not-found": 7,
+   "not-ug": 4,
    "single-source": 35
   },
   "quotes_by_book": {
@@ -59,16 +59,11 @@
   "items_self_sourced_only": 377,
   "items_with_second_source": 341,
   "compositions_checked": 2,
+  "events_with_recorded_date_conflict": 7,
+  "quotes_marked_duplicate": 8,
   "issue_counts": {
-   "event-date-conflict": 7,
-   "item-duplicate-title": 7,
    "item-no-sources": 12,
-   "item-possible-jk-contamination": 3,
-   "quote-flagged-not-ug-or-editor": 13,
-   "quote-near-duplicate": 7,
-   "quote-possible-jk-contamination": 5,
-   "quote-unassigned-book": 6,
-   "quote-very-short": 9
+   "quote-unassigned-book": 6
   }
  },
  "issues": {
@@ -122,164 +117,6 @@
     "2026 film coverage not located (Variety US, IndieWire, Hollywood Reporter, Screen Daily, The Hindu, Scroll, Telluride and Woodstock printed programmes)"
    ]
   ],
-  "item-possible-jk-contamination": [
-   [
-    "iada592dd",
-    "Scroll.in excerpt of This Dog Barking with panels"
-   ],
-   [
-    "if30146e9",
-    "GAP: Alamy / Getty / Shutterstock 'Krishnamurti' stock searches (all J.K. so far)"
-   ],
-   [
-    "icc612fee",
-    "Italian Wikipedia 'Uppaluri Gopala Krishnamurti' — infobox image"
-   ]
-  ],
-  "item-duplicate-title": [
-   [
-    "internetarchivecollectionugkrishnamurticonversationsandinter",
-    2
-   ],
-   [
-    "thebiologyofenlightenmentunpublishedconversationsofugkrishna",
-    2
-   ],
-   [
-    "playlistugkrishnamurtiyoutube",
-    2
-   ],
-   [
-    "thenaturalstate",
-    2
-   ],
-   [
-    "ugkrishnamurtiyouwish",
-    2
-   ],
-   [
-    "ugkrishnamurtigardenconversationbits",
-    3
-   ],
-   [
-    "ugkrishnamurtisnapoutofit",
-    2
-   ]
-  ],
-  "quote-flagged-not-ug-or-editor": [
-   [
-    "qeb9c85d2",
-    "…a tremendous upheaval…"
-   ],
-   [
-    "q5af2e554",
-    "one can do nothing to attain the natural state. In fact, any"
-   ],
-   [
-    "qc40e7904",
-    "[damn fool passage, paraphrase only]"
-   ],
-   [
-    "q7f620b02",
-    "You think when you don't want to do anything. Thinking is a "
-   ],
-   [
-    "qbb1ee524",
-    "Nature is busy creating absolutely unique individuals, where"
-   ],
-   [
-    "qc032db3b",
-    "Love implies division, separation. Wherever there is divisio"
-   ],
-   [
-    "q0997ce6d",
-    "Each cell of a living organism cooperates with the cell next"
-   ],
-   [
-    "q27ae73f0",
-    "You need not worry about nutrition or health foods; the body"
-   ],
-   [
-    "q74cba27f",
-    "wherever there is division, there can't be love"
-   ],
-   [
-    "qdb3fcee7",
-    "thought is a divisive and ultimately a destructive instrumen"
-   ],
-   [
-    "qc60032ad",
-    "it is through this constant thinking that we are maintaining"
-   ],
-   [
-    "qc213105f",
-    "Making love is war."
-   ],
-   [
-    "qdab04c55",
-    "The natural state is a pure and simple physical and physiolo"
-   ]
-  ],
-  "quote-very-short": [
-   [
-    "qeb9c85d2",
-    "…a tremendous upheaval…"
-   ],
-   [
-    "q88d291eb",
-    "Act, don't think!"
-   ],
-   [
-    "q5e5b2970",
-    "Charity is selfishness."
-   ],
-   [
-    "qba6902b4",
-    "Meditation is evil."
-   ],
-   [
-    "q00193fb7",
-    "Thought is you."
-   ],
-   [
-    "qfc5867cf",
-    "There is no happiness."
-   ],
-   [
-    "qc213105f",
-    "Making love is war."
-   ],
-   [
-    "q0c6ee69f",
-    "a useless exercise"
-   ],
-   [
-    "q95504a40",
-    "I am myself a thief."
-   ]
-  ],
-  "quote-possible-jk-contamination": [
-   [
-    "qa52816a8",
-    "You love fear. The ending of fear is death, and you don't wa"
-   ],
-   [
-    "qbb1ee524",
-    "Nature is busy creating absolutely unique individuals, where"
-   ],
-   [
-    "q181d741b",
-    "…all the positive approaches that man has invented and used "
-   ],
-   [
-    "q190abbe4",
-    "The belief in reincarnation will only help us to look the ot"
-   ],
-   [
-    "q5061960a",
-    "It [thought] is a mechanical thing and can solve only mechan"
-   ]
-  ],
   "quote-unassigned-book": [
    [
     "q68aa6bb3",
@@ -305,68 +142,38 @@
     "q0c6ee69f",
     "a useless exercise"
    ]
-  ],
-  "quote-near-duplicate": [
-   [
-    "itistheoneswhobelieveingodwhopreachpeaceandtalkoflovewhohave",
-    2
-   ],
-   [
-    "thereisnosuchthingasspiritualorpsychologicalenlightenmentbec",
-    2
-   ],
-   [
-    "iamnotantirationaljustunrationalyoumayinferarationalmeaningi",
-    2
-   ],
-   [
-    "natureisbusycreatingabsolutelyuniqueindividualswhereascultur",
-    2
-   ],
-   [
-    "everythingyoustandforbelieveinexperienceandaspiretoistheresu",
-    2
-   ],
-   [
-    "youcanhavethecouragetoclimbthemountainswimthelakesgoonaraftt",
-    2
-   ],
-   [
-    "itthoughtisamechanicalthingandcansolveonlymechanicalproblems",
-    2
-   ]
-  ],
-  "event-date-conflict": [
-   [
-    "1925-12",
-    "According to Mahesh Bhatt ('A Life', ch. 2), the boy is take"
-   ],
-   [
-    "1932-12",
-    "Attends the Theosophical Society annual convention at Adyar "
-   ],
-   [
-    "1939",
-    "Enrols at the University of Madras to study psychology, phil"
-   ],
-   [
-    "1963",
-    "Kusuma Kumari dies in India after twenty-one years of marria"
-   ],
-   [
-    "1979-10-03",
-    "Mahesh Bhatt and Parveen Babi arrive from Bombay to stay wit"
-   ],
-   [
-    "2001",
-    "'The Courage to Stand Alone: Conversations with U.G. Krishna"
-   ],
-   [
-    "2026-09",
-    "Documentary 'The Natural State' (dir. Matt Dougherty; exec. "
-   ]
   ]
  },
+ "recorded_conflicts": [
+  [
+   "1925-12",
+   "According to Mahesh Bhatt ('A Life', ch. 2), the boy is take"
+  ],
+  [
+   "1932-12",
+   "Attends the Theosophical Society annual convention at Adyar "
+  ],
+  [
+   "1939",
+   "Enrols at the University of Madras to study psychology, phil"
+  ],
+  [
+   "1963",
+   "Kusuma Kumari dies in India after twenty-one years of marria"
+  ],
+  [
+   "1979-10-03",
+   "Mahesh Bhatt and Parveen Babi arrive from Bombay to stay wit"
+  ],
+  [
+   "2001",
+   "'The Courage to Stand Alone: Conversations with U.G. Krishna"
+  ],
+  [
+   "2026-09",
+   "Documentary 'The Natural State' (dir. Matt Dougherty; exec. "
+  ]
+ ],
  "hosts": [
   [
    "people.well.com",

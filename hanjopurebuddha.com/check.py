@@ -1,4 +1,4 @@
-"""Run merge (if a scratch folder is given), integrity and build for every teacher.
+"""Run merge (if a scratch folder is given), integrity, build and coverage for every teacher.
 
     python3 check.py [scratch-folder-for-<slug>=path ...]
 """
@@ -12,3 +12,4 @@ for t in sorted(p for p in (ROOT / "teachers").iterdir() if p.is_dir() and not p
         subprocess.run([sys.executable, str(t / "integrity.py")], check=True, stdout=subprocess.DEVNULL)
         print(f"{t.name}: integrity-report.md written")
 subprocess.run([sys.executable, str(ROOT / "build.py")], check=True)
+subprocess.run([sys.executable, str(ROOT / "coverage.py")], check=True)
