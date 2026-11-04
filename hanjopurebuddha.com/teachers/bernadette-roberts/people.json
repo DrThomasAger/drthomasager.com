@@ -416,35 +416,5 @@
    "https://en.wikipedia.org/wiki/Bernadette_Roberts",
    "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage"
   ]
- },
- {
-  "name": "Bernard McGinn",
-  "also_known_as": [],
-  "role": "scholar",
-  "relation": "no connection to Roberts found in search; listed as a negative result",
-  "dates": null,
-  "place": "Chicago",
-  "material": null,
-  "url": null,
-  "tags": [
-   "negative-result"
-  ],
-  "confidence": "T",
-  "sources": []
- },
- {
-  "name": "Jeffrey Kripal",
-  "also_known_as": [],
-  "role": "scholar",
-  "relation": "no connection to Roberts found in search; listed as a negative result",
-  "dates": null,
-  "place": "Houston",
-  "material": null,
-  "url": null,
-  "tags": [
-   "negative-result"
-  ],
-  "confidence": "T",
-  "sources": []
  }
 ]

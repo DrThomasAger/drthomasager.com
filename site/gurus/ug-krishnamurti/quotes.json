@@ -98,7 +98,7 @@
   "id": "q36edddbf",
   "text": "Enlightenment (if there is any such thing as enlightenment) is not an experience at all.",
   "book": "The Natural State",
-  "chapter": null,
+  "chapter": "Part Four",
   "year": 1982,
   "confidence": "S",
   "kind": "verbatim",
@@ -108,7 +108,7 @@
    "book-the-mystique-of-enlightenment",
    "kind-verbatim"
   ],
-  "note": "Verification: Wikisource Mystique Pt. 4 lacks the parenthetical; the sentence as given is in The Natural State compilation.",
+  "note": "Verification: Wikisource Mystique Pt. 4 lacks the parenthetical; the sentence as given is in The Natural State compilation. Verbatim with parenthetical on Wikisource Mystique Part Four and well.com mystiq4.htm.",
   "sources": [
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One"
   ],
@@ -1631,11 +1631,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-secondary",
   "confirming_sources": [
-   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti?page=2"
+   "https://quotewise.io/q/qp6u7v"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "Nobody knows anything about life and there is NO point in defining life."
+  ]
  },
  {
   "id": "qdb7053b4",
@@ -1781,7 +1783,7 @@
  },
  {
   "id": "qfd63f8c6",
-  "text": "Thought has interfered and trying to suppress, control, and moralize about desire, to the detriment of mankind.",
+  "text": "Thought has interfered and tried to suppress, control, and moralize about desire, to the detriment of mankind.",
   "book": "Mind is a Myth",
   "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 1990,
@@ -1794,7 +1796,7 @@
    "book-thought-is-your-enemy",
    "kind-verbatim"
   ],
-  "note": "Context: desire is a bodily, natural matter. Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy. Verification 4: Wikisource Mind is a Myth ch. I ('tried' vs 'trying' between copies).",
+  "note": "Context: desire is a bodily, natural matter. Verification: Goodreads files this under the 'Certainty' anthology, not Thought is Your Enemy. Verification 4: Wikisource Mind is a Myth ch. I ('tried' vs 'trying' between copies). Reviewed 2026-11-04: Wikisource Mind is a Myth ch. I reads \"tried to suppress\".",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
   ],
@@ -2375,8 +2377,8 @@
  {
   "id": "qab99509d",
   "text": "blind acceptance of authority, all second-hand stuff",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -2386,7 +2388,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "On beliefs; hindu-blog collection, no book given. Attribution pass: harpeony summary (secondary) places it in The Natural State. Secondary summary places it in The Natural State (section on dropping beliefs); U.G. speaking. Weak confirmation.",
+  "note": "On beliefs; hindu-blog collection, no book given. Holybooks Mind is a Myth PDF carries 'blind acceptance of authority' in a passage on beliefs; chapter not identified. Attribution pass: harpeony summary (secondary) places it in The Natural State. Secondary summary places it in The Natural State (section on dropping beliefs); U.G. speaking. Weak confirmation.",
   "sources": [
    "https://www.hindu-blog.com/2018/09/u-g-krishnamurti-quotes-and-teachings.html"
   ],
@@ -2605,7 +2607,7 @@
   "id": "qbd6fe67c",
   "text": "What you are afraid of is not death.",
   "book": "No Way Out",
-  "chapter": null,
+  "chapter": "Ch. 6",
   "year": 1991,
   "confidence": "S",
   "kind": "verbatim",
@@ -2615,7 +2617,7 @@
    "book-no-way-out",
    "kind-verbatim"
   ],
-  "note": "Same passage as the 'body cannot be afraid of death' line.",
+  "note": "Same passage as the 'body cannot be afraid of death' line. Wikisource No Way Out/Chapter 6; well.com nwo6.htm.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212984"
   ],
@@ -2628,7 +2630,8 @@
    "https://www.goodreads.com/quotes/8510744-the-body-cannot-be-afraid-of-death-the-movement-that",
    "https://quotessayings.net/topics/krishnamurti-death/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qde931de1",
@@ -2794,11 +2797,10 @@
   ],
   "verdict": "disputed",
   "confirming_sources": [
-   "https://www.emperyquotes.com/authors/ug-krishnamurti",
-   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_4"
   ],
   "wording_variants": [
-   "Thinking about and struggling against \"sorrow\" is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer. There is no way out, no escape."
+   "But there seems to be no way out. (No Way Out ch. 4)"
   ],
   "corrected": true
  },
@@ -2989,7 +2991,7 @@
   "id": "q8891a8e5",
   "text": "There seems to be no way out.",
   "book": "No Way Out",
-  "chapter": null,
+  "chapter": "Ch. 4 You Invent Your Reality",
   "year": 1997,
   "confidence": "S",
   "kind": "verbatim",
@@ -2999,7 +3001,7 @@
    "book-the-courage-to-stand-alone",
    "kind-verbatim"
   ],
-  "note": "Closing line of a passage quoted on praveennv.blogspot, whose tagline is this line. Verification: Wikiquote files it under No Way Out, not Courage to Stand Alone.",
+  "note": "Closing line of a passage quoted on praveennv.blogspot, whose tagline is this line. Verification: Wikiquote files it under No Way Out, not Courage to Stand Alone. Wikisource No Way Out/Chapter 4 and well.com nwo4.htm; also recurs in Mind is a Myth ch. VI.",
   "sources": [
    "http://praveennv.blogspot.com/"
   ],
@@ -3021,7 +3023,7 @@
   "id": "q9fd58abe",
   "text": "You cannot look at your thought, because you cannot separate yourself from thought.",
   "book": "The Courage to Stand Alone",
-  "chapter": null,
+  "chapter": "Pt. I",
   "year": 1997,
   "confidence": "T",
   "kind": "paraphrase",
@@ -3031,7 +3033,7 @@
    "book-the-courage-to-stand-alone",
    "kind-paraphrase"
   ],
-  "note": "Paraphrase of a CTSA excerpt on praveennv.blogspot.",
+  "note": "Paraphrase of a CTSA excerpt on praveennv.blogspot. Wikisource Courage_to_Stand_Alone; well.com courage.html (Pt. I).",
   "sources": [
    "http://praveennv.blogspot.com/2008/03/ug-krishnamurti-on-thoughts.html"
   ],
@@ -3046,7 +3048,8 @@
   ],
   "wording_variants": [
    "Blog: 'So you cannot actually separate yourself from thought and look at it.'"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q72c0b555",
@@ -3152,7 +3155,7 @@
   "id": "q1c893a18",
   "text": "Thinking about and struggling against 'sorrow' is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer.",
   "book": "Mind is a Myth",
-  "chapter": null,
+  "chapter": "Ch. I The Certainty That Blasts Everything",
   "year": 1988,
   "confidence": "S",
   "kind": "verbatim",
@@ -3163,7 +3166,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Wikisource Mind is a Myth/I; well.com chapter1.html.",
   "sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
@@ -3175,7 +3178,8 @@
   "confirming_sources": [
    "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qf0b3cb2e",
@@ -3212,7 +3216,7 @@
   "id": "qe27976db",
   "text": "You hook up each thought with the next, creating a false continuity. It is that continuity that is the problem.",
   "book": "Mind is a Myth",
-  "chapter": null,
+  "chapter": "Ch. III",
   "year": 1988,
   "confidence": "S",
   "kind": "verbatim",
@@ -3222,7 +3226,7 @@
    "book-mind-is-a-myth",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Wikisource Mind is a Myth/III; well.com chapter3.html.",
   "sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
@@ -3234,7 +3238,8 @@
   "confirming_sources": [
    "https://www.goodreads.com/work/quotes/52202-mind-is-a-myth"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q044d9da9",
@@ -3467,8 +3472,8 @@
  {
   "id": "q6f33cc13",
   "text": "the same old nonsense repeating itself",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "Mind is a Myth",
+  "chapter": "Ch. III",
   "year": 2005,
   "confidence": "S",
   "kind": "fragment",
@@ -3478,7 +3483,7 @@
    "book-the-natural-state",
    "kind-fragment"
   ],
-  "note": "Fragment, on memory.",
+  "note": "Fragment, on memory. Wikisource Mind is a Myth/III and well.com chapter3.html: 'Memory is nothing more than the same old nonsense repeating itself.'",
   "sources": [
    "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
   ],
@@ -3490,7 +3495,8 @@
   "confirming_sources": [
    "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q05850b19",
@@ -3727,8 +3733,8 @@
  {
   "id": "q241d3a5e",
   "text": "as long as you depend upon somebody for solving your problems, so long you remain helpless",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "Thought is Your Enemy",
+  "chapter": "",
   "year": null,
   "confidence": "S",
   "kind": "fragment",
@@ -3739,7 +3745,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Wikisource Thought_is_Your_Enemy and holybooks PDF; chapter not identified.",
   "sources": [
    "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
   ],
@@ -3751,7 +3757,8 @@
   "confirming_sources": [
    "http://praveennv.blogspot.com/2016/03/ug-krishnamurtis-quote-on-true-guru.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qb3256f66",
@@ -4262,9 +4269,13 @@
    "people.well.com",
    "ugkrishnamurti.in"
   ],
-  "verdict": "not-found",
-  "confirming_sources": [],
-  "wording_variants": [],
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "wording_variants": [
+   "peddle some goodies that they can never deliver"
+  ],
   "corrected": true
  },
  {
@@ -4722,12 +4733,14 @@
   ],
   "verdict": "corroborated-secondary",
   "confirming_sources": [
-   "https://www.azquotes.com/author/17848-U_G_Krishnamurti?p=3",
-   "https://www.emperyquotes.com/authors/ug-krishnamurti",
-   "https://quotlr.com/author/ug-krishnamurti",
-   "https://www.wisefamousquotes.com/quotes-about-krishnamurti/"
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://people.well.com/user/jct/ugbio/ugbio9.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "pure and simple physical and physiological terms"
+  ]
  },
  {
   "id": "q1fb04988",
@@ -5189,12 +5202,12 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "disputed",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
    "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8"
   ],
   "wording_variants": [
-   "Wikisource No Way Out ch. 8: all relationships are built on the foundation of 'What do I get out of this relationship?'"
+   "all relationships are built on the foundation of 'What do I get out of this relationship?' It is nothing but mutual gratification."
   ],
   "corrected": true
  },
@@ -5504,17 +5517,10 @@
   ],
   "verdict": "disputed",
   "confirming_sources": [
-   "https://www.azquotes.com/quote/943427",
-   "https://www.azquotes.com/author/17848-U_G_Krishnamurti/tag/giving",
-   "https://en.wikiquote.org/wiki/Talk:U._G._Krishnamurti",
-   "https://jhana8.com/ug-krishnamurti-quotes/",
-   "https://myquotes.co/authors/16500/",
-   "https://www.emperyquotes.com/authors/ug-krishnamurti"
+   "https://new.keyhero.com/online-typing-test/16052"
   ],
   "wording_variants": [
-   "Wikiquote Talk: '...first you steal what belongs to everyone; then you use the policeman and the atom bomb to protect it.'",
-   "AZQuotes: protection is 'the law and various other means'",
-   "Common tail: 'You give charity to prevent the have-nots from rebelling against you. It also makes you feel less guilty.'"
+   "Charity is the filthiest invention of the human mind: first you take, then defend it with law and other means (keyhero summary)"
   ],
   "corrected": true
  },
@@ -5522,7 +5528,7 @@
   "id": "q190abbe4",
   "text": "The belief in reincarnation will only help us to look the other side.",
   "book": "Thought is Your Enemy",
-  "chapter": null,
+  "chapter": "Ch. 2",
   "year": 1990,
   "confidence": "S",
   "kind": "fragment",
@@ -5533,7 +5539,7 @@
    "book-thought-is-your-enemy",
    "kind-fragment"
   ],
-  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk. Reviewed 2026-11-04 (integrity pass): not found, so never quoted.",
+  "note": "Verification 2: not found on any host; all hits were Jiddu Krishnamurti pages, so this fragment carries confusion risk. Reviewed 2026-11-04 (integrity pass): not found, so never quoted. well.com enemy2.htm; Wikisource Thought_is_Your_Enemy.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called",
    "https://en.wikisource.org/wiki/Thought_is_Your_Enemy"
@@ -5543,9 +5549,15 @@
    "en.wikisource.org",
    "goodreads.com"
   ],
-  "verdict": "not-found",
-  "confirming_sources": [],
-  "wording_variants": [],
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://people.well.com/user/jct/enemy2.htm",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf"
+  ],
+  "wording_variants": [
+   "the belief in reincarnation will only help us to look the other side and not to deal with the problem"
+  ],
   "reviewed": [
    "jk-contamination"
   ],
@@ -5759,9 +5771,7 @@
    "ug-k.blogspot.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "http://ug-k.blogspot.com/2007/04/conversations-following-conversations.html"
-  ],
+  "confirming_sources": [],
   "wording_variants": []
  },
  {
@@ -5789,9 +5799,7 @@
    "en.wikisource.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Three"
-  ],
+  "confirming_sources": [],
   "wording_variants": []
  },
  {
@@ -6639,8 +6647,8 @@
  {
   "id": "qcf088078",
   "text": "in the 'natural state' the continuity of thought is absent. What is present is a disjoined series of independent interactions.",
-  "book": "The Natural State",
-  "chapter": null,
+  "book": "Science and U.G.",
+  "chapter": "",
   "year": null,
   "confidence": "S",
   "kind": "verbatim",
@@ -6650,7 +6658,7 @@
    "book-the-natural-state",
    "kind-verbatim"
   ],
-  "note": null,
+  "note": "Found on Wikisource 'Science and U.G.', likely editorial summary, not U.G.'s speech.",
   "sources": [
    "https://en.wikisource.org/wiki/The_Natural_State"
   ],
@@ -6658,12 +6666,12 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "disputed",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/The_Natural_State",
-   "https://content.e-bookshelf.de/media/reading/L-18427162-0b01407361.pdf"
+   "https://en.wikisource.org/wiki/Science_and_U.G."
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qc0edce3e",
@@ -6718,12 +6726,8 @@
    "en.wikisource.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_10"
-  ],
-  "wording_variants": [
-   "[not recovered; related lines: 'I am not anti-rational, just unrational'; 'pure science is nothing but speculation']"
-  ]
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q8017e676",
@@ -6748,9 +6752,7 @@
    "en.wikisource.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
-  ],
+  "confirming_sources": [],
   "wording_variants": []
  },
  {
@@ -6915,9 +6917,7 @@
    "kwize.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://kwize.com/en/authors/U-G-Krishnamurti/"
-  ],
+  "confirming_sources": [],
   "wording_variants": [],
   "corrected": true
  },
@@ -7004,9 +7004,7 @@
    "azquotes.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_9"
-  ],
+  "confirming_sources": [],
   "wording_variants": [],
   "corrected": true
  },
@@ -7034,9 +7032,7 @@
    "inner-quest.org"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://www.inner-quest.org/UG_Words.htm"
-  ],
+  "confirming_sources": [],
   "wording_variants": [],
   "corrected": true
  },
@@ -7202,15 +7198,12 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV",
-   "https://nomindsland.blogspot.com/2016/03/u-g-krishnamurti-nothing-to-understand.html"
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/V",
+   "https://people.well.com/user/jct/chapter5.html"
   ],
-  "wording_variants": [
-   "[closest found] the understanding that there is nothing to understand, nothing to get, dawned on me (nomindsland blog transcript)",
-   "the truth has to dawn upon you that there is nothing to understand (Mind is a Myth ch. IV)"
-  ]
+  "wording_variants": []
  },
  {
   "id": "q03c8d952",
@@ -7633,7 +7626,7 @@
   "id": "q670510be",
   "text": "man has created religion because it gives him a cover",
   "book": "No Way Out",
-  "chapter": null,
+  "chapter": "Ch. 6",
   "year": 1991,
   "confidence": "T",
   "kind": "fragment",
@@ -7642,7 +7635,7 @@
    "book-no-way-out",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Wikisource No Way Out/Chapter 6; well.com nwo6.htm.",
   "sources": [
    "https://www.goodreads.com/work/quotes/6212984-no-way-out-dialogues-with-krishnamurti"
   ],
@@ -7650,11 +7643,13 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://www.goodreads.com/author/quotes/30268.U_G_Krishnamurti"
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q2d12cceb",
@@ -7996,7 +7991,9 @@
    "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
    "https://people.well.com/user/jct/mystiq1.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "I have done so much sadhana, seven years of sadhana"
+  ]
  },
  {
   "id": "qb0c876bc",
@@ -8118,11 +8115,14 @@
   "source_hosts": [
    "en.wikisource.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
    "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV"
   ],
-  "wording_variants": []
+  "wording_variants": [
+   "There is no such thing as selflessness at all.",
+   "The answer to selfishness lies in selfishness, not a fictitious opposite called selflessness."
+  ]
  },
  {
   "id": "q4f2c81d1",
@@ -8191,8 +8191,8 @@
  {
   "id": "qc852ca7b",
   "text": "happiness without one moment of unhappiness, pleasure without pain, it is the same thing",
-  "book": "unassigned",
-  "chapter": null,
+  "book": "No Way Out",
+  "chapter": "Ch. 6 (probable)",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -8204,7 +8204,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Said of moksha/liberation/transformation.",
+  "note": "Said of moksha/liberation/transformation. Wikisource No Way Out/Chapter 6 and well.com nwo6.htm were the top hits.",
   "sources": [
    "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-on-happiness_19.html"
   ],
@@ -8214,14 +8214,12 @@
   ],
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_2",
-   "https://quotepark.com/quotes/1932699-ug-krishnamurti-whether-you-are-interested-in-moksha-liberation/",
-   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
-   "http://praveennv.blogspot.com/2007/10/ug-krishnamurti-quotes.html"
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm",
+   "https://people.well.com/user/jct/ugbio/ugbconv.htm"
   ],
-  "wording_variants": [
-   "Whether you are interested in moksha, liberation, freedom, transformation, you name it, you are interested in happiness without one moment of unhappiness, pleasure without pain. It is the same thing."
-  ]
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qfc5867cf",
@@ -8244,12 +8242,13 @@
   "source_hosts": [
    "inner-quest.org"
   ],
-  "verdict": "single-source",
+  "verdict": "corroborated-primary",
   "confirming_sources": [
+   "https://people.well.com/user/jct/Talk.htm",
    "https://www.inner-quest.org/UG_Natural_State.htm"
   ],
   "wording_variants": [
-   "Q: What is the secret of total happiness? U.G.: There is no happiness. ... Total happiness is an invention."
+   "There is no happiness. Total happiness is an invention."
   ],
   "reviewed": [
    "very-short"
@@ -8347,12 +8346,8 @@
   "source_hosts": [
    "kwize.com"
   ],
-  "verdict": "single-source",
-  "confirming_sources": [
-   "https://kwize.com/en/texts/U-G-Krishnamurti-Science-and-U-G/",
-   "https://en.wikisource.org/wiki/Science_and_U.G.",
-   "https://people.well.com/user/jct/reddi.htm"
-  ],
+  "verdict": "disputed",
+  "confirming_sources": [],
   "wording_variants": []
  },
  {
@@ -9105,9 +9100,13 @@
   "source_hosts": [
    "people.well.com"
   ],
-  "verdict": "not-found",
-  "confirming_sources": [],
-  "wording_variants": []
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SOT/SOT_Part_1.htm"
+  ],
+  "wording_variants": [
+   "You really don't know what it is. You've been taught that it is green."
+  ]
  },
  {
   "id": "q95504a40",
@@ -9225,9 +9224,7 @@
    "realitysandwich.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://realitysandwich.com/introduction_u_g_krishnamurti/"
-  ],
+  "confirming_sources": [],
   "wording_variants": []
  },
  {
@@ -9386,9 +9383,7 @@
   ],
   "verdict": "disputed",
   "confirming_sources": [
-   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
-   "https://libquotes.com/u-g-krishnamurti/quote/lby6y0i",
-   "https://quotepark.com/authors/ug-krishnamurti/culture/"
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
   ],
   "wording_variants": [],
   "corrected": true
@@ -9415,13 +9410,9 @@
    "people.well.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://people.well.com/user/jct/sage4.htm",
-   "https://www.inner-quest.org/UG_Natural_State.htm"
-  ],
+  "confirming_sources": [],
   "wording_variants": [
-   "[inner-quest interview parallel] For all practical purposes, I don't think I ever feel happy at all. That's why I don't even know what happiness is. Therefore I can never be unhappy either.",
-   "If you do not know what happiness is, you will never be unhappy. (No Way Out)"
+   "If you do not know what happiness is you will never be unhappy. (other compilations)"
   ]
  },
  {

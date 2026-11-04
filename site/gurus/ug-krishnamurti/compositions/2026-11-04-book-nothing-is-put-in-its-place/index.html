@@ -1,0 +1,247 @@
+<title>Nothing Is Put in Its Place · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>Nothing Is Put in Its Place</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Book with chapters</span><span class="note">thought, the body, the self</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-04-book-nothing-is-put-in-its-place.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><p><em>U.G. Krishnamurti on thought, the body and the self</em></p>
+<h2>Contents</h2>
+<p>1. The Calamity 2. The Search That Chokes 3. Thought Is You 4. A Mechanism That Protects Itself 5. No One There 6. The Body Goes On Alone 7. What Society Made of Us 8. Don&#x27;t Follow Me</p>
+<h2>Preface</h2>
+<p>Uppaluri Gopala Krishnamurti was born in 1918 in Masulipatnam, in what is now Andhra Pradesh, and was raised by a grandfather devoted to the Theosophical Society. He spent his youth inside the religious life of his time. He practised, studied, lectured, met teachers, and came away from all of it with the sense that none of them had what they promised. In 1967, at the age of forty-nine, in Saanen in Switzerland, something happened to him that he never called enlightenment. He called it the <em>calamity</em>. For about a week his body went through changes he described in physical detail, and afterwards he lived in what he named <em>the natural state</em>, a functioning of the senses and the organism without a centre that interprets.</p>
+<p>He spent the forty years that followed talking with whoever came to see him, in living rooms and kitchens, in India, Europe, America and Australia. He kept no organisation, gave no method, accepted no disciples, and said again and again that his state could not be passed on, imitated or reached. He released his words from copyright, which is why a book like this one can be made almost entirely of them. He died in 2007 in Vallecrosia, in Italy.</p>
+<p>This book gathers what he said about thought, the body and the self. It does not try to make him gentle. He held that thought is a self-protective mechanism and the very thing that creates the self it protects. He held that the body is intelligent and needs nothing from religion or philosophy. He held that the search for liberation is the obstacle to the state it imagines. He refused to be a guru, and he meant it.</p>
+<p>Every passage set apart as a quotation is reproduced exactly from the archive, with any cut marked by an ellipsis, and each carries its source. The chapter openings and closing lines are mine, offered only as a way into his words. Where my sentences and his seem to disagree, his are the ones to trust.</p>
+<h2>1. The Calamity</h2>
+<p>In 1967 something happened in U.G.&#x27;s body that he refused to dress in spiritual language. He described it as a death, a set of physical changes, a breakdown of the way experience had always been put together. He chose the word calamity on purpose, to keep it away from every story of bliss.</p>
+<blockquote><p>I call these events a calamity because from the point of view of one who thinks this is something fantastic, blissful, full of love, ecstasy and all that kind of a thing, this is physical torture.</p></blockquote>
+<p>The Mystique of Enlightenment, Part One</p>
+<blockquote><p>This state is a physical condition of your being. It is not some kind of psychological mutation.</p></blockquote>
+<p>The Mystique of Enlightenment</p>
+<blockquote><p>the hands and feet become cold, the body becomes stiff, the heartbeat slows down</p></blockquote>
+<p>The Natural State</p>
+<blockquote><p>My body had gone away and it has never come back. The points of contact are all that is there for the body.</p></blockquote>
+<p>The Natural State</p>
+<blockquote><p>Anything you touch is always translated as hard, soft, warm, cold, wet, dry and so on.</p></blockquote>
+<p>The Mystique of Enlightenment, Part Two</p>
+<blockquote><p>There is no such thing as experience here. …</p></blockquote>
+<p>The Mystique of Enlightenment</p>
+<p><em>What he lived through was not a reward, and he never offered it as one.</em></p>
+<h2>2. The Search That Chokes</h2>
+<p>U.G. did not deny that people suffer or that they long for something else. He denied that the longing leads anywhere. Every spiritual goal, in his account, is a version of the wish for permanent happiness, and the effort to reach it feeds the very self it hopes to end.</p>
+<blockquote><p>I have had to search and it is the search itself which has been choking me and keeping me out of my natural state.</p></blockquote>
+<p>Mind is a Myth</p>
+<blockquote><p>transformation, moksha, and all that stuff are just variations of the same theme: permanent happiness</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>There is no moksha, no jivanmukti and no atman. And there is no such thing as self-realization.</p></blockquote>
+<p>Stopped in Our Tracks</p>
+<blockquote><p>there is no self to realize</p></blockquote>
+<p>The Mystique of Enlightenment, Part One</p>
+<blockquote><p>…the beyond can never be experienced by you; it is when the &#x27;you&#x27; is not there.</p></blockquote>
+<p>The Mystique of Enlightenment, Part Two</p>
+<blockquote><p>everything you are doing to be at peace with yourself is what is destroying the peace that is already there.</p></blockquote>
+<p>The Courage to Stand Alone</p>
+<blockquote><p>All your experiences, all your meditations, all your prayer, all that you do, is self-centred. … whatever you do to be free from the self also is a self-centred activity … strengthening the self, adding momentum, gathering momentum, so it is taking you in the opposite direction.</p></blockquote>
+<p>Remembering U.G. (WELL memorial compilation)</p>
+<blockquote><p>…all the positive approaches that man has invented and used for centuries have not resulted in anything useful. They have not produced the results you have been promised.</p></blockquote>
+<p>The Courage to Stand Alone, Part III</p>
+<p><em>The road goes nowhere, and walking it faster only takes you further away.</em></p>
+<h2>3. Thought Is You</h2>
+<p>For U.G. there is no thinker behind thought. There is only thought, which is memory, which is the past applied to a present it can never catch. What we call reality, truth, time and space are, in his view, things thought has built and then mistaken for the world.</p>
+<blockquote><p>Thought is you.</p></blockquote>
+<p>Stopped in Our Tracks, Book Two</p>
+<blockquote><p>all we can know is memory and memory is thought</p></blockquote>
+<p>The Natural State</p>
+<blockquote><p>It [thought] is a mechanical thing and can solve only mechanical problems. But you want to use it to understand something living, and that is the problem.</p></blockquote>
+<p>Stopped in Our Tracks, Book Two</p>
+<blockquote><p>Thought can never capture the movement of life, it is much too slow. It is like lightning and thunder. They occur simultaneously, but sound, traveling slower than light, reaches you later, creating the illusion of two separate events.</p></blockquote>
+<p>Mind is a Myth, Ch. 3 Not Knowing Is Your Natural State</p>
+<blockquote><p>We have invented reality. Otherwise you have no way of experiencing the reality of anything.</p></blockquote>
+<p>No Way Out, Ch. 4 You Invent Your Reality</p>
+<blockquote><p>Time and space, apart from the ideas of &#x27;time&#x27; and &#x27;space&#x27;, do not exist at all.</p></blockquote>
+<p>Mind is a Myth</p>
+<blockquote><p>There is no such thing as truth. The only thing that is actually there is your &quot;logically&quot; ascertained premise, which you call &quot;truth.&quot;</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>You think when you don&#x27;t want to do anything. Thinking is a poor alternative to acting. Your thinking is consuming all your energy. Act, don&#x27;t think!</p></blockquote>
+<p>A Taste of Death</p>
+<p><em>Whatever you take yourself to be, he says, is made of the same material as your thoughts.</em></p>
+<h2>4. A Mechanism That Protects Itself</h2>
+<p>Here U.G. is at his most severe. Thought, he says, exists to protect its own continuity, and everything it produces carries that purpose inside it. Fear is born with it. Violence is part of it. Sorrow lasts exactly as long as the thinking about sorrow.</p>
+<blockquote><p>…everything you stand for, believe in, experience and aspire to is the result of thought. And thought is destructive because it is nothing more than a protective mechanism.</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>nothing more than a protective mechanism, programmed to protect its own interests at all costs</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>the very birth of thought creates fear</p></blockquote>
+<p>Mind is a Myth, Ch. V We Have Created This Jungle Society</p>
+<blockquote><p>the fear of losing what we have and what we know</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>…thought is violent. Anything that is born out of thought is destructive.</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>That is to say, all that is born out of thought is destructive, irrespective of its nature, whether it be religious, scientific or political.</p></blockquote>
+<p>Science and U.G.</p>
+<blockquote><p>It (thinking) does not put an end to sorrow.</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>Your thinking endlessly about being free from sorrow is only more material for sorrow.</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>Sorrow is there for you as long as you think. There is actually no sorrow there to be free from.</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>The demand to be prepared for all future actions and all situations is the cause of our problems. Every situation is so different…</p></blockquote>
+<p>Thought is Your Enemy</p>
+<p><em>The guard and the thing it guards turn out to be one and the same.</em></p>
+<h2>5. No One There</h2>
+<p>If thought is the self, then the self has no existence apart from the thinking that keeps it going. U.G. took this all the way. There is no person inside, no private mind, no individual at the centre of experience. What remains when the continuity breaks is not a better self but no self at all.</p>
+<blockquote><p>there is no entity called &#x27;self&#x27; independent of the thought process</p></blockquote>
+<p>No Way Out, Ch. 1 The Unrational Philosophy of U.G. Krishnamurti</p>
+<blockquote><p>You are not a &quot;person&quot;, not a &quot;thing&quot;, not a discrete entity surrounded by &quot;other&quot; things.</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>…the constant use of thought to give continuity to your separate self.</p></blockquote>
+<p>Mind is a Myth</p>
+<blockquote><p>What you call &#x27;yourself&#x27; is fear. The &#x27;you&#x27; is born out of fear; it lives in fear, functions in fear and dies in fear.</p></blockquote>
+<p>No Way Out</p>
+<blockquote><p>There is no such thing as your mind and my mind. … mind is everywhere, sort of like the air we breathe.</p></blockquote>
+<p>Mind is a Myth, IV</p>
+<blockquote><p>there is no individual there at all</p></blockquote>
+<p>The Natural State</p>
+<blockquote><p>Charity is selfishness.</p></blockquote>
+<p>Stopped in Our Tracks, Book Two</p>
+<p><em>Even the kindness of the self, he insists, is still the self at work.</em></p>
+<h2>6. The Body Goes On Alone</h2>
+<p>Against thought U.G. set the living organism. The body, for him, is intelligent, self-sufficient and wholly indifferent to spiritual ideas. It needs food, clothing and shelter. It does not fear death, because it does not die in the way the self imagines dying. It has been functioning all along without our help.</p>
+<blockquote><p>…this is the way you, stripped of the machinations of thought, are also functioning.</p></blockquote>
+<p>The Biology of Enlightenment</p>
+<blockquote><p>What is there is only the body. It is actually a computer, but we are not ready to accept it.</p></blockquote>
+<p>Thinking Allowed interview with Jeffrey Mishlove, Mind As a Myth</p>
+<blockquote><p>The body does not exist except as a thought.</p></blockquote>
+<p>Mind is a Myth</p>
+<blockquote><p>The body or organism is not interested in spiritual matters.</p></blockquote>
+<p>Science and U.G.</p>
+<blockquote><p>Each cell of a living organism cooperates with the cell next to it. … The cells stick together not out of brotherhood, love and that kind of thing, but out of the urgent drive to survive.</p></blockquote>
+<p>Society, It&#x27;s terror, not love that keeps us together</p>
+<blockquote><p>Food, clothing and shelter — these are the basic needs.</p></blockquote>
+<p>Stopped in Our Tracks, Book Two</p>
+<blockquote><p>Thought always interferes with sex. It has become a pleasure movement.</p></blockquote>
+<p>No Way Out, Ch. 8 The Build-Up of Sex and Love</p>
+<blockquote><p>The pleasure of sex, for instance, is by nature temporary. The body can&#x27;t take uninterrupted pleasure for long, it would be destroyed.</p></blockquote>
+<p>No Way Out</p>
+<blockquote><p>The body cannot be afraid of death. The movement that is created by society or culture is what does not want to come to an end.</p></blockquote>
+<p>No Way Out</p>
+<blockquote><p>The body changes from one state into another as recycling of matter.</p></blockquote>
+<p>Science and U.G.</p>
+<blockquote><p>in that sense the body is immortal</p></blockquote>
+<p>Mind is a Myth, Ch. I</p>
+<p><em>The body asks for very little, and it has never once asked to be saved.</em></p>
+<h2>7. What Society Made of Us</h2>
+<p>U.G. did not separate the inner world from the outer one. The self that thought builds is the self that culture installs, and the violence of nations, religions and ideologies is the same self-protection writ large. He saw no qualitative change in human thinking and expected none.</p>
+<blockquote><p>Society or culture or whatever you might want to call it, has created us all solely and wholly for the purpose of maintaining its continuity and status quo.</p></blockquote>
+<p>Thought is Your Enemy, Ch. II Throw Away Your Crutches</p>
+<blockquote><p>no qualitative change in man&#x27;s thinking</p></blockquote>
+<p>Mind is a Myth, Ch. I The Certainty That Blasts Everything</p>
+<blockquote><p>Don&#x27;t forget that in the name of &quot;Love thy neighbor as thyself&quot; millions and millions of people have died, more than in all the recent wars put together.</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>Political institutions and ideologies are the warty outgrowth of the religious thinking of the man; in a way responsible for the tragedy of mankind.</p></blockquote>
+<p>No Way Out</p>
+<blockquote><p>You draw lines on this planet.</p></blockquote>
+<p>No Way Out, Ch. 7 What Kind of a Human Being Do You Want?</p>
+<blockquote><p>basically violent, because thought is violent</p></blockquote>
+<p>Remembering U.G. (WELL memorial compilation)</p>
+<p><em>The ideals we fight for are written by the same hand that draws the borders.</em></p>
+<h2>8. Don&#x27;t Follow Me</h2>
+<p>U.G. would not be anyone&#x27;s teacher. He dismissed every authority, his own included, and told those who came to him that nobody could give them what they wanted. What he pointed to instead was the courage to stand on one&#x27;s own, which he said cannot be developed, only uncovered when the burden of the past falls away. He spoke of his own death without any comfort at all.</p>
+<blockquote><p>Don&#x27;t follow me, I&#x27;m lost.</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>A real guru, if there is one, frees you from himself.</p></blockquote>
+<p>U.G. Krishnamurti, A Life, Ch. 2 Early Years</p>
+<blockquote><p>WHAT I HAVE FOUND, OFF AND BY MYSELF, IS THAT ALL TEACHERS RELIGIOUS, SECULAR AND THOSE SCIENTISTS AND FILTHY DOCTORS ARE WRONG</p></blockquote>
+<p>My Swan Song, opening (WELL page title)</p>
+<blockquote><p>You have to liberate yourself.</p></blockquote>
+<p>Thought is Your Enemy</p>
+<blockquote><p>You can have the courage to climb the mountain, swim the lakes, go on a raft to the other side of the Atlantic or Pacific. … The courage to be on your own, to stand on your two solid feet, is something which cannot be given by somebody. You cannot free yourself of that burden by trying to develop that courage. If you are freed from the entire burden of the entire past of mankind, then what is left there is the courage.</p></blockquote>
+<p>The Courage to Stand Alone, Nice Meeting You, and Goodbye</p>
+<blockquote><p>To be yourself requires extraordinary intelligence. You are blessed with that intelligence…</p></blockquote>
+<p>The Mystique of Enlightenment, Part One</p>
+<blockquote><p>…nature had been allowed to go on in its own way, everybody would have become a unique flower.</p></blockquote>
+<p>The Mystique of Enlightenment</p>
+<blockquote><p>If you have the courage to touch life for the first time, you will never know what hit you. Everything man has thought, felt and experienced is gone, and nothing is put in its place.</p></blockquote>
+<p>Mind is a Myth, Ch. 4 There Is Nothing To Understand</p>
+<blockquote><p>a clinical death will occur, and it is not the near-death experience of those &#x27;near death&#x27; scoundrels</p></blockquote>
+<p>My Swan Song</p>
+<p><em>He left no path behind him, and that was the whole of his gift.</em></p>
+<h2>Afterword</h2>
+<p>It is tempting to read U.G. as one more teacher of non-duality with a rougher manner. The passages here resist that reading. He did not say the self is an illusion to be seen through. He said there is nothing to see through and no one to do the seeing, and that the attempt is itself the trouble. He did not recommend his condition. He described it as torture, as a death, as something that happened to a body and could not be chosen.</p>
+<p>What remains, if one stays with him, is an unusual respect for the living organism and a refusal of every consolation offered in its name. He would likely have laughed at this book. He might also have let it be, since he gave his words away and asked nothing about what became of them.</p>
+<h2>Sources</h2>
+<p>1. q37d40528 — The Mystique of Enlightenment, Part One — corroborated-primary 2. qe646b0ed — The Mystique of Enlightenment — corroborated-primary 3. qc0edce3e — The Natural State — corroborated-primary 4. q4b30cd75 — The Natural State — corroborated-primary 5. qdc4e8ecb — The Mystique of Enlightenment, Part Two — corroborated-primary 6. qfb105fa5 — The Mystique of Enlightenment — corroborated-secondary 7. q2c9515a2 — Mind is a Myth — corroborated-secondary 8. q3b41db6a — Thought is Your Enemy — corroborated-primary 9. qd829349e — Stopped in Our Tracks — corroborated-primary 10. qd28dac6d — The Mystique of Enlightenment, Part One — corroborated-secondary 11. q39483a5d — The Mystique of Enlightenment, Part Two — corroborated-primary 12. q7fad3985 — The Courage to Stand Alone — corroborated-secondary 13. q1fb04988 — Remembering U.G. (WELL memorial compilation) — corroborated-secondary 14. q181d741b — The Courage to Stand Alone, Part III — corroborated-primary 15. q00193fb7 — Stopped in Our Tracks, Book Two — corroborated-primary 16. q6a9a1403 — The Natural State — corroborated-primary 17. q610e5087 — Stopped in Our Tracks, Book Two — corroborated-primary 18. q7a1ee58c — Mind is a Myth, Ch. 3 Not Knowing Is Your Natural State — corroborated-primary 19. q9e846fe8 — No Way Out, Ch. 4 You Invent Your Reality — corroborated-primary 20. q4c3e36cf — Mind is a Myth — corroborated-secondary 21. qd8034757 — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-secondary 22. q7f620b02 — A Taste of Death — corroborated-primary 23. q989dde8c — Thought is Your Enemy — corroborated-secondary 24. qf42bae73 — Thought is Your Enemy — corroborated-secondary 25. q4f2c81d1 — Mind is a Myth, Ch. V We Have Created This Jungle Society — corroborated-primary 26. qf69919b2 — Thought is Your Enemy — corroborated-secondary 27. q8d5e7e71 — Thought is Your Enemy — corroborated-secondary 28. q762cadb3 — Science and U.G. — corroborated-primary 29. q118b8994 — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-primary 30. q64b3e681 — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-primary 31. qd2169deb — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-secondary 32. qd1cb605c — Thought is Your Enemy — corroborated-primary 33. q1c8788f6 — No Way Out, Ch. 1 The Unrational Philosophy of U.G. Krishnamurti — primary-source 34. qcb7d8a47 — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-primary 35. q95f072f5 — Mind is a Myth — corroborated-secondary 36. qc774741b — No Way Out — corroborated-secondary 37. q6bc8c471 — Mind is a Myth, IV — corroborated-primary 38. q05850b19 — The Natural State — corroborated-secondary 39. q5e5b2970 — Stopped in Our Tracks, Book Two — corroborated-primary 40. q2384f6fc — The Biology of Enlightenment — corroborated-primary 41. q7e344096 — Thinking Allowed interview with Jeffrey Mishlove, Mind As a Myth — corroborated-secondary 42. qb4728a46 — Mind is a Myth — corroborated-secondary 43. q7f2ee6c3 — Science and U.G. — corroborated-primary 44. q0997ce6d — Society, It&#x27;s terror, not love that keeps us together — corroborated-secondary 45. q1a17d2c4 — Stopped in Our Tracks, Book Two — primary-source 46. qc70b22b1 — No Way Out, Ch. 8 The Build-Up of Sex and Love — corroborated-primary 47. q59326449 — No Way Out — corroborated-primary 48. q6fe326b5 — No Way Out — corroborated-secondary 49. qbb683516 — Science and U.G. — corroborated-primary 50. q1a68f39e — Mind is a Myth, Ch. I — corroborated-primary 51. qd42e2a22 — Thought is Your Enemy, Ch. II Throw Away Your Crutches — corroborated-secondary 52. qa96fd115 — Mind is a Myth, Ch. I The Certainty That Blasts Everything — corroborated-secondary 53. q3814bcc6 — Thought is Your Enemy — corroborated-secondary 54. qd74b2e4b — No Way Out — corroborated-secondary 55. qbc15d529 — No Way Out, Ch. 7 What Kind of a Human Being Do You Want? — corroborated-secondary 56. q1985d54c — Remembering U.G. (WELL memorial compilation) — corroborated-secondary 57. q406d4a93 — Thought is Your Enemy — corroborated-secondary 58. q45036753 — U.G. Krishnamurti, A Life, Ch. 2 Early Years — corroborated-secondary 59. q91eb04cf — My Swan Song, opening (WELL page title) — corroborated-primary 60. qd39fb8fe — Thought is Your Enemy — corroborated-primary 61. q77f34910 — The Courage to Stand Alone, Nice Meeting You, and Goodbye — corroborated-secondary 62. qbe66ba38 — The Mystique of Enlightenment, Part One — corroborated-primary 63. qde44a012 — The Mystique of Enlightenment — corroborated-secondary 64. qc94ba81d — Mind is a Myth, Ch. 4 There Is Nothing To Understand — corroborated-secondary 65. q41a1cd4e — My Swan Song — corroborated-primary</p></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

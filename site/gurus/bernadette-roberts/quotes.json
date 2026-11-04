@@ -15,7 +15,7 @@
    "book-the-experience-of-no-self",
    "kind-verbatim"
   ],
-  "note": "Cited at p.24 (SUNY ed.) by the Inner Explorations essay.",
+  "note": "Cited at p.24 (SUNY ed.) by the Inner Explorations essay. Arraj (innerexplorations) cites SUNY ed. p.24; Medium essay gives variant \"When there is no personal self, there is also no personal God.\"",
   "sources": [
    "https://www.innerexplorations.com/ewtext/br.htm"
   ],
@@ -27,7 +27,8 @@
   "confirming_sources": [
    "https://www.innerexplorations.com/ewtext/br.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q5a5cf149",
@@ -1413,7 +1414,7 @@
  {
   "id": "qf08dbd7b",
   "text": "Every child is a product of genes and environment, but this can never be the whole story of one's life.",
-  "book": "Contemplative",
+  "book": "Contemplative: Autobiography of the Early Years",
   "chapter": "Introduction",
   "year": null,
   "confidence": "T",
@@ -1426,7 +1427,7 @@
    "book-contemplative",
    "kind-paraphrase"
   ],
-  "note": "Paraphrase from search summary of the book's introduction (journey 'from birth to seventeen').",
+  "note": "Paraphrase from search summary of the book's introduction (journey 'from birth to seventeen'). Chapter supported by her blog's Introduction excerpt; the \"genes and environment\" wording itself is unverified (search-summary paraphrase).",
   "sources": [
    "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf",
    "https://www.goodreads.com/en/book/show/43069226-contemplative"
@@ -1440,7 +1441,8 @@
   "confirming_sources": [
    "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qc6f04319",
@@ -1573,7 +1575,7 @@
    "book-essays-on-the-christian-contemplative-journey",
    "kind-fragment"
   ],
-  "note": "Same stillpoint passage; see conflict note above. Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'.",
+  "note": "Same stillpoint passage; see conflict note above. Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'. Stillpoint/cyclone passage is in the Bodian interview (Goodreads, awakeningtoreality); source wording \"swirling cyclone of endless suffering\".",
   "sources": [
    "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
@@ -1673,7 +1675,7 @@
  {
   "id": "q7502014e",
   "text": "I met up with Buddhism only at the end of my journey, after the no-self experience.",
-  "book": "interview: Stephan Bodian 1986",
+  "book": "interview: Stephan Bodian, Yoga Journal Nov/Dec 1986",
   "chapter": null,
   "year": 1986,
   "confidence": "T",
@@ -1685,7 +1687,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-verbatim"
   ],
-  "note": "Surfaced verbatim in a search snippet of the reposted interview.",
+  "note": "Surfaced verbatim in a search snippet of the reposted interview. Reprinted in Timeless Visions, Healing Voices (1991); Japanese blog reproduction carries the line.",
   "sources": [
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/"
@@ -1699,7 +1701,8 @@
   "confirming_sources": [
    "https://realtruthlife.blogspot.com/p/experience-of-no-self.html"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qa8726644",
@@ -1965,8 +1968,8 @@
  {
   "id": "qdde04e58",
   "text": "It never goes outside itself to know itself because the unmanifested, the manifesting, and the manifested are One.",
-  "book": "unassigned",
-  "chapter": "How it Works",
+  "book": "The Experience of No-Self",
+  "chapter": "\"How it Works\"",
   "year": null,
   "confidence": "T",
   "kind": "verbatim",
@@ -1978,7 +1981,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "From the short essay/chapter 'How it Works' in The Experience of No-Self, as reproduced on the Western Mystics blog and read aloud in the spiritualteachers.org podcast (16 May 2021). Book chapter, not an interview.",
+  "note": "From the short essay/chapter 'How it Works' in The Experience of No-Self, as reproduced on the Western Mystics blog and read aloud in the spiritualteachers.org podcast (16 May 2021). Book chapter, not an interview. spiritualteachers.org podcast description (blubrry mirror) says the essay \"How it Works\" is from The Experience of No-Self; Western Mystics reproduces it. Wording itself not independently confirmed.",
   "sources": [
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
    "https://www.spiritualteachers.org/podcast/bernadette-roberts-on-how-it-works/"
@@ -1992,7 +1995,8 @@
   "confirming_sources": [
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q35f54d7e",
@@ -2096,7 +2100,7 @@
  {
   "id": "q336b7ef3",
   "text": "God is everything that exists, except the self",
-  "book": "unassigned",
+  "book": "Mystics, Masters, Saints and Sages (2001 sketch)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -2108,7 +2112,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Philip St. Romain reports having 'quibbled with Bernadette Roberts many times over her, \"God is everything that exists,\" with the qualifier \"except the self.\"' Compound of two quoted fragments. Verification: Phil St. Romain's compound of her sentences; the verbatim 'Truly, God is all that exists–all, of course, but the self.' is in her 2001 sketch.",
+  "note": "Philip St. Romain reports having 'quibbled with Bernadette Roberts many times over her, \"God is everything that exists,\" with the qualifier \"except the self.\"' Compound of two quoted fragments. Verification: Phil St. Romain's compound of her sentences; the verbatim 'Truly, God is all that exists–all, of course, but the self.' is in her 2001 sketch. Verbatim form \"Truly, God is all that exists–all, of course, but the self.\" per earlier verification; the given text is St. Romain's compound.",
   "sources": [
    "https://www.innerexplorations.com/ewtext/onenlight.htm",
    "https://shalomplace.com/res/psr-marion.pdf"
@@ -2780,7 +2784,9 @@
   "source_hosts": [
    "epdf.pub"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qebefbf9d",
@@ -2892,7 +2898,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q053b8a3b",
@@ -2946,7 +2954,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qe90c1adb",
@@ -3160,7 +3170,7 @@
    "book-the-real-christ",
    "kind-fragment"
   ],
-  "note": "On the students' blog summary of the book.",
+  "note": "On the students' blog summary of the book. archive.org scan of the book carries the fragment; subject may be \"the Incarnation was\" rather than \"Christ is\".",
   "sources": [
    "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
   ],
@@ -3168,7 +3178,15 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "wording_variants": [
+   "the Incarnation was God creating Its own human nature, man's one universal human nature, eternally one with Itself"
+  ],
+  "corrected": true
  },
  {
   "id": "q07dd9a3a",
@@ -3194,13 +3212,15 @@
   "source_hosts": [
    "ia601903.us.archive.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q76f6699a",
   "text": "his human nature was totally changed, transfigured and glorified",
   "book": "The Real Christ",
-  "chapter": null,
+  "chapter": "definitions of terms (front matter: \"Logos\", \"Christ\", \"Jesus\")",
   "year": 2012,
   "confidence": "T",
   "kind": "fragment",
@@ -3212,7 +3232,7 @@
    "book-the-real-christ",
    "kind-fragment"
   ],
-  "note": "On Jesus' humanity after the resurrection.",
+  "note": "On Jesus' humanity after the resurrection. Excerpted on bernadetteroberts.blogspot.com Books page in the definitions passage.",
   "sources": [
    "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf"
   ],
@@ -3220,7 +3240,13 @@
   "source_hosts": [
    "ia601903.us.archive.org"
   ],
-  "verdict": "single-source"
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qa03ba5fc",
@@ -3246,7 +3272,9 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q34adbb49",
@@ -3272,7 +3300,9 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qa231a375",
@@ -3305,8 +3335,8 @@
  {
   "id": "qa2a013c5",
   "text": "that which acts, that which it acts upon, and the act itself are one without division",
-  "book": "How it Works (short essay reproduced on Western Mystics)",
-  "chapter": null,
+  "book": "The Experience of No-Self",
+  "chapter": "\"How it Works\"",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -3318,7 +3348,7 @@
    "book-how-it-works-short-essay-reproduced-on-western-mystics",
    "kind-fragment"
   ],
-  "note": "Adjacent to 'It never goes outside itself to know itself...' (qdde04e58).",
+  "note": "Adjacent to 'It never goes outside itself to know itself...' (qdde04e58). Same essay as qdde04e58; the spiritualteachers.org podcast says the essay is from The Experience of No-Self.",
   "sources": [
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
   ],
@@ -3326,13 +3356,16 @@
   "source_hosts": [
    "westernmystics.wordpress.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qad12664b",
   "text": "there is no multiplicity of existences; only what Is has existence, an existence that can expand itself into an infinite variety of forms",
-  "book": "How it Works (short essay reproduced on Western Mystics)",
-  "chapter": null,
+  "book": "The Experience of No-Self",
+  "chapter": "\"How it Works\"",
   "year": null,
   "confidence": "T",
   "kind": "fragment",
@@ -3344,7 +3377,7 @@
    "book-how-it-works-short-essay-reproduced-on-western-mystics",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "Same essay as qdde04e58 (per spiritualteachers.org podcast description).",
   "sources": [
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
   ],
@@ -3352,7 +3385,10 @@
   "source_hosts": [
    "westernmystics.wordpress.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qb9ac41bd",
@@ -3383,8 +3419,8 @@
  {
   "id": "qbb9f8d1b",
   "text": "Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth: that ultimately, eternal life is beyond self or consciousness.",
-  "book": "Essays on the Christian Contemplative Journey",
-  "chapter": null,
+  "book": "The Christian Contemplative Journey: Essays on the Path",
+  "chapter": "unknown",
   "year": 2007,
   "confidence": "T",
   "kind": "verbatim",
@@ -3397,7 +3433,7 @@
    "book-essays-on-the-christian-contemplative-journey",
    "kind-verbatim"
   ],
-  "note": "Full sentence behind catalogue qc5b19862 (which stops at 'same truth'). Goodreads only. Reviewed 2026-11-04 (integrity pass): the same words in the Essays and in the Bodian interview.",
+  "note": "Full sentence behind catalogue qc5b19862 (which stops at 'same truth'). Goodreads only. Reviewed 2026-11-04 (integrity pass): the same words in the Essays and in the Bodian interview. Goodreads work-quotes page files it under this essays volume (Goodreads only).",
   "sources": [
    "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts"
   ],
@@ -3406,6 +3442,10 @@
    "goodreads.com"
   ],
   "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/66521494-the-christian-contemplative-journey-essays-on-the-path"
+  ],
+  "wording_variants": [],
   "same_passage_as": "qc5b19862",
   "corrected": true
  },
@@ -3500,7 +3540,9 @@
   "source_hosts": [
    "tesli.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q38827d6b",
@@ -3595,7 +3637,9 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qf93dffc2",
@@ -3701,7 +3745,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q23bf0396",
@@ -3726,7 +3772,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q35883b4d",
@@ -3752,7 +3800,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q5bf1f073",
@@ -3778,6 +3828,10 @@
    "sunypress.edu"
   ],
   "verdict": "disputed",
+  "confirming_sources": [
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self"
+  ],
+  "wording_variants": [],
   "corrected": true
  },
  {
@@ -3833,7 +3887,9 @@
   "source_hosts": [
    "dharmaoverground.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q4d0a46fa",
@@ -3859,7 +3915,9 @@
   "source_hosts": [
    "dharmaoverground.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q24ebcf72",
@@ -3897,7 +3955,7 @@
  {
   "id": "q76139afc",
   "text": "come off the top of the head",
-  "book": "unassigned",
+  "book": "talk: A Passage Through Self",
   "chapter": null,
   "year": null,
   "confidence": "S",
@@ -3910,7 +3968,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "From the talk/booklet 'A Passage Through Self', describing how words arise in the no-self state; quoted on Shalom Place.",
+  "note": "From the talk/booklet 'A Passage Through Self', describing how words arise in the no-self state; quoted on Shalom Place. Wikipedia confirms the talk exists (DVD; date given as 1987 or 2012 in different lists). The phrase itself is unconfirmed.",
   "sources": [
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148"
   ],
@@ -3918,7 +3976,10 @@
   "source_hosts": [
    "shalomplace.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qa1d5eefd",
@@ -4066,7 +4127,7 @@
    "book-what-is-self",
    "kind-paraphrase"
   ],
-  "note": "NOT Roberts: Jeff Shore's foreword, as paraphrased by the search summary. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword, not hers.",
+  "note": "NOT Roberts: Jeff Shore's foreword, as paraphrased by the search summary. Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword, not hers. Not Roberts; foreword writer's words, paraphrased.",
   "sources": [
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
   ],
@@ -4075,6 +4136,8 @@
    "everand.com"
   ],
   "verdict": "not-ug",
+  "confirming_sources": [],
+  "wording_variants": [],
   "corrected": true
  },
  {
@@ -4137,7 +4200,9 @@
   "source_hosts": [
    "perlego.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qdec4ad93",
@@ -4161,7 +4226,9 @@
   "source_hosts": [
    "perlego.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qef5dd361",
@@ -4285,7 +4352,9 @@
   "source_hosts": [
    "goodreads.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qd5f844f5",
@@ -4438,7 +4507,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qfe900dfc",
@@ -4464,7 +4535,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q6e665603",
@@ -4489,7 +4562,9 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "qd8821dc7",
@@ -4543,6 +4618,8 @@
    "awakeningtoreality.com"
   ],
   "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
   "reviewed": [
    "flagged-not-ug-or-editor"
   ],
@@ -4551,7 +4628,7 @@
  {
   "id": "q022454d5",
   "text": "universal human nature is not a numerical one among many - nor is God a numerical one among many",
-  "book": "unassigned",
+  "book": "paper: Nonduality as a Definition of Christ (SAND 2015); related: \"Christ as the Definition of 'Non-duality'\" (research paper on her blog)",
   "chapter": null,
   "year": 2015,
   "confidence": "S",
@@ -4565,7 +4642,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "From her 2015 SAND Conference paper 'Nonduality as a Definition of Christ' (o-meditation PDF); closely related to the essay 'Christ as the Definition of Non-duality'.",
+  "note": "From her 2015 SAND Conference paper 'Nonduality as a Definition of Christ' (o-meditation PDF); closely related to the essay 'Christ as the Definition of Non-duality'. Book/chapter not confirmed by search; the blog lists the related paper.",
   "sources": [
    "https://o-meditation.com/downloadable-books/bernadette-roberts-books/non-duality-as-a-definition-of-christ-3/"
   ],
@@ -4573,7 +4650,10 @@
   "source_hosts": [
    "o-meditation.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q9a2a3189",
@@ -4599,12 +4679,14 @@
   "source_hosts": [
    "spiritualteachers.proboards.com"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": []
  },
  {
   "id": "q215e7bff",
   "text": "He thinks what I mean by No-Self is no different than what the Buddhists mean by their an-atman doctrine",
-  "book": "unassigned",
+  "book": "essay/blog post: Reply to James Arraj's comments (June 2008)",
   "chapter": null,
   "year": 2008,
   "confidence": "S",
@@ -4618,7 +4700,7 @@
    "book-unassigned",
    "kind-verbatim"
   ],
-  "note": "From her 2008 'Reply to James Arraj's comments' (blog), as quoted by a Shalom Place poster; 'He' = Jim Arraj.",
+  "note": "From her 2008 'Reply to James Arraj's comments' (blog), as quoted by a Shalom Place poster; 'He' = Jim Arraj. innerexplorations.com/ewtext/br.htm notes her June 2008 response; wording only via the Shalom Place poster.",
   "sources": [
    "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506?r=46410706"
   ],
@@ -4626,12 +4708,15 @@
   "source_hosts": [
    "shalomplace.org"
   ],
-  "verdict": "single-source"
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q36aa0c20",
   "text": "forcing the fit",
-  "book": "unassigned",
+  "book": "Forcing the Fit (self-published manuscript, 2008)",
   "chapter": null,
   "year": 2008,
   "confidence": "S",
@@ -4645,7 +4730,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Her phrase for nondualist misreadings of her paradigm; also the title of her 2008 spiral-bound manuscript 'Forcing the Fit' addressing A.H. Almaas, James Marion and Jim Arraj.",
+  "note": "Her phrase for nondualist misreadings of her paradigm; also the title of her 2008 spiral-bound manuscript 'Forcing the Fit' addressing A.H. Almaas, James Marion and Jim Arraj. Listed on her own Self-Published Works blog page.",
   "sources": [
    "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
    "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
@@ -4655,7 +4740,12 @@
    "awakeningtoreality.com",
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "multi-source",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "wording_variants": [],
   "reviewed": [
    "very-short"
   ],

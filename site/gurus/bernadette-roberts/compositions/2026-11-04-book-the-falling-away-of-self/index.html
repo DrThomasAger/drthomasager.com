@@ -1,0 +1,253 @@
+<title>The Falling Away of Self · Bernadette Roberts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+:root { --accent: #3B1E14; } @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --accent: #00B5B8; } } :root[data-theme="dark"] { --accent: #00B5B8; } :root { --display: "Cormorant", Georgia, serif; }
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">Bernadette Roberts</a> · composition</div>
+  <h1>The Falling Away of Self</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Book with chapters</span><span class="note">self and no-self</span><span class="note">2026-11-04 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/bernadette-roberts/compositions/2026-11-04-book-the-falling-away-of-self.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><p>A study guide to Bernadette Roberts on self, no-self, God and Christ</p>
+<h2>Contents</h2>
+<p>1. Where the Maps End 2. The First Movement 3. The Stillpoint and the Eye 4. The Second Movement 5. Self Is Consciousness 6. Not a Higher Self but No Self 7. Her Reading of Christ 8. Buddhist and Hindu Accounts as She Saw Them 9. A Way of Travel 10. Sources</p>
+<h2>Preface</h2>
+<p>Bernadette Roberts (1931–2017) was an American Catholic contemplative and a former Carmelite nun. She is known above all for The Experience of No-Self (1982), an account of a passage in her own life that she found missing from the Christian maps she had trusted. In later books, among them The Path to No-Self, What Is Self? and The Real Christ, she went back over that passage, set it beside the earlier unitive life, and worked out what it meant for the Christian understanding of self, God and Christ.</p>
+<p>Her teaching can be followed as two movements. In the first, the ego falls away and the self lives in union with God. In the second, the unitive self falls away too, and with it the divine centre that self had known within. What remains is not a self at all. She calls it simply <em>that</em>, and she spent the rest of her life looking at it and trying to say what it was and was not.</p>
+<p>This guide follows those two movements chapter by chapter, with a few brief passages from her books and from an interview she gave Stephan Bodian in 1986. Her words are under copyright, so the quotations are short and each is given with its source. Everything outside the quotations is commentary and should be read as such. Each chapter closes with questions for reflection, meant to be sat with rather than answered quickly.</p>
+<h2>1. Where the Maps End</h2>
+<p>Roberts began from the tradition she belonged to, and she described it accurately before she said where she parted from it. In the classical Christian account, loss of self means the death of the small, grasping self so that the soul can rest in God.</p>
+<blockquote><p>Within the traditional framework, the Christian notion of loss-of-self is generally regarded as the transformation or loss of the ego (lower self) as it attains to the higher or true self in its union with God.</p></blockquote>
+<p>The Experience of No-Self, Introduction</p>
+<p>She did not dispute this account. She had lived it. Her claim was that it describes only part of the way, and that the great writers of the tradition stopped their description at a point where the journey itself does not stop.</p>
+<blockquote><p>Our contemplative maps of the journey come to an end with the discovery of the true self and its oneness with the divine.</p></blockquote>
+<p>What Is Self?</p>
+<blockquote><p>It is only where these writers leave off that I propose to begin.</p></blockquote>
+<p>The Experience of No-Self, Introduction</p>
+<p>The sentence is modest and bold at once. She does not set herself above John of the Cross or Teresa of Ávila. She simply says that she will describe what came after the place where their accounts end, because it happened to her and she could find no one who had written it down.</p>
+<blockquote><p>Because this was the limit of my expectations, I was all the more surprised and bewildered when many years later I came upon a permanent state in which there was no self</p></blockquote>
+<p>The Experience of No-Self, Introduction</p>
+<p>Two words matter here. The state was permanent, not a passing absorption in prayer. And she was bewildered, because nothing she had read had prepared her for it.</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>What do you take to be the end of the spiritual journey, and where did that picture come from?</li><li>How might someone tell the difference between the limit of a map and the limit of the country it describes?</li></ul>
+<h2>2. The First Movement</h2>
+<p>The first movement is the one most readers of Christian mysticism will recognise. The ego, the self-centre that measures everything by its own needs, falls away, and consciousness itself is changed.</p>
+<blockquote><p>the unitive state follows the falling away or transcendence of the ego and entails a radical change or transformation of consciousness</p></blockquote>
+<p>What Is Self?</p>
+<p>Roberts never treated this as a small thing. The unitive state is the life of a self that has given up its own centre and lives from God. Yet she would not call it the summit. In The Path to No-Self, written after The Experience of No-Self though it describes the earlier years, she argued that the unitive life is itself a road.</p>
+<blockquote><p>My purpose here is to affirm that the unitive state is a hidden path in itself</p></blockquote>
+<p>The Path to No-Self, Preface</p>
+<blockquote><p>a path exists between the transcendence of the ego (self-center), which begins the unitive state, and the later falling away of all self (the true self), which ends the unitive state</p></blockquote>
+<p>The Path to No-Self</p>
+<blockquote><p>The path to no-self, then, is the egoless unitive state.</p></blockquote>
+<p>The Path to No-Self, Preface</p>
+<p>The unitive state, in her account, has a beginning and an end. It begins when the ego is transcended and it ends when the true self also falls away. Between the two lies a long maturing in which the self, now one with God, is tested in ordinary life until it no longer needs to be.</p>
+<blockquote><p>It can no longer be tested by any force or trial, nor moved by the winds of change, and at this point the self has obviously outworn its function; it is no longer needed or useful, and life can go on without it.</p></blockquote>
+<p>The Path to No-Self</p>
+<p>The phrase outworn its function is worth noticing. The self is not condemned or defeated. It has done its work and is no longer required.</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>What would it mean for a self to be no longer needed, rather than overcome?</li><li>Why might the unitive state be hidden as a path, even to those who are living it?</li></ul>
+<h2>3. The Stillpoint and the Eye</h2>
+<p>To describe the unitive centre Roberts used an image that runs through the 1986 interview, the still eye at the heart of a storm.</p>
+<blockquote><p>each person has within a &quot;stillpoint,&quot; comparable perhaps to the eye of a cyclone, a center of calm and non-movement</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>She linked this centre to the language of the Gospels.</p>
+<blockquote><p>Christ articulated the eye in more positive terms as the &quot;Kingdom of God&quot; or the &quot;Spirit within&quot;</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>At this stillpoint the self meets God, and for many contemplatives this meeting is where the inward path is complete.</p>
+<blockquote><p>once we come to the state of oneness, we can go no further with the inward journey</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>Then she turns the image. The calm centre exists only in relation to the turning around it. Take away the storm, and the centre does not remain on its own.</p>
+<blockquote><p>When there is no longer a cyclone, there is no longer an eye.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>This single sentence holds the whole difference between the two movements. In the first, the self rests in the divine centre. In the second, both the moving self and the still centre are gone.</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>Where in your own experience do you find something like a stillpoint, and what does it depend on?</li><li>Can you imagine calm without anyone who is calm?</li></ul>
+<h2>4. The Second Movement</h2>
+<p>The second movement is the heart of The Experience of No-Self. She describes it as a falling away and a coming upon.</p>
+<blockquote><p>The onset of this second movement is characterized by the falling away of self and coming upon &quot;that&quot; which remains when it is gone.</p></blockquote>
+<p>The Experience of No-Self, Introduction</p>
+<p>Her account of the moment itself is quiet and almost matter of fact. She looked for the centre she had always lived from and found nothing.</p>
+<blockquote><p>Instead of the usual unlocalized centre of myself, there was nothing there, it was empty, and at the moment of seeing this there was a flood of quiet joy.</p></blockquote>
+<p>The Experience of No-Self, Part I</p>
+<p>What fell away was not only the self. The divine centre, the place where she had known God within, went with it.</p>
+<blockquote><p>the divine center – the coin, or &quot;true self&quot; – suddenly disappeared, and without center or circumference there is no self, and no divine.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>This is the point at which many readers draw back, and Roberts did not soften it. For a woman who had given her life to God, the loss of the inner experience of God was not a consolation. It was a long and often disorienting passage.</p>
+<blockquote><p>In the absence of self, all that remained was an immovable stillness, an unbreakable, unfeeling silence.</p></blockquote>
+<p>Mystics, Masters, Saints and Sages (2001), her autobiographical sketch</p>
+<blockquote><p>This journey then, is nothing more, yet nothing less than a period of acclimating to a new way of seeing … This is not a journey for those who expect love and bliss.</p></blockquote>
+<p>The Experience of No-Self, Introduction</p>
+<p>She speaks of a new way of seeing, not a new experience. There is no one left to have an experience. There is seeing, and a slow becoming used to it.</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>Why might the loss of an inner sense of God be part of a journey toward God rather than a departure from it?</li><li>What is the difference between a new experience and a new way of seeing?</li></ul>
+<h2>5. Self Is Consciousness</h2>
+<p>Behind the second movement lies the most distinctive idea in her later writing. For Roberts, self is not one item within consciousness. Self and consciousness are the same.</p>
+<blockquote><p>the true nature of self IS consciousness</p></blockquote>
+<p>What Is Self?</p>
+<blockquote><p>self is the entire system of consciousness, from the unconscious to God-consciousness</p></blockquote>
+<p>What Is Self?</p>
+<p>She describes this system as the mind turning back on itself in order to know itself.</p>
+<blockquote><p>describing self as the mind bending on itself to know and see itself... the two together constitute the whole of self or whole of consciousness</p></blockquote>
+<p>What Is Self?, Part I</p>
+<p>It follows that the end of self cannot be the arrival of a purer or wider consciousness. It is the end of reflexive consciousness as such.</p>
+<blockquote><p>No-self, then, means no-consciousness.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<blockquote><p>There is far more to the elusive experience we call self than just the ego.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>This is why she calls self a temporary thing. It is real while it lasts and it serves a purpose, but it is not what we finally are.</p>
+<blockquote><p>Self is not our true life or our real nature; it is but a temporary mechanism</p></blockquote>
+<p>What Is Self?</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>If self and consciousness are the same, what is left over when you try to picture no-self?</li><li>How does it change the spiritual life to think of the self as a mechanism with a purpose rather than as one&#x27;s true nature?</li></ul>
+<h2>6. Not a Higher Self but No Self</h2>
+<p>Roberts was wary of any teaching that promises a better self at the end of the road. The language of transformation, she thought, quietly keeps the self in place.</p>
+<blockquote><p>The major problem with the notion of transformation is that it forever hangs on to some form of self and never lets it go.</p></blockquote>
+<p>What Is Self?</p>
+<blockquote><p>The assumption that the egoless condition, or union of self and God, is man&#x27;s final goal and ultimate destiny is a great mistake.</p></blockquote>
+<p>The Path to No-Self, Preface</p>
+<blockquote><p>the unitive state is no longer regarded as the ultimate goal but, instead, is seen as the midpoint of the passage</p></blockquote>
+<p>What Is Self?</p>
+<p>Yet she was careful not to make no-self a new goal to be chased. The ending of self is a consequence, not a prize.</p>
+<blockquote><p>loss of ego, loss of self, is just a by-product of this surrender; it is not the true goal, not an end in itself</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>The surrender she means is to God. As the self gives way, the divine is not lost but grows.</p>
+<blockquote><p>the divine increases in proportion as the self decreases or falls away</p></blockquote>
+<p>What Is Self?</p>
+<p>She also saw that the familiar distinction between a personal and an impersonal God belongs to the life of the self. Each term only has meaning relative to the other.</p>
+<blockquote><p>Without a personal, subjective self, we could not even speak of an impersonal, non-subjective God; one is just relative to the other.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>In what ways might the hope of becoming a better self keep a person from letting go?</li><li>What does it mean to call the loss of self a by-product rather than a goal?</li></ul>
+<h2>7. Her Reading of Christ</h2>
+<p>Roberts read the passage through no-self in the light of Christ. She saw his death as the pattern of what she had undergone.</p>
+<blockquote><p>As a Christian, I saw the no-self experience as the true nature of Christ&#x27;s death</p></blockquote>
+<p>Essays on the Christian Contemplative Journey</p>
+<blockquote><p>Christ was the emptiness itself</p></blockquote>
+<p>The Experience of No-Self</p>
+<p>In her last major book, The Real Christ, she set out a careful Christology. She held to the classical teaching of two natures and insisted that it must not be turned into a union of two persons.</p>
+<blockquote><p>Christ is not the oneness of two persons, two individuals or two beings (a divine being and a human being), rather, Christ is the eternal oneness of two natures, divine and human.</p></blockquote>
+<p>The Real Christ</p>
+<blockquote><p>not God uniting Itself to any particular human being or person</p></blockquote>
+<p>The Real Christ</p>
+<p>For her this mattered because the incarnation is about all of humanity, not about one exceptional individual.</p>
+<blockquote><p>if the incarnation was just about one human being&#x27;s oneness with God, it would be meaningless to the rest of mankind</p></blockquote>
+<p>The Real Christ</p>
+<p>She was equally careful with the names of God. The language of Father and Son is metaphor, and she chose her own term for the Trinity to keep this in view.</p>
+<blockquote><p>Since God is neither mother, father, son or daughter, these metaphors must not be taken literally or understood as God ad intra (God-in-Itself).</p></blockquote>
+<p>The Real Christ, Warning / front matter</p>
+<blockquote><p>this book refers to God&#x27;s Triune essence as &quot;Transcendent-Logos-Spirit&quot;</p></blockquote>
+<p>The Real Christ, front matter</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>How does reading Christ&#x27;s death as no-self change the meaning of the cross for you?</li><li>Why did she think it important that Christ is a oneness of natures rather than of persons?</li></ul>
+<h2>8. Buddhist and Hindu Accounts as She Saw Them</h2>
+<p>Roberts read widely in Buddhist and Hindu writings, looking for an account of what had happened to her. At first she did not find one.</p>
+<blockquote><p>Initially, I gave up looking for this experience in the Buddhist literature.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<blockquote><p>Four years later, however, I came across two lines attributed to Buddha describing his enlightenment experience. Referring to self as a house, he said, &quot;All thy rafters are broken now, the ridgepole is destroyed.&quot;</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>In those lines she recognised her own passage, and she came to see the Buddha and Christ as witnesses to one truth.</p>
+<blockquote><p>Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>At the same time she judged that much that is written under the name of no-self describes something earlier on the way.</p>
+<blockquote><p>Unfortunately, what most Buddhist authors define as the no-self experience is actually the no-ego experience.</p></blockquote>
+<p>What Is Self?</p>
+<blockquote><p>It may be the end of the ego-self, but by no means is it the end of the self—either the true self or the phenomenal self.</p></blockquote>
+<p>What Is Self?</p>
+<p>None of the passages gathered here speaks of Hindu teaching directly, but her own principle reaches it. On her terms, an account that ends in a true or higher Self one with the divine, or in pure consciousness, would describe the unitive state, the first movement, and not the falling away of self, since for her self and consciousness are one, and a final Self of pure consciousness would still be a self. She said as much of every claim to a final nondual state.</p>
+<blockquote><p>With or without self, there is no state in the journey truly &#x27;nondual,&#x27; neither in our earthly journey nor in heaven</p></blockquote>
+<p>Essays on the Christian Contemplative Journey</p>
+<p>She held these judgments with respect. She thought the Buddhist path asked more of its travellers in one way, since it does without a personal God.</p>
+<blockquote><p>As I see it, without a personal God, the Buddhist must have a much stronger faith in the &quot;unconditioned and unbegotten&quot;.</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>How might two traditions use the same word for different stages of the same journey?</li><li>What does she mean when she says that the Buddhist path asks for a stronger faith?</li></ul>
+<h2>9. A Way of Travel</h2>
+<p>Roberts did not want her account turned into a ladder of stages to be climbed. She took the old names of the contemplative path as descriptions of how one travels, not as rungs.</p>
+<blockquote><p>the terms &quot;purgative&quot;, &quot;illuminative&quot;, and &quot;unitive&quot; (often used of the contemplative path) do not refer to discrete stages, but to a way of travel</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<blockquote><p>I don&#x27;t think we should get locked into any stage theory</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>Every map, including hers, is one person looking back.</p>
+<blockquote><p>it is always someone else&#x27;s retrospective view of his or her own journey, which may not include our own experiences or insights</p></blockquote>
+<p>Interview with Stephan Bodian, 1986</p>
+<p>What she offers in the end is not a technique but a witness. She speaks of silence as the deepest communion with God, and of a life that goes on simply when the self is no longer there to watch it.</p>
+<blockquote><p>The truest communication with God is absolute, total silence; there is not a single word in existence that can convey this communication.</p></blockquote>
+<p>The Path to No-Self</p>
+<blockquote><p>As the river flows, from out of the formless void arises the greatest of great realities, a simple smile.</p></blockquote>
+<p>The Experience of No-Self</p>
+<p><strong>Questions for reflection</strong></p>
+<ul><li>How might holding a map lightly help someone who finds that their path does not match it?</li><li>What could a simple smile mean as the last word of a book about the loss of self?</li></ul>
+<h2>10. Sources</h2>
+<p>Each quotation is listed with its id, its source, and its verification status.</p>
+<ul><li>q230710f7, The Experience of No-Self, Introduction, corroborated-primary</li><li>qf3f06c8c, What Is Self?, corroborated-primary</li><li>q45cc28ad, The Experience of No-Self, Introduction, corroborated-primary</li><li>q06b448b2, The Experience of No-Self, Introduction, multi-source</li><li>qe90c1adb, What Is Self?, primary-source</li><li>q78be2fac, The Path to No-Self, Preface, corroborated-primary</li><li>qf4d4dd93, The Path to No-Self, multi-source</li><li>q189739e1, The Path to No-Self, Preface, multi-source</li><li>q2b325f22, The Path to No-Self, multi-source</li><li>q885f4c3e, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>q8968c165, Interview with Stephan Bodian, 1986, multi-source</li><li>q93deb8f9, Interview with Stephan Bodian, 1986, multi-source</li><li>qfd33296f, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>qa6a54e9d, The Experience of No-Self, Introduction, corroborated-secondary</li><li>q066e6835, The Experience of No-Self, Part I, corroborated-primary</li><li>q147cc879, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>q5ed0c359, Mystics, Masters, Saints and Sages (2001), her autobiographical sketch, corroborated-secondary</li><li>qfaaff1e3, The Experience of No-Self, Introduction, multi-source</li><li>qdffeb96d, What Is Self?, corroborated-primary</li><li>qd8821dc7, What Is Self?, primary-source</li><li>q00062066, What Is Self?, Part I, corroborated-primary</li><li>q825facb8, Interview with Stephan Bodian, 1986, multi-source</li><li>qd5f844f5, Interview with Stephan Bodian, 1986, multi-source</li><li>qe5c7c65f, What Is Self?, corroborated-primary</li><li>qfc9565bd, What Is Self?, corroborated-secondary</li><li>q19a3d246, The Path to No-Self, Preface, corroborated-primary</li><li>qd5f1bcc1, What Is Self?, primary-source</li><li>q8cae5ac0, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>q91b0441a, What Is Self?, corroborated-secondary</li><li>qd2978849, Interview with Stephan Bodian, 1986, multi-source</li><li>qa96340fd, Essays on the Christian Contemplative Journey, corroborated-secondary</li><li>q61fe2ed4, The Experience of No-Self, corroborated-secondary</li><li>qd7225a8e, The Real Christ, multi-source</li><li>q008ac23e, The Real Christ, corroborated-primary</li><li>qaacfa0c0, The Real Christ, multi-source</li><li>q9f3db5d3, The Real Christ, Warning / front matter, multi-source</li><li>q59a6748c, The Real Christ, front matter, primary-source</li><li>qc464e660, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>qa8726644, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>qc5b19862, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>qe87885fb, What Is Self?, primary-source</li><li>qda52d28f, What Is Self?, primary-source</li><li>qc6f04319, Essays on the Christian Contemplative Journey, corroborated-secondary</li><li>qe602ab0d, Interview with Stephan Bodian, 1986, multi-source</li><li>q47c6e999, Interview with Stephan Bodian, 1986, multi-source</li><li>qca48c952, Interview with Stephan Bodian, 1986, corroborated-secondary</li><li>qcee0d462, Interview with Stephan Bodian, 1986, multi-source</li><li>q9d30b69a, The Path to No-Self, corroborated-secondary</li><li>qebefbf9d, The Experience of No-Self, multi-source</li></ul></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

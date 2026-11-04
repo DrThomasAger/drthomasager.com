@@ -1,0 +1,108 @@
+[
+ {
+  "id": "i2a352d35",
+  "medium": "audio",
+  "title": "Andy LeSavage 'Krishnamurti' podcast (2018–19)",
+  "date": "2018",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Andy LeSavage"
+  ],
+  "format": "podcast (Apple Podcasts)",
+  "language": "English",
+  "duration": null,
+  "host": "podcasts.apple.com",
+  "url": "https://podcasts.apple.com/us/podcast/krishnamurti/id1355495170",
+  "description": "Short-episode podcast 2018–19 titled 'Krishnamurti'; unclear whether about U.G. or J. Krishnamurti. [Checked: JIDDU, NOT U.G.: Apple listing describes Andy LeSavage's 'Krishnamurti' podcast as short excerpts and musings on Jiddu Krishnamurti's book Total Freedom; 15 episodes 2018-2019, ep. 1 'The Dissolution of the Order of the Star' (19 Mar 2018). Exclude.] [Checked: Reviewed 2026-11-04: not U.G.]",
+  "tags": [
+   "podcast",
+   "apple-podcasts",
+   "2010s",
+   "uncertain-subject",
+   "audio",
+   "2018",
+   "person-lesavage",
+   "host-podcasts-apple-com",
+   "format-podcast",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://podcasts.apple.com/us/podcast/krishnamurti/id1355495170",
+   "https://podcasts.apple.com/podcast/id1355495170"
+  ],
+  "origin": "audio",
+  "drop": "about Jiddu Krishnamurti's Total Freedom, not U.G."
+ },
+ {
+  "id": "i4e9d8f43",
+  "medium": "image",
+  "title": "Swissinfo feature on Krishnamurti Swiss gatherings (mixed J.K./U.G., Gstaad)",
+  "date": null,
+  "year": null,
+  "place": "Gstaad, Switzerland",
+  "people": [],
+  "format": "gallery page",
+  "language": "English",
+  "duration": null,
+  "host": "swissinfo.ch",
+  "url": "https://www.swissinfo.ch/eng/society/krishnamurti-the-philosopher-and-his-swiss-gatherings/47286678",
+  "description": "Swissinfo feature on the Saanen/Gstaad gatherings; mixed Jiddu/U.G. context. [Checked: JIDDU, NOT U.G.: Swissinfo 'Krishnamurti: the philosopher and his Swiss gatherings' covers J. Krishnamurti's Saanen gatherings (1961-1985); snippet shows no U.G. content. French version also exists.] [Checked: Reviewed 2026-11-04: not U.G.]",
+  "tags": [
+   "press",
+   "gstaad",
+   "saanen",
+   "mixed-jk",
+   "image",
+   "host-swissinfo-ch",
+   "format-gallery-page",
+   "lang-english",
+   "place-gstaad",
+   "place-saanen",
+   "place-switzerland",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.swissinfo.ch/eng/society/krishnamurti-the-philosopher-and-his-swiss-gatherings/47286678",
+   "https://www.swissinfo.ch/eng/krishnamurti--the-philosopher-and-his-swiss-gatherings/47286678"
+  ],
+  "origin": "images",
+  "drop": "Swissinfo covers Jiddu Krishnamurti's Saanen gatherings, not U.G."
+ },
+ {
+  "id": "i1eda37c0",
+  "medium": "image",
+  "title": "GAP: Gulf News 'Goodbye my love' (obituary photos)",
+  "date": null,
+  "year": 2007,
+  "place": null,
+  "people": [],
+  "format": "photograph",
+  "language": "English",
+  "duration": null,
+  "host": "gulfnews.com",
+  "url": "https://gulfnews.com/amp/story/lifestyle%2Fgoodbye-my-love-1.255609",
+  "description": "Press piece possibly carrying obituary photographs; not examined. [Checked: Reviewed 2026-11-04: not U.G.]",
+  "tags": [
+   "gap",
+   "press",
+   "obituary",
+   "2007",
+   "image",
+   "2000s",
+   "host-gulfnews-com",
+   "format-photograph",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://gulfnews.com/amp/story/lifestyle%2Fgoodbye-my-love-1.255609"
+  ],
+  "origin": "images",
+  "drop": "Mahesh Bhatt on Parveen Babi, not about U.G. (see i120752ab)"
+ }
+]

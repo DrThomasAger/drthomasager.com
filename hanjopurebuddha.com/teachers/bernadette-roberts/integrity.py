@@ -150,9 +150,12 @@ for f in sorted((HERE / "compositions").glob("*.md")) if (HERE / "compositions")
     ids = re.findall(r"q[0-9a-f]{8}", (re.search(r"^quotes:(.*)$", fm, re.M) or [None, ""])[1])
     ov = re.search(r"^overrides:\s*(\{.*\})\s*$", fm, re.M)
     pool = [norm(x) for i in ids for x in qtext.get(i, [])] + ([norm(v) for v in json.loads(ov.group(1)).values()] if ov else [])
+    qverdict = {q["id"]: q.get("verdict") for q in quotes}
     for i in ids:
         if i not in qtext:
             issues["composition_unknown_quote_id"].append((f.name, i))
+        elif qverdict.get(i) in ("not-ug", "disputed", "not-found"):
+            issues["composition_uses_a_quote_now_ruled_out"].append((f.name, i, qverdict[i]))
     lines = [l[1:].strip() for l in body.splitlines() if l.startswith(">")]
     if re.search(r"^LYRICS\s*$", body, re.M):
         lyr = re.split(r"^LYRICS\s*$", body, flags=re.M)[1]

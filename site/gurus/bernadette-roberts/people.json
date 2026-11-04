@@ -438,37 +438,5 @@
    "https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage"
   ],
   "id": "pe9dea1a5"
- },
- {
-  "name": "Bernard McGinn",
-  "also_known_as": [],
-  "role": "scholar",
-  "relation": "no connection to Roberts found in search; listed as a negative result",
-  "dates": null,
-  "place": "Chicago",
-  "material": null,
-  "url": null,
-  "tags": [
-   "negative-result"
-  ],
-  "confidence": "T",
-  "sources": [],
-  "id": "pd10ddf42"
- },
- {
-  "name": "Jeffrey Kripal",
-  "also_known_as": [],
-  "role": "scholar",
-  "relation": "no connection to Roberts found in search; listed as a negative result",
-  "dates": null,
-  "place": "Houston",
-  "material": null,
-  "url": null,
-  "tags": [
-   "negative-result"
-  ],
-  "confidence": "T",
-  "sources": [],
-  "id": "pd94ee448"
  }
 ]
