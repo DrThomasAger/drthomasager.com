@@ -1,48 +1,48 @@
 {
  "summary": {
-  "items": 730,
+  "items": 727,
   "quotes": 282,
   "events": 84,
   "people": 87,
   "items_by_medium": {
    "archive": 95,
    "community": 66,
-   "audio": 95,
-   "image": 116,
+   "audio": 94,
+   "image": 114,
    "text": 204,
    "video": 154
   },
   "items_by_confidence": {
-   "S": 647,
-   "T": 2,
-   "lead": 81
+   "S": 659,
+   "T": 13,
+   "lead": 55
   },
   "quotes_by_confidence": {
    "S": 188,
    "T": 94
   },
   "quotes_by_verdict": {
-   "corroborated-primary": 98,
-   "corroborated-secondary": 125,
+   "corroborated-primary": 105,
+   "corroborated-secondary": 126,
    "primary-source": 5,
-   "disputed": 8,
-   "not-found": 7,
+   "disputed": 10,
+   "not-found": 4,
    "not-ug": 4,
-   "single-source": 35
+   "single-source": 28
   },
   "quotes_by_book": {
    "The Mystique of Enlightenment": 51,
-   "The Natural State": 14,
-   "No Way Out": 43,
-   "Mind is a Myth": 54,
+   "The Natural State": 11,
+   "No Way Out": 44,
+   "Mind is a Myth": 56,
    "Stopped in Our Tracks": 17,
-   "Thought is Your Enemy": 14,
+   "Thought is Your Enemy": 15,
    "The Courage to Stand Alone": 12,
    "A Taste of Death": 5,
    "U.G. Krishnamurti: A Life": 8,
    "My Swan Song": 21,
    "Remembering U.G. (WELL memorial compilation)": 11,
-   "unassigned": 6,
+   "unassigned": 4,
    "Stopped in Our Tracks, Book Two": 1,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
    "Love (ed. Sunita Pant Bansal)": 2,
@@ -50,36 +50,24 @@
    "The Biology of Enlightenment": 7,
    "Society: It's terror, not love that keeps us together": 1,
    "Mark Whitwell recollection": 2,
+   "Science and U.G.": 5,
    "interview: K. Chandrasekhar audio-tape excerpts": 1,
    "The Sage and the Housewife": 5,
-   "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1,
-   "Science and U.G.": 4
+   "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1
   },
-  "distinct_source_hosts": 366,
-  "items_self_sourced_only": 377,
-  "items_with_second_source": 341,
-  "compositions_checked": 2,
+  "distinct_source_hosts": 378,
+  "items_self_sourced_only": 358,
+  "items_with_second_source": 364,
+  "compositions_checked": 3,
   "events_with_recorded_date_conflict": 7,
   "quotes_marked_duplicate": 8,
   "issue_counts": {
-   "item-no-sources": 12,
-   "quote-unassigned-book": 6
+   "item-no-sources": 5,
+   "quote-unassigned-book": 4
   }
  },
  "issues": {
   "item-no-sources": [
-   [
-    "i88905339",
-    "Douglas Rosestone and Nancy — named in brief, no results"
-   ],
-   [
-    "ia3f9f521",
-    "The Mystique of Enlightenment (1992 edition, Dinesh Publications / Akshaya Prakashana)"
-   ],
-   [
-    "i04b5e87d",
-    "The Mystique of Enlightenment (Sharp Ink e-book, 2023)"
-   ],
    [
     "ie38bf43c",
     "Mind is a Myth: Conversations with U.G. Krishnamurti (Smriti Books, 2003)"
@@ -93,24 +81,8 @@
     "No Way Out (Smriti Books, 2002; listing dated 31 Dec 2005)"
    ],
    [
-    "i37533375",
-    "No Way Out (e-artnow, 2021)"
-   ],
-   [
     "iaf9bc661",
     "The Courage to Stand Alone (Smriti Books, 2001)"
-   ],
-   [
-    "i40d556ae",
-    "The Natural State (e-artnow 2021; Musaicum e-book)"
-   ],
-   [
-    "i533cd25c",
-    "Collected works (Sharp Ink, 2023)"
-   ],
-   [
-    "if2434ddb",
-    "Stopped in Our Tracks, Second Series (UG: Anecdotes, Comments and Reflections) — K. Chandrasekhar, tr. Moorty (The Firsthand Publications, 2010)"
    ],
    [
     "i7eeef415",
@@ -123,20 +95,12 @@
     "all gurus are welfare organizations providing petty experien"
    ],
    [
-    "q241d3a5e",
-    "as long as you depend upon somebody for solving your problem"
-   ],
-   [
     "qacfbd56d",
     "Life has to be described in pure and simple physical and phy"
    ],
    [
     "q4b9ab831",
     "I am not against the scientific method per se."
-   ],
-   [
-    "qc852ca7b",
-    "happiness without one moment of unhappiness, pleasure withou"
    ],
    [
     "q0c6ee69f",
@@ -177,11 +141,11 @@
  "hosts": [
   [
    "people.well.com",
-   162
+   176
   ],
   [
    "youtube.com",
-   147
+   150
   ],
   [
    "archive.org",
@@ -193,7 +157,7 @@
   ],
   [
    "goodreads.com",
-   91
+   93
   ],
   [
    "ugkrishnamurti.in",
@@ -332,15 +296,15 @@
    9
   ],
   [
+   "u-g-krishnamurti.blogspot.com",
+   9
+  ],
+  [
    "medium.com",
    8
   ],
   [
    "podcasts.apple.com",
-   8
-  ],
-  [
-   "u-g-krishnamurti.blogspot.com",
    8
   ],
   [
@@ -389,6 +353,10 @@
   ],
   [
    "arshow.info",
+   6
+  ],
+  [
+   "exoticindiaart.com",
    6
   ],
   [
@@ -444,10 +412,6 @@
    5
   ],
   [
-   "exoticindiaart.com",
-   5
-  ],
-  [
    "amazon.co.uk",
    5
   ],
@@ -469,6 +433,10 @@
   ],
   [
    "onlinebooks.library.upenn.edu",
+   4
+  ],
+  [
+   "abebooks.co.uk",
    4
   ],
   [
@@ -560,10 +528,6 @@
    3
   ],
   [
-   "abebooks.co.uk",
-   3
-  ],
-  [
    "en-academic.com",
    3
   ],
@@ -588,11 +552,19 @@
    3
   ],
   [
+   "audiobooksnow.com",
+   3
+  ],
+  [
    "openlibrary.org",
    3
   ],
   [
    "theprint.in",
+   3
+  ],
+  [
+   "hachette.co.uk",
    3
   ],
   [
@@ -616,7 +588,19 @@
    3
   ],
   [
+   "cageweb.be",
+   3
+  ],
+  [
+   "well.com",
+   3
+  ],
+  [
    "sites.google.com",
+   3
+  ],
+  [
+   "piermarton.info",
    3
   ],
   [
@@ -633,6 +617,10 @@
   ],
   [
    "redbubble.com",
+   3
+  ],
+  [
+   "bookscouter.com",
    3
   ],
   [
@@ -653,6 +641,10 @@
   ],
   [
    "nextbestpicture.com",
+   3
+  ],
+  [
+   "windowsforum.com",
    3
   ],
   [
@@ -681,6 +673,10 @@
   ],
   [
    "fnac.com",
+   3
+  ],
+  [
+   "store.pothi.com",
    3
   ],
   [
@@ -732,10 +728,6 @@
    2
   ],
   [
-   "audiobooksnow.com",
-   2
-  ],
-  [
    "readersend.com",
    2
   ],
@@ -745,10 +737,6 @@
   ],
   [
    "ebay.de",
-   2
-  ],
-  [
-   "hachette.co.uk",
    2
   ],
   [
@@ -780,19 +768,11 @@
    2
   ],
   [
-   "well.com",
-   2
-  ],
-  [
    "rickarcher1.substack.com",
    2
   ],
   [
    "realization.org",
-   2
-  ],
-  [
-   "piermarton.info",
    2
   ],
   [
@@ -804,11 +784,15 @@
    2
   ],
   [
-   "gulfnews.com",
+   "dc2.philarchive.org",
    2
   ],
   [
    "litres.com",
+   2
+  ],
+  [
+   "angusrobertson.com.au",
    2
   ],
   [
@@ -821,6 +805,10 @@
   ],
   [
    "newthinkingallowed.org",
+   2
+  ],
+  [
+   "barnesandnoble.com",
    2
   ],
   [
@@ -868,6 +856,10 @@
    2
   ],
   [
+   "lifepositive.com",
+   2
+  ],
+  [
    "estantevirtual.com.br",
    2
   ],
@@ -877,10 +869,6 @@
   ],
   [
    "macrolibrarsi.it",
-   2
-  ],
-  [
-   "store.pothi.com",
    2
   ],
   [
@@ -1084,7 +1072,7 @@
    1
   ],
   [
-   "swissinfo.ch",
+   "brainbleed.piermarton.info",
    1
   ],
   [
@@ -1101,6 +1089,10 @@
   ],
   [
    "sentientpublications.com",
+   1
+  ],
+  [
+   "ompublications.in",
    1
   ],
   [
@@ -1125,6 +1117,10 @@
   ],
   [
    "actualfreedom.com.au",
+   1
+  ],
+  [
+   "storytel.com",
    1
   ],
   [
@@ -1180,6 +1176,10 @@
    1
   ],
   [
+   "mybook.ru",
+   1
+  ],
+  [
    "scienceandnonduality.com",
    1
   ],
@@ -1192,10 +1192,6 @@
    1
   ],
   [
-   "bookscouter.com",
-   1
-  ],
-  [
    "amazon.it",
    1
   ],
@@ -1204,15 +1200,15 @@
    1
   ],
   [
+   "thevale.substack.com",
+   1
+  ],
+  [
    "lamashree-ugk2.blogspot.com",
    1
   ],
   [
    "professordeino.substack.com",
-   1
-  ],
-  [
-   "barnesandnoble.com",
    1
   ],
   [
@@ -1261,6 +1257,10 @@
   ],
   [
    "booknode.com",
+   1
+  ],
+  [
+   "bibliotheques-numeriques.defense.gouv.fr",
    1
   ],
   [
@@ -1360,6 +1360,10 @@
    1
   ],
   [
+   "gulfnews.com",
+   1
+  ],
+  [
    "tricycle.org",
    1
   ],
@@ -1405,6 +1409,10 @@
   ],
   [
    "thenaturalstate.film",
+   1
+  ],
+  [
+   "podbean.com",
    1
   ],
   [
@@ -1568,7 +1576,7 @@
    1
   ],
   [
-   "lifepositive.com",
+   "biblio.co.uk",
    1
   ],
   [
@@ -1601,6 +1609,10 @@
   ],
   [
    "agharta-mundointerior.blogspot.com",
+   1
+  ],
+  [
+   "thetvdb.com",
    1
   ],
   [
