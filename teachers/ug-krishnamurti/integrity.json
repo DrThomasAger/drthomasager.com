@@ -58,12 +58,13 @@
   "distinct_source_hosts": 366,
   "items_self_sourced_only": 377,
   "items_with_second_source": 341,
+  "compositions_checked": 2,
   "issue_counts": {
    "event-date-conflict": 7,
    "item-duplicate-title": 7,
    "item-no-sources": 12,
    "item-possible-jk-contamination": 3,
-   "quote-flagged-not-ug-or-editor": 9,
+   "quote-flagged-not-ug-or-editor": 13,
    "quote-near-duplicate": 7,
    "quote-possible-jk-contamination": 5,
    "quote-unassigned-book": 6,
@@ -187,12 +188,28 @@
     "Nature is busy creating absolutely unique individuals, where"
    ],
    [
+    "qc032db3b",
+    "Love implies division, separation. Wherever there is divisio"
+   ],
+   [
+    "q0997ce6d",
+    "Each cell of a living organism cooperates with the cell next"
+   ],
+   [
     "q27ae73f0",
     "You need not worry about nutrition or health foods; the body"
    ],
    [
+    "q74cba27f",
+    "wherever there is division, there can't be love"
+   ],
+   [
     "qdb3fcee7",
     "thought is a divisive and ultimately a destructive instrumen"
+   ],
+   [
+    "qc60032ad",
+    "it is through this constant thinking that we are maintaining"
    ],
    [
     "qc213105f",
