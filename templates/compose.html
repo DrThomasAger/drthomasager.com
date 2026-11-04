@@ -154,7 +154,7 @@ nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 
     const useSel = $('#useSel').checked && sel.length, book = $('#book').value, inc = $('#incSingle').checked;
     let pool = D.quotes.filter(q => q.verdict !== 'not-ug' && q.kind !== 'paraphrase');
     if (useSel) pool = sel.map(id => pool.find(q => q.id === id)).filter(Boolean);
-    else pool = pool.filter(q => !['disputed', 'not-found'].includes(q.verdict) && (inc || q.verdict !== 'single-source'));
+    else pool = pool.filter(q => !q.duplicate_of && !['disputed', 'not-found'].includes(q.verdict) && (inc || q.verdict !== 'single-source'));
     if (book) pool = pool.filter(q => q.book === book);
     const words = $('#topic').value.toLowerCase().split(/[\s,;]+/).filter(w => w.length > 2);
     if (words.length && !useSel) {

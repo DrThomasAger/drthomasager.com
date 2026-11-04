@@ -82,7 +82,8 @@
  "qbb7bfd78": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification: a commentator's or reviewer's sentence, not hers."
+  "note": "Verification: a commentator's or reviewer's sentence, not hers. Reviewed 2026-11-04 (integrity pass): a reviewer's sentence about her, not hers.",
+  "verdict": "not-ug"
  },
  "q674005ff": {
   "kind": "paraphrase",
@@ -97,7 +98,8 @@
  "q0b54eb65": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers)."
+  "note": "Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword; only \"that which remains when there is no self\" is hers.",
+  "verdict": "not-ug"
  },
  "qee0b27d3": {
   "kind": "paraphrase",
@@ -122,7 +124,8 @@
  "q7c229bd4": {
   "kind": "paraphrase",
   "confidence": "T",
-  "note": "Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers)."
+  "note": "Verification: Jeff Shore's foreword to What Is Self?, not her words (only 'that which remains when there is no self', ENS p.140, is hers). Reviewed 2026-11-04 (integrity pass): Jeff Shore's foreword, not hers.",
+  "verdict": "not-ug"
  },
  "q0656d525": {
   "kind": "paraphrase",
@@ -139,5 +142,39 @@
  },
  "q9bc5472b": {
   "note": "Verification: not found on any host."
+ },
+ "q5a3ce845": {
+  "verdict": "not-ug",
+  "note": "Reviewed 2026-11-04 (integrity pass): Stephan Bodian's question, kept for context, never quoted as hers."
+ },
+ "q5bf1f073": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-04 (integrity pass): publisher blurb wording, not confirmed as hers."
+ },
+ "qdffeb96d": {
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "note": "Reviewed 2026-11-04 (integrity pass): her thesis in her words, as quoted in Shore's foreword."
+ },
+ "qa96e5453": {
+  "reviewed": [
+   "flagged-not-ug-or-editor"
+  ],
+  "note": "Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's."
+ },
+ "qbb9f8d1b": {
+  "same_passage_as": "qc5b19862",
+  "note": "Reviewed 2026-11-04 (integrity pass): the same words in the Essays and in the Bodian interview."
+ },
+ "q7aa41b1d": {
+  "reviewed": [
+   "very-short"
+  ]
+ },
+ "q36aa0c20": {
+  "reviewed": [
+   "very-short"
+  ]
  }
 }
