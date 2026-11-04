@@ -71,9 +71,11 @@ def c_blog(F=None, live=True):
 
 def pick(quotes, topic="", select=None, book="", include_single=False, limit=30):
     """The quotations that go in. Never a line that is not the teacher's, never
-    a paraphrase; without a selection, never a disputed or unfound line, and a
-    single-source line only when asked."""
+    a paraphrase; without a selection, never a disputed or unfound line, never
+    a second copy of a passage, and a single-source line only when asked."""
     pool = [q for q in quotes if q.get("verdict") != "not-ug" and q.get("kind") != "paraphrase"]
+    if not select:
+        pool = [q for q in pool if not q.get("duplicate_of")]
     if select:
         byid = {q["id"]: q for q in pool}
         pool = [byid[i] for i in select if i in byid]

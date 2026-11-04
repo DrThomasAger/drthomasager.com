@@ -3308,7 +3308,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_w_mb_150",
-  "description": "Items uploaded Aug 2012 with identifiers ug_ug_w_mb_150 (Mahesh Bhatt TV conversation), ug_ug_deridder (Willem de Ridder & Byron Katie, Amsterdam 1998), ug_ug_de_ridder, ug_ug_tv_int_150 (Shashi Kumar), ug_ug_parapsy_150 (Bryce Bond), ug_ug_with_unknown_individual, ug_what_is_going_on_here_is_sa, ug_guest_of_the_week_bbc_radio, ug_dr_kbr_sastrii_bramchari_babu. No collection page with identifier 'ugkrishnamurti-video' surfaced; the parent collection name reads 'U.G. Krishnamurti conversations and interviews'.",
+  "description": "Items uploaded Aug 2012 with identifiers ug_ug_w_mb_150 (Mahesh Bhatt TV conversation), ug_ug_deridder (Willem de Ridder & Byron Katie, Amsterdam 1998), ug_ug_de_ridder, ug_ug_tv_int_150 (Shashi Kumar), ug_ug_parapsy_150 (Bryce Bond), ug_ug_with_unknown_individual, ug_what_is_going_on_here_is_sa, ug_guest_of_the_week_bbc_radio, ug_dr_kbr_sastrii_bramchari_babu. No collection page with identifier 'ugkrishnamurti-video' surfaced; the parent collection name reads 'U.G. Krishnamurti conversations and interviews'. [Checked: Reviewed 2026-11-04: the video collection, distinct from the audio one.]",
   "tags": [
    "archive-org",
    "collection",
@@ -3362,6 +3362,9 @@
    "video",
    "wave2-av",
    "wave6-communities"
+  ],
+  "reviewed": [
+   "duplicate-title"
   ]
  },
  {
@@ -5824,7 +5827,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ugkrishnamurti-audio?sort=-reviewdate",
-  "description": "Collection of 80 audio items created by Jeff Kaplan, most added 2012; several credit source ugkrishnamurti.org. Index numbers in descriptions correspond to the WELL 'Essential UG' index. Collection note: UG wrote no books; others recorded his informal discussions.",
+  "description": "Collection of 80 audio items created by Jeff Kaplan, most added 2012; several credit source ugkrishnamurti.org. Index numbers in descriptions correspond to the WELL 'Essential UG' index. Collection note: UG wrote no books; others recorded his informal discussions. [Checked: Reviewed 2026-11-04: the same archive.org audio collection as icd3d513c, listed with a sort parameter.]",
   "tags": [
    "collection",
    "archive-org",
@@ -5856,7 +5859,8 @@
   ],
   "origins": [
    "audio"
-  ]
+  ],
+  "duplicate_of": "icd3d513c"
  },
  {
   "id": "i5400f692",
@@ -11497,7 +11501,7 @@
   "duration": null,
   "host": "scroll.in",
   "url": "https://scroll.in/article/833558/ug-in-a-comic-book-the-strange-life-of-the-other-krishnamurti-who-broke-away-from-jiddu",
-  "description": "Scroll.in feature/excerpt on the graphic novel This Dog Barking (HarperCollins India, 2017), reproducing panels.",
+  "description": "Scroll.in feature/excerpt on the graphic novel This Dog Barking (HarperCollins India, 2017), reproducing panels. [Checked: Reviewed 2026-11-04: U.G.'s graphic biography; the address only names Jiddu to tell them apart.]",
   "tags": [
    "graphic-novel",
    "drawing",
@@ -11530,6 +11534,9 @@
   "origins": [
    "images",
    "wave5-press"
+  ],
+  "reviewed": [
+   "jk-contamination"
   ]
  },
  {
@@ -11888,7 +11895,7 @@
   "duration": null,
   "host": "alamy.com",
   "url": "https://www.alamy.com/stock-photo/krishnamurti.html",
-  "description": "Stock-photo searches returned only Jiddu Krishnamurti; a direct 'Uppaluri Gopala Krishnamurti' search was not run.",
+  "description": "Stock-photo searches returned only Jiddu Krishnamurti; a direct 'Uppaluri Gopala Krishnamurti' search was not run. [Checked: Reviewed 2026-11-04: a record of a search gap, not an item; stock libraries returned only Jiddu.]",
   "tags": [
    "gap",
    "stock-photo",
@@ -11905,7 +11912,10 @@
    "https://www.gettyimages.com/photos/krishnamurti",
    "https://www.shutterstock.com/editorial/search/krishnamurti"
   ],
-  "origin": "images"
+  "origin": "images",
+  "reviewed": [
+   "jk-contamination"
+  ]
  },
  {
   "id": "ia3f9f521",
@@ -13266,7 +13276,10 @@
   "sources": [
    "https://www.amazon.com/dp/8187967803"
   ],
-  "origin": "text"
+  "origin": "text",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i40d556ae",
@@ -13304,7 +13317,10 @@
   ],
   "confidence": "S",
   "sources": [],
-  "origin": "text"
+  "origin": "text",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i8ec5c4ad",
@@ -13337,7 +13353,10 @@
    "https://en.wikisource.org/wiki/The_Natural_State",
    "https://en.wikisource.org/wiki/Author:Uppaluri_Gopala_Krishnamurti"
   ],
-  "origin": "text"
+  "origin": "text",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "ic085b7a4",
@@ -13368,7 +13387,10 @@
   "sources": [
    "https://dokumen.pub/the-natural-state.html"
   ],
-  "origin": "text"
+  "origin": "text",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "ida9b982d",
@@ -15720,7 +15742,7 @@
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/playlist?list=PLJGnfFmap7N9BTHNv4mIaqgyv-Co1K0Sy",
-  "description": "playlist described as 'the ultimate U.G. Krishnamurti playlist, the playlist to end all playlists'; contents not enumerable via search index",
+  "description": "playlist described as 'the ultimate U.G. Krishnamurti playlist, the playlist to end all playlists'; contents not enumerable via search index [Checked: Reviewed 2026-11-04: a different playlist from if85fd17f.]",
   "tags": [
    "playlist",
    "youtube",
@@ -15753,6 +15775,9 @@
    "wave3-items",
    "wave6-av",
    "wave7-youtube"
+  ],
+  "reviewed": [
+   "duplicate-title"
   ]
  },
  {
@@ -16294,6 +16319,9 @@
    "wave2-text",
    "wave5-press",
    "wave6-images"
+  ],
+  "reviewed": [
+   "duplicate-title"
   ]
  },
  {
@@ -20924,7 +20952,7 @@
   "duration": null,
   "host": "philpapers.org",
   "url": "https://philpapers.org/rec/KRITBO-2",
-  "description": "Indexed on PhilPapers (KRITBO-2); HarperCollins 2010; 2015 reprint on AbeBooks.",
+  "description": "Indexed on PhilPapers (KRITBO-2); HarperCollins 2010; 2015 reprint on AbeBooks. [Checked: Reviewed 2026-11-04: the PhilPapers record of the same 2010 book as i50047add.]",
   "tags": [
    "academic",
    "mukunda-rao",
@@ -20949,7 +20977,10 @@
    "https://philpapers.org/rec/KRITBO-2",
    "https://www.abebooks.com/Biology-Enlightenment-Unpublished-Conversations-Krishnamurti-After/31420382430/bd"
   ],
-  "origin": "wave2-text"
+  "origin": "wave2-text",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "ide0d1ddf",
@@ -21901,7 +21932,10 @@
   "sources": [
    "https://archive.org/details/TheNaturalStateU.G.Krishnamurti"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "iaf94593f",
@@ -22551,7 +22585,7 @@
   "duration": "",
   "host": "bitchute.com",
   "url": "https://www.bitchute.com/video/00LJSkcDlSDz/",
-  "description": "[bitchute:00LJSkcDlSDz] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered",
+  "description": "[bitchute:00LJSkcDlSDz] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered [Checked: Reviewed 2026-11-04: the BitChute copy of the YouTube video i867b1f0d.]",
   "tags": [
    "bitchute",
    "lectures-beyond-beyond",
@@ -22566,7 +22600,11 @@
   "sources": [
    "https://www.bitchute.com/video/00LJSkcDlSDz/"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "same_recording_as": "i867b1f0d",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "ibf6145f2",
@@ -22641,7 +22679,7 @@
   "duration": "",
   "host": "bitchute.com",
   "url": "https://www.bitchute.com/video/gsWJLK2FLsh9/",
-  "description": "[bitchute:gsWJLK2FLsh9] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered",
+  "description": "[bitchute:gsWJLK2FLsh9] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered [Checked: Reviewed 2026-11-04: the BitChute copy of the YouTube video i26336e4e.]",
   "tags": [
    "bitchute",
    "lectures-beyond-beyond",
@@ -22656,7 +22694,11 @@
   "sources": [
    "https://www.bitchute.com/video/gsWJLK2FLsh9/"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "same_recording_as": "i26336e4e",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i14c66002",
@@ -22731,7 +22773,7 @@
   "duration": "",
   "host": "bitchute.com",
   "url": "https://www.bitchute.com/video/rycypzo8Fu9o/",
-  "description": "[bitchute:rycypzo8Fu9o] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered",
+  "description": "[bitchute:rycypzo8Fu9o] BitChute mirror of Lectures Beyond Beyond upload; YouTube ID not recovered [Checked: Reviewed 2026-11-04: the BitChute copy of the YouTube video i2c7101bc.]",
   "tags": [
    "bitchute",
    "lectures-beyond-beyond",
@@ -22746,7 +22788,11 @@
   "sources": [
    "https://www.bitchute.com/video/rycypzo8Fu9o/"
   ],
-  "origin": "wave3-items"
+  "origin": "wave3-items",
+  "same_recording_as": "i2c7101bc",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "id1be4be5",
@@ -24486,7 +24532,10 @@
   "sources": [
    "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/"
   ],
-  "origin": "wave5-press"
+  "origin": "wave5-press",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "id2804031",
@@ -24612,7 +24661,10 @@
   "sources": [
    "http://www.unseenfilms.net/2026/10/natural-state-2026-woodstock-2026.html"
   ],
-  "origin": "wave5-press"
+  "origin": "wave5-press",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i693a74c4",
@@ -24645,7 +24697,10 @@
   "sources": [
    "https://nextbestpicture.com/the-natural-state/"
   ],
-  "origin": "wave5-press"
+  "origin": "wave5-press",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i7eeef415",
@@ -25314,7 +25369,10 @@
   "sources": [
    "https://www.hammertonail.com/reviews/the-natural-state/"
   ],
-  "origin": "wave5-press"
+  "origin": "wave5-press",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "if79c0b9d",
@@ -25422,7 +25480,10 @@
    "https://www.rottentomatoes.com/m/the_natural_state",
    "https://thenaturalstate.film/"
   ],
-  "origin": "wave5-press"
+  "origin": "wave5-press",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "iaa718eab",
@@ -25887,7 +25948,10 @@
   "sources": [
    "https://www.youtube.com/watch?v=0JyphyR5rwo"
   ],
-  "origin": "wave6-av"
+  "origin": "wave6-av",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "ide743705",
@@ -28754,7 +28818,10 @@
    "https://www.screendaily.com/news/telluride-film-festival-unveils-2026-titles/5220007.article",
    "https://varietyindia.com/the-natural-state-review-decoding-indias-fiercest-anti-guru-u-g-krishnamurti/"
   ],
-  "origin": "wave6-images"
+  "origin": "wave6-images",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i8353a1b7",
@@ -28836,7 +28903,10 @@
    "https://www.abebooks.com/9788187967774/Natural-State-Words-U.G-Krishnamurti-8187967773/plp",
    "https://books.google.com/books/about/The_Natural_State.html?id=07ae6Ow6O-YC"
   ],
-  "origin": "wave6-images"
+  "origin": "wave6-images",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i8d224c5f",
@@ -28893,7 +28963,7 @@
   "duration": null,
   "host": "it.wikipedia.org",
   "url": "https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti",
-  "description": "Italian article (born Machilipatnam, died Vallecrosia; 'antiguru'; disambiguation from Jiddu). Infobox image presumably Commons UGKrishnamurti.jpg (Giuliano Sauro, CC BY-SA 3.0/GFDL). Telugu, Gujarati and Marathi Wikipedia articles did not surface in search.",
+  "description": "Italian article (born Machilipatnam, died Vallecrosia; 'antiguru'; disambiguation from Jiddu). Infobox image presumably Commons UGKrishnamurti.jpg (Giuliano Sauro, CC BY-SA 3.0/GFDL). Telugu, Gujarati and Marathi Wikipedia articles did not surface in search. [Checked: Reviewed 2026-11-04: the Italian article on U.G., which tells him apart from Jiddu.]",
   "tags": [
    "wikipedia",
    "italian",
@@ -28911,7 +28981,10 @@
    "https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti",
    "https://commons.wikimedia.org/wiki/File:UGKrishnamurti.jpg"
   ],
-  "origin": "wave6-images"
+  "origin": "wave6-images",
+  "reviewed": [
+   "jk-contamination"
+  ]
  },
  {
   "id": "ie7913f66",
@@ -31114,7 +31187,7 @@
   "duration": "",
   "host": "reddit.com",
   "url": "https://www.reddit.com/r/nonduality/",
-  "description": "r/nonduality; link post (video clip compilation)",
+  "description": "r/nonduality; link post (video clip compilation) [Checked: Reviewed 2026-11-04: the Reddit thread sharing i26336e4e.]",
   "tags": [
    "ug-krishnamurti",
    "reddit",
@@ -31132,7 +31205,10 @@
   "sources": [
    "https://www.socialgrep.com/search?query=ug+krishnamurti"
   ],
-  "origin": "wave8-archive-reddit"
+  "origin": "wave8-archive-reddit",
+  "reviewed": [
+   "duplicate-title"
+  ]
  },
  {
   "id": "i9b791303",

@@ -18,6 +18,11 @@ commands into `~/.claude/commands` and Pi, so any project composes from here,
 and THE MAP Viewer's composer lists them. `RECOMPOSE.md` explains all of it,
 with `recompose.py` and `smilecompose.py` underneath.
 
+## Coverage
+
+`COVERAGE.md` names every set the archive holds, its count and what is not
+yet reached, recounted by `coverage.py` (and by `check.py`) at each run.
+
 ## How it is built
 
 ```

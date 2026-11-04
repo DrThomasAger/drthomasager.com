@@ -50,28 +50,36 @@ def read_events(p):
 
 
 SONG_PARTS = ("STYLE", "LYRICS", "SOURCES", "COUNT")
+POST_PARTS = ("QUOTE", "CAPTION", "SOURCE", "LINK", "TAGS")
+PART_NAMES = {"STYLE": "Style", "LYRICS": "Lyrics", "SOURCES": "Sources", "COUNT": "Count",
+              "QUOTE": "Quotation", "CAPTION": "Caption", "SOURCE": "Source", "LINK": "Link", "TAGS": "Hashtags"}
+COPYABLE = {"STYLE": "Copy style for Suno", "LYRICS": "Copy lyrics for Suno", "QUOTE": "Copy the quotation",
+            "CAPTION": "Copy the caption", "TAGS": "Copy the hashtags"}
 
 
 def song_html(body):
-    """A Suno song's reply (STYLE, LYRICS, SOURCES, COUNT, each on a line of
-    its own) with its line breaks kept and the style and lyrics ready to copy.
-    Returns None for any other body."""
+    """A reply laid out in named parts, a Suno song (STYLE, LYRICS, SOURCES,
+    COUNT) or an Instagram post (QUOTE, CAPTION, SOURCE, LINK, TAGS), each
+    part's name on a line of its own: line breaks kept, each part ready to
+    copy. Returns None for any other body."""
     import html as _h
     lines = body.splitlines()
-    marks = [i for i, l in enumerate(lines) if l.strip() in SONG_PARTS]
-    if not any(lines[i].strip() == "LYRICS" for i in marks):
+    for parts, must in ((SONG_PARTS, "LYRICS"), (POST_PARTS, "CAPTION")):
+        marks = [i for i, l in enumerate(lines) if l.strip() in parts]
+        if any(lines[i].strip() == must for i in marks):
+            break
+    else:
         return None
     head = "\n".join(lines[:marks[0]]).strip()
     out = [md_lite(head)] if head else []
-    names = {"STYLE": "Style", "LYRICS": "Lyrics", "SOURCES": "Sources", "COUNT": "Count"}
     for n, i in enumerate(marks):
         part = lines[i].strip()
         text = "\n".join(lines[i + 1:(marks[n + 1] if n + 1 < len(marks) else len(lines))]).strip("\n")
-        copy = (f' <button class="btn copy" type="button" data-copy="{part.lower()}">Copy {names[part].lower()} for Suno</button>'
-                if part in ("STYLE", "LYRICS") else "")
-        size = f' <span class="note">{len(text):,} characters</span>' if part in ("STYLE", "LYRICS") else ""
-        out.append(f'<h2>{names[part]}{size}{copy}</h2><pre class="song" id="song-{part.lower()}">{_h.escape(text)}</pre>')
+        copy = f' <button class="btn copy" type="button" data-copy="{part.lower()}">{COPYABLE[part]}</button>' if part in COPYABLE else ""
+        size = f' <span class="note">{len(text):,} characters</span>' if part in ("STYLE", "LYRICS", "CAPTION") else ""
+        out.append(f'<h2>{PART_NAMES[part]}{size}{copy}</h2><pre class="song" id="song-{part.lower()}">{_h.escape(text)}</pre>')
     return "\n".join(out)
+
 
 def md_lite(text):
     """A small markdown-to-HTML for the prose files: headings, paragraphs,
@@ -402,6 +410,8 @@ def main():
             urls.append(f"{base}/{rel}/")
     (SITE / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>\n", encoding="utf-8")
     (SITE / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    if (ROOT / "COVERAGE.md").exists():
+        shutil.copy(ROOT / "COVERAGE.md", SITE / "COVERAGE.md")
     print(f"-> {SITE} ({len(urls)} urls)")
 
 

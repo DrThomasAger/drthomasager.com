@@ -93,7 +93,7 @@ for f in sorted(src.glob("*.json")):
     if not isinstance(data, list):
         print(f"skip {f.name}: not a list"); continue
     n = 0
-    if f.name in ("events.json", "people.json") or f.name.startswith("verification"):
+    if f.name in ("events.json", "people.json") or f.name.startswith(("verification", "item-updates")):
         continue
     if f.name.startswith("quotes"):
         for q in data:
@@ -179,6 +179,39 @@ for it in items:
         merged.append(it)
 print(f"url-merge: {len(items)} -> {len(merged)}")
 items = merged
+
+# Research that confirms, dates or sources an item already gathered:
+# raw/item-updates*.json, a list of {id, year?, date?, place?, confidence?,
+# sources_add?, note?, searched}, and item-decisions.json beside this script
+# for hand decisions (duplicate_of, same_recording_as, reviewed). Only filled
+# fields change.
+by_id = {it["id"]: it for it in items}
+n_upd = 0
+for uf in sorted(src.glob("item-updates*.json")) + ([HERE / "item-decisions.json"] if (HERE / "item-decisions.json").exists() else []):
+    try:
+        ups = json.loads(uf.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa
+        print(f"skip {uf.name}: {e}"); continue
+    for u in ups if isinstance(ups, list) else []:
+        it = by_id.get(u.get("id"))
+        if not it or not u.get("searched", True):
+            continue
+        add = [s for s in (u.get("sources_add") or []) if isinstance(s, str) and s.startswith("http") and s not in it["sources"]]
+        it["sources"] += add
+        for k in ("year", "date", "place"):
+            if u.get(k) and not it.get(k):
+                it[k] = u[k]
+        if u.get("confidence") in ("S", "T", "lead") and (u["confidence"] != "S" or add or it["sources"]):
+            it["confidence"] = u["confidence"]
+        for k in ("duplicate_of", "same_recording_as"):
+            if u.get(k):
+                it[k] = u[k]
+        if u.get("reviewed"):
+            it["reviewed"] = sorted(set(it.get("reviewed") or []) | set(u["reviewed"]))
+        if u.get("note"):
+            it["description"] = ((it.get("description") or "") + " [Checked: " + u["note"].strip() + "]").strip()
+        n_upd += 1
+print(f"item updates applied: {n_upd}")
 
 # Extra datasets: events, people, verification
 def load_list(name):
