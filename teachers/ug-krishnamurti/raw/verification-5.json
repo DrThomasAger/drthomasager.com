@@ -1,0 +1,602 @@
+[
+ {
+  "id": "q36edddbf",
+  "text_checked": "Enlightenment (if there is any such thing as enlightenment) is not an experience at all.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
+   "https://people.well.com/user/jct/mystiq4.htm"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part Four",
+  "wording_variants": [],
+  "note": "Search snippet from Wikisource Mystique Part Four and well.com mystiq4.htm carries the sentence with the parenthetical verbatim: 'Enlightenment (if there is any such thing as enlightenment) is not an experience at all.' Contradicts the earlier claim that Part Four lacks the parenthetical. The Natural State compilation reuses Mystique material, but the primary book is Mystique.",
+  "searched": true
+ },
+ {
+  "id": "q6518586c",
+  "text_checked": "By 1961 my money was finished…",
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "book_per_sources": "",
+  "wording_variants": [],
+  "note": "Exact phrase not surfaced anywhere. Mahesh Bhatt's biography (well.com ugbio5.htm) narrates that in 1961 he was in London alone and penniless, having exhausted his money; that is narrative, not this first-person sentence.",
+  "searched": true
+ },
+ {
+  "id": "q48147bda",
+  "text_checked": "Nobody knows anything about life.",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://quotewise.io/q/qp6u7v"
+  ],
+  "book_per_sources": "unknown (no book given by sources)",
+  "wording_variants": [
+   "Nobody knows anything about life and there is NO point in defining life."
+  ],
+  "note": "Quotewise carries the sentence as the opening of a longer line attributed to U.G.; no book identified. Mind is a Myth assignment not confirmed.",
+  "searched": true
+ },
+ {
+  "id": "qfd63f8c6",
+  "text_checked": "Thought has interfered and trying to suppress, control, and moralize about desire, to the detriment of mankind.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I The Certainty That Blasts Everything",
+  "wording_variants": [
+   "Thought has interfered and tried to suppress, control, and moralize about desire, to the detriment of mankind."
+  ],
+  "note": "Wikisource Mind is a Myth/I snippet reads 'tried to suppress', not 'trying to suppress'; the input wording has a small error.",
+  "searched": true
+ },
+ {
+  "id": "q87a66997",
+  "text_checked": "your teacher must go, it doesn't matter who the teacher is",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part Four",
+  "wording_variants": [],
+  "note": "Domain-restricted search on Wikisource surfaced Mystique Part Four for the phrase; snippet summarised the passage (teacher must be dropped whoever he is). Open web search for the exact sentence found nothing beyond that. [Kept at its earlier status: the exact wording was not seen.]",
+  "searched": true
+ },
+ {
+  "id": "qab99509d",
+  "text_checked": "blind acceptance of authority, all second-hand stuff",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth",
+  "wording_variants": [
+   "beliefs resulting from blind acceptance of authority"
+  ],
+  "note": "Holybooks Mind is a Myth PDF snippet: 'beliefs resulting from blind acceptance of authority', with the beliefs called secondhand. The words 'all second-hand stuff' were not visible in the snippet. Book is Mind is a Myth, not The Natural State. [Kept at its earlier status: the exact wording was not seen.]",
+  "searched": true
+ },
+ {
+  "id": "qbd6fe67c",
+  "text_checked": "What you are afraid of is not death.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm"
+  ],
+  "book_per_sources": "No Way Out, Ch. 6",
+  "wording_variants": [],
+  "note": "Wikisource No Way Out/Chapter 6 and well.com nwo6.htm carry the sentence in U.G.'s answer on fear of death ('what you call yourself is fear').",
+  "searched": true
+ },
+ {
+  "id": "q8891a8e5",
+  "text_checked": "There seems to be no way out.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_4",
+   "https://people.well.com/user/jct/nwo4.htm",
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/VI"
+  ],
+  "book_per_sources": "No Way Out, Ch. 4 You Invent Your Reality",
+  "wording_variants": [
+   "But there seems to be no way out.",
+   "Somewhere along the line mankind got off on the wrong track and there seems to be no way out. (Mind is a Myth VI)"
+  ],
+  "note": "No Way Out ch. 4 has 'But there seems to be no way out.' after the battle between the body and spiritual pursuit. The phrase also recurs in Mind is a Myth ch. VI.",
+  "searched": true
+ },
+ {
+  "id": "q718e3b22",
+  "text_checked": "A passage that ends with the speaker saying there is no escape.",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_4"
+  ],
+  "book_per_sources": "No Way Out (chapter uncertain)",
+  "wording_variants": [
+   "But there seems to be no way out. (No Way Out ch. 4)"
+  ],
+  "note": "Too vague to verify. The 'no way out' closing line located is in No Way Out ch. 4, not ch. 7; Mind is a Myth VI has a similar line. Quotepark's ch. 7 label stays unconfirmed.",
+  "searched": true
+ },
+ {
+  "id": "q9fd58abe",
+  "text_checked": "You cannot look at your thought, because you cannot separate yourself from thought.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://people.well.com/user/jct/courage.html"
+  ],
+  "book_per_sources": "The Courage to Stand Alone, Pt. I",
+  "wording_variants": [],
+  "note": "Domain-restricted search for 'separate yourself from thought' hit Wikisource Courage to Stand Alone and well.com courage.html; snippet summary: you cannot look at your thought because you cannot step outside it. Snippet was summarised, so exact sentence not confirmed word for word (input is marked paraphrase).",
+  "searched": true
+ },
+ {
+  "id": "q72c0b555",
+  "text_checked": "Questioning the solutions requires a tremendous courage.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://people.well.com/user/jct/courage.html",
+   "https://people.well.com/user/jct/chandra.htm",
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "The Courage to Stand Alone",
+  "wording_variants": [
+   "If you really question the solutions you will have to question the ones who have offered you those solutions. ... Questioning that requires a tremendous courage on your part."
+  ],
+  "note": "Paraphrase; the primary wording is 'Questioning that requires a tremendous courage on your part.' Also in Chandrasekhar excerpts and inner-quest.",
+  "searched": true
+ },
+ {
+  "id": "q1c893a18",
+  "text_checked": "Thinking about and struggling against 'sorrow' is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I The Certainty That Blasts Everything",
+  "wording_variants": [],
+  "note": "Exact phrase 'Since you can't stop thinking, and thinking is sorrow' hit Wikisource Mind is a Myth/I, well.com chapter1 and the holybooks PDF, in the passage on struggling against sorrow.",
+  "searched": true
+ },
+ {
+  "id": "qf0b3cb2e",
+  "text_checked": "The basic method of maintaining the continuity is the repetition of the question, 'How?'",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://quotewise.io/q/7ih58w/",
+   "https://en.wikiquote.org/wiki/Thomas_Ligotti"
+  ],
+  "book_per_sources": "unknown; Wikiquote lists it under Thomas Ligotti, The Conspiracy Against the Human Race (notes)",
+  "wording_variants": [],
+  "note": "Exact sentence is on Wikiquote's Thomas Ligotti page (Conspiracy Against the Human Race), describing a mind seeking continuity in a fictitious future; quotewise attributes the passage to U.G. Ligotti quotes U.G. at length in that book, so it may be U.G. quoted by Ligotti, but a primary-domain search of Wikisource/well.com/holybooks Mind is a Myth did not surface it. Attribution unresolved.",
+  "searched": true
+ },
+ {
+  "id": "qe27976db",
+  "text_checked": "You hook up each thought with the next, creating a false continuity. It is that continuity that is the problem.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III",
+   "https://people.well.com/user/jct/chapter3.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. III",
+  "wording_variants": [],
+  "note": "Snippet carries 'You hook up each thought with the next' and 'It is that continuity that is the problem.'",
+  "searched": true
+ },
+ {
+  "id": "q044d9da9",
+  "text_checked": "It is not an illusion, only your experience of it is an illusion.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I The Certainty That Blasts Everything",
+  "wording_variants": [],
+  "note": "In the passage about falling bombs; also reproduced in The Natural State compilation.",
+  "searched": true
+ },
+ {
+  "id": "qd05c2db1",
+  "text_checked": "you arrive seeking understanding, while I am only interested in making it crystal clear that there is nothing to understand.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. IV There Is Nothing To Understand",
+  "wording_variants": [
+   "My motive is direct and temporary: you arrive seeking understanding, while I am only interested in making it crystal clear that there is nothing to understand."
+  ],
+  "note": "Also reproduced in The Natural State compilation with near-identical wording.",
+  "searched": true
+ },
+ {
+  "id": "q373b0000",
+  "text_checked": "The highest goal is like a horizon that recedes as you approach it, a projection of your own fear.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf",
+   "https://people.well.com/user/jct/chapter1.html"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I The Certainty That Blasts Everything",
+  "wording_variants": [
+   "the so-called \"highest goal\" is like the horizon, and the further you move toward it, the further it recedes"
+  ],
+  "note": "Paraphrase of a located passage; the primary wording is 'the so-called highest goal is like the horizon, and the further you move toward it, the further it recedes', and the goal is called a projection of fear. 'a projection of your own fear' was not seen verbatim in the snippet.",
+  "searched": true
+ },
+ {
+  "id": "q6f33cc13",
+  "text_checked": "the same old nonsense repeating itself",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III",
+   "https://people.well.com/user/jct/chapter3.html",
+   "https://kwize.com/en/texts/U-G-Krishnamurti-The-Natural-State/"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. III",
+  "wording_variants": [
+   "Memory is nothing more than the same old nonsense repeating itself."
+  ],
+  "note": "Full sentence: 'Memory is nothing more than the same old nonsense repeating itself.' Mind is a Myth ch. III; the kwize 'Natural State' page draws on the compilation.",
+  "searched": true
+ },
+ {
+  "id": "q9c460863",
+  "text_checked": "The understanding that there is nothing to understand is all there is.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/V",
+   "https://people.well.com/user/jct/chapter5.html"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. V We Have Created This Jungle Society",
+  "wording_variants": [],
+  "note": "Opening line of Mind is a Myth ch. V on Wikisource and well.com chapter5.html.",
+  "searched": true
+ },
+ {
+  "id": "q0d1d00a2",
+  "text_checked": "the idea of selflessness is a protective invention against one's actual selfishness",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/IV"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. IV There Is Nothing to Understand",
+  "wording_variants": [
+   "There is no such thing as selflessness at all.",
+   "The answer to selfishness lies in selfishness, not a fictitious opposite called selflessness."
+  ],
+  "note": "Paraphrase of a located passage; the phrase 'protective invention' was not seen in the snippet.",
+  "searched": true
+ },
+ {
+  "id": "qcf088078",
+  "text_checked": "in the 'natural state' the continuity of thought is absent. What is present is a disjoined series of independent interactions.",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Science_and_U.G."
+  ],
+  "book_per_sources": "Science and U.G. (Wikisource essay); not confirmed in The Natural State",
+  "wording_variants": [],
+  "note": "'continuity of thought is absent' in the 'natural state' surfaces on Wikisource 'Science and U.G.', next to editorial-sounding sentences ('thought per se is not the problem; it is only its self-perpetuating process that is dangerous'). Third-person descriptive voice suggests an editor's summary rather than U.G. speaking. Exact phrase 'disjoined series of independent interactions' returned nothing on the open web.",
+  "searched": true
+ },
+ {
+  "id": "q8d5ee424",
+  "text_checked": "It is not a change in the structure of your thinking, but a change in the structure of the whole of your physical being.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Biology of Enlightenment (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Exact phrase search returned no U.G. pages; only the already-listed Reality Sandwich introduction carries it. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q68aa6bb3",
+  "text_checked": "all gurus are welfare organizations providing petty experiences to their followers",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "",
+  "wording_variants": [],
+  "note": "Exact-phrase search found nothing beyond the listed praveennv blog; previous corroborated-secondary not reproducible. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q241d3a5e",
+  "text_checked": "as long as you depend upon somebody for solving your problems, so long you remain helpless",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf"
+  ],
+  "book_per_sources": "Thought is Your Enemy",
+  "wording_variants": [],
+  "note": "Phrase 'depend upon somebody for solving your problems' located in Thought is Your Enemy (Wikisource and holybooks PDF), in a passage on dependence leaving one helpless and exploitable. Snippet was summarised; chapter not identified. [Kept at its earlier status: the exact wording was not seen.]",
+  "searched": true
+ },
+ {
+  "id": "qacfbd56d",
+  "text_checked": "Life has to be described in pure and simple physical and physiological terms.",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://en.wikisource.org/wiki/The_Natural_State",
+   "https://en.wikisource.org/wiki/Courage_to_Stand_Alone",
+   "https://people.well.com/user/jct/ugbio/ugbio9.htm"
+  ],
+  "book_per_sources": "unconfirmed; the phrase recurs in Mind is a Myth ch. I, The Natural State and Courage to Stand Alone",
+  "wording_variants": [
+   "pure and simple physical and physiological terms"
+  ],
+  "note": "The phrase 'pure and simple physical and physiological terms' is in several primary texts, but no snippet showed the full sentence beginning 'Life has to be described', so the book for this exact sentence is not fixed. Keep AZQuotes as the sentence-level source.",
+  "searched": true
+ },
+ {
+  "id": "q46e8ac7b",
+  "text_checked": "Charity is the filthiest invention of the human mind: first… [people give charity to prevent the have-nots from rebelling, and it also makes them feel less guilty].",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://new.keyhero.com/online-typing-test/16052"
+  ],
+  "book_per_sources": "A Taste of Death (per earlier pass; unconfirmed here)",
+  "wording_variants": [
+   "Charity is the filthiest invention of the human mind: first you take, then defend it with law and other means (keyhero summary)"
+  ],
+  "note": "Opening clause verbatim on keyhero (user-submitted, attributed to U.G.), but its continuation is about taking first and then defending with law, not the bracketed 'prevent the have-nots from rebelling' summary. No primary-domain hit; wording of continuation disputed.",
+  "searched": true
+ },
+ {
+  "id": "q190abbe4",
+  "text_checked": "The belief in reincarnation will only help us to look the other side.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Thought_is_Your_Enemy",
+   "https://people.well.com/user/jct/enemy2.htm",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf"
+  ],
+  "book_per_sources": "Thought is Your Enemy, Ch. 2",
+  "wording_variants": [
+   "the belief in reincarnation will only help us to look the other side and not to deal with the problem"
+  ],
+  "note": "Found in U.G.'s own text (not Jiddu): Thought is Your Enemy ch. 2 on well.com enemy2.htm, plus Wikisource and holybooks; also calls reincarnation a theory to explain away birth deformities.",
+  "searched": true
+ },
+ {
+  "id": "q93a61f20",
+  "text_checked": "I have nothing to say and what I am saying is not born out of my thinking.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "U.G. Krishnamurti: A Life (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Exact-phrase open web search returned nothing on U.G.; only the listed ug-k.blogspot serialisation. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q828c848c",
+  "text_checked": "India will *not* be that country.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Mystique of Enlightenment, Part Three (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Primary-domain search for 'India will not be that country' returned no match (Mystique Part One/Four and biography pages surfaced, without the line). [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q4b9ab831",
+  "text_checked": "I am not against the scientific method per se.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "",
+  "wording_variants": [],
+  "note": "Exact phrase not found on the open web or on Wikisource/well.com in a domain-restricted search. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q8017e676",
+  "text_checked": "man, who supposedly has achieved so much progress in the scientific field, cannot even predict precisely when an earthquake is going to occur",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Stopped in Our Tracks (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Exact-phrase searches (open and primary-domain) returned only unrelated earthquake-science pages. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q77b540c6",
+  "text_checked": "This can also lead to self-destruction for the sake of even a silly idea, as witnessed in wars.",
+  "verdict": "disputed",
+  "confirming_sources": [],
+  "book_per_sources": "Science and U.G. (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Primary-domain search found nothing. Note Science and U.G. appears to be an editorial essay, so even if confirmed it may not be U.G.'s own words.",
+  "searched": true
+ },
+ {
+  "id": "q585101a0",
+  "text_checked": "I had seven years of sadhana.",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_One",
+   "https://people.well.com/user/jct/mystiq1.htm"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part One",
+  "wording_variants": [
+   "I have done so much sadhana, seven years of sadhana"
+  ],
+  "note": "Snippet from the Mystique pages has 'so much sadhana, seven years of sadhana' (U.G. on why he could take what J. Krishnamurti offered). 'I had seven years of sadhana' not seen word for word. [Kept at its earlier status: the exact wording was not seen.]",
+  "searched": true
+ },
+ {
+  "id": "q39067cd0",
+  "text_checked": "Love, compassion, ahimsa, understanding, bliss, all these things which religion and psychology have placed before man, are only adding to the strain of the body.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "interview: K. Chandrasekhar audio-tape excerpts, Bliss and the Body (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Exact-phrase search returned no U.G. pages. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q5e50266d",
+  "text_checked": "Sex is for reproduction; people have turned it into a pleasure movement; an enlightened man can never have sex because he cannot reproduce another one like him.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "My Swan Song (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Search for 'cannot reproduce another one like him' returned nothing relevant. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "qdc117690",
+  "text_checked": "frauds who promise you some goodies that they can never deliver",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.inner-quest.org/UG_Words.htm"
+  ],
+  "book_per_sources": "My Swan Song (inner-quest compilation also carries it)",
+  "wording_variants": [
+   "peddle some goodies that they can never deliver"
+  ],
+  "note": "Snippet from inner-quest.org has the passage criticising religious figures: '... some goodies that they can never deliver'; the verb may be 'peddle' rather than 'promise you', and 'frauds' was not seen.",
+  "searched": true
+ },
+ {
+  "id": "q441961c4",
+  "text_checked": "nothing of what we consider to be good for the body is actually good for this body",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "inner-quest.org talk transcript (per input)",
+  "wording_variants": [],
+  "note": "Domain search hit only inner-quest.org UG.htm/UG_Words.htm (the already-listed host); no independent or book source. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "qcc9c525e",
+  "text_checked": "the body does not know that it is healthy or unhealthy",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "No Way Out, Ch. 9 (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Primary-domain search for 'does not know that it is healthy or unhealthy' found no match. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q670510be",
+  "text_checked": "man has created religion because it gives him a cover",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm"
+  ],
+  "book_per_sources": "No Way Out, Ch. 6",
+  "wording_variants": [],
+  "note": "Found in No Way Out ch. 6 (Wikisource and well.com). Wikiquote's Thomas Ligotti page also carries it (Ligotti quoting U.G.).",
+  "searched": true
+ },
+ {
+  "id": "q7bd7cc71",
+  "text_checked": "It is the body that is immortal. It is living from moment to moment.",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en.wikiquote.org/wiki/U._G._Krishnamurti"
+  ],
+  "book_per_sources": "The Sage and the Housewife, ch. 3 (per Wikiquote)",
+  "wording_variants": [],
+  "note": "Only Wikiquote surfaced (cites Sage and the Housewife ch. 3); no primary-text hit, so the conflict with Quotepark's No Way Out ch. 4 stays unresolved.",
+  "searched": true
+ },
+ {
+  "id": "qc852ca7b",
+  "text_checked": "happiness without one moment of unhappiness, pleasure without pain, it is the same thing",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm",
+   "https://people.well.com/user/jct/ugbio/ugbconv.htm"
+  ],
+  "book_per_sources": "No Way Out (probably Ch. 6)",
+  "wording_variants": [],
+  "note": "Phrase found in No Way Out (said of moksha/liberation); top hits were ch. 6, with the biography's Conversations section also carrying it. Chapter not confirmed with certainty.",
+  "searched": true
+ },
+ {
+  "id": "qfc5867cf",
+  "text_checked": "There is no happiness.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/Talk.htm",
+   "https://www.inner-quest.org/UG_Natural_State.htm"
+  ],
+  "book_per_sources": "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)",
+  "wording_variants": [
+   "There is no happiness. Total happiness is an invention."
+  ],
+  "note": "well.com Talk.htm transcript carries the exchange; primary transcript, not a book.",
+  "searched": true
+ },
+ {
+  "id": "qec037541",
+  "text_checked": "The only relationship you have with anybody in this world is \"What do I get out of it?\"",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_8"
+  ],
+  "book_per_sources": "No Way Out, Ch. 8 The Build-Up of Sex and Love",
+  "wording_variants": [
+   "all relationships are built on the foundation of 'What do I get out of this relationship?' It is nothing but mutual gratification."
+  ],
+  "note": "Paraphrase; the idea is in No Way Out ch. 8 but the exact sentence 'The only relationship you have with anybody...' was not seen. Should not be shown as a verbatim quote.",
+  "searched": true
+ },
+ {
+  "id": "q07b7ff4c",
+  "text_checked": "Why do you call it green?",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/SOT/SOT_Part_1.htm"
+  ],
+  "book_per_sources": "Stopped in Our Tracks, Book One",
+  "wording_variants": [
+   "You really don't know what it is. You've been taught that it is green."
+  ],
+  "note": "The tree-is-green dialogue is in Stopped in Our Tracks (well.com SOT Part 1); 'Why do you call it green?' itself was not seen verbatim, so it is a paraphrase.",
+  "searched": true
+ },
+ {
+  "id": "q9feeb1bf",
+  "text_checked": "I don't know what happiness is.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Sage and the Housewife, ch. 4 (per input; unconfirmed)",
+  "wording_variants": [
+   "If you do not know what happiness is you will never be unhappy. (other compilations)"
+  ],
+  "note": "Not found verbatim; related lines elsewhere say happiness is a cultural input. [Still carried by its listed source.]",
+  "searched": true
+ },
+ {
+  "id": "q95504a40",
+  "text_checked": "I am myself a thief.",
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "book_per_sources": "Stopped in Our Tracks (per input; unconfirmed)",
+  "wording_variants": [],
+  "note": "Domain-restricted search found nothing for 'I am myself a thief'.",
+  "searched": true
+ }
+]

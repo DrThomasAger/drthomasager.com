@@ -1,0 +1,562 @@
+[
+ {
+  "id": "q177de92b",
+  "text_checked": "Where there is no personal self, there is no personal God.",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://medium.com/@jkowall031/bernadette-roberts-who-is-a-catholic-nun-described-the-experience-of-no-self-in-her-book-the-466cb2174974",
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "book_per_sources": "The Experience of No-Self",
+  "wording_variants": [
+   "When there is no personal self, there is also no personal God."
+  ],
+  "note": "Attribution to The Experience of No-Self is consistent (Arraj essay cites SUNY ed. p.24; Medium essay quotes \"The moment of landing I knew: When there is no personal self, there is also no personal God.\"). Exact wording unresolved between the two secondary renderings; no primary text seen. Medium version adds context (\"moment of landing\"), which suggests it may be the fuller and more faithful one.",
+  "searched": true
+ },
+ {
+  "id": "q5a5cf149",
+  "text_checked": "These are two different experiences: union before the breakthrough, identity after the breakthrough.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (per Lockhart only)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact phrase searched with and without her name; no hit.",
+  "searched": true
+ },
+ {
+  "id": "q64642b84",
+  "text_checked": "a silence that was so total as to evoke fear, annihilation, point of no return",
+  "verdict": "not-ug",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (blogger paraphrase)",
+  "wording_variants": [
+   "...a pervasive silence of the faculties so total as to give rise to subtle apprehensions of fear"
+  ],
+  "note": "Not searched anew; earlier verification already showed this is the No Mind's Land blogger's paraphrase, and her own sentence reads differently. Not her words as given.",
+  "searched": true
+ },
+ {
+  "id": "q2f5dd30c",
+  "text_checked": "On one occasion, that silence could not be broken, for the fear did not come.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self",
+  "wording_variants": [
+   "One day that silence could not be broken, for the fear did not come."
+  ],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Variant wording (On one occasion / One day) remains unresolved; neither surfaced in search.",
+  "searched": true
+ },
+ {
+  "id": "q60937155",
+  "text_checked": "the self disappearing forever into this Great Silence",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Phrase searched with her name; no hit.",
+  "searched": true
+ },
+ {
+  "id": "qbb7bfd78",
+  "text_checked": "the only mystic I know who says something about this step beyond union, beyond self and God, is Meister Eckhart",
+  "verdict": "disputed",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (reviewers)",
+  "wording_variants": [
+   "the only mystic the author could find who spoke of this stage beyond union, beyond self and God, was Meister Eckhart"
+  ],
+  "note": "Search found her own related sentence from the Introduction of ENS: \"Here now, begins the journey beyond union, beyond self and God.\" (awakeningtoreality label page). The \"only mystic ... Meister Eckhart\" wording was not found; remains a reviewer paraphrase, not hers.",
+  "searched": true
+ },
+ {
+  "id": "qbe7feed4",
+  "text_checked": "a final and complete loss-of-self is not achieved by ecstasy, spiritual marriage, or by any such comparable experience",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self (per azquotes summary)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact phrase searched; no hit.",
+  "searched": true
+ },
+ {
+  "id": "q0b54eb65",
+  "text_checked": "Christ is not the self, but that which remains when there is no self.",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "book_per_sources": "What Is Self? foreword (Jeff Shore) per earlier verification; one search summary attributes the full line to ENS p.140",
+  "wording_variants": [
+   "that which remains when there is no self"
+  ],
+  "note": "Conflict: earlier verification found the full sentence in Jeff Shore's foreword, with only \"that which remains when there is no self\" (ENS p.140) being hers. A search summary drawing on the Arraj page cited the full line to ENS p.140, but the snippet may have merged the two. Quote only the fragment \"that which remains when there is no self\" as hers.",
+  "searched": true
+ },
+ {
+  "id": "qffee5269",
+  "text_checked": "Without the Eucharist, I hold it impossible to ever know the Real Christ.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ (front matter, per archive.org scan)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact sentence searched; no independent hit. The archive.org scan remains the only (primary-type) witness; treat as primary-scan-only if that scan is trusted.",
+  "searched": true
+ },
+ {
+  "id": "qc32db283",
+  "text_checked": "The Bible tells the story of the historical Jesus; the Eucharist presents the living, heavenly Christ.",
+  "verdict": "not-found",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ",
+  "wording_variants": [],
+  "note": "Paraphrase, not a quotation; the search for Real Christ/Eucharist wording found no independent source. Should not be presented as her words.",
+  "searched": true
+ },
+ {
+  "id": "qf08dbd7b",
+  "text_checked": "Every child is a product of genes and environment, but this can never be the whole story of one's life.",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "book_per_sources": "Contemplative: Autobiography of the Early Years, Introduction",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). The \"genes and environment\" sentence was not found. Her blog quotes the Introduction verbatim: \"This book is an account of my spiritual journey from birth to seventeen. Since my book The Path to No-Self, begins at age seventeen, the present book covers the earlier years and my initial steps in the contemplative path.\" That is a verified alternative quotation.",
+  "searched": true
+ },
+ {
+  "id": "qbbc255fb",
+  "text_checked": "Buddha's version is a refuge from the swirling cyclone of suffering, and Christ's is a refuge and salvation from a suffering self",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "book_per_sources": "interview: Stephan Bodian 1986",
+  "wording_variants": [
+   "Buddha articulated this central eye in negative terms as \"emptiness\" or \"void\", a refuge from the swirling cyclone of endless suffering."
+  ],
+  "note": "Source wording is \"a refuge from the swirling cyclone of endless suffering\"; the catalogue text drops \"endless\" and its second clause (\"Christ's is a refuge and salvation from a suffering self\") was not seen in any snippet. Passage is hers (Bodian 1986) but the given text is a compressed paraphrase.",
+  "searched": true
+ },
+ {
+  "id": "q7502014e",
+  "text_checked": "I met up with Buddhism only at the end of my journey, after the no-self experience.",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://blog.goo.ne.jp/akibus/e/4067e463331c6117a72a9339c7d1f209"
+  ],
+  "book_per_sources": "interview: Stephan Bodian, Yoga Journal Nov/Dec 1986 (reprinted in Timeless Visions, Healing Voices, 1991)",
+  "wording_variants": [],
+  "note": "A Japanese blog reproduction of the Bodian interview carries the line in her answer to Bodian's question on how the Christian path to no-self differs from Hindu and Buddhist paths. Snippet was summarised by the search tool, so word-for-word match is likely but not fully proven.",
+  "searched": true
+ },
+ {
+  "id": "qdde04e58",
+  "text_checked": "It never goes outside itself to know itself because the unmanifested, the manifesting, and the manifested are One.",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://blubrry.com/journals_of_spiritual/77294628/bernadette-roberts-on-how-it-works-diving-into-the-unmanifested/"
+  ],
+  "book_per_sources": "The Experience of No-Self (essay \"How it Works\", per spiritualteachers.org podcast description)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact sentence not surfaced. The podcast listing (blubrry mirror of the spiritualteachers.org podcast) confirms an essay titled \"How it Works\" by Roberts, on \"the unmanifested, manifesting, and manifested\", and says it comes from The Experience of No-Self. That supports the book/essay assignment but not the wording.",
+  "searched": true
+ },
+ {
+  "id": "q35f54d7e",
+  "text_checked": "and when I finally saw 'that' which remains when there is no self, I thought of Christ and how he too had seen 'that' which remained - a seeing which is the resurrection itself.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (per Arraj, likely)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Distinctive clause \"a seeing which is the resurrection itself\" searched with her name; no hit. Current corroborated-secondary label rests on Arraj alone; downgrade.",
+  "searched": true
+ },
+ {
+  "id": "qad3c641c",
+  "text_checked": "the second movement as a continuation and completion of the first",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "unassigned (quoted by Arraj, innerexplorations)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Not separately searched (budget); the Arraj page remains the only witness.",
+  "searched": true
+ },
+ {
+  "id": "q336b7ef3",
+  "text_checked": "God is everything that exists, except the self",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "book_per_sources": "2001 sketch (Mystics, Masters, Saints and Sages), per earlier verification",
+  "wording_variants": [
+   "Truly, God is all that exists–all, of course, but the self."
+  ],
+  "note": "The given text is Phil St. Romain's merged rendering. The Arraj essay on ENS quotes her as saying God \"is all that exists... God is all that is\". Use her verbatim sentence instead: \"Truly, God is all that exists–all, of course, but the self.\"",
+  "searched": true
+ },
+ {
+  "id": "q9bc5472b",
+  "text_checked": "the contemplative must journey alone",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "private letter to Philip St. Romain (his recollection)",
+  "wording_variants": [
+   "this way must be traveled alone"
+  ],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). His paraphrase of a private letter; no text of hers exists publicly. Should not be quoted as her words.",
+  "searched": true
+ },
+ {
+  "id": "q7ebeb747",
+  "text_checked": "Camaldoli is my only true home on this earth",
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts",
+   "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
+  ],
+  "book_per_sources": "reported speech (no book)",
+  "wording_variants": [],
+  "note": "Reported as something she often said; search hits are Wikipedia and its mirrors (mdwiki, cavac), which are not independent of each other. No primary witness. Keep as reported remark, not a quotation from a text.",
+  "searched": true
+ },
+ {
+  "id": "qeb72ab87",
+  "text_checked": "no-self is not God; rather, it is the gap between self and God",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (search summary of epdf mirror)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Search-summary rendering; exact wording never seen. Should not be quoted.",
+  "searched": true
+ },
+ {
+  "id": "q94e3d056",
+  "text_checked": "From the unitive state outward to the end of the marketplace stage, however, is the unknown path to no-self, a stage not often recognized in contemplative literature.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self, Preface",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Search surfaced paraphrases of the Preface idea (path between ego-transcendence and the falling away of all self) on Goodreads/SUNY listings but not this sentence.",
+  "searched": true
+ },
+ {
+  "id": "q9f1e2629",
+  "text_checked": "what the final stage really is, or how far God will stretch man's original design, no one knows",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact phrase searched; no hit.",
+  "searched": true
+ },
+ {
+  "id": "q13546d70",
+  "text_checked": "Christ is God creating Its own human nature - i.e., man's one universal human nature - eternally one with Itself",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "book_per_sources": "The Real Christ (ContemplativeChristians.com, 1st printing Feb 2017 per scan)",
+  "wording_variants": [
+   "the Incarnation was God creating Its own human nature, man's one universal human nature, eternally one with Itself"
+  ],
+  "note": "Archive.org scan of The Real Christ carries the core wording \"God creating Its own human nature, man's one universal human nature, eternally one with Itself\", but with \"the Incarnation was\" as subject per the search snippet; the leading \"Christ is\" (as on the blog summary) not confirmed in the book text. Safest to quote the fragment from \"God creating\" onward.",
+  "searched": true
+ },
+ {
+  "id": "q07dd9a3a",
+  "text_checked": "the name \"Jesus\" is solely a reference to a particular human being or person",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Searched; only the archive.org scan (already listed) carries it.",
+  "searched": true
+ },
+ {
+  "id": "q76f6699a",
+  "text_checked": "his human nature was totally changed, transfigured and glorified",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "book_per_sources": "The Real Christ, definitions section (front matter)",
+  "wording_variants": [],
+  "note": "Her own Books/Manuscripts blog page excerpts the book's definitions section: after the resurrection and ascension Jesus' \"human nature was totally changed, transfigured and glorified\". Two independent primary witnesses (her blog and the archive.org scan).",
+  "searched": true
+ },
+ {
+  "id": "qa03ba5fc",
+  "text_checked": "Of first importance is to define the major terms used in this book, namely \"Logos\", \"Christ\", and \"Jesus\". Those who think these terms are interchangeable...",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ, front matter (her blog)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact opening sentence searched; no hit. Blog page itself confirms the book separates \"Logos\", \"Christ\" and \"Jesus\" as distinct terms.",
+  "searched": true
+ },
+ {
+  "id": "q34adbb49",
+  "text_checked": "God is not a being, but Infinite Existence, so we must avoid treating the Trinity as three beings",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ (blog summary)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). \"God is not a being\" hits are Tillich-related; nothing of hers. A search-summary paraphrase; should not be presented as a quotation.",
+  "searched": true
+ },
+ {
+  "id": "qa2a013c5",
+  "text_checked": "that which acts, that which it acts upon, and the act itself are one without division",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self, essay \"How it Works\" (per podcast description)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Western Mystics remains the only text witness. The podcast description supports the essay's existence and theme (unmanifested, manifesting, manifested).",
+  "searched": true
+ },
+ {
+  "id": "qad12664b",
+  "text_checked": "there is no multiplicity of existences; only what Is has existence, an existence that can expand itself into an infinite variety of forms",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self, essay \"How it Works\" (per podcast description)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Western Mystics remains the only text witness.",
+  "searched": true
+ },
+ {
+  "id": "qbb9f8d1b",
+  "text_checked": "Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth: that ultimately, eternal life is beyond self or consciousness.",
+  "verdict": "single-source",
+  "confirming_sources": [
+   "https://www.goodreads.com/work/quotes/66521494-the-christian-contemplative-journey-essays-on-the-path"
+  ],
+  "book_per_sources": "The Christian Contemplative Journey: Essays on the Path (Goodreads work-quotes page)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Only Goodreads again (author page and the work-quotes page for \"The Christian Contemplative Journey: Essays on the Path\"), which is the same site and not independent. Goodreads attaches it to that essays volume, so the book field is supported by Goodreads only.",
+  "searched": true
+ },
+ {
+  "id": "q1c7dca73",
+  "text_checked": "The process of unveiling will eventually bring us in contact with ultimate reality – a reality we cannot define or talk about using words.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "unassigned (tesli.org)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact sentence searched with no hit anywhere. The tesli.org wording reads like that site's own summary; treat as unverified and possibly not hers.",
+  "searched": true
+ },
+ {
+  "id": "q34bda6ae",
+  "text_checked": "Since I hold no human being is God, those who disagree will only find this book upsetting and disagreeable.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Real Christ (author warning on her blog)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact sentence searched; no hit. Wikipedia notes the online book \"includes a warning to readers\", which supports the context but not the wording.",
+  "searched": true
+ },
+ {
+  "id": "qa1678a05",
+  "text_checked": "the Passive Night of the Spirit as the falling away of the ego-center, the dire experience of emptiness and void in ourselves",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self, Preface",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Related wording is hers in the Bodian 1986 interview (\"the falling away of the ego-center, which leaves a dark hole, a void or empty space in ourselves\"; \"the feeling of terrible void and emptiness\"), but this Preface fragment was not found.",
+  "searched": true
+ },
+ {
+  "id": "q23bf0396",
+  "text_checked": "entrance into the Passive Night of the Spirit is the beginning of the unitive state or unitive way of life",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self, Preface",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). The SUNY blurb says the path runs from the transcendence of the ego-center, \"which begins the unitive state\"; this fragment not found verbatim.",
+  "searched": true
+ },
+ {
+  "id": "q35883b4d",
+  "text_checked": "a movement from an I-thou consciousness to a simple and singular We consciousness",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Only an unsourced P2P Foundation wiki page speaks of a \"we\" consciousness; \"I-thou consciousness\" not found.",
+  "searched": true
+ },
+ {
+  "id": "q5bf1f073",
+  "text_checked": "once we have adjusted to the unitive state, the spiritual journey moves on to yet another more final ending",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self"
+  ],
+  "book_per_sources": "SUNY Press publisher blurb for The Path to No-Self",
+  "wording_variants": [],
+  "note": "Only witness is the publisher blurb, which is editorial copy and may not be her wording. Not found in any text of hers. Mark as publisher's words unless the book text confirms it.",
+  "searched": true
+ },
+ {
+  "id": "q77f89b56",
+  "text_checked": "With the disappearance of self and God, the entire affective system of feeling and emotion disappeared",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (per Dharma Overground poster)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Phrase \"the entire affective system\" not found. A related, verified phrasing of hers in the Bodian interview: self is \"the entire dimension of human knowledge and feeling-experience\".",
+  "searched": true
+ },
+ {
+  "id": "q4d0a46fa",
+  "text_checked": "a dynamic, intense state of taking care of whatever arises in the now-moment",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (per Dharma Overground poster)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). ",
+  "searched": true
+ },
+ {
+  "id": "q76139afc",
+  "text_checked": "come off the top of the head",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "talk \"A Passage Through Self\" (per Shalom Place)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Wikipedia confirms the talk \"A Passage Through Self\" (circles diagram; DVD, dated 1987 or 2012 in different lists), but not the phrase.",
+  "searched": true
+ },
+ {
+  "id": "q7c229bd4",
+  "text_checked": "Roberts's insight into Buddhism far surpasses that of many Buddhist writers",
+  "verdict": "not-ug",
+  "confirming_sources": [],
+  "book_per_sources": "What Is Self?, Foreword by Jeff Shore",
+  "wording_variants": [],
+  "note": "Jeff Shore's foreword (search confirms Shore wrote the foreword to What Is Self?, Sentient 2005). Not Roberts's words; also only a search-summary paraphrase of the foreword.",
+  "searched": true
+ },
+ {
+  "id": "q692cbd54",
+  "text_checked": "Down the road from where I lived there was a monastery by the sea, and on afternoons when I could get away I liked to spend some time alone in the silence of its chapel.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self, Part I ch.1 (per Perlego preview)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Searched \"monastery by the sea\" with her name; no hit outside Perlego.",
+  "searched": true
+ },
+ {
+  "id": "qdec4ad93",
+  "text_checked": "Sister was rattling the keys of the chapel door",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self, Part I ch.1 (per Perlego preview)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). ",
+  "searched": true
+ },
+ {
+  "id": "q1e2addbd",
+  "text_checked": "desiring for them the same good we desire for ourselves",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Experience of No-Self (Goodreads highlight)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact phrase searched; no hit on quote sites or elsewhere.",
+  "searched": true
+ },
+ {
+  "id": "q83876db2",
+  "text_checked": "something like an underground explosion, with all parts of being thrown out of control in every direction",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self (pdfcoffee mirror, near p.47)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). \"underground explosion\" with her name returns only news items.",
+  "searched": true
+ },
+ {
+  "id": "qfe900dfc",
+  "text_checked": "once the denial is completed, the energies vanish and a blessed, divine stillness takes their place",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self (pdfcoffee mirror)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Paraphrase; even the verbatim kernel \"blessed, divine stillness\" was not found elsewhere.",
+  "searched": true
+ },
+ {
+  "id": "q6e665603",
+  "text_checked": "the silence no longer produces any energy, because everything has become immovably still",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Path to No-Self (pdfcoffee mirror)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Paraphrase; kernel \"immovably still\" not found elsewhere.",
+  "searched": true
+ },
+ {
+  "id": "qa96e5453",
+  "text_checked": "the revelation and mystery of Christ has [to be] exploded to reveal and include all Truth",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "What Is Self? p.127 (per a secondary source)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Exact phrase searched; no hit.",
+  "searched": true
+ },
+ {
+  "id": "q022454d5",
+  "text_checked": "universal human nature is not a numerical one among many - nor is God a numerical one among many",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "2015 SAND paper (o-meditation PDF); her blog lists the related paper \"Christ as the Definition of 'Non-duality'\"",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). Her blog excerpts a related point (\"one can count heads, but not human natures\"), but not this sentence.",
+  "searched": true
+ },
+ {
+  "id": "q9a2a3189",
+  "text_checked": "Christ is the eternal Godhead, while man is once removed from the Godhead",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "forum paraphrase (spiritualteachers.proboards)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). A forum poster's rendering; should not be quoted as hers.",
+  "searched": true
+ },
+ {
+  "id": "q215e7bff",
+  "text_checked": "He thinks what I mean by No-Self is no different than what the Buddhists mean by their an-atman doctrine",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "2008 reply to James Arraj (blog)",
+  "wording_variants": [],
+  "note": "No independent source found in this pass; still carried only by the already-listed source(s). The innerexplorations page confirms that Roberts responded to Arraj in June 2008 (\"Bernadette Roberts responds to Jim Arraj\"), which supports the source attribution but not the wording.",
+  "searched": true
+ },
+ {
+  "id": "q36aa0c20",
+  "text_checked": "forcing the fit",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "book_per_sources": "title of her 2008 self-published manuscript \"Forcing the Fit\"",
+  "wording_variants": [],
+  "note": "Rests on the already-listed own-blog page (manuscript title). This pass's search (with Almaas/Marion/Arraj) found nothing new. Low risk as a title.",
+  "searched": true
+ }
+]

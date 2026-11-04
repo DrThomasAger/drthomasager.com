@@ -3211,7 +3211,7 @@
   "duration": null,
   "host": "papercutszines.com",
   "url": "https://papercutszines.com/cant-see-your-own-face",
-  "description": "Zine surfaced alongside Goner, likely Brawley-related; unexamined.",
+  "description": "Zine surfaced alongside Goner, likely Brawley-related; unexamined. [Checked: Search for 'Can't See Your Own Face' zine / Paper Cuts / Louis Brawley returned only unrelated Paper Cuts items; not confirmed, U.G. link unverified.]",
   "tags": [
    "zine",
    "brawley",
@@ -3502,7 +3502,7 @@
   "medium": "archive",
   "title": "Internet Archive text: Stopped in Our Tracks (227p)",
   "date": null,
-  "year": null,
+  "year": 2005,
   "place": "Bangalore, India",
   "people": [
    "K. Chandrasekhar",
@@ -3513,7 +3513,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/UGKrishnamurtiStoppedInOurTracks227p",
-  "description": "Telugu notebooks translated and edited by Narayana Moorty; appears in the archive.org recording with Dr K.B. Rao and Brahmachari.",
+  "description": "Telugu notebooks translated and edited by Narayana Moorty; appears in the archive.org recording with Dr K.B. Rao and Brahmachari. [Checked: PDF of Stopped in Our Tracks (Chandrasekhar notebooks, tr. Narayana Moorty), first published Smriti Books 2005 per WELL bibliography; scan's edition not verified]",
   "tags": [
    "archive-org",
    "text",
@@ -3549,7 +3549,8 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/UGKrishnamurtiStoppedInOurTracks227p",
-   "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu"
+   "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "archives",
   "also_titled": [
@@ -5171,7 +5172,7 @@
   "title": "Douglas Rosestone and Nancy — named in brief, no results",
   "date": null,
   "year": null,
-  "place": null,
+  "place": "Saanen, Switzerland",
   "people": [
    "Douglas Rosestone",
    "Nancy"
@@ -5181,7 +5182,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "No results surfaced for either in this sweep.",
+  "description": "No results surfaced for either in this sweep. [Checked: WELL 'U.G. Krishnamurti: A Life' chapter 7 names Douglas Rosestone, placing him in Saanen during an episode where a sick man ('Scott') asked U.G. for healing; also mentions 1978-79 in Mahabaleshwar with U.G. 'Nancy' not confirmed.]",
   "tags": [
    "person",
    "lead",
@@ -5192,8 +5193,10 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio7.htm"
+  ],
   "origin": "archives"
  },
  {
@@ -7457,41 +7460,6 @@
   ]
  },
  {
-  "id": "i2a352d35",
-  "medium": "audio",
-  "title": "Andy LeSavage 'Krishnamurti' podcast (2018–19)",
-  "date": "2018",
-  "year": 2018,
-  "place": null,
-  "people": [
-   "Andy LeSavage"
-  ],
-  "format": "podcast (Apple Podcasts)",
-  "language": "English",
-  "duration": null,
-  "host": "podcasts.apple.com",
-  "url": "https://podcasts.apple.com/us/podcast/krishnamurti/id1355495170",
-  "description": "Short-episode podcast 2018–19 titled 'Krishnamurti'; unclear whether about U.G. or J. Krishnamurti.",
-  "tags": [
-   "podcast",
-   "apple-podcasts",
-   "2010s",
-   "uncertain-subject",
-   "audio",
-   "2018",
-   "person-lesavage",
-   "host-podcasts-apple-com",
-   "format-podcast",
-   "lang-english",
-   "confidence-lead"
-  ],
-  "confidence": "lead",
-  "sources": [
-   "https://podcasts.apple.com/us/podcast/krishnamurti/id1355495170"
-  ],
-  "origin": "audio"
- },
- {
   "id": "ic4a0bb09",
   "medium": "audio",
   "title": "sonichits — 'U.G. Krishnamurti – Radio Interview'",
@@ -8185,15 +8153,15 @@
   "medium": "audio",
   "title": "YouTube clip: 'Consciousness Naturalness Knowledge Intelligence Meditation'",
   "date": null,
-  "year": null,
-  "place": null,
+  "year": 1982,
+  "place": "Amsterdam, Netherlands",
   "people": [],
   "format": "YouTube (video with audio)",
   "language": "English",
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=8Vau7s1cuCM",
-  "description": "youtube id 8Vau7s1cuCM; description: recorded by Henk Schonewille, transcribed into The Courage to Stand Alone",
+  "description": "youtube id 8Vau7s1cuCM; description: recorded by Henk Schonewille, transcribed into The Courage to Stand Alone [Checked: recorded Amsterdam, September 1982: clip is from the Henk Schonewille tapes transcribed as The Courage to Stand Alone, which catalogues date to Amsterdam, Sept 1982]",
   "tags": [
    "talk",
    "youtube",
@@ -8216,7 +8184,9 @@
   "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=8Vau7s1cuCM",
-   "https://www.youtube.com/watch?v=hF6-nfnIe7Y"
+   "https://www.youtube.com/watch?v=hF6-nfnIe7Y",
+   "https://cageweb.be/catalog/cgw01:000873586",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -8234,15 +8204,15 @@
   "medium": "audio",
   "title": "YouTube clip: 'There's Absolutely Nothing You Can Call Your Own'",
   "date": null,
-  "year": null,
-  "place": null,
+  "year": 1982,
+  "place": "Amsterdam, Netherlands",
   "people": [],
   "format": "YouTube (video with audio)",
   "language": "English",
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=hF6-nfnIe7Y",
-  "description": "YouTube clip of U.G. talking; cited as derived from the Henk Schonewille tapes.",
+  "description": "YouTube clip of U.G. talking; cited as derived from the Henk Schonewille tapes. [Checked: recorded Amsterdam 1982: clip cited as derived from the Henk Schonewille tapes (The Courage to Stand Alone, Amsterdam Sept 1982); attribution to those tapes comes from the item description]",
   "tags": [
    "talk",
    "youtube",
@@ -8258,7 +8228,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=hF6-nfnIe7Y"
+   "https://www.youtube.com/watch?v=hF6-nfnIe7Y",
+   "https://cageweb.be/catalog/cgw01:000873586"
   ],
   "origin": "audio",
   "also_titled": [
@@ -8282,7 +8253,7 @@
   "duration": "c. 3 min",
   "host": "remembering-ug.blogspot.com",
   "url": "http://remembering-ug.blogspot.com/2012/08/video-swan-song.html",
-  "description": "Approximately three-minute 'Swan Song' video embedded on the Remembering UG blog; likely a reading or montage rather than U.G.'s voice. Unverified.",
+  "description": "Approximately three-minute 'Swan Song' video embedded on the Remembering UG blog; likely a reading or montage rather than U.G.'s voice. Unverified. [Checked: Search for 'Swan Song' video on remembering-ug.blogspot.com returned only unrelated 'Swan Song' items; not confirmed.]",
   "tags": [
    "swan-song",
    "blog",
@@ -8560,7 +8531,7 @@
   "medium": "image",
   "title": "Stopped in Our Tracks online text (WELL, sitparti.htm)",
   "date": null,
-  "year": null,
+  "year": 2005,
   "place": "Yercaud, India",
   "people": [],
   "format": "scanned document",
@@ -8568,7 +8539,7 @@
   "duration": null,
   "host": "people.well.com",
   "url": "https://people.well.com/user/jct/sitparti.htm",
-  "description": "Online text of Chandrasekhar's Stopped in Our Tracks; records that U.G. burned hundreds of rare photographs, tapes, videos and letters in a bonfire at Yercaud.",
+  "description": "Online text of Chandrasekhar's Stopped in Our Tracks; records that U.G. burned hundreds of rare photographs, tapes, videos and letters in a bonfire at Yercaud. [Checked: online text of Stopped in Our Tracks, first published Smriti Books 2005 per WELL bibliography; publication year]",
   "tags": [
    "well",
    "stopped-in-our-tracks",
@@ -8591,7 +8562,8 @@
   "confidence": "S",
   "sources": [
    "https://people.well.com/user/jct/sitparti.htm",
-   "https://people.well.com/user/jct/SIT/part_i.htm"
+   "https://people.well.com/user/jct/SIT/part_i.htm",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "images",
   "also_titled": [
@@ -9131,7 +9103,7 @@
   "duration": null,
   "host": "papercutszines.com",
   "url": "https://papercutszines.com/cant-see-your-own-face/2020/1/7/cant-see-your-own-face",
-  "description": "Zine surfaced alongside Goner, carrying Brawley material; unexamined.",
+  "description": "Zine surfaced alongside Goner, carrying Brawley material; unexamined. [Checked: Same search as ibd903a91: zine not surfaced; Brawley material unconfirmed.]",
   "tags": [
    "brawley",
    "zine",
@@ -9536,7 +9508,7 @@
   "duration": null,
   "host": "u-g-krishnamurti.blogspot.com",
   "url": "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
-  "description": "Bangalore/Poornakutee-era anecdotes; posts may carry photos.",
+  "description": "Bangalore/Poornakutee-era anecdotes; posts may carry photos. [Checked: Blog post 'Stopped In Our Tracks: If Not Moksha, At Least a Transistor—Krishna Bhagavatar' (April 2007) confirmed, excerpt from K. Chandrasekhar's notebooks tr./ed. Narayana Moorty; other April 2007 posts also surfaced (First Visit to Madras, Footnotes, I Report On U.G. to Chalam's Family). Valentine de Kerven post not surfaced; photos unconfirmed.]",
   "tags": [
    "blog",
    "valentine-de-kerven",
@@ -9551,10 +9523,11 @@
    "place-bangalore",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "http://u-g-krishnamurti.blogspot.com/2007/04/valentine-de-kerven-it-was-january-20.html",
-   "http://u-g-krishnamurti.blogspot.com/2007/04/if-not-moksha-at-least.html"
+   "http://u-g-krishnamurti.blogspot.com/2007/04/if-not-moksha-at-least.html",
+   "https://u-g-krishnamurti.blogspot.com/2007/04/if-not-moksha-at-least.html"
   ],
   "origin": "images"
  },
@@ -9859,7 +9832,7 @@
   "duration": null,
   "host": "piermarton.info",
   "url": "https://piermarton.info/u-g-krishnamurti-not-the-famous-one/",
-  "description": "Pier Marton's page on U.G.",
+  "description": "Pier Marton's page on U.G. [Checked: Pier Marton's page 'U.G. Krishnamurti (not the famous one)' found; lists U.G.'s main websites and books. Related 2012 post on his brainbleed blog 'a challenged self hears u g krishnamurti' (22 Feb 2012).]",
   "tags": [
    "website",
    "image",
@@ -9868,9 +9841,11 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
-   "https://piermarton.info/u-g-krishnamurti-not-the-famous-one/"
+   "https://piermarton.info/u-g-krishnamurti-not-the-famous-one/",
+   "https://piermarton.info/u-g-krishnamurti-not-the-famous-one",
+   "https://brainbleed.piermarton.info/2012/02/22/a-challenged-self-hears-u-g-krishnamurti"
   ],
   "origin": "images"
  },
@@ -9928,40 +9903,6 @@
    "images",
    "wave5-press"
   ]
- },
- {
-  "id": "i4e9d8f43",
-  "medium": "image",
-  "title": "Swissinfo feature on Krishnamurti Swiss gatherings (mixed J.K./U.G., Gstaad)",
-  "date": null,
-  "year": null,
-  "place": "Gstaad, Switzerland",
-  "people": [],
-  "format": "gallery page",
-  "language": "English",
-  "duration": null,
-  "host": "swissinfo.ch",
-  "url": "https://www.swissinfo.ch/eng/society/krishnamurti-the-philosopher-and-his-swiss-gatherings/47286678",
-  "description": "Swissinfo feature on the Saanen/Gstaad gatherings; mixed Jiddu/U.G. context.",
-  "tags": [
-   "press",
-   "gstaad",
-   "saanen",
-   "mixed-jk",
-   "image",
-   "host-swissinfo-ch",
-   "format-gallery-page",
-   "lang-english",
-   "place-gstaad",
-   "place-saanen",
-   "place-switzerland",
-   "confidence-lead"
-  ],
-  "confidence": "lead",
-  "sources": [
-   "https://www.swissinfo.ch/eng/society/krishnamurti-the-philosopher-and-his-swiss-gatherings/47286678"
-  ],
-  "origin": "images"
  },
  {
   "id": "i05b8ebbe",
@@ -10838,7 +10779,7 @@
   "medium": "image",
   "title": "Mind Is a Myth — Smriti Books Indian edition cover (ISBN 9788188043613)",
   "date": null,
-  "year": null,
+  "year": 2009,
   "place": null,
   "people": [],
   "format": "book cover",
@@ -10846,7 +10787,7 @@
   "duration": null,
   "host": "abebooks.com",
   "url": "https://www.abebooks.com/9788188043613/Mind-Myth-Conversations-U.G-Krishnamurti-8188043613/plp",
-  "description": "Cover of the Smriti Books edition.",
+  "description": "Cover of the Smriti Books edition. [Checked: ISBN 9788188043613 is the Winsome Books India 2009 paperback per AbeBooks (not Smriti; the Smriti edition is 9788187967101, 2002/2005); publication year]",
   "tags": [
    "book-cover",
    "mind-is-a-myth",
@@ -10899,15 +10840,15 @@
   "medium": "image",
   "title": "El coraje de estar solo — Spanish edition cover (Scribd)",
   "date": null,
-  "year": null,
-  "place": null,
+  "year": 1982,
+  "place": "Amsterdam, Netherlands",
   "people": [],
   "format": "book cover",
   "language": "Spanish",
   "duration": null,
   "host": "scribd.com",
   "url": "https://www.scribd.com/document/240431373/UG-Krishnamurti-El-Coraje-de-Estar-Solo",
-  "description": "Spanish translation of The Courage to Stand Alone on Scribd, with cover.",
+  "description": "Spanish translation of The Courage to Stand Alone on Scribd, with cover. [Checked: Spanish translation of The Courage to Stand Alone; underlying conversations recorded Amsterdam Sept 1982; Spanish edition's publication year not found]",
   "tags": [
    "book-cover",
    "courage-to-stand-alone",
@@ -10922,7 +10863,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.scribd.com/document/240431373/UG-Krishnamurti-El-Coraje-de-Estar-Solo"
+   "https://www.scribd.com/document/240431373/UG-Krishnamurti-El-Coraje-de-Estar-Solo",
+   "https://cageweb.be/catalog/cgw01:000873586"
   ],
   "origin": "images"
  },
@@ -11130,7 +11072,7 @@
   "medium": "image",
   "title": "14 Days in Palm Springs with UG Krishnamurti — cover (dokumen.pub)",
   "date": null,
-  "year": null,
+  "year": 2021,
   "place": "Palm Springs, California, USA",
   "people": [
    "U.G. Krishnamurti"
@@ -11140,7 +11082,7 @@
   "duration": null,
   "host": "dokumen.pub",
   "url": "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
-  "description": "Circulating PDF transcript/memoir of two weeks with UG in Palm Springs; author/compiler and date to confirm.",
+  "description": "Circulating PDF transcript/memoir of two weeks with UG in Palm Springs; author/compiler and date to confirm. [Checked: Sabyasachi Guha's account of 14 days with UG in Palm Springs in 1996; English edition 'In Palm Springs with U.G. Krishnamurti' published 2021 (Bengali original Kolkata 2009) per OM Publications / Exotic India listings; which edition the dokumen.pub copy is not verified]",
   "tags": [
    "book-cover",
    "palm-springs",
@@ -11165,7 +11107,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html"
+   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
+   "https://ompublications.in/product/books/OM52317",
+   "https://exoticindiaart.com/book/details/in-palm-springs-with-u-g-krishnamurti-uau095/"
   ],
   "origin": "images",
   "also_titled": [
@@ -11832,7 +11776,7 @@
   "duration": null,
   "host": "wikibio.in",
   "url": "https://wikibio.in/parveen-babi/",
-  "description": "Unverified instance of the Parveen Babi photograph.",
+  "description": "Unverified instance of the Parveen Babi photograph. [Checked: wikibio.in caption not surfaced. Provenance lead: WELL photo pages for 'U.G. Krishnamurti: A Life' show U.G. with Parveen Babi, incl. Pebble Beach, California and New York 1983 (https://people.well.com/user/jct/bphotos/ph6.htm, https://people.well.com/user/jct/bphotos/ph3.htm).]",
   "tags": [
    "gap",
    "parveen-babi",
@@ -11847,38 +11791,6 @@
   "confidence": "lead",
   "sources": [
    "https://wikibio.in/parveen-babi/"
-  ],
-  "origin": "images"
- },
- {
-  "id": "i1eda37c0",
-  "medium": "image",
-  "title": "GAP: Gulf News 'Goodbye my love' (obituary photos)",
-  "date": null,
-  "year": 2007,
-  "place": null,
-  "people": [],
-  "format": "photograph",
-  "language": "English",
-  "duration": null,
-  "host": "gulfnews.com",
-  "url": "https://gulfnews.com/amp/story/lifestyle%2Fgoodbye-my-love-1.255609",
-  "description": "Press piece possibly carrying obituary photographs; not examined.",
-  "tags": [
-   "gap",
-   "press",
-   "obituary",
-   "2007",
-   "image",
-   "2000s",
-   "host-gulfnews-com",
-   "format-photograph",
-   "lang-english",
-   "confidence-lead"
-  ],
-  "confidence": "lead",
-  "sources": [
-   "https://gulfnews.com/amp/story/lifestyle%2Fgoodbye-my-love-1.255609"
   ],
   "origin": "images"
  },
@@ -11933,7 +11845,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Second edition, 1992, Dinesh Publications / Akshaya Prakashana, Bangalore. Not surfaced in search; from background knowledge.",
+  "description": "Second edition, 1992, Dinesh Publications / Akshaya Prakashana, Bangalore. Not surfaced in search; from background knowledge. [Checked: WELL 'U.G.'s Books, Interviews, and References' lists The Mystique of Enlightenment, ed. Rodney Arms, first edition 1982, second edition 1992. Publisher of 1992 edition (Dinesh / Akshaya) not shown; Akshaya (Bangalore) appears as 1992 publisher of No Way Out; third edition is Sahasranama Prakashana, Bangalore.]",
   "tags": [
    "book",
    "mystique-of-enlightenment",
@@ -11951,7 +11863,9 @@
    "confidence-t"
   ],
   "confidence": "T",
-  "sources": [],
+  "sources": [
+   "https://people.well.com/user/jct/lists.html"
+  ],
   "origin": "text"
  },
  {
@@ -12163,7 +12077,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Sharp Ink e-book 2023, ISBN 9788028286125.",
+  "description": "Sharp Ink e-book 2023, ISBN 9788028286125. [Checked: Search confirms Sharp Ink issued U.G. e-books in Feb 2023 (Natural State Kindle 21 Feb 2023; Collected Works 24 Feb 2023), but no listing for the Sharp Ink Mystique of Enlightenment (ISBN 9788028286125) surfaced.]",
   "tags": [
    "book",
    "mystique-of-enlightenment",
@@ -12178,8 +12092,10 @@
    "lang-english",
    "confidence-s"
   ],
-  "confidence": "S",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://www.goodreads.com/work/editions/18946570-the-natural-state-the-unrational-ideas-of-a-man-called-u-g"
+  ],
   "origin": "text"
  },
  {
@@ -12346,7 +12262,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, New Delhi, 2003, eds. Terry Newland and Sunita Pant Bansal.",
+  "description": "Smriti Books, New Delhi, 2003, eds. Terry Newland and Sunita Pant Bansal. [Checked: Search did not surface a Smriti Books (New Delhi) listing for Mind is a Myth; only Everand ebook (Nov 2009, ed. Terry Newland, Boulder CO). Smriti 2003 edition unconfirmed by search.]",
   "tags": [
    "book",
    "mind-is-a-myth",
@@ -12364,7 +12280,7 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "S",
+  "confidence": "lead",
   "sources": [],
   "origin": "text"
  },
@@ -12510,7 +12426,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Winsome Books India 2009, ISBN 978-8188043620.",
+  "description": "Winsome Books India 2009, ISBN 978-8188043620. [Checked: Winsome Books 2009 Thought is Your Enemy not surfaced by search.]",
   "tags": [
    "book",
    "thought-is-your-enemy",
@@ -12526,7 +12442,7 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "S",
+  "confidence": "lead",
   "sources": [],
   "origin": "text"
  },
@@ -12658,7 +12574,7 @@
   "medium": "text",
   "title": "Thought is Your Enemy — holybooks.com PDF",
   "date": null,
-  "year": null,
+  "year": 1990,
   "place": null,
   "people": [],
   "format": "full text (pdf)",
@@ -12666,7 +12582,7 @@
   "duration": null,
   "host": "holybooks.com",
   "url": "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
-  "description": "Full PDF on holybooks.com, with its page.",
+  "description": "Full PDF on holybooks.com, with its page. [Checked: PDF of Thought Is Your Enemy; first published by Sowmya Publishers, Bangalore — 1990 per PhilArchive citation (WELL bibliography says 1991); edition of this PDF not verified]",
   "tags": [
    "book",
    "thought-is-your-enemy",
@@ -12682,7 +12598,9 @@
   "confidence": "S",
   "sources": [
    "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
-   "https://www.holybooks.com/thought-enemy-conversations-ug/"
+   "https://www.holybooks.com/thought-enemy-conversations-ug/",
+   "https://dc2.philarchive.org/s/Uppaluri%20Gopala%20Krishnamurti",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -12701,7 +12619,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, New Delhi, 2002 edition; a Smriti listing dated 31 Dec 2005 also exists.",
+  "description": "Smriti Books, New Delhi, 2002 edition; a Smriti listing dated 31 Dec 2005 also exists. [Checked: Smriti Books No Way Out 2002 edition not surfaced; search shows Akshaya (Bangalore) as 1992 publisher of No Way Out (WELL lists page). Unconfirmed.]",
   "tags": [
    "book",
    "no-way-out",
@@ -12717,7 +12635,7 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "S",
+  "confidence": "lead",
   "sources": [],
   "origin": "text"
  },
@@ -12736,7 +12654,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "e-artnow 2021, ISBN 978-8027341498.",
+  "description": "e-artnow 2021, ISBN 978-8027341498. [Checked: BookScouter lists e-artnow paperback editions of No Way Out and The Natural State, July 2021. ISBN not shown in snippet.]",
   "tags": [
    "book",
    "no-way-out",
@@ -12752,7 +12670,9 @@
    "confidence-s"
   ],
   "confidence": "S",
-  "sources": [],
+  "sources": [
+   "https://bookscouter.com/author/krishnamurti-u-g"
+  ],
   "origin": "text"
  },
  {
@@ -12880,7 +12800,7 @@
   "medium": "text",
   "title": "No Way Out — scan on the Internet Archive",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
   "people": [],
   "format": "scan (archive.org)",
@@ -12888,7 +12808,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/NoWayOutU.G.Krishnamurti",
-  "description": "Internet Archive item, Public Domain Mark 1.0; subtitle 'Further Dialogues with U.G. Krishnamurti'.",
+  "description": "Internet Archive item, Public Domain Mark 1.0; subtitle 'Further Dialogues with U.G. Krishnamurti'. [Checked: scan of No Way Out, subtitle 'Further Dialogues with U.G.' matching the first edition, Akshaya Publications, Bangalore 1992 per WELL bibliography; publication year]",
   "tags": [
    "book",
    "no-way-out",
@@ -12904,7 +12824,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/NoWayOutU.G.Krishnamurti"
+   "https://archive.org/details/NoWayOutU.G.Krishnamurti",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -12913,7 +12834,7 @@
   "medium": "text",
   "title": "No Way Out — Scribd copy",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
   "people": [],
   "format": "full text (pdf)",
@@ -12921,7 +12842,7 @@
   "duration": null,
   "host": "scribd.com",
   "url": "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti",
-  "description": "Scribd upload of the book.",
+  "description": "Scribd upload of the book. [Checked: copy of No Way Out; book first published Akshaya Publications, Bangalore 1992 per WELL bibliography; edition of this copy not verified]",
   "tags": [
    "book",
    "no-way-out",
@@ -12935,7 +12856,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti"
+   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -12944,7 +12866,7 @@
   "medium": "text",
   "title": "No Way Out — English PDF hosted on true-dhamma.com (Chinese Dharma site)",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
   "people": [],
   "format": "full text (pdf)",
@@ -12952,7 +12874,7 @@
   "duration": null,
   "host": "file.true-dhamma.com",
   "url": "https://file.true-dhamma.com/实相与解构/U.G.克里希那穆提/No_Way_Out-U.G.Krishnamurti.pdf",
-  "description": "English PDF in the 'U.G.克里希那穆提' folder of a Chinese Dharma site.",
+  "description": "English PDF in the 'U.G.克里希那穆提' folder of a Chinese Dharma site. [Checked: PDF of No Way Out; book first published Akshaya Publications, Bangalore 1992 per WELL bibliography; edition of this PDF not verified]",
   "tags": [
    "book",
    "no-way-out",
@@ -12968,7 +12890,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://file.true-dhamma.com/实相与解构/U.G.克里希那穆提/No_Way_Out-U.G.Krishnamurti.pdf"
+   "https://file.true-dhamma.com/实相与解构/U.G.克里希那穆提/No_Way_Out-U.G.Krishnamurti.pdf",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -13034,7 +12957,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, 1 Jan 2001, foreword Mahesh Bhatt.",
+  "description": "Smriti Books, 1 Jan 2001, foreword Mahesh Bhatt. [Checked: Smriti Books Courage to Stand Alone 2001 not surfaced by search.]",
   "tags": [
    "book",
    "courage-to-stand-alone",
@@ -13052,7 +12975,7 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "S",
+  "confidence": "lead",
   "sources": [],
   "origin": "text"
  },
@@ -13169,7 +13092,7 @@
   "medium": "text",
   "title": "The Courage to Stand Alone — Internet Archive (ebook)",
   "date": null,
-  "year": null,
+  "year": 1997,
   "place": null,
   "people": [],
   "format": "scan (archive.org)",
@@ -13177,7 +13100,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/EbookTheCourageToStandAloneU.G.Krishnamurti",
-  "description": "Internet Archive ebook item.",
+  "description": "Internet Archive ebook item. [Checked: ebook of The Courage to Stand Alone; book first published Plover Press, New York 1997 per WELL bibliography (conversations recorded Amsterdam Sept 1982); edition of this scan not verified]",
   "tags": [
    "book",
    "courage-to-stand-alone",
@@ -13191,7 +13114,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/EbookTheCourageToStandAloneU.G.Krishnamurti"
+   "https://archive.org/details/EbookTheCourageToStandAloneU.G.Krishnamurti",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -13297,7 +13221,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "e-artnow 2021, ISBN 978-8027341504; Musaicum e-book ISBN 4066338117151.",
+  "description": "e-artnow 2021, ISBN 978-8027341504; Musaicum e-book ISBN 4066338117151. [Checked: Goodreads editions page shows The Natural State published 27 Mar 2021 by e-artnow, plus Musaicum Books edition 4 Jan 2022 and Sharp Ink Kindle 21 Feb 2023; BookScouter lists e-artnow paperback July 2021.]",
   "tags": [
    "book",
    "natural-state",
@@ -13316,7 +13240,10 @@
    "confidence-s"
   ],
   "confidence": "S",
-  "sources": [],
+  "sources": [
+   "https://www.goodreads.com/work/editions/18946570-the-natural-state-the-unrational-ideas-of-a-man-called-u-g",
+   "https://bookscouter.com/author/krishnamurti-u-g"
+  ],
   "origin": "text",
   "reviewed": [
    "duplicate-title"
@@ -13647,8 +13574,8 @@
   "id": "i2f3ff255",
   "medium": "text",
   "title": "U.G. Krishnamurti: The Collected Works (Musaicum Books; Everand; LitRes)",
-  "date": null,
-  "year": null,
+  "date": "2022-01-04",
+  "year": 2022,
   "place": null,
   "people": [],
   "format": "ebook",
@@ -13656,7 +13583,7 @@
   "duration": null,
   "host": "litres.com",
   "url": "https://litres.com/u-g-krishnamurti/the-collected-works/",
-  "description": "Musaicum Books, ISBN 4066338117199; Everand/Scribd ids 552474820 and 627585524; LitRes listing.",
+  "description": "Musaicum Books, ISBN 4066338117199; Everand/Scribd ids 552474820 and 627585524; LitRes listing. [Checked: Musaicum Books ebook ISBN 4066338117199 released 4 Jan 2022 per Storytel and Angus & Robertson; publication date]",
   "tags": [
    "book",
    "collected-works",
@@ -13676,7 +13603,9 @@
   "sources": [
    "https://litres.com/u-g-krishnamurti/the-collected-works/",
    "https://www.everand.com/book/552474820",
-   "https://www.everand.com/book/627585524"
+   "https://www.everand.com/book/627585524",
+   "https://angusrobertson.com.au/ebooks/the-collected-works-u-g-krishnamurti/p/4066338117199",
+   "https://www.storytel.com/in/books/the-collected-works-1522605"
   ],
   "origin": "text"
  },
@@ -13695,7 +13624,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Sharp Ink 2023 collected edition ISBN 9788028286385; another Sharp Ink/e-artnow title ISBN 9788028356446 on Amazon.au.",
+  "description": "Sharp Ink 2023 collected edition ISBN 9788028286385; another Sharp Ink/e-artnow title ISBN 9788028356446 on Amazon.au. [Checked: Angus & Robertson ebook listing 'The Collected Works of U. G. Krishnamurti', ISBN 9788028286385, Sharp Ink, dated 24-02-2023.]",
   "tags": [
    "book",
    "collected-works",
@@ -13711,7 +13640,9 @@
    "confidence-s"
   ],
   "confidence": "S",
-  "sources": [],
+  "sources": [
+   "https://www.angusrobertson.com.au/ebooks/the-collected-works-of-u-g-krishnamurti-u-g-krishnamurti/p/9788028286385"
+  ],
   "origin": "text"
  },
  {
@@ -14251,7 +14182,7 @@
   "medium": "text",
   "title": "Stopped in Our Tracks — full text on Wikisource",
   "date": null,
-  "year": null,
+  "year": 2005,
   "place": null,
   "people": [],
   "format": "full text (wikisource)",
@@ -14259,7 +14190,7 @@
   "duration": null,
   "host": "en.wikisource.org",
   "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks",
-  "description": "Complete text on Wikisource.",
+  "description": "Complete text on Wikisource. [Checked: Stopped in Our Tracks: Stories of U.G. in India, published Smriti Books, New Delhi 2005 per WELL bibliography; publication year]",
   "tags": [
    "book",
    "stopped-in-our-tracks",
@@ -14274,7 +14205,8 @@
   "confidence": "S",
   "sources": [
    "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks",
-   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -14283,7 +14215,7 @@
   "medium": "text",
   "title": "Stopped in Our Tracks — on the WELL (download and Part II)",
   "date": null,
-  "year": null,
+  "year": 2005,
   "place": null,
   "people": [],
   "format": "full text (html)",
@@ -14291,7 +14223,7 @@
   "duration": null,
   "host": "people.well.com",
   "url": "https://people.well.com/user/jct/stopped.htm",
-  "description": "Download page and chapter pages (SIT/part_i.htm, SIT/part_ii.htm).",
+  "description": "Download page and chapter pages (SIT/part_i.htm, SIT/part_ii.htm). [Checked: WELL text of Stopped in Our Tracks, first published Smriti Books 2005 per WELL bibliography; publication year]",
   "tags": [
    "book",
    "stopped-in-our-tracks",
@@ -14306,7 +14238,8 @@
   "confidence": "S",
   "sources": [
    "https://people.well.com/user/jct/stopped.htm",
-   "https://people.well.com/user/jct/SIT/part_ii.htm"
+   "https://people.well.com/user/jct/SIT/part_ii.htm",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -14327,7 +14260,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Second series, The Firsthand Publications, Bangalore, 2010; no ISBN found. A Third Series is mentioned in a download list.",
+  "description": "Second series, The Firsthand Publications, Bangalore, 2010; no ISBN found. A Third Series is mentioned in a download list. [Checked: Narayana Moorty's editor's note (Feb 2007) on WELL announces a second Stopped in Our Tracks book of Chandrasekhar's pieces; AbeBooks ISBN 9788196985509 'Stopped in Our Tracks: UG Anecdotes, Comments and Reflections' (Series Two), publisher not shown. First book: Smriti Books, New Delhi, 2005. Third volume (Palm Springs and Switzerland) from Motilal Banarsidass. Firsthand Publications/2010 not confirmed.]",
   "tags": [
    "book",
    "stopped-in-our-tracks",
@@ -14347,8 +14280,11 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "S",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://www.well.com/~jct/SIT/editor's_note.htm",
+   "https://www.abebooks.co.uk/9788196985509/Stopped-Tracks-UG-Anecdotes-Comments-Reflections-8196985509/plp"
+  ],
   "origin": "text"
  },
  {
@@ -16590,7 +16526,7 @@
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch/?v=WxZUJUyPiik",
-  "description": "YouTube upload of an older TV documentary; broadcaster and year not recovered; may be the Mishlove programme or an Indian production.",
+  "description": "YouTube upload of an older TV documentary; broadcaster and year not recovered; may be the Mishlove programme or an Indian production. [Checked: YouTube search returns 'UG Krishnamurti, The Natural State, Old TV Documentary' at this URL. Related uploads of the same documentary describe it as made by Dutch television students, recorded 1988 (Gstaad), later shown on Dutch TV; also uploaded as 'The Natural Man ... TV doc' parts 1-3 (youtube ZWAiJzKN5bs, 3ctgJEOqq3w) and 'The Natural State Of Man - TV Doc - Final Part 2' (IMfcRjGeaUk). Year/place not attached to this specific upload, so left null.]",
   "tags": [
    "documentary",
    "tv",
@@ -16602,9 +16538,10 @@
    "place-india",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch/?v=WxZUJUyPiik"
+   "https://www.youtube.com/watch/?v=WxZUJUyPiik",
+   "https://www.youtube.com/watch?v=WxZUJUyPiik"
   ],
   "origin": "video"
  },
@@ -16791,7 +16728,7 @@
   "medium": "video",
   "title": "\"Dutch Interview by Luc Sala. Full Interview\" (undated)",
   "date": null,
-  "year": null,
+  "year": 2002,
   "place": "Amsterdam, Netherlands",
   "people": [
    "Luc Sala"
@@ -16801,7 +16738,7 @@
   "duration": "60 min",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=av_BSdMeG68",
-  "description": "Undated full Luc Sala interview; carries the 'My teaching… has no copyright' line; hour-long per ugunplugged transcript.",
+  "description": "Undated full Luc Sala interview; carries the 'My teaching… has no copyright' line; hour-long per ugunplugged transcript. [Checked: recorded 2002 per a repost titled 'UG Krishnamurti met Luc Sala in 2002 in Amsterdam full interview' (single secondary source; confirm)]",
   "tags": [
    "tv",
    "interview",
@@ -16823,7 +16760,8 @@
   "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=av_BSdMeG68",
-   "https://ugunplugged.blogspot.com/2024/05/ug-is-blackhole-luc-sala.html"
+   "https://ugunplugged.blogspot.com/2024/05/ug-is-blackhole-luc-sala.html",
+   "https://windowsforum.com/the-water-cooler.88/ug-krishnamurti-met-luc-sala-in-2002-in-amsterdam-full-interview.217999/"
   ],
   "origin": "video"
  },
@@ -16943,7 +16881,7 @@
   "duration": null,
   "host": "ligotti.net",
   "url": "https://ligotti.net/showthread.php?t=1098",
-  "description": "An obituary thread states UG 'went public' with his first TV interview in 1986, followed by TV and radio interviews worldwide; programme and broadcaster unidentified.",
+  "description": "An obituary thread states UG 'went public' with his first TV interview in 1986, followed by TV and radio interviews worldwide; programme and broadcaster unidentified. [Checked: WELL 'Remembering U.G. Krishnamurti' tribute states that in 1986 he went public and gave his first TV interview, followed by TV and radio interviews worldwide. Programme/broadcaster still unidentified.]",
   "tags": [
    "tv",
    "interview",
@@ -16956,9 +16894,10 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
-   "https://ligotti.net/showthread.php?t=1098"
+   "https://ligotti.net/showthread.php?t=1098",
+   "https://people.well.com/user/jct/Final_Remembering.htm"
   ],
   "origin": "video"
  },
@@ -17565,7 +17504,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_birla_02",
-  "description": "Presumed part 2 of the Birla discussion; identifier inferred from ug_birla_01 '(1/2)'.",
+  "description": "Presumed part 2 of the Birla discussion; identifier inferred from ug_birla_01 '(1/2)'. [Checked: Search for 'U.G. with S.C. Birla' archive.org returned nothing; archive.org identifiers are not indexed in search. Still an inferred identifier.]",
   "tags": [
    "archive-org",
    "gstaad",
@@ -17603,7 +17542,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_f2f_1",
-  "description": "Inferred parts 1 and 3 (ug_f2f_1, ug_f2f_3) of the radio interview of which ug_f2f_2 is part 2.",
+  "description": "Inferred parts 1 and 3 (ug_f2f_1, ug_f2f_3) of the radio interview of which ug_f2f_2 is part 2. [Checked: Searches for 'U.G. Radio Interview' / ug_f2f returned no archive.org hit; parts 1 and 3 remain inferred. Related find: New Dimensions radio programme 'No Path - No Answer: The Enigma of Enlightenment with U.G. Krishnamurti', host Michael Toms, 14 Nov 1989 (https://programs.newdimensions.org/products/no-path-no-answer-the-enigma-of-enlightenment-with-u-g-krishnamurti).]",
   "tags": [
    "archive-org",
    "radio",
@@ -17971,7 +17910,7 @@
   "duration": "",
   "host": "various (Ecosia video index)",
   "url": "https://ecosia.org/videos?q=%D0%BA%D1%80%D0%B8%D1%88%D0%BD%D0%B0%D0%BC%D1%83%D1%80%D1%82%D0%B8",
-  "description": "Russian audiobook reading of 'Ошибка просветления' (Mistake of Enlightenment, talks 1973-76).",
+  "description": "Russian audiobook reading of 'Ошибка просветления' (Mistake of Enlightenment, talks 1973-76). [Checked: MyBook.ru lists U.G. Krishnamurti 'Ошибка просветления' as a text e-book (2024 edition, 187 pp.); no audiobook page surfaced, so the audiobook reading remains unconfirmed.]",
   "tags": [
    "audiobook",
    "russian",
@@ -17982,10 +17921,11 @@
    "lang-russian",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
    "https://ecosia.org/videos?addon=opensearch&addonversion=7.6.0&q=%D0%BA%D1%80%D0%B8%D1%88%D0%BD%D0%B0%D0%BC%D1%83%D1%80%D1%82%D0%B8",
-   "https://litres.com/book/u-g-krishnamurti-udzhi/oshibka-prosvetleniya-436755/read/"
+   "https://litres.com/book/u-g-krishnamurti-udzhi/oshibka-prosvetleniya-436755/read/",
+   "https://mybook.ru/author/u-g-krishnamurti/oshibka-prosvetleniya"
   ],
   "origin": "wave2-av"
  },
@@ -18075,8 +18015,8 @@
   "id": "i6aa3bdfb",
   "medium": "audio",
   "title": "U.G. Krishnamurti: A Life (Mahesh Bhatt) — audiobook",
-  "date": "",
-  "year": null,
+  "date": "2022-10-25",
+  "year": 2022,
   "place": "",
   "people": [
    "Mahesh Bhatt"
@@ -18086,7 +18026,7 @@
   "duration": "",
   "host": "Libro.fm",
   "url": "https://www.libro.fm/audiobooks/9789354928208-u-g-krishnamurti-a-life",
-  "description": "Audiobook of Bhatt's biography; ISBN 9789354928208.",
+  "description": "Audiobook of Bhatt's biography; ISBN 9789354928208. [Checked: audiobook (ISBN 9789354928208, narrated by Mahesh Bhatt) released 25 Oct 2022 per retailer listings; book itself first published 1992]",
   "tags": [
    "audiobook",
    "mahesh-bhatt",
@@ -18100,7 +18040,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.libro.fm/audiobooks/9789354928208-u-g-krishnamurti-a-life"
+   "https://www.libro.fm/audiobooks/9789354928208-u-g-krishnamurti-a-life",
+   "https://www.audiobooksnow.com/audiobook/u-g-krishnamurti-a-life/7389893/",
+   "https://www.barnesandnoble.com/w/ug-krishnamurti-mahesh-bhatt/1142529348"
   ],
   "origin": "wave2-av"
  },
@@ -19393,7 +19335,7 @@
   "duration": null,
   "host": "instagram.com; louisbrawley.wordpress.com",
   "url": "https://www.instagram.com/louisbrawley/",
-  "description": "Brawley (photographer/artist, UG's companion 2002-07, author of Goner, Non-Duality Press 2011) has Instagram with 1,911 posts tagged incl. 'Goner'; in a 2011 blog comment he said he was working on 'another one with photographs and writing' but production cost made release uncertain. Site louisbrawley.com. No published UG photo set confirmed.",
+  "description": "Brawley (photographer/artist, UG's companion 2002-07, author of Goner, Non-Duality Press 2011) has Instagram with 1,911 posts tagged incl. 'Goner'; in a 2011 blog comment he said he was working on 'another one with photographs and writing' but production cost made release uncertain. Site louisbrawley.com. No published UG photo set confirmed. [Checked: Instagram/WordPress not surfaced directly; Brawley's UG work confirmed via Substack piece 'Louis Brawley: We're All Goners' and YouTube interviews (Willem de Ridder interviews Louis Brawley on U.G., part 1 of 4). Planned UG photo book unconfirmed.]",
   "tags": [
    "louis-brawley",
    "instagram",
@@ -19407,11 +19349,13 @@
    "lang-en",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
    "https://www.instagram.com/louisbrawley/",
    "https://louisbrawley.wordpress.com/2011/09/26/a-blog-about-the-book-called-goner-the-final-travels-of-ug-krishnamurti/",
-   "https://batgap.com/louis-brawley/"
+   "https://batgap.com/louis-brawley/",
+   "https://thevale.substack.com/p/louis-brawley-were-all-goners-the",
+   "https://www.youtube.com/watch?v=jjO3zoVBPb0"
   ],
   "origin": "wave2-img-arch"
  },
@@ -20611,7 +20555,7 @@
   "duration": null,
   "host": "booknode.com",
   "url": "https://booknode.com/rencontres_avec_un_eveille_contestataire_03496905",
-  "description": "French testimony about UG described as 'un témoignage subversif et exceptionnel' (2000); Babelio additionally lists 'Coloquintessence - Instantané avec U.G.' under UG's author page. Authors/publishers to confirm.",
+  "description": "French testimony about UG described as 'un témoignage subversif et exceptionnel' (2000); Babelio additionally lists 'Coloquintessence - Instantané avec U.G.' under UG's author page. Authors/publishers to confirm. [Checked: French defence digital library catalogue record for 'Rencontres avec un éveillé contestataire' (U.G. Krishnamurti), translated from English by Paule Salvan. 'Coloquintessence - Instantané avec U.G.' not found.]",
   "tags": [
    "translation",
    "french",
@@ -20626,10 +20570,11 @@
    "lang-fr",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://booknode.com/rencontres_avec_un_eveille_contestataire_03496905",
-   "https://www.babelio.com/auteur/UG-Krishnamurti/354495"
+   "https://www.babelio.com/auteur/UG-Krishnamurti/354495",
+   "https://bibliotheques-numeriques.defense.gouv.fr/impression/document/aed6cbb2-08a8-4902-80ef-b573c8808f8f"
   ],
   "origin": "wave2-text"
  },
@@ -20790,7 +20735,7 @@
   "duration": null,
   "host": "content.e-bookshelf.de",
   "url": "https://content.e-bookshelf.de/media/reading/L-18427175-76d0949feb.pdf",
-  "description": "Reading sample of a 'Collected Works' e-book edition; publisher to identify.",
+  "description": "Reading sample of a 'Collected Works' e-book edition; publisher to identify. [Checked: The e-bookshelf reading-sample PDF surfaced in search for U.G. collected editions (described as an 'enriched edition'); publisher not shown in snippet.]",
   "tags": [
    "ebook",
    "collected-works",
@@ -20802,7 +20747,7 @@
    "lang-en",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://content.e-bookshelf.de/media/reading/L-18427175-76d0949feb.pdf"
   ],
@@ -21263,7 +21208,7 @@
   "duration": null,
   "host": "sulochanosho.wordpress.com",
   "url": "https://sulochanosho.wordpress.com/tag/robert-carr/",
-  "description": "Only trace of Robert Carr's UG writings found; no book 'Love Children' confirmed by search.",
+  "description": "Only trace of Robert Carr's UG writings found; no book 'Love Children' confirmed by search. [Checked: Robert Carr's UG writing confirmed: Life Positive piece 'What do you need a guru for' (Oct 2004) by Robert Carr quoting U.G.; YouTube 'Friends of UG Krishnamurti, A Film By Bob Carr.. Part 1'. sulochanosho tag page itself not surfaced.]",
   "tags": [
    "robert-carr",
    "blog",
@@ -21276,9 +21221,11 @@
    "lang-en",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
-   "https://sulochanosho.wordpress.com/tag/robert-carr/"
+   "https://sulochanosho.wordpress.com/tag/robert-carr/",
+   "https://www.lifepositive.com/what-do-you-need-a-guru-for",
+   "https://www.youtube.com/watch?v=OMqjr6mrxb8"
   ],
   "origin": "wave2-text"
  },
@@ -21425,7 +21372,7 @@
   "duration": null,
   "host": "dlivros.com",
   "url": "https://dlivros.com/livro/mistica-iluminacao-ug-krishnamurti",
-  "description": "Only Portuguese UG title surfaced; publisher unknown, aggregator source.",
+  "description": "Only Portuguese UG title surfaced; publisher unknown, aggregator source. [Checked: No Portuguese 'A Mística da Iluminação' edition surfaced; publisher/year unconfirmed.]",
   "tags": [
    "translation",
    "portuguese",
@@ -21887,7 +21834,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ugkrishnamurti-video",
-  "description": "[ugkrishnamurti-video] archive.org collection page for the ug_ video set (inferred identifier)",
+  "description": "[ugkrishnamurti-video] archive.org collection page for the ug_ video set (inferred identifier) [Checked: archive.org collection identifier 'ugkrishnamurti-video' not surfaced by search; inferred only.]",
   "tags": [
    "archive-org",
    "collection",
@@ -22167,7 +22114,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_f2f_3",
-  "description": "[ug_f2f_3] inferred sibling of ug_f2f_2",
+  "description": "[ug_f2f_3] inferred sibling of ug_f2f_2 [Checked: Same as ia12b7ef1: ug_f2f_3 not surfaced by search; inferred only.]",
   "tags": [
    "archive-org",
    "interview",
@@ -22190,7 +22137,7 @@
   "medium": "text",
   "title": "Thought Is Your Enemy (88 p.)",
   "date": "",
-  "year": null,
+  "year": 1990,
   "place": "",
   "people": [],
   "format": "pdf",
@@ -22198,7 +22145,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/UGKrishnamurtiThoughtIsYourEnemy88p",
-  "description": "[UGKrishnamurtiThoughtIsYourEnemy88p] PDF; discussions 1985-1990 in India, Switzerland, Australia, Netherlands, UK",
+  "description": "[UGKrishnamurtiThoughtIsYourEnemy88p] PDF; discussions 1985-1990 in India, Switzerland, Australia, Netherlands, UK [Checked: PDF of Thought Is Your Enemy (discussions 1985-1990); first published by Sowmya Publishers, Bangalore — 1990 per PhilArchive citation (WELL bibliography says 1991); publication year]",
   "tags": [
    "archive-org",
    "book",
@@ -22216,7 +22163,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/UGKrishnamurtiThoughtIsYourEnemy88p"
+   "https://archive.org/details/UGKrishnamurtiThoughtIsYourEnemy88p",
+   "https://dc2.philarchive.org/s/Uppaluri%20Gopala%20Krishnamurti",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "wave3-items"
  },
@@ -25271,7 +25220,7 @@
   "duration": null,
   "host": "hindustantimes.com",
   "url": null,
-  "description": "Review by Nawaid Anjum in the Hindustan Times Books page, announced in his X post of c. 29 June 2026; HT URL not recovered (truncated link).",
+  "description": "Review by Nawaid Anjum in the Hindustan Times Books page, announced in his X post of c. 29 June 2026; HT URL not recovered (truncated link). [Checked: No Hindustan Times review of The Ashes Are Warm surfaced. Other reviews found: Free Press Journal (Avneesh Gadgil) https://freepressjournal.in/lifestyle/book-review-mahesh-bhatts-the-ashes-are-warm-is-a-deeply-personal-exploration-of-truth-and-presence ; Governance Now https://www.governancenow.com/news/books-ideas/lived-life-philosophy-spirituality-and-other-enigmas (Rupa, 384 pp., Rs 495).]",
   "tags": [
    "press",
    "hindustan-times",
@@ -25578,7 +25527,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/",
-  "description": "Section grouping 'My Approach', 'My Swan Song', 'Books & PDFs' and 'Quotes' (all four confirmed as navigation entries on the home page). Section URL inferred from the sub-page paths; the index page itself was not captured.",
+  "description": "Section grouping 'My Approach', 'My Swan Song', 'Books & PDFs' and 'Quotes' (all four confirmed as navigation entries on the home page). Section URL inferred from the sub-page paths; the index page itself was not captured. [Checked: Search returned no ugkrishnamurti.in pages; the domain itself is linked from New Dimensions as the official site, but the 'UG's Essence in Words' section page is not confirmed.]",
   "tags": [
    "section",
    "ug-essence",
@@ -25610,7 +25559,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/my-approach",
-  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search, so URL is a pattern guess and content unverified. The nearest known text with this heading is K. Chandrasekhar's 'Stopped in Our Tracks' excerpt 'My Approach' ('I am not a thinker in the sense in which the word is used... My objective in carrying on the conversation is to silence them'), hosted on the WELL.",
+  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search, so URL is a pattern guess and content unverified. The nearest known text with this heading is K. Chandrasekhar's 'Stopped in Our Tracks' excerpt 'My Approach' ('I am not a thinker in the sense in which the word is used... My objective in carrying on the conversation is to silence them'), hosted on the WELL. [Checked: 'My Approach' page on ugkrishnamurti.in not surfaced by search.]",
   "tags": [
    "my-approach",
    "ug-essence",
@@ -25641,7 +25590,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/quotes",
-  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search; URL is a pattern guess and content not captured.",
+  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search; URL is a pattern guess and content not captured. [Checked: 'Quotes' page on ugkrishnamurti.in not surfaced by search.]",
   "tags": [
    "quotes",
    "ug-essence",
@@ -25671,7 +25620,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://ugkrishnamurti.in/ug-speaks/videos",
-  "description": "Video sub-section of UG Speaks, named 'Essential Videos' in the menu and 'Explore Videos' on the overview. The page exists but was not returned by any of six targeted searches in wave 5 (URL is a pattern guess: /ug-speaks/videos or /ug-speaks/essential-videos), so no individual video titles, dates or places could be recovered. Still a gap.",
+  "description": "Video sub-section of UG Speaks, named 'Essential Videos' in the menu and 'Explore Videos' on the overview. The page exists but was not returned by any of six targeted searches in wave 5 (URL is a pattern guess: /ug-speaks/videos or /ug-speaks/essential-videos), so no individual video titles, dates or places could be recovered. Still a gap. [Checked: 'Essential Videos' page on ugkrishnamurti.in not surfaced by search.]",
   "tags": [
    "essential-videos",
    "explore-videos",
@@ -25744,7 +25693,7 @@
   "duration": "",
   "host": "The Heart of Yoga Podcast",
   "url": "https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594",
-  "description": "episode id 1000504271594; surfaced for UG query; UG content unconfirmed",
+  "description": "episode id 1000504271594; surfaced for UG query; UG content unconfirmed [Checked: Heart of Yoga podcast (Whitwell & Rosalind Atkinson) has episodes on U.G.: 'EP 02 - Remembering Desikachar and the Krishnamurtis in India, Switzerland and New Zealand' and a listing on U.G.'s radical realization. The specific episode id 1000504271594 was not matched. Also J. Brown Yoga Talks episode 'Mark Whitwell: Heart of Yoga ... T. Krishnamacharya, UG Krishnamurti' (https://jbrownyogatalks.libsyn.com/mark-whitwell-heart-of-yoga-the-promise-yoga-of-heart-t-krishnamacharya-ug-krishnamurti).]",
   "tags": [
    "podcast",
    "whitwell",
@@ -25757,9 +25706,11 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
-   "https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594"
+   "https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594",
+   "https://podbean.com/site/EpisodeDownload/DIRA783805WQI99",
+   "https://podcasts.apple.com/podcast/id1529738617"
   ],
   "origin": "wave6-av"
  },
@@ -25779,7 +25730,7 @@
   "duration": "",
   "host": "Wisdom Now (Apple Podcasts id1655995678)",
   "url": "https://podcasts.apple.com/us/podcast/wisdom-now/id1655995678",
-  "description": "show id 1655995678; two-part interview released 2022-11-28; key points include Whitwell's connection with UG",
+  "description": "show id 1655995678; two-part interview released 2022-11-28; key points include Whitwell's connection with UG [Checked: Apple Podcasts 'Wisdom Now' (Rose Lamont & Ritual Studios): two-part Mark Whitwell interview, Part 1 'Ordinariness: The highest spiritual attainment', Part 2 'Practice and all is NOT coming'; notes list his connection with U.G. Krishnamurti. Air date not shown in snippet.]",
   "tags": [
    "podcast",
    "whitwell",
@@ -25793,7 +25744,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://podcasts.apple.com/us/podcast/wisdom-now/id1655995678"
   ],
@@ -25814,7 +25765,7 @@
   "duration": "",
   "host": "Spotify",
   "url": "https://open.spotify.com/episode/1NLJPviJsL3dK9R6vooCnA",
-  "description": "spotify episode id 1NLJPviJsL3dK9R6vooCnA; surfaced for UG query; content unconfirmed",
+  "description": "spotify episode id 1NLJPviJsL3dK9R6vooCnA; surfaced for UG query; content unconfirmed [Checked: Spotify episode 1NLJPviJsL3dK9R6vooCnA not surfaced in Whitwell/UG search; content still unconfirmed.]",
   "tags": [
    "podcast",
    "whitwell",
@@ -25996,7 +25947,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=L_RhEO6CKY0",
-  "description": "youtube id L_RhEO6CKY0; third-party explainer, not UG footage",
+  "description": "youtube id L_RhEO6CKY0; third-party explainer, not UG footage [Checked: YouTube result '\"U.G. Krishnamurti: The Natural State Explained (No Enlightenment, No Self)\"' at this URL; third-party explainer.]",
   "tags": [
    "youtube",
    "third-party",
@@ -26007,7 +25958,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=L_RhEO6CKY0"
   ],
@@ -26151,7 +26102,7 @@
   "duration": "",
   "host": "famigliafideus.com",
   "url": "https://www.famigliafideus.com/u-g-krishnamurti-video/",
-  "description": "Italian page listing UG videos dubbed/subtitled in Italian incl. 'Lo stato naturale (Intervista a Roma 1995)'; companion PDF 'INTERVISTE A U.G.KRISHNAMURTI'",
+  "description": "Italian page listing UG videos dubbed/subtitled in Italian incl. 'Lo stato naturale (Intervista a Roma 1995)'; companion PDF 'INTERVISTE A U.G.KRISHNAMURTI' [Checked: Search for famigliafideus.com UG video list / 'Lo stato naturale (Intervista a Roma 1995)' returned no famigliafideus result; not confirmed.]",
   "tags": [
    "italian",
    "video-list",
@@ -26180,7 +26131,7 @@
   "duration": "",
   "host": "jetzt-tv.net",
   "url": "https://www.jetzt-tv.net/ugk",
-  "description": "German-language biography page listing UG interview/conversation videos (e.g. Thinking Allowed; Conversation in Amsterdam); dub/subtitle status unconfirmed",
+  "description": "German-language biography page listing UG interview/conversation videos (e.g. Thinking Allowed; Conversation in Amsterdam); dub/subtitle status unconfirmed [Checked: Search for jetzt-tv 'Gelebte Weisheit' U. G. Krishnamurti returned nothing from jetzt-tv.net; page not confirmed by search.]",
   "tags": [
    "german",
    "video-list",
@@ -26211,7 +26162,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=3Y7EZ9sBZYs",
-  "description": "youtube id 3Y7EZ9sBZYs; Bhatt on UG (third-party/clip)",
+  "description": "youtube id 3Y7EZ9sBZYs; Bhatt on UG (third-party/clip) [Checked: YouTube result 'The Guru Who Changed Mahesh Bhatt's Life'; description: the filmmaker talks about his relationship with his teacher U.G. Krishnamurti. Related: 'U.G. Krishnamurti & Mahesh Bhatt' (-zaA9C1eUqc), Bhatt narrating 'U.G. Krishnamurti: A Life' audiobook (0oteg8btYdY, DXqcwQYG1rU).]",
   "tags": [
    "youtube",
    "bhatt",
@@ -26222,7 +26173,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=3Y7EZ9sBZYs"
   ],
@@ -26570,7 +26521,7 @@
   "duration": "",
   "host": "Kleurnet / lucsala.nl",
   "url": "https://www.lucsala.nl/video.htm",
-  "description": "Kleurnet was an Amsterdam local TV channel 1997-2001 (Facebook page); archive 'Kleurnet-Myster-Sala collection' holds programmes broadcast 1995-2001 on Amsterdam local channels; Sala's UG interviews (2000-2003, already catalogued) presumably aired there; no explicit UG broadcast record found",
+  "description": "Kleurnet was an Amsterdam local TV channel 1997-2001 (Facebook page); archive 'Kleurnet-Myster-Sala collection' holds programmes broadcast 1995-2001 on Amsterdam local channels; Sala's UG interviews (2000-2003, already catalogued) presumably aired there; no explicit UG broadcast record found [Checked: Search found only a forum repost titled 'UG Krishnamurti met Luc Sala in 2002 in Amsterdam (full interview)'; no result mentions Kleurnet. Sala-UG interview existence supported; Kleurnet broadcast link unconfirmed.]",
   "tags": [
    "kleurnet",
    "sala",
@@ -26584,10 +26535,11 @@
    "place-amsterdam",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
    "https://www.facebook.com/kleurnet/",
-   "https://www.lucsala.nl/video.htm"
+   "https://www.lucsala.nl/video.htm",
+   "https://windowsforum.com/the-water-cooler.88/ug-krishnamurti-met-luc-sala-in-2002-in-amsterdam-full-interview.217999/"
   ],
   "origin": "wave6-av"
  },
@@ -26685,15 +26637,15 @@
   "medium": "video",
   "title": "U.G. Krishnamurti (with Luc Sala in Amsterdam)",
   "date": "",
-  "year": null,
-  "place": "",
+  "year": 2002,
+  "place": "Amsterdam, Netherlands",
   "people": [],
   "format": "YouTube video",
   "language": "English",
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=U3azqF_OMu4",
-  "description": "youtube id U3azqF_OMu4; Sala interview upload id (Sala items already catalogued)",
+  "description": "youtube id U3azqF_OMu4; Sala interview upload id (Sala items already catalogued) [Checked: recorded 2002 per a repost titled 'UG Krishnamurti met Luc Sala in 2002 in Amsterdam full interview' (single secondary source; confirm against the YouTube description)]",
   "tags": [
    "youtube",
    "sala",
@@ -26707,7 +26659,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=U3azqF_OMu4"
+   "https://www.youtube.com/watch?v=U3azqF_OMu4",
+   "https://windowsforum.com/the-water-cooler.88/ug-krishnamurti-met-luc-sala-in-2002-in-amsterdam-full-interview.217999/"
   ],
   "origin": "wave6-av"
  },
@@ -26782,7 +26735,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=noNcOFj0l2A",
-  "description": "youtube id noNcOFj0l2A; third-party explainer",
+  "description": "youtube id noNcOFj0l2A; third-party explainer [Checked: YouTube result 'UG Krishnamurti: The Anti-Guru Who Dismantled Spirituality' at this URL; third-party explainer.]",
   "tags": [
    "youtube",
    "third-party",
@@ -26793,7 +26746,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=noNcOFj0l2A"
   ],
@@ -26812,7 +26765,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=yI7VTqeym18",
-  "description": "youtube id yI7VTqeym18; Brawley talk about UG; context unknown",
+  "description": "youtube id yI7VTqeym18; Brawley talk about UG; context unknown [Checked: YouTube result titled 'Louis Brawley' surfaced for 'Louis Brawley UG Krishnamurti Goner'; content context not in snippet. Related Brawley/UG videos: Willem de Ridder interviews Louis Brawley on U.G. Krishnamurti part 1 of 4 (jjO3zoVBPb0; recorded in Bussum, Netherlands), 'Louis Brawley & Willem de Ridder Talk About U.G.' (nBrWeJTxosM), 'Anti-Guru, Barking Dog with Louis Brawley' (cAbYSatRje4), 'UG thanks Louis' (6gJlkEdNz9o).]",
   "tags": [
    "youtube",
    "brawley",
@@ -26822,7 +26775,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=yI7VTqeym18"
   ],
@@ -27281,7 +27234,7 @@
   "duration": null,
   "host": "Substack",
   "url": "https://wilhelmlamb.substack.com/p/the-age-of-awakening-43a",
-  "description": "Substack piece that surfaced on a domain-restricted 'U.G. Krishnamurti' search; UG mention not quoted in snippet.",
+  "description": "Substack piece that surfaced on a domain-restricted 'U.G. Krishnamurti' search; UG mention not quoted in snippet. [Checked: William Lamb's Substack (wilhelmlamb.substack.com, 'The New-age Deception') exists, but the 'Age of Awakening (Part 1)' post and any U.G. mention were not surfaced.]",
   "tags": [
    "substack",
    "community",
@@ -28128,7 +28081,7 @@
   "duration": null,
   "host": "x.com",
   "url": "https://twitter.com/MaheshNBhatt/status/905080430675673088",
-  "description": "Tweet text: 'U.G. Krishnamurti....The man who built & shaped my life. The man who in his hours of death gave me a taste of life!!!' Search snippet does not confirm an attached photo; lead to open the status directly. Related: 23 Mar 2015 tweet announcing Tamil edition of 'UG Krishnamurti - A Life' with image link (status 579607713191198720).",
+  "description": "Tweet text: 'U.G. Krishnamurti....The man who built & shaped my life. The man who in his hours of death gave me a taste of life!!!' Search snippet does not confirm an attached photo; lead to open the status directly. Related: 23 Mar 2015 tweet announcing Tamil edition of 'UG Krishnamurti - A Life' with image link (status 579607713191198720). [Checked: Search did not surface the 5 Sep 2017 tweet (X not indexed). Related Bhatt-UG items found: Outlook India 'Mahesh Bhatt Narrates U.G. Krishnamurti Book To Leave My Voice For My Grandchild' (https://www.outlookindia.com/art-entertainment/mahesh-bhatt-narrates-u-g-krishnamurti-book-to-leave-my-voice-for-my-grandchild--news-244685).]",
   "tags": [
    "mahesh-bhatt",
    "x-twitter",
@@ -28166,7 +28119,7 @@
   "duration": null,
   "host": "x.com",
   "url": "https://x.com/MaheshNBhatt/status/579607713191198720",
-  "description": "Tweet 'UG Krishnamurti - A Life by Mahesh Bhatt now in Tamil !' with a pic.twitter image (t.co/3tzqGtcciR) — presumably the Tamil cover. Publisher not named in snippet (Kannadasan Pathippagam is the known Tamil UG publisher).",
+  "description": "Tweet 'UG Krishnamurti - A Life by Mahesh Bhatt now in Tamil !' with a pic.twitter image (t.co/3tzqGtcciR) — presumably the Tamil cover. Publisher not named in snippet (Kannadasan Pathippagam is the known Tamil UG publisher). [Checked: 2015 tweet on Tamil edition of 'UG Krishnamurti: A Life' not surfaced by search; X not indexed.]",
   "tags": [
    "mahesh-bhatt",
    "x-twitter",
@@ -28719,7 +28672,7 @@
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=tRLAUKc0q20",
-  "description": "YouTube slideshow of UG family photographs (childhood/family era); uploader and sources not confirmed. Lead for childhood/Theosophical-era images, which did not surface elsewhere (Adyar archive searches return only Jiddu Krishnamurti).",
+  "description": "YouTube slideshow of UG family photographs (childhood/family era); uploader and sources not confirmed. Lead for childhood/Theosophical-era images, which did not surface elsewhere (Adyar archive searches return only Jiddu Krishnamurti). [Checked: YouTube result 'U.G. Krishnamurti Family Photos'; description says he came from a rich noble family. Uploader/photo sources not shown.]",
   "tags": [
    "youtube",
    "family-photos",
@@ -28734,7 +28687,7 @@
    "lang-en",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=tRLAUKc0q20"
   ],
@@ -28755,7 +28708,7 @@
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=fFEyTmJhYAY",
-  "description": "Home-video footage of UG with friends in Gstaad 1992, edited by Enzo de Ruvo; source for stills of UG at Chalet Sunbeam/Gstaad in the 1990s. Friends not named in listing.",
+  "description": "Home-video footage of UG with friends in Gstaad 1992, edited by Enzo de Ruvo; source for stills of UG at Chalet Sunbeam/Gstaad in the 1990s. Friends not named in listing. [Checked: YouTube result 'U.G. Krishnamurti with friends - Gstaad (Switzerland) 1992 - edit by Enzo de Ruvo'; description: UG converses with friends in the chalet where he stayed in Gstaad. Related: 'In the garden (1992)' (waHVkxlOyCQ), 'gets a haircut' (yLOaGVhiZFQ), 'You're Wasting Time (in Gstaad)' (00TVb1D7hw8), 'Friends of UG Krishnamurti, A Film By Bob Carr Part 1' (OMqjr6mrxb8).]",
   "tags": [
    "youtube",
    "gstaad",
@@ -28772,7 +28725,7 @@
    "place-switzerland",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=fFEyTmJhYAY"
   ],
@@ -28924,7 +28877,7 @@
   "duration": null,
   "host": "exoticindiaart.com",
   "url": "https://www.exoticindiaart.com/book/details/u-g-krishnamurti-life-philosophy-telugu-haz053/",
-  "description": "Telugu biography/philosophy volume listed with cover photo on Exotic India (item HAZ053); J.S. Subrahmanyam's 'Evaree U.G. Krishnamurti' on Pothi.com with cover; WELL hosts Subrahmanyam's Telugu 'About UG' PDF. Publisher details not in snippets.",
+  "description": "Telugu biography/philosophy volume listed with cover photo on Exotic India (item HAZ053); J.S. Subrahmanyam's 'Evaree U.G. Krishnamurti' on Pothi.com with cover; WELL hosts Subrahmanyam's Telugu 'About UG' PDF. Publisher details not in snippets. [Checked: Exotic India Telugu item HAZ053 not surfaced. Search confirms J.S. Subrahmanyam's Telugu U.G. work on Pothi: 'జ్ఞానోదయ రహస్యం' (Gjnanodaya Rahasyam, Telugu translation of The Mystique of Enlightenment, 266 pp.; also https://bookswagon.ae/book/gjnanodaya-rahasyam-the-mystique-enlightenment/9781542314275). 'Evaree U.G.' not specifically matched.]",
   "tags": [
    "book-cover",
    "telugu",
@@ -28940,11 +28893,12 @@
    "place-india",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
    "https://www.exoticindiaart.com/book/details/u-g-krishnamurti-life-philosophy-telugu-haz053/",
    "https://store.pothi.com/book/j-s-subrahmanyam-%E0%B0%8E%E0%B0%B5%E0%B0%B0%E0%B1%80-%E0%B0%AF%E0%B1%81-%E0%B0%9C%E0%B0%BF-%E0%B0%95%E0%B1%83%E0%B0%B7%E0%B1%8D%E0%B0%A3%E0%B0%AE%E0%B1%82%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF/",
-   "https://people.well.com/user/jct/About_UG.pdf"
+   "https://people.well.com/user/jct/About_UG.pdf",
+   "https://store.pothi.com/book/j-s-subrahmanyam-%E0%B0%9C%E0%B1%8D%E0%B0%9E%E0%B0%BE%E0%B0%A8%E0%B1%8B%E0%B0%A6%E0%B0%AF-%E0%B0%B0%E0%B0%B9%E0%B0%B8%E0%B1%8D%E0%B0%AF%E0%B0%82-mystique-enlightenment"
   ],
   "origin": "wave6-images"
  },
@@ -28963,7 +28917,7 @@
   "duration": null,
   "host": "it.wikipedia.org",
   "url": "https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti",
-  "description": "Italian article (born Machilipatnam, died Vallecrosia; 'antiguru'; disambiguation from Jiddu). Infobox image presumably Commons UGKrishnamurti.jpg (Giuliano Sauro, CC BY-SA 3.0/GFDL). Telugu, Gujarati and Marathi Wikipedia articles did not surface in search. [Checked: Reviewed 2026-11-04: the Italian article on U.G., which tells him apart from Jiddu.]",
+  "description": "Italian article (born Machilipatnam, died Vallecrosia; 'antiguru'; disambiguation from Jiddu). Infobox image presumably Commons UGKrishnamurti.jpg (Giuliano Sauro, CC BY-SA 3.0/GFDL). Telugu, Gujarati and Marathi Wikipedia articles did not surface in search. [Checked: Italian Wikipedia article not surfaced by search; infobox image unconfirmed. Related: macrolibrarsi lists Aequilibrium 'Il Coraggio Di Stare In Piedi Da Soli' (Jan 2000) (https://www.macrolibrarsi.it/autori/_uppaluri-gopala-krishnamurti.php).] [Checked: Reviewed 2026-11-04: the Italian article on U.G., which tells him apart from Jiddu.]",
   "tags": [
    "wikipedia",
    "italian",
@@ -29373,8 +29327,8 @@
   "id": "ia022b972",
   "medium": "text",
   "title": "Goner: The Final Travels of UG Krishnamurti (revised)",
-  "date": null,
-  "year": null,
+  "date": "2013-06",
+  "year": 2013,
   "place": null,
   "people": [
    "Louis Brawley"
@@ -29384,7 +29338,7 @@
   "duration": null,
   "host": "Non-Duality Press",
   "url": "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html",
-  "description": "Louis Brawley's memoir of UG's last years; revised edition ISBN 9780956643278 (Non-Duality Press).",
+  "description": "Louis Brawley's memoir of UG's last years; revised edition ISBN 9780956643278 (Non-Duality Press). [Checked: revised edition published June 2013 by Non-Duality Press (first edition May 2011) per ebook front matter quoted in search results]",
   "tags": [
    "english",
    "book",
@@ -29400,7 +29354,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html"
+   "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html",
+   "https://biblio.co.uk/9780956643278",
+   "https://hachette.co.uk/titles/louis-brawley/goner/9780956643278"
   ],
   "origin": "wave6-text"
  },
@@ -29669,7 +29625,7 @@
   "duration": null,
   "host": null,
   "url": "https://44books.com/dimag-hi-dushman-hai-u-g-krishnamurti.html",
-  "description": "Hindi edition of Thought Is Your Enemy, 168 pp.; circulates on PDF sites (44books, ourhindi) without publisher named. No Rajpal / Hind Pocket / Manjul / Rajkamal UG titles found.",
+  "description": "Hindi edition of Thought Is Your Enemy, 168 pp.; circulates on PDF sites (44books, ourhindi) without publisher named. No Rajpal / Hind Pocket / Manjul / Rajkamal UG titles found. [Checked: Hindi search for 'दिमाग ही दुश्मन है' with यूजी कृष्णमूर्ति returned no matching listing; Hindi edition still unconfirmed.]",
   "tags": [
    "hindi",
    "book",
@@ -30424,7 +30380,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=dVqeMW-bfTo",
-  "description": "id dVqeMW-bfTo; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); U.G. describes the 1967 'calamity' with David Bohm present; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id dVqeMW-bfTo; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); U.G. describes the 1967 'calamity' with David Bohm present; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - Talks About His Calamity With David Bohm'; description says U.G. describes what happened to him in 1967 with David Bohm present. Uploader (Lectures Beyond Beyond) not shown in snippet. Related: 'UG Krishnamurti and David Bohm Full Talk' (tYI8BIky9H4).]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30435,7 +30391,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=dVqeMW-bfTo"
   ],
@@ -30454,7 +30410,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=EBL37cSYih4",
-  "description": "id EBL37cSYih4; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id EBL37cSYih4; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - You're Only Happy When You Get What You Want'. Uploader not shown.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30464,7 +30420,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=EBL37cSYih4"
   ],
@@ -30483,7 +30439,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=N37KSm45ZNY",
-  "description": "id N37KSm45ZNY; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id N37KSm45ZNY; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - Thoughts Will Not Help You'; description links Mind is a Myth / Courage to Stand Alone. Uploader not shown.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30493,7 +30449,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=N37KSm45ZNY"
   ],
@@ -30512,7 +30468,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=6deGa7wkidw",
-  "description": "id 6deGa7wkidw; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id 6deGa7wkidw; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'Thoughts, Language & Energy' returned no matching upload; existence of 6deGa7wkidw with this title not confirmed.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30541,7 +30497,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=kUw-SHVW7UM",
-  "description": "id kUw-SHVW7UM; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id kUw-SHVW7UM; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - Permanent Happiness'. Uploader not shown. Related: 'Permanent Happiness, Eternal Brainwashing' (PQSAaIJJHaw).]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30551,7 +30507,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=kUw-SHVW7UM"
   ],
@@ -30570,7 +30526,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=rkTZ7lAvU6Q",
-  "description": "id rkTZ7lAvU6Q; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified",
+  "description": "id rkTZ7lAvU6Q; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'You're Not the Ideas You Pursue' returned no matching upload; not confirmed.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30599,7 +30555,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=AlVM1oM5FCw",
-  "description": "id AlVM1oM5FCw; uploader unknown; 'no talks and such, mostly footage'",
+  "description": "id AlVM1oM5FCw; uploader unknown; 'no talks and such, mostly footage' [Checked: YouTube result 'U.G. Krishnamurti in New Zealand', described as mostly footage, no talks. Related: 'U.G. Krishnamurti - Visiting New Zealand' (wZQAH9iDLoE; beach, fruit market, mall).]",
   "tags": [
    "youtube",
    "footage",
@@ -30609,7 +30565,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=AlVM1oM5FCw"
   ],
@@ -30628,7 +30584,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=d_B8_A-RSIY",
-  "description": "id d_B8_A-RSIY; uploader unknown; talk excerpt",
+  "description": "id d_B8_A-RSIY; uploader unknown; talk excerpt [Checked: YouTube result 'U.G. Krishnamurti - Quest For Permanent Happiness | Purpose of Life | Quest For GOD'; description identifies Uppaluri Gopala Krishnamurti.]",
   "tags": [
    "youtube",
    "video",
@@ -30637,7 +30593,7 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=d_B8_A-RSIY"
   ],
@@ -30656,7 +30612,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=aP-JiJxcz3o",
-  "description": "id aP-JiJxcz3o; uploader unknown; snippet only; title unknown",
+  "description": "id aP-JiJxcz3o; uploader unknown; snippet only; title unknown [Checked: YouTube-restricted search on U.G. + cobra snakes found no matching upload; aP-JiJxcz3o not confirmed.]",
   "tags": [
    "youtube",
    "video",
@@ -31086,7 +31042,7 @@
   "duration": "",
   "host": "reddit.com",
   "url": "https://www.reddit.com/r/atheism/",
-  "description": "r/atheism; link post sharing a U.G. interview (SocialGrep lists it under r/atheism; one snippet also attributes it to r/askphilosophy)",
+  "description": "r/atheism; link post sharing a U.G. interview (SocialGrep lists it under r/atheism; one snippet also attributes it to r/askphilosophy) [Checked: Reddit 'Extreme Atheist and Anti-Guru UG Krishnamurti interview' not surfaced by search.]",
   "tags": [
    "ug-krishnamurti",
    "reddit",
@@ -31152,7 +31108,7 @@
   "duration": "",
   "host": "reddit.com",
   "url": "https://www.reddit.com/r/awakened/",
-  "description": "r/awakened; link post (score 2); commenter calls it 'a very unusual type of awakening'",
+  "description": "r/awakened; link post (score 2); commenter calls it 'a very unusual type of awakening' [Checked: Reddit post not surfaced by search (reddit not indexed for these phrases). The underlying Thinking Allowed episode is confirmed: TVDB lists 'Mind as a Myth' with U.G. Krishnamurti. Post itself still unconfirmed.]",
   "tags": [
    "ug-krishnamurti",
    "reddit",
@@ -31168,9 +31124,10 @@
    "lang-english",
    "confidence-lead"
   ],
-  "confidence": "lead",
+  "confidence": "T",
   "sources": [
-   "https://www.socialgrep.com/search?query=ug+krishnamurti"
+   "https://www.socialgrep.com/search?query=ug+krishnamurti",
+   "https://www.thetvdb.com/series/thinking-allowed/episodes/10853481"
   ],
   "origin": "wave8-archive-reddit"
  },
@@ -31187,7 +31144,7 @@
   "duration": "",
   "host": "reddit.com",
   "url": "https://www.reddit.com/r/nonduality/",
-  "description": "r/nonduality; link post (video clip compilation) [Checked: Reviewed 2026-11-04: the Reddit thread sharing i26336e4e.]",
+  "description": "r/nonduality; link post (video clip compilation) [Checked: Reddit 'U.G. Krishnamurti - Garden Conversation Bits' not surfaced by search.] [Checked: Reviewed 2026-11-04: the Reddit thread sharing i26336e4e.]",
   "tags": [
    "ug-krishnamurti",
    "reddit",

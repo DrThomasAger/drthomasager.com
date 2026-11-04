@@ -3,7 +3,7 @@
   "items": 135,
   "quotes": 151,
   "events": 37,
-  "people": 24,
+  "people": 22,
   "items_by_medium": {
    "archive": 32,
    "community": 14,
@@ -13,57 +13,57 @@
    "text": 46
   },
   "items_by_confidence": {
-   "S": 114,
-   "lead": 12,
-   "T": 9
+   "S": 121,
+   "lead": 6,
+   "T": 8
   },
   "quotes_by_confidence": {
    "S": 68,
    "T": 83
   },
   "quotes_by_verdict": {
-   "single-source": 39,
-   "corroborated-primary": 16,
+   "single-source": 37,
+   "corroborated-primary": 19,
    "corroborated-secondary": 35,
    "disputed": 4,
    "not-ug": 13,
    "not-found": 2,
    "primary-source": 10,
-   "multi-source": 32
+   "multi-source": 31
   },
   "quotes_by_book": {
-   "The Experience of No-Self": 28,
+   "The Experience of No-Self": 31,
    "Mystics, Masters, Saints and Sages (2001), her autobiographical sketch": 4,
    "The Path to No-Self": 22,
-   "interview: Stephan Bodian 1986": 34,
+   "interview: Stephan Bodian 1986": 33,
    "What Is Self?": 20,
    "The Real Christ": 19,
-   "Contemplative": 1,
-   "Essays on the Christian Contemplative Journey": 3,
+   "Contemplative: Autobiography of the Early Years": 4,
+   "Essays on the Christian Contemplative Journey": 2,
+   "interview: Stephan Bodian, Yoga Journal Nov/Dec 1986": 1,
    "essay: What Is Self?": 1,
-   "unassigned": 12,
+   "unassigned": 6,
+   "Mystics, Masters, Saints and Sages (2001 sketch)": 1,
    "letter": 1,
    "autobiographical sketch: Mystics, Masters, Saints and Sages (2001)": 1,
-   "How it Works (short essay reproduced on Western Mystics)": 2,
-   "Contemplative: Autobiography of the Early Years": 3
+   "The Christian Contemplative Journey: Essays on the Path": 1,
+   "talk: A Passage Through Self": 1,
+   "paper: Nonduality as a Definition of Christ (SAND 2015); related: \"Christ as the Definition of 'Non-duality'\" (research paper on her blog)": 1,
+   "essay/blog post: Reply to James Arraj's comments (June 2008)": 1,
+   "Forcing the Fit (self-published manuscript, 2008)": 1
   },
-  "distinct_source_hosts": 111,
-  "items_self_sourced_only": 60,
-  "items_with_second_source": 75,
-  "compositions_checked": 1,
+  "distinct_source_hosts": 126,
+  "items_self_sourced_only": 47,
+  "items_with_second_source": 88,
+  "compositions_checked": 2,
   "events_with_recorded_date_conflict": 5,
   "quotes_marked_duplicate": 0,
   "issue_counts": {
-   "person-no-sources": 2,
-   "quote-unassigned-book": 12
+   "quote-unassigned-book": 6
   }
  },
  "issues": {
   "quote-unassigned-book": [
-   [
-    "qdde04e58",
-    "It never goes outside itself to know itself because the unma"
-   ],
    [
     "q35f54d7e",
     "and when I finally saw 'that' which remains when there is no"
@@ -71,10 +71,6 @@
    [
     "qad3c641c",
     "the second movement as a continuation and completion of the "
-   ],
-   [
-    "q336b7ef3",
-    "God is everything that exists, except the self"
    ],
    [
     "q7ebeb747",
@@ -89,32 +85,8 @@
     "The process of unveiling will eventually bring us in contact"
    ],
    [
-    "q76139afc",
-    "come off the top of the head"
-   ],
-   [
-    "q022454d5",
-    "universal human nature is not a numerical one among many - n"
-   ],
-   [
     "q9a2a3189",
     "Christ is the eternal Godhead, while man is once removed fro"
-   ],
-   [
-    "q215e7bff",
-    "He thinks what I mean by No-Self is no different than what t"
-   ],
-   [
-    "q36aa0c20",
-    "forcing the fit"
-   ]
-  ],
-  "person-no-sources": [
-   [
-    "Bernard McGinn"
-   ],
-   [
-    "Jeffrey Kripal"
    ]
   ]
  },
@@ -147,22 +119,22 @@
   ],
   [
    "goodreads.com",
-   43
+   44
   ],
   [
    "spiritualteachers.org",
-   42
-  ],
-  [
-   "bernadetteroberts.blogspot.com",
-   29
-  ],
-  [
-   "o-meditation.com",
-   27
+   43
   ],
   [
    "youtube.com",
+   31
+  ],
+  [
+   "bernadetteroberts.blogspot.com",
+   30
+  ],
+  [
+   "o-meditation.com",
    27
   ],
   [
@@ -194,6 +166,10 @@
    13
   ],
   [
+   "en.wikipedia.org",
+   12
+  ],
+  [
    "shalomplace.org",
    12
   ],
@@ -214,10 +190,6 @@
    10
   ],
   [
-   "en.wikipedia.org",
-   9
-  ],
-  [
    "westernmystics.wordpress.com",
    8
   ],
@@ -228,6 +200,10 @@
   [
    "libquotes.com",
    6
+  ],
+  [
+   "openlibrary.org",
+   5
   ],
   [
    "standinginanopenfield.wordpress.com",
@@ -243,10 +219,6 @@
   ],
   [
    "josephbray.wordpress.com",
-   4
-  ],
-  [
-   "openlibrary.org",
    4
   ],
   [
@@ -310,6 +282,10 @@
    3
   ],
   [
+   "scienceandnonduality.com",
+   3
+  ],
+  [
    "quotefancy.com",
    3
   ],
@@ -318,7 +294,15 @@
    2
   ],
   [
+   "innerexplorations.org",
+   2
+  ],
+  [
    "actualized.org",
+   2
+  ],
+  [
+   "scribd.com",
    2
   ],
   [
@@ -327,6 +311,10 @@
   ],
   [
    "listennotes.com",
+   2
+  ],
+  [
+   "hoopladigital.com",
    2
   ],
   [
@@ -359,6 +347,10 @@
   ],
   [
    "zvab.com",
+   2
+  ],
+  [
+   "exoticindia.com",
    2
   ],
   [
@@ -434,6 +426,10 @@
    1
   ],
   [
+   "redwheelweiser.com",
+   1
+  ],
+  [
    "anamchara.com",
    1
   ],
@@ -443,6 +439,10 @@
   ],
   [
    "dbpedia.org",
+   1
+  ],
+  [
+   "alpha.engagewisdom.com",
    1
   ],
   [
@@ -459,6 +459,14 @@
   ],
   [
    "betterworldbooks.com",
+   1
+  ],
+  [
+   "storytel.com",
+   1
+  ],
+  [
+   "static.audiobooksnow.com",
    1
   ],
   [
@@ -510,7 +518,19 @@
    1
   ],
   [
+   "vedamsbooks.com",
+   1
+  ],
+  [
+   "ci.nii.ac.jp",
+   1
+  ],
+  [
    "amazon.co.uk",
+   1
+  ],
+  [
+   "readings.com.au",
    1
   ],
   [
@@ -522,7 +542,19 @@
    1
   ],
   [
+   "backup.katolisitas.org",
+   1
+  ],
+  [
    "actualfreedom.com.au",
+   1
+  ],
+  [
+   "librarycat.org",
+   1
+  ],
+  [
+   "noetic.org",
    1
   ],
   [
@@ -543,6 +575,10 @@
   ],
   [
    "beingwithoutself.org",
+   1
+  ],
+  [
+   "reach.dog",
    1
   ],
   [
@@ -571,10 +607,6 @@
   ],
   [
    "dn721908.ca.archive.org",
-   1
-  ],
-  [
-   "scribd.com",
    1
   ],
   [

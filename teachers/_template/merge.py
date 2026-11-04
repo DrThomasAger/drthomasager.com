@@ -183,7 +183,9 @@ items = merged
 # Research that confirms, dates or sources an item already gathered:
 # raw/item-updates*.json, a list of {id, year?, date?, place?, confidence?,
 # sources_add?, note?, searched}, and item-decisions.json beside this script
-# for hand decisions (duplicate_of, same_recording_as, reviewed). Only filled
+# for hand decisions (duplicate_of, same_recording_as, reviewed, and drop
+# with its reason for an item that is not the teacher's, which leaves the
+# archive and is kept in dropped-items.json). Only filled
 # fields change.
 by_id = {it["id"]: it for it in items}
 n_upd = 0
@@ -203,6 +205,8 @@ for uf in sorted(src.glob("item-updates*.json")) + ([HERE / "item-decisions.json
                 it[k] = u[k]
         if u.get("confidence") in ("S", "T", "lead") and (u["confidence"] != "S" or add or it["sources"]):
             it["confidence"] = u["confidence"]
+        if u.get("drop"):
+            it["drop"] = u["drop"]
         for k in ("duplicate_of", "same_recording_as"):
             if u.get(k):
                 it[k] = u[k]
@@ -211,7 +215,10 @@ for uf in sorted(src.glob("item-updates*.json")) + ([HERE / "item-decisions.json
         if u.get("note"):
             it["description"] = ((it.get("description") or "") + " [Checked: " + u["note"].strip() + "]").strip()
         n_upd += 1
-print(f"item updates applied: {n_upd}")
+dropped = [it for it in items if it.get("drop")]
+items = [it for it in items if not it.get("drop")]
+print(f"item updates applied: {n_upd}; items dropped as not the teacher's: {len(dropped)}")
+(HERE / "dropped-items.json").write_text(json.dumps(dropped, ensure_ascii=False, indent=1), encoding="utf-8")
 
 # Extra datasets: events, people, verification
 def load_list(name):
