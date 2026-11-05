@@ -42,7 +42,7 @@ That sentence closes a door that most teachings leave open. If the state is phys
 
 The intelligence he meant is not cleverness, and it is not anything you can learn or improve. It is the same intelligence that heals a cut, digests a meal and keeps the heart beating through the night without your help. You are already blessed with it. What gets in the way is the effort to become something other than what you are.
 
-He was not describing a special body that only he possessed. He was saying that your body works this way right now, underneath the commentary that thought keeps running about it. The trouble, in his telling, is that culture has trained every one of us toward the same model of a good and spiritual person, and the organism's own way gets buried under that training.
+He said that you are already blessed with that intelligence, and that it is buried under what culture has taught you to be. The trouble, in his telling, is that culture has trained every one of us toward the same model of a good and spiritual person, and the organism's own way gets buried under that training.
 
 > …nature had been allowed to go on in its own way, everybody would have become a unique flower.
 
@@ -62,7 +62,7 @@ For a seeker this may be the hardest sentence in the collection. The body does n
 
 He chose the most ordinary example on purpose. Pleasure comes and goes, and the coming and going protects the organism. The dream of an enlightenment that is bliss without end asks the body for something that would destroy it. Seen this way, the spiritual search is not a higher calling. It works against the very life it claims to serve.
 
-## Why did he call the natural state a calamity?
+## Why did he call what happened to him a calamity?
 
 > I call these events a calamity because from the point of view of one who thinks this is something fantastic, blissful, full of love, ecstasy and all that kind of a thing, this is physical torture.
 
@@ -96,7 +96,7 @@ He did not say that anyone could reach this by following him, or by following an
 
 — *No Way Out*
 
-Here the intelligence of the body becomes something you can test against your own life. The fear of dying, he said, does not belong to the organism. It belongs to the self that culture has built, the continuous story of a person who wants to go on. The body has no such wish. When it dies, nothing is lost to it.
+Here he places the fear of death in the self that culture built, not in the body. The fear of dying, he said, does not belong to the organism. It belongs to the self that culture has built, the continuous story of a person who wants to go on. The body has no such wish. When it dies, nothing is lost to it.
 
 > The body changes from one state into another as recycling of matter.
 
@@ -116,7 +116,7 @@ It would be easy to turn all of this into a new belief, with the body as the tru
 
 — *Mind is a Myth*
 
-Both sentences are his, and he left them side by side. The body functions, and it needs nothing from us in order to do so. The moment we hold an idea of the body, a picture of what it is and what it knows, we are back in thought again. The intelligence he described is not a thing you can know. It is the functioning itself, going on before any word about it.
+He said this too, against any idea of the body as the real self. The body functions, and it needs nothing from us in order to do so. The moment we hold an idea of the body, a picture of what it is and what it knows, we are back in thought again. The intelligence he described is not a thing you can know. It is the functioning itself, going on before any word about it.
 
 ## What is left when the search ends?
 
@@ -124,7 +124,7 @@ Both sentences are his, and he left them side by side. The body functions, and i
 
 — *The Mystique of Enlightenment*
 
-U.G. Krishnamurti never told anyone to trust the body, to listen to it, or to practice anything with it. Every such instruction would only be thought again, trying to use the organism for its own ends. What he left instead was a description, and a suggestion that the life in you is already doing what it needs to do. You may find that simply reading his words, slowly and without trying to make them into a method, has its own quiet effect. Or you may find that nothing happens at all. He would have been content with either.
+U.G. Krishnamurti never told anyone to trust the body, to listen to it, or to practice anything with it. Every such instruction would only be thought again, trying to use the organism for its own ends. What he left instead was a description, and a suggestion that the life in you is already doing what it needs to do. He did not expect his words to help anyone, and he said so.
 
 ## Sources
 

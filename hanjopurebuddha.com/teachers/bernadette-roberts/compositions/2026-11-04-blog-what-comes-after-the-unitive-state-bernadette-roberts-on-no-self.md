@@ -22,7 +22,7 @@ authors: Dr. Thomas Ager, Opus 5.5
 tags: Bernadette Roberts unitive state, what comes after union with God, Bernadette Roberts no-self explained, true self falling away Christian mysticism, The Path to No-Self Bernadette Roberts
 ---
 
-For Bernadette Roberts, what comes after the unitive state is the end of the self altogether. Most Christian contemplative writing describes a long journey that culminates in the union of the soul with God, where the ego has gone and a true self lives in oneness with the divine. Roberts lived that union for many years and then found that it, too, came to an end. The true self fell away, the divine center went with it, and what remained she called no-self. Her books are an attempt to map this second passage, which she believed the tradition had left almost entirely undescribed.
+For Bernadette Roberts, what comes after the unitive state is the end of the self altogether. Most Christian contemplative writing describes a long journey that culminates in the union of the soul with God, where the ego has gone and a true self lives in oneness with the divine. Roberts lived that union for many years and then found that it, too, came to an end. The true self fell away, the divine center went with it, and what remained she called simply "that". Her books are an attempt to map this second passage, which she believed the tradition had left almost entirely undescribed.
 
 ## Who was Bernadette Roberts?
 
@@ -74,7 +74,7 @@ She wrote of looking inward, as she had done for years, to the quiet center wher
 
 — *The Experience of No-Self*, Part I
 
-The joy is worth noticing, because what followed was not easy. In her account the loss of the true self takes the divine center with it. If there is no one left to be united, there is no longer a God to be united with in that way. Speaking to Stephan Bodian in 1986, she used the image of a coin whose two faces are self and God, and said that when the centre went, both faces went with it.
+The joy is worth noticing, because what followed was not easy. In her account the loss of the true self takes the divine center with it. If there is no one left to be united, there is no longer a God to be united with in that way. In her written answers to Stephan Bodian in 1986, she described the loss of the self's divine centre as the loss of both self and God as she had known them.
 
 This is the part of her teaching most easily softened, and she did not soften it. No-self is not a deeper union, and it is not a higher self. It is the end of the self that had been the knower of God. What remains is not experienced by anyone, because there is no one there to experience it.
 
@@ -92,7 +92,7 @@ That sentence can sound bleak. In her writing it reads more like relief. A mecha
 
 Roberts wrote for people who had reached a place the books did not describe, and who feared they had gone wrong. A contemplative who loses the felt presence of God after years of union may take it as failure, or as a dark night that will end with union restored. Roberts offered another reading. The loss may be the next step of a path that does not end in a self at all.
 
-Her account also opens a quiet conversation with other traditions. She was a Catholic to the end, and she read the death and resurrection of Christ as the pattern of this passage. Yet she recognized something of her own experience in Buddhist accounts of the end of self, and she wrote about both with respect.
+Her account also opens a quiet conversation with other traditions. She was a Catholic to the end, and she read the death and resurrection of Christ as the pattern of this passage. After the falling away of self she found her passage in lines attributed to the Buddha, though she held that most Buddhist writers on no-self describe the falling away of the ego.
 
 ## Closing
 
