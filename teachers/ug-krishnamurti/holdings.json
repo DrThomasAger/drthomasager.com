@@ -18661,7 +18661,7 @@
   "title": "In discussion with Douglas White",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-discussion-with-douglas-white",
-  "fetched": "2026-11-05T08:20:08+00:00",
+  "fetched": "2026-11-05T10:28:34+00:00",
   "files": {
    "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In discussion with Douglas White [894377695].info.json": {
     "bytes": 6483,
@@ -18685,6 +18685,12 @@
     "seconds": 4688.7,
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/ib80b7bdc__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_In_discussion_with_Douglas_White__894377695_.mp3",
     "kept": "release"
+   },
+   "soundcloud/.archive": {
+    "bytes": 21,
+    "sha256": "3747bb94e4461dc4f960ddce3118b925edf1a116456daa5dd12e42c92bbcfa95",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/ib80b7bdc__soundcloud__.archive",
+    "kept": "release"
    }
   },
   "complete": false
@@ -18693,7 +18699,7 @@
   "title": "SoundCloud 'krishnamorthy' account family (krishnamorthy, 00, 01, 02)",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy",
-  "fetched": "2026-11-05T08:22:44+00:00",
+  "fetched": "2026-11-05T10:34:14+00:00",
   "files": {
    "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - With Willem De Ridder in Amsterdam. [893713033].jpg": {
     "bytes": 9699,
@@ -18898,6 +18904,56 @@
     "sha256": "1a46f677e045d8ae5bf9ae1e45b8aef3e5bb3c160df4a1c2db6a8e87fee6b9c0",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_On_BBC_Radio__Guest_Of_The_Week___893658544_.info.json",
     "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Willen de Ridder & Byron Katie (Amsterdam, Holland, 1998) [892732873].jpg": {
+    "bytes": 23098,
+    "sha256": "bd865a8508ca25cb17e3087d197ab8d758e897f739dded9c1c66e4f5cfce4267",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Willen_de_Ridder___Byron_Katie__Amsterdam__Holland__1998___892732873_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Willen de Ridder & Byron Katie (Amsterdam, Holland, 1998) [892732873].m4a": {
+    "bytes": 35791108,
+    "sha256": "663351d13a7f09a332a2c35b10cfb74c0f079a13e14daae0568cba4fda70ea79",
+    "seconds": 2940.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Willen_de_Ridder___Byron_Katie__Amsterdam__Holland__1998___892732873_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Willen de Ridder & Byron Katie (Amsterdam, Holland, 1998) [892732873].info.json": {
+    "bytes": 6208,
+    "sha256": "ce3be7ef97f30bd5cda1b4377ccb709f9a7362c45e362924791ce66c4255c738",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Willen_de_Ridder___Byron_Katie__Amsterdam__Holland__1998___892732873_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Donald Ingram Smith (07⧸03⧸1990) [892730110].jpg": {
+    "bytes": 23098,
+    "sha256": "bd865a8508ca25cb17e3087d197ab8d758e897f739dded9c1c66e4f5cfce4267",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Donald_Ingram_Smith__07_03_1990___892730110_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Donald Ingram Smith (07⧸03⧸1990) [892730110].description": {
+    "bytes": 52,
+    "sha256": "b4dc630a42c3aad8ace5846dfbc5a45df51370107137f725c28cac0d5e1dc66a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Donald_Ingram_Smith__07_03_1990___892730110_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Willen de Ridder & Byron Katie (Amsterdam, Holland, 1998) [892732873].description": {
+    "bytes": 91,
+    "sha256": "48e1925f7450569a6d821899736df48d7277fa4f47a42d8d4a8047bfda78af49",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Willen_de_Ridder___Byron_Katie__Amsterdam__Holland__1998___892732873_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Donald Ingram Smith (07⧸03⧸1990) [892730110].info.json": {
+    "bytes": 6042,
+    "sha256": "9c3bbffaa15d56190a00d3014809699b3ddd3bbcf8d2a38041a68eda010c0742",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Donald_Ingram_Smith__07_03_1990___892730110_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Donald Ingram Smith (07⧸03⧸1990) [892730110].m4a": {
+    "bytes": 20895932,
+    "sha256": "47a84ba5ea46213b7dd0153be634ce503f358ce9221dbbaf8ad212d8125d71d4",
+    "seconds": 1716.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Donald_Ingram_Smith__07_03_1990___892730110_.m4a",
+    "kept": "release"
    }
   },
   "complete": false
@@ -18906,7 +18962,7 @@
   "title": "jason martin - U.G. Krishnamurti (SoundCloud set)",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/jason-martin-746746139/sets/u-g-krishnamurti",
-  "fetched": "2026-11-05T08:22:45+00:00",
+  "fetched": "2026-11-05T10:34:14+00:00",
   "files": {
    "soundcloud/jason martin/u g krishnamurti [227227987].info.json": {
     "bytes": 2428,
@@ -18927,7 +18983,7 @@
   "title": "UG Krishnamurti - Still No One Talking Part 1",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/petermaverick/ug-krishnamurti-still-no-one-1",
-  "fetched": "2026-11-05T08:22:48+00:00",
+  "fetched": "2026-11-05T10:34:22+00:00",
   "files": {
    "soundcloud/Peter Maverick/UG Krishnamurti - Still No One Talking Part 1 [23543953].info.json": {
     "bytes": 5490,
@@ -18959,7 +19015,7 @@
   "title": "U.G. Krishnamurti - With Willem De Ridder in Amsterdam",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy02/ug-krishnamurti-with-willem-de-ridder-in-amsterdam",
-  "fetched": "2026-11-05T08:22:49+00:00",
+  "fetched": "2026-11-05T10:34:23+00:00",
   "files": {},
   "complete": false
  },
