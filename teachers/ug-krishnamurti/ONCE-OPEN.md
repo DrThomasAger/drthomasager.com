@@ -13,7 +13,7 @@ bash enumerate.sh                      # 1. list the collections search could no
 python3 ingest-enumerations.py scratch # 2. turn the listings into merge-ready JSON
 python3 merge.py scratch               # 3. fold them into items.json (dedupes by URL)
 
-bash fetch.sh                          # 4. pull every retrievable item into downloads/ (resumable)
+python fetch.py                        # 4. pull every PDF, recording, scan, photo, video and transcript into downloads/ (resumable, any OS)
 python3 extract-text.py                # 5. Wikisource, WELL and PDF texts -> texts/<book>/<chapter>.txt
 python3 find-quotes.py                 # 6. locate every quote in the texts -> local-verification.json
 python3 merge.py scratch               # 7. verdicts upgrade where the text itself carries the line

@@ -44,7 +44,7 @@ STEP 3 — the files and the local verification (from the new repository's clone
   bash enumerate.sh
   python3 ingest-enumerations.py scratch
   python3 merge.py scratch
-  bash fetch.sh            # resumable; re-run until downloads/fetch.log shows no "fail"
+  python fetch.py          # or fetch-everything.bat / .sh at the site root; resumable, re-run until downloads/fetch-log.jsonl shows no failures
   python3 extract-text.py
   python3 find-quotes.py
   python3 merge.py scratch

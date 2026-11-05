@@ -88,8 +88,14 @@ def teacher(d, F):
         L += [f"- Not fetched by design: {manifest.get('note', 'her words are under copyright')}", ""]
     else:
         n = {kk: len(vv) for kk, vv in manifest.items() if isinstance(vv, list)}
-        L += [f"- Listed for download by fetch.sh: {sum(n.values())} addresses (" + ", ".join(f"{vv} {kk}" for kk, vv in n.items()) + ").",
-              "- Held in the repository: none, by rule; media files never go into git. fetch.sh downloads them on a machine whose network reaches the hosts.", ""]
+        hold = load(d / "holdings.json", {})
+        held = {kk: sum(1 for r in manifest.get(kk, []) if hold.get(r["id"], {}).get("files")) for kk in n}
+        nfiles = sum(len(h.get("files") or {}) for h in hold.values())
+        nbytes = sum(f.get("bytes", 0) for h in hold.values() for f in (h.get("files") or {}).values())
+        L += [f"- Listed for download by fetch.py: {sum(n.values())} addresses, items and the media among their sources.", ""]
+        L += table([(kk, vv, held[kk]) for kk, vv in n.items()], ["kind", "listed", "held"]) + [""]
+        L += [f"- Held: {nfiles} files, {nbytes / 1e9:.2f} GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.",
+              "- Not yet held: every listed address above without a held count. `python fetch.py` fetches them on a machine whose network reaches the hosts, and running it again continues.", ""]
 
     L += ["### Integrity", ""]
     ic = (integ.get("summary") or {}).get("issue_counts") or {}
