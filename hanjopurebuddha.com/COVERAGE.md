@@ -8,6 +8,7 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - Forms: 6 (Suno song, Collection on a topic, Book with chapters, Blog post, Instagram post, Custom), each a .smile module in smile/forms, with 3 carrying a variant for words under copyright.
 - Suno styles held as copies: 4.
 - Commands: 6 (C-guru-blog, C-guru-book, C-guru-collection, C-guru-instagram, C-guru-suno, C-guru), for Claude Code, Pi and THE MAP Viewer's composer through smile/install.py.
+- Pages in the built site: 466.
 
 ## Bernadette Roberts
 
@@ -92,18 +93,17 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | verification | quotations |
 |---|---|
-| corroborated-primary | 101 |
-| corroborated-secondary | 122 |
-| primary-source | 5 |
-| single-source | 26 |
+| corroborated-primary | 204 |
+| corroborated-secondary | 41 |
+| single-source | 10 |
 | disputed | 20 |
-| not-found | 4 |
+| not-found | 3 |
 | not-ug | 4 |
 
 - Kinds: 113 fragment, 103 verbatim, 66 paraphrase.
 - Books: 23, with 3 quotations not yet placed in a book.
 - Marked as a second copy of a passage: 8.
-- Given to a composition by default: 172; with single-source lines allowed: 190.
+- Given to a composition by default: 186; with single-source lines allowed: 190.
 
 ### Life and people
 
@@ -146,8 +146,8 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 ### Not yet reached
 
-- 26 quotations rest on one source and wait for a second.
-- 20 disputed and 4 not found, never quoted.
+- 10 quotations rest on one source and wait for a second.
+- 20 disputed and 3 not found, never quoted.
 - 65 archive items are leads or likely, not yet confirmed by a source.
 - 314 archive items have no year (websites and accounts among them, which take none).
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.
