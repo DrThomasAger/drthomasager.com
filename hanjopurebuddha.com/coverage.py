@@ -89,13 +89,16 @@ def teacher(d, F):
     else:
         n = {kk: len(vv) for kk, vv in manifest.items() if isinstance(vv, list)}
         hold = load(d / "holdings.json", {})
-        held = {kk: sum(1 for r in manifest.get(kk, []) if hold.get(r["id"], {}).get("files")) for kk in n}
+        held = {kk: sum(1 for r in manifest.get(kk, []) if hold.get(r["id"], {}).get("complete")) for kk in n}
+        secs = sum(f.get("seconds", 0) for h in hold.values() for f in (h.get("files") or {}).values())
+        assets = sum(1 for h in hold.values() for f in (h.get("files") or {}).values() if f.get("asset"))
         nfiles = sum(len(h.get("files") or {}) for h in hold.values())
         nbytes = sum(f.get("bytes", 0) for h in hold.values() for f in (h.get("files") or {}).values())
         L += [f"- Listed for download by fetch.py: {sum(n.values())} addresses, items and the media among their sources.", ""]
         L += table([(kk, vv, held[kk]) for kk, vv in n.items()], ["kind", "listed", "held"]) + [""]
-        L += [f"- Held: {nfiles} files, {nbytes / 1e9:.2f} GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.",
-              "- Not yet held: every listed address above without a held count. `python fetch.py` fetches them on a machine whose network reaches the hosts, and running it again continues.", ""]
+        L += [f"- Held: {nfiles} files, {nbytes / 1e9:.2f} GB, {secs / 3600:.1f} hours of recordings, each with its sha256 in holdings.json;"
+              f" {assets} of them are public release assets of this repository (media-<kind> releases), each with its download address.",
+              "- Not yet held, with the last answer each host gave: catalogue/not-yet-held.md. The harvest workflow (harvest.yml, then gather.yml) or `python fetch.py` on any machine continues.", ""]
 
     L += ["### Integrity", ""]
     ic = (integ.get("summary") or {}).get("issue_counts") or {}
