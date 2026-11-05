@@ -8,7 +8,6 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - Forms: 6 (Suno song, Collection on a topic, Book with chapters, Blog post, Instagram post, Custom), each a .smile module in smile/forms, with 3 carrying a variant for words under copyright.
 - Suno styles held as copies: 4.
 - Commands: 6 (C-guru-blog, C-guru-book, C-guru-collection, C-guru-instagram, C-guru-suno, C-guru), for Claude Code, Pi and THE MAP Viewer's composer through smile/install.py.
-- Pages in the built site: 466.
 
 ## Bernadette Roberts
 
@@ -137,7 +136,7 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | well | 28 | 28 |
 | other_pages | 446 | 368 |
 
-- Held: 2948 files, 16.47 GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.
+- Held: 2957 files, 16.52 GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.
 - Not yet held: every listed address above without a held count. `python fetch.py` fetches them on a machine whose network reaches the hosts, and running it again continues.
 
 ### Integrity
