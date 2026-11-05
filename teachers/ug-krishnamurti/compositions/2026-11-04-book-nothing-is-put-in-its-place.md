@@ -6,7 +6,7 @@ topic: thought, the body, the self
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q37d40528, qe646b0ed, qc0edce3e, q4b30cd75, qdc4e8ecb, qfb105fa5, q2c9515a2, q3b41db6a, qd829349e, qd28dac6d, q39483a5d, q7fad3985, q1fb04988, q181d741b, q00193fb7, q6a9a1403, q610e5087, q7a1ee58c, q9e846fe8, q4c3e36cf, qd8034757, q7f620b02, q989dde8c, qf42bae73, q4f2c81d1, qf69919b2, q8d5e7e71, q762cadb3, q118b8994, q64b3e681, qd2169deb, qd1cb605c, q1c8788f6, qcb7d8a47, q95f072f5, qc774741b, q6bc8c471, q05850b19, q5e5b2970, q2384f6fc, q7e344096, qb4728a46, q7f2ee6c3, q0997ce6d, q1a17d2c4, qc70b22b1, q59326449, q6fe326b5, qbb683516, q1a68f39e, qd42e2a22, qa96fd115, q3814bcc6, qd74b2e4b, qbc15d529, q1985d54c, q406d4a93, q45036753, q91eb04cf, qd39fb8fe, q77f34910, qbe66ba38, qde44a012, qc94ba81d, q41a1cd4e
+quotes: q37d40528, qe646b0ed, qc0edce3e, q4b30cd75, qdc4e8ecb, qfb105fa5, q2c9515a2, q3b41db6a, qd829349e, qd28dac6d, q39483a5d, q7fad3985, q181d741b, q00193fb7, q6a9a1403, q7a1ee58c, q9e846fe8, q4c3e36cf, qd8034757, q7f620b02, q989dde8c, qf42bae73, q4f2c81d1, qf69919b2, q8d5e7e71, q762cadb3, q118b8994, q64b3e681, qd2169deb, qd1cb605c, q1c8788f6, qcb7d8a47, q95f072f5, qc774741b, q6bc8c471, q05850b19, q5e5b2970, qb4728a46, q7f2ee6c3, q0997ce6d, q1a17d2c4, qc70b22b1, q59326449, q6fe326b5, qbb683516, q1a68f39e, qd42e2a22, qa96fd115, q3814bcc6, qd74b2e4b, qbc15d529, q1985d54c, q406d4a93, q45036753, qd39fb8fe, q77f34910, qbe66ba38, qde44a012, qc94ba81d, q41a1cd4e
 ---
 
 # Nothing Is Put in Its Place
@@ -92,10 +92,6 @@ The Mystique of Enlightenment, Part Two
 
 The Courage to Stand Alone
 
-> All your experiences, all your meditations, all your prayer, all that you do, is self-centred. … whatever you do to be free from the self also is a self-centred activity … strengthening the self, adding momentum, gathering momentum, so it is taking you in the opposite direction.
-
-Remembering U.G. (WELL memorial compilation)
-
 > …all the positive approaches that man has invented and used for centuries have not resulted in anything useful. They have not produced the results you have been promised.
 
 The Courage to Stand Alone, Part III
@@ -113,10 +109,6 @@ Stopped in Our Tracks, Book Two
 > all we can know is memory and memory is thought
 
 The Natural State
-
-> It [thought] is a mechanical thing and can solve only mechanical problems. But you want to use it to understand something living, and that is the problem.
-
-Stopped in Our Tracks, Book Two
 
 > Thought can never capture the movement of life, it is much too slow. It is like lightning and thunder. They occur simultaneously, but sound, traveling slower than light, reaches you later, creating the illusion of two separate events.
 
@@ -224,14 +216,6 @@ Stopped in Our Tracks, Book Two
 
 Against thought U.G. set the living organism. The body, for him, is intelligent, self-sufficient and wholly indifferent to spiritual ideas. It needs food, clothing and shelter. It does not fear death, because it does not die in the way the self imagines dying. It has been functioning all along without our help.
 
-> …this is the way you, stripped of the machinations of thought, are also functioning.
-
-The Biology of Enlightenment
-
-> What is there is only the body. It is actually a computer, but we are not ready to accept it.
-
-Thinking Allowed interview with Jeffrey Mishlove, Mind As a Myth
-
 > The body does not exist except as a thought.
 
 Mind is a Myth
@@ -311,10 +295,6 @@ Thought is Your Enemy
 > A real guru, if there is one, frees you from himself.
 
 U.G. Krishnamurti, A Life, Ch. 2 Early Years
-
-> WHAT I HAVE FOUND, OFF AND BY MYSELF, IS THAT ALL TEACHERS RELIGIOUS, SECULAR AND THOSE SCIENTISTS AND FILTHY DOCTORS ARE WRONG
-
-My Swan Song, opening (WELL page title)
 
 > You have to liberate yourself.
 

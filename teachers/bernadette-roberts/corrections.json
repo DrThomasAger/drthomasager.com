@@ -35,7 +35,8 @@
  },
  "qfd33296f": {
   "book": "interview: Stephan Bodian 1986",
-  "note": "Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'."
+  "note": "Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'. Reviewed 2026-11-05 (quotation sweep): wording corrected to the Bodian interview, \"And when there is no longer a cyclone, there is also no longer an eye.\"",
+  "text": "when there is no longer a cyclone, there is also no longer an eye."
  },
  "q885f4c3e": {
   "book": "interview: Stephan Bodian 1986",
@@ -161,7 +162,8 @@
   "reviewed": [
    "flagged-not-ug-or-editor"
   ],
-  "note": "Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's."
+  "note": "Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's. Reviewed 2026-11-05 (quotation sweep): Reviewer's bracketed '[to be]' changes the sense; her wording without it is unconfirmed here.",
+  "verdict": "disputed"
  },
  "qbb9f8d1b": {
   "same_passage_as": "qc5b19862",
@@ -176,5 +178,61 @@
   "reviewed": [
    "very-short"
   ]
+ },
+ "q45cc28ad": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Taken from a publisher/Goodreads description summary; exact wording not confirmed in the book."
+ },
+ "q2f5dd30c": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Wording variant unresolved between hosts."
+ },
+ "qa6a54e9d": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Wording only per a search summary; not checked against the text."
+ },
+ "q00062066": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Summary-style text joining two passages; not a single sentence of hers."
+ },
+ "qa8726644": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Opening sentence reconstructed from a third-person summary; not her confirmed wording."
+ },
+ "q147cc879": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Wording from repeated search summaries; exact text not seen."
+ },
+ "qd595c753": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Wording varies between summaries; may be the interviewer's framing, not her words."
+ },
+ "q7ebeb747": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Reported as something she often said; no primary source for the wording."
+ },
+ "q13546d70": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Subject of the sentence uncertain ('Christ is' vs 'the Incarnation was'); from a blog summary."
+ },
+ "qf4d4dd93": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Publisher's description wording, possibly built from her preface; not located in her text."
+ },
+ "qa1678a05": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Summarized from a PDF mirror; sentence structure may be altered."
+ },
+ "q76139afc": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Phrase unconfirmed in the talk."
+ },
+ "q6cb1010b": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Book-description wording; only the inner quotation ('mystery of God's indivisible oneness with the essence of mankind') is marked as hers."
+ },
+ "q3440ffc3": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): From Stephan Bodian's preamble; likely the interviewer's words."
  }
 }

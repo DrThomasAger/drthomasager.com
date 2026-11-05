@@ -6,7 +6,7 @@ topic: self and no-self
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q230710f7, qf3f06c8c, q45cc28ad, q06b448b2, qe90c1adb, q78be2fac, qf4d4dd93, q189739e1, q2b325f22, q885f4c3e, q8968c165, q93deb8f9, qfd33296f, qa6a54e9d, q066e6835, q147cc879, q5ed0c359, qfaaff1e3, qdffeb96d, qd8821dc7, q00062066, q825facb8, qd5f844f5, qe5c7c65f, qfc9565bd, q19a3d246, qd5f1bcc1, q8cae5ac0, q91b0441a, qd2978849, qa96340fd, q61fe2ed4, qd7225a8e, q008ac23e, qaacfa0c0, q9f3db5d3, q59a6748c, qc464e660, qa8726644, qc5b19862, qe87885fb, qda52d28f, qc6f04319, qe602ab0d, q47c6e999, qca48c952, qcee0d462, q9d30b69a, qebefbf9d
+quotes: q230710f7, qf3f06c8c, q06b448b2, qe90c1adb, q78be2fac, q189739e1, q2b325f22, q885f4c3e, q8968c165, q93deb8f9, qfd33296f, q066e6835, q5ed0c359, qfaaff1e3, qdffeb96d, qd8821dc7, q825facb8, qd5f844f5, qe5c7c65f, qfc9565bd, q19a3d246, qd5f1bcc1, q8cae5ac0, q91b0441a, qd2978849, qa96340fd, q61fe2ed4, qd7225a8e, q008ac23e, qaacfa0c0, q9f3db5d3, q59a6748c, qc464e660, qc5b19862, qe87885fb, qda52d28f, qc6f04319, qe602ab0d, q47c6e999, qca48c952, qcee0d462, q9d30b69a, qebefbf9d
 ---
 
 # The Falling Away of Self
@@ -48,11 +48,7 @@ She did not dispute this account. She had lived it. Her claim was that it descri
 
 What Is Self?
 
-> It is only where these writers leave off that I propose to begin.
-
-The Experience of No-Self, Introduction
-
-The sentence is modest and bold at once. She does not set herself above John of the Cross or Teresa of Ávila. She simply says that she will describe what came after the place where their accounts end, because it happened to her and she could find no one who had written it down.
+Her purpose is modest and bold at once. She does not set herself above John of the Cross or Teresa of Ávila. She sets out to describe what came after the place where their accounts end, because it happened to her and she could find no one who had written it down.
 
 > Because this was the limit of my expectations, I was all the more surprised and bewildered when many years later I came upon a permanent state in which there was no self
 
@@ -78,10 +74,6 @@ Roberts never treated this as a small thing. The unitive state is the life of a 
 > My purpose here is to affirm that the unitive state is a hidden path in itself
 
 The Path to No-Self, Preface
-
-> a path exists between the transcendence of the ego (self-center), which begins the unitive state, and the later falling away of all self (the true self), which ends the unitive state
-
-The Path to No-Self
 
 > The path to no-self, then, is the egoless unitive state.
 
@@ -122,7 +114,7 @@ Interview with Stephan Bodian, 1986
 
 Then she turns the image. The calm centre exists only in relation to the turning around it. Take away the storm, and the centre does not remain on its own.
 
-> When there is no longer a cyclone, there is no longer an eye.
+> When there is no longer a cyclone, there is also no longer an eye.
 
 Interview with Stephan Bodian, 1986
 
@@ -137,10 +129,6 @@ This single sentence holds the whole difference between the two movements. In th
 
 The second movement is the heart of The Experience of No-Self. She describes it as a falling away and a coming upon.
 
-> The onset of this second movement is characterized by the falling away of self and coming upon "that" which remains when it is gone.
-
-The Experience of No-Self, Introduction
-
 Her account of the moment itself is quiet and almost matter of fact. She looked for the centre she had always lived from and found nothing.
 
 > Instead of the usual unlocalized centre of myself, there was nothing there, it was empty, and at the moment of seeing this there was a flood of quiet joy.
@@ -148,10 +136,6 @@ Her account of the moment itself is quiet and almost matter of fact. She looked 
 The Experience of No-Self, Part I
 
 What fell away was not only the self. The divine centre, the place where she had known God within, went with it.
-
-> the divine center – the coin, or "true self" – suddenly disappeared, and without center or circumference there is no self, and no divine.
-
-Interview with Stephan Bodian, 1986
 
 This is the point at which many readers draw back, and Roberts did not soften it. For a woman who had given her life to God, the loss of the inner experience of God was not a consolation. It was a long and often disorienting passage.
 
@@ -183,10 +167,6 @@ What Is Self?
 What Is Self?
 
 She describes this system as the mind turning back on itself in order to know itself.
-
-> describing self as the mind bending on itself to know and see itself... the two together constitute the whole of self or whole of consciousness
-
-What Is Self?, Part I
 
 It follows that the end of self cannot be the arrival of a purer or wider consciousness. It is the end of reflexive consciousness as such.
 
@@ -299,11 +279,7 @@ Roberts read widely in Buddhist and Hindu writings, looking for an account of wh
 
 Interview with Stephan Bodian, 1986
 
-> Four years later, however, I came across two lines attributed to Buddha describing his enlightenment experience. Referring to self as a house, he said, "All thy rafters are broken now, the ridgepole is destroyed."
-
-Interview with Stephan Bodian, 1986
-
-In those lines she recognised her own passage, and she came to see the Buddha and Christ as witnesses to one truth.
+In the Buddha's lines about the house of self whose rafters are broken she recognised her own passage, and she came to see the Buddha and Christ as witnesses to one truth.
 
 > Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth.
 
@@ -375,25 +351,20 @@ Each quotation is listed with its id, its source, and its verification status.
 
 - q230710f7, The Experience of No-Self, Introduction, corroborated-primary
 - qf3f06c8c, What Is Self?, corroborated-primary
-- q45cc28ad, The Experience of No-Self, Introduction, corroborated-primary
 - q06b448b2, The Experience of No-Self, Introduction, multi-source
 - qe90c1adb, What Is Self?, primary-source
 - q78be2fac, The Path to No-Self, Preface, corroborated-primary
-- qf4d4dd93, The Path to No-Self, multi-source
 - q189739e1, The Path to No-Self, Preface, multi-source
 - q2b325f22, The Path to No-Self, multi-source
 - q885f4c3e, Interview with Stephan Bodian, 1986, corroborated-secondary
 - q8968c165, Interview with Stephan Bodian, 1986, multi-source
 - q93deb8f9, Interview with Stephan Bodian, 1986, multi-source
 - qfd33296f, Interview with Stephan Bodian, 1986, corroborated-secondary
-- qa6a54e9d, The Experience of No-Self, Introduction, corroborated-secondary
 - q066e6835, The Experience of No-Self, Part I, corroborated-primary
-- q147cc879, Interview with Stephan Bodian, 1986, corroborated-secondary
 - q5ed0c359, Mystics, Masters, Saints and Sages (2001), her autobiographical sketch, corroborated-secondary
 - qfaaff1e3, The Experience of No-Self, Introduction, multi-source
 - qdffeb96d, What Is Self?, corroborated-primary
 - qd8821dc7, What Is Self?, primary-source
-- q00062066, What Is Self?, Part I, corroborated-primary
 - q825facb8, Interview with Stephan Bodian, 1986, multi-source
 - qd5f844f5, Interview with Stephan Bodian, 1986, multi-source
 - qe5c7c65f, What Is Self?, corroborated-primary
@@ -411,7 +382,6 @@ Each quotation is listed with its id, its source, and its verification status.
 - q9f3db5d3, The Real Christ, Warning / front matter, multi-source
 - q59a6748c, The Real Christ, front matter, primary-source
 - qc464e660, Interview with Stephan Bodian, 1986, corroborated-secondary
-- qa8726644, Interview with Stephan Bodian, 1986, corroborated-secondary
 - qc5b19862, Interview with Stephan Bodian, 1986, corroborated-secondary
 - qe87885fb, What Is Self?, primary-source
 - qda52d28f, What Is Self?, primary-source

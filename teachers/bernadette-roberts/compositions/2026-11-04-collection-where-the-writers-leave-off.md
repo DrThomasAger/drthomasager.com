@@ -35,7 +35,7 @@ Mystics, Masters, Saints and Sages (2001), her autobiographical sketch
 
 The words immovable, unbreakable and unfeeling describe something that does not respond the way a self responds. She is careful not to make this stillness into a new and better self. It is what is left, described only by what it lacks.
 
-> When there is no longer a cyclone, there is no longer an eye.
+> When there is no longer a cyclone, there is also no longer an eye.
 
 interview: Stephan Bodian 1986
 

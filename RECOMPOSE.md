@@ -139,4 +139,4 @@ The first compositions are `teachers/ug-krishnamurti/compositions/` "Born of
 Fear" (a collection) and "You Love Fear" (a Suno song, every sung line
 U.G.'s), and `teachers/bernadette-roberts/compositions/` "Where the Writers
 Leave Off" (a short study under the copyright forms, eight brief quotations,
-133 words quoted).
+134 words quoted).

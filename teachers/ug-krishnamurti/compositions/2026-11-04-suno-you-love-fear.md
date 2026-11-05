@@ -6,7 +6,7 @@ topic: fear death
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q4f2c81d1, qc774741b, q1676a73f, qa52816a8, qd70eb646, q5f1205b6, qbdce9d7f, q3148c69a, q086ab55c, qe06bf8ca, q6fe326b5, qbb683516, q08218f4e, q1a68f39e, qfe0764c5
+quotes: q4f2c81d1, qc774741b, q1676a73f, qa52816a8, qd70eb646, q5f1205b6, qbdce9d7f, q3148c69a, q086ab55c, qe06bf8ca, q6fe326b5, qbb683516, q08218f4e, q1a68f39e
 ---
 
 # You Love Fear
@@ -97,7 +97,7 @@ in that sense the body is immortal
 [Outro]
 [Male deep]
 [Said kindly]
-What we do not want is the fear to come to an end.
+the very birth of thought creates fear
 
 SOURCES
 [Intro] the very birth of thought creates fear — q4f2c81d1
@@ -113,8 +113,8 @@ SOURCES
 [Verse 3] The body changes from one state into another as recycling of matter. — qbb683516
 [Final Chorus] The body cannot be afraid of death. — q08218f4e
 [Final Chorus] in that sense the body is immortal — q1a68f39e
-[Outro] What we do not want is the fear to come to an end. — qfe0764c5
+[Outro] the very birth of thought creates fear — q4f2c81d1
 No line is mine. The order, the repetitions and the tags are the arrangement.
 
 COUNT
-1824 characters
+1812 characters
