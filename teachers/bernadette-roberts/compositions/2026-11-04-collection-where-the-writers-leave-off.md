@@ -17,7 +17,7 @@ Bernadette Roberts (1931–2017) was a Christian contemplative who described two
 
 > the moment was unheralded, unrecognized, and unknown; it was the moment "I" entered a great silence and never returned
 
-Mystics, Masters, Saints and Sages (2001), her autobiographical sketch, Part I: The Journey, ch. 1
+Mystics, Masters, Saints and Sages (2001), her autobiographical sketch
 
 She places the turning point outside any event she could have noticed or prepared for. Nothing announced it, and nothing in her recognised it at the time. The silence she names is not a state she entered and left, since by her account the one who could return was no longer there.
 
@@ -61,7 +61,7 @@ She uses self and consciousness as names for one and the same experience. So the
 
 The Path to No-Self, Preface
 
-Her books draw this line again and again. The union of self and God, which most mystical writing treats as the summit, is for her a stage that is lived and then passed through. Her own writing begins where she found that union itself giving way.
+Her books draw this line again and again. The union of self and God, which most mystical writing treats as the summit, is for her a path that is lived and then comes to an end. Her own writing begins where she found that union itself giving way.
 
 > … This is not a journey for those who expect love and bliss.
 
@@ -71,7 +71,7 @@ She gives this as a direct warning to the reader. The passage she describes is o
 
 ## Sources
 
-- qef5dd361 · Mystics, Masters, Saints and Sages (2001), her autobiographical sketch, Part I: The Journey, ch. 1 · corroborated-secondary
+- qef5dd361 · Mystics, Masters, Saints and Sages (2001), her autobiographical sketch · corroborated-secondary
 - q066e6835 · The Experience of No-Self, Part I · corroborated-primary
 - q5ed0c359 · Mystics, Masters, Saints and Sages (2001), her autobiographical sketch · corroborated-secondary
 - qfd33296f · interview: Stephan Bodian 1986 · corroborated-secondary

@@ -6,7 +6,9 @@
  },
  "qef5dd361": {
   "book": "Mystics, Masters, Saints and Sages (2001), her autobiographical sketch",
-  "note": "Verification: from her self-written sketch in Ullman and Reichenberg-Ullman's 2001 anthology, not The Experience of No-Self."
+  "note": "Verification: from her self-written sketch in Ullman and Reichenberg-Ullman's 2001 anthology, not The Experience of No-Self. Reviewed 2026-11-05 (composition review): from her sketch in the 2001 anthology; the Part I locator belonged to The Experience of No-Self.",
+  "chapter": null,
+  "year": 2001
  },
  "q889cddbc": {
   "book": "Mystics, Masters, Saints and Sages (2001), her autobiographical sketch",
@@ -234,5 +236,13 @@
  "q3440ffc3": {
   "verdict": "disputed",
   "note": "Reviewed 2026-11-05 (quotation sweep): From Stephan Bodian's preamble; likely the interviewer's words."
+ },
+ "qc6f04319": {
+  "book": "The Christian Contemplative Journey: Essays on the Path",
+  "note": "Reviewed 2026-11-05 (composition review): the book is The Christian Contemplative Journey: Essays on the Path, published 2017 (events.json)."
+ },
+ "qa96340fd": {
+  "book": "The Christian Contemplative Journey: Essays on the Path",
+  "note": "Reviewed 2026-11-05 (composition review): the book is The Christian Contemplative Journey: Essays on the Path, published 2017 (events.json)."
  }
 }

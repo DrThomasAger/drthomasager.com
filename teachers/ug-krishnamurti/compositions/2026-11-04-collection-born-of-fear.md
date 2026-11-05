@@ -11,7 +11,7 @@ quotes: q4f2c81d1, qc774741b, q5f1205b6, qbdce9d7f, q3148c69a, q086ab55c, qe06bf
 
 # Born of Fear
 
-U.G. Krishnamurti's words on fear, gathered from the books of his conversations and checked against their sources. He did not treat fear as a problem to be solved. He found it at the root of the self, of the search, of God, and of the wish to be free of fear itself. The order here moves from where fear begins, through what it makes and the freedom no one wants, to the body that has no part in it.
+U.G. Krishnamurti's words on fear, gathered from the books of his conversations and checked against their sources. He did not treat fear as a problem to be solved. He found it at the root of the self and of God, and he said that we do not really want to be free of it. The order here moves from where fear begins, through what it makes and the freedom no one wants, to the body that has no part in it.
 
 ## Where fear begins
 

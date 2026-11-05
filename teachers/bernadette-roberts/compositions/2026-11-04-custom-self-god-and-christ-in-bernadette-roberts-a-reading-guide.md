@@ -57,7 +57,7 @@ Bernadette Roberts (1931–2017) was a Catholic contemplative and former Carmeli
 
 > As a Christian, I saw the no-self experience as the true nature of Christ's death
 
-— *Essays on the Christian Contemplative Journey*
+— *The Christian Contemplative Journey: Essays on the Path* (2017)
 
 - How have you usually understood the death of Christ, and what does this reading add to it or take from it?
 - What in you resists the thought that the cross concerns the end of self?
@@ -79,5 +79,5 @@ Bernadette Roberts (1931–2017) was a Catholic contemplative and former Carmeli
 - qd2978849 — Interview with Stephan Bodian, 1986 (multi-source)
 - qa231a375 — *Mystics, Masters, Saints and Sages* (2001), her autobiographical sketch (multi-source)
 - q9d30b69a — *The Path to No-Self* (corroborated-secondary)
-- qa96340fd — *Essays on the Christian Contemplative Journey* (corroborated-secondary)
+- qa96340fd — *The Christian Contemplative Journey: Essays on the Path* (2017) (corroborated-secondary)
 - qaacfa0c0 — *The Real Christ* (multi-source)

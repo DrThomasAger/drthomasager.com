@@ -22,7 +22,7 @@ A study guide to Bernadette Roberts on self, no-self, God and Christ
 5. Self Is Consciousness
 6. Not a Higher Self but No Self
 7. Her Reading of Christ
-8. Buddhist and Hindu Accounts as She Saw Them
+8. Buddhist Accounts as She Saw Them
 9. A Way of Travel
 10. Sources
 
@@ -48,7 +48,7 @@ She did not dispute this account. She had lived it. Her claim was that it descri
 
 What Is Self?
 
-Her purpose is modest and bold at once. She does not set herself above John of the Cross or Teresa of Ávila. She sets out to describe what came after the place where their accounts end, because it happened to her and she could find no one who had written it down.
+Her purpose is modest and bold at once. She does not set herself above the writers of the tradition. She sets out to describe what came after the place where their accounts end, because it happened to her and she could find no one who had written it down.
 
 > Because this was the limit of my expectations, I was all the more surprised and bewildered when many years later I came upon a permanent state in which there was no self
 
@@ -166,8 +166,6 @@ What Is Self?
 
 What Is Self?
 
-She describes this system as the mind turning back on itself in order to know itself.
-
 It follows that the end of self cannot be the arrival of a purer or wider consciousness. It is the end of reflexive consciousness as such.
 
 > No-self, then, means no-consciousness.
@@ -211,13 +209,13 @@ Yet she was careful not to make no-self a new goal to be chased. The ending of s
 
 Interview with Stephan Bodian, 1986
 
-The surrender she means is to God. As the self gives way, the divine is not lost but grows.
+The surrender she means is to God. As the self gives way, she says, the divine increases, even though the God the self had known goes with it.
 
 > the divine increases in proportion as the self decreases or falls away
 
 What Is Self?
 
-She also saw that the familiar distinction between a personal and an impersonal God belongs to the life of the self. Each term only has meaning relative to the other.
+She also saw that even an impersonal God is spoken of only by a personal self. The self and the God it speaks of are relative to each other.
 
 > Without a personal, subjective self, we could not even speak of an impersonal, non-subjective God; one is just relative to the other.
 
@@ -234,7 +232,7 @@ Roberts read the passage through no-self in the light of Christ. She saw his dea
 
 > As a Christian, I saw the no-self experience as the true nature of Christ's death
 
-Essays on the Christian Contemplative Journey
+The Christian Contemplative Journey: Essays on the Path (2017)
 
 > Christ was the emptiness itself
 
@@ -271,15 +269,15 @@ The Real Christ, front matter
 - How does reading Christ's death as no-self change the meaning of the cross for you?
 - Why did she think it important that Christ is a oneness of natures rather than of persons?
 
-## 8. Buddhist and Hindu Accounts as She Saw Them
+## 8. Buddhist Accounts as She Saw Them
 
-Roberts read widely in Buddhist and Hindu writings, looking for an account of what had happened to her. At first she did not find one.
+After the falling away of self, Roberts looked in Buddhist literature for an account of what had happened to her. At first she did not find one.
 
 > Initially, I gave up looking for this experience in the Buddhist literature.
 
 Interview with Stephan Bodian, 1986
 
-In the Buddha's lines about the house of self whose rafters are broken she recognised her own passage, and she came to see the Buddha and Christ as witnesses to one truth.
+She came to see the Buddha and Christ as witnesses to one truth.
 
 > Where Buddha described the experience, Christ manifested it without words; yet they both make the same statement and reveal the same truth.
 
@@ -295,13 +293,13 @@ What Is Self?
 
 What Is Self?
 
-None of the passages gathered here speaks of Hindu teaching directly, but her own principle reaches it. On her terms, an account that ends in a true or higher Self one with the divine, or in pure consciousness, would describe the unitive state, the first movement, and not the falling away of self, since for her self and consciousness are one, and a final Self of pure consciousness would still be a self. She said as much of every claim to a final nondual state.
+Her published words gathered here do not speak of Hindu teaching, and this book does not speak for her on it.
 
 > With or without self, there is no state in the journey truly 'nondual,' neither in our earthly journey nor in heaven
 
-Essays on the Christian Contemplative Journey
+The Christian Contemplative Journey: Essays on the Path (2017)
 
-She held these judgments with respect. She thought the Buddhist path asked more of its travellers in one way, since it does without a personal God.
+She also saw a strength in the Buddhist path. She thought the Buddhist path asked more of its travellers in one way, since it does without a personal God.
 
 > As I see it, without a personal God, the Buddhist must have a much stronger faith in the "unconditioned and unbegotten".
 
@@ -343,7 +341,7 @@ The Experience of No-Self
 **Questions for reflection**
 
 - How might holding a map lightly help someone who finds that their path does not match it?
-- What could a simple smile mean as the last word of a book about the loss of self?
+- What could a simple smile mean in a book about the loss of self?
 
 ## 10. Sources
 
@@ -374,7 +372,7 @@ Each quotation is listed with its id, its source, and its verification status.
 - q8cae5ac0, Interview with Stephan Bodian, 1986, corroborated-secondary
 - q91b0441a, What Is Self?, corroborated-secondary
 - qd2978849, Interview with Stephan Bodian, 1986, multi-source
-- qa96340fd, Essays on the Christian Contemplative Journey, corroborated-secondary
+- qa96340fd, The Christian Contemplative Journey: Essays on the Path (2017), corroborated-secondary
 - q61fe2ed4, The Experience of No-Self, corroborated-secondary
 - qd7225a8e, The Real Christ, multi-source
 - q008ac23e, The Real Christ, corroborated-primary
@@ -385,7 +383,7 @@ Each quotation is listed with its id, its source, and its verification status.
 - qc5b19862, Interview with Stephan Bodian, 1986, corroborated-secondary
 - qe87885fb, What Is Self?, primary-source
 - qda52d28f, What Is Self?, primary-source
-- qc6f04319, Essays on the Christian Contemplative Journey, corroborated-secondary
+- qc6f04319, The Christian Contemplative Journey: Essays on the Path (2017), corroborated-secondary
 - qe602ab0d, Interview with Stephan Bodian, 1986, multi-source
 - q47c6e999, Interview with Stephan Bodian, 1986, multi-source
 - qca48c952, Interview with Stephan Bodian, 1986, corroborated-secondary
