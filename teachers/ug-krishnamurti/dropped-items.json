@@ -104,5 +104,41 @@
   ],
   "origin": "images",
   "drop": "Mahesh Bhatt on Parveen Babi, not about U.G. (see i120752ab)"
+ },
+ {
+  "id": "if30146e9",
+  "medium": "image",
+  "title": "GAP: Alamy / Getty / Shutterstock 'Krishnamurti' stock searches (all J.K. so far)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "photograph",
+  "language": "English",
+  "duration": null,
+  "host": "alamy.com",
+  "url": "https://www.alamy.com/stock-photo/krishnamurti.html",
+  "description": "Stock-photo searches returned only Jiddu Krishnamurti; a direct 'Uppaluri Gopala Krishnamurti' search was not run. [Checked: No new search this round. Per the 2026-11-04 review it records a search gap, not an item, and every stock result was Jiddu Krishnamurti.] [Checked: Reviewed 2026-11-04: a record of a search gap, not an item; stock libraries returned only Jiddu.]",
+  "tags": [
+   "gap",
+   "stock-photo",
+   "mixed-jk",
+   "image",
+   "host-alamy-com",
+   "format-photograph",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.alamy.com/stock-photo/krishnamurti.html",
+   "https://www.gettyimages.com/photos/krishnamurti",
+   "https://www.shutterstock.com/editorial/search/krishnamurti"
+  ],
+  "origin": "images",
+  "drop": "Not an item about U.G.: a record of stock-photo searches that returned only Jiddu Krishnamurti.",
+  "reviewed": [
+   "jk-contamination"
+  ]
  }
 ]

@@ -13,8 +13,8 @@
    "text": 46
   },
   "items_by_confidence": {
-   "S": 121,
-   "lead": 6,
+   "S": 122,
+   "lead": 5,
    "T": 8
   },
   "quotes_by_confidence": {
@@ -53,9 +53,9 @@
    "essay/blog post: Reply to James Arraj's comments (June 2008)": 1,
    "Forcing the Fit (self-published manuscript, 2008)": 1
   },
-  "distinct_source_hosts": 126,
-  "items_self_sourced_only": 47,
-  "items_with_second_source": 88,
+  "distinct_source_hosts": 128,
+  "items_self_sourced_only": 44,
+  "items_with_second_source": 91,
   "compositions_checked": 6,
   "events_with_recorded_date_conflict": 5,
   "quotes_marked_duplicate": 0,
@@ -120,7 +120,7 @@
   ],
   [
    "spiritualteachers.org",
-   43
+   44
   ],
   [
    "youtube.com",
@@ -151,11 +151,11 @@
    17
   ],
   [
-   "books.google.com",
-   13
+   "innerexplorations.com",
+   14
   ],
   [
-   "innerexplorations.com",
+   "books.google.com",
    13
   ],
   [
@@ -295,11 +295,19 @@
    2
   ],
   [
+   "dancingparadox.podbean.com",
+   2
+  ],
+  [
    "actualized.org",
    2
   ],
   [
    "scribd.com",
+   2
+  ],
+  [
+   "newcamaldoli.engagewisdom.com",
    2
   ],
   [
@@ -363,6 +371,10 @@
    2
   ],
   [
+   "hridaya-yoga.com",
+   2
+  ],
+  [
    "spiritualteachers.proboards.com",
    2
   ],
@@ -403,10 +415,6 @@
    1
   ],
   [
-   "dancingparadox.podbean.com",
-   1
-  ],
-  [
    "forumserver.twoplustwo.com",
    1
   ],
@@ -428,10 +436,6 @@
   ],
   [
    "anamchara.com",
-   1
-  ],
-  [
-   "newcamaldoli.engagewisdom.com",
    1
   ],
   [
@@ -531,6 +535,10 @@
    1
   ],
   [
+   "tertulia.com",
+   1
+  ],
+  [
    "ebay.de",
    1
   ],
@@ -571,15 +579,15 @@
    1
   ],
   [
+   "integrallife.com",
+   1
+  ],
+  [
    "beingwithoutself.org",
    1
   ],
   [
    "reach.dog",
-   1
-  ],
-  [
-   "hridaya-yoga.com",
    1
   ],
   [
