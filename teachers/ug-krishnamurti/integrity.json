@@ -55,9 +55,9 @@
    "The Sage and the Housewife": 5,
    "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1
   },
-  "distinct_source_hosts": 380,
-  "items_self_sourced_only": 357,
-  "items_with_second_source": 369,
+  "distinct_source_hosts": 381,
+  "items_self_sourced_only": 342,
+  "items_with_second_source": 384,
   "compositions_checked": 6,
   "events_with_recorded_date_conflict": 7,
   "quotes_marked_duplicate": 8,
@@ -114,15 +114,15 @@
  "hosts": [
   [
    "people.well.com",
-   178
+   188
   ],
   [
    "youtube.com",
-   150
+   151
   ],
   [
    "archive.org",
-   122
+   126
   ],
   [
    "en.wikisource.org",
@@ -130,7 +130,7 @@
   ],
   [
    "goodreads.com",
-   94
+   95
   ],
   [
    "ugkrishnamurti.in",
@@ -217,6 +217,10 @@
    12
   ],
   [
+   "ugarchive.blogspot.com",
+   12
+  ],
+  [
    "bitchute.com",
    12
   ],
@@ -234,10 +238,6 @@
   ],
   [
    "x.com",
-   10
-  ],
-  [
-   "ugarchive.blogspot.com",
    10
   ],
   [
@@ -381,11 +381,23 @@
    5
   ],
   [
+   "gu.wikipedia.org",
+   5
+  ],
+  [
    "odysee.com",
    5
   ],
   [
    "amazon.co.uk",
+   5
+  ],
+  [
+   "well.com",
+   5
+  ],
+  [
+   "batgap.com",
    5
   ],
   [
@@ -438,10 +450,6 @@
   ],
   [
    "deadline.com",
-   4
-  ],
-  [
-   "batgap.com",
    4
   ],
   [
@@ -561,6 +569,10 @@
    3
   ],
   [
+   "ugkrishnamurti-org.ugkrishnamurti.net",
+   3
+  ],
+  [
    "audible.com",
    3
   ],
@@ -570,10 +582,6 @@
   ],
   [
    "cageweb.be",
-   3
-  ],
-  [
-   "well.com",
    3
   ],
   [
@@ -741,11 +749,11 @@
    2
   ],
   [
-   "ugkrishnamurti-org.ugkrishnamurti.net",
+   "kobo.com",
    2
   ],
   [
-   "kobo.com",
+   "biblio.co.uk",
    2
   ],
   [
@@ -794,10 +802,6 @@
   ],
   [
    "twitter.com",
-   2
-  ],
-  [
-   "gu.wikipedia.org",
    2
   ],
   [
@@ -1070,6 +1074,10 @@
   ],
   [
    "sentientpublications.com",
+   1
+  ],
+  [
+   "lehmanns.de",
    1
   ],
   [
@@ -1546,10 +1554,6 @@
   ],
   [
    "ebin.pub",
-   1
-  ],
-  [
-   "biblio.co.uk",
    1
   ],
   [

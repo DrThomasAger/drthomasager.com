@@ -3652,7 +3652,7 @@
   "medium": "archive",
   "title": "Internet Archive text: A Life – U.G. Krishnamurti (PDF)",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
   "people": [
    "Mahesh Bhatt"
@@ -3662,7 +3662,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf",
-  "description": "PDF of Bhatt's biography.",
+  "description": "PDF of Bhatt's biography. [Checked: Published: PDF of Mahesh Bhatt's U.G. Krishnamurti: A Life, Viking 1992 (input's Gujarati Wikipedia bibliography). Year of the book, not of the upload.]",
   "tags": [
    "archive-org",
    "text",
@@ -3678,7 +3678,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf"
+   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf",
+   "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF"
   ],
   "origin": "archives"
  },
@@ -6392,8 +6393,8 @@
   "id": "i12a90d64",
   "medium": "audio",
   "title": "BBC Radio 'Guest of the Week'",
-  "date": null,
-  "year": null,
+  "date": "1993-06",
+  "year": 1993,
   "place": "United Kingdom",
   "people": [
    "BBC",
@@ -6404,7 +6405,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_guest_of_the_week_bbc_radio",
-  "description": "BBC Radio 'Guest of the Week' programme with U.G.; WELL index 9-6. Also on SoundCloud and listed on ugkrishnamurti.in Essential Audios.",
+  "description": "BBC Radio 'Guest of the Week' programme with U.G.; WELL index 9-6. Also on SoundCloud and listed on ugkrishnamurti.in Essential Audios. [Checked: Recorded year: the WELL 'Books, Interviews, and References' list (item 21) gives BBC World Service 'Guest of the Week', London, June 1993, c. 20 min.]",
   "tags": [
    "radio",
    "interview",
@@ -6430,7 +6431,8 @@
   "sources": [
    "https://archive.org/details/ug_guest_of_the_week_bbc_radio",
    "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week",
-   "https://ugkrishnamurti.in/ug-speaks/audios"
+   "https://ugkrishnamurti.in/ug-speaks/audios",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -6447,8 +6449,8 @@
   "id": "ib5e86fdc",
   "medium": "audio",
   "title": "Audio of 'U.G. Krishnamurti in Conversation with Mahesh Bhatt' (TV programme)",
-  "date": null,
-  "year": null,
+  "date": "1991-04",
+  "year": 1991,
   "place": "Bombay, India",
   "people": [
    "Mahesh Bhatt",
@@ -6459,7 +6461,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_w_mb",
-  "description": "Audio of a TV programme conversation with Mahesh Bhatt; video counterpart ug_ug_w_mb_150 (201.8 MB, colour, sound).",
+  "description": "Audio of a TV programme conversation with Mahesh Bhatt; video counterpart ug_ug_w_mb_150 (201.8 MB, colour, sound). [Checked: Broadcast year: WELL bibliography lists 'Interview with Mahesh Bhatt', Doordarshan (Indian TV), April 1991, 1/2 hour; press reviews of the broadcast are dated 15 and 21 April 1991 (per search summary). Archive.org upload 2012. Place India (record had Bombay; studio not confirmed).]",
   "tags": [
    "tv",
    "conversation",
@@ -6488,7 +6490,8 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_ug_w_mb",
-   "https://archive.org/details/ug_ug_w_mb_150"
+   "https://archive.org/details/ug_ug_w_mb_150",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -6565,8 +6568,8 @@
   "id": "i5bacdb02",
   "medium": "audio",
   "title": "Audio of 'Conversation between U.G. and Shashi Kumar' (TV interview)",
-  "date": null,
-  "year": null,
+  "date": "1989-12",
+  "year": 1989,
   "place": "India",
   "people": [
    "Shashi Kumar",
@@ -6577,7 +6580,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_tv_int",
-  "description": "Audio version of the Doordarshan TV interview with Shashi Kumar; WELL index 4-3 to 4-5; video at ug_ug_tv_int_150.",
+  "description": "Audio version of the Doordarshan TV interview with Shashi Kumar; WELL index 4-3 to 4-5; video at ug_ug_tv_int_150. [Checked: Recorded/broadcast year: audio of the Shashi Kumar Doordarshan interview; WELL bibliography gives December 1989.]",
   "tags": [
    "tv",
    "interview",
@@ -6604,7 +6607,8 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_ug_tv_int",
-   "https://archive.org/details/ug_ug_tv_int_150"
+   "https://archive.org/details/ug_ug_tv_int_150",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -6621,8 +6625,8 @@
   "id": "i6bffcd0f",
   "medium": "audio",
   "title": "Audio of 'U.G. on Dimensions in Parapsychology' with Bryce Bond",
-  "date": null,
-  "year": null,
+  "date": "1989-11",
+  "year": 1989,
   "place": "USA",
   "people": [
    "Bryce Bond",
@@ -6633,7 +6637,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_parapsy",
-  "description": "identifier ug_ug_parapsy; audio of the TV programme 'Dimensions in Parapsychology' hosted by Bryce Bond (interviewer name confirmed by search snippet); video pair ug_ug_parapsy_150.",
+  "description": "identifier ug_ug_parapsy; audio of the TV programme 'Dimensions in Parapsychology' hosted by Bryce Bond (interviewer name confirmed by search snippet); video pair ug_ug_parapsy_150. [Checked: Recorded year: WELL bibliography lists 'Dimensions in Parapsychology' interview with Bryce Bond, New York, November 1989, 1 hour. Audio derivative of ug_ug_parapsy_150.]",
   "tags": [
    "tv",
    "interview",
@@ -6665,7 +6669,8 @@
   "confidence": "S",
   "sources": [
    "https://archive.org/details/ug_ug_parapsy",
-   "https://archive.org/details/ug_ug_parapsy_150"
+   "https://archive.org/details/ug_ug_parapsy_150",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -6881,16 +6886,16 @@
   "id": "ib8c3c622",
   "medium": "audio",
   "title": "Talk at Institute of World Culture",
-  "date": null,
-  "year": null,
-  "place": null,
+  "date": "1972-05",
+  "year": 1972,
+  "place": "Indian Institute of World Culture, Bangalore, India",
   "people": [],
   "format": "archive.org VBR MP3",
   "language": "English",
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_institute-of-world-religion",
-  "description": "Talk at the Institute of World Culture; WELL index 7-6.",
+  "description": "Talk at the Institute of World Culture; WELL index 7-6. [Checked: Recorded year: U.G.'s only public talk after the calamity was given at the Indian Institute of World Culture, Bangalore, in May 1972 (blog account in search results; WELL 'First and Last Public Talk' page gives Bangalore 1972); an Indian Express 'Person to Person' notice of 8 May 1972 announces his dialogue-discourse there with Dilip Kothari 'on Tuesday evening'. This item's identity with that talk follows from his giving no other public talk; the item itself carries no date.]",
   "tags": [
    "talk",
    "archive-org",
@@ -6902,7 +6907,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/ug_institute-of-world-religion"
+   "https://archive.org/details/ug_institute-of-world-religion",
+   "https://ugarchive.blogspot.com/2021/08/person-to-person.html",
+   "https://www.well.com/~jct/talkblb.htm"
   ],
   "origin": "audio"
  },
@@ -7754,8 +7761,8 @@
   "id": "i7c45c75e",
   "medium": "audio",
   "title": "Jeffrey Mishlove 'Thinking Allowed' conversations — audio download",
-  "date": null,
-  "year": null,
+  "date": "1988-10",
+  "year": 1988,
   "place": "USA",
   "people": [
    "Jeffrey Mishlove",
@@ -7769,7 +7776,7 @@
   "duration": null,
   "host": "o-meditation.com",
   "url": "https://o-meditation.com/downloadable-books-and-audios/u-g-krishnamurti-books-and-audios/",
-  "description": "Aggregator page offering UG books and audio downloads, plus profile page 'More Masters, Mystics and Misfits'. Also holybooks.com PDF of Thought Is Your Enemy and inner-quest.org Natural State page.",
+  "description": "Aggregator page offering UG books and audio downloads, plus profile page 'More Masters, Mystics and Misfits'. Also holybooks.com PDF of Thought Is Your Enemy and inner-quest.org Natural State page. [Checked: Recorded year of the Mishlove 'Thinking Allowed' conversations offered here: WELL bibliography gives October 1988 (3 segments). The download page itself is undated.]",
   "tags": [
    "tv",
    "interview",
@@ -7811,7 +7818,8 @@
    "https://o-meditation.com/downloadable-books-and-audios/u-g-krishnamurti-books-and-audios/",
    "https://o-meditation.com/more-masters-mystics-and-misfits/u-g-krishnamurti/",
    "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Thought-is-Your-Enemy.pdf",
-   "https://www.inner-quest.org/UG_Natural_State.htm"
+   "https://www.inner-quest.org/UG_Natural_State.htm",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "audio",
   "also_titled": [
@@ -8975,8 +8983,8 @@
   "id": "i6ef4f398",
   "medium": "image",
   "title": "Goner — PDF scan (pdfcoffee)",
-  "date": null,
-  "year": null,
+  "date": "2011-05",
+  "year": 2011,
   "place": null,
   "people": [
    "Louis Brawley"
@@ -8986,7 +8994,7 @@
   "duration": null,
   "host": "pdfcoffee.com",
   "url": "https://pdfcoffee.com/goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html",
-  "description": "Third-party PDF scan of Goner including its cover and plates; provenance unclear.",
+  "description": "Third-party PDF scan of Goner including its cover and plates; provenance unclear. [Checked: Published: Goner first edition, Non-Duality Press, May 2011 (revised edition June 2013, per an ebook copyright page in search results). The edition of this third-party PDF scan is not identified; year given is first publication.]",
   "tags": [
    "brawley",
    "goner",
@@ -9001,7 +9009,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://pdfcoffee.com/goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html"
+   "https://pdfcoffee.com/goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html",
+   "https://biblio.co.uk/9780956643278"
   ],
   "origin": "images"
  },
@@ -9009,8 +9018,8 @@
   "id": "i4ea504a7",
   "medium": "image",
   "title": "Buddha at the Gas Pump #177, Louis Brawley (stills/photos)",
-  "date": null,
-  "year": null,
+  "date": "2013-05-25",
+  "year": 2013,
   "place": null,
   "people": [
    "Louis Brawley",
@@ -9021,7 +9030,7 @@
   "duration": null,
   "host": "rickarcher1.substack.com",
   "url": "https://rickarcher1.substack.com/p/177-louis-brawley-09b",
-  "description": "Rick Archer's Substack page for the BatGap interview with Louis Brawley (author of Goner) about UG's last years.",
+  "description": "Rick Archer's Substack page for the BatGap interview with Louis Brawley (author of Goner) about UG's last years. [Checked: Recorded date: the BatGap page for Rick Archer's interview with Louis Brawley gives it as recorded 5/25/2013. The Substack re-post carrying the stills is later and undated.]",
   "tags": [
    "brawley",
    "interview",
@@ -9043,7 +9052,8 @@
   "confidence": "S",
   "sources": [
    "https://rickarcher1.substack.com/p/177-louis-brawley-09b",
-   "https://batgap.com/louis-brawley-transcript/"
+   "https://batgap.com/louis-brawley-transcript/",
+   "https://batgap.com/louis-brawley/"
   ],
   "origin": "images",
   "also_titled": [
@@ -10810,7 +10820,7 @@
   "medium": "image",
   "title": "Mind Is a Myth — e-artnow cover (Google Books)",
   "date": null,
-  "year": null,
+  "year": 2021,
   "place": null,
   "people": [],
   "format": "book cover",
@@ -10818,7 +10828,7 @@
   "duration": null,
   "host": "books.google.com",
   "url": "https://books.google.com/books/about/Mind_is_a_Myth.html?id=OBJiEAAAQBAJ",
-  "description": "Cover of the e-artnow edition.",
+  "description": "Cover of the e-artnow edition. [Checked: Published: the e-artnow ebook of Mind is a Myth is listed as EPUB, 2021, 106 pp. (EAN 4064066383022). That this is the same e-artnow record as Google Books id OBJiEAAAQBAJ is inferred from publisher and format; an e-artnow paperback (ISBN 9788027386260) is listed for 2023.]",
   "tags": [
    "book-cover",
    "mind-is-a-myth",
@@ -10831,7 +10841,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://books.google.com/books/about/Mind_is_a_Myth.html?id=OBJiEAAAQBAJ"
+   "https://books.google.com/books/about/Mind_is_a_Myth.html?id=OBJiEAAAQBAJ",
+   "https://lehmanns.de/shop/geisteswissenschaften/56491835-4064066383022-mind-is-a-myth"
   ],
   "origin": "images"
  },
@@ -12421,8 +12432,8 @@
   "id": "i664f8101",
   "medium": "text",
   "title": "Thought is Your Enemy (Kindle edition)",
-  "date": null,
-  "year": null,
+  "date": "2011-07-11",
+  "year": 2011,
   "place": null,
   "people": [],
   "format": "ebook",
@@ -12430,7 +12441,7 @@
   "duration": null,
   "host": "amazon.com",
   "url": "https://www.amazon.com/dp/B005C6EBIO",
-  "description": "Kindle edition, ASIN B005C6EBIO.",
+  "description": "Kindle edition, ASIN B005C6EBIO. [Checked: Published: Goodreads editions list gives the Kindle edition ASIN B005C6EBIO (149 pp.) as Smriti Books (imprint of SPB Enterprises), 11 July 2011. Single source.]",
   "tags": [
    "book",
    "thought-is-your-enemy",
@@ -12444,7 +12455,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.amazon.com/dp/B005C6EBIO"
+   "https://www.amazon.com/dp/B005C6EBIO",
+   "https://www.goodreads.com/work/editions/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
   ],
   "origin": "text"
  },
@@ -13760,7 +13772,7 @@
   "medium": "text",
   "title": "U.G. Krishnamurti: A Life — scan on the Internet Archive",
   "date": null,
-  "year": null,
+  "year": 1992,
   "place": null,
   "people": [
    "U.G. Krishnamurti",
@@ -13772,7 +13784,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ALifeU.G.Krishnamurti",
-  "description": "Public-domain-marked PDFs: A Life; The Mystique of Enlightenment; 'On U.G.' (185 pp.); Stopped in Our Tracks (227 pp.). Series 2 and 3 of Stopped in Our Tracks are on scribd.",
+  "description": "Public-domain-marked PDFs: A Life; The Mystique of Enlightenment; 'On U.G.' (185 pp.); Stopped in Our Tracks (227 pp.). Series 2 and 3 of Stopped in Our Tracks are on scribd. [Checked: Published: Mahesh Bhatt, U.G. Krishnamurti: A Life, Viking (Penguin India) 1992 (input's Gujarati Wikipedia bibliography). Year of the book scanned; the archive.org upload date is not known.]",
   "tags": [
    "book",
    "a-life",
@@ -13804,7 +13816,8 @@
    "https://ia801804.us.archive.org/12/items/UGKrishnamurtiOnU.G185p/UG%20Krishnamurti%20-%20On%20U.G%20(185p).pdf",
    "https://archive.org/details/UGKrishnamurtiStoppedInOurTracks227p",
    "https://www.scribd.com/doc/53063620/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-2",
-   "https://www.scribd.com/document/53063642/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-3"
+   "https://www.scribd.com/document/53063642/UG-Krishnamurti-Stopped-in-Our-Tracks-Series-3",
+   "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF"
   ],
   "origin": "text",
   "also_titled": [
@@ -14080,7 +14093,7 @@
   "medium": "text",
   "title": "The Sage and the Housewife — Scribd copy",
   "date": null,
-  "year": null,
+  "year": 2005,
   "place": null,
   "people": [],
   "format": "full text (pdf)",
@@ -14088,7 +14101,7 @@
   "duration": null,
   "host": "scribd.com",
   "url": "https://www.scribd.com/document/111604975/Sage-and-the-Housewife-by-UG-Krishnamurti",
-  "description": "Scribd upload.",
+  "description": "Scribd upload. [Checked: Published: Shanta Kelkar, The Sage and the Housewife, Smriti Books 2005 (bibliography in the Gujarati Wikipedia article already in the input). Year of the book; the Scribd upload itself is undated.]",
   "tags": [
    "book",
    "sage-and-the-housewife",
@@ -14102,7 +14115,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.scribd.com/document/111604975/Sage-and-the-Housewife-by-UG-Krishnamurti"
+   "https://www.scribd.com/document/111604975/Sage-and-the-Housewife-by-UG-Krishnamurti",
+   "https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81.%E0%AA%9C%E0%AB%80.%E0%AA%95%E0%AB%83%E0%AA%B7%E0%AB%8D%E0%AA%A3%E0%AA%AE%E0%AB%81%E0%AA%B0%E0%AB%8D%E0%AA%A4%E0%AA%BF"
   ],
   "origin": "text"
  },
@@ -15080,8 +15094,8 @@
   "id": "i3663b814",
   "medium": "video",
   "title": "Conversation between U.G. and Shashi Kumar (Doordarshan breakfast show)",
-  "date": null,
-  "year": null,
+  "date": "1989-12",
+  "year": 1989,
   "place": "India",
   "people": [
    "Shashi Kumar",
@@ -15092,7 +15106,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_tv_int_150",
-  "description": "Indian TV interview; the WELL bibliography describes a Doordarshan breakfast-show interview with Shashi Kumar, distinct from the Bachchan programme. Date and location not in listing.",
+  "description": "Indian TV interview; the WELL bibliography describes a Doordarshan breakfast-show interview with Shashi Kumar, distinct from the Bachchan programme. Date and location not in listing. [Checked: Recorded/broadcast year: WELL bibliography lists Doordarshan 'Breakfast Show' interview by Shashi Kumar, December 1989, half an hour. Identity of this archive item with that broadcast inferred from the matching interviewer and channel.]",
   "tags": [
    "tv",
    "interview",
@@ -15397,8 +15411,8 @@
   "id": "ib90d1a2c",
   "medium": "video",
   "title": "U.G. on \"Dimensions in Parapsychology\" with Bryce Bond",
-  "date": null,
-  "year": null,
+  "date": "1989-11",
+  "year": 1989,
   "place": "United States",
   "people": [
    "Bryce Bond",
@@ -15409,7 +15423,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_ug_parapsy_150",
-  "description": "US cable/public-access style programme Dimensions in Parapsychology hosted by Bryce Bond; date not in listing. Audio-only version at ug_ug_parapsy.",
+  "description": "US cable/public-access style programme Dimensions in Parapsychology hosted by Bryce Bond; date not in listing. Audio-only version at ug_ug_parapsy. [Checked: Recorded year: WELL bibliography lists 'Dimensions in Parapsychology' interview with Bryce Bond, New York, November 1989, 1 hour.]",
   "tags": [
    "tv",
    "interview",
@@ -15430,7 +15444,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/ug_ug_parapsy_150"
+   "https://archive.org/details/ug_ug_parapsy_150",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "video",
   "also_titled": [
@@ -17808,8 +17823,8 @@
   "id": "i69dd41f8",
   "medium": "video",
   "title": "интервью с У.Г. Кришнамурти (русские субтитры)",
-  "date": "",
-  "year": null,
+  "date": "1988-10",
+  "year": 1988,
   "place": "USA",
   "people": [
    "U.G. Krishnamurti",
@@ -17820,7 +17835,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=p9Dx-iMR2ak",
-  "description": "Russian-subtitled upload; description credits thinkingallowed.com, so this is the Jeffrey Mishlove 'Thinking Allowed' interview.",
+  "description": "Russian-subtitled upload; description credits thinkingallowed.com, so this is the Jeffrey Mishlove 'Thinking Allowed' interview. [Checked: Recorded year of the source: description credits thinkingallowed.com (Jeffrey Mishlove 'Thinking Allowed'); WELL bibliography gives the PBS Thinking Allowed recording as October 1988, 3 segments. Russian-subtitled upload date not known.]",
   "tags": [
    "youtube",
    "russian",
@@ -17838,7 +17853,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=p9Dx-iMR2ak"
+   "https://www.youtube.com/watch?v=p9Dx-iMR2ak",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "wave2-av"
  },
@@ -22023,16 +22039,16 @@
   "id": "ib17bd26a",
   "medium": "audio",
   "title": "Book review of Mystique of Enlightenment",
-  "date": "",
-  "year": null,
-  "place": "",
+  "date": "1983-05",
+  "year": 1983,
+  "place": "Bombay, India",
   "people": [],
   "format": "mp3/ogg",
   "language": "en",
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_11_book_review_mystique_of_enlightenment",
-  "description": "[ug_11_book_review_mystique_of_enlightenment] radio book review; numbered item 11 in source index",
+  "description": "[ug_11_book_review_mystique_of_enlightenment] radio book review; numbered item 11 in source index [Checked: Broadcast year: the WELL bibliography lists a radio book review of The Mystique of Enlightenment by Harindranath Chattopadhyaya, All India Radio Bombay, May 1983, the only radio review of that book it lists. Identity with this archive.org item (ug_11) is probable, not stated on the item.]",
   "tags": [
    "archive-org",
    "radio",
@@ -22045,7 +22061,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/ug_11_book_review_mystique_of_enlightenment"
+   "https://archive.org/details/ug_11_book_review_mystique_of_enlightenment",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "wave3-items"
  },
@@ -22153,16 +22170,16 @@
   "id": "i17bdc878",
   "medium": "audio",
   "title": "U.G. Krishnamurti - On BBC Radio (Guest Of The Week)",
-  "date": "",
-  "year": null,
-  "place": "",
+  "date": "1993-06",
+  "year": 1993,
+  "place": "London, United Kingdom",
   "people": [],
   "format": "stream",
   "language": "en",
   "duration": "",
   "host": "soundcloud.com",
   "url": "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week",
-  "description": "[krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week] BBC Radio Guest of the Week (same as archive.org ug_guest_of_the_week_bbc_radio)",
+  "description": "[krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week] BBC Radio Guest of the Week (same as archive.org ug_guest_of_the_week_bbc_radio) [Checked: Recorded year: SoundCloud copy of the BBC 'Guest of the Week' programme; WELL bibliography gives BBC World Service, London, June 1993.]",
   "tags": [
    "interview",
    "radio",
@@ -22176,7 +22193,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week"
+   "https://soundcloud.com/krishnamorthy01/ug-krishnamurti-on-bbc-radio-guest-of-the-week",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "wave3-items"
  },
@@ -24138,8 +24156,8 @@
   "id": "i1d1288a9",
   "medium": "audio",
   "title": "Converstaion on Radio KUNM with George Gary in Albuquerqe, New Mexico",
-  "date": null,
-  "year": null,
+  "date": "1992-04-10",
+  "year": 1992,
   "place": "Albuquerque, New Mexico, USA",
   "people": [
    "U.G. Krishnamurti",
@@ -24150,7 +24168,7 @@
   "duration": null,
   "host": "archive.org",
   "url": "https://archive.org/details/ug_george_gary_kunm_radio_albu",
-  "description": "identifier ug_george_gary_kunm_radio_albu; radio conversation on KUNM (University of New Mexico public radio) with George Gary, Albuquerque; title misspelled on archive.org ('Converstaion', 'Albuquerqe'). Probably from the April 1992 Albuquerque visit (same trip as ug_hillside).",
+  "description": "identifier ug_george_gary_kunm_radio_albu; radio conversation on KUNM (University of New Mexico public radio) with George Gary, Albuquerque; title misspelled on archive.org ('Converstaion', 'Albuquerqe'). Probably from the April 1992 Albuquerque visit (same trip as ug_hillside). [Checked: Recorded year: WELL bibliography lists the KUNM (University of New Mexico Radio) interview by George Gray, Albuquerque, April 10, 1992, 30 min; the Essential UG audio index gives 'Interview with UG by George Gray April 1992'. Archive.org spells the name 'Gary'.]",
   "tags": [
    "archive-org",
    "audio-collection",
@@ -24169,7 +24187,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://archive.org/details/ug_george_gary_kunm_radio_albu"
+   "https://archive.org/details/ug_george_gary_kunm_radio_albu",
+   "https://people.well.com/user/jct/lists.html",
+   "https://ugkrishnamurti-org.ugkrishnamurti.net/ug/ug_audio/index.html"
   ],
   "origin": "wave5-archive-items"
  },
@@ -26011,15 +26031,15 @@
   "medium": "video",
   "title": "U.G. Krishnamurti - Intense Early Interview (1967)",
   "date": "",
-  "year": null,
-  "place": "",
+  "year": 1967,
+  "place": "Gstaad, Switzerland",
   "people": [],
   "format": "YouTube video",
   "language": "English",
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=aiHTO_pAA10",
-  "description": "youtube id aiHTO_pAA10; 1967 conversation (Gstaad)",
+  "description": "youtube id aiHTO_pAA10; 1967 conversation (Gstaad) [Checked: Recorded year as given by the upload title '(1967)' and description (Gstaad). Archive.org holds a 'Conversation With U.G., Gstaad, Switzerland' dated 1967-09-09 that may be its source; that match is not confirmed, so no day is given.]",
   "tags": [
    "youtube",
    "1967",
@@ -26034,7 +26054,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=aiHTO_pAA10"
+   "https://www.youtube.com/watch?v=aiHTO_pAA10",
+   "https://archive.org/details/ug_1967-09-09_gstaad"
   ],
   "origin": "wave6-av"
  },
@@ -26168,7 +26189,7 @@
   "medium": "video",
   "title": "U.G. Krishnamurti - Conversation From 1969",
   "date": "",
-  "year": null,
+  "year": 1969,
   "place": "",
   "people": [],
   "format": "YouTube video",
@@ -26176,7 +26197,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=jdIrOjJx3Qo",
-  "description": "youtube id jdIrOjJx3Qo; early recording talking to a group of friends",
+  "description": "youtube id jdIrOjJx3Qo; early recording talking to a group of friends [Checked: Recorded year as given by the upload title 'Conversation From 1969' (uploader's statement; not independently confirmed).]",
   "tags": [
    "youtube",
    "1969",
@@ -26197,8 +26218,8 @@
   "id": "i4a2ffedc",
   "medium": "video",
   "title": "UG Krishnamurti and David Bohm Full Talk",
-  "date": "",
-  "year": null,
+  "date": "1968-08-17",
+  "year": 1968,
   "place": "",
   "people": [],
   "format": "YouTube video",
@@ -26206,7 +26227,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=tYI8BIky9H4",
-  "description": "youtube id tYI8BIky9H4; 1968-08-17 audio",
+  "description": "youtube id tYI8BIky9H4; 1968-08-17 audio [Checked: Recorded date: the upload's description gives 17 Aug 1968, and archive.org 'Conversation between U.G. & David Bohm' (ug_ug_bohm, 'Experiences after the Calamity') carries the date 1968-08-17. Place not stated in either.]",
   "tags": [
    "youtube",
    "bohm",
@@ -26219,7 +26240,8 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=tYI8BIky9H4"
+   "https://www.youtube.com/watch?v=tYI8BIky9H4",
+   "https://archive.org/details/ug_ug_bohm"
   ],
   "origin": "wave6-av"
  },
@@ -26531,16 +26553,16 @@
   "id": "i44128733",
   "medium": "video",
   "title": "UG Krishnamurti's First and Only Public Speech (1972 in India in front of a live audience)",
-  "date": "",
-  "year": null,
-  "place": "",
+  "date": "1972-05",
+  "year": 1972,
+  "place": "Indian Institute of World Culture, Bangalore, India",
   "people": [],
   "format": "YouTube video",
   "language": "English",
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=E-3RLGLRwMs",
-  "description": "youtube id E-3RLGLRwMs; 1972 public talk, India",
+  "description": "youtube id E-3RLGLRwMs; 1972 public talk, India [Checked: Recorded year: U.G.'s first and last public talk after the calamity, Indian Institute of World Culture, Bangalore, May 1972 (WELL 'First and Last Public Talk' page; archive.org ug_04_first_and_last_public_talk_ug_1972; Indian Express notice of 8 May 1972 reproduced on ugarchive blog).]",
   "tags": [
    "youtube",
    "1972",
@@ -26555,7 +26577,10 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=E-3RLGLRwMs"
+   "https://www.youtube.com/watch?v=E-3RLGLRwMs",
+   "https://www.well.com/~jct/talkblb.htm",
+   "https://archive.org/details/ug_04_first_and_last_public_talk_ug_1972",
+   "https://ugarchive.blogspot.com/2021/08/person-to-person.html"
   ],
   "origin": "wave6-av"
  },
@@ -30355,8 +30380,8 @@
   "id": "ic1da4a51",
   "medium": "video",
   "title": "U.G. Krishnamurti - Talks About His Calamity With David Bohm",
-  "date": "",
-  "year": null,
+  "date": "1968-08-17",
+  "year": 1968,
   "place": "",
   "people": [
    "David Bohm"
@@ -30366,7 +30391,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=dVqeMW-bfTo",
-  "description": "id dVqeMW-bfTo; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); U.G. describes the 1967 'calamity' with David Bohm present; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - Talks About His Calamity With David Bohm'; description says U.G. describes what happened to him in 1967 with David Bohm present. Uploader (Lectures Beyond Beyond) not shown in snippet. Related: 'UG Krishnamurti and David Bohm Full Talk' (tYI8BIky9H4).]",
+  "description": "id dVqeMW-bfTo; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); U.G. describes the 1967 'calamity' with David Bohm present; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube result 'U.G. Krishnamurti - Talks About His Calamity With David Bohm'; description says U.G. describes what happened to him in 1967 with David Bohm present. Uploader (Lectures Beyond Beyond) not shown in snippet. Related: 'UG Krishnamurti and David Bohm Full Talk' (tYI8BIky9H4).] [Checked: Recorded date of the source: clip of U.G. describing the calamity with David Bohm present; the only known U.G.-Bohm recording is the conversation of 17 Aug 1968 (archive.org ug_ug_bohm, 'Experiences after the Calamity'). Identification as an excerpt is by content, not stated by the uploader.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30379,7 +30404,9 @@
   ],
   "confidence": "S",
   "sources": [
-   "https://www.youtube.com/watch?v=dVqeMW-bfTo"
+   "https://www.youtube.com/watch?v=dVqeMW-bfTo",
+   "https://archive.org/details/ug_ug_bohm",
+   "https://www.youtube.com/watch?v=tYI8BIky9H4"
   ],
   "origin": "wave7-youtube"
  },
