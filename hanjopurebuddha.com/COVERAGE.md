@@ -81,13 +81,13 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | medium | items | confirmed | lead or likely | dated | no source |
 |---|---|---|---|---|---|
-| archive | 95 | 90 | 5 | 56 | 0 |
-| audio | 94 | 87 | 7 | 54 | 0 |
+| archive | 95 | 90 | 5 | 57 | 0 |
+| audio | 94 | 87 | 7 | 63 | 0 |
 | community | 66 | 56 | 10 | 17 | 0 |
-| image | 113 | 97 | 16 | 59 | 0 |
-| text | 204 | 187 | 17 | 154 | 0 |
-| video | 154 | 144 | 10 | 48 | 0 |
-| all | 726 | 661 | 65 | 388 | 0 |
+| image | 113 | 97 | 16 | 62 | 0 |
+| text | 204 | 187 | 17 | 157 | 0 |
+| video | 154 | 144 | 10 | 56 | 0 |
+| all | 726 | 661 | 65 | 412 | 0 |
 
 ### Quotations
 
@@ -150,5 +150,5 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - 26 quotations rest on one source and wait for a second.
 - 20 disputed and 4 not found, never quoted.
 - 65 archive items are leads or likely, not yet confirmed by a source.
-- 338 archive items have no year (websites and accounts among them, which take none).
+- 314 archive items have no year (websites and accounts among them, which take none).
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.
