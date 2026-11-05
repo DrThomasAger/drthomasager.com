@@ -1,0 +1,60 @@
+name: Gather a harvest pass
+
+# Joins a harvest pass's shards (holdings, transcripts, quotation checks, fetch
+# log) into the U.G. Krishnamurti folder, merges, checks, recounts coverage and
+# commits. Runs after every harvest pass, or by hand for any earlier pass
+# while its shards are kept (three days). Each attempt starts again from the
+# newest main, so a pass gathered late never conflicts with one gathered early.
+
+on:
+  workflow_run:
+    workflows: ["Harvest the U.G. Krishnamurti media"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "The harvest run to gather"
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: harvest-gather
+  cancel-in-progress: false
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    env:
+      RUN: ${{ inputs.run_id || github.event.workflow_run.id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          path: ${{ runner.temp }}/shards
+          run-id: ${{ env.RUN }}
+          github-token: ${{ github.token }}
+      - name: Gather onto the newest main, and commit
+        run: |
+          git config user.name "harvest"
+          git config user.email "harvest@users.noreply.github.com"
+          T=hanjopurebuddha.com/teachers/ug-krishnamurti
+          for i in 1 2 3 4 5 6; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python hanjopurebuddha.com/teachers/_template/gather-harvest.py "$RUNNER_TEMP/shards" "$T"
+            (cd "$T" && python merge.py > /dev/null && python integrity.py > /dev/null)
+            python hanjopurebuddha.com/coverage.py
+            git add hanjopurebuddha.com
+            if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+            git commit -q -m "Harvest gathered from run $RUN: holdings, transcripts, quotation checks"
+            if git push -q origin HEAD:main; then echo "pushed"; exit 0; fi
+            sleep 15
+          done
+          exit 1
