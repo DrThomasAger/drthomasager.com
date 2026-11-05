@@ -22,27 +22,27 @@
    "T": 94
   },
   "quotes_by_verdict": {
-   "corroborated-primary": 105,
-   "corroborated-secondary": 126,
+   "corroborated-primary": 101,
+   "corroborated-secondary": 122,
    "primary-source": 5,
-   "disputed": 10,
+   "disputed": 20,
    "not-found": 4,
    "not-ug": 4,
-   "single-source": 28
+   "single-source": 26
   },
   "quotes_by_book": {
    "The Mystique of Enlightenment": 51,
    "The Natural State": 11,
-   "No Way Out": 44,
-   "Mind is a Myth": 56,
+   "No Way Out": 45,
+   "Mind is a Myth": 57,
    "Stopped in Our Tracks": 17,
    "Thought is Your Enemy": 15,
    "The Courage to Stand Alone": 12,
    "A Taste of Death": 5,
-   "U.G. Krishnamurti: A Life": 8,
+   "U.G. Krishnamurti: A Life": 7,
    "My Swan Song": 21,
    "Remembering U.G. (WELL memorial compilation)": 11,
-   "unassigned": 4,
+   "unassigned": 3,
    "Stopped in Our Tracks, Book Two": 1,
    "interview: Thinking Allowed (Jeffrey Mishlove)": 1,
    "Love (ed. Sunita Pant Bansal)": 2,
@@ -63,7 +63,7 @@
   "quotes_marked_duplicate": 8,
   "issue_counts": {
    "item-no-sources": 5,
-   "quote-unassigned-book": 4
+   "quote-unassigned-book": 3
   }
  },
  "issues": {
@@ -97,10 +97,6 @@
    [
     "qacfbd56d",
     "Life has to be described in pure and simple physical and phy"
-   ],
-   [
-    "q4b9ab831",
-    "I am not against the scientific method per se."
    ],
    [
     "q0c6ee69f",

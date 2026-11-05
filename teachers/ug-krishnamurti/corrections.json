@@ -82,7 +82,8 @@
  "q4e912343": {
   "book": "The Mystique of Enlightenment",
   "chapter": "Part Two",
-  "note": "Verification 2: Wikisource places it in Mystique Part Two."
+  "note": "Verification 2: Wikisource places it in Mystique Part Two. Reviewed 2026-11-05 (quotation sweep): Third-person description of the natural state; not confirmed as U.G.'s own spoken words rather than an editor's description.",
+  "verdict": "disputed"
  },
  "q4fd55d91": {
   "book": "No Way Out",
@@ -139,7 +140,8 @@
   "note": "Verification 2: Wikiquote sources the wording via Mahesh Bhatt's A Taste of Death."
  },
  "qf71956be": {
-  "note": "Verification 2: Chandrasekhar's narration quoting U.G. (Stopped in Our Tracks)."
+  "note": "Verification 2: Chandrasekhar's narration quoting U.G. (Stopped in Our Tracks). Reviewed 2026-11-05 (quotation sweep): Chandrasekhar's narration ('roared U.G.') is part of the text; only the two quoted sentences are U.G.'s and would need separate entries.",
+  "verdict": "disputed"
  },
  "qdb3fcee7": {
   "kind": "paraphrase",
@@ -155,7 +157,8 @@
  "qfe0764c5": {
   "kind": "verbatim",
   "confidence": "S",
-  "note": "Verification 3: verbatim on hosts; Goodreads files it under No Way Out, catalogue under Mystique."
+  "note": "Verification 3: verbatim on hosts; Goodreads files it under No Way Out, catalogue under Mystique. Reviewed 2026-11-05 (quotation sweep): Only the first sentence is confirmed (see q1676a73f); the second sentence's wording is unconfirmed.",
+  "verdict": "disputed"
  },
  "q59326449": {
   "note": "Verification 3: one host gives Mind is a Myth while the attribution pass found it in No Way Out; chapter not pinned."
@@ -190,7 +193,8 @@
   ]
  },
  "q91eb04cf": {
-  "note": "Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently."
+  "note": "Verification 3: the all-caps sentence exists only as the WELL page heading; the dictated body text is worded differently. Reviewed 2026-11-05 (quotation sweep): WELL page heading (editor's rendering); U.G.'s dictated Swan Song text is worded differently. Not his words as spoken.",
+  "verdict": "disputed"
  },
  "q64ae758c": {
   "book": "Mind is a Myth",
@@ -228,7 +232,8 @@
   ]
  },
  "qca29deea": {
-  "note": "Verification 3: exact wording not found; hosts give 'This thing called moksha, can you give it to me?' addressed to Ramana Maharshi in 1939."
+  "note": "Verification 3: exact wording not found; hosts give 'This thing called moksha, can you give it to me?' addressed to Ramana Maharshi in 1939. Reviewed 2026-11-05 (quotation sweep): Exact wording not found; the recorded question is worded differently.",
+  "verdict": "disputed"
  },
  "q5061960a": {
   "note": "Verification 3: quotepark misfiles it under Jiddu Krishnamurti; the WELL and Wikiquote give U.G. (Stopped in Our Tracks Book Two). Reviewed 2026-11-04 (integrity pass): U.G.'s, Stopped in Our Tracks Book Two; quotepark misfiles it under Jiddu. A fragment of q610e5087.",
@@ -376,5 +381,29 @@
   "reviewed": [
    "very-short"
   ]
+ },
+ "q1fb04988": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Stitched from two search renderings; the joined text is not a confirmed single passage. Use q62dd75b6 / q07528773 instead."
+ },
+ "q7e344096": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Two fragments joined as rendered by a search summary; transcript wording not confirmed."
+ },
+ "q2384f6fc": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Synopsis/publisher wording describing what U.G. says; not located in his own text."
+ },
+ "qea825286": {
+  "kind": "paraphrase",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Paraphrase of No Way Out ch. 8; the source wording differs."
+ },
+ "q610e5087": {
+  "verdict": "disputed",
+  "note": "Reviewed 2026-11-05 (quotation sweep): Closing clause 'and that is the problem' reconstructed from a snippet; the confirmed part is q5061960a / q3987c101."
+ },
+ "qab99509d": {
+  "text": "blind acceptance of authority, all secondhand stuff",
+  "note": "Reviewed 2026-11-05: Mind is a Myth ch. I spells it \"secondhand\"."
  }
 }

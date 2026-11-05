@@ -22,14 +22,14 @@
    "T": 83
   },
   "quotes_by_verdict": {
-   "single-source": 37,
-   "corroborated-primary": 19,
-   "corroborated-secondary": 35,
-   "disputed": 4,
+   "single-source": 31,
+   "corroborated-primary": 17,
+   "disputed": 19,
+   "corroborated-secondary": 30,
    "not-ug": 13,
    "not-found": 2,
    "primary-source": 10,
-   "multi-source": 31
+   "multi-source": 29
   },
   "quotes_by_book": {
    "The Experience of No-Self": 31,
@@ -42,7 +42,8 @@
    "Essays on the Christian Contemplative Journey": 2,
    "interview: Stephan Bodian, Yoga Journal Nov/Dec 1986": 1,
    "essay: What Is Self?": 1,
-   "unassigned": 6,
+   "unassigned": 5,
+   "not hers: James Arraj, \"Bernadette Roberts and the Experience of No-Self\" (innerexplorations.com)": 1,
    "Mystics, Masters, Saints and Sages (2001 sketch)": 1,
    "letter": 1,
    "autobiographical sketch: Mystics, Masters, Saints and Sages (2001)": 1,
@@ -59,7 +60,7 @@
   "events_with_recorded_date_conflict": 5,
   "quotes_marked_duplicate": 0,
   "issue_counts": {
-   "quote-unassigned-book": 6
+   "quote-unassigned-book": 5
   }
  },
  "issues": {
@@ -67,10 +68,6 @@
    [
     "q35f54d7e",
     "and when I finally saw 'that' which remains when there is no"
-   ],
-   [
-    "qad3c641c",
-    "the second movement as a continuation and completion of the "
    ],
    [
     "q7ebeb747",

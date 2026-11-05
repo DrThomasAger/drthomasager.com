@@ -1,0 +1,276 @@
+[
+ {
+  "id": "qfd63f8c6",
+  "text_checked": "Thought has interfered and tried to suppress, control, and moralize about desire, to the detriment of mankind.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I",
+  "wording_variants": [],
+  "note": "Exact-phrase search returned the full sentence word for word from Wikisource Mind is a Myth/I and the WELL chapter1.html (U.G. speaking). The Natural State anthology on Wikisource also carries it.",
+  "searched": true
+ },
+ {
+  "id": "q87a66997",
+  "text_checked": "your teacher must go, it doesn't matter who the teacher is",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/The_Mystique_of_Enlightenment/Part_Four",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "The Mystique of Enlightenment, Part Four",
+  "wording_variants": [
+   "[The Natural State anthology] Your teacher must go. It doesn't matter who it is."
+  ],
+  "note": "Search result from Wikisource Mystique of Enlightenment Part Four shows 'Your teacher must go, it doesn't matter who the teacher is.' verbatim; the Natural State anthology has a shortened variant.",
+  "searched": true
+ },
+ {
+  "id": "qab99509d",
+  "text_checked": "blind acceptance of authority, all second-hand stuff",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I",
+  "wording_variants": [
+   "Your beliefs are the result of blind acceptance of authority, all secondhand stuff."
+  ],
+  "note": "Book text reads 'secondhand' (one word), not 'second-hand'; otherwise exact. Full sentence: 'Your beliefs are the result of blind acceptance of authority, all secondhand stuff.' Results are Mind is a Myth/I and the WELL chapter1.html, so the chapter is I, not The Natural State.",
+  "searched": true
+ },
+ {
+  "id": "qbd6fe67c",
+  "text_checked": "What you are afraid of is not death.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_6",
+   "https://people.well.com/user/jct/nwo6.htm",
+   "https://people.well.com/user/jct/ugbio/ugbconv.htm"
+  ],
+  "book_per_sources": "No Way Out, Ch. 6",
+  "wording_variants": [],
+  "note": "Search results show 'What you are afraid of is not death.' verbatim in a reply to a question about fearing death; Wikisource No Way Out/Chapter 6 and WELL nwo6.htm. The same conversation also appears in Mahesh Bhatt's biography Part II: Conversations (WELL ugbconv.htm) with minor differences.",
+  "searched": true
+ },
+ {
+  "id": "q1c893a18",
+  "text_checked": "Thinking about and struggling against 'sorrow' is sorrow. Since you can't stop thinking, and thinking is sorrow, you will always suffer.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Mind is a Myth, Ch. I",
+  "wording_variants": [],
+  "note": "Results from Wikisource Mind is a Myth/I, WELL chapter1.html and the holybooks PDF show the first sentence word for word ('Thinking about and struggling against \"sorrow\" is sorrow.'), and an exact-phrase search for the second sentence returns the same pages, but no result showed the second sentence's words (summaries only paraphrased it). Kept single-source under the strict-wording rule; the first sentence alone would qualify as corroborated-primary.",
+  "searched": true
+ },
+ {
+  "id": "qe27976db",
+  "text_checked": "You hook up each thought with the next, creating a false continuity. It is that continuity that is the problem.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/III",
+   "https://people.well.com/user/jct/chapter3.html",
+   "https://en.wikisource.org/wiki/The_Natural_State"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. III",
+  "wording_variants": [
+   "[The Natural State anthology] instead of dying with each thought and breath, you hook up each thought with the next, creating a false continuity"
+  ],
+  "note": "Search results show both sentences ('...creating a false continuity. It is that continuity that is the problem.') from Wikisource Mind is a Myth/III and WELL chapter3.html.",
+  "searched": true
+ },
+ {
+  "id": "q044d9da9",
+  "text_checked": "It is not an illusion, only your experience of it is an illusion.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/I",
+   "https://people.well.com/user/jct/chapter1.html",
+   "https://www.holybooks.com/wp-content/uploads/U.G.-Krishnamurti-Mind-is-a-myth.pdf"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. I",
+  "wording_variants": [],
+  "note": "Sentence shown verbatim from Wikisource Mind is a Myth/I, the holybooks PDF and WELL chapter1.html, in the exchange on poverty, work and war ('you cannot call falling bombs an illusion'). Goodreads' Courage to Stand Alone filing is a mis-shelving.",
+  "searched": true
+ },
+ {
+  "id": "qd05c2db1",
+  "text_checked": "you arrive seeking understanding, while I am only interested in making it crystal clear that there is nothing to understand.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Mind is a Myth, Ch. IV There Is Nothing To Understand",
+  "wording_variants": [],
+  "note": "Exact-phrase searches returned only Wikisource Mind is a Myth/IV (the listed source) showing the words; inner-quest UG_Nothing.htm and WELL pages came up but no result showed the sentence from them. The opening 'you arrive seeking understanding' was found nowhere. Kept single-source.",
+  "searched": true
+ },
+ {
+  "id": "q241d3a5e",
+  "text_checked": "as long as you depend upon somebody for solving your problems, so long you remain helpless",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Thought is Your Enemy, Ch. 2",
+  "wording_variants": [],
+  "note": "Exact-phrase searches return only WELL enemy2.htm (Thought is Your Enemy: Ch. 2), Wikisource Thought_is_Your_Enemy and the holybooks PDF, so the passage is located in Ch. 2 (helplessness exploited by those who offer a comforter), but no result displayed the words themselves, only summaries. Kept single-source under the strict-wording rule; placement recorded in corrections.",
+  "searched": true
+ },
+ {
+  "id": "q93a61f20",
+  "text_checked": "I have nothing to say and what I am saying is not born out of my thinking.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "No Way Out, Ch. 3 (also in Mahesh Bhatt, U.G. Krishnamurti: A Life, Part II: Conversations)",
+  "wording_variants": [],
+  "note": "Two exact-phrase searches return Wikisource No Way Out/Chapter 3, WELL nwo3.htm and WELL ugbio/ugbconv.htm; summaries say he has nothing to say and his speech does not come from his thinking, in the 'Why do I speak?' exchange with the ventriloquist simile, but no result displayed the words. Kept single-source under the strict rule; the passage is evidently in No Way Out Ch. 3.",
+  "searched": true
+ },
+ {
+  "id": "q828c848c",
+  "text_checked": "India will *not* be that country.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Mystique of Enlightenment, Part Three",
+  "wording_variants": [],
+  "note": "Only the listed Wikisource Part Three page came back (he says the change will come from the West, not India); no second host shown.",
+  "searched": true
+ },
+ {
+  "id": "q4b9ab831",
+  "text_checked": "I am not against the scientific method per se.",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/chapter5.html",
+   "https://en.wikisource.org/wiki/Mind_is_a_Myth/V"
+  ],
+  "book_per_sources": "Mind is a Myth, Ch. V",
+  "wording_variants": [],
+  "note": "Result from WELL chapter5.html and Wikisource Mind is a Myth/V shows him saying he is 'not against the scientific method per se', in a passage arguing there is no disinterested pursuit of knowledge, which is sought for power. The book is Mind is a Myth Ch. V, not 'unassigned'.",
+  "searched": true
+ },
+ {
+  "id": "q8017e676",
+  "text_checked": "man, who supposedly has achieved so much progress in the scientific field, cannot even predict precisely when an earthquake is going to occur",
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "https://people.well.com/user/jct/sitpariv.htm"
+  ],
+  "book_per_sources": "Stopped in Our Tracks (Part IV page on the WELL)",
+  "wording_variants": [
+   "All this hoopla is a waste. Man, who supposedly has achieved so much progress in the scientific field, cannot even predict precisely when an earthquake is going to occur."
+  ],
+  "note": "WELL copy of Stopped in Our Tracks (sitpariv.htm) shows the words verbatim, preceded by 'All this hoopla is a waste.' A second host for the book text listed on Wikisource. The book is a memoir by those around him, so this is U.G. as reported by others, not a transcript.",
+  "searched": true
+ },
+ {
+  "id": "q6f33cc13",
+  "text_checked": "the same old nonsense repeating itself",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Mind is a Myth, Ch. III",
+  "wording_variants": [],
+  "note": "Exact-phrase search for 'Memory is nothing more than the same old nonsense repeating itself' returns Wikisource Mind is a Myth/III, WELL chapter3.html, the holybooks PDF and The Natural State; the summary says the line appears there (WELL places it in an answer about morality and memory) but did not display the words. Kept single-source under the strict-wording rule; placement Ch. III is consistent.",
+  "searched": true
+ },
+ {
+  "id": "q39067cd0",
+  "text_checked": "Love, compassion, ahimsa, understanding, bliss, all these things which religion and psychology have placed before man, are only adding to the strain of the body.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "K. Chandrasekhar audio-tape excerpts (WELL chandra.htm); possibly also Mind is a Myth, Ch. III",
+  "wording_variants": [],
+  "note": "Full-sentence search found nothing. 'adding to the strain of the body' restricted to WELL/Wikisource returns WELL chandra.htm, WELL chapter3.html and Wikisource Mind is a Myth/III (bliss, compassion, love listed as burdens on the body), but no result displayed the words. Kept single-source; it may also be in Mind is a Myth Ch. III, unconfirmed.",
+  "searched": true
+ },
+ {
+  "id": "qcc9c525e",
+  "text_checked": "the body does not know that it is healthy or unhealthy",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "No Way Out, Ch. 9",
+  "wording_variants": [
+   "[Wikisource No Way Out/Chapter 9] Does the body know, or does it have any way of knowing, that it is healthy or unhealthy?"
+  ],
+  "note": "Result from Wikisource No Way Out/Chapter 9 shows the passage, but in question form: 'Does the body know, or does it have any way of knowing, that it is healthy or unhealthy?' The declarative wording of the entry was not seen in any book text, so it stays single-source (possible paraphrase of the question by azquotes). Also returned: WELL ugbconv.htm, Talk.htm, nwo1.htm.",
+  "searched": true
+ },
+ {
+  "id": "q441961c4",
+  "text_checked": "nothing of what we consider to be good for the body is actually good for this body",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "unidentified talk; candidate WELL page 'Thought, the Natural State and the Body'",
+  "wording_variants": [],
+  "note": "Exact-phrase search returned WELL 'Thought, the Natural State and the Body' (well.com/~jct/thought.htm and people.well.com/user/jct/thought.htm) at the top, a likely second host, but no result displayed the words. Kept single-source; worth checking thought.htm directly.",
+  "searched": true
+ },
+ {
+  "id": "q585101a0",
+  "text_checked": "I had seven years of sadhana.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Mystique of Enlightenment, Part One",
+  "wording_variants": [],
+  "note": "Exact-phrase search found no page showing the sentence; results only describe the seven years (14 to 21) with Sivananda (Wikipedia, WELL ugbio2.htm). A Wikipedia mirror's 'I've wasted seven years' belongs to the J. Krishnamurti period, a different remark. Stays on the listed Wikisource page alone.",
+  "searched": true
+ },
+ {
+  "id": "q8d5ee424",
+  "text_checked": "It is not a change in the structure of your thinking, but a change in the structure of the whole of your physical being.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Mukunda Rao, 'Enlightenment is Physical: An Introduction to U. G. Krishnamurti' (Reality Sandwich)",
+  "wording_variants": [],
+  "note": "Exact phrase occurs only in Mukunda Rao's Reality Sandwich essay (quoted twice); not found in any Wikisource, WELL, holybooks or inner-quest book text. Stays single-source.",
+  "searched": true
+ },
+ {
+  "id": "q505bda73",
+  "text_checked": "The whole thing comes to an end.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "The Biology of Enlightenment",
+  "wording_variants": [],
+  "note": "Searched Wikisource, WELL, inner-quest and holybooks: no result shows 'The whole thing comes to an end.' verbatim; closest recurring line is 'The whole thing is finished' (calamity accounts). Too generic a phrase for a search to pin; stays on Reality Sandwich alone.",
+  "searched": true
+ },
+ {
+  "id": "q55779bfa",
+  "text_checked": "eat what you like because the perfect intelligence of life knows exactly what to do with food",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Mark Whitwell recollection (Medium interview, Part 4)",
+  "wording_variants": [],
+  "note": "Exact-phrase search found no other page; related ideas only (a great intelligence maintains the living organism; he ate 'like a bird'). Second-hand wording by Mark Whitwell; stays single-source.",
+  "searched": true
+ },
+ {
+  "id": "q0c6ee69f",
+  "text_checked": "a useless exercise",
+  "verdict": "disputed",
+  "confirming_sources": [
+   "https://en-academic.com/dic.nsf/enwiki/262193",
+   "https://www.heartofyoga.com/blog/ug-krishnamurti",
+   "https://www.inner-quest.org/UG_R.htm"
+  ],
+  "book_per_sources": "none: Wikipedia narrative",
+  "wording_variants": [
+   "[Wikipedia mirror] he would later also dismiss this period with Sivananda as a useless exercise",
+   "[dialogue variant] it didn't help, so I dropped it"
+  ],
+  "note": "Search for U.G. + Sivananda + 'useless exercise' found no U.G. text using the words; they exist only as Wikipedia's (and mirrors') narrative description of his view. The earlier corroborated-secondary verdict confirms Wikipedia's sentence, not a U.G. quotation, so the attribution as his words is disputed; it is at most a paraphrase in others' words.",
+  "searched": true
+ },
+ {
+  "id": "q707dda41",
+  "text_checked": "My aim is to silence you.",
+  "verdict": "single-source",
+  "confirming_sources": [],
+  "book_per_sources": "Stopped in Our Tracks, Book Two (per listed WELL chandra.htm)",
+  "wording_variants": [],
+  "note": "Exact-phrase search found nothing; closest U.G. lines on his aim are 'My aim is not some comfy dialectical thesis but the total negation of everything that can be expressed' and 'My interest is not to knock off what others have said ... but to knock off what I am saying'. Not verbatim anywhere; stays on the listed source, which itself does not carry the exact phrasing.",
+  "searched": true
+ }
+]

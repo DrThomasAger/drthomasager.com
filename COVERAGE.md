@@ -28,19 +28,19 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | verification | quotations |
 |---|---|
-| corroborated-primary | 19 |
-| corroborated-secondary | 35 |
+| corroborated-primary | 17 |
+| corroborated-secondary | 30 |
 | primary-source | 10 |
-| multi-source | 31 |
-| single-source | 37 |
-| disputed | 4 |
+| multi-source | 29 |
+| single-source | 31 |
+| disputed | 19 |
 | not-found | 2 |
 | not-ug | 13 |
 
 - Kinds: 77 fragment, 47 verbatim, 27 paraphrase.
-- Books: 19, with 6 quotations not yet placed in a book.
+- Books: 20, with 5 quotations not yet placed in a book.
 - Marked as a second copy of a passage: 0.
-- Given to a composition by default: 90; with single-source lines allowed: 119.
+- Given to a composition by default: 81; with single-source lines allowed: 104.
 
 ### Life and people
 
@@ -66,12 +66,12 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 ### Integrity
 
-- Open: 6 quote-unassigned-book.
+- Open: 5 quote-unassigned-book.
 
 ### Not yet reached
 
-- 37 quotations rest on one source and wait for a second.
-- 4 disputed and 2 not found, never quoted.
+- 31 quotations rest on one source and wait for a second.
+- 19 disputed and 2 not found, never quoted.
 - 14 archive items are leads or likely, not yet confirmed by a source.
 - 58 archive items have no year (websites and accounts among them, which take none).
 
@@ -93,18 +93,18 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | verification | quotations |
 |---|---|
-| corroborated-primary | 105 |
-| corroborated-secondary | 126 |
+| corroborated-primary | 101 |
+| corroborated-secondary | 122 |
 | primary-source | 5 |
-| single-source | 28 |
-| disputed | 10 |
+| single-source | 26 |
+| disputed | 20 |
 | not-found | 4 |
 | not-ug | 4 |
 
-- Kinds: 114 fragment, 103 verbatim, 65 paraphrase.
-- Books: 23, with 4 quotations not yet placed in a book.
+- Kinds: 113 fragment, 103 verbatim, 66 paraphrase.
+- Books: 23, with 3 quotations not yet placed in a book.
 - Marked as a second copy of a passage: 8.
-- Given to a composition by default: 180; with single-source lines allowed: 200.
+- Given to a composition by default: 172; with single-source lines allowed: 190.
 
 ### Life and people
 
@@ -143,12 +143,12 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 ### Integrity
 
-- Open: 5 item-no-sources, 4 quote-unassigned-book.
+- Open: 5 item-no-sources, 3 quote-unassigned-book.
 
 ### Not yet reached
 
-- 28 quotations rest on one source and wait for a second.
-- 10 disputed and 4 not found, never quoted.
+- 26 quotations rest on one source and wait for a second.
+- 20 disputed and 4 not found, never quoted.
 - 68 archive items are leads or likely, not yet confirmed by a source.
 - 339 archive items have no year (websites and accounts among them, which take none).
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.
