@@ -1,6 +1,6 @@
 {
  "summary": {
-  "items": 727,
+  "items": 726,
   "quotes": 282,
   "events": 84,
   "people": 87,
@@ -8,14 +8,14 @@
    "archive": 95,
    "community": 66,
    "audio": 94,
-   "image": 114,
+   "image": 113,
    "text": 204,
    "video": 154
   },
   "items_by_confidence": {
-   "S": 659,
-   "T": 13,
-   "lead": 55
+   "S": 661,
+   "T": 15,
+   "lead": 50
   },
   "quotes_by_confidence": {
    "S": 188,
@@ -55,40 +55,17 @@
    "The Sage and the Housewife": 5,
    "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1
   },
-  "distinct_source_hosts": 378,
-  "items_self_sourced_only": 358,
-  "items_with_second_source": 364,
+  "distinct_source_hosts": 380,
+  "items_self_sourced_only": 357,
+  "items_with_second_source": 369,
   "compositions_checked": 6,
   "events_with_recorded_date_conflict": 7,
   "quotes_marked_duplicate": 8,
   "issue_counts": {
-   "item-no-sources": 5,
    "quote-unassigned-book": 3
   }
  },
  "issues": {
-  "item-no-sources": [
-   [
-    "ie38bf43c",
-    "Mind is a Myth: Conversations with U.G. Krishnamurti (Smriti Books, 2003)"
-   ],
-   [
-    "icb1c38b9",
-    "Thought is Your Enemy (Winsome Books India, 2009)"
-   ],
-   [
-    "ia3753317",
-    "No Way Out (Smriti Books, 2002; listing dated 31 Dec 2005)"
-   ],
-   [
-    "iaf9bc661",
-    "The Courage to Stand Alone (Smriti Books, 2001)"
-   ],
-   [
-    "i7eeef415",
-    "2026 film coverage not located (Variety US, IndieWire, Hollywood Reporter, Screen Daily, The Hindu, Scroll, Telluride and Woodstock printed programmes)"
-   ]
-  ],
   "quote-unassigned-book": [
    [
     "q68aa6bb3",
@@ -137,7 +114,7 @@
  "hosts": [
   [
    "people.well.com",
-   176
+   178
   ],
   [
    "youtube.com",
@@ -153,7 +130,7 @@
   ],
   [
    "goodreads.com",
-   93
+   94
   ],
   [
    "ugkrishnamurti.in",
@@ -328,6 +305,10 @@
    7
   ],
   [
+   "hammertonail.com",
+   7
+  ],
+  [
    "quotlr.com",
    7
   ],
@@ -344,6 +325,10 @@
    6
   ],
   [
+   "thefilmstage.com",
+   6
+  ],
+  [
    "ligotti.net",
    6
   ],
@@ -353,10 +338,6 @@
   ],
   [
    "exoticindiaart.com",
-   6
-  ],
-  [
-   "hammertonail.com",
    6
   ],
   [
@@ -393,10 +374,6 @@
   ],
   [
    "travelswithug.com",
-   5
-  ],
-  [
-   "thefilmstage.com",
    5
   ],
   [
@@ -452,6 +429,10 @@
    4
   ],
   [
+   "openlibrary.org",
+   4
+  ],
+  [
    "ilgiardinodeilibri.it",
    4
   ],
@@ -469,6 +450,10 @@
   ],
   [
    "cuke.com",
+   4
+  ],
+  [
+   "piermarton.info",
    4
   ],
   [
@@ -552,10 +537,6 @@
    3
   ],
   [
-   "openlibrary.org",
-   3
-  ],
-  [
    "theprint.in",
    3
   ],
@@ -565,6 +546,10 @@
   ],
   [
    "thriftbooks.com",
+   3
+  ],
+  [
+   "indiaclub.com",
    3
   ],
   [
@@ -596,10 +581,6 @@
    3
   ],
   [
-   "piermarton.info",
-   3
-  ],
-  [
    "m.facebook.com",
    3
   ],
@@ -613,6 +594,14 @@
   ],
   [
    "redbubble.com",
+   3
+  ],
+  [
+   "dc2.philarchive.org",
+   3
+  ],
+  [
+   "bagchee.com",
    3
   ],
   [
@@ -740,10 +729,6 @@
    2
   ],
   [
-   "indiaclub.com",
-   2
-  ],
-  [
    "davidbohmsociety.org",
    2
   ],
@@ -780,7 +765,7 @@
    2
   ],
   [
-   "dc2.philarchive.org",
+   "biblio.co.nz",
    2
   ],
   [
@@ -1100,19 +1085,11 @@
    1
   ],
   [
-   "alamy.com",
-   1
-  ],
-  [
-   "gettyimages.com",
-   1
-  ],
-  [
-   "shutterstock.com",
-   1
-  ],
-  [
    "actualfreedom.com.au",
+   1
+  ],
+  [
+   "ca.biblio.com",
    1
   ],
   [
@@ -1272,10 +1249,6 @@
    1
   ],
   [
-   "bagchee.com",
-   1
-  ],
-  [
    "stillnessspeaks.com",
    1
   ],
@@ -1409,6 +1382,10 @@
   ],
   [
    "podbean.com",
+   1
+  ],
+  [
+   "directory.libsyn.com",
    1
   ],
   [
@@ -1604,11 +1581,19 @@
    1
   ],
   [
+   "melbourne.theosophicalsociety.org.au",
+   1
+  ],
+  [
    "agharta-mundointerior.blogspot.com",
    1
   ],
   [
    "thetvdb.com",
+   1
+  ],
+  [
+   "thinkingallowed.vhx.tv",
    1
   ],
   [

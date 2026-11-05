@@ -19,10 +19,10 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | archive | 32 | 30 | 2 | 20 | 0 |
 | audio | 7 | 6 | 1 | 4 | 0 |
 | community | 14 | 14 | 0 | 4 | 0 |
-| image | 16 | 15 | 1 | 11 | 0 |
-| text | 46 | 38 | 8 | 37 | 0 |
+| image | 16 | 16 | 0 | 11 | 0 |
+| text | 46 | 38 | 8 | 38 | 0 |
 | video | 20 | 18 | 2 | 1 | 0 |
-| all | 135 | 121 | 14 | 77 | 0 |
+| all | 135 | 122 | 13 | 78 | 0 |
 
 ### Quotations
 
@@ -72,8 +72,8 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 - 31 quotations rest on one source and wait for a second.
 - 19 disputed and 2 not found, never quoted.
-- 14 archive items are leads or likely, not yet confirmed by a source.
-- 58 archive items have no year (websites and accounts among them, which take none).
+- 13 archive items are leads or likely, not yet confirmed by a source.
+- 57 archive items have no year (websites and accounts among them, which take none).
 
 ## U.G. Krishnamurti
 
@@ -84,10 +84,10 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | archive | 95 | 90 | 5 | 56 | 0 |
 | audio | 94 | 87 | 7 | 54 | 0 |
 | community | 66 | 56 | 10 | 17 | 0 |
-| image | 114 | 97 | 17 | 59 | 0 |
-| text | 204 | 185 | 19 | 154 | 5 |
+| image | 113 | 97 | 16 | 59 | 0 |
+| text | 204 | 187 | 17 | 154 | 0 |
 | video | 154 | 144 | 10 | 48 | 0 |
-| all | 727 | 659 | 68 | 388 | 5 |
+| all | 726 | 661 | 65 | 388 | 0 |
 
 ### Quotations
 
@@ -143,12 +143,12 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 ### Integrity
 
-- Open: 5 item-no-sources, 3 quote-unassigned-book.
+- Open: 3 quote-unassigned-book.
 
 ### Not yet reached
 
 - 26 quotations rest on one source and wait for a second.
 - 20 disputed and 4 not found, never quoted.
-- 68 archive items are leads or likely, not yet confirmed by a source.
-- 339 archive items have no year (websites and accounts among them, which take none).
+- 65 archive items are leads or likely, not yet confirmed by a source.
+- 338 archive items have no year (websites and accounts among them, which take none).
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.

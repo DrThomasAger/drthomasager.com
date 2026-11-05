@@ -3211,7 +3211,7 @@
   "duration": null,
   "host": "papercutszines.com",
   "url": "https://papercutszines.com/cant-see-your-own-face",
-  "description": "Zine surfaced alongside Goner, likely Brawley-related; unexamined. [Checked: Search for 'Can't See Your Own Face' zine / Paper Cuts / Louis Brawley returned only unrelated Paper Cuts items; not confirmed, U.G. link unverified.]",
+  "description": "Zine surfaced alongside Goner, likely Brawley-related; unexamined. [Checked: Search for 'Can't See Your Own Face' zine / Paper Cuts / Louis Brawley returned only unrelated Paper Cuts items; not confirmed, U.G. link unverified.] [Checked: Searched another route, through zine-library catalogues and the title without the host: only unrelated face-themed zines (RISD, SDSU, itch.io). No link to Louis Brawley or U.G. confirmed. Still a lead.]",
   "tags": [
    "zine",
    "brawley",
@@ -9103,7 +9103,7 @@
   "duration": null,
   "host": "papercutszines.com",
   "url": "https://papercutszines.com/cant-see-your-own-face/2020/1/7/cant-see-your-own-face",
-  "description": "Zine surfaced alongside Goner, carrying Brawley material; unexamined. [Checked: Same search as ibd903a91: zine not surfaced; Brawley material unconfirmed.]",
+  "description": "Zine surfaced alongside Goner, carrying Brawley material; unexamined. [Checked: Same search as ibd903a91: zine not surfaced; Brawley material unconfirmed.] [Checked: Same zine-catalogue search as ibd903a91: no hit for the zine or for Brawley material in it. Still a lead; probably the same item as ibd903a91.]",
   "tags": [
    "brawley",
    "zine",
@@ -11317,7 +11317,7 @@
   "duration": null,
   "host": "facebook.com",
   "url": null,
-  "description": "Italian edition of Mind Is a Myth cited on the Italian Facebook page; cover image location not found.",
+  "description": "Italian edition of Mind Is a Myth cited on the Italian Facebook page; cover image location not found. [Checked: Searched with Aequilibrium + Turchi: no Italian edition record surfaced (results show the French 'Le Mental est un mythe' tr. Paule Salvan and a Spanish 'La Mente es Un Mito'). Aequilibrium's other U.G. title (Il coraggio di stare in piedi da soli, 2000) is known from macrolibrarsi. La mente è un mito is still unconfirmed and the cover is not found. Next step: the SBN OPAC.]",
   "tags": [
    "book-cover",
    "mind-is-a-myth",
@@ -11795,41 +11795,6 @@
   "origin": "images"
  },
  {
-  "id": "if30146e9",
-  "medium": "image",
-  "title": "GAP: Alamy / Getty / Shutterstock 'Krishnamurti' stock searches (all J.K. so far)",
-  "date": null,
-  "year": null,
-  "place": null,
-  "people": [],
-  "format": "photograph",
-  "language": "English",
-  "duration": null,
-  "host": "alamy.com",
-  "url": "https://www.alamy.com/stock-photo/krishnamurti.html",
-  "description": "Stock-photo searches returned only Jiddu Krishnamurti; a direct 'Uppaluri Gopala Krishnamurti' search was not run. [Checked: Reviewed 2026-11-04: a record of a search gap, not an item; stock libraries returned only Jiddu.]",
-  "tags": [
-   "gap",
-   "stock-photo",
-   "mixed-jk",
-   "image",
-   "host-alamy-com",
-   "format-photograph",
-   "lang-english",
-   "confidence-lead"
-  ],
-  "confidence": "lead",
-  "sources": [
-   "https://www.alamy.com/stock-photo/krishnamurti.html",
-   "https://www.gettyimages.com/photos/krishnamurti",
-   "https://www.shutterstock.com/editorial/search/krishnamurti"
-  ],
-  "origin": "images",
-  "reviewed": [
-   "jk-contamination"
-  ]
- },
- {
   "id": "ia3f9f521",
   "medium": "text",
   "title": "The Mystique of Enlightenment (1992 edition, Dinesh Publications / Akshaya Prakashana)",
@@ -11845,7 +11810,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Second edition, 1992, Dinesh Publications / Akshaya Prakashana, Bangalore. Not surfaced in search; from background knowledge. [Checked: WELL 'U.G.'s Books, Interviews, and References' lists The Mystique of Enlightenment, ed. Rodney Arms, first edition 1982, second edition 1992. Publisher of 1992 edition (Dinesh / Akshaya) not shown; Akshaya (Bangalore) appears as 1992 publisher of No Way Out; third edition is Sahasranama Prakashana, Bangalore.]",
+  "description": "Second edition, 1992, Dinesh Publications / Akshaya Prakashana, Bangalore. Not surfaced in search; from background knowledge. [Checked: WELL 'U.G.'s Books, Interviews, and References' lists The Mystique of Enlightenment, ed. Rodney Arms, first edition 1982, second edition 1992. Publisher of 1992 edition (Dinesh / Akshaya) not shown; Akshaya (Bangalore) appears as 1992 publisher of No Way Out; third edition is Sahasranama Prakashana, Bangalore.] [Checked: Searched for the publisher again: the WELL bibliography still gives only 'Second Edition: 1992' (first edition 1982, ed. Rodney Arms). Its Bangalore address belongs to the third edition (Sahasranama Prakashana, Vidyaranyapura). No result names Dinesh Publications or Akshaya Prakashana as the 1992 publisher, so the year is supported and the publisher is not. Related: Smriti Books 2005 printing, ISBN 9788187967095 (Goodreads editions).]",
   "tags": [
    "book",
    "mystique-of-enlightenment",
@@ -12077,7 +12042,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Sharp Ink e-book 2023, ISBN 9788028286125. [Checked: Search confirms Sharp Ink issued U.G. e-books in Feb 2023 (Natural State Kindle 21 Feb 2023; Collected Works 24 Feb 2023), but no listing for the Sharp Ink Mystique of Enlightenment (ISBN 9788028286125) surfaced.]",
+  "description": "Sharp Ink e-book 2023, ISBN 9788028286125. [Checked: Search confirms Sharp Ink issued U.G. e-books in Feb 2023 (Natural State Kindle 21 Feb 2023; Collected Works 24 Feb 2023), but no listing for the Sharp Ink Mystique of Enlightenment (ISBN 9788028286125) surfaced.] [Checked: Searched for ISBN 9788028286125 with the title: no listing matched. The only Sharp Ink hit had a different number (9788028375997, an unrelated book). Sharp Ink's 2023 U.G. e-books are confirmed in general, but this ISBN and title are still unconfirmed. Other e-book editions of the title: E-Artnow 9788027341443; 4064066407667 (decitre).]",
   "tags": [
    "book",
    "mystique-of-enlightenment",
@@ -12262,7 +12227,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, New Delhi, 2003, eds. Terry Newland and Sunita Pant Bansal. [Checked: Search did not surface a Smriti Books (New Delhi) listing for Mind is a Myth; only Everand ebook (Nov 2009, ed. Terry Newland, Boulder CO). Smriti 2003 edition unconfirmed by search.]",
+  "description": "Smriti Books, New Delhi, 2003, eds. Terry Newland and Sunita Pant Bansal. [Checked: Search did not surface a Smriti Books (New Delhi) listing for Mind is a Myth; only Everand ebook (Nov 2009, ed. Terry Newland, Boulder CO). Smriti 2003 edition unconfirmed by search.] [Checked: Confirmed through a library route: the Open Library record gives Mind is a Myth: Conversations with U.G. Krishnamurti, Smriti Books, 2003 (distributor New Age Books), xxvii, 159 pp.; PhilArchive gives New Delhi: Smriti Books, eds. Terry Newland & Sunita Pant Bansal (2003). ISBN 8187967102 / 9788187967101. A Biblio listing also shows a 2002 paperback date, a 2005 Smriti reprint and a Mahesh Bhatt foreword, so other printings exist.]",
   "tags": [
    "book",
    "mind-is-a-myth",
@@ -12280,8 +12245,12 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "lead",
-  "sources": [],
+  "confidence": "S",
+  "sources": [
+   "https://openlibrary.org/books/OL3718889M/Mind_is_a_myth?mode=all",
+   "https://dc2.philarchive.org/rec/KRIMIA-3",
+   "https://biblio.co.nz/8187967102"
+  ],
   "origin": "text"
  },
  {
@@ -12426,7 +12395,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Winsome Books India 2009, ISBN 978-8188043620. [Checked: Winsome Books 2009 Thought is Your Enemy not surfaced by search.]",
+  "description": "Winsome Books India 2009, ISBN 978-8188043620. [Checked: Winsome Books 2009 Thought is Your Enemy not surfaced by search.] [Checked: Found with an ISBN search: the Goodreads editions list gives Thought is Your Enemy: Conversations with U.G. Krishnamurti, Winsome Books India, paperback, 123 pp., published 1 Dec 2009, ISBN 8188043621 / 9788188043620. No second listing (library or bookseller) confirms it, so it stays T. Original edition: Sowmya Publications, Bangalore, 1991, eds. Antony Paul Frank Noronha and J.S.R.L. Narayana Moorty.]",
   "tags": [
    "book",
    "thought-is-your-enemy",
@@ -12442,8 +12411,10 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "lead",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://www.goodreads.com/work/editions/6212994-thought-is-your-enemy-mind-shattering-conversations-with-the-man-called"
+  ],
   "origin": "text"
  },
  {
@@ -12619,7 +12590,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, New Delhi, 2002 edition; a Smriti listing dated 31 Dec 2005 also exists. [Checked: Smriti Books No Way Out 2002 edition not surfaced; search shows Akshaya (Bangalore) as 1992 publisher of No Way Out (WELL lists page). Unconfirmed.]",
+  "description": "Smriti Books, New Delhi, 2002 edition; a Smriti listing dated 31 Dec 2005 also exists. [Checked: Smriti Books No Way Out 2002 edition not surfaced; search shows Akshaya (Bangalore) as 1992 publisher of No Way Out (WELL lists page). Unconfirmed.] [Checked: Found with an ISBN search: a Biblio listing gives the Smriti Books, New Delhi edition, ISBN 8187967080 / 9788187967088, dated 5 Feb 2002, eds. J.S.R.L. Narayana Moorty, Antony Paul Noronha and Sunita Pant Bansal. Another listing gives Psb Enterprises, 31 Dec 2005 (likely a reprint or distributor record). Earlier edition: Akshaya, Bangalore, 1992. These are bookseller records only.]",
   "tags": [
    "book",
    "no-way-out",
@@ -12635,8 +12606,11 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "lead",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://biblio.co.nz/8187967080",
+   "https://bagchee.com/books/BB6332/no-way-out-conversations-with-ug-krishnamurti"
+  ],
   "origin": "text"
  },
  {
@@ -12957,7 +12931,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Smriti Books, 1 Jan 2001, foreword Mahesh Bhatt. [Checked: Smriti Books Courage to Stand Alone 2001 not surfaced by search.]",
+  "description": "Smriti Books, 1 Jan 2001, foreword Mahesh Bhatt. [Checked: Smriti Books Courage to Stand Alone 2001 not surfaced by search.] [Checked: Found with an ISBN search: a Biblio listing gives the Smriti Books, New Delhi first Indian edition, ISBN 8187967064 / 9788187967064, dated 1 Jan 2001, 126 pp., ed. Ellen J. Chrystal, foreword Mahesh Bhatt. India Club and Bagchee list it too. These are bookseller records only (no library record), and 1 Jan is probably a placeholder day. Original edition: Plover Press, New York, 1997.]",
   "tags": [
    "book",
    "courage-to-stand-alone",
@@ -12975,8 +12949,12 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "lead",
-  "sources": [],
+  "confidence": "T",
+  "sources": [
+   "https://ca.biblio.com/9788187967064",
+   "https://indiaclub.com/products/6803-courage-to-stand-alone-conversations-with-u-g-krishnamurti",
+   "https://www.bagchee.com/books/BB26775/the-courage-to-stand-alone-conversations-with-ug-krishnamurti"
+  ],
   "origin": "text"
  },
  {
@@ -14260,7 +14238,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Second series, The Firsthand Publications, Bangalore, 2010; no ISBN found. A Third Series is mentioned in a download list. [Checked: Narayana Moorty's editor's note (Feb 2007) on WELL announces a second Stopped in Our Tracks book of Chandrasekhar's pieces; AbeBooks ISBN 9788196985509 'Stopped in Our Tracks: UG Anecdotes, Comments and Reflections' (Series Two), publisher not shown. First book: Smriti Books, New Delhi, 2005. Third volume (Palm Springs and Switzerland) from Motilal Banarsidass. Firsthand Publications/2010 not confirmed.]",
+  "description": "Second series, The Firsthand Publications, Bangalore, 2010; no ISBN found. A Third Series is mentioned in a download list. [Checked: Narayana Moorty's editor's note (Feb 2007) on WELL announces a second Stopped in Our Tracks book of Chandrasekhar's pieces; AbeBooks ISBN 9788196985509 'Stopped in Our Tracks: UG Anecdotes, Comments and Reflections' (Series Two), publisher not shown. First book: Smriti Books, New Delhi, 2005. Third volume (Palm Springs and Switzerland) from Motilal Banarsidass. Firsthand Publications/2010 not confirmed.] [Checked: Confirmed: the WELL bibliography lists 'STOPPED IN OUR TRACKS -- (Second Series) -- UG-ANECDOTES, COMMENTS AND REFLECTIONS: from the Notebooks of K. Chandrasekhar. Translated from the Telugu by J.S.R.L. Narayana Moorty. Published by The Firsthand Publications. Bangalore, India. 2010.' A later reissue under ISBN 9788196985509 ('Series Two') appears on AbeBooks; it may be the Motilal Banarsidass line, whose 'Anecdotes of UG - Palm Springs and Switzerland' (ISBN 9788196985547, 2024, 367 pp.) is the third volume. Whether the newer ISBN is the same text as the 2010 edition is not confirmed.]",
   "tags": [
    "book",
    "stopped-in-our-tracks",
@@ -14280,10 +14258,11 @@
    "place-india",
    "confidence-s"
   ],
-  "confidence": "T",
+  "confidence": "S",
   "sources": [
    "https://www.well.com/~jct/SIT/editor's_note.htm",
-   "https://www.abebooks.co.uk/9788196985509/Stopped-Tracks-UG-Anecdotes-Comments-Reflections-8196985509/plp"
+   "https://www.abebooks.co.uk/9788196985509/Stopped-Tracks-UG-Anecdotes-Comments-Reflections-8196985509/plp",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "text"
  },
@@ -16881,7 +16860,7 @@
   "duration": null,
   "host": "ligotti.net",
   "url": "https://ligotti.net/showthread.php?t=1098",
-  "description": "An obituary thread states UG 'went public' with his first TV interview in 1986, followed by TV and radio interviews worldwide; programme and broadcaster unidentified. [Checked: WELL 'Remembering U.G. Krishnamurti' tribute states that in 1986 he went public and gave his first TV interview, followed by TV and radio interviews worldwide. Programme/broadcaster still unidentified.]",
+  "description": "An obituary thread states UG 'went public' with his first TV interview in 1986, followed by TV and radio interviews worldwide; programme and broadcaster unidentified. [Checked: WELL 'Remembering U.G. Krishnamurti' tribute states that in 1986 he went public and gave his first TV interview, followed by TV and radio interviews worldwide. Programme/broadcaster still unidentified.] [Checked: Searched another route, tying it to Australia/ABC: the only Australian TV result is Jiddu Krishnamurti's 1970 'This Day Tonight' interview (not U.G.). The 1986 programme and broadcaster are still unidentified; the year rests on the WELL tribute and the ligotti.net thread.]",
   "tags": [
    "tv",
    "interview",
@@ -17504,7 +17483,7 @@
   "duration": "",
   "host": "archive.org",
   "url": "https://archive.org/details/ug_birla_02",
-  "description": "Presumed part 2 of the Birla discussion; identifier inferred from ug_birla_01 '(1/2)'. [Checked: Search for 'U.G. with S.C. Birla' archive.org returned nothing; archive.org identifiers are not indexed in search. Still an inferred identifier.]",
+  "description": "Presumed part 2 of the Birla discussion; identifier inferred from ug_birla_01 '(1/2)'. [Checked: Search for 'U.G. with S.C. Birla' archive.org returned nothing; archive.org identifiers are not indexed in search. Still an inferred identifier.] [Checked: Searched without archive.org, by the person named (S.C. Birla + U.G. + video): nothing names Birla. The only 1989 item was a memoir of time with U.G. in Bangalore (June) and Delhi (Dec 1989). ug_birla_02 is still an inferred identifier.]",
   "tags": [
    "archive-org",
    "gstaad",
@@ -18748,7 +18727,7 @@
   "duration": null,
   "host": "ugkrishnamurti.org",
   "url": "http://www.ugkrishnamurti.org/",
-  "description": "Narayana Moorty's links page describes .org as a photos-and-quotes site; Dharmapedia lists .org as 'the website'. Operator (Raj Mehta / Essential UG?) NOT confirmed; search for 'Essential UG Raj Mehta' returned nothing. Wayback snapshot range not retrievable without fetch - still open.",
+  "description": "Narayana Moorty's links page describes .org as a photos-and-quotes site; Dharmapedia lists .org as 'the website'. Operator (Raj Mehta / Essential UG?) NOT confirmed; search for 'Essential UG Raj Mehta' returned nothing. Wayback snapshot range not retrievable without fetch - still open. [Checked: Found by a different route: piermarton.info ('U.G. Krishnamurti, not the famous one') names 'the two main sites' as U.G.Krishnamurti.org and U.G.Krishnamurti.net, which supports .org as a former principal site. Operator and current status still unknown; Wayback range not retrievable without a fetch.]",
   "tags": [
    "website",
    "ugkrishnamurti-org",
@@ -18764,7 +18743,8 @@
   "confidence": "lead",
   "sources": [
    "https://narayanamoorty.net/",
-   "https://en.dharmapedia.net/wiki/U._G._Krishnamurti"
+   "https://en.dharmapedia.net/wiki/U._G._Krishnamurti",
+   "https://piermarton.info/u-g-krishnamurti-not-the-famous-one"
   ],
   "origin": "wave2-img-arch"
  },
@@ -21208,7 +21188,7 @@
   "duration": null,
   "host": "sulochanosho.wordpress.com",
   "url": "https://sulochanosho.wordpress.com/tag/robert-carr/",
-  "description": "Only trace of Robert Carr's UG writings found; no book 'Love Children' confirmed by search. [Checked: Robert Carr's UG writing confirmed: Life Positive piece 'What do you need a guru for' (Oct 2004) by Robert Carr quoting U.G.; YouTube 'Friends of UG Krishnamurti, A Film By Bob Carr.. Part 1'. sulochanosho tag page itself not surfaced.]",
+  "description": "Only trace of Robert Carr's UG writings found; no book 'Love Children' confirmed by search. [Checked: Robert Carr's UG writing confirmed: Life Positive piece 'What do you need a guru for' (Oct 2004) by Robert Carr quoting U.G.; YouTube 'Friends of UG Krishnamurti, A Film By Bob Carr.. Part 1'. sulochanosho tag page itself not surfaced.] [Checked: Searched the film title 'Friends of UG Krishnamurti' with Bob Carr: no hit (results were only about Dougherty's The Natural State). The earlier Life Positive (Oct 2004) and YouTube traces are still the only confirmation; the sulochanosho tag page is not surfaced.]",
   "tags": [
    "robert-carr",
    "blog",
@@ -24664,7 +24644,7 @@
   "duration": null,
   "host": null,
   "url": null,
-  "description": "Three wave-5 searches on these outlets returned nothing; Variety India is the only Variety property to have reviewed the film. Deadline's Telluride review roundup lists an entry 'Director Matt Dougherty, E.P. Jane Campion Explore Riveting Anti-Guru U.G. Krishnamurti in The Natural State', but only the interview URL surfaced.",
+  "description": "Three wave-5 searches on these outlets returned nothing; Variety India is the only Variety property to have reviewed the film. Deadline's Telluride review roundup lists an entry 'Director Matt Dougherty, E.P. Jane Campion Explore Riveting Anti-Guru U.G. Krishnamurti in The Natural State', but only the interview URL surfaced. [Checked: A search naming THR, Screen Daily, IndieWire and Variety again found no review from those outlets. Two other critics' reviews surfaced: The Film Stage (Woodstock Film Festival 2026 review) and Hammer to Nail (written after the 2026 Telluride screening). Variety India's piece is a premiere news item with Mahesh Bhatt's reaction, not a review. The trade and Indian mainstream reviews named in this lead are still not found.]",
   "tags": [
    "press",
    "film",
@@ -24678,7 +24658,10 @@
    "confidence-lead"
   ],
   "confidence": "lead",
-  "sources": [],
+  "sources": [
+   "https://thefilmstage.com/woodstock-review-the-natural-state-examines-the-contradictory-state-of-non-belief/",
+   "https://www.hammertonail.com/?p=56332"
+  ],
   "origin": "wave5-press"
  },
  {
@@ -25220,7 +25203,7 @@
   "duration": null,
   "host": "hindustantimes.com",
   "url": null,
-  "description": "Review by Nawaid Anjum in the Hindustan Times Books page, announced in his X post of c. 29 June 2026; HT URL not recovered (truncated link). [Checked: No Hindustan Times review of The Ashes Are Warm surfaced. Other reviews found: Free Press Journal (Avneesh Gadgil) https://freepressjournal.in/lifestyle/book-review-mahesh-bhatts-the-ashes-are-warm-is-a-deeply-personal-exploration-of-truth-and-presence ; Governance Now https://www.governancenow.com/news/books-ideas/lived-life-philosophy-spirituality-and-other-enigmas (Rupa, 384 pp., Rs 495).]",
+  "description": "Review by Nawaid Anjum in the Hindustan Times Books page, announced in his X post of c. 29 June 2026; HT URL not recovered (truncated link). [Checked: No Hindustan Times review of The Ashes Are Warm surfaced. Other reviews found: Free Press Journal (Avneesh Gadgil) https://freepressjournal.in/lifestyle/book-review-mahesh-bhatts-the-ashes-are-warm-is-a-deeply-personal-exploration-of-truth-and-presence ; Governance Now https://www.governancenow.com/news/books-ideas/lived-life-philosophy-spirituality-and-other-enigmas (Rupa, 384 pp., Rs 495).] [Checked: Searched again with Hindustan Times + title + review: no HT piece surfaced. Other coverage that did surface: Tribune India 'When Mahesh Bhatt ignored suicidal climax warning for Arth' (https://www.tribuneindia.com/news/entertainment/when-mahesh-bhatt-ignored-suicidal-climax-warning-for-arth-refused-to-conform/) and its Devdiscourse syndication (Rupa, Rs 495); these are news stories about the book, not the HT review. The HT URL is still not recovered.]",
   "tags": [
    "press",
    "hindustan-times",
@@ -25527,7 +25510,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/",
-  "description": "Section grouping 'My Approach', 'My Swan Song', 'Books & PDFs' and 'Quotes' (all four confirmed as navigation entries on the home page). Section URL inferred from the sub-page paths; the index page itself was not captured. [Checked: Search returned no ugkrishnamurti.in pages; the domain itself is linked from New Dimensions as the official site, but the 'UG's Essence in Words' section page is not confirmed.]",
+  "description": "Section grouping 'My Approach', 'My Swan Song', 'Books & PDFs' and 'Quotes' (all four confirmed as navigation entries on the home page). Section URL inferred from the sub-page paths; the index page itself was not captured. [Checked: Search returned no ugkrishnamurti.in pages; the domain itself is linked from New Dimensions as the official site, but the 'UG's Essence in Words' section page is not confirmed.] [Checked: Searched again by section names with the domain: no ugkrishnamurti.in page indexed. Wikipedia and Dharmapedia name ugkrishnamurti.org as the website. The WELL links page credits 'The Essential UG' to Dr. Raj Mehta (https://www.well.com/~jct/links.htm), which may be where the 'Essential' naming comes from. The section index is still unconfirmed.]",
   "tags": [
    "section",
    "ug-essence",
@@ -25559,7 +25542,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/my-approach",
-  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search, so URL is a pattern guess and content unverified. The nearest known text with this heading is K. Chandrasekhar's 'Stopped in Our Tracks' excerpt 'My Approach' ('I am not a thinker in the sense in which the word is used... My objective in carrying on the conversation is to silence them'), hosted on the WELL. [Checked: 'My Approach' page on ugkrishnamurti.in not surfaced by search.]",
+  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search, so URL is a pattern guess and content unverified. The nearest known text with this heading is K. Chandrasekhar's 'Stopped in Our Tracks' excerpt 'My Approach' ('I am not a thinker in the sense in which the word is used... My objective in carrying on the conversation is to silence them'), hosted on the WELL. [Checked: 'My Approach' page on ugkrishnamurti.in not surfaced by search.] [Checked: The same section-name search found no ugkrishnamurti.in 'My Approach' page. Still a URL pattern guess.]",
   "tags": [
    "my-approach",
    "ug-essence",
@@ -25590,7 +25573,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://www.ugkrishnamurti.in/ug-essence/quotes",
-  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search; URL is a pattern guess and content not captured. [Checked: 'Quotes' page on ugkrishnamurti.in not surfaced by search.]",
+  "description": "Navigation item under UG's Essence in Words (confirmed in the home-page menu). The page itself was not returned by any search; URL is a pattern guess and content not captured. [Checked: 'Quotes' page on ugkrishnamurti.in not surfaced by search.] [Checked: The same section-name search found no ugkrishnamurti.in 'Quotes' page. Still a URL pattern guess.]",
   "tags": [
    "quotes",
    "ug-essence",
@@ -25620,7 +25603,7 @@
   "duration": null,
   "host": "ugkrishnamurti.in",
   "url": "https://ugkrishnamurti.in/ug-speaks/videos",
-  "description": "Video sub-section of UG Speaks, named 'Essential Videos' in the menu and 'Explore Videos' on the overview. The page exists but was not returned by any of six targeted searches in wave 5 (URL is a pattern guess: /ug-speaks/videos or /ug-speaks/essential-videos), so no individual video titles, dates or places could be recovered. Still a gap. [Checked: 'Essential Videos' page on ugkrishnamurti.in not surfaced by search.]",
+  "description": "Video sub-section of UG Speaks, named 'Essential Videos' in the menu and 'Explore Videos' on the overview. The page exists but was not returned by any of six targeted searches in wave 5 (URL is a pattern guess: /ug-speaks/videos or /ug-speaks/essential-videos), so no individual video titles, dates or places could be recovered. Still a gap. [Checked: 'Essential Videos' page on ugkrishnamurti.in not surfaced by search.] [Checked: The same section-name search ('Essential Videos') found no ugkrishnamurti.in page. Still a gap.]",
   "tags": [
    "essential-videos",
    "explore-videos",
@@ -25693,7 +25676,7 @@
   "duration": "",
   "host": "The Heart of Yoga Podcast",
   "url": "https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594",
-  "description": "episode id 1000504271594; surfaced for UG query; UG content unconfirmed [Checked: Heart of Yoga podcast (Whitwell & Rosalind Atkinson) has episodes on U.G.: 'EP 02 - Remembering Desikachar and the Krishnamurtis in India, Switzerland and New Zealand' and a listing on U.G.'s radical realization. The specific episode id 1000504271594 was not matched. Also J. Brown Yoga Talks episode 'Mark Whitwell: Heart of Yoga ... T. Krishnamacharya, UG Krishnamurti' (https://jbrownyogatalks.libsyn.com/mark-whitwell-heart-of-yoga-the-promise-yoga-of-heart-t-krishnamacharya-ug-krishnamurti).]",
+  "description": "episode id 1000504271594; surfaced for UG query; UG content unconfirmed [Checked: Heart of Yoga podcast (Whitwell & Rosalind Atkinson) has episodes on U.G.: 'EP 02 - Remembering Desikachar and the Krishnamurtis in India, Switzerland and New Zealand' and a listing on U.G.'s radical realization. The specific episode id 1000504271594 was not matched. Also J. Brown Yoga Talks episode 'Mark Whitwell: Heart of Yoga ... T. Krishnamacharya, UG Krishnamurti' (https://jbrownyogatalks.libsyn.com/mark-whitwell-heart-of-yoga-the-promise-yoga-of-heart-t-krishnamacharya-ug-krishnamurti).] [Checked: Searched again: The Heart of Yoga podcast (Apple id 1529738617; 98 episodes) has a libsyn episode covering Krishnamacharya, Desikachar and 'the radical honesty of U.G. Krishnamurti' (libsyn id 36620610, title and date not captured). Episode id 1000504271594 is still not matched to it, and the Apple show id in the item URL (1534828209) differs from 1529738617.]",
   "tags": [
    "podcast",
    "whitwell",
@@ -25710,7 +25693,8 @@
   "sources": [
    "https://podcasts.apple.com/us/podcast/mark-whitwell-the-heart-of-yoga-podcast-new-episode/id1534828209?i=1000504271594",
    "https://podbean.com/site/EpisodeDownload/DIRA783805WQI99",
-   "https://podcasts.apple.com/podcast/id1529738617"
+   "https://podcasts.apple.com/podcast/id1529738617",
+   "https://directory.libsyn.com/episode/index/show/theheartofyoga/id/36620610"
   ],
   "origin": "wave6-av"
  },
@@ -25765,7 +25749,7 @@
   "duration": "",
   "host": "Spotify",
   "url": "https://open.spotify.com/episode/1NLJPviJsL3dK9R6vooCnA",
-  "description": "spotify episode id 1NLJPviJsL3dK9R6vooCnA; surfaced for UG query; content unconfirmed [Checked: Spotify episode 1NLJPviJsL3dK9R6vooCnA not surfaced in Whitwell/UG search; content still unconfirmed.]",
+  "description": "spotify episode id 1NLJPviJsL3dK9R6vooCnA; surfaced for UG query; content unconfirmed [Checked: Spotify episode 1NLJPviJsL3dK9R6vooCnA not surfaced in Whitwell/UG search; content still unconfirmed.] [Checked: The Heart of Yoga podcast search did not surface Spotify episode 1NLJPviJsL3dK9R6vooCnA; a tapesearch page for a 'Mark Whitwell - Heart of Yoga' episode (id 4PMsLYiYeM6De5J8MvsMdc) is a different Spotify id. Content still unconfirmed.]",
   "tags": [
    "podcast",
    "whitwell",
@@ -26102,7 +26086,7 @@
   "duration": "",
   "host": "famigliafideus.com",
   "url": "https://www.famigliafideus.com/u-g-krishnamurti-video/",
-  "description": "Italian page listing UG videos dubbed/subtitled in Italian incl. 'Lo stato naturale (Intervista a Roma 1995)'; companion PDF 'INTERVISTE A U.G.KRISHNAMURTI' [Checked: Search for famigliafideus.com UG video list / 'Lo stato naturale (Intervista a Roma 1995)' returned no famigliafideus result; not confirmed.]",
+  "description": "Italian page listing UG videos dubbed/subtitled in Italian incl. 'Lo stato naturale (Intervista a Roma 1995)'; companion PDF 'INTERVISTE A U.G.KRISHNAMURTI' [Checked: Search for famigliafideus.com UG video list / 'Lo stato naturale (Intervista a Roma 1995)' returned no famigliafideus result; not confirmed.] [Checked: Searched another route, by the Italian video title 'Lo stato naturale' with Roma 1995 and without the host: no record of the Rome 1995 interview or of famigliafideus. The only Italian hit is the book Il fascino dell'illuminazione (ISBN 9788832299489). Unconfirmed.]",
   "tags": [
    "italian",
    "video-list",
@@ -26131,7 +26115,7 @@
   "duration": "",
   "host": "jetzt-tv.net",
   "url": "https://www.jetzt-tv.net/ugk",
-  "description": "German-language biography page listing UG interview/conversation videos (e.g. Thinking Allowed; Conversation in Amsterdam); dub/subtitle status unconfirmed [Checked: Search for jetzt-tv 'Gelebte Weisheit' U. G. Krishnamurti returned nothing from jetzt-tv.net; page not confirmed by search.]",
+  "description": "German-language biography page listing UG interview/conversation videos (e.g. Thinking Allowed; Conversation in Amsterdam); dub/subtitle status unconfirmed [Checked: Search for jetzt-tv 'Gelebte Weisheit' U. G. Krishnamurti returned nothing from jetzt-tv.net; page not confirmed by search.] [Checked: Searched another route in German (jetzt-tv + Video + Gespräch): results were only Jiddu Krishnamurti material (KFT video, German J.K. books). The jetzt-tv.net/ugk page is still unconfirmed.]",
   "tags": [
    "german",
    "video-list",
@@ -28119,7 +28103,7 @@
   "duration": null,
   "host": "x.com",
   "url": "https://x.com/MaheshNBhatt/status/579607713191198720",
-  "description": "Tweet 'UG Krishnamurti - A Life by Mahesh Bhatt now in Tamil !' with a pic.twitter image (t.co/3tzqGtcciR) — presumably the Tamil cover. Publisher not named in snippet (Kannadasan Pathippagam is the known Tamil UG publisher). [Checked: 2015 tweet on Tamil edition of 'UG Krishnamurti: A Life' not surfaced by search; X not indexed.]",
+  "description": "Tweet 'UG Krishnamurti - A Life by Mahesh Bhatt now in Tamil !' with a pic.twitter image (t.co/3tzqGtcciR) — presumably the Tamil cover. Publisher not named in snippet (Kannadasan Pathippagam is the known Tamil UG publisher). [Checked: 2015 tweet on Tamil edition of 'UG Krishnamurti: A Life' not surfaced by search; X not indexed.] [Checked: Searched another route, by the book and publisher instead of X: no Tamil edition or Tamil publisher surfaced. Penguin India says the biography has been translated into several languages without naming them; the WELL lists show a Bengali translation (Dr. Sabyasachi Guha; later Deepa Prakashan, Kolkata). The tweet and the Tamil edition are still unconfirmed.]",
   "tags": [
    "mahesh-bhatt",
    "x-twitter",
@@ -28138,7 +28122,8 @@
   ],
   "confidence": "lead",
   "sources": [
-   "https://x.com/MaheshNBhatt/status/579607713191198720"
+   "https://x.com/MaheshNBhatt/status/579607713191198720",
+   "https://people.well.com/user/jct/lists.html"
   ],
   "origin": "wave6-images"
  },
@@ -29625,7 +29610,7 @@
   "duration": null,
   "host": null,
   "url": "https://44books.com/dimag-hi-dushman-hai-u-g-krishnamurti.html",
-  "description": "Hindi edition of Thought Is Your Enemy, 168 pp.; circulates on PDF sites (44books, ourhindi) without publisher named. No Rajpal / Hind Pocket / Manjul / Rajkamal UG titles found. [Checked: Hindi search for 'दिमाग ही दुश्मन है' with यूजी कृष्णमूर्ति returned no matching listing; Hindi edition still unconfirmed.]",
+  "description": "Hindi edition of Thought Is Your Enemy, 168 pp.; circulates on PDF sites (44books, ourhindi) without publisher named. No Rajpal / Hind Pocket / Manjul / Rajkamal UG titles found. [Checked: Hindi search for 'दिमाग ही दुश्मन है' with यूजी कृष्णमूर्ति returned no matching listing; Hindi edition still unconfirmed.] [Checked: Searched again in Hindi with प्रकाशन (publisher): only English Mind is a Myth e-book listings came back; no Hindi edition, publisher or ISBN. Still unconfirmed.]",
   "tags": [
    "hindi",
    "book",
@@ -29779,7 +29764,7 @@
   "duration": null,
   "host": "iapsop.com",
   "url": "http://iapsop.com/archive/materials/theosophist/theosophist_v69_n9_jun_1948.pdf",
-  "description": "iapsop.com hosts scans of The Theosophist for the years UG lectured for the Indian Section (c. 1941–53); this June 1948 issue is one example. No search hit confirms a UG item inside; theosophy.world 'India, Theosophy in' and Rohit Mehta (Indian Section General Secretary 1945–59) pages give context. Lead only.",
+  "description": "iapsop.com hosts scans of The Theosophist for the years UG lectured for the Indian Section (c. 1941–53); this June 1948 issue is one example. No search hit confirms a UG item inside; theosophy.world 'India, Theosophy in' and Rohit Mehta (Indian Section General Secretary 1945–59) pages give context. Lead only. [Checked: Searched another route, through the Theosophical Society union index: an entry lists a talk 'Connaissance de Soi', given in Madras on 22 Oct 1947 and reprinted in The Theosophist, April 1948. The entry names no speaker, so it is not attributable to U.G. Nothing confirms a U.G. item in the June 1948 issue. Still a lead.]",
   "tags": [
    "english",
    "periodical",
@@ -29801,7 +29786,8 @@
   "sources": [
    "http://iapsop.com/archive/materials/theosophist/theosophist_v69_n9_jun_1948.pdf",
    "https://www.theosophy.world/encyclopedia/india-theosophy",
-   "https://theosophy.wiki/en/Rohit_Mehta"
+   "https://theosophy.wiki/en/Rohit_Mehta",
+   "https://melbourne.theosophicalsociety.org.au/union_index/entries/62168"
   ],
   "origin": "wave6-text"
  },
@@ -30468,7 +30454,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=6deGa7wkidw",
-  "description": "id 6deGa7wkidw; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'Thoughts, Language & Energy' returned no matching upload; existence of 6deGa7wkidw with this title not confirmed.]",
+  "description": "id 6deGa7wkidw; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'Thoughts, Language & Energy' returned no matching upload; existence of 6deGa7wkidw with this title not confirmed.] [Checked: The same 'Lectures Beyond Beyond' channel search found no channel or video; 6deGa7wkidw is still unverified.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -30526,7 +30512,7 @@
   "duration": "",
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=rkTZ7lAvU6Q",
-  "description": "id rkTZ7lAvU6Q; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'You're Not the Ideas You Pursue' returned no matching upload; not confirmed.]",
+  "description": "id rkTZ7lAvU6Q; Lectures Beyond Beyond (UCRLQIvQcoF41xZdrtKMXSvg) (presumed); talk excerpt; uploader presumed Lectures Beyond Beyond from title style, unverified [Checked: YouTube-restricted search for 'You're Not the Ideas You Pursue' returned no matching upload; not confirmed.] [Checked: Searched another route, by the presumed channel name 'Lectures Beyond Beyond' plus the title wording: no hit for the channel or the title. The phrase 'not ideas' comes back only as a Jiddu Krishnamurti talk title (Brockwood 1974), so a mis-attribution is possible; rkTZ7lAvU6Q is still unverified.]",
   "tags": [
    "youtube",
    "lectures-beyond-beyond",
@@ -31108,7 +31094,7 @@
   "duration": "",
   "host": "reddit.com",
   "url": "https://www.reddit.com/r/awakened/",
-  "description": "r/awakened; link post (score 2); commenter calls it 'a very unusual type of awakening' [Checked: Reddit post not surfaced by search (reddit not indexed for these phrases). The underlying Thinking Allowed episode is confirmed: TVDB lists 'Mind as a Myth' with U.G. Krishnamurti. Post itself still unconfirmed.]",
+  "description": "r/awakened; link post (score 2); commenter calls it 'a very unusual type of awakening' [Checked: Reddit post not surfaced by search (reddit not indexed for these phrases). The underlying Thinking Allowed episode is confirmed: TVDB lists 'Mind as a Myth' with U.G. Krishnamurti. Post itself still unconfirmed.] [Checked: Searched the underlying episode for a date: TheTVDB lists 'U. G. Krishnamurti - Mind as a Myth' as Thinking Allowed Season 1, Episode 30 (series 1986-2002), with no air date. The episode streams on thinkingallowed.vhx.tv. The transcript is a chapter in Thinking Allowed: Conversations on the Leading Edge of Knowledge (Council Oak Books, Tulsa, c1992; CCA library https://library.cca.edu/bib/16635). The Reddit post itself is still unconfirmed; the 2022 year is the post's, from the SocialGrep index.]",
   "tags": [
    "ug-krishnamurti",
    "reddit",
@@ -31127,7 +31113,8 @@
   "confidence": "T",
   "sources": [
    "https://www.socialgrep.com/search?query=ug+krishnamurti",
-   "https://www.thetvdb.com/series/thinking-allowed/episodes/10853481"
+   "https://www.thetvdb.com/series/thinking-allowed/episodes/10853481",
+   "https://thinkingallowed.vhx.tv/spiritual-teachers-and-wisdom-traditions/videos/krishnamurti-mind-as-a-myth"
   ],
   "origin": "wave8-archive-reddit"
  },
