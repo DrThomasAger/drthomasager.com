@@ -1,12 +1,14 @@
 """Write download-manifest.json and fetch.sh from items.json.
 
-Every item whose URL points at something a machine can pull down (an
+Every item, and every source of an item that is itself a recording, scan,
+image or text, whose URL points at something a machine can pull down (an
 archive.org item, a YouTube video or playlist, a SoundCloud track, a
 Wikisource page, a PDF, a WELL page) becomes one line of fetch.sh, grouped
 by tool. Run fetch.sh on a machine that can reach those hosts:
 
-    pip install internetarchive yt-dlp
-    bash fetch.sh            # downloads into ./downloads/<medium>/
+    pip install internetarchive yt-dlp requests pypdf
+    python fetch.py          # downloads into ./downloads/<kind>/, any OS
+    bash fetch.sh            # the same list as shell commands
 
 Nothing here is downloaded by the build; the site links out.
 """
@@ -25,14 +27,34 @@ if meta.get("fetch") is False:
 
 groups = {"archive_org": [], "youtube": [], "soundcloud": [], "wikisource": [], "pdf": [], "well": [], "other_pages": []}
 seen = set()
+MEDIA_FILE = (".pdf", ".mp3", ".mp4", ".m4a", ".ogg", ".wav", ".flac", ".webm", ".jpg", ".jpeg", ".png", ".gif", ".tif", ".tiff", ".webp")
+
+
+def media_source(s):
+    """A source address that is itself a recording, scan, image or text to keep."""
+    q = urlparse(s)
+    h = q.netloc.lower().replace("www.", "")
+    return ((h == "archive.org" and q.path.startswith("/details/")) or h in ("youtube.com", "m.youtube.com", "youtu.be", "soundcloud.com")
+            or h.endswith("wikisource.org") or h == "commons.wikimedia.org" or h == "upload.wikimedia.org"
+            or q.path.lower().endswith(MEDIA_FILE))
+
+
+pairs = []
 for it in items:
-    u = it.get("url")
+    if it.get("drop"):
+        continue
+    if it.get("url"):
+        pairs.append((it, it["url"], "item"))
+    for s in it.get("sources") or []:
+        if isinstance(s, str) and s != it.get("url") and media_source(s):
+            pairs.append((it, s, "source"))
+for it, u, via in pairs:
     if not u or u in seen:
         continue
     seen.add(u)
     p = urlparse(u)
     host = p.netloc.lower().replace("www.", "")
-    rec = {"id": it["id"], "title": it["title"], "medium": it["medium"], "url": u}
+    rec = {"id": it["id"], "title": it["title"], "medium": it["medium"], "url": u, "via": via}
     if host == "archive.org" and p.path.startswith("/details/"):
         rec["identifier"] = p.path.split("/")[2]
         groups["archive_org"].append(rec)
