@@ -25,10 +25,10 @@ Nobody left here to listen
 
 [Verse 1]
 [Male deep]
-I went looking for a quiet place inside
-I thought that I would find myself there waiting
-I kept the candle burning through the night
-And every prayer I said came back unspoken
+She went looking for a quiet place inside
+She thought that she would find herself there waiting
+She looked into the centre she had known
+And found it empty, and a quiet joy
 
 [Pre-Chorus]
 [Woman]
@@ -48,9 +48,9 @@ No one to come back, nothing inside
 [Verse 2]
 [Male deep]
 The storm was turning round an eye of stillness
-I made my home inside that eye for years
+She made her home inside that eye for years
 Then the wind died down and the eye went with it
-No stillness left to hold, and no one here
+No stillness left to hold, and no one there
 
 [Bridge]
 [Music drops to held pads]
@@ -68,10 +68,10 @@ No one to come back, nothing inside
 
 [Verse 3]
 [Woman]
-I thought of Christ upon the hill
+She thought of Christ upon the hill
 And all that he let go
 The self went down into the dark
-And what remained has no name I know
+And what remained no name could show
 
 [Outro]
 [Chorus of women, chanting]
@@ -84,7 +84,7 @@ Silence, silence
 
 SOURCES
 - Intro, my own words, inspired by q9d30b69a
-- Verse 1, my own words, inspired by q4d3eaaf1 and q889cddbc
+- Verse 1, my own words, sung of her in the third person, inspired by q4d3eaaf1, q889cddbc and q066e6835
 - Pre-Chorus, my own words, inspired by q889cddbc
 - Chorus, my own words, inspired by q45d56e01
 - Verse 2, my own words, inspired by qfd33296f
@@ -94,4 +94,4 @@ SOURCES
 - Every sung line outside the three marked as the words of Bernadette Roberts is my own, written for this song, and none of it is hers.
 
 COUNT
-Quoted words 21 of the 60 allowed, in two quoted lines of 7 words each, one of them given twice. Lyrics 1,623 characters of the 5,000 allowed. Style 412 characters of the 1,000 allowed.
+Quoted words 21 of the 60 allowed, in two quoted lines of 7 words each, one of them given twice. Lyrics 1,632 characters of the 5,000 allowed. Style 412 characters of the 1,000 allowed.

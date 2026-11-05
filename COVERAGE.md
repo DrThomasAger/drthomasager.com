@@ -38,7 +38,7 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | not-ug | 13 |
 
 - Kinds: 77 fragment, 47 verbatim, 27 paraphrase.
-- Books: 20, with 5 quotations not yet placed in a book.
+- Books: 19, with 5 quotations not yet placed in a book.
 - Marked as a second copy of a passage: 0.
 - Given to a composition by default: 81; with single-source lines allowed: 104.
 
