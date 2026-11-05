@@ -47,6 +47,8 @@ LOG = DL / "fetch-log.jsonl"
 HOLD = HERE / "holdings.json"
 UA = "hanjopurebuddha-archive-fetch/1.0 (open archive of a teacher's words)"
 IMG_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".tif", ".tiff", ".bmp")
+MEDIA_BIN = (".mp3", ".mp4", ".m4a", ".ogg", ".ogv", ".opus", ".wav", ".flac", ".webm", ".mkv", ".avi", ".mov",
+             ".mpg", ".mpeg", ".ra", ".rm", ".jpg", ".jpeg", ".png", ".gif", ".webp", ".tif", ".tiff", ".bmp", ".jp2", ".zip", ".torrent")
 KINDS = ("archive_org", "youtube", "soundcloud", "wikisource", "pdf", "well", "other_pages")
 
 
@@ -70,6 +72,19 @@ def sha256(p):
         for b in iter(lambda: f.read(1 << 20), b""):
             h.update(b)
     return h.hexdigest()
+
+
+def duration(p):
+    """Seconds of a recording, through ffprobe when it is on the PATH."""
+    if p.suffix.lower() not in MEDIA_BIN[:15] or not shutil.which("ffprobe"):
+        return None
+    import subprocess
+    try:
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)],
+                           capture_output=True, text=True, timeout=60)
+        return round(float(r.stdout.strip()), 1) if r.stdout.strip() else None
+    except Exception:  # noqa
+        return None
 
 
 def session():
@@ -116,8 +131,8 @@ def fetch_archive(rec, args):
             files.append(f"{i}/*")
             continue
         it = ia.get_item(i)
-        it.download(destdir=str(root), retries=3, ignore_existing=True, verbose=False,
-                    glob_pattern=args.ia_glob or None)
+        it.download(destdir=str(root), retries=3, ignore_existing=True, verbose=False, ignore_errors=True,
+                    glob_pattern=args.ia_glob or None, source=["original"] if args.ia_originals else None)
         files += [str(p.relative_to(DL)) for p in (root / i).rglob("*") if p.is_file()]
     return files
 
@@ -216,6 +231,10 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--ia-glob", default="", help="archive.org files to take, e.g. '*.mp3|*.pdf' (default all)")
+    ap.add_argument("--ia-originals", action="store_true", help="archive.org: only the files as uploaded, not the derived copies")
+    ap.add_argument("--discard-media", action="store_true",
+                    help="after hashing and measuring, delete recordings and images and keep only texts, subtitles and "
+                         "metadata (for a machine that verifies and transcribes but keeps nothing)")
     args = ap.parse_args()
     man = json.loads((HERE / "download-manifest.json").read_text(encoding="utf-8"))
     if man.get("fetch") is False:
@@ -248,6 +267,12 @@ def main():
                     p = DL / f
                     if p.is_file() and f not in h["files"]:
                         h["files"][f] = {"bytes": p.stat().st_size, "sha256": sha256(p)}
+                        d = duration(p)
+                        if d:
+                            h["files"][f]["seconds"] = d
+                    if args.discard_media and p.is_file() and p.suffix.lower() in MEDIA_BIN:
+                        p.unlink()
+                        h["files"][f]["kept"] = False
                 h["fetched"] = now()
             print(f"[{n}/{len(todo)}] ok   {k:12} {r['title'][:70]}  ({len(files)} files)")
         except Exception as e:  # noqa
