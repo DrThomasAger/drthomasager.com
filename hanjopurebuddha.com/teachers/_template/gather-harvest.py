@@ -30,8 +30,13 @@ n_tr = 0
 for s in sorted(p for p in shards.iterdir() if p.is_dir()):
     base = next((p.parent for p in s.rglob("holdings.json")), None) or next((p.parent for p in s.rglob("transcripts")), s)
     for iid, h in load(base / "holdings.json", {}).items():
-        cur = hold.setdefault(iid, {k: v for k, v in h.items() if k != "files"} | {"files": {}})
-        cur["files"].update(h.get("files") or {})
+        cur = hold.setdefault(iid, {"files": {}})
+        done = bool(cur.get("complete")) or bool(h.get("complete"))
+        cur.update({k: v for k, v in h.items() if k not in ("files", "complete", "fetched")})
+        cur["complete"] = done
+        for f, v in (h.get("files") or {}).items():
+            if f not in cur["files"] or (v.get("asset") and not cur["files"][f].get("asset")):
+                cur["files"][f] = v
         if h.get("fetched"):
             cur["fetched"] = max(cur.get("fetched") or "", h["fetched"])
     for v in load(base / "local-verification.json", []):

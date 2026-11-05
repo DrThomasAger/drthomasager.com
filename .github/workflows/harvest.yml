@@ -27,8 +27,27 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
+      max-parallel: 18
       matrix:
-        kind: [archive_org, youtube, soundcloud, wikisource, pdf, well, other_pages]
+        include:
+          - { kind: archive_org, shard: "0/12", tag: media-archive_org-s0 }
+          - { kind: archive_org, shard: "1/12", tag: media-archive_org-s1 }
+          - { kind: archive_org, shard: "2/12", tag: media-archive_org-s2 }
+          - { kind: archive_org, shard: "3/12", tag: media-archive_org-s3 }
+          - { kind: archive_org, shard: "4/12", tag: media-archive_org-s4 }
+          - { kind: archive_org, shard: "5/12", tag: media-archive_org-s5 }
+          - { kind: archive_org, shard: "6/12", tag: media-archive_org-s6 }
+          - { kind: archive_org, shard: "7/12", tag: media-archive_org-s7 }
+          - { kind: archive_org, shard: "8/12", tag: media-archive_org-s8 }
+          - { kind: archive_org, shard: "9/12", tag: media-archive_org-s9 }
+          - { kind: archive_org, shard: "10/12", tag: media-archive_org-s10 }
+          - { kind: archive_org, shard: "11/12", tag: media-archive_org-s11 }
+          - { kind: youtube, shard: "", tag: media-youtube }
+          - { kind: soundcloud, shard: "", tag: media-soundcloud }
+          - { kind: other_pages, shard: "", tag: media-other_pages }
+          - { kind: pdf, shard: "", tag: media-pdf }
+          - { kind: well, shard: "", tag: media-well }
+          - { kind: wikisource, shard: "", tag: media-wikisource }
     env:
       GH_TOKEN: ${{ github.token }}
     defaults:
@@ -36,21 +55,23 @@ jobs:
         working-directory: hanjopurebuddha.com/teachers/ug-krishnamurti
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # the newest holdings, so a queued pass continues the one before it
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: pip install -q internetarchive yt-dlp requests pypdf
       - name: The release that holds this kind
-        run: gh release view "media-${{ matrix.kind }}" >/dev/null 2>&1 || gh release create "media-${{ matrix.kind }}" --title "U.G. Krishnamurti media, ${{ matrix.kind }}" --notes "Fetched by the harvest workflow from the addresses in hanjopurebuddha.com/teachers/ug-krishnamurti/download-manifest.json. holdings.json maps every asset to its archive item." || true
+        run: gh release view "${{ matrix.tag }}" >/dev/null 2>&1 || gh release create "${{ matrix.tag }}" --title "U.G. Krishnamurti media, ${{ matrix.tag }}" --notes "Fetched by the harvest workflow from the addresses in hanjopurebuddha.com/teachers/ug-krishnamurti/download-manifest.json. holdings.json maps every asset to its archive item." || true
       - name: Fetch, upload each file as it arrives (stops itself before the job limit)
-        run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --release "media-${{ matrix.kind }}" --skip-held || true
+        run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --shard "${{ matrix.shard }}" --release "${{ matrix.tag }}" --skip-held --give-up-after 15 || true
       - run: python extract-text.py || true
       - run: python find-quotes.py || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: shard-${{ matrix.kind }}
+          name: shard-${{ matrix.tag }}
           retention-days: 3
           if-no-files-found: ignore
           path: |
@@ -65,6 +86,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
