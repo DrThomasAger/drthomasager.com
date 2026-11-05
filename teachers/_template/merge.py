@@ -234,10 +234,21 @@ def load_list(name):
 events = load_list("events.json")
 people = load_list("people.json")
 verification = {}
-for vf in sorted(list(src.glob("verification*.json")) + list(src.glob("local-verification*.json")) + list(HERE.glob("local-verification.json"))):
+for vf in sorted(src.glob("verification*.json")):
     for v in load_list(vf.name):
         if v.get("id") and v.get("searched", True) and v.get("verdict"):
             verification[v["id"]] = v
+# Local checks (find-quotes.py against the downloaded texts) only raise a status, and never over a
+# line already found disputed or not the teacher's: a book also holds its editor's words.
+RAISABLE = (None, "single-source", "multi-source", "corroborated-secondary", "primary-source", "not-found")
+local = {}
+for lf in [src / "local-verification.json", HERE / "local-verification.json"]:
+    try:
+        for v in json.loads(lf.read_text(encoding="utf-8")) if lf.exists() else []:
+            if v.get("id") and v.get("verdict") == "corroborated-primary":
+                local[v["id"]] = v
+    except ValueError:
+        pass
 for q in quotes:
     hosts = set()
     for u in q["sources"]:
@@ -256,6 +267,11 @@ for q in quotes:
         q["verdict"] = "multi-source"
     else:
         q["verdict"] = "single-source"
+    lv = local.get(q["id"])
+    if lv and q.get("verdict") in RAISABLE:
+        q["verdict"] = "corroborated-primary"
+        q["confirming_sources"] = (q.get("confirming_sources") or []) + lv.get("confirming_sources", [])
+        q["local_match"] = lv.get("note")
 # Hand corrections (corrections.json beside this script), applied last.
 corr_path = HERE / "corrections.json"
 if corr_path.exists():

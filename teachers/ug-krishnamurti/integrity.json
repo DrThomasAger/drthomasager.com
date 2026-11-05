@@ -22,13 +22,12 @@
    "T": 94
   },
   "quotes_by_verdict": {
-   "corroborated-primary": 101,
-   "corroborated-secondary": 122,
-   "primary-source": 5,
+   "corroborated-primary": 204,
    "disputed": 20,
-   "not-found": 4,
+   "not-found": 3,
    "not-ug": 4,
-   "single-source": 26
+   "corroborated-secondary": 41,
+   "single-source": 10
   },
   "quotes_by_book": {
    "The Mystique of Enlightenment": 51,
