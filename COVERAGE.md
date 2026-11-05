@@ -8,7 +8,6 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 - Forms: 6 (Suno song, Collection on a topic, Book with chapters, Blog post, Instagram post, Custom), each a .smile module in smile/forms, with 3 carrying a variant for words under copyright.
 - Suno styles held as copies: 4.
 - Commands: 6 (C-guru-blog, C-guru-book, C-guru-collection, C-guru-instagram, C-guru-suno, C-guru), for Claude Code, Pi and THE MAP Viewer's composer through smile/install.py.
-- Pages in the built site: 466.
 
 ## Bernadette Roberts
 
