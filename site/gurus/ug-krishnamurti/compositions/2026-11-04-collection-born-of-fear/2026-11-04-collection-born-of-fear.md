@@ -6,7 +6,7 @@ topic: fear
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q4f2c81d1, qc774741b, q5f1205b6, qbdce9d7f, qfe0764c5, q3148c69a, q086ab55c, qe06bf8ca, qd70eb646, q6fe326b5
+quotes: q4f2c81d1, qc774741b, q5f1205b6, qbdce9d7f, q3148c69a, q086ab55c, qe06bf8ca, qd70eb646, q6fe326b5
 ---
 
 # Born of Fear
@@ -32,10 +32,6 @@ The Mystique of Enlightenment
 > it is the mind that has created God out of fear
 
 Mind is a Myth, p. 31
-
-> It is fear that makes you believe that you are living and that you will be dead. What we do not want is the fear to come to an end.
-
-The Mystique of Enlightenment
 
 ## The freedom no one wants
 
@@ -69,7 +65,6 @@ No Way Out
 - qc774741b · No Way Out · corroborated-secondary
 - q5f1205b6 · The Mystique of Enlightenment · corroborated-secondary
 - qbdce9d7f · Mind is a Myth, p. 31 · corroborated-primary
-- qfe0764c5 · The Mystique of Enlightenment · corroborated-secondary
 - q3148c69a · The Mystique of Enlightenment · corroborated-secondary
 - q086ab55c · No Way Out · corroborated-secondary
 - qe06bf8ca · No Way Out · corroborated-secondary

@@ -6,7 +6,7 @@ topic: the body intelligence
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: qe646b0ed, qbe66ba38, q2384f6fc, qde44a012, q7f2ee6c3, q59326449, q37d40528, qad57ce7d, qc0edce3e, q4b30cd75, q2878603e, q6fe326b5, qbb683516, q1a68f39e, q7e344096, qb4728a46, qfc6d0e49
+quotes: qe646b0ed, qbe66ba38, qde44a012, q7f2ee6c3, q59326449, q37d40528, qad57ce7d, qc0edce3e, q4b30cd75, q2878603e, q6fe326b5, qbb683516, q1a68f39e, qb4728a46, qfc6d0e49
 ---
 
 ---
@@ -42,11 +42,7 @@ That sentence closes a door that most teachings leave open. If the state is phys
 
 The intelligence he meant is not cleverness, and it is not anything you can learn or improve. It is the same intelligence that heals a cut, digests a meal and keeps the heart beating through the night without your help. You are already blessed with it. What gets in the way is the effort to become something other than what you are.
 
-> …this is the way you, stripped of the machinations of thought, are also functioning.
-
-— *The Biology of Enlightenment*
-
-Notice the word also. He was not describing a special body that only he possessed. He was saying that your body works this way right now, underneath the commentary that thought keeps running about it. The trouble, in his telling, is that culture has trained every one of us toward the same model of a good and spiritual person, and the organism's own way gets buried under that training.
+He was not describing a special body that only he possessed. He was saying that your body works this way right now, underneath the commentary that thought keeps running about it. The trouble, in his telling, is that culture has trained every one of us toward the same model of a good and spiritual person, and the organism's own way gets buried under that training.
 
 > …nature had been allowed to go on in its own way, everybody would have become a unique flower.
 
@@ -116,10 +112,6 @@ The immortality he spoke of is not a soul that survives. It is matter going on a
 
 It would be easy to turn all of this into a new belief, with the body as the true self and thought as the false one. He took that belief away too.
 
-> What is there is only the body. It is actually a computer, but we are not ready to accept it.
-
-— Interview with Jeffrey Mishlove on *Thinking Allowed*, Mind As a Myth
-
 > The body does not exist except as a thought.
 
 — *Mind is a Myth*
@@ -138,7 +130,6 @@ U.G. Krishnamurti never told anyone to trust the body, to listen to it, or to pr
 
 - qe646b0ed — *The Mystique of Enlightenment* (corroborated-primary)
 - qbe66ba38 — *The Mystique of Enlightenment*, Part One (corroborated-primary)
-- q2384f6fc — *The Biology of Enlightenment* (corroborated-primary)
 - qde44a012 — *The Mystique of Enlightenment* (corroborated-secondary)
 - q7f2ee6c3 — *Science and U.G.* (corroborated-primary)
 - q59326449 — *No Way Out* (corroborated-primary)
@@ -150,6 +141,5 @@ U.G. Krishnamurti never told anyone to trust the body, to listen to it, or to pr
 - q6fe326b5 — *No Way Out* (corroborated-secondary)
 - qbb683516 — *Science and U.G.* (corroborated-primary)
 - q1a68f39e — *Mind is a Myth*, Ch. I (corroborated-primary)
-- q7e344096 — Interview with Jeffrey Mishlove on *Thinking Allowed*, Mind As a Myth (corroborated-secondary)
 - qb4728a46 — *Mind is a Myth* (corroborated-secondary)
 - qfc6d0e49 — *The Mystique of Enlightenment* (corroborated-primary)

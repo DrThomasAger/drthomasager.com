@@ -6,7 +6,7 @@ topic: unitive state no-self
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q45cc28ad, qe90c1adb, q19a3d246, qda52d28f, qd5f1bcc1, q78be2fac, qa6a54e9d, q066e6835, q147cc879, qe5c7c65f
+quotes: qe90c1adb, q19a3d246, qda52d28f, qd5f1bcc1, q78be2fac, q066e6835, qe5c7c65f
 ---
 
 ---
@@ -29,10 +29,6 @@ For Bernadette Roberts, what comes after the unitive state is the end of the sel
 Bernadette Roberts (1931–2017) was an American Catholic contemplative. She spent years as a Carmelite nun, later left the monastery, married, raised a family and taught. Through all of it she kept a contemplative life, and she wrote about it with unusual precision. Her first book, *The Experience of No-Self*, appeared in 1982. *The Path to No-Self* and *What Is Self?* followed, and near the end of her life *The Real Christ*. She was not a teacher of techniques. She wrote as a witness, describing what had happened to her and comparing it, with great care, to what the Christian mystics had written before her.
 
 That comparison is where her work begins. She read the classic accounts of the spiritual journey and recognized her own path in them, up to a point. Past that point, she found nothing written.
-
-> It is only where these writers leave off that I propose to begin.
-
-— *The Experience of No-Self*, Introduction
 
 ## What is the unitive state in Christian contemplation?
 
@@ -72,21 +68,13 @@ So she placed the unitive state in the middle of the journey rather than at its 
 
 Roberts described the second passage as beginning without warning. After many years in the unitive life, the self that had been united with God was simply no longer there.
 
-> The onset of this second movement is characterized by the falling away of self and coming upon "that" which remains when it is gone.
-
-— *The Experience of No-Self*, Introduction
-
 She wrote of looking inward, as she had done for years, to the quiet center where she had always found herself and God together. That center was empty.
 
 > Instead of the usual unlocalized centre of myself, there was nothing there, it was empty, and at the moment of seeing this there was a flood of quiet joy.
 
 — *The Experience of No-Self*, Part I
 
-The joy is worth noticing, because what followed was not easy. In her account the loss of the true self takes the divine center with it. If there is no one left to be united, there is no longer a God to be united with in that way. Speaking to Stephan Bodian in 1986, she used the image of a coin whose two faces are self and God.
-
-> the divine center – the coin, or "true self" – suddenly disappeared, and without center or circumference there is no self, and no divine.
-
-— Interview with Stephan Bodian, 1986
+The joy is worth noticing, because what followed was not easy. In her account the loss of the true self takes the divine center with it. If there is no one left to be united, there is no longer a God to be united with in that way. Speaking to Stephan Bodian in 1986, she used the image of a coin whose two faces are self and God, and said that when the centre went, both faces went with it.
 
 This is the part of her teaching most easily softened, and she did not soften it. No-self is not a deeper union, and it is not a higher self. It is the end of the self that had been the knower of God. What remains is not experienced by anyone, because there is no one there to experience it.
 
@@ -112,13 +100,10 @@ Bernadette Roberts asked a simple question of the Christian contemplative tradit
 
 ## Sources
 
-- q45cc28ad — *The Experience of No-Self*, Introduction (corroborated-primary)
 - qe90c1adb — *What Is Self?* (primary-source)
 - q19a3d246 — *The Path to No-Self*, Preface (corroborated-primary)
 - qda52d28f — *What Is Self?* (primary-source)
 - qd5f1bcc1 — *What Is Self?* (primary-source)
 - q78be2fac — *The Path to No-Self*, Preface (corroborated-primary)
-- qa6a54e9d — *The Experience of No-Self*, Introduction (corroborated-secondary)
 - q066e6835 — *The Experience of No-Self*, Part I (corroborated-primary)
-- q147cc879 — Interview with Stephan Bodian, 1986 (corroborated-secondary)
 - qe5c7c65f — *What Is Self?* (corroborated-primary)

@@ -6,7 +6,7 @@ topic: silence no-self
 date: 2026-11-04
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q45d56e01, q5ed0c359, q9d30b69a, q4d3eaaf1, q889cddbc, q147cc879, qfd33296f, q61fe2ed4, qa96340fd
+quotes: q45d56e01, q5ed0c359, q9d30b69a, q4d3eaaf1, q889cddbc, qfd33296f, q61fe2ed4, qa96340fd
 ---
 
 # No One to Come Back
@@ -86,7 +86,7 @@ SOURCES
 - Intro, my own words, inspired by q9d30b69a
 - Verse 1, my own words, inspired by q4d3eaaf1 and q889cddbc
 - Pre-Chorus, my own words, inspired by q889cddbc
-- Chorus, my own words, inspired by q147cc879 and q45d56e01
+- Chorus, my own words, inspired by q45d56e01
 - Verse 2, my own words, inspired by qfd33296f
 - Bridge, two brief lines quoted from Bernadette Roberts, cut from q45d56e01 and q5ed0c359 (Mystics, Masters, Saints and Sages, 2001, her autobiographical sketch; both corroborated-secondary)
 - Verse 3, my own words, inspired by q61fe2ed4 and qa96340fd

@@ -115,7 +115,7 @@
    "book-the-experience-of-no-self",
    "kind-fragment"
   ],
-  "note": "Opening of the book as summarized from the Goodreads/SUNY description; refers to the mystics whose accounts end at the unitive state. Exact wording not confirmed.",
+  "note": "Opening of the book as summarized from the Goodreads/SUNY description; refers to the mystics whose accounts end at the unitive state. Exact wording not confirmed. Reviewed 2026-11-05 (quotation sweep): Taken from a publisher/Goodreads description summary; exact wording not confirmed in the book.",
   "sources": [
    "https://www.goodreads.com/en/book/show/345092",
    "https://sunypress.edu/Books/T/The-Experience-of-No-Self"
@@ -125,7 +125,7 @@
    "goodreads.com",
    "sunypress.edu"
   ],
-  "verdict": "corroborated-primary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
    "https://www.goodreads.com/en/book/show/345092",
@@ -133,7 +133,8 @@
   ],
   "wording_variants": [
    "Thus it is only where these writers leave off that I propose to begin."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q45d56e01",
@@ -224,7 +225,7 @@
    "book-the-experience-of-no-self",
    "kind-verbatim"
   ],
-  "note": "Given as a sentence by enlightened-people.com; No Mind's Land renders it 'One day that silence could not be broken, for the fear did not come.' Wording variant unresolved.",
+  "note": "Given as a sentence by enlightened-people.com; No Mind's Land renders it 'One day that silence could not be broken, for the fear did not come.' Wording variant unresolved. Reviewed 2026-11-05 (quotation sweep): Wording variant unresolved between hosts.",
   "sources": [
    "https://enlightened-people.com/bernadette-roberts-enlightenment-story/",
    "https://nomindsland.blogspot.com/2018/11/bernadette-roberts-experience-of-no-self.html"
@@ -234,13 +235,14 @@
    "enlightened-people.com",
    "nomindsland.blogspot.com"
   ],
-  "verdict": "single-source",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://nomindsland.blogspot.com/2018/11/bernadette-roberts-experience-of-no-self.html"
   ],
   "wording_variants": [
    "One day that silence could not be broken, for the fear did not come."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q60937155",
@@ -532,7 +534,7 @@
    "book-the-experience-of-no-self",
    "kind-verbatim"
   ],
-  "note": "Given as a quotation in a search summary of her three-stage model; likely from the SUNY-edition introduction, but could be from What Is Self?.",
+  "note": "Given as a quotation in a search summary of her three-stage model; likely from the SUNY-edition introduction, but could be from What Is Self?. Reviewed 2026-11-05 (quotation sweep): Wording only per a search summary; not checked against the text.",
   "sources": [
    "https://www.goodreads.com/book/show/345092.The_Experience_of_No_Self",
    "https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/"
@@ -542,7 +544,7 @@
    "goodreads.com",
    "josephbray.wordpress.com"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://www.azquotes.com/author/28250-Bernadette_Roberts",
    "https://citatis.com/a30913/",
@@ -552,7 +554,8 @@
   ],
   "wording_variants": [
    "the falling away of the self and a coming upon of 'that' which remains when it is gone"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q9d30b69a",
@@ -593,7 +596,7 @@
  },
  {
   "id": "qfd33296f",
-  "text": "When there is no longer a cyclone, there is no longer an eye.",
+  "text": "when there is no longer a cyclone, there is also no longer an eye.",
   "book": "interview: Stephan Bodian 1986",
   "chapter": null,
   "year": 1985,
@@ -608,7 +611,7 @@
    "book-the-path-to-no-self",
    "kind-verbatim"
   ],
-  "note": "ATTRIBUTION CONFLICT: azquotes cites The Path to No-Self p.47; the same image closes the 'stillpoint' passage that Goodreads tags to The Christian Contemplative Journey and that also appears in the 1986 Bodian interview (where it reads 'And when there is no longer a cyclone, there is also no longer an eye.'). Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'.",
+  "note": "ATTRIBUTION CONFLICT: azquotes cites The Path to No-Self p.47; the same image closes the 'stillpoint' passage that Goodreads tags to The Christian Contemplative Journey and that also appears in the 1986 Bodian interview (where it reads 'And when there is no longer a cyclone, there is also no longer an eye.'). Verification: the stillpoint and cyclone passage is confirmed only in the 1986 Bodian interview; book and page citations on aggregators are unsupported. Source wording: 'there is also no longer an eye'; 'swirling cyclone of endless suffering'. Reviewed 2026-11-05 (quotation sweep): wording corrected to the Bodian interview, \"And when there is no longer a cyclone, there is also no longer an eye.\"",
   "sources": [
    "https://www.azquotes.com/author/28250-Bernadette_Roberts",
    "https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts",
@@ -1194,7 +1197,7 @@
    "book-what-is-self",
    "kind-fragment"
   ],
-  "note": "Fragment from the book's own summary of Part I (reflexive mechanism plus its energy).",
+  "note": "Fragment from the book's own summary of Part I (reflexive mechanism plus its energy). Reviewed 2026-11-05 (quotation sweep): Summary-style text joining two passages; not a single sentence of hers.",
   "sources": [
    "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
    "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness"
@@ -1204,14 +1207,15 @@
    "archive.org",
    "everand.com"
   ],
-  "verdict": "corroborated-primary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
    "https://epdf.pub/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness.html"
   ],
   "wording_variants": [
    "In Part I, Bernadette begins by describing self as the mind bending on itself to know and see itself, which she calls reflexion."
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "q674005ff",
@@ -1720,7 +1724,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-fragment"
   ],
-  "note": "Search summary rendered the first sentence in third person ('she came across'); first-person restored here, so treat the opening clause as reconstructed. The inner Buddha quotation (Dhammapada 153-154 wording) is as given in the reposts. In the interview she goes on to say that without the ridgepole there can be no house, no self.",
+  "note": "Search summary rendered the first sentence in third person ('she came across'); first-person restored here, so treat the opening clause as reconstructed. The inner Buddha quotation (Dhammapada 153-154 wording) is as given in the reposts. In the interview she goes on to say that without the ridgepole there can be no house, no self. Reviewed 2026-11-05 (quotation sweep): Opening sentence reconstructed from a third-person summary; not her confirmed wording.",
   "sources": [
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
@@ -1732,7 +1736,7 @@
    "spiritualteachers.org",
    "thedaobums.com"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
@@ -1742,7 +1746,8 @@
    "https://www.dharmaoverground.org/discussion/-/message_boards/message/753213",
    "https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q147cc879",
@@ -1760,7 +1765,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-fragment"
   ],
-  "note": "Repeated identically across several search summaries of the interview; likely close to the text but the exact sentence boundaries were not seen. Describes the no-self event that came some 20-25 years after the transforming union.",
+  "note": "Repeated identically across several search summaries of the interview; likely close to the text but the exact sentence boundaries were not seen. Describes the no-self event that came some 20-25 years after the transforming union. Reviewed 2026-11-05 (quotation sweep): Wording from repeated search summaries; exact text not seen.",
   "sources": [
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
    "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/",
@@ -1772,7 +1777,7 @@
    "spiritualteachers.org",
    "standinginanopenfield.wordpress.com"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
@@ -1781,7 +1786,8 @@
    "https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/",
    "https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "qd595c753",
@@ -1798,7 +1804,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-fragment"
   ],
-  "note": "Phrase describing when the no-self experience occurred. Another repost summary gives 'some 20 years after leaving the convent'.",
+  "note": "Phrase describing when the no-self experience occurred. Another repost summary gives 'some 20 years after leaving the convent'. Reviewed 2026-11-05 (quotation sweep): Wording varies between summaries; may be the interviewer's framing, not her words.",
   "sources": [
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
    "https://o-meditation.com/2009/10/16/from-the-unitive-state-to-no-self-bernadette-roberts/"
@@ -1808,7 +1814,7 @@
    "o-meditation.com",
    "spiritualteachers.org"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
@@ -1818,7 +1824,8 @@
   ],
   "wording_variants": [
    "some 20 years after leaving the convent"
-  ]
+  ],
+  "corrected": true
  },
  {
   "id": "qf4de088e",
@@ -2033,7 +2040,7 @@
  {
   "id": "qad3c641c",
   "text": "the second movement as a continuation and completion of the first",
-  "book": "unassigned",
+  "book": "not hers: James Arraj, \"Bernadette Roberts and the Experience of No-Self\" (innerexplorations.com)",
   "chapter": null,
   "year": null,
   "confidence": "T",
@@ -2045,7 +2052,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Fragment quoted by a critic (innerexplorations.com); refers to the no-self movement following the unitive movement.",
+  "note": "Fragment quoted by a critic (innerexplorations.com); refers to the no-self movement following the unitive movement. Search shows these words as Arraj's description (\"she regards the second movement as a continuation and completion of the first\"), not a quotation from her.",
   "sources": [
    "https://www.innerexplorations.com/ewtext/br.htm"
   ],
@@ -2057,7 +2064,8 @@
   "confirming_sources": [
    "https://www.innerexplorations.com/ewtext/br.htm"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q0608ea9b",
@@ -2180,7 +2188,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "Reported as something she 'often said' (Wikipedia; Western Mystics blog). No primary source located. Refers to New Camaldoli Hermitage, Big Sur, where she made annual retreats for about forty years.",
+  "note": "Reported as something she 'often said' (Wikipedia; Western Mystics blog). No primary source located. Refers to New Camaldoli Hermitage, Big Sur, where she made annual retreats for about forty years. Reviewed 2026-11-05 (quotation sweep): Reported as something she often said; no primary source for the wording.",
   "sources": [
    "https://en.wikipedia.org/wiki/Bernadette_Roberts",
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
@@ -2190,14 +2198,15 @@
    "en.wikipedia.org",
    "westernmystics.wordpress.com"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://en.wikipedia.org/wiki/Bernadette_Roberts",
    "https://www.wikiwand.com/en/articles/Bernadette_Roberts",
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/",
    "https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q98059cf9",
@@ -3170,7 +3179,7 @@
    "book-the-real-christ",
    "kind-fragment"
   ],
-  "note": "On the students' blog summary of the book. archive.org scan of the book carries the fragment; subject may be \"the Incarnation was\" rather than \"Christ is\".",
+  "note": "On the students' blog summary of the book. Reviewed 2026-11-05 (quotation sweep): Subject of the sentence uncertain ('Christ is' vs 'the Incarnation was'); from a blog summary. archive.org scan of the book carries the fragment; subject may be \"the Incarnation was\" rather than \"Christ is\".",
   "sources": [
    "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
   ],
@@ -3178,7 +3187,7 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "corroborated-primary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf",
    "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
@@ -3192,7 +3201,7 @@
   "id": "q07dd9a3a",
   "text": "the name \"Jesus\" is solely a reference to a particular human being or person",
   "book": "The Real Christ",
-  "chapter": null,
+  "chapter": "front matter / opening definitions of \"Logos\", \"Christ\", \"Jesus\"",
   "year": 2012,
   "confidence": "T",
   "kind": "fragment",
@@ -3204,7 +3213,7 @@
    "book-the-real-christ",
    "kind-fragment"
   ],
-  "note": null,
+  "note": "The same sentence is on her Books page and on Bernadette's Friends, next to \"Of first importance is to define the major terms...\"",
   "sources": [
    "https://ia601903.us.archive.org/6/items/roberts.real-christ/roberts.real-christ.pdf"
   ],
@@ -3212,9 +3221,16 @@
   "source_hosts": [
    "ia601903.us.archive.org"
   ],
-  "verdict": "single-source",
-  "confirming_sources": [],
-  "wording_variants": []
+  "verdict": "corroborated-primary",
+  "confirming_sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "wording_variants": [
+   "So where the term \"Christ\" is a reference to the indivisible oneness of two natures, the name \"Jesus\" is solely a reference to a particular human being or person."
+  ],
+  "corrected": true
  },
  {
   "id": "q76f6699a",
@@ -3272,9 +3288,14 @@
   "source_hosts": [
    "bernadetteroberts.blogspot.com"
   ],
-  "verdict": "single-source",
-  "confirming_sources": [],
-  "wording_variants": []
+  "verdict": "corroborated-secondary",
+  "confirming_sources": [
+   "http://bernadettesfriends.blogspot.com/",
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "wording_variants": [
+   "Those who think these terms are interchangeable, synonymous, or refer to the same Reality, will never understand a thing in this book."
+  ]
  },
  {
   "id": "q34adbb49",
@@ -3377,7 +3398,7 @@
    "book-how-it-works-short-essay-reproduced-on-western-mystics",
    "kind-fragment"
   ],
-  "note": "Same essay as qdde04e58 (per spiritualteachers.org podcast description).",
+  "note": "Same essay as qdde04e58 (per spiritualteachers.org podcast description). Arraj quotes the \"only what Is has existence... infinite variety of forms\" passage as The Experience of No-Self p.81, which confirms the book placement independently of Western Mystics.",
   "sources": [
    "https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/"
   ],
@@ -3387,7 +3408,9 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [],
-  "wording_variants": [],
+  "wording_variants": [
+   "there is no plurality of existences; only what Is has existence (summary rendering)"
+  ],
   "corrected": true
  },
  {
@@ -3442,9 +3465,7 @@
    "goodreads.com"
   ],
   "verdict": "single-source",
-  "confirming_sources": [
-   "https://www.goodreads.com/work/quotes/66521494-the-christian-contemplative-journey-essays-on-the-path"
-  ],
+  "confirming_sources": [],
   "wording_variants": [],
   "same_passage_as": "qc5b19862",
   "corrected": true
@@ -3708,7 +3729,7 @@
    "book-the-path-to-no-self",
    "kind-fragment"
   ],
-  "note": "From the publisher's description (SUNY Press / Google Play); phrased 'The author shows that a path exists...' so may be publisher wording built from her preface.",
+  "note": "From the publisher's description (SUNY Press / Google Play); phrased 'The author shows that a path exists...' so may be publisher wording built from her preface. Reviewed 2026-11-05 (quotation sweep): Publisher's description wording, possibly built from her preface; not located in her text.",
   "sources": [
    "https://sunypress.edu/Books/T/The-Path-to-No-Self",
    "https://play.google.com/store/books/details?id=XpJFAgAAQBAJ"
@@ -3718,7 +3739,8 @@
    "play.google.com",
    "sunypress.edu"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "corrected": true
  },
  {
   "id": "qa1678a05",
@@ -3737,7 +3759,7 @@
    "book-the-path-to-no-self",
    "kind-fragment"
   ],
-  "note": "Preface excerpt as summarized from a PDF mirror; sentence structure may be altered.",
+  "note": "Preface excerpt as summarized from a PDF mirror; sentence structure may be altered. Reviewed 2026-11-05 (quotation sweep): Summarized from a PDF mirror; sentence structure may be altered.",
   "sources": [
    "https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html"
   ],
@@ -3745,9 +3767,10 @@
   "source_hosts": [
    "pdfcoffee.com"
   ],
-  "verdict": "single-source",
+  "verdict": "disputed",
   "confirming_sources": [],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q23bf0396",
@@ -3968,7 +3991,7 @@
    "book-unassigned",
    "kind-fragment"
   ],
-  "note": "From the talk/booklet 'A Passage Through Self', describing how words arise in the no-self state; quoted on Shalom Place. Wikipedia confirms the talk exists (DVD; date given as 1987 or 2012 in different lists). The phrase itself is unconfirmed.",
+  "note": "From the talk/booklet 'A Passage Through Self', describing how words arise in the no-self state; quoted on Shalom Place. Reviewed 2026-11-05 (quotation sweep): Phrase unconfirmed in the talk. Wikipedia confirms the talk exists (DVD; date given as 1987 or 2012 in different lists). The phrase itself is unconfirmed.",
   "sources": [
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148"
   ],
@@ -3976,7 +3999,7 @@
   "source_hosts": [
    "shalomplace.org"
   ],
-  "verdict": "single-source",
+  "verdict": "disputed",
   "confirming_sources": [],
   "wording_variants": [],
   "corrected": true
@@ -4157,7 +4180,7 @@
    "book-the-real-christ",
    "kind-fragment"
   ],
-  "note": "Book description (likely author-written) on Amazon/Goodreads; the inner quotation is marked as hers.",
+  "note": "Book description (likely author-written) on Amazon/Goodreads; the inner quotation is marked as hers. Reviewed 2026-11-05 (quotation sweep): Book-description wording; only the inner quotation ('mystery of God's indivisible oneness with the essence of mankind') is marked as hers.",
   "sources": [
    "https://www.goodreads.com/book/show/40613741-the-real-christ",
    "https://www.amazon.in/Real-Christ-Bernadette-Roberts/dp/1591812828"
@@ -4167,13 +4190,14 @@
    "amazon.in",
    "goodreads.com"
   ],
-  "verdict": "corroborated-secondary",
+  "verdict": "disputed",
   "confirming_sources": [
    "https://www.goodreads.com/book/show/40613741-the-real-christ",
    "https://www.amazon.in/Real-Christ-Bernadette-Roberts/dp/1591812828",
    "https://www.spiritualteachers.org/bernadette-roberts/"
   ],
-  "wording_variants": []
+  "wording_variants": [],
+  "corrected": true
  },
  {
   "id": "q692cbd54",
@@ -4469,7 +4493,7 @@
    "book-interview-stephan-bodian-1986",
    "kind-fragment"
   ],
-  "note": "Bodian's preamble explaining why Roberts answered in writing; may be Bodian's wording rather than hers.",
+  "note": "Bodian's preamble explaining why Roberts answered in writing; may be Bodian's wording rather than hers. Reviewed 2026-11-05 (quotation sweep): From Stephan Bodian's preamble; likely the interviewer's words.",
   "sources": [
    "https://www.spiritualteachers.org/bernadette-roberts-interview/",
    "https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html",
@@ -4481,7 +4505,8 @@
    "realization.org",
    "spiritualteachers.org"
   ],
-  "verdict": "multi-source"
+  "verdict": "disputed",
+  "corrected": true
  },
  {
   "id": "q83876db2",
@@ -4609,7 +4634,7 @@
    "book-what-is-self",
    "kind-fragment"
   ],
-  "note": "Cited at p.127 by a secondary source; bracketed words are the reviewer's. Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's.",
+  "note": "Cited at p.127 by a secondary source; bracketed words are the reviewer's. Reviewed 2026-11-04 (integrity pass): hers; only the bracketed words are the reviewer's. Reviewed 2026-11-05 (quotation sweep): Reviewer's bracketed '[to be]' changes the sense; her wording without it is unconfirmed here.",
   "sources": [
    "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
   ],
@@ -4617,7 +4642,7 @@
   "source_hosts": [
    "awakeningtoreality.com"
   ],
-  "verdict": "single-source",
+  "verdict": "disputed",
   "confirming_sources": [],
   "wording_variants": [],
   "reviewed": [
@@ -4652,7 +4677,9 @@
   ],
   "verdict": "single-source",
   "confirming_sources": [],
-  "wording_variants": [],
+  "wording_variants": [
+   "just as God is not a numerical (quantitative) one, so too, Mankind is not a numerical (quantitative) one (search-summary rendering of the same SAND paper)"
+  ],
   "corrected": true
  },
  {
