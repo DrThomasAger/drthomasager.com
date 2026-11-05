@@ -1,0 +1,89 @@
+name: Harvest the U.G. Krishnamurti media
+
+# Runs fetch.py for every recording, scan, photograph, video and text the
+# archive lists, on GitHub's network, in parallel by kind. U.G. released his
+# words to everyone, so every file is kept: each is uploaded as an asset of
+# the release media-<kind> the moment it comes down. What comes back into
+# git: holdings.json (each file's bytes, seconds, sha256 and asset address),
+# the fetch log, the transcripts of the recordings, and the quotation checks
+# against every text that came down. Run it again to continue.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/harvest.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: harvest
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        kind: [archive_org, youtube, soundcloud, wikisource, pdf, well, other_pages]
+    env:
+      GH_TOKEN: ${{ github.token }}
+    defaults:
+      run:
+        working-directory: hanjopurebuddha.com/teachers/ug-krishnamurti
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q internetarchive yt-dlp requests pypdf
+      - name: The release that holds this kind
+        run: gh release view "media-${{ matrix.kind }}" >/dev/null 2>&1 || gh release create "media-${{ matrix.kind }}" --title "U.G. Krishnamurti media, ${{ matrix.kind }}" --notes "Fetched by the harvest workflow from the addresses in hanjopurebuddha.com/teachers/ug-krishnamurti/download-manifest.json. holdings.json maps every asset to its archive item." || true
+      - name: Fetch, upload each file as it arrives (stops itself before the job limit)
+        run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --release "media-${{ matrix.kind }}" --ia-originals --skip-held || true
+      - run: python extract-text.py || true
+      - run: python find-quotes.py || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shard-${{ matrix.kind }}
+          retention-days: 3
+          if-no-files-found: ignore
+          path: |
+            hanjopurebuddha.com/teachers/ug-krishnamurti/holdings.json
+            hanjopurebuddha.com/teachers/ug-krishnamurti/local-verification.json
+            hanjopurebuddha.com/teachers/ug-krishnamurti/transcripts/
+            hanjopurebuddha.com/teachers/ug-krishnamurti/downloads/fetch-log.jsonl
+
+  gather:
+    needs: fetch
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          path: shards
+      - name: Gather the shards into the teacher folder
+        run: python hanjopurebuddha.com/teachers/_template/gather-harvest.py shards hanjopurebuddha.com/teachers/ug-krishnamurti
+      - name: Merge, check, count
+        run: |
+          cd hanjopurebuddha.com/teachers/ug-krishnamurti
+          python merge.py
+          python integrity.py > /dev/null
+          cd ../..
+          python coverage.py
+      - name: Commit what came back
+        run: |
+          git config user.name "harvest"
+          git config user.email "harvest@users.noreply.github.com"
+          git add hanjopurebuddha.com
+          git commit -m "Harvest: holdings, transcripts and quotation checks from the media fetch" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
