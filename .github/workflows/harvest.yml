@@ -44,7 +44,7 @@ jobs:
       - name: The release that holds this kind
         run: gh release view "media-${{ matrix.kind }}" >/dev/null 2>&1 || gh release create "media-${{ matrix.kind }}" --title "U.G. Krishnamurti media, ${{ matrix.kind }}" --notes "Fetched by the harvest workflow from the addresses in hanjopurebuddha.com/teachers/ug-krishnamurti/download-manifest.json. holdings.json maps every asset to its archive item." || true
       - name: Fetch, upload each file as it arrives (stops itself before the job limit)
-        run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --release "media-${{ matrix.kind }}" --ia-originals --skip-held || true
+        run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --release "media-${{ matrix.kind }}" --skip-held || true
       - run: python extract-text.py || true
       - run: python find-quotes.py || true
       - uses: actions/upload-artifact@v4

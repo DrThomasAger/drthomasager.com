@@ -87,22 +87,61 @@ def duration(p):
         return None
 
 
+RELEASE = {}  # tag -> [current tag, assets in it]
+
+
+def release_for(tag):
+    """The release that takes the next asset: tag, then tag-2, tag-3 ..., each kept under GitHub's 1000 assets."""
+    import subprocess
+    cur = RELEASE.get(tag)
+    if cur is None:
+        n = 1
+        while True:
+            t = tag if n == 1 else f"{tag}-{n}"
+            r = subprocess.run(["gh", "release", "view", t, "--json", "assets", "-q", ".assets | length"], capture_output=True, text=True)
+            if r.returncode != 0:
+                subprocess.run(["gh", "release", "create", t, "--title", t, "--notes", f"Assets of {tag}, continued."], capture_output=True)
+                cur = [t, 0]; break
+            if int(r.stdout.strip() or 0) < 990:
+                cur = [t, int(r.stdout.strip() or 0)]; break
+            n += 1
+        RELEASE[tag] = cur
+    if cur[1] >= 990:
+        base, n = tag, (int(cur[0].rsplit("-", 1)[1]) + 1 if cur[0] != tag else 2)
+        t = f"{base}-{n}"
+        subprocess.run(["gh", "release", "create", t, "--title", t, "--notes", f"Assets of {tag}, continued."], capture_output=True)
+        cur[:] = [t, 0]
+    return cur
+
+
 def upload(tag, p, name):
-    """One file to a GitHub release, as an asset under the given name; returns its download address."""
+    """One file to a GitHub release, as an asset under the given name; returns its download address.
+    Waits out GitHub's rate limit rather than dropping the file."""
     import os, subprocess
+    if p.stat().st_size == 0 or p.stat().st_size >= 2 * 1024 ** 3:
+        log({"asset": name, "ok": False, "error": f"size {p.stat().st_size} outside what a release asset takes"})
+        return None
     tmp = p.with_name(name)
     if tmp != p:
         p.rename(tmp)
+    ok, rel = False, None
     try:
-        r = subprocess.run(["gh", "release", "upload", tag, str(tmp), "--clobber"], capture_output=True, text=True, timeout=1800)
-        ok = r.returncode == 0
-        if not ok:
-            log({"asset": name, "ok": False, "error": (r.stderr or "")[:300]})
+        for attempt in range(40):
+            rel = release_for(tag)
+            r = subprocess.run(["gh", "release", "upload", rel[0], str(tmp), "--clobber"], capture_output=True, text=True, timeout=3600)
+            if r.returncode == 0:
+                ok = True; rel[1] += 1; break
+            e = r.stderr or ""
+            if "rate limit" in e.lower() or "secondary" in e.lower():
+                time.sleep(90); continue
+            if "422" in e and ("already_exists" in e or "Validation" in e):
+                rel[1] = 990; continue  # the release is full or the name is taken there; roll on
+            log({"asset": name, "ok": False, "error": e[:300]}); break
     finally:
         if tmp.exists() and tmp != p:
             tmp.rename(p)
     repo = os.environ.get("GITHUB_REPOSITORY", "")
-    return f"https://github.com/{repo}/releases/download/{tag}/{name}" if ok else None
+    return f"https://github.com/{repo}/releases/download/{rel[0]}/{name}" if ok else None
 
 
 def session():
@@ -149,8 +188,14 @@ def fetch_archive(rec, args):
             files.append(f"{i}/*")
             continue
         it = ia.get_item(i)
-        it.download(destdir=str(root), retries=3, ignore_existing=True, verbose=False, ignore_errors=True,
-                    glob_pattern=args.ia_glob or None, source=["original"] if args.ia_originals else None)
+        skip = ["*_files.xml", "*_meta.xml", "*_reviews.xml", "*_meta.sqlite", "*.sqlite", "*.torrent", "__ia_thumb.jpg", "*_itemimage.jpg"]
+        common = dict(destdir=str(root), retries=3, ignore_existing=True, verbose=False, ignore_errors=True, exclude_pattern=skip)
+        if args.ia_glob:
+            it.download(glob_pattern=args.ia_glob, **common)
+        else:
+            it.download(source=["original"], **common)  # what was uploaded: tapes, scans, photographs
+            if not args.ia_originals:  # and the copies every player opens
+                it.download(formats=["VBR MP3", "h.264", "MPEG4", "512Kb MPEG4", "Text PDF", "DjVuTXT"], **common)
         files += [str(p.relative_to(DL)) for p in (root / i).rglob("*") if p.is_file()]
     return files
 
@@ -165,19 +210,36 @@ def fetch_ytdlp(rec, args, kind):
         url = f"https://www.youtube.com/playlist?list={rec['playlist_id']}"
     root = DL / kind
     root.mkdir(parents=True, exist_ok=True)
+    errs = YtLog()
     opts = {
         "outtmpl": str(root / "%(uploader,channel|unknown)s" / "%(title).150B [%(id)s].%(ext)s"),
         "format": "bv*+ba/b" if shutil.which("ffmpeg") else "b",
         "download_archive": str(root / ".archive"),
         "writeinfojson": True, "writedescription": True, "writethumbnail": True,
-        "writesubtitles": True, "writeautomaticsub": True, "subtitleslangs": ["all", "-live_chat"],
+        "writesubtitles": True, "writeautomaticsub": True, "subtitleslangs": ["en", "en-orig", ".*-orig"],
+        "extractor_args": {"youtube": {"player_client": ["default", "tv_simply", "web_safari", "mweb"]}},
+        "logger": errs,
         "subtitlesformat": "vtt/srt/best", "ignoreerrors": True, "retries": 5, "quiet": True,
         "no_warnings": True, "simulate": args.dry_run, "skip_download": args.dry_run,
     }
     before = set(root.rglob("*"))
     with yt_dlp.YoutubeDL(opts) as y:
         y.download([url])
-    return [str(p.relative_to(DL)) for p in set(root.rglob("*")) - before if p.is_file()]
+    files = [str(p.relative_to(DL)) for p in set(root.rglob("*")) - before if p.is_file()]
+    if not args.dry_run and not any(f.lower().endswith(MEDIA_BIN[:15]) for f in files) and errs.errors:
+        raise RuntimeError("no recording came down: " + " | ".join(errs.errors[:3]))
+    return files
+
+
+class YtLog:
+    """yt-dlp's messages, so a refused video is reported instead of passing as done."""
+    def __init__(self):
+        self.errors = []
+    def debug(self, m): pass
+    def info(self, m): pass
+    def warning(self, m): pass
+    def error(self, m):
+        self.errors.append(re.sub(r"\s+", " ", str(m))[:200])
 
 
 # ---- Wikisource
@@ -269,7 +331,7 @@ def main():
         return
     hold = json.loads(HOLD.read_text(encoding="utf-8")) if HOLD.exists() else {}
     if args.skip_held:
-        todo = [(k, r) for k, r in todo if not hold.get(r["id"], {}).get("files")]
+        todo = [(k, r) for k, r in todo if not hold.get(r["id"], {}).get("complete")]
     s = session()
     ok = fail = 0
     for n, (k, r) in enumerate(todo, 1):
@@ -305,6 +367,8 @@ def main():
                         p.unlink()
                         h["files"][f]["kept"] = False
                 h["fetched"] = now()
+                h["complete"] = bool(h["files"]) and (not args.release or all(v.get("asset") for v in h["files"].values())) and (
+                    k not in ("youtube", "soundcloud") or any(x.lower().endswith(MEDIA_BIN[:15]) for x in h["files"]))
             print(f"[{n}/{len(todo)}] ok   {k:12} {r['title'][:70]}  ({len(files)} files)")
         except Exception as e:  # noqa
             fail += 1
