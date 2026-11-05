@@ -135,9 +135,9 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | wikisource | 21 | 20 |
 | pdf | 18 | 17 |
 | well | 28 | 28 |
-| other_pages | 446 | 350 |
+| other_pages | 446 | 367 |
 
-- Held: 2466 files, 3.41 GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.
+- Held: 2722 files, 7.72 GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.
 - Not yet held: every listed address above without a held count. `python fetch.py` fetches them on a machine whose network reaches the hosts, and running it again continues.
 
 ### Integrity

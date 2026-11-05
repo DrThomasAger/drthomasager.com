@@ -3,7 +3,7 @@
   "title": "ugkrishnamurti.org (the U.G. Krishnamurti site of his lifetime)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_dr_kbr_sastrii_bramchari_babu",
-  "fetched": "2026-11-05T01:43:09+00:00",
+  "fetched": "2026-11-05T02:58:38+00:00",
   "files": {
    "archive_org/ug_dr_kbr_sastrii_bramchari_babu/ug_dr_kbr_sastrii_bramchari_babu_meta.xml": {
     "bytes": 824,
@@ -40,15 +40,22 @@
     "sha256": "c300cf4150c52237c07c66eeaa7f1d30422326f3592abefd8babf3ac838d4758",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i61108507__pages__ugkrishnamurti.org.html",
     "kept": "release"
+   },
+   "archive_org/ug_dr_kbr_sastrii_bramchari_babu/dr_kbr_sastriI_bramchari_babu.mp3": {
+    "bytes": 16340480,
+    "sha256": "9ddb8840c663400bf1e2025f32af68e844ed4377c04a4e9c6193266bce5e8254",
+    "seconds": 2804.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i61108507__archive_org__ug_dr_kbr_sastrii_bramchari_babu__dr_kbr_sastriI_bramchari_babu.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2c3ed9c7": {
   "title": "ugkrishnamurti.in — UG Speaks: Interviews with UG",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_institute-of-world-religion",
-  "fetched": "2026-11-05T01:43:19+00:00",
+  "fetched": "2026-11-05T02:59:29+00:00",
   "files": {
    "archive_org/ug_institute-of-world-religion/__ia_thumb.jpg": {
     "bytes": 3087,
@@ -116,15 +123,22 @@
     "seconds": 1678.2,
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i2c3ed9c7__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Conversation_in_Amsterdam__09_09_1992___894439579_.mp3",
     "kept": "release"
+   },
+   "archive_org/ug_institute-of-world-religion/institute-of-world-religion.mp3": {
+    "bytes": 11305984,
+    "sha256": "c5ac6fc5e3fb502c727c4ebf64106c3261f5b97d9c00a880c4d661365e62a305",
+    "seconds": 1681.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2c3ed9c7__archive_org__ug_institute-of-world-religion__institute-of-world-religion.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i914c614f": {
   "title": "thisrobotdreaming.com — U. G. Krishnamurti tapes",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_there_is_no_such_thing_as_ultimate_reality",
-  "fetched": "2026-11-05T01:43:15+00:00",
+  "fetched": "2026-11-05T03:02:03+00:00",
   "files": {
    "archive_org/ug_there_is_no_such_thing_as_ultimate_reality/there_is_no_such_thing_as_ultimate_reality.rm": {
     "bytes": 9645854,
@@ -191,15 +205,29 @@
     "sha256": "3e180f9665eaee2fa47a5a4c240da359467fd2b86cbb7b5590d99ff9cc52c78a",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i914c614f__archive_org__ug_what_is_going_on_here_is_sa__ug_what_is_going_on_here_is_sa_reviews.xml",
     "kept": "release"
+   },
+   "archive_org/ug_there_is_no_such_thing_as_ultimate_reality/there_is_no_such_thing_as_ultimate_reality.mp3": {
+    "bytes": 27531776,
+    "sha256": "3ee915312e88af067f154156616dd9310ad32913d2b224eab1220c3d922a5251",
+    "seconds": 4615.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i914c614f__archive_org__ug_there_is_no_such_thing_as_ultimate_reality__there_is_no_such_thing_as_ultimate_reality.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_what_is_going_on_here_is_sa/what_is_going_on_here_is_sa.mp3": {
+    "bytes": 6747648,
+    "sha256": "34b0907e0dd8d1e4594ac2a65226a509e79cce6e0c4bfe48f5aba73a3e32ee2a",
+    "seconds": 1153.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i914c614f__archive_org__ug_what_is_going_on_here_is_sa__what_is_going_on_here_is_sa.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i5265dd84": {
   "title": "De moed om te zijn wie je bent (Dutch edition, Goodreads)",
   "kind": "archive_org",
   "url": "https://archive.org/details/UGKrishnamurtiTheCourageToStandAlone",
-  "fetched": "2026-11-05T01:44:31+00:00",
+  "fetched": "2026-11-05T03:02:14+00:00",
   "files": {
    "archive_org/UGKrishnamurtiTheCourageToStandAlone/__ia_thumb.jpg": {
     "bytes": 8788,
@@ -236,15 +264,21 @@
     "sha256": "ba8f0356aac5d22264a8cc242d08acebba11182d5cdbc0fe3f5c6eecfc864842",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i5265dd84__pages__www.goodreads.com_book_show_100653389-de-moed-om-te-zijn-wie-je-bent.html",
     "kept": "release"
+   },
+   "archive_org/UGKrishnamurtiTheCourageToStandAlone/UG Krishnamurti - The Courage to Stand Alone_djvu.txt": {
+    "bytes": 210874,
+    "sha256": "22e73ab96b1f8698262c9c40d330ca5f0ed290c3286e5fee8b8afbb7831e14cc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i5265dd84__archive_org__UGKrishnamurtiTheCourageToStandAlone__UG_Krishnamurti_-_The_Courage_to_Stand_Alone_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "icd3d513c": {
   "title": "Internet Archive collection: U.G. Krishnamurti conversations and interviews – audio",
   "kind": "archive_org",
   "url": "https://archive.org/details/ugkrishnamurti-audio",
-  "fetched": "2026-11-05T02:06:49+00:00",
+  "fetched": "2026-11-05T05:04:29+00:00",
   "files": {
    "archive_org/ug_01_anger_is_energy_dec1587/__ia_thumb.jpg": {
     "bytes": 3278,
@@ -2639,15 +2673,560 @@
     "sha256": "3e180f9665eaee2fa47a5a4c240da359467fd2b86cbb7b5590d99ff9cc52c78a",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/icd3d513c__archive_org__ug_what_is_going_on_here_is_sa__ug_what_is_going_on_here_is_sa_reviews.xml",
     "kept": "release"
+   },
+   "archive_org/ug_01_anger_is_energy_dec1587/01_Anger_is_Energy_Dec1587.mp3": {
+    "bytes": 16756736,
+    "sha256": "93f30e47192b8bc94e4708da925065617e7be686a8f16dfcaf192a3d71aa9828",
+    "seconds": 2786.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_01_anger_is_energy_dec1587__01_Anger_is_Energy_Dec1587.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_02_enlightened_person_should_model__dec1987/02_Enlightened_person_should_model__Dec1987.mp3": {
+    "bytes": 16785408,
+    "sha256": "eb556935406a99f26c38aacddb16b3a3a508908ec47a918394f082f9fc8ef97c",
+    "seconds": 2778.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_02_enlightened_person_should_model__dec1987__02_Enlightened_person_should_model__Dec1987.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_03_selling_mirros_to_the_blind_june1989/03_Selling_Mirros_To_The_Blind_June1989.mp3": {
+    "bytes": 29164032,
+    "sha256": "953a2bfa37b902c59d597bb86b7355a61ae268fecbd1d6049c89ac81858e20e4",
+    "seconds": 4820.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_03_selling_mirros_to_the_blind_june1989__03_Selling_Mirros_To_The_Blind_June1989.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_04_first_and_last_public_talk_ug_1972/04_First_and_Last_Public_Talk_UG_1972.mp3": {
+    "bytes": 22189056,
+    "sha256": "a144e48a0c78fb8233c1ddd9fd4b40e196afc3e7039760e2abaecc34526599e9",
+    "seconds": 3439.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_04_first_and_last_public_talk_ug_1972__04_First_and_Last_Public_Talk_UG_1972.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_05_you_cant_be_intrested_in_this_july1984/05_You_cant_be_intrested_in_this_july1984.mp3": {
+    "bytes": 31647232,
+    "sha256": "964d7a3347d28d5f2a1ef5df46e049f88c418f13280c96e9f03e54e0b954787f",
+    "seconds": 5380.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_05_you_cant_be_intrested_in_this_july1984__05_You_cant_be_intrested_in_this_july1984.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_06_donamld_ingram_smith_interview_for_abc_sept1990/06_donamld_ingram_smith_interview_for_ABC_Sept1990.mp3": {
+    "bytes": 19499520,
+    "sha256": "a85b299df4f46afd8f1bb822b4ddb349f62f1589fdaf3d545e7b78f79e0af0c5",
+    "seconds": 3444.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_06_donamld_ingram_smith_interview_for_abc_sept1990__06_donamld_ingram_smith_interview_for_ABC_Sept1990.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_07_amestradam_talks_82/07_Amestradam_talks_82.mp3": {
+    "bytes": 33587712,
+    "sha256": "fb0345e38d553b31f93157998e9a313375947b25aedd7b66765c445528207258",
+    "seconds": 5516.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_07_amestradam_talks_82__07_Amestradam_talks_82.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_08_journalists_i-experss_week_kannada-prabha_jan1988/08_Journalists_I-Experss_Week_Kannada-Prabha_jan1988.mp3": {
+    "bytes": 32111104,
+    "sha256": "56f82e811cf4e94c0994af3b4900021597f389bb462b55834b4f32677b8d7031",
+    "seconds": 5495.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_08_journalists_i-experss_week_kannada-prabha_jan1988__08_Journalists_I-Experss_Week_Kannada-Prabha_jan1988.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_09_dont_touch_this_is_is_very_dangerous_amsterdam_oct87/09_Dont_touch_this_is_is_very_dangerous_amsterdam_oct87.mp3": {
+    "bytes": 29111296,
+    "sha256": "2f228eaa85757f20f3c5a01cceb2642c043fdfd5b22a61b321ccd190b837293b",
+    "seconds": 4829.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_09_dont_touch_this_is_is_very_dangerous_amsterdam_oct87__09_Dont_touch_this_is_is_very_dangerous_amsterdam_oct87.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_10_book_review_maheshs_book/10_book_review_Maheshs_book.mp3": {
+    "bytes": 5553664,
+    "sha256": "fcae828b223a68aaddb9a92dfdf2e04f2a6302d459f480c7c843c6f5c4b2f8cc",
+    "seconds": 874.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_10_book_review_maheshs_book__10_book_review_Maheshs_book.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_11_book_review_mystique_of_enlightenment/11_book_review_mystique_of_enlightenment.mp3": {
+    "bytes": 5526016,
+    "sha256": "fe0acc4201b0a6deb0b00aa0d94779be8e0cb60d47e4fdfd261bebdb94298c82",
+    "seconds": 843.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_11_book_review_mystique_of_enlightenment__11_book_review_mystique_of_enlightenment.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1967-08-30a_gstaad/1967-08-30a_gstaad.mp3": {
+    "bytes": 27586560,
+    "sha256": "1c62f9947703fa3be18ffb3f66fa4ef61b9a0f6dab0b481b20d83ea349a0dcdd",
+    "seconds": 3798.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1967-08-30a_gstaad__1967-08-30a_gstaad.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1967-08-30b_gstaad/1967-08-30b_gstaad.mp3": {
+    "bytes": 33564672,
+    "sha256": "1be0d778290e838d512a13e2f6fdb77205568af9f4a0e70c109c80f86efb205a",
+    "seconds": 4407.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1967-08-30b_gstaad__1967-08-30b_gstaad.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1967-08-30c_gstaad/1967-08-30c_gstaad.mp3": {
+    "bytes": 30172672,
+    "sha256": "ad866afb4da7874b0b044b8c37181fbfd545a74fed323c3a25f071be1ef3805e",
+    "seconds": 4107.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1967-08-30c_gstaad__1967-08-30c_gstaad.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1967-09-09_gstaad/1967-09-09_gstaad.mp3": {
+    "bytes": 35767296,
+    "sha256": "9161e3f19aa51a9da0d7acd5d90d33257e237e8999df65d0b589f976b99d712f",
+    "seconds": 4889.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1967-09-09_gstaad__1967-09-09_gstaad.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1990-03-07_interview_by_donald_ingram_smith/1990-03-07_interview_by_Donald_Ingram_Smith.mp3": {
+    "bytes": 10151424,
+    "sha256": "c541799da26cebf472c149e321ef49a5e9941de125c8cafe3c1e1a28040c5cc4",
+    "seconds": 1716.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1990-03-07_interview_by_donald_ingram_smith__1990-03-07_interview_by_Donald_Ingram_Smith.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_1992-04-09_with_susan_dean/1992-04-09_with_Susan_Dean.mp3": {
+    "bytes": 13007872,
+    "sha256": "1260e245092de49ed933fa4722c94a1ed910dec61bf19b7fd1c4ceef7383e1de",
+    "seconds": 1924.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_1992-04-09_with_susan_dean__1992-04-09_with_Susan_Dean.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_2002-01-18_interview_willem_de_ridder/2002-01-18_interview_willem_de_ridder.mp3": {
+    "bytes": 44907008,
+    "sha256": "b0099314aed164439bbf9266a546267165e5215608ad379cdeabc4692b0c1611",
+    "seconds": 6989.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_2002-01-18_interview_willem_de_ridder__2002-01-18_interview_willem_de_ridder.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_abc_radio_national_sydney_1994/abc_radio_national_sydney_1994.mp3": {
+    "bytes": 6819840,
+    "sha256": "e748e8760d64ef04939ac9b24210711d6c41b1dfd31fb948121bf19bd752c063",
+    "seconds": 1081.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_abc_radio_national_sydney_1994__abc_radio_national_sydney_1994.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_alan_hunter_19921214/alan_hunter_19921214.mp3": {
+    "bytes": 11243008,
+    "sha256": "484a2dcddab41ab296ae09c9275db4ce5d6063d422330a8db5d0905da00c8171",
+    "seconds": 1762.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_alan_hunter_19921214__alan_hunter_19921214.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_all_india_radio_interview/all_india_radio_interview.mp3": {
+    "bytes": 14204928,
+    "sha256": "be2e0f71afc74bd6d3d0e6f753ab765d1bd613073c510e9b5fff5c4ca29bb8b2",
+    "seconds": 2245.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_all_india_radio_interview__all_india_radio_interview.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_amsterdam_19820901/amsterdam_19820901.mp3": {
+    "bytes": 29797376,
+    "sha256": "b30f4432e9e41359bee2e05a084a2d395e50fa574ef6ce05dc2c2559a73e56d0",
+    "seconds": 4964.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_amsterdam_19820901__amsterdam_19820901.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_amsterdam_19920909/amsterdam_19920909.mp3": {
+    "bytes": 10094080,
+    "sha256": "50df1285ebabec221ebd130ce138542ab0e39173a595e47e093215d0f9a7c25a",
+    "seconds": 1678.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_amsterdam_19920909__amsterdam_19920909.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_amsterdam_talks_1982/amsterdam_talks_1982.mp3": {
+    "bytes": 34841088,
+    "sha256": "6ce9702c19e25bf821617d9fd6629c6d5f5ea694400fc914869ae298cea467bd",
+    "seconds": 5691.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_amsterdam_talks_1982__amsterdam_talks_1982.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_bangalore_bramchari_chants/bangalore_bramchari_chants.mp3": {
+    "bytes": 23982592,
+    "sha256": "96fb0a6bded29bb005229bb4edfe2c6de3e41bfee174d35bf9a31123fcbccda1",
+    "seconds": 4267.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_bangalore_bramchari_chants__bangalore_bramchari_chants.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_bangalore_talk_198412/bangalore_talk_198412.mp3": {
+    "bytes": 23415808,
+    "sha256": "fa36cebac990b463e2ff50ad4c5ff7e83c6f6597d4c1c4e0394ce09891e542a6",
+    "seconds": 3807.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_bangalore_talk_198412__bangalore_talk_198412.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_barbara_schuler_kazu_198905/barbara_schuler_kazu_198905.mp3": {
+    "bytes": 30423552,
+    "sha256": "ddf0c9967ff5c9f2f7438465375e01941d56284ad204a5b3f730b0d5be9b1413",
+    "seconds": 4947.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_barbara_schuler_kazu_198905__barbara_schuler_kazu_198905.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_bhramchari_chandrashekar/bhramchari_chandrashekar.mp3": {
+    "bytes": 33943040,
+    "sha256": "f22c4ea177a282354e011ccc4e212cf4ce8beae73d88f080fcdc5f6101c01278",
+    "seconds": 5867.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_bhramchari_chandrashekar__bhramchari_chandrashekar.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_discussion_with_douglas_white/discussion_with_douglas_white.mp3": {
+    "bytes": 38488576,
+    "sha256": "c0e1339b0620f8520c9cc8a2753f3ce22c4adc4854f7eaee2bf968d520e8f754",
+    "seconds": 4688.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_discussion_with_douglas_white__discussion_with_douglas_white.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_dont_touch_this_is_very_dangerous/dont_touch_this_is_very_dangerous.mp3": {
+    "bytes": 25947648,
+    "sha256": "af88cc4e0a3b84f2d1e586b4058c923934bc562b5b1709eba3348ffe090a483f",
+    "seconds": 4279.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_dont_touch_this_is_very_dangerous__dont_touch_this_is_very_dangerous.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_dr_kbr_sastrii_bramchari_babu/dr_kbr_sastriI_bramchari_babu.mp3": {
+    "bytes": 16340480,
+    "sha256": "9ddb8840c663400bf1e2025f32af68e844ed4377c04a4e9c6193266bce5e8254",
+    "seconds": 2804.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_dr_kbr_sastrii_bramchari_babu__dr_kbr_sastriI_bramchari_babu.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_f2f_1/f2f_1.mp3": {
+    "bytes": 4088832,
+    "sha256": "e0bafcdcadf32e9b31ccf405cd171de427f3b484a581fbda8fea1bce22d15d65",
+    "seconds": 677.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_f2f_1__f2f_1.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_f2f_2/f2f_2.mp3": {
+    "bytes": 1974784,
+    "sha256": "5167b4e73c31db4633e8b1757180717b017104245ce65525332b05d4271cda92",
+    "seconds": 321.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_f2f_2__f2f_2.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_f2f_3/f2f_3.mp3": {
+    "bytes": 3366912,
+    "sha256": "bb8bdbadc71dc566608b0d731a3fdae0ed688e3c00394279f558cfdb0cc0bf38",
+    "seconds": 552.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_f2f_3__f2f_3.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_george_gary_kunm_radio_albu/george_gary_kunm_radio_albu.mp3": {
+    "bytes": 8104448,
+    "sha256": "c72a132b3b29be7662c6c297c187ca102bf74941680abfbd332dd82c3070256a",
+    "seconds": 1307.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_george_gary_kunm_radio_albu__george_gary_kunm_radio_albu.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_god_is_ultimate_pleasure/god_is_ultimate_pleasure.mp3": {
+    "bytes": 15193600,
+    "sha256": "1fd5e618417edde23274bb832ec76fefe1dc132b1638647a58c1fff5a9196625",
+    "seconds": 2452.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_god_is_ultimate_pleasure__god_is_ultimate_pleasure.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_guest_of_the_week_bbc_radio/guest_of_the_week_bbc_radio.mp3": {
+    "bytes": 10194432,
+    "sha256": "1bab91a55fa654a57cab554a637a3d9a49d228c82ed8abf9d989ca1e421aa736",
+    "seconds": 1743.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_guest_of_the_week_bbc_radio__guest_of_the_week_bbc_radio.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_i_am_totally_helpless_amesterdam/i_am_totally_helpless_amesterdam.mp3": {
+    "bytes": 30989824,
+    "sha256": "6205ee76786d4b28725d98078c69b12f2f333c7872a38867c9c02f3b31c7e48a",
+    "seconds": 4880.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_i_am_totally_helpless_amesterdam__i_am_totally_helpless_amesterdam.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_institute-of-world-religion/institute-of-world-religion.mp3": {
+    "bytes": 11305984,
+    "sha256": "c5ac6fc5e3fb502c727c4ebf64106c3261f5b97d9c00a880c4d661365e62a305",
+    "seconds": 1681.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_institute-of-world-religion__institute-of-world-religion.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_interview_in_french/interview_in_french.mp3": {
+    "bytes": 13027328,
+    "sha256": "3a236ff820aa9ac39de754578b5d6a46c04010d33b436e7f66f4b9105bbb7d9a",
+    "seconds": 1973.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_interview_in_french__interview_in_french.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_jealous/jealous.mp3": {
+    "bytes": 1955328,
+    "sha256": "56b06b58f7304732c6319365830f12ff3acf4faba5c3d0403040e767261330f9",
+    "seconds": 323.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_jealous__jealous.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_journalist_indianexperss/journalist_indianexperss.mp3": {
+    "bytes": 33671168,
+    "sha256": "d5e0e02e37cb984ce4521185a274d733c163eef7861510db847ee3ae9db65050",
+    "seconds": 5766.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_journalist_indianexperss__journalist_indianexperss.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_kqed_talk_radio_920_199204/kqed_talk_radio_920_199204.mp3": {
+    "bytes": 19495424,
+    "sha256": "4caa30f9847e51ab36fc7c8d5cdcbd9d04f2e0a3d62408cc9481d0b07181612d",
+    "seconds": 3195.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_kqed_talk_radio_920_199204__kqed_talk_radio_920_199204.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_living_in_your_own_world/living_in_your_own_world.mp3": {
+    "bytes": 1218048,
+    "sha256": "9e891e0b9782ca05d1fe8b70e87c74c83034c7ec207644f93348d3093e3e39c0",
+    "seconds": 200.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_living_in_your_own_world__living_in_your_own_world.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_mind_myth/mind_myth.mp3": {
+    "bytes": 157348352,
+    "sha256": "5471003df8a3f82a78a5cc79ef6acd74b5d6815bae8ff519eeb0b6e86b65655e",
+    "seconds": 18644.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_mind_myth__mind_myth.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_monologue/monologue.mp3": {
+    "bytes": 4409344,
+    "sha256": "49ecf9047b792042031fb6d7492b6d6577d0cbce23fac7a183cf08c80a4610ec",
+    "seconds": 688.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_monologue__monologue.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_mystique_enlight/mystique_enlight.mp3": {
+    "bytes": 181395456,
+    "sha256": "cab25417ab88995a11e7ddb711913129ccaeb78b620c16f26dcdec85f5a86176",
+    "seconds": 21506.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_mystique_enlight__mystique_enlight.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_nagraj_others/ug_nagraj_others_meta.xml": {
+    "bytes": 612,
+    "sha256": "b04c1ab1cfafc1607ca472bc877a423f591a8f53b44d4e73c0ef50eb77ebbf15",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_nagraj_others__ug_nagraj_others_meta.xml",
+    "kept": "release"
+   },
+   "archive_org/ug_national_radio_sydney_1994/national_radio_sydney_1994.mp3": {
+    "bytes": 6819328,
+    "sha256": "59faadf8c84111582adf55f15fa7e0b254ba2e9558e8396c0d0f5e7b5b674786",
+    "seconds": 1081.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_national_radio_sydney_1994__national_radio_sydney_1994.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_new_dimensions_19891114/new_dimensions_19891114.mp3": {
+    "bytes": 24568832,
+    "sha256": "9920eef9b6fb19bbcd0dbfb6a452ea4564c1cdfd6c1fa7e4f8cae6aec568eea7",
+    "seconds": 3646.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_new_dimensions_19891114__new_dimensions_19891114.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_palm_reading/palm_reading.mp3": {
+    "bytes": 10004480,
+    "sha256": "cbd29cdb5e10bef05218a919e81b33019f749d2c8c40ec5e3a47ab8e8da27eca",
+    "seconds": 1723.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_palm_reading__palm_reading.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_paul_collins_insights/paul_collins_insights.mp3": {
+    "bytes": 11165184,
+    "sha256": "a79354dbaa13778a4a935b4779db988dbf6551324270f8ad27e5d11ac5efaf2b",
+    "seconds": 1755.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_paul_collins_insights__paul_collins_insights.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_prakash_others_bangalore/prakash_others_bangalore.mp3": {
+    "bytes": 34697728,
+    "sha256": "fc060f67543ee2239522f88d67f5fbb912c3c1763a2899c0c811bbd301ed9b0b",
+    "seconds": 5649.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_prakash_others_bangalore__prakash_others_bangalore.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_robert_gf_amsterdam_198711/robert_gf_amsterdam_198711.mp3": {
+    "bytes": 52233728,
+    "sha256": "3e3f3f79a30b174c346ec02880c3172de8882e692a191f6298051c355573746d",
+    "seconds": 8317.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_robert_gf_amsterdam_198711__robert_gf_amsterdam_198711.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_selling_mirrors_to_the_blind/selling_mirrors_to_the_blind.mp3": {
+    "bytes": 29421056,
+    "sha256": "0cb025b8a2db1e599bbfaa60957d0a1c2b7a13b8470ec51053b7ddcd941c1245",
+    "seconds": 4946.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_selling_mirrors_to_the_blind__selling_mirrors_to_the_blind.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_susan_dean_19920409/susan_dean_19920409.mp3": {
+    "bytes": 13879296,
+    "sha256": "1299ae0baf50e2f17fc1a07ade12c40df5b170ac0a3a52fb29971eda470305b0",
+    "seconds": 2155.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_susan_dean_19920409__susan_dean_19920409.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_susan_dean_albuquerqe/susan_dean_albuquerqe.mp3": {
+    "bytes": 13974528,
+    "sha256": "afb4cd652c172e308ea1b8d184b03cb0af9844109ae8faf3a726302b22b82af7",
+    "seconds": 2169.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_susan_dean_albuquerqe__susan_dean_albuquerqe.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_susan_dean_khfm_albuquerqe/susan_dean_khfm_albuquerqe.mp3": {
+    "bytes": 10779648,
+    "sha256": "865936901877cdba288a0fcceb48b331d173c0a37dbf9b8fc0fdcf9f8ee7993f",
+    "seconds": 1684.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_susan_dean_khfm_albuquerqe__susan_dean_khfm_albuquerqe.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_sydney_australia_19911117/sydney_australia_19911117.mp3": {
+    "bytes": 36078592,
+    "sha256": "8907694583ee759e057d6c962a97784978c9e11dae631b2a91cba7524f8c8ccb",
+    "seconds": 6186.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_sydney_australia_19911117__sydney_australia_19911117.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_there_is_no_such_thing_as_ultimate_reality/there_is_no_such_thing_as_ultimate_reality.mp3": {
+    "bytes": 27531776,
+    "sha256": "3ee915312e88af067f154156616dd9310ad32913d2b224eab1220c3d922a5251",
+    "seconds": 4615.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_there_is_no_such_thing_as_ultimate_reality__there_is_no_such_thing_as_ultimate_reality.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_bohm/ug_bohm.mp3": {
+    "bytes": 65360896,
+    "sha256": "fd87847f2e5312c8974abcc61455971ae826f3f9832d5edf210d8e24c37c5516",
+    "seconds": 10233.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_bohm__ug_bohm.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_collins/ug_collins.mp3": {
+    "bytes": 10216960,
+    "sha256": "9fbcb1746437c65c76a6ba15e941e6bbb391a7d0f6bbae91f443bfd01a28099a",
+    "seconds": 1641.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_collins__ug_collins.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_deridder_katie/ug_deridder_katie.mp3": {
+    "bytes": 17746432,
+    "sha256": "fad683ba6883b0ee8b5a614a3a1b1e01daaace864f50514adad488168f8f84ea",
+    "seconds": 2942.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_deridder_katie__ug_deridder_katie.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_dv_/ug_dv_.mp3": {
+    "bytes": 10013184,
+    "sha256": "d7edd07cc74be0bbb59d0f811102a0da73581bc6c391f36339d452cd9e2afba2",
+    "seconds": 994.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_dv___ug_dv_.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_george_gray/ug_george_gray.mp3": {
+    "bytes": 7971328,
+    "sha256": "4c0b9494803a30df75bab432cf5dab9e2cde85714223b695f55290d100cdcd18",
+    "seconds": 1238.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_george_gray__ug_george_gray.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_parapsy/ug_parapsy.mp3": {
+    "bytes": 9007616,
+    "sha256": "2200a960ed83a8692cfdb914095641d1fd2cbaf56e506fb0fac99e697ed48e32",
+    "seconds": 971.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_parapsy__ug_parapsy.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_tv_int/ug_tv_int.mp3": {
+    "bytes": 12588032,
+    "sha256": "70dc38466b6773c3fe877505996f49c126284ad3c914fce5e3e9d064fd1a9d25",
+    "seconds": 1349.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_tv_int__ug_tv_int.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_w_mb/ug_w_mb.mp3": {
+    "bytes": 10353664,
+    "sha256": "fc7b93c302b819f3a7443412ab7d1cd3053bb271ee0a77ea6e482f3e56c79c06",
+    "seconds": 1083.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_w_mb__ug_w_mb.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_w_rb/ug_w_rb.mp3": {
+    "bytes": 26778624,
+    "sha256": "ae26059a485792e921c27fd30c4ebf3521b3050c4d1d8a1af2d38eed7378a88a",
+    "seconds": 2225.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_w_rb__ug_w_rb.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_w_sk/ug_w_sk.mp3": {
+    "bytes": 14922752,
+    "sha256": "a942a07c676901e55c493392eed8456dccd48b95fe18188da82bb560337d916f",
+    "seconds": 1627.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_w_sk__ug_w_sk.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_with_french_people/ug_with_french_people.mp3": {
+    "bytes": 14827520,
+    "sha256": "e22327a1a4e2aca8d82412d39995ff88bb61809d382e6ed8dd42e62d6d8d1c1c",
+    "seconds": 2241.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_with_french_people__ug_with_french_people.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_with_unknown_individual/ug_with_unknown_individual.mp3": {
+    "bytes": 13997568,
+    "sha256": "106ebf8c69e0ec3cf1479b0e73860dd5892d26bb4fb45866f66ac329148ade71",
+    "seconds": 2203.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_ug_with_unknown_individual__ug_with_unknown_individual.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_un_natural_state/un_natural_state.mp3": {
+    "bytes": 955392,
+    "sha256": "848eeb569287e4ab7a7b75540a3facc413015bdc21ed9e531c1c2016457ed539",
+    "seconds": 155.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_un_natural_state__un_natural_state.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_vedanta_is_starting_of_mess/vedanta_is_starting_of_mess.mp3": {
+    "bytes": 34107392,
+    "sha256": "c0b4751191f309a38cc567e16654eeeb9293af3b113379d8e0ba8c2138b3f126",
+    "seconds": 5616.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_vedanta_is_starting_of_mess__vedanta_is_starting_of_mess.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_w_de_ridder_amesterdam/w_de_ridder_amesterdam.mp3": {
+    "bytes": 13880832,
+    "sha256": "49c32e1d8b2c62a375e848064d595a27d031fd550611a85927e1f866fcec9d74",
+    "seconds": 2334.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_w_de_ridder_amesterdam__w_de_ridder_amesterdam.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_w_donnald_ingram/w_donnald_ingram.mp3": {
+    "bytes": 14611968,
+    "sha256": "bb1ef4d6419ee035e7a5a42b1ae5997b0ef86a4b9d5cd9f71f23120de5c5847f",
+    "seconds": 2570.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_w_donnald_ingram__w_donnald_ingram.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_w_pawan_verma/w_pawan_verma.mp3": {
+    "bytes": 8423936,
+    "sha256": "fd9c0d524bdd3520e80a4e63c27e1f160e4d341615fed5778a841cc719e46b2a",
+    "seconds": 1431.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_w_pawan_verma__w_pawan_verma.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_what_is_going_on_here_is_sa/what_is_going_on_here_is_sa.mp3": {
+    "bytes": 6747648,
+    "sha256": "34b0907e0dd8d1e4594ac2a65226a509e79cce6e0c4bfe48f5aba73a3e32ee2a",
+    "seconds": 1153.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icd3d513c__archive_org__ug_what_is_going_on_here_is_sa__what_is_going_on_here_is_sa.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i60606c6c": {
   "title": "Internet Archive collection: U.G. Krishnamurti conversations and interviews – video",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_ug_w_mb_150",
-  "fetched": "2026-11-05T02:08:15+00:00",
+  "fetched": "2026-11-05T05:29:13+00:00",
   "files": {
    "archive_org/ug_ug_w_mb_150/__ia_thumb.jpg": {
     "bytes": 3993,
@@ -2786,15 +3365,50 @@
     "sha256": "1039470767c4414e4fe424b887ca0fab9d4eb704e4602e17715058d4e13f66b6",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i60606c6c__archive_org__ug_ug_deridder__UG_deRidder.rm_meta.txt",
     "kept": "release"
+   },
+   "archive_org/ug_ug_w_mb_150/ug_w_mb_150.mp4": {
+    "bytes": 111781610,
+    "sha256": "dc731124c49160a716c4406e8db127d8f2b7b13cf1853922368cf986fc86026d",
+    "seconds": 1081.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i60606c6c__archive_org__ug_ug_w_mb_150__ug_w_mb_150.mp4",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_tv_int_150/ug_tv_int_150.mp4": {
+    "bytes": 139577281,
+    "sha256": "87dd75bb8121f03294d24953bbc4c81e2b16899749e46b717571f7b057f76788",
+    "seconds": 1347.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i60606c6c__archive_org__ug_ug_tv_int_150__ug_tv_int_150.mp4",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_parapsy_150/ug_parapsy_150.mp4": {
+    "bytes": 129823746,
+    "sha256": "e6df189c94bec8059f902841de24651136a1a76da7d03ad06ffe292622604bdb",
+    "seconds": 1308.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i60606c6c__archive_org__ug_ug_parapsy_150__ug_parapsy_150.mp4",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_w_sk_150/ug_w_sk_150.mp4": {
+    "bytes": 167969179,
+    "sha256": "2fda8f95f5f01d155c7dba41f47735ea5e22025d9fb37818fb3ea41d7a0bfa96",
+    "seconds": 1625.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i60606c6c__archive_org__ug_ug_w_sk_150__ug_w_sk_150.mp4",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_deridder/UG_deRidder.mp4": {
+    "bytes": 303623316,
+    "sha256": "83bd80cb55591560daac30279adc24ffb836c24ed380b992bc300f67f22508ee",
+    "seconds": 2940.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i60606c6c__archive_org__ug_ug_deridder__UG_deRidder.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "icc8c416f": {
   "title": "Internet Archive: review of Mahesh Bhatt's biography (ug_10_book_review_maheshs_book)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_10_book_review_maheshs_book",
-  "fetched": "2026-11-05T02:08:22+00:00",
+  "fetched": "2026-11-05T05:29:15+00:00",
   "files": {
    "archive_org/ug_10_book_review_maheshs_book/__ia_thumb.jpg": {
     "bytes": 2020,
@@ -2825,15 +3439,22 @@
     "sha256": "e36995714baf314bed955a2e293394c056a3629de3dd510df56bd1c76ac4f546",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/icc8c416f__archive_org__ug_10_book_review_maheshs_book__ug_10_book_review_maheshs_book_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_10_book_review_maheshs_book/10_book_review_Maheshs_book.mp3": {
+    "bytes": 5553664,
+    "sha256": "fcae828b223a68aaddb9a92dfdf2e04f2a6302d459f480c7c843c6f5c4b2f8cc",
+    "seconds": 874.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icc8c416f__archive_org__ug_10_book_review_maheshs_book__10_book_review_Maheshs_book.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "id40036c5": {
   "title": "Internet Archive text: The Courage to Stand Alone (Community Texts)",
   "kind": "archive_org",
   "url": "https://archive.org/details/UGKrishnamurtiStoppedInOurTracks227p",
-  "fetched": "2026-11-05T02:10:47+00:00",
+  "fetched": "2026-11-05T05:31:58+00:00",
   "files": {
    "archive_org/UGKrishnamurtiStoppedInOurTracks227p/__ia_thumb.jpg": {
     "bytes": 18445,
@@ -2924,15 +3545,21 @@
     "sha256": "64c2318da335728be0517198c3405f5d7929a04a65642f35c5866614faef8bf5",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-wikisource/id40036c5__wikisource__Courage_to_Stand_Alone.html",
     "kept": "release"
+   },
+   "archive_org/UGKrishnamurtiStoppedInOurTracks227p/UG Krishnamurti - Stopped In Our Tracks (227p)_djvu.txt": {
+    "bytes": 440724,
+    "sha256": "12fc531f7230af8804f4b04a381e7e34a3669d2f2516a6169f45d7ae3075357b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/id40036c5__archive_org__UGKrishnamurtiStoppedInOurTracks227p__UG_Krishnamurti_-_Stopped_In_Our_Tracks__227p__djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i40f0fde7": {
   "title": "Internet Archive text: The Book of Passages",
   "kind": "archive_org",
   "url": "https://archive.org/details/TheBookOfPassages",
-  "fetched": "2026-11-05T02:10:58+00:00",
+  "fetched": "2026-11-05T05:32:04+00:00",
   "files": {
    "archive_org/TheBookOfPassages/TheBookOfPassages_meta.xml": {
     "bytes": 2045,
@@ -2963,15 +3590,21 @@
     "sha256": "46f34a37960e4370b25092d857fb047519c8821bdfb6410005de729d3e416504",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i40f0fde7__archive_org__TheBookOfPassages__TheBookOfPassages_meta.sqlite",
     "kept": "release"
+   },
+   "archive_org/TheBookOfPassages/The Book of Passages_djvu.txt": {
+    "bytes": 524961,
+    "sha256": "4dbeff2f37789e781add7864572abdb0e97271273ec10e40864578d851ab4226",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i40f0fde7__archive_org__TheBookOfPassages__The_Book_of_Passages_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i7e6b76f4": {
   "title": "Internet Archive scanned library copies: Courage to Stand Alone and Mind is a Myth",
   "kind": "archive_org",
   "url": "https://archive.org/details/couragetostandal0000kris",
-  "fetched": "2026-11-05T02:12:27+00:00",
+  "fetched": "2026-11-05T05:33:34+00:00",
   "files": {
    "archive_org/couragetostandal0000kris/couragetostandal0000kris_meta.xml": {
     "bytes": 3335,
@@ -3022,13 +3655,13 @@
     "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "icc1d6977": {
   "title": "Larry and Susan Morris — Albuquerque friends, present at death",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_hillside",
-  "fetched": "2026-11-05T02:12:37+00:00",
+  "fetched": "2026-11-05T05:34:58+00:00",
   "files": {
    "archive_org/ug_hillside/hillside.rm_meta.txt": {
     "bytes": 357,
@@ -3059,15 +3692,22 @@
     "sha256": "f79d946dd1e4ddc3568e8dea612b6b0c0c933666e7a0222cc0fd6d2451b789f1",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/icc1d6977__archive_org__ug_hillside__ug_hillside_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_hillside/hillside.mp4": {
+    "bytes": 89306143,
+    "sha256": "43514a74aaadacfb4b162a639330a5ebe183059fadca9a3a6f6d574b082800a1",
+    "seconds": 857.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/icc1d6977__archive_org__ug_hillside__hillside.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i78505d0e": {
   "title": "HarperCollins India",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_1967-09-09_gstaad",
-  "fetched": "2026-11-05T02:12:44+00:00",
+  "fetched": "2026-11-05T05:35:01+00:00",
   "files": {
    "archive_org/ug_1967-09-09_gstaad/__ia_thumb.jpg": {
     "bytes": 2587,
@@ -3099,15 +3739,22 @@
     "sha256": "58e029a4c781337353a554656f2d334bd41c3003e92ef7e647a79f35c14a0801",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i78505d0e__archive_org__ug_1967-09-09_gstaad__ug_1967-09-09_gstaad_meta.xml",
     "kept": "release"
+   },
+   "archive_org/ug_1967-09-09_gstaad/1967-09-09_gstaad.mp3": {
+    "bytes": 35767296,
+    "sha256": "9161e3f19aa51a9da0d7acd5d90d33257e237e8999df65d0b589f976b99d712f",
+    "seconds": 4889.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i78505d0e__archive_org__ug_1967-09-09_gstaad__1967-09-09_gstaad.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "idad69589": {
   "title": "Mind is a Myth — computer-voice audio reading",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_mind_myth",
-  "fetched": "2026-11-05T02:12:55+00:00",
+  "fetched": "2026-11-05T05:35:08+00:00",
   "files": {
    "archive_org/ug_mind_myth/mind_myth.ra_meta.txt": {
     "bytes": 350,
@@ -3139,15 +3786,22 @@
     "sha256": "bd53a6082ffa3f1cc53672d3810d3cc0667b434179e7118d0089cc5231997cf8",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/idad69589__archive_org__ug_mind_myth__ug_mind_myth_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_mind_myth/mind_myth.mp3": {
+    "bytes": 157348352,
+    "sha256": "5471003df8a3f82a78a5cc79ef6acd74b5d6815bae8ff519eeb0b6e86b65655e",
+    "seconds": 18644.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/idad69589__archive_org__ug_mind_myth__mind_myth.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ia85070e6": {
   "title": "Thought Is Your Enemy / No Way Out — tape provenance (Moorty & Noronha, 1985–1990)",
   "kind": "archive_org",
   "url": "https://archive.org/details/thoughtisyourene0000unse",
-  "fetched": "2026-11-05T02:14:25+00:00",
+  "fetched": "2026-11-05T05:36:49+00:00",
   "files": {
    "archive_org/thoughtisyourene0000unse/__ia_thumb.jpg": {
     "bytes": 14910,
@@ -3180,13 +3834,13 @@
     "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ia2d0f1ef": {
   "title": "Conversation With U.G., Gstaad, Switzerland (9 September 1967)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_living_in_your_own_world",
-  "fetched": "2026-11-05T02:14:31+00:00",
+  "fetched": "2026-11-05T05:36:50+00:00",
   "files": {
    "archive_org/ug_living_in_your_own_world/ug_living_in_your_own_world_files.xml": {
     "bytes": 3161,
@@ -3218,15 +3872,22 @@
     "sha256": "144b14ab1c54d698756e03f28da550610479f96c1e86a67d80becf293a7fd9fb",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/ia2d0f1ef__archive_org__ug_living_in_your_own_world__living_in_your_own_world.ra_meta.txt",
     "kept": "release"
+   },
+   "archive_org/ug_living_in_your_own_world/living_in_your_own_world.mp3": {
+    "bytes": 1218048,
+    "sha256": "9e891e0b9782ca05d1fe8b70e87c74c83034c7ec207644f93348d3093e3e39c0",
+    "seconds": 200.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia2d0f1ef__archive_org__ug_living_in_your_own_world__living_in_your_own_world.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i4baec362": {
   "title": "All India Radio interview — 'Ending of knowledge is death' (12 December 1979)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_all_india_radio_interview",
-  "fetched": "2026-11-05T02:14:39+00:00",
+  "fetched": "2026-11-05T05:36:53+00:00",
   "files": {
    "archive_org/ug_all_india_radio_interview/all_india_radio_interview.rm_meta.txt": {
     "bytes": 357,
@@ -3257,15 +3918,22 @@
     "sha256": "7c98347a9cd3dec0848e1fc29c7d5b6bfb9350679414bb13767846fa1e5804dd",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i4baec362__archive_org__ug_all_india_radio_interview__all_india_radio_interview.rm",
     "kept": "release"
+   },
+   "archive_org/ug_all_india_radio_interview/all_india_radio_interview.mp3": {
+    "bytes": 14204928,
+    "sha256": "be2e0f71afc74bd6d3d0e6f753ab765d1bd613073c510e9b5fff5c4ca29bb8b2",
+    "seconds": 2245.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i4baec362__archive_org__ug_all_india_radio_interview__all_india_radio_interview.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i189e5eb2": {
   "title": "Conversation with Barbara Schuler, KAZU Radio (May 1989)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_barbara_schuler_kazu_198905",
-  "fetched": "2026-11-05T02:14:46+00:00",
+  "fetched": "2026-11-05T05:36:55+00:00",
   "files": {
    "archive_org/ug_barbara_schuler_kazu_198905/ug_barbara_schuler_kazu_198905_files.xml": {
     "bytes": 3190,
@@ -3296,15 +3964,22 @@
     "sha256": "19305d993acca2ff1c3e29203366e254ffaf5b472f0f4948e99b2c79ff918ef4",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i189e5eb2__archive_org__ug_barbara_schuler_kazu_198905__ug_barbara_schuler_kazu_198905_meta.xml",
     "kept": "release"
+   },
+   "archive_org/ug_barbara_schuler_kazu_198905/barbara_schuler_kazu_198905.mp3": {
+    "bytes": 30423552,
+    "sha256": "ddf0c9967ff5c9f2f7438465375e01941d56284ad204a5b3f730b0d5be9b1413",
+    "seconds": 4947.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i189e5eb2__archive_org__ug_barbara_schuler_kazu_198905__barbara_schuler_kazu_198905.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ifd653415": {
   "title": "Interview by Donald Ingram Smith, Sydney (7 March 1990)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_1990-03-07_interview_by_donald_ingram_smith",
-  "fetched": "2026-11-05T02:14:53+00:00",
+  "fetched": "2026-11-05T05:36:58+00:00",
   "files": {
    "archive_org/ug_1990-03-07_interview_by_donald_ingram_smith/1990-03-07_interview_by_Donald_Ingram_Smith.ra_meta.txt": {
     "bytes": 349,
@@ -3361,15 +4036,22 @@
     "sha256": "b4dc630a42c3aad8ace5846dfbc5a45df51370107137f725c28cac0d5e1dc66a",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/ifd653415__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Donald_Ingram_Smith__07_03_1990___892730110_.description",
     "kept": "release"
+   },
+   "archive_org/ug_1990-03-07_interview_by_donald_ingram_smith/1990-03-07_interview_by_Donald_Ingram_Smith.mp3": {
+    "bytes": 10151424,
+    "sha256": "c541799da26cebf472c149e321ef49a5e9941de125c8cafe3c1e1a28040c5cc4",
+    "seconds": 1716.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ifd653415__archive_org__ug_1990-03-07_interview_by_donald_ingram_smith__1990-03-07_interview_by_Donald_Ingram_Smith.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ib7d17ceb": {
   "title": "Donald Ingram Smith interview for ABC (September 1990)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_06_donamld_ingram_smith_interview_for_abc_sept1990",
-  "fetched": "2026-11-05T02:15:00+00:00",
+  "fetched": "2026-11-05T05:37:00+00:00",
   "files": {
    "archive_org/ug_06_donamld_ingram_smith_interview_for_abc_sept1990/ug_06_donamld_ingram_smith_interview_for_abc_sept1990_files.xml": {
     "bytes": 3492,
@@ -3400,15 +4082,22 @@
     "sha256": "0304c1e533ea34adca60b699192b855611cac20e5d382e00294751b9a83d45e0",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/ib7d17ceb__archive_org__ug_06_donamld_ingram_smith_interview_for_abc_sept1990__06_donamld_ingram_smith_interview_for_ABC_Sept1990.rm",
     "kept": "release"
+   },
+   "archive_org/ug_06_donamld_ingram_smith_interview_for_abc_sept1990/06_donamld_ingram_smith_interview_for_ABC_Sept1990.mp3": {
+    "bytes": 19499520,
+    "sha256": "a85b299df4f46afd8f1bb822b4ddb349f62f1589fdaf3d545e7b78f79e0af0c5",
+    "seconds": 3444.6,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ib7d17ceb__archive_org__ug_06_donamld_ingram_smith_interview_for_abc_sept1990__06_donamld_ingram_smith_interview_for_ABC_Sept1990.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i018299b2": {
   "title": "U.G. Radio Interview (2/3) — archive.org ug_f2f_2",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_f2f_2",
-  "fetched": "2026-11-05T02:15:07+00:00",
+  "fetched": "2026-11-05T05:37:02+00:00",
   "files": {
    "archive_org/ug_f2f_2/f2f_2.ra_meta.txt": {
     "bytes": 348,
@@ -3440,15 +4129,22 @@
     "sha256": "2a1d1277c7085bfd4cc45de740f1fafd05abc94c410d3cd64a45a89ce85dfbda",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i018299b2__archive_org__ug_f2f_2__ug_f2f_2_meta.xml",
     "kept": "release"
+   },
+   "archive_org/ug_f2f_2/f2f_2.mp3": {
+    "bytes": 1974784,
+    "sha256": "5167b4e73c31db4633e8b1757180717b017104245ce65525332b05d4271cda92",
+    "seconds": 321.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i018299b2__archive_org__ug_f2f_2__f2f_2.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ica4884dc": {
   "title": "Audio of 'U.G. Interviewed by Ramola Bachchan on Face to Face' (1993)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_ug_w_rb",
-  "fetched": "2026-11-05T02:15:29+00:00",
+  "fetched": "2026-11-05T05:43:39+00:00",
   "files": {
    "archive_org/ug_ug_w_rb/__ia_thumb.jpg": {
     "bytes": 2840,
@@ -3509,15 +4205,29 @@
     "sha256": "c722e52ee1962fe8661395e6d004e4487272847f9ca0814f3a897e5b174c85d5",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/ica4884dc__archive_org__ug_ug_w_rb_150__ug_w_rb_150.wmv",
     "kept": "release"
+   },
+   "archive_org/ug_ug_w_rb/ug_w_rb.mp3": {
+    "bytes": 26778624,
+    "sha256": "ae26059a485792e921c27fd30c4ebf3521b3050c4d1d8a1af2d38eed7378a88a",
+    "seconds": 2225.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ica4884dc__archive_org__ug_ug_w_rb__ug_w_rb.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_w_rb_150/ug_w_rb_150.mp4": {
+    "bytes": 228990943,
+    "sha256": "069c511816fcb44eaf4a3cc264675befa1c09a12e596214130b294458504122f",
+    "seconds": 2223.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ica4884dc__archive_org__ug_ug_w_rb_150__ug_w_rb_150.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i5bacdb02": {
   "title": "Audio of 'Conversation between U.G. and Shashi Kumar' (TV interview)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_ug_tv_int",
-  "fetched": "2026-11-05T02:15:37+00:00",
+  "fetched": "2026-11-05T05:43:41+00:00",
   "files": {
    "archive_org/ug_ug_tv_int/__ia_thumb.jpg": {
     "bytes": 3048,
@@ -3548,15 +4258,22 @@
     "sha256": "8b451a367ef2adfbd31d025e37785c04cb39f86867e6bba3373f6a810a02c058",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i5bacdb02__archive_org__ug_ug_tv_int__ug_ug_tv_int_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_ug_tv_int/ug_tv_int.mp3": {
+    "bytes": 12588032,
+    "sha256": "70dc38466b6773c3fe877505996f49c126284ad3c914fce5e3e9d064fd1a9d25",
+    "seconds": 1349.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i5bacdb02__archive_org__ug_ug_tv_int__ug_tv_int.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2e0a283c": {
   "title": "UG interviewed by Willem de Ridder and Byron Katie, Amsterdam (1998)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_ug_deridder_katie",
-  "fetched": "2026-11-05T02:15:44+00:00",
+  "fetched": "2026-11-05T05:43:44+00:00",
   "files": {
    "archive_org/ug_ug_deridder_katie/__ia_thumb.jpg": {
     "bytes": 2817,
@@ -3613,15 +4330,22 @@
     "sha256": "bd865a8508ca25cb17e3087d197ab8d758e897f739dded9c1c66e4f5cfce4267",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i2e0a283c__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Willen_de_Ridder___Byron_Katie__Amsterdam__Holland__1998___892732873_.jpg",
     "kept": "release"
+   },
+   "archive_org/ug_ug_deridder_katie/ug_deridder_katie.mp3": {
+    "bytes": 17746432,
+    "sha256": "fad683ba6883b0ee8b5a614a3a1b1e01daaace864f50514adad488168f8f84ea",
+    "seconds": 2942.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2e0a283c__archive_org__ug_ug_deridder_katie__ug_deridder_katie.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i01211e5e": {
   "title": "U.G. with S.C. Birla (1/2)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_birla_01",
-  "fetched": "2026-11-05T02:15:55+00:00",
+  "fetched": "2026-11-05T05:46:54+00:00",
   "files": {
    "archive_org/ug_birla_01/birla_01.rm_meta.txt": {
     "bytes": 357,
@@ -3652,15 +4376,22 @@
     "sha256": "ab07df8bb1ac14607c5d6929084b78a35b0567c413ed1cd35589f9d70e4ea928",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i01211e5e__archive_org__ug_birla_01__ug_birla_01_meta.xml",
     "kept": "release"
+   },
+   "archive_org/ug_birla_01/birla_01.mp4": {
+    "bytes": 148731409,
+    "sha256": "489a25819be20e780fd9feaef05383a311e8404c35648f3f56533355d82c4d9d",
+    "seconds": 1429.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i01211e5e__archive_org__ug_birla_01__birla_01.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2b2d2c21": {
   "title": "U.G. Conversation with Unknown Individual",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_ug_with_unknown_individual",
-  "fetched": "2026-11-05T02:16:01+00:00",
+  "fetched": "2026-11-05T05:46:56+00:00",
   "files": {
    "archive_org/ug_ug_with_unknown_individual/ug_with_unknown_individual.ra": {
     "bytes": 4604752,
@@ -3692,15 +4423,22 @@
     "sha256": "20c85da808849bb31a59185c3a44acba1af98f41d166cb677a474b3276d5c397",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i2b2d2c21__archive_org__ug_ug_with_unknown_individual__ug_ug_with_unknown_individual_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_ug_with_unknown_individual/ug_with_unknown_individual.mp3": {
+    "bytes": 13997568,
+    "sha256": "106ebf8c69e0ec3cf1479b0e73860dd5892d26bb4fb45866f66ac329148ade71",
+    "seconds": 2203.3,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2b2d2c21__archive_org__ug_ug_with_unknown_individual__ug_with_unknown_individual.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "iff199f2b": {
   "title": "Interview in French (archive.org)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_interview_in_french",
-  "fetched": "2026-11-05T02:16:08+00:00",
+  "fetched": "2026-11-05T05:46:58+00:00",
   "files": {
    "archive_org/ug_interview_in_french/__ia_thumb.jpg": {
     "bytes": 2844,
@@ -3731,15 +4469,22 @@
     "sha256": "abac91e0d471cf4aada826a085bc594a17c71453a2a2cd4b6a18f9bf00458d55",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/iff199f2b__archive_org__ug_interview_in_french__ug_interview_in_french_files.xml",
     "kept": "release"
+   },
+   "archive_org/ug_interview_in_french/interview_in_french.mp3": {
+    "bytes": 13027328,
+    "sha256": "3a236ff820aa9ac39de754578b5d6a46c04010d33b436e7f66f4b9105bbb7d9a",
+    "seconds": 1973.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/iff199f2b__archive_org__ug_interview_in_french__interview_in_french.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i3682b55d": {
   "title": "ugkrishnamurti.in — 'Essential Audios' (UG Speaks)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_abc_radio_national_sydney_1994",
-  "fetched": "2026-11-05T02:17:13+00:00",
+  "fetched": "2026-11-05T06:14:48+00:00",
   "files": {
    "archive_org/ug_abc_radio_national_sydney_1994/__ia_thumb.jpg": {
     "bytes": 2678,
@@ -3819,15 +4564,36 @@
     "sha256": "42fa4facdade9703d8c537452e9eef9d1dfed6539b68d3aa3d2a2499ddefb35c",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i3682b55d__pages__ugkrishnamurti.in_ug-speaks_audios.html",
     "kept": "release"
+   },
+   "archive_org/ug_abc_radio_national_sydney_1994/abc_radio_national_sydney_1994.mp3": {
+    "bytes": 6819840,
+    "sha256": "e748e8760d64ef04939ac9b24210711d6c41b1dfd31fb948121bf19bd752c063",
+    "seconds": 1081.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3682b55d__archive_org__ug_abc_radio_national_sydney_1994__abc_radio_national_sydney_1994.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_de_ridder/ug_de_ridder.mp3": {
+    "bytes": 17895424,
+    "sha256": "274835057b769460642f7b803f42cf3e65f489bb6a2544ce9573cb7f1bd7c14f",
+    "seconds": 3000.1,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3682b55d__archive_org__ug_ug_de_ridder__ug_de_ridder.mp3",
+    "kept": "release"
+   },
+   "archive_org/ug_ug_de_ridder/ug_de_ridder.mp4": {
+    "bytes": 324108243,
+    "sha256": "6cbeffd82c99f62fde4e197021ba0a10dda1915efca1cb2c5468f6a78626b8d0",
+    "seconds": 3134.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3682b55d__archive_org__ug_ug_de_ridder__ug_de_ridder.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i1b74d9fd": {
   "title": "Get Lost and Stay Lost: On the Road with UG Krishnamurti + UG Krishnamurti Cookbook (cover, Internet Archive)",
   "kind": "archive_org",
   "url": "https://archive.org/details/julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti",
-  "fetched": "2026-11-05T02:18:12+00:00",
+  "fetched": "2026-11-05T06:14:55+00:00",
   "files": {
    "archive_org/julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti/__ia_thumb.jpg": {
     "bytes": 4390,
@@ -3858,15 +4624,21 @@
     "sha256": "cac7cfa8ccf466328cf3e63a7307f00208e1fa0be82e90054b2b075e25582972",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i1b74d9fd__archive_org__julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti__julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti_files.xml",
     "kept": "release"
+   },
+   "archive_org/julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti/Julie Thayer Get Lost and Stay Lost - Travels with UG Krishnamurti - UG Krishnamurti Cookbook by Julie Thayer_djvu.txt": {
+    "bytes": 668728,
+    "sha256": "92f0110b8776f9ca6152e316323f1c1363f3332b7158103590adfd6d1164d267",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i1b74d9fd__archive_org__julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti__Julie_Thayer_Get_Lost_and_Stay_Lost_-_Travels_with_UG_Krishnamurti_-_UG_Krishnamurti_Cookbook_by_Julie_Thayer_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "if0e400db": {
   "title": "The Mystique of Enlightenment — scan on the Internet Archive",
   "kind": "archive_org",
   "url": "https://archive.org/details/TheMystiqueOfEnlightenmentU.G.Krishnamurti",
-  "fetched": "2026-11-05T02:18:22+00:00",
+  "fetched": "2026-11-05T06:15:03+00:00",
   "files": {
    "archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti/__ia_thumb.jpg": {
     "bytes": 7920,
@@ -3897,15 +4669,21 @@
     "sha256": "88e3b3b0946e8bc856cdb39732495b6e3cf62341b02a46555c664751663f6095",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/if0e400db__archive_org__TheMystiqueOfEnlightenmentU.G.Krishnamurti__The_Mystique_of_Enlightenment_-_U.G._Krishnamurti.pdf",
     "kept": "release"
+   },
+   "archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti/The Mystique of Enlightenment - U.G. Krishnamurti_djvu.txt": {
+    "bytes": 364840,
+    "sha256": "58ef2efd00748b16acd3870a7adf9089fecacf254a1775c18887895a08c57631",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/if0e400db__archive_org__TheMystiqueOfEnlightenmentU.G.Krishnamurti__The_Mystique_of_Enlightenment_-_U.G._Krishnamurti_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2f43f008": {
   "title": "No Way Out — scan on the Internet Archive",
   "kind": "archive_org",
   "url": "https://archive.org/details/NoWayOutU.G.Krishnamurti",
-  "fetched": "2026-11-05T02:18:38+00:00",
+  "fetched": "2026-11-05T06:15:15+00:00",
   "files": {
    "archive_org/NoWayOutU.G.Krishnamurti/__ia_thumb.jpg": {
     "bytes": 9113,
@@ -3936,15 +4714,21 @@
     "sha256": "5001eeef05078a135bd9bef4b2bba51187b6cc7bcdab49ead360c372648c8c17",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i2f43f008__archive_org__NoWayOutU.G.Krishnamurti__NoWayOutU.G.Krishnamurti_meta.xml",
     "kept": "release"
+   },
+   "archive_org/NoWayOutU.G.Krishnamurti/No Way Out - U.G. Krishnamurti_djvu.txt": {
+    "bytes": 465084,
+    "sha256": "14bdeb3d0fa34f89443482621ee08868a660d54156b81057094b3da88de86f66",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2f43f008__archive_org__NoWayOutU.G.Krishnamurti__No_Way_Out_-_U.G._Krishnamurti_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i328d05f9": {
   "title": "The Courage to Stand Alone — Internet Archive (ebook)",
   "kind": "archive_org",
   "url": "https://archive.org/details/EbookTheCourageToStandAloneU.G.Krishnamurti",
-  "fetched": "2026-11-05T02:18:48+00:00",
+  "fetched": "2026-11-05T06:15:20+00:00",
   "files": {
    "archive_org/EbookTheCourageToStandAloneU.G.Krishnamurti/EbookTheCourageToStandAloneU.G.Krishnamurti_meta.sqlite": {
     "bytes": 11264,
@@ -3975,15 +4759,21 @@
     "sha256": "0d3b130608298c066de4f78de3a30c29d433558a1f5052c3fa79aff57635ad54",
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org/i328d05f9__archive_org__EbookTheCourageToStandAloneU.G.Krishnamurti__EbookTheCourageToStandAloneU.G.Krishnamurti_files.xml",
     "kept": "release"
+   },
+   "archive_org/EbookTheCourageToStandAloneU.G.Krishnamurti/Ebook_The Courage to Stand Alone - U.G. Krishnamurti_djvu.txt": {
+    "bytes": 180493,
+    "sha256": "7b6bf310168a1b171c2737f4209441e595d17af2d5369103c4cd536b832484de",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i328d05f9__archive_org__EbookTheCourageToStandAloneU.G.Krishnamurti__Ebook_The_Courage_to_Stand_Alone_-_U.G._Krishnamurti_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "id9aa7e91": {
   "title": "U.G. Krishnamurti: A Life — scan on the Internet Archive",
   "kind": "archive_org",
   "url": "https://archive.org/details/ALifeU.G.Krishnamurti",
-  "fetched": "2026-11-05T02:19:00+00:00",
+  "fetched": "2026-11-05T06:15:30+00:00",
   "files": {
    "archive_org/ALifeU.G.Krishnamurti/__ia_thumb.jpg": {
     "bytes": 6094,
@@ -4005,132 +4795,209 @@
    },
    "archive_org/ALifeU.G.Krishnamurti/ALifeU.G.Krishnamurti_meta.xml": {
     "bytes": 1597,
-    "sha256": "010db22afc93deb8358fdac73dbdfbf09821b17c35888916b027ad2aa575c33b"
+    "sha256": "010db22afc93deb8358fdac73dbdfbf09821b17c35888916b027ad2aa575c33b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/id9aa7e91__archive_org__ALifeU.G.Krishnamurti__ALifeU.G.Krishnamurti_meta.xml",
+    "kept": "release"
    },
    "archive_org/ALifeU.G.Krishnamurti/ALifeU.G.Krishnamurti_meta.sqlite": {
     "bytes": 12288,
-    "sha256": "a8a46877a284bc5497cda5c93af3bce0e2cae2127732ae249c09b8b196786bfa"
+    "sha256": "a8a46877a284bc5497cda5c93af3bce0e2cae2127732ae249c09b8b196786bfa",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/id9aa7e91__archive_org__ALifeU.G.Krishnamurti__ALifeU.G.Krishnamurti_meta.sqlite",
+    "kept": "release"
+   },
+   "archive_org/ALifeU.G.Krishnamurti/A Life - U. G. Krishnamurti_djvu.txt": {
+    "bytes": 243709,
+    "sha256": "9a1d0ee651bf417c610033b0e4bdd6295dd5882e161a95cb6da6032f1602619e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/id9aa7e91__archive_org__ALifeU.G.Krishnamurti__A_Life_-_U._G._Krishnamurti_djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2da9219f": {
   "title": "On U.G. — collection of reflections and essays (185 pp PDF, Internet Archive)",
   "kind": "archive_org",
   "url": "https://archive.org/details/UGKrishnamurtiOnU.G185p",
-  "fetched": "2026-11-05T02:19:09+00:00",
+  "fetched": "2026-11-05T06:15:53+00:00",
   "files": {
    "archive_org/UGKrishnamurtiOnU.G185p/__ia_thumb.jpg": {
     "bytes": 5946,
-    "sha256": "b69d5b98e65f340f686b18baf7b858c417bd2117d2b84301ff1fa9ad59f197c3"
+    "sha256": "b69d5b98e65f340f686b18baf7b858c417bd2117d2b84301ff1fa9ad59f197c3",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p____ia_thumb.jpg",
+    "kept": "release"
    },
    "archive_org/UGKrishnamurtiOnU.G185p/UGKrishnamurtiOnU.G185p_meta.xml": {
     "bytes": 1050,
-    "sha256": "57ba9b2195888613435e1c962895bcdf32da44415512a9cdf4a802d46b093960"
+    "sha256": "57ba9b2195888613435e1c962895bcdf32da44415512a9cdf4a802d46b093960",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p__UGKrishnamurtiOnU.G185p_meta.xml",
+    "kept": "release"
    },
    "archive_org/UGKrishnamurtiOnU.G185p/UG Krishnamurti - On U.G (185p).pdf": {
     "bytes": 1622957,
-    "sha256": "a3193fa8575a6afc9e8c07653d7c3f34939d1fa2259cdba8c6e585cc816cdf49"
+    "sha256": "a3193fa8575a6afc9e8c07653d7c3f34939d1fa2259cdba8c6e585cc816cdf49",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p__UG_Krishnamurti_-_On_U.G__185p_.pdf",
+    "kept": "release"
    },
    "archive_org/UGKrishnamurtiOnU.G185p/UGKrishnamurtiOnU.G185p_files.xml": {
     "bytes": 4076,
-    "sha256": "cfa1f2a4b98807c9522bf2536379758180bfb83b490ff1f9d30df8dc965a3cb9"
+    "sha256": "cfa1f2a4b98807c9522bf2536379758180bfb83b490ff1f9d30df8dc965a3cb9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p__UGKrishnamurtiOnU.G185p_files.xml",
+    "kept": "release"
    },
    "archive_org/UGKrishnamurtiOnU.G185p/UGKrishnamurtiOnU.G185p_meta.sqlite": {
     "bytes": 9216,
-    "sha256": "ff039e6ea47a3bf99e78ae1df8010560e5fe55f685a897bd9b0785613a0bcfb8"
+    "sha256": "ff039e6ea47a3bf99e78ae1df8010560e5fe55f685a897bd9b0785613a0bcfb8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p__UGKrishnamurtiOnU.G185p_meta.sqlite",
+    "kept": "release"
+   },
+   "archive_org/UGKrishnamurtiOnU.G185p/UG Krishnamurti - On U.G (185p)_djvu.txt": {
+    "bytes": 720537,
+    "sha256": "c42f990e6752ae2277708b7d0e6cc6e41d7014d5819a6781b254fafad8633cb6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i2da9219f__archive_org__UGKrishnamurtiOnU.G185p__UG_Krishnamurti_-_On_U.G__185p__djvu.txt",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ieb8f9ae6": {
   "title": "Interview with Willem de Ridder (18 January 2002)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_2002-01-18_interview_willem_de_ridder",
-  "fetched": "2026-11-05T02:19:13+00:00",
+  "fetched": "2026-11-05T06:16:04+00:00",
   "files": {
    "archive_org/ug_2002-01-18_interview_willem_de_ridder/2002-01-18_interview_willem_de_ridder.ra_meta.txt": {
     "bytes": 350,
-    "sha256": "d7c5663e6178a6faa7b708052ca74317a153a2b5209b1bdbc066865517f256d7"
+    "sha256": "d7c5663e6178a6faa7b708052ca74317a153a2b5209b1bdbc066865517f256d7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder__2002-01-18_interview_willem_de_ridder.ra_meta.txt",
+    "kept": "release"
    },
    "archive_org/ug_2002-01-18_interview_willem_de_ridder/__ia_thumb.jpg": {
     "bytes": 3003,
-    "sha256": "b534d367db61a519161448522155cb1bc954851f006c85a039bb653c5f500f92"
+    "sha256": "b534d367db61a519161448522155cb1bc954851f006c85a039bb653c5f500f92",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder____ia_thumb.jpg",
+    "kept": "release"
    },
    "archive_org/ug_2002-01-18_interview_willem_de_ridder/ug_2002-01-18_interview_willem_de_ridder_files.xml": {
     "bytes": 3324,
-    "sha256": "a9ff2f1350de357ec14a88fc27779b8e1fd790ce19fca576fabb442186a8f876"
+    "sha256": "a9ff2f1350de357ec14a88fc27779b8e1fd790ce19fca576fabb442186a8f876",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder__ug_2002-01-18_interview_willem_de_ridder_files.xml",
+    "kept": "release"
    },
    "archive_org/ug_2002-01-18_interview_willem_de_ridder/ug_2002-01-18_interview_willem_de_ridder_meta.xml": {
     "bytes": 673,
-    "sha256": "0fa6938c99c7cca32742c754d7ad53be504b44f94fa72cffa8c1715b8b417dae"
+    "sha256": "0fa6938c99c7cca32742c754d7ad53be504b44f94fa72cffa8c1715b8b417dae",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder__ug_2002-01-18_interview_willem_de_ridder_meta.xml",
+    "kept": "release"
    },
    "archive_org/ug_2002-01-18_interview_willem_de_ridder/2002-01-18_interview_willem_de_ridder.ra": {
     "bytes": 14606727,
     "sha256": "99ccd5b3a5a019777c446b1038d9688e9276ffb037c853a921ba01d39e54a151",
-    "seconds": 6973.9
+    "seconds": 6973.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder__2002-01-18_interview_willem_de_ridder.ra",
+    "kept": "release"
+   },
+   "archive_org/ug_2002-01-18_interview_willem_de_ridder/2002-01-18_interview_willem_de_ridder.mp3": {
+    "bytes": 44907008,
+    "sha256": "b0099314aed164439bbf9266a546267165e5215608ad379cdeabc4692b0c1611",
+    "seconds": 6989.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ieb8f9ae6__archive_org__ug_2002-01-18_interview_willem_de_ridder__2002-01-18_interview_willem_de_ridder.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i3ef76c05": {
   "title": "U.G. with S.C. Birla (2/2)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_birla_02",
-  "fetched": "2026-11-05T02:19:23+00:00",
+  "fetched": "2026-11-05T06:17:07+00:00",
   "files": {
    "archive_org/ug_birla_02/__ia_thumb.jpg": {
     "bytes": 6079,
-    "sha256": "b4d824910f0808bfcf41895699d2faea468c9527ff3022e19b718a42fde52b03"
+    "sha256": "b4d824910f0808bfcf41895699d2faea468c9527ff3022e19b718a42fde52b03",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02____ia_thumb.jpg",
+    "kept": "release"
    },
    "archive_org/ug_birla_02/ug_birla_02_meta.xml": {
     "bytes": 677,
-    "sha256": "e65fbe8885a73857e428ca4812e2ae98e52bb99e20b396e808aed48b95e1733d"
+    "sha256": "e65fbe8885a73857e428ca4812e2ae98e52bb99e20b396e808aed48b95e1733d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02__ug_birla_02_meta.xml",
+    "kept": "release"
    },
    "archive_org/ug_birla_02/ug_birla_02_files.xml": {
     "bytes": 9005,
-    "sha256": "8342007470cf46e8010919b8700dc55bde3606c5d2ae936a3be833f7bde39712"
+    "sha256": "8342007470cf46e8010919b8700dc55bde3606c5d2ae936a3be833f7bde39712",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02__ug_birla_02_files.xml",
+    "kept": "release"
    },
    "archive_org/ug_birla_02/birla_02.rm": {
     "bytes": 2950791,
-    "sha256": "b6d99d42d771f2cc22a1c902355dbf41805658547ed112dd44d61934d8afce43"
+    "sha256": "b6d99d42d771f2cc22a1c902355dbf41805658547ed112dd44d61934d8afce43",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02__birla_02.rm",
+    "kept": "release"
    },
    "archive_org/ug_birla_02/birla_02.rm_meta.txt": {
     "bytes": 357,
-    "sha256": "740b88753bf445a1e3ff9383f4773621b0cafb43cb245c97cf36ec84af15ccc2"
+    "sha256": "740b88753bf445a1e3ff9383f4773621b0cafb43cb245c97cf36ec84af15ccc2",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02__birla_02.rm_meta.txt",
+    "kept": "release"
+   },
+   "archive_org/ug_birla_02/birla_02.mp4": {
+    "bytes": 52871341,
+    "sha256": "358a04072f6299145dc7fce551419da93c97c236960d36a6585449cf349cbb3f",
+    "seconds": 509.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/i3ef76c05__archive_org__ug_birla_02__birla_02.mp4",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "ia12b7ef1": {
   "title": "U.G. Radio Interview (1/3) and (3/3)",
   "kind": "archive_org",
   "url": "https://archive.org/details/ug_f2f_1",
-  "fetched": "2026-11-05T02:19:27+00:00",
+  "fetched": "2026-11-05T06:17:15+00:00",
   "files": {
    "archive_org/ug_f2f_1/__ia_thumb.jpg": {
     "bytes": 3262,
-    "sha256": "0da34de500911890c46fcba5856d10e710144178d2fe48be5d2e4256ddd12197"
+    "sha256": "0da34de500911890c46fcba5856d10e710144178d2fe48be5d2e4256ddd12197",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1____ia_thumb.jpg",
+    "kept": "release"
    },
    "archive_org/ug_f2f_1/f2f_1.ra_meta.txt": {
     "bytes": 349,
-    "sha256": "118f4c2dea78e1f3c09847b4da9cad25c686ec2a2df0495d4690f903ba1671ea"
+    "sha256": "118f4c2dea78e1f3c09847b4da9cad25c686ec2a2df0495d4690f903ba1671ea",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1__f2f_1.ra_meta.txt",
+    "kept": "release"
    },
    "archive_org/ug_f2f_1/ug_f2f_1_files.xml": {
     "bytes": 2954,
-    "sha256": "ddf207a7dd6d8cbf87ccb284ee759b34723cf6fd5dd63c08c9f68a9b997c2af2"
+    "sha256": "ddf207a7dd6d8cbf87ccb284ee759b34723cf6fd5dd63c08c9f68a9b997c2af2",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1__ug_f2f_1_files.xml",
+    "kept": "release"
    },
    "archive_org/ug_f2f_1/ug_f2f_1_meta.xml": {
     "bytes": 580,
-    "sha256": "971dea420dc8c26d42f76af40edb8a846abb19cdee242346426bc3ad8464f7fc"
+    "sha256": "971dea420dc8c26d42f76af40edb8a846abb19cdee242346426bc3ad8464f7fc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1__ug_f2f_1_meta.xml",
+    "kept": "release"
    },
    "archive_org/ug_f2f_1/f2f_1.ra": {
     "bytes": 1416540,
     "sha256": "73c267aedb24a33fc540ec628ef4618f7b3649bcf9d510523416a86206f0d92b",
-    "seconds": 677.8
+    "seconds": 677.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1__f2f_1.ra",
+    "kept": "release"
+   },
+   "archive_org/ug_f2f_1/f2f_1.mp3": {
+    "bytes": 4088832,
+    "sha256": "e0bafcdcadf32e9b31ccf405cd171de427f3b484a581fbda8fea1bce22d15d65",
+    "seconds": 677.8,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-archive_org-2/ia12b7ef1__archive_org__ug_f2f_1__f2f_1.mp3",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i9706b3cd": {
   "title": "Chandrasekhar's tape archive (Bangalore -> Yercaud) incl. Dr. Desiraju life-story sessions",
@@ -8077,7 +8944,7 @@
   "title": "New Dimensions Media records — finding aid (Online Archive of California)",
   "kind": "other_pages",
   "url": "https://oac.cdlib.org/findaid/ark:/13030/c8hq44pj/entire_text/",
-  "fetched": "2026-11-05T01:46:13+00:00",
+  "fetched": "2026-11-05T03:00:10+00:00",
   "files": {
    "pages/oac.cdlib.org_findaid_ark__13030_c8hq44pj_entire_text.html": {
     "bytes": 0,
@@ -12014,7 +12881,7 @@
   "title": "true-dhamma.com — U.G.克里希那穆提 folder (Chinese Dharma site)",
   "kind": "other_pages",
   "url": "https://file.true-dhamma.com/实相与解构/U.G.克里希那穆提/",
-  "fetched": "2026-11-05T02:01:35+00:00",
+  "fetched": "2026-11-05T03:04:31+00:00",
   "files": {
    "pages/file.true-dhamma.com_实相与解构_U.G.克里希那穆提.html": {
     "bytes": 0,
@@ -15597,317 +16464,439 @@
   "title": "The Ashes Are Warm — Rupa 2026 cover (B&W photo of Mahesh Bhatt with UG)",
   "kind": "other_pages",
   "url": "https://x.com/sunitapb/status/2038250592112660596",
-  "fetched": "2026-11-05T02:19:27+00:00",
+  "fetched": "2026-11-05T03:12:10+00:00",
   "files": {
    "pages/x.com_sunitapb_status_2038250592112660596.html": {
     "bytes": 109364,
-    "sha256": "e31f8e2d73312f1b3a20fe1659cf6ef8956587f0895539f8cc0d2af6b11fb7e4"
+    "sha256": "e31f8e2d73312f1b3a20fe1659cf6ef8956587f0895539f8cc0d2af6b11fb7e4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib8fc5503__pages__x.com_sunitapb_status_2038250592112660596.html",
+    "kept": "release"
    },
    "images/ib8fc5503/5SeqTdMm_normal.jpg": {
     "bytes": 2263,
-    "sha256": "e6878cb8482cb6a32ff1e0516fdcc5cf0cd077546ea0f71438f77f044a8aecfc"
+    "sha256": "e6878cb8482cb6a32ff1e0516fdcc5cf0cd077546ea0f71438f77f044a8aecfc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib8fc5503__images__ib8fc5503__5SeqTdMm_normal.jpg",
+    "kept": "release"
    },
    "images/ib8fc5503/apple-touch-icon.png": {
     "bytes": 13160,
-    "sha256": "a83542eb0563242949d7dbde720014fb7ab48ae14ed59f43eec34907cb90c477"
+    "sha256": "a83542eb0563242949d7dbde720014fb7ab48ae14ed59f43eec34907cb90c477",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib8fc5503__images__ib8fc5503__apple-touch-icon.png",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "iaaa1a10e": {
   "title": "Flickr: 'ug_4_046 — My Favourite Portrait of U.G Krishnamurti' (Santhosh Samarthyam)",
   "kind": "other_pages",
   "url": "https://www.flickr.com/photos/samarthyam/53297785/",
-  "fetched": "2026-11-05T02:19:30+00:00",
+  "fetched": "2026-11-05T03:12:14+00:00",
   "files": {
    "pages/www.flickr.com_photos_samarthyam_53297785.html": {
     "bytes": 513062,
-    "sha256": "60c85178331b23cc09e0ba9ddfe9d19df652d748866cd45aaac9f5230cd9563c"
+    "sha256": "60c85178331b23cc09e0ba9ddfe9d19df652d748866cd45aaac9f5230cd9563c",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/iaaa1a10e__pages__www.flickr.com_photos_samarthyam_53297785.html",
+    "kept": "release"
    },
    "images/iaaa1a10e/53297785_beea2fb928_w.jpg": {
     "bytes": 25948,
-    "sha256": "e85d00735e8a2dd56abae2bd45c35a0b4ec0ea848a08e1300cade47fc04187be"
+    "sha256": "e85d00735e8a2dd56abae2bd45c35a0b4ec0ea848a08e1300cade47fc04187be",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/iaaa1a10e__images__iaaa1a10e__53297785_beea2fb928_w.jpg",
+    "kept": "release"
    },
    "images/iaaa1a10e/favicon-228.png": {
     "bytes": 2147,
-    "sha256": "fe80b338af98131453c46defb2bde869cc4c015a67aab83381b329a142ab3f2b"
+    "sha256": "fe80b338af98131453c46defb2bde869cc4c015a67aab83381b329a142ab3f2b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/iaaa1a10e__images__iaaa1a10e__favicon-228.png",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i8353a1b7": {
   "title": "The Little Book of Questions — Penguin India 2000 cover (comp. Mahesh Bhatt)",
   "kind": "other_pages",
   "url": "https://www.amazon.com/Little-Book-Questions-U-G-Krishnamurti/dp/0140299386",
-  "fetched": "2026-11-05T02:19:33+00:00",
+  "fetched": "2026-11-05T03:12:15+00:00",
   "files": {
    "pages/www.amazon.com_Little-Book-Questions-U-G-Krishnamurti_dp_0140299386.html": {
     "bytes": 3781,
-    "sha256": "27eec9e7445264d3b425677b05fab5825a97f709f0d5427df43418af617bb1ce"
+    "sha256": "27eec9e7445264d3b425677b05fab5825a97f709f0d5427df43418af617bb1ce",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8353a1b7__pages__www.amazon.com_Little-Book-Questions-U-G-Krishnamurti_dp_0140299386.html",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i91b59bba": {
   "title": "The Natural State: In the Words of U.G. Krishnamurti — Smriti Books 2005/2006 cover (comp. Peter Maverick)",
   "kind": "other_pages",
   "url": "https://www.amazon.com/Natural-State-Words-U-G-Krishnamurti/dp/8187967803",
-  "fetched": "2026-11-05T02:19:34+00:00",
+  "fetched": "2026-11-05T03:12:16+00:00",
   "files": {
    "pages/www.amazon.com_Natural-State-Words-U-G-Krishnamurti_dp_8187967803.html": {
     "bytes": 3781,
-    "sha256": "9d3f2889472a6f91a49488abbde781c8a20ee731d37c5e1486785efed9691526"
+    "sha256": "9d3f2889472a6f91a49488abbde781c8a20ee731d37c5e1486785efed9691526",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i91b59bba__pages__www.amazon.com_Natural-State-Words-U-G-Krishnamurti_dp_8187967803.html",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i8d224c5f": {
   "title": "Telugu: 'యు.జి. కృష్ణమూర్తి – జీవితం – తాత్వికత' cover (Exotic India) and 'ఎవరీ యు.జి. కృష్ణమూర్తి' (J.S. Subrahmanyam, Pothi)",
   "kind": "other_pages",
   "url": "https://www.exoticindiaart.com/book/details/u-g-krishnamurti-life-philosophy-telugu-haz053/",
-  "fetched": "2026-11-05T02:20:18+00:00",
+  "fetched": "2026-11-05T03:13:00+00:00",
   "files": {
    "pages/www.exoticindiaart.com_book_details_u-g-krishnamurti-life-philosophy-telugu-haz053.html": {
     "bytes": 543963,
-    "sha256": "17f58e920eeb6f62bb933638422d4c108bff9f69f6f16972df865d161c2811db"
+    "sha256": "17f58e920eeb6f62bb933638422d4c108bff9f69f6f16972df865d161c2811db",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__pages__www.exoticindiaart.com_book_details_u-g-krishnamurti-life-philosophy-telugu-haz053.html",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053.webp": {
     "bytes": 17216,
-    "sha256": "ea41fca2c3de3fca0541f6e990f00a4a4a69b2b29b36649f9e1df5be94c24480"
+    "sha256": "ea41fca2c3de3fca0541f6e990f00a4a4a69b2b29b36649f9e1df5be94c24480",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/ldb329.jpg": {
     "bytes": 32347,
-    "sha256": "f0925cc4795e1868abe4c600ddeb96497eb3c45e8cd62e9f71bea4a30e599110"
+    "sha256": "f0925cc4795e1868abe4c600ddeb96497eb3c45e8cd62e9f71bea4a30e599110",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__ldb329.jpg",
+    "kept": "release"
    },
    "images/i8d224c5f/bb93.jpg": {
     "bytes": 23205,
-    "sha256": "fdc4fbca7e24fec0cf88cf6da5f350b8ceabd17e074616d488bf6c726903595f"
+    "sha256": "fdc4fbca7e24fec0cf88cf6da5f350b8ceabd17e074616d488bf6c726903595f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__bb93.jpg",
+    "kept": "release"
    },
    "images/i8d224c5f/zep553.jpg": {
     "bytes": 26335,
-    "sha256": "cd4d1baa87ce5704e178695ca6d3e391e64ad777fe6a6457f878ae75980cc661"
+    "sha256": "cd4d1baa87ce5704e178695ca6d3e391e64ad777fe6a6457f878ae75980cc661",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__zep553.jpg",
+    "kept": "release"
    },
    "images/i8d224c5f/nab006.jpg": {
     "bytes": 27363,
-    "sha256": "19306d1831bdfa034dd050f08033e25c671188af9645870ec87b00acf880623a"
+    "sha256": "19306d1831bdfa034dd050f08033e25c671188af9645870ec87b00acf880623a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__nab006.jpg",
+    "kept": "release"
    },
    "images/i8d224c5f/shc43.jpg": {
     "bytes": 14455,
-    "sha256": "7f758664bf3b5b9a4fecb76763a9fb97bf1e75dc7f20726596639b4b6dacaae7"
+    "sha256": "7f758664bf3b5b9a4fecb76763a9fb97bf1e75dc7f20726596639b4b6dacaae7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__shc43.jpg",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053d.webp": {
     "bytes": 2114,
-    "sha256": "f9774d530dc0148162f6fa3f70e4cb4e85f66297f78f272fdb720a7611fd33b1"
+    "sha256": "f9774d530dc0148162f6fa3f70e4cb4e85f66297f78f272fdb720a7611fd33b1",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053d.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053e.webp": {
     "bytes": 2132,
-    "sha256": "dc997b897822c71eb5918ee26f561fef2c5b2ca8eac4113a099b6f6b3875308f"
+    "sha256": "dc997b897822c71eb5918ee26f561fef2c5b2ca8eac4113a099b6f6b3875308f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053e.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053f.webp": {
     "bytes": 2114,
-    "sha256": "6634a5fe286da452e2525b70426fffa9db2c12814c75cd5e849d5e687d8da2ba"
+    "sha256": "6634a5fe286da452e2525b70426fffa9db2c12814c75cd5e849d5e687d8da2ba",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053f.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053g.webp": {
     "bytes": 2332,
-    "sha256": "6c10df4cfdc152756387b85f51ac9a8dd8261b026f5c5407e059853d266d8744"
+    "sha256": "6c10df4cfdc152756387b85f51ac9a8dd8261b026f5c5407e059853d266d8744",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053g.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053i.webp": {
     "bytes": 2412,
-    "sha256": "09e70de6b8626842db0d43913ccae2fe1f441acf8bfc43b38038f92391371b60"
+    "sha256": "09e70de6b8626842db0d43913ccae2fe1f441acf8bfc43b38038f92391371b60",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053i.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053j.webp": {
     "bytes": 2054,
-    "sha256": "6c2270dde34a1e716092028b275482b9405991df68273c317e35f12ec189d6bc"
+    "sha256": "6c2270dde34a1e716092028b275482b9405991df68273c317e35f12ec189d6bc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053j.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053k.webp": {
     "bytes": 2160,
-    "sha256": "0a1f786b7c21f63ada34a7165c47dc638bafc1a39d476d9ae1974928aaf1a432"
+    "sha256": "0a1f786b7c21f63ada34a7165c47dc638bafc1a39d476d9ae1974928aaf1a432",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053k.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053l.webp": {
     "bytes": 2294,
-    "sha256": "c766855c7307351320998c375072c1afdcad8900b069d22a1e78889c767a7df6"
+    "sha256": "c766855c7307351320998c375072c1afdcad8900b069d22a1e78889c767a7df6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053l.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053m.webp": {
     "bytes": 2162,
-    "sha256": "81e0d60d32cd83c241ff4c29f1efcad0572d9016a819d844a1c18811fba51183"
+    "sha256": "81e0d60d32cd83c241ff4c29f1efcad0572d9016a819d844a1c18811fba51183",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053m.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/freeshipping-icon-productdetails.png": {
     "bytes": 3990,
-    "sha256": "9c16141defa76acbd8ce5f04df532ab63b7e26899093b9889f74db85f46f4531"
+    "sha256": "9c16141defa76acbd8ce5f04df532ab63b7e26899093b9889f74db85f46f4531",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__freeshipping-icon-productdetails.png",
+    "kept": "release"
    },
    "images/i8d224c5f/addon-icon-productdetails.png": {
     "bytes": 10532,
-    "sha256": "b27d7cef0c1408f93d5be466aee06e0ed8a918ebed78fa651a9e82ec294765d1"
+    "sha256": "b27d7cef0c1408f93d5be466aee06e0ed8a918ebed78fa651a9e82ec294765d1",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__addon-icon-productdetails.png",
+    "kept": "release"
    },
    "images/i8d224c5f/hcb884.webp": {
     "bytes": 20060,
-    "sha256": "e5858618916b5ed2ff412d1de6939a849a212cacae8c2ed749f064ccd97f12df"
+    "sha256": "e5858618916b5ed2ff412d1de6939a849a212cacae8c2ed749f064ccd97f12df",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hcb884.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbf716.webp": {
     "bytes": 18234,
-    "sha256": "7fa0a4bcd6f32a397530cb9d9332a7209306db56a369921fa309f33b1f7a896f"
+    "sha256": "7fa0a4bcd6f32a397530cb9d9332a7209306db56a369921fa309f33b1f7a896f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbf716.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbf713.webp": {
     "bytes": 16092,
-    "sha256": "63fe21ef443b09ec71ee37b5ab9a25a1d61f6cbac5ba1a08e15693722fc49312"
+    "sha256": "63fe21ef443b09ec71ee37b5ab9a25a1d61f6cbac5ba1a08e15693722fc49312",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbf713.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbf718.webp": {
     "bytes": 13298,
-    "sha256": "73163896c77ab8b8400a964935024d726a507cbb7696532619b286f3e572c43d"
+    "sha256": "73163896c77ab8b8400a964935024d726a507cbb7696532619b286f3e572c43d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbf718.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbf717.webp": {
     "bytes": 20026,
-    "sha256": "f090fd83072e06d11b1a13b323f3db534dd3537004ad48970646c0f2f9c0b8df"
+    "sha256": "f090fd83072e06d11b1a13b323f3db534dd3537004ad48970646c0f2f9c0b8df",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbf717.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz195.webp": {
     "bytes": 22334,
-    "sha256": "c4255dadb19d9da1e9c827d8a17b3c449ef98f0a4b122d71366798143c98cd78"
+    "sha256": "c4255dadb19d9da1e9c827d8a17b3c449ef98f0a4b122d71366798143c98cd78",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz195.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/har474.webp": {
     "bytes": 14008,
-    "sha256": "16e9bddf43347cdbf9cbd2d47741cdc25f76bc041f03e3ceff3ba804be5e63d3"
+    "sha256": "16e9bddf43347cdbf9cbd2d47741cdc25f76bc041f03e3ceff3ba804be5e63d3",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__har474.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz256.webp": {
     "bytes": 12750,
-    "sha256": "774ecc9f89a238f8b41871bad6b69375a3c706f92bbc58a97a3721d38102d703"
+    "sha256": "774ecc9f89a238f8b41871bad6b69375a3c706f92bbc58a97a3721d38102d703",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz256.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbf181.webp": {
     "bytes": 11510,
-    "sha256": "17a394868317861dc2c1d9410aec726f58e43ccf2ac22da5e8116893ac55bc09"
+    "sha256": "17a394868317861dc2c1d9410aec726f58e43ccf2ac22da5e8116893ac55bc09",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbf181.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/ual739.webp": {
     "bytes": 26148,
-    "sha256": "243bc1667c3c6fdad421af27a7d5b21bed9269b34aaf2a91c325d0223edf9cdc"
+    "sha256": "243bc1667c3c6fdad421af27a7d5b21bed9269b34aaf2a91c325d0223edf9cdc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__ual739.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/hbs050.webp": {
     "bytes": 16990,
-    "sha256": "72918c63d499dc21a81de11d11566baabc208b88358301c7a616ae421ddeec9e"
+    "sha256": "72918c63d499dc21a81de11d11566baabc208b88358301c7a616ae421ddeec9e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__hbs050.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/app-google.png": {
     "bytes": 2596,
-    "sha256": "0154951e6b61f3ea898767e5e5ee9b3b1f799ab53e4d74faf290a0fe44937901"
+    "sha256": "0154951e6b61f3ea898767e5e5ee9b3b1f799ab53e4d74faf290a0fe44937901",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__app-google.png",
+    "kept": "release"
    },
    "images/i8d224c5f/app-apple.png": {
     "bytes": 3113,
-    "sha256": "701e0f89ae6e7a79b31977c971fdfcf6447fedf3abc32d0a5705435eb8ce8f97"
+    "sha256": "701e0f89ae6e7a79b31977c971fdfcf6447fedf3abc32d0a5705435eb8ce8f97",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__app-apple.png",
+    "kept": "release"
    },
    "images/i8d224c5f/logo-favicon-180.png": {
     "bytes": 4174,
-    "sha256": "956e8f9a868b473f0137e8a987771d4c67a882111ca5c7db66949a5b58b1c147"
+    "sha256": "956e8f9a868b473f0137e8a987771d4c67a882111ca5c7db66949a5b58b1c147",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__logo-favicon-180.png",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053b.webp": {
     "bytes": 40984,
-    "sha256": "583278ab3ebdcedf43d6fbca02873daf86e83bdf2b0d6c7fc3061007e600ed55"
+    "sha256": "583278ab3ebdcedf43d6fbca02873daf86e83bdf2b0d6c7fc3061007e600ed55",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053b.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053c.webp": {
     "bytes": 52620,
-    "sha256": "2c5afb7b036bbcb942af31dcc4da8aed0c78e72d8329521e94b1a4788eb0d485"
+    "sha256": "2c5afb7b036bbcb942af31dcc4da8aed0c78e72d8329521e94b1a4788eb0d485",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053c.webp",
+    "kept": "release"
    },
    "images/i8d224c5f/haz053h.webp": {
     "bytes": 85498,
-    "sha256": "737a8664eb4270aa879e11bb9b18c0a3926de717b314e23e103c490270cbff2a"
+    "sha256": "737a8664eb4270aa879e11bb9b18c0a3926de717b314e23e103c490270cbff2a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i8d224c5f__images__i8d224c5f__haz053h.webp",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "icc612fee": {
   "title": "Italian Wikipedia 'Uppaluri Gopala Krishnamurti' — infobox image",
   "kind": "other_pages",
   "url": "https://it.wikipedia.org/wiki/Uppaluri_Gopala_Krishnamurti",
-  "fetched": "2026-11-05T02:20:33+00:00",
+  "fetched": "2026-11-05T03:13:23+00:00",
   "files": {
    "pages/it.wikipedia.org_wiki_Uppaluri_Gopala_Krishnamurti.html": {
     "bytes": 215574,
-    "sha256": "a7473fc71188f5626c6e2f35f2831c8547370ce836684ae4e1f8a00bcefa463e"
+    "sha256": "a7473fc71188f5626c6e2f35f2831c8547370ce836684ae4e1f8a00bcefa463e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__pages__it.wikipedia.org_wiki_Uppaluri_Gopala_Krishnamurti.html",
+    "kept": "release"
    },
    "images/icc612fee/UGKrishnamurti.jpg": {
     "bytes": 2749,
-    "sha256": "9b4b1be6289e7bddba4c1a1a10ef0c4c609e3100702b126176d1ec1320a580c1"
+    "sha256": "9b4b1be6289e7bddba4c1a1a10ef0c4c609e3100702b126176d1ec1320a580c1",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__UGKrishnamurti.jpg",
+    "kept": "release"
    },
    "images/icc612fee/wikipedia.png": {
     "bytes": 13444,
-    "sha256": "94f7729893505b73b9360f51c67074cf44d31a096f25088699ca290fa39cced0"
+    "sha256": "94f7729893505b73b9360f51c67074cf44d31a096f25088699ca290fa39cced0",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__wikipedia.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Crystal_Clear_app_Login_Manager.svg.png": {
     "bytes": 2571,
-    "sha256": "ff7a783fc3c21c13bb64811d602b4ec762f035418369da91c6021c8d02eb6e83"
+    "sha256": "ff7a783fc3c21c13bb64811d602b4ec762f035418369da91c6021c8d02eb6e83",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Crystal_Clear_app_Login_Manager.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Owl_of_Minerva.png": {
     "bytes": 4400,
-    "sha256": "77a7b11e07ec171df5f01bb402915eba913a23057ae59d7d6614c31babf43a8e"
+    "sha256": "77a7b11e07ec171df5f01bb402915eba913a23057ae59d7d6614c31babf43a8e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Owl_of_Minerva.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Hinduism_symbol.png": {
     "bytes": 4103,
-    "sha256": "5d01c561e1714a38c167926c74eaf73faa20ffc0e4fb5d8e07c35cfa0aa1b4b7"
+    "sha256": "5d01c561e1714a38c167926c74eaf73faa20ffc0e4fb5d8e07c35cfa0aa1b4b7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Hinduism_symbol.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Nota_disambigua.svg.png": {
     "bytes": 2394,
-    "sha256": "581119ca585ebbdc613fa6ad9e75d8e7e4e1794a7ed3280c4116dc4ddd3955be"
+    "sha256": "581119ca585ebbdc613fa6ad9e75d8e7e4e1794a7ed3280c4116dc4ddd3955be",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Nota_disambigua.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Coat_of_Arms_of_the_Province_of_Imperia.svg.png": {
     "bytes": 5552,
-    "sha256": "ca219c77d8f3126426eef12b571bebb677fd127744ea12483ef1f356d0dd747f"
+    "sha256": "ca219c77d8f3126426eef12b571bebb677fd127744ea12483ef1f356d0dd747f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Coat_of_Arms_of_the_Province_of_Imperia.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Wikisource-logo.svg.png": {
     "bytes": 2665,
-    "sha256": "cd06923de6686ed9b8c46ca2a10437c754b2350c24b183c947364f59c00efb23"
+    "sha256": "cd06923de6686ed9b8c46ca2a10437c754b2350c24b183c947364f59c00efb23",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Wikisource-logo.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/40px-Commons-logo.svg.png": {
     "bytes": 2189,
-    "sha256": "5ef7ef20869c24671eb2f97e3db46416cc92f354b1310eed337c0a368e83c44d"
+    "sha256": "5ef7ef20869c24671eb2f97e3db46416cc92f354b1310eed337c0a368e83c44d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__40px-Commons-logo.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/60px-Crystal_Clear_app_Login_Manager.svg.png": {
     "bytes": 4319,
-    "sha256": "a4ee23ad7433286f70dcba12a8f61800461a112dabc3b1815608a15e9676c654"
+    "sha256": "a4ee23ad7433286f70dcba12a8f61800461a112dabc3b1815608a15e9676c654",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__60px-Crystal_Clear_app_Login_Manager.svg.png",
+    "kept": "release"
    },
    "images/icc612fee/60px-Owl_of_Minerva.png": {
     "bytes": 8820,
-    "sha256": "3080dcc01e8f641b4578b39f2f91acd97a16271a42fa2df2613c4e316fb8d5ad"
+    "sha256": "3080dcc01e8f641b4578b39f2f91acd97a16271a42fa2df2613c4e316fb8d5ad",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__60px-Owl_of_Minerva.png",
+    "kept": "release"
    },
    "images/icc612fee/60px-Hinduism_symbol.png": {
     "bytes": 7262,
-    "sha256": "1363776f049e30571b48a305bd19443f6a362a3cc3afb67aad2c8c6472f17d3b"
+    "sha256": "1363776f049e30571b48a305bd19443f6a362a3cc3afb67aad2c8c6472f17d3b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__60px-Hinduism_symbol.png",
+    "kept": "release"
    },
    "images/icc612fee/File_UGKrishnamurti.jpg": {
     "bytes": 99728,
-    "sha256": "91109a2ad8df555dae42c6a96fd9fda1c3f1515f2da4b31497781958f1b9adfd"
+    "sha256": "91109a2ad8df555dae42c6a96fd9fda1c3f1515f2da4b31497781958f1b9adfd",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__File_UGKrishnamurti.jpg",
+    "kept": "release"
    },
    "images/icc612fee/File_Owl_of_Minerva.png": {
     "bytes": 107694,
-    "sha256": "6df42ac7e55df25a2a09032f6910815adf809db282879a2672a790ac1dbac246"
+    "sha256": "6df42ac7e55df25a2a09032f6910815adf809db282879a2672a790ac1dbac246",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__File_Owl_of_Minerva.png",
+    "kept": "release"
    },
    "images/icc612fee/File_HinduismSymbol.PNG": {
     "bytes": 101851,
-    "sha256": "e41161cb4ac629ada7d5edc7541eb84017c8ab45ff7e9193020f70b629c37dbc"
+    "sha256": "e41161cb4ac629ada7d5edc7541eb84017c8ab45ff7e9193020f70b629c37dbc",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/icc612fee__images__icc612fee__File_HinduismSymbol.PNG",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i939b06aa": {
   "title": "nondualite.free.fr — U.G. Krishnamurti pages (French/English)",
   "kind": "other_pages",
   "url": "http://nondualite.free.fr/c_ugev01.htm",
-  "fetched": "2026-11-05T02:20:53+00:00",
+  "fetched": "2026-11-05T03:13:44+00:00",
   "files": {
    "pages/nondualite.free.fr_c_ugev01.htm": {
     "bytes": 23618,
-    "sha256": "6168065a71678607582e538dd6f4e1eea6b01dd59ffd54b747ccc8df6f7ca61a"
+    "sha256": "6168065a71678607582e538dd6f4e1eea6b01dd59ffd54b747ccc8df6f7ca61a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i939b06aa__pages__nondualite.free.fr_c_ugev01.htm",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i2b7e6756": {
   "title": "eti.martin.free.fr — U.G. Krishnamurti : extrait (La Voie du SOI)",
   "kind": "other_pages",
   "url": "http://eti.martin.free.fr/textes/UG/UG-Krishnamurti-%20extrait.htm",
-  "fetched": "2026-11-05T02:20:54+00:00",
+  "fetched": "2026-11-05T03:13:46+00:00",
   "files": {
    "pages/eti.martin.free.fr_textes_UG_UG-Krishnamurti-_20extrait.htm": {
     "bytes": 18931,
-    "sha256": "aca4a82479ad89d3e8bb2a7a11ced93c1bbc7ee59c479e81ec82937f9b1ad949"
+    "sha256": "aca4a82479ad89d3e8bb2a7a11ced93c1bbc7ee59c479e81ec82937f9b1ad949",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i2b7e6756__pages__eti.martin.free.fr_textes_UG_UG-Krishnamurti-_20extrait.htm",
+    "kept": "release"
    }
   },
-  "complete": false
+  "complete": true
  },
  "i278bda91": {
   "title": "Korean Wikipedia article U. G. 크리슈나무르티",
@@ -16480,7 +17469,7 @@
   "title": "In discussion with Douglas White",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy00/ug-krishnamurti-in-discussion-with-douglas-white",
-  "fetched": "2026-11-05T02:04:44+00:00",
+  "fetched": "2026-11-05T02:59:54+00:00",
   "files": {
    "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In discussion with Douglas White [894377695].info.json": {
     "bytes": 6483,
@@ -16512,7 +17501,7 @@
   "title": "SoundCloud 'krishnamorthy' account family (krishnamorthy, 00, 01, 02)",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy",
-  "fetched": "2026-11-05T02:05:02+00:00",
+  "fetched": "2026-11-05T03:09:27+00:00",
   "files": {
    "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - With Willem De Ridder in Amsterdam. [893713033].jpg": {
     "bytes": 9699,
@@ -16567,6 +17556,156 @@
     "seconds": 2334.8,
     "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_With_Willem_De_Ridder_in_Amsterdam.__893713033_.mp3",
     "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Radio Program, New Dimensions (14⧸11⧸1989) [893702185].info.json": {
+    "bytes": 6000,
+    "sha256": "f863f20c4dbfe55487a067dcf27b1ede934329a0ac6bd5801ddb479983804f3a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Radio_Program__New_Dimensions__14_11_1989___893702185_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Donnald Ingram (16⧸03⧸1990) [893680825].description": {
+    "bytes": 32,
+    "sha256": "406322c845734e55d34b34cd56675ef4f1c416ea8a740fae0a086332173de3b8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Donnald_Ingram__16_03_1990___893680825_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Donnald Ingram (16⧸03⧸1990) [893680825].m4a": {
+    "bytes": 31284337,
+    "sha256": "520ebe281bfb7a3353083ee072b32e49640ba00728e72d93057ea3b1aa7af7e1",
+    "seconds": 2570.0,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Donnald_Ingram__16_03_1990___893680825_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In Sydney, Australia (17⧸11⧸1991) [893655634].m4a": {
+    "bytes": 75303610,
+    "sha256": "6e95c79f1c958112debeaa36e3855021fbcea9c4104ecf525e24c35dcedc6ae5",
+    "seconds": 6186.4,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_In_Sydney__Australia__17_11_1991___893655634_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Talks with Friends (November 1989) [893309602].info.json": {
+    "bytes": 5974,
+    "sha256": "a5bc0b1078193b7c49f7c820f254ab6792492224567789119fe145b360b51478",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Talks_with_Friends__November_1989___893309602_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Radio Program, New Dimensions (14⧸11⧸1989) [893702185].m4a": {
+    "bytes": 44384017,
+    "sha256": "51a27ed346880ea1549b1264c4c0321a998ab6006179cca2dcc47a562aef91a3",
+    "seconds": 3646.2,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Radio_Program__New_Dimensions__14_11_1989___893702185_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Willem de Ridder (18⧸01⧸2002) [892725937].info.json": {
+    "bytes": 6010,
+    "sha256": "c144029a3c5b25f97c7ad56ee6374aa0fb6031b6cb7b14aa4364cd566b0fbff2",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Willem_de_Ridder__18_01_2002___892725937_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - On BBC Radio (Guest Of The Week) [893658544].description": {
+    "bytes": 31,
+    "sha256": "e952dc04384b2d8b74a5a7c6e9d20f34920e5193c405789443088be0a947f65e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_On_BBC_Radio__Guest_Of_The_Week___893658544_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Talks with Friends (November 1989) [893309602].description": {
+    "bytes": 35,
+    "sha256": "f5b455e301ddeb1e74af4546dffdbd12b6f0822b26ca091e98255ea3ec55c379",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Talks_with_Friends__November_1989___893309602_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Talks with Friends (November 1989) [893309602].m4a": {
+    "bytes": 48637686,
+    "sha256": "127137d6b532a4b0a03eefe4c7ed70d1ba6853d0fc23e99d0d0fc8d05d5dead4",
+    "seconds": 3995.7,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Talks_with_Friends__November_1989___893309602_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - On BBC Radio (Guest Of The Week) [893658544].m4a": {
+    "bytes": 21223167,
+    "sha256": "d4359630fad41260a310cde962191581b1b2ae0b534ea376b235e328f071fe2a",
+    "seconds": 1743.5,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_On_BBC_Radio__Guest_Of_The_Week___893658544_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Willem de Ridder (18⧸01⧸2002) [892725937].m4a": {
+    "bytes": 85084437,
+    "sha256": "8072ca1c8cd614a827c46998ccd51685bf701cad3d41958250eefc09f1bee75c",
+    "seconds": 6989.9,
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Willem_de_Ridder__18_01_2002___892725937_.m4a",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Radio Program, New Dimensions (14⧸11⧸1989) [893702185].jpg": {
+    "bytes": 9699,
+    "sha256": "4106330bd9e0b8516af756d92b4104b249ec33efede11e87e6b562d081e04f8d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Radio_Program__New_Dimensions__14_11_1989___893702185_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Willem de Ridder (18⧸01⧸2002) [892725937].jpg": {
+    "bytes": 23098,
+    "sha256": "bd865a8508ca25cb17e3087d197ab8d758e897f739dded9c1c66e4f5cfce4267",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Willem_de_Ridder__18_01_2002___892725937_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Radio Program, New Dimensions (14⧸11⧸1989) [893702185].description": {
+    "bytes": 44,
+    "sha256": "f7ed01098cae44f3f9190176669cbb86f5266847475e6fec01b966f074daa41b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Radio_Program__New_Dimensions__14_11_1989___893702185_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In Sydney, Australia (17⧸11⧸1991) [893655634].description": {
+    "bytes": 34,
+    "sha256": "1c9f7be39f2968c8e8da5949a87eb29273bfc29916ce7eac81c298907b60566f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_In_Sydney__Australia__17_11_1991___893655634_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Talks with Friends (November 1989) [893309602].jpg": {
+    "bytes": 22246,
+    "sha256": "3a8e2ec78e80c1f668eef19cac5a9689f0ad98fb7d56b680b3d4855ed0db3617",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Talks_with_Friends__November_1989___893309602_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Donnald Ingram (16⧸03⧸1990) [893680825].jpg": {
+    "bytes": 9699,
+    "sha256": "4106330bd9e0b8516af756d92b4104b249ec33efede11e87e6b562d081e04f8d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Donnald_Ingram__16_03_1990___893680825_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In Sydney, Australia (17⧸11⧸1991) [893655634].info.json": {
+    "bytes": 6005,
+    "sha256": "4008b105b9c294899c88b2d1e741e717221324a0c42891d30e51c52fca87916c",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_In_Sydney__Australia__17_11_1991___893655634_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - On BBC Radio (Guest Of The Week) [893658544].jpg": {
+    "bytes": 22246,
+    "sha256": "3a8e2ec78e80c1f668eef19cac5a9689f0ad98fb7d56b680b3d4855ed0db3617",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_On_BBC_Radio__Guest_Of_The_Week___893658544_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interviewed by Donnald Ingram (16⧸03⧸1990) [893680825].info.json": {
+    "bytes": 6006,
+    "sha256": "b3ac133aa4af64521db4c6e0293509a09a2780613cfe0674b8b693fffdb78b83",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interviewed_by_Donnald_Ingram__16_03_1990___893680825_.info.json",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - In Sydney, Australia (17⧸11⧸1991) [893655634].jpg": {
+    "bytes": 22246,
+    "sha256": "3a8e2ec78e80c1f668eef19cac5a9689f0ad98fb7d56b680b3d4855ed0db3617",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_In_Sydney__Australia__17_11_1991___893655634_.jpg",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - Interview by Willem de Ridder (18⧸01⧸2002) [892725937].description": {
+    "bytes": 50,
+    "sha256": "c245fed8f67dd8d83b1328ca740b64e90870a15baff60f4c6ae4ad204689faf2",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_Interview_by_Willem_de_Ridder__18_01_2002___892725937_.description",
+    "kept": "release"
+   },
+   "soundcloud/U.G. Krishnamurti/U.G. Krishnamurti - On BBC Radio (Guest Of The Week) [893658544].info.json": {
+    "bytes": 5968,
+    "sha256": "1a46f677e045d8ae5bf9ae1e45b8aef3e5bb3c160df4a1c2db6a8e87fee6b9c0",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-soundcloud/i4bf0dc01__soundcloud__U.G._Krishnamurti__U.G._Krishnamurti_-_On_BBC_Radio__Guest_Of_The_Week___893658544_.info.json",
+    "kept": "release"
    }
   },
   "complete": false
@@ -16575,7 +17714,7 @@
   "title": "jason martin - U.G. Krishnamurti (SoundCloud set)",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/jason-martin-746746139/sets/u-g-krishnamurti",
-  "fetched": "2026-11-05T02:05:05+00:00",
+  "fetched": "2026-11-05T03:09:27+00:00",
   "files": {
    "soundcloud/jason martin/u g krishnamurti [227227987].info.json": {
     "bytes": 2428,
@@ -16596,7 +17735,7 @@
   "title": "UG Krishnamurti - Still No One Talking Part 1",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/petermaverick/ug-krishnamurti-still-no-one-1",
-  "fetched": "2026-11-05T02:05:36+00:00",
+  "fetched": "2026-11-05T03:09:42+00:00",
   "files": {
    "soundcloud/Peter Maverick/UG Krishnamurti - Still No One Talking Part 1 [23543953].info.json": {
     "bytes": 5490,
@@ -16628,7 +17767,7 @@
   "title": "U.G. Krishnamurti - With Willem De Ridder in Amsterdam",
   "kind": "soundcloud",
   "url": "https://soundcloud.com/krishnamorthy02/ug-krishnamurti-with-willem-de-ridder-in-amsterdam",
-  "fetched": "2026-11-05T02:05:37+00:00",
+  "fetched": "2026-11-05T03:09:43+00:00",
   "files": {},
   "complete": false
  },
@@ -19165,5 +20304,836 @@
    }
   },
   "complete": false
+ },
+ "i22caeaf3": {
+  "files": {
+   "pages/www.instagram.com_u.g.krishnamurti.html": {
+    "bytes": 372178,
+    "sha256": "7787c189049539b076653c822a9911adba323552e32105803fb83066ac7439c1",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i22caeaf3__pages__www.instagram.com_u.g.krishnamurti.html",
+    "kept": "release"
+   }
+  },
+  "title": "Instagram @u.g.krishnamurti",
+  "kind": "other_pages",
+  "url": "https://www.instagram.com/u.g.krishnamurti/",
+  "complete": true,
+  "fetched": "2026-11-05T02:59:32+00:00"
+ },
+ "ic4a0bb09": {
+  "files": {
+   "pages/sonichits.com_video_U.G._Krishnamurti_Radio_Interview.html": {
+    "bytes": 198456,
+    "sha256": "f2866188b05502a4d68c84d07f7ef4101b5dc4625c659ca9188239f8f3629db2",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ic4a0bb09__pages__sonichits.com_video_U.G._Krishnamurti_Radio_Interview.html",
+    "kept": "release"
+   }
+  },
+  "title": "sonichits — 'U.G. Krishnamurti – Radio Interview'",
+  "kind": "other_pages",
+  "url": "https://sonichits.com/video/U.G._Krishnamurti/Radio_Interview",
+  "complete": true,
+  "fetched": "2026-11-05T03:00:19+00:00"
+ },
+ "i719a8654": {
+  "files": {
+   "pages/dokumen.pub_get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html": {
+    "bytes": 100,
+    "sha256": "23c6c46b091376d7b49f5a855e686ea76ed74b22ded9fbac775a9f0dc2ba3ec4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i719a8654__pages__dokumen.pub_get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html",
+    "kept": "release"
+   }
+  },
+  "title": "Gap: Julie Thayer's audio/video archive",
+  "kind": "other_pages",
+  "url": "https://dokumen.pub/get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti-cookbook-by-julie-thayer.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:00:35+00:00"
+ },
+ "i6ef4f398": {
+  "files": {
+   "pages/pdfcoffee.com_goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html": {
+    "bytes": 74,
+    "sha256": "6f6859ebabb3b4252f8a40a162857d35c161c8d2f6b47ab316575fb465ac8732",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i6ef4f398__pages__pdfcoffee.com_goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html",
+    "kept": "release"
+   }
+  },
+  "title": "Goner — PDF scan (pdfcoffee)",
+  "kind": "other_pages",
+  "url": "https://pdfcoffee.com/goner-the-final-travel-of-ug-krishnamurti-by-louis-brawley-z-liborg-pdf-free.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:00:50+00:00"
+ },
+ "i879de23a": {
+  "files": {
+   "pages/www.instagram.com_drunkenmystic.html": {
+    "bytes": 371938,
+    "sha256": "e4fa6ba6c4771feb8d85187cb097762551bc62c11c8e8bff9252772178d51908",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__pages__www.instagram.com_drunkenmystic.html",
+    "kept": "release"
+   },
+   "images/i879de23a/R0fBIMurK8v.png": {
+    "bytes": 778568,
+    "sha256": "b421b00fd1791a1d1ab70dd1e9667f40ca79a8c8673989864f1be092295cd7da",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__images__i879de23a__R0fBIMurK8v.png",
+    "kept": "release"
+   },
+   "images/i879de23a/mMvhX4currF.webp": {
+    "bytes": 2730,
+    "sha256": "5fc67217d19e913319a38a06cec24b8e7c57a0548bcf102dee5d52b17065446f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__images__i879de23a__mMvhX4currF.webp",
+    "kept": "release"
+   },
+   "images/i879de23a/5OCV_xUyQ5h.webp": {
+    "bytes": 4380,
+    "sha256": "61e7fc6aaf387324c83cdbc35950b483d6943fa096218ea5932c0f180bce3641",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__images__i879de23a__5OCV_xUyQ5h.webp",
+    "kept": "release"
+   },
+   "images/i879de23a/MptwNl-B2pS.webp": {
+    "bytes": 5098,
+    "sha256": "6f93f71464b6a9cfd44f7269e7c3bb2a0ab4ce058fc1ef194c2a5850f75c7135",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__images__i879de23a__MptwNl-B2pS.webp",
+    "kept": "release"
+   },
+   "images/i879de23a/icwX0xAk0pz.webp": {
+    "bytes": 5038,
+    "sha256": "96ead83ee7245a854bd57393f1bc410712799bd7da3420d5b465d7b3e80d89f6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i879de23a__images__i879de23a__icwX0xAk0pz.webp",
+    "kept": "release"
+   }
+  },
+  "title": "Instagram @drunkenmystic 'U.G.Krishnamurti'",
+  "kind": "other_pages",
+  "url": "https://www.instagram.com/drunkenmystic/",
+  "complete": true,
+  "fetched": "2026-11-05T03:01:40+00:00"
+ },
+ "i8c7829ac": {
+  "files": {
+   "pages/dokumen.pub_ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html": {
+    "bytes": 100,
+    "sha256": "23c6c46b091376d7b49f5a855e686ea76ed74b22ded9fbac775a9f0dc2ba3ec4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i8c7829ac__pages__dokumen.pub_ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
+    "kept": "release"
+   }
+  },
+  "title": "14 Days in Palm Springs with UG Krishnamurti — cover (dokumen.pub)",
+  "kind": "other_pages",
+  "url": "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:02:04+00:00"
+ },
+ "ie12f8e8b": {
+  "files": {
+   "pages/redbubble.com_i_photographic-print_U-G-Krishnamurti-by-ugkrishnamurti_59755035.6Q0TX.html": {
+    "bytes": 457739,
+    "sha256": "df87a5f419eb6562115bcda7423dc07a596ed5caa8cc08c44dad65ae7b7cca3c",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__pages__redbubble.com_i_photographic-print_U-G-Krishnamurti-by-ugkrishnamurti_59755035.6Q0TX.html",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/pp_504x498-pad_600x600_f8f8f8.webp": {
+    "bytes": 49228,
+    "sha256": "2bae11d4070236dfbdb63ee344c0cacd14bdb0c585bc521ea7fb7943cc6ca7bb",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__pp_504x498-pad_600x600_f8f8f8.webp",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/fpp_small_lustre_wall_texture_product_750x1000.webp": {
+    "bytes": 69902,
+    "sha256": "ec6c2f7fcba7d3d5ef8478b92b516f40239f7ed808789d07a62e33fde031e850",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__fpp_small_lustre_wall_texture_product_750x1000.webp",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/cpp_small_lustre_product_750x1000.webp": {
+    "bytes": 80536,
+    "sha256": "4514264c1ce3d0a276eb5fb9afd33980b744f90182e376bd6d06aeb22b386dd9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__cpp_small_lustre_product_750x1000.webp",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/flat_750x_075_f-pad_750x1000_f8f8f8.webp": {
+    "bytes": 97094,
+    "sha256": "810eec20aa85c8f470e0c2b6ba63cda6d91c3bb84158b41e817f36efc82d77f8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__flat_750x_075_f-pad_750x1000_f8f8f8.webp",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/avatar.3667917.140x140.jpg": {
+    "bytes": 8941,
+    "sha256": "da6be2e9ecb478b532d8af5b675cce842d8bf76d51d4b5a14c8e658a5098dbc6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__avatar.3667917.140x140.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/pp_504x498-pad_600x600_f8f8f8.jpg": {
+    "bytes": 50884,
+    "sha256": "c8dda240dcec208d8f39135868d8020275adf4d5bed573d6b220b7115f2dc021",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__pp_504x498-pad_600x600_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/raf_360x360_075_t_fafafa_ca443f4786.webp": {
+    "bytes": 29246,
+    "sha256": "35dac201efe37cb2c4277b4b9370ee55b0abe5e7b022be1948f362d92a8b6903",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__raf_360x360_075_t_fafafa_ca443f4786.webp",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/cposter_small_square_product_1000x1000.2.jpg": {
+    "bytes": 139086,
+    "sha256": "796ef6e0abe8e9105e9add211ad124bc5d8efc6477bb997417610356ad323372",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__cposter_small_square_product_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/carp_small_square_product_1000x1000.jpg": {
+    "bytes": 195863,
+    "sha256": "c728aef28c39e79d07a38de11ecde78ffded1295a87e3e4011f1d4bbc9bb570b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__carp_small_square_product_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_lightweight_sweatshirt_mens_01_heather_dark_grey_front_square_close_portrait_x1000.1.jpg": {
+    "bytes": 111923,
+    "sha256": "4cdefe58b04e7bfcc1c7c1e82fe0e6029bb9cfff5695a363ab00b7e6a819992c",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_lightweight_sweatshirt_mens_01_heather_dark_grey_front_square_close_portrait_x1000.1.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ur_acrylic_block_flat_4x4_full_1000x1000.jpg": {
+    "bytes": 65378,
+    "sha256": "b619c541dbd01b2bf671f1decc1dc581dc69ac8382956fac65e27e12558876d5",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ur_acrylic_block_flat_4x4_full_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_oversized_hoodie_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 84862,
+    "sha256": "a52752fc2ebbe678171978fa994100e5aa31503171974fb6efb138853ecfc6e4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_oversized_hoodie_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_oversize_tee_mens_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 80413,
+    "sha256": "ae046cc835a22b250369605b252a38de5b85b1f89512604497fc6ad2dd45363b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_oversize_tee_mens_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_oversized_sweatshirt_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 86799,
+    "sha256": "751c4a7a451dd9d092cc51f00862df8af11a1f01e6ad5c3f3d00b7d9141c9ee6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_oversized_sweatshirt_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_boxy_tee_womens_01_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 81584,
+    "sha256": "be7df4fe780bb361d525a1143af1a5f5bb505a443ef252cb6e8b1f0eeb6c6f72",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_boxy_tee_womens_01_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/mo_small_fridge_close_square_1000x1000.2.jpg": {
+    "bytes": 93370,
+    "sha256": "5d6eff93d049b1139872361d580fe80624df68a74e57918569d2c3a3c06831a9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__mo_small_fridge_close_square_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_zipped_hoodie_mens_01_heather_oatmeal_front_square_close_portrait_x1000.jpg": {
+    "bytes": 96718,
+    "sha256": "a778030d9f13a0f148b0551d439abd6641c645b515fa3de515a285c97ac22b1e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_zipped_hoodie_mens_01_heather_oatmeal_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ur_throw_pillow_couch_small_square_1000x1000.jpg": {
+    "bytes": 189217,
+    "sha256": "a11f19424c595d5ee9146ec6adc417d6824d61e131fe6086febe7fb7094a7b75",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ur_throw_pillow_couch_small_square_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_classic_tee_mens_02_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 82380,
+    "sha256": "91036a8a095e4ccef9dcba69229064b1fd83a78452788dabbe1005510f84aedf",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_classic_tee_mens_02_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_relaxed_tshirt_womens_01_ebe3d1_09f0675ce6_front_square_close_portrait_x1000.jpg": {
+    "bytes": 113886,
+    "sha256": "58ce6df2af50b19324033004d4c444a1910bb8a09d6af3f4055cd6ffa0528f65",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_relaxed_tshirt_womens_01_ebe3d1_09f0675ce6_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_v_neck_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 87342,
+    "sha256": "5d82e5d41c0c9c0a262a0cabf4ce646c9d63dc8d165e27a7c7d2d509d7a7111d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_v_neck_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_active_tee_mens_01_101010_01c5ca27c6_front_square_close_portrait_x1000.jpg": {
+    "bytes": 90160,
+    "sha256": "7f5d37af537d2dda080d9148e3867e165e4dc6ae73d507eff3006fc6e5bf2706",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_active_tee_mens_01_101010_01c5ca27c6_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_essential_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 80348,
+    "sha256": "625341ad186f1f4974d917fb94a5ec4de29612d207444f65b08a26a9403bdc67",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_essential_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ur_coaster_pack_4_flatlay_square_1000x1000.2.jpg": {
+    "bytes": 150121,
+    "sha256": "ba3b0e4ce678e1b2066db080c5896ff5ba7818433945fb2288f3dee48fdfacaf",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ur_coaster_pack_4_flatlay_square_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/paperpc_750x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg": {
+    "bytes": 49477,
+    "sha256": "757f454a5257a3f0f6bee4b6a3107e7e412675c1a865fb32ad23874a68772cf8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__paperpc_750x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/ssrco_pullover_hoodie_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 77367,
+    "sha256": "4eb6df9f3fdd44bc34053157889c00945395a095262aa4c30d98d4a95458da9b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__ssrco_pullover_hoodie_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/papergc_500x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg": {
+    "bytes": 32635,
+    "sha256": "5b08616bd42a38c74db9f352ad178540c7dd0a6fc1f73d2b3e6b5c5a78945a71",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__papergc_500x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/playStoreEn.c1cbdf35.png": {
+    "bytes": 4698,
+    "sha256": "faa29e49e7d6df027fde006b0e7ba588bc55028f44a81a699f8e2c53dd26b2f7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__playStoreEn.c1cbdf35.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/favicon-196x196.png": {
+    "bytes": 2549,
+    "sha256": "ddabccba5c3084b0a19848d1bc120c5d54ac3162796ea3a4c660b88ebd1d477a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__favicon-196x196.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/apple-touch-icon-152x152.png": {
+    "bytes": 3255,
+    "sha256": "ed0fdbcb110e7e336f85c3c416d8e9c97850e907e0f99455774fb402d21c3712",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__apple-touch-icon-152x152.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/apple-touch-icon-144x144.png": {
+    "bytes": 3039,
+    "sha256": "1f844195b23ce2a4e58d5fbfc91a12f5c98a03bc001f6983a2fc92ee81b3f168",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__apple-touch-icon-144x144.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/apple-touch-icon-120x120.png": {
+    "bytes": 2367,
+    "sha256": "1da96cc84464476da2c27d11c9e4c29fd03761a749e2c196501321f6e165ed90",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__apple-touch-icon-120x120.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/apple-touch-icon-114x114.png": {
+    "bytes": 2242,
+    "sha256": "a631781fdb7147f8cb772c8cdf31bc323b70b6a6a94626663249e9c99f6879e9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__apple-touch-icon-114x114.png",
+    "kept": "release"
+   },
+   "images/ie12f8e8b/apple-touch-icon-180x180.png": {
+    "bytes": 4063,
+    "sha256": "6984f8f68a09682192f874722b5e229549dbf0f3267892aa29f7359dfc63c130",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ie12f8e8b__images__ie12f8e8b__apple-touch-icon-180x180.png",
+    "kept": "release"
+   }
+  },
+  "title": "Redbubble photographic print 'U.G. Krishnamurti' by seller ugkrishnamurti",
+  "kind": "other_pages",
+  "url": "https://redbubble.com/i/photographic-print/U-G-Krishnamurti-by-ugkrishnamurti/59755035.6Q0TX",
+  "complete": true,
+  "fetched": "2026-11-05T03:03:21+00:00"
+ },
+ "ib0b3c680": {
+  "files": {
+   "pages/www.redbubble.com_shop_krishnamurti_art-prints.html": {
+    "bytes": 1005133,
+    "sha256": "105c1f472becb7e51365c2f48d2e2dc9073b33b11396b50dbe32a70a2c207bad",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__pages__www.redbubble.com_shop_krishnamurti_art-prints.html",
+    "kept": "release"
+   },
+   "images/ib0b3c680/flat_750x_075_f-pad_750x1000_f8f8f8.jpg": {
+    "bytes": 116031,
+    "sha256": "f7362f6fb956080d38441172325225ca660f9e689d053bcaf8968d82c5934822",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__flat_750x_075_f-pad_750x1000_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.jpg": {
+    "bytes": 25923,
+    "sha256": "f74331d4316826ea149fcfd53bc03d72e6a0f76eff85a1ab0b1ee3e25398c9a0",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u3.jpg": {
+    "bytes": 51299,
+    "sha256": "8b7bc4c3f4970382e1b289f4065b46ab7ef9d3fbe110cf90ac5fb2409448b7c8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u3.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u5.jpg": {
+    "bytes": 35715,
+    "sha256": "6998f3d71dec088d8beb9c3cb09686066ba2384fb9cd7ea1991880b744cc3271",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u5.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u1.jpg": {
+    "bytes": 35788,
+    "sha256": "437dfc98fa470c62bdc44705f188a53961cb5a7f7657a6835c4526978a130e39",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u1.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u7.jpg": {
+    "bytes": 52018,
+    "sha256": "858919e2d844404dce1e80ba5c8aad4a10856aabde1727c4bf72259599166549",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u7.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u9.jpg": {
+    "bytes": 28022,
+    "sha256": "2cd1237a68b8b6a07e776ba78db3ebd594720205e0707f185c71602d72cc3bb8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u9.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u10.jpg": {
+    "bytes": 23484,
+    "sha256": "dd86e0243a0df1284013e3767bbdf766534ed1f1ce64fbeecc2cedbd3fe994e0",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u10.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u2.jpg": {
+    "bytes": 15800,
+    "sha256": "b501868fc5ab7cf5393a168fe599392f36730da752f95e8165a1342fdedfd112",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u2.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u8.jpg": {
+    "bytes": 13608,
+    "sha256": "69544d1c7e1fb4b213bfd76e392b5e424d92055b3acfcebb06e1ed7551413a96",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u8.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/aps_504x498_medium_transparent-pad_600x600_f8f8f8.u4.jpg": {
+    "bytes": 44781,
+    "sha256": "4fe31753899023e50c4d35f8c914ce694c5c05dee8d559cdc5922156a0941034",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__aps_504x498_medium_transparent-pad_600x600_f8f8f8.u4.jpg",
+    "kept": "release"
+   },
+   "images/ib0b3c680/playStoreEn.c1cbdf35.png": {
+    "bytes": 4698,
+    "sha256": "faa29e49e7d6df027fde006b0e7ba588bc55028f44a81a699f8e2c53dd26b2f7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__playStoreEn.c1cbdf35.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/favicon-196x196.png": {
+    "bytes": 2549,
+    "sha256": "ddabccba5c3084b0a19848d1bc120c5d54ac3162796ea3a4c660b88ebd1d477a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__favicon-196x196.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/apple-touch-icon-152x152.png": {
+    "bytes": 3255,
+    "sha256": "ed0fdbcb110e7e336f85c3c416d8e9c97850e907e0f99455774fb402d21c3712",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__apple-touch-icon-152x152.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/apple-touch-icon-144x144.png": {
+    "bytes": 3039,
+    "sha256": "1f844195b23ce2a4e58d5fbfc91a12f5c98a03bc001f6983a2fc92ee81b3f168",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__apple-touch-icon-144x144.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/apple-touch-icon-120x120.png": {
+    "bytes": 2367,
+    "sha256": "1da96cc84464476da2c27d11c9e4c29fd03761a749e2c196501321f6e165ed90",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__apple-touch-icon-120x120.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/apple-touch-icon-114x114.png": {
+    "bytes": 2242,
+    "sha256": "a631781fdb7147f8cb772c8cdf31bc323b70b6a6a94626663249e9c99f6879e9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__apple-touch-icon-114x114.png",
+    "kept": "release"
+   },
+   "images/ib0b3c680/apple-touch-icon-180x180.png": {
+    "bytes": 4063,
+    "sha256": "6984f8f68a09682192f874722b5e229549dbf0f3267892aa29f7359dfc63c130",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ib0b3c680__images__ib0b3c680__apple-touch-icon-180x180.png",
+    "kept": "release"
+   }
+  },
+  "title": "Redbubble 'krishnamurti art prints' search (mixed with J.K.)",
+  "kind": "other_pages",
+  "url": "https://www.redbubble.com/shop/krishnamurti+art-prints",
+  "complete": true,
+  "fetched": "2026-11-05T03:03:54+00:00"
+ },
+ "ic085b7a4": {
+  "files": {
+   "pages/dokumen.pub_the-natural-state.html": {
+    "bytes": 96,
+    "sha256": "12e1b51a355559b58aaeb3e0c01e4b044939d50ec5e4455c910c2b04d3124b29",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/ic085b7a4__pages__dokumen.pub_the-natural-state.html",
+    "kept": "release"
+   }
+  },
+  "title": "The Natural State — dokumen.pub copy",
+  "kind": "other_pages",
+  "url": "https://dokumen.pub/the-natural-state.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:04:10+00:00"
+ },
+ "i049349cb": {
+  "files": {
+   "pages/www.redbubble.com_i_photographic-print_U-G-Krishnamurti-by-ugkrishnamurti_59755035_zltf.html": {
+    "bytes": 457739,
+    "sha256": "57eabf05def1d59f66c3b0aaddcdf245729296af16dfc221896234ebb49018e0",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__pages__www.redbubble.com_i_photographic-print_U-G-Krishnamurti-by-ugkrishnamurti_59755035_zltf.html",
+    "kept": "release"
+   },
+   "images/i049349cb/pp_504x498-pad_600x600_f8f8f8.webp": {
+    "bytes": 49228,
+    "sha256": "2bae11d4070236dfbdb63ee344c0cacd14bdb0c585bc521ea7fb7943cc6ca7bb",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__pp_504x498-pad_600x600_f8f8f8.webp",
+    "kept": "release"
+   },
+   "images/i049349cb/fpp_small_lustre_wall_texture_product_750x1000.webp": {
+    "bytes": 69902,
+    "sha256": "ec6c2f7fcba7d3d5ef8478b92b516f40239f7ed808789d07a62e33fde031e850",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__fpp_small_lustre_wall_texture_product_750x1000.webp",
+    "kept": "release"
+   },
+   "images/i049349cb/cpp_small_lustre_product_750x1000.webp": {
+    "bytes": 80536,
+    "sha256": "4514264c1ce3d0a276eb5fb9afd33980b744f90182e376bd6d06aeb22b386dd9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__cpp_small_lustre_product_750x1000.webp",
+    "kept": "release"
+   },
+   "images/i049349cb/flat_750x_075_f-pad_750x1000_f8f8f8.webp": {
+    "bytes": 97094,
+    "sha256": "810eec20aa85c8f470e0c2b6ba63cda6d91c3bb84158b41e817f36efc82d77f8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__flat_750x_075_f-pad_750x1000_f8f8f8.webp",
+    "kept": "release"
+   },
+   "images/i049349cb/avatar.3667917.140x140.jpg": {
+    "bytes": 8941,
+    "sha256": "da6be2e9ecb478b532d8af5b675cce842d8bf76d51d4b5a14c8e658a5098dbc6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__avatar.3667917.140x140.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/pp_504x498-pad_600x600_f8f8f8.jpg": {
+    "bytes": 50884,
+    "sha256": "c8dda240dcec208d8f39135868d8020275adf4d5bed573d6b220b7115f2dc021",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__pp_504x498-pad_600x600_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/raf_360x360_075_t_fafafa_ca443f4786.webp": {
+    "bytes": 29246,
+    "sha256": "35dac201efe37cb2c4277b4b9370ee55b0abe5e7b022be1948f362d92a8b6903",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__raf_360x360_075_t_fafafa_ca443f4786.webp",
+    "kept": "release"
+   },
+   "images/i049349cb/cposter_small_square_product_1000x1000.2.jpg": {
+    "bytes": 139086,
+    "sha256": "796ef6e0abe8e9105e9add211ad124bc5d8efc6477bb997417610356ad323372",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__cposter_small_square_product_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/carp_small_square_product_1000x1000.jpg": {
+    "bytes": 195863,
+    "sha256": "c728aef28c39e79d07a38de11ecde78ffded1295a87e3e4011f1d4bbc9bb570b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__carp_small_square_product_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_lightweight_sweatshirt_mens_01_heather_dark_grey_front_square_close_portrait_x1000.1.jpg": {
+    "bytes": 111923,
+    "sha256": "4cdefe58b04e7bfcc1c7c1e82fe0e6029bb9cfff5695a363ab00b7e6a819992c",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_lightweight_sweatshirt_mens_01_heather_dark_grey_front_square_close_portrait_x1000.1.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ur_acrylic_block_flat_4x4_full_1000x1000.jpg": {
+    "bytes": 65378,
+    "sha256": "b619c541dbd01b2bf671f1decc1dc581dc69ac8382956fac65e27e12558876d5",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ur_acrylic_block_flat_4x4_full_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_oversized_hoodie_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 84862,
+    "sha256": "a52752fc2ebbe678171978fa994100e5aa31503171974fb6efb138853ecfc6e4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_oversized_hoodie_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_oversize_tee_mens_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 80413,
+    "sha256": "ae046cc835a22b250369605b252a38de5b85b1f89512604497fc6ad2dd45363b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_oversize_tee_mens_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_oversized_sweatshirt_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 86799,
+    "sha256": "751c4a7a451dd9d092cc51f00862df8af11a1f01e6ad5c3f3d00b7d9141c9ee6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_oversized_sweatshirt_mens_01_e8e6e1_aa8ffd9f0f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_boxy_tee_womens_01_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg": {
+    "bytes": 81584,
+    "sha256": "be7df4fe780bb361d525a1143af1a5f5bb505a443ef252cb6e8b1f0eeb6c6f72",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_boxy_tee_womens_01_ffffff_affd82b53f_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/mo_small_fridge_close_square_1000x1000.2.jpg": {
+    "bytes": 93370,
+    "sha256": "5d6eff93d049b1139872361d580fe80624df68a74e57918569d2c3a3c06831a9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__mo_small_fridge_close_square_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_zipped_hoodie_mens_01_heather_oatmeal_front_square_close_portrait_x1000.jpg": {
+    "bytes": 96718,
+    "sha256": "a778030d9f13a0f148b0551d439abd6641c645b515fa3de515a285c97ac22b1e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_zipped_hoodie_mens_01_heather_oatmeal_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ur_throw_pillow_couch_small_square_1000x1000.jpg": {
+    "bytes": 189217,
+    "sha256": "a11f19424c595d5ee9146ec6adc417d6824d61e131fe6086febe7fb7094a7b75",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ur_throw_pillow_couch_small_square_1000x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_classic_tee_mens_02_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 82380,
+    "sha256": "91036a8a095e4ccef9dcba69229064b1fd83a78452788dabbe1005510f84aedf",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_classic_tee_mens_02_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_relaxed_tshirt_womens_01_ebe3d1_09f0675ce6_front_square_close_portrait_x1000.jpg": {
+    "bytes": 113886,
+    "sha256": "58ce6df2af50b19324033004d4c444a1910bb8a09d6af3f4055cd6ffa0528f65",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_relaxed_tshirt_womens_01_ebe3d1_09f0675ce6_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_v_neck_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 87342,
+    "sha256": "5d82e5d41c0c9c0a262a0cabf4ce646c9d63dc8d165e27a7c7d2d509d7a7111d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_v_neck_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_active_tee_mens_01_101010_01c5ca27c6_front_square_close_portrait_x1000.jpg": {
+    "bytes": 90160,
+    "sha256": "7f5d37af537d2dda080d9148e3867e165e4dc6ae73d507eff3006fc6e5bf2706",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_active_tee_mens_01_101010_01c5ca27c6_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_essential_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 80348,
+    "sha256": "625341ad186f1f4974d917fb94a5ec4de29612d207444f65b08a26a9403bdc67",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ssrco_essential_tee_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ur_coaster_pack_4_flatlay_square_1000x1000.2.jpg": {
+    "bytes": 150121,
+    "sha256": "ba3b0e4ce678e1b2066db080c5896ff5ba7818433945fb2288f3dee48fdfacaf",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__ur_coaster_pack_4_flatlay_square_1000x1000.2.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/paperpc_750x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg": {
+    "bytes": 49477,
+    "sha256": "757f454a5257a3f0f6bee4b6a3107e7e412675c1a865fb32ad23874a68772cf8",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages/i049349cb__images__i049349cb__paperpc_750x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/ssrco_pullover_hoodie_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg": {
+    "bytes": 77367,
+    "sha256": "4eb6df9f3fdd44bc34053157889c00945395a095262aa4c30d98d4a95458da9b",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__ssrco_pullover_hoodie_mens_01_fafafa_ca443f4786_front_square_close_portrait_x1000.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/papergc_500x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg": {
+    "bytes": 32635,
+    "sha256": "5b08616bd42a38c74db9f352ad178540c7dd0a6fc1f73d2b3e6b5c5a78945a71",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__papergc_500x_w_f8f8f8-pad_1000x1000_f8f8f8.jpg",
+    "kept": "release"
+   },
+   "images/i049349cb/playStoreEn.c1cbdf35.png": {
+    "bytes": 4698,
+    "sha256": "faa29e49e7d6df027fde006b0e7ba588bc55028f44a81a699f8e2c53dd26b2f7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__playStoreEn.c1cbdf35.png",
+    "kept": "release"
+   },
+   "images/i049349cb/favicon-196x196.png": {
+    "bytes": 2549,
+    "sha256": "ddabccba5c3084b0a19848d1bc120c5d54ac3162796ea3a4c660b88ebd1d477a",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__favicon-196x196.png",
+    "kept": "release"
+   },
+   "images/i049349cb/apple-touch-icon-152x152.png": {
+    "bytes": 3255,
+    "sha256": "ed0fdbcb110e7e336f85c3c416d8e9c97850e907e0f99455774fb402d21c3712",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__apple-touch-icon-152x152.png",
+    "kept": "release"
+   },
+   "images/i049349cb/apple-touch-icon-144x144.png": {
+    "bytes": 3039,
+    "sha256": "1f844195b23ce2a4e58d5fbfc91a12f5c98a03bc001f6983a2fc92ee81b3f168",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__apple-touch-icon-144x144.png",
+    "kept": "release"
+   },
+   "images/i049349cb/apple-touch-icon-120x120.png": {
+    "bytes": 2367,
+    "sha256": "1da96cc84464476da2c27d11c9e4c29fd03761a749e2c196501321f6e165ed90",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__apple-touch-icon-120x120.png",
+    "kept": "release"
+   },
+   "images/i049349cb/apple-touch-icon-114x114.png": {
+    "bytes": 2242,
+    "sha256": "a631781fdb7147f8cb772c8cdf31bc323b70b6a6a94626663249e9c99f6879e9",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__apple-touch-icon-114x114.png",
+    "kept": "release"
+   },
+   "images/i049349cb/apple-touch-icon-180x180.png": {
+    "bytes": 4063,
+    "sha256": "6984f8f68a09682192f874722b5e229549dbf0f3267892aa29f7359dfc63c130",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i049349cb__images__i049349cb__apple-touch-icon-180x180.png",
+    "kept": "release"
+   }
+  },
+  "title": "Redbubble 'U.G. Krishnamurti' photographic print by user ugkrishnamurti",
+  "kind": "other_pages",
+  "url": "https://www.redbubble.com/i/photographic-print/U-G-Krishnamurti-by-ugkrishnamurti/59755035/zltf",
+  "complete": true,
+  "fetched": "2026-11-05T03:06:16+00:00"
+ },
+ "ib1886d3b": {
+  "files": {
+   "pages/www.instagram.com_louisbrawley.html": {
+    "bytes": 371990,
+    "sha256": "dfcf1eea4a074d4204812e37d57dfa1bcb693896ec3649216f359fcc62be85d4",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__pages__www.instagram.com_louisbrawley.html",
+    "kept": "release"
+   },
+   "images/ib1886d3b/R0fBIMurK8v.png": {
+    "bytes": 778568,
+    "sha256": "b421b00fd1791a1d1ab70dd1e9667f40ca79a8c8673989864f1be092295cd7da",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__images__ib1886d3b__R0fBIMurK8v.png",
+    "kept": "release"
+   },
+   "images/ib1886d3b/mMvhX4currF.webp": {
+    "bytes": 2730,
+    "sha256": "5fc67217d19e913319a38a06cec24b8e7c57a0548bcf102dee5d52b17065446f",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__images__ib1886d3b__mMvhX4currF.webp",
+    "kept": "release"
+   },
+   "images/ib1886d3b/5OCV_xUyQ5h.webp": {
+    "bytes": 4380,
+    "sha256": "61e7fc6aaf387324c83cdbc35950b483d6943fa096218ea5932c0f180bce3641",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__images__ib1886d3b__5OCV_xUyQ5h.webp",
+    "kept": "release"
+   },
+   "images/ib1886d3b/MptwNl-B2pS.webp": {
+    "bytes": 5098,
+    "sha256": "6f93f71464b6a9cfd44f7269e7c3bb2a0ab4ce058fc1ef194c2a5850f75c7135",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__images__ib1886d3b__MptwNl-B2pS.webp",
+    "kept": "release"
+   },
+   "images/ib1886d3b/icwX0xAk0pz.webp": {
+    "bytes": 5038,
+    "sha256": "96ead83ee7245a854bd57393f1bc410712799bd7da3420d5b465d7b3e80d89f6",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib1886d3b__images__ib1886d3b__icwX0xAk0pz.webp",
+    "kept": "release"
+   }
+  },
+  "title": "Louis Brawley: Instagram @louisbrawley (1,911 posts), WordPress blog, planned UG photo book",
+  "kind": "other_pages",
+  "url": "https://www.instagram.com/louisbrawley/",
+  "complete": true,
+  "fetched": "2026-11-05T03:06:29+00:00"
+ },
+ "i3997e220": {
+  "files": {
+   "pages/www.oneindia.com_2007_03_24_philosopher-ug-krishnamurti-passes-away.html": {
+    "bytes": 540512,
+    "sha256": "74af7e2ecbf24e089b3b36ae3185e5b47f8f24c0103c12463cec810b0130f45e",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i3997e220__pages__www.oneindia.com_2007_03_24_philosopher-ug-krishnamurti-passes-away.html",
+    "kept": "release"
+   }
+  },
+  "title": "Vallecrosia (Liguria) - place of death 22 March 2007; no plaque/villa photo found",
+  "kind": "other_pages",
+  "url": "https://www.oneindia.com/2007/03/24/philosopher-ug-krishnamurti-passes-away.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:06:31+00:00"
+ },
+ "i08f4551d": {
+  "files": {
+   "pages/dokumen.pub_the-biology-of-enlightenment-unpublished-conversations-of-ug-krishnamurti-after-he-came-into-the-natural-sta.html": {
+    "bytes": 94,
+    "sha256": "b1971dbd951f4235926bd7cf114730f97cb4ee9f89ec4ecbfd73b57e37613c44",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i08f4551d__pages__dokumen.pub_the-biology-of-enlightenment-unpublished-conversations-of-ug-krishnamurti-after-he-came-into-the-natural-sta.html",
+    "kept": "release"
+   }
+  },
+  "title": "The Biology of Enlightenment - ISBNs 9789350290095 / 9789350292495 (HarperCollins India)",
+  "kind": "other_pages",
+  "url": "https://dokumen.pub/the-biology-of-enlightenment-unpublished-conversations-of-ug-krishnamurti-after-he-came-into-the-natural-state-1967-71-9789350290095-9789350292495-935029009x.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:07:26+00:00"
+ },
+ "i7e9bebe0": {
+  "files": {
+   "pages/www.jeyamohan.in_110687.html": {
+    "bytes": 299302,
+    "sha256": "527f047468a96aac975bbc231468e97ce6e12ff36053cc6116e387f74c9c0f3d",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i7e9bebe0__pages__www.jeyamohan.in_110687.html",
+    "kept": "release"
+   }
+  },
+  "title": "யூ.ஜி.கிருஷ்ணமூர்த்தியின் பயன் (The Use of U.G. Krishnamurti – Jeyamohan essay/reader letter)",
+  "kind": "other_pages",
+  "url": "https://www.jeyamohan.in/110687/",
+  "complete": true,
+  "fetched": "2026-11-05T03:07:59+00:00"
+ },
+ "ib2c77ca3": {
+  "files": {
+   "pages/www.dawn.com_news_502900.html": {
+    "bytes": 178691,
+    "sha256": "d1b1d89a74a106fd5c665250fa149037bf9b34cac38c61fdbf210053be4ebe49",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ib2c77ca3__pages__www.dawn.com_news_502900.html",
+    "kept": "release"
+   }
+  },
+  "title": "NON-FICTION: The anti-guru's last days (review of A Taste of Life)",
+  "kind": "other_pages",
+  "url": "https://www.dawn.com/news/502900",
+  "complete": true,
+  "fetched": "2026-11-05T03:08:07+00:00"
+ },
+ "i7d7266d8": {
+  "files": {
+   "pages/www.amazon.com_UG-Says-Everyday-Thoughts-Krishnamurti-ebook_dp_B07K1N9K3R.html": {
+    "bytes": 3781,
+    "sha256": "937a6cb1dc9f8a2f14bc98cc2b2805f9a5803d1507c6e0efafef09cde24d5de7",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/i7d7266d8__pages__www.amazon.com_UG-Says-Everyday-Thoughts-Krishnamurti-ebook_dp_B07K1N9K3R.html",
+    "kept": "release"
+   }
+  },
+  "title": "UG Says: Everyday Thoughts by UG Krishnamurti — HarperCollins India 2018 cover",
+  "kind": "other_pages",
+  "url": "https://www.amazon.com/UG-Says-Everyday-Thoughts-Krishnamurti-ebook/dp/B07K1N9K3R",
+  "complete": true,
+  "fetched": "2026-11-05T03:08:53+00:00"
+ },
+ "ia022b972": {
+  "files": {
+   "pages/ebin.pub_ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html": {
+    "bytes": 74,
+    "sha256": "6f6859ebabb3b4252f8a40a162857d35c161c8d2f6b47ab316575fb465ac8732",
+    "asset": "https://github.com/DrThomasAger/drthomasager.com/releases/download/media-other_pages-2/ia022b972__pages__ebin.pub_ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html",
+    "kept": "release"
+   }
+  },
+  "title": "Goner: The Final Travels of UG Krishnamurti (revised)",
+  "kind": "other_pages",
+  "url": "https://ebin.pub/ug-krishnamurti-goner-the-final-travels-of-ug-krishnamurti-revised-9780956643278.html",
+  "complete": true,
+  "fetched": "2026-11-05T03:17:00+00:00"
  }
 }
