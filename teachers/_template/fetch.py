@@ -312,6 +312,8 @@ def main():
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--ia-glob", default="", help="archive.org files to take, e.g. '*.mp3|*.pdf' (default all)")
     ap.add_argument("--ia-originals", action="store_true", help="archive.org: only the files as uploaded, not the derived copies")
+    ap.add_argument("--shard", default="", help="i/n: take only every n-th address, starting at i (for parallel runners)")
+    ap.add_argument("--give-up-after", type=int, default=0, help="stop a kind after this many refusals in a row")
     ap.add_argument("--skip-held", action="store_true", help="leave out items holdings.json already holds files for")
     ap.add_argument("--release", default="", help="a GitHub release tag: each file is uploaded to it as an asset "
                     "with the gh CLI as soon as it comes down (needs GH_TOKEN), then removed from disk")
@@ -332,9 +334,15 @@ def main():
     hold = json.loads(HOLD.read_text(encoding="utf-8")) if HOLD.exists() else {}
     if args.skip_held:
         todo = [(k, r) for k, r in todo if not hold.get(r["id"], {}).get("complete")]
+    if args.shard:
+        i, n = (int(x) for x in args.shard.split("/"))
+        todo = [x for j, x in enumerate(todo) if j % n == i]
     s = session()
     ok = fail = 0
+    streak, given_up = {}, set()
     for n, (k, r) in enumerate(todo, 1):
+        if k in given_up:
+            continue
         try:
             if k == "archive_org":
                 files = fetch_archive(r, args)
@@ -345,6 +353,7 @@ def main():
             else:
                 files = fetch_page(r, args, s, k)
             ok += 1
+            streak[k] = 0
             log({"id": r["id"], "kind": k, "url": r["url"], "ok": True, "files": len(files), "dry_run": args.dry_run})
             if not args.dry_run:
                 h = hold.setdefault(r["id"], {"title": r["title"], "kind": k, "url": r["url"], "files": {}})
@@ -372,7 +381,11 @@ def main():
             print(f"[{n}/{len(todo)}] ok   {k:12} {r['title'][:70]}  ({len(files)} files)")
         except Exception as e:  # noqa
             fail += 1
+            streak[k] = streak.get(k, 0) + 1
             log({"id": r["id"], "kind": k, "url": r["url"], "ok": False, "error": str(e)[:500]})
+            if args.give_up_after and streak[k] >= args.give_up_after:
+                print(f"{k}: {streak[k]} refusals in a row; leaving the rest of this kind for another route")
+                given_up.add(k)
             print(f"[{n}/{len(todo)}] FAIL {k:12} {r['title'][:70]}  {str(e)[:120]}")
         if not args.dry_run and n % 10 == 0:
             HOLD.write_text(json.dumps(hold, ensure_ascii=False, indent=1), encoding="utf-8")
