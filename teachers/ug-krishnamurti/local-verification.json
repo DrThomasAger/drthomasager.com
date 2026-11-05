@@ -4,9 +4,9 @@
   "text_checked": "discovered that there is no such thing as enlightenment at all",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -16,9 +16,9 @@
   "text_checked": "there is no self to realize",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -28,9 +28,9 @@
   "text_checked": "a bunch of exploiters thriving on the gullibility of the people",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -40,9 +40,9 @@
   "text_checked": "has no copyright you are free to reproduce distribute interpret misinterpret distort garble do what you like",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/foreword.txt"
+   "local:texts/stopped/my-teaching-if-that-is-the-word-you-want-to-use-has-no-cop.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "stopped",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -52,9 +52,9 @@
   "text_checked": "is like a nuclear explosion",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -64,9 +64,9 @@
   "text_checked": "there is no power outside of man man has created god out of fear so the problem is fear and not god",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -76,9 +76,9 @@
   "text_checked": "we are not created for any grander purpose than the",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -88,9 +88,9 @@
   "text_checked": "nature is interested in only two things to survive and to",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -112,9 +112,9 @@
   "text_checked": "it thinking does not put an end to sorrow",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -124,9 +124,9 @@
   "text_checked": "your thinking endlessly about being free from sorrow is only more material for sorrow",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -136,9 +136,9 @@
   "text_checked": "sorrow is there for you as long as you think there is actually no sorrow there to be free from",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -148,9 +148,9 @@
   "text_checked": "it is the ones who believe in god who preach peace and talk of love who have created the human jungle compared to man",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -160,9 +160,9 @@
   "text_checked": "there is no such thing as truth the only thing that is actually there is your logically ascertained premise which you call truth",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -172,9 +172,9 @@
   "text_checked": "no qualitative change in man s thinking",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -184,9 +184,9 @@
   "text_checked": "our ability to destroy our neighbor and his property",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -196,9 +196,9 @@
   "text_checked": "there is no such thing as spiritual or psychological enlightenment because there is no such thing as spirit or psyche at all",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -208,9 +208,9 @@
   "text_checked": "i have had to search and it is the search itself which has been choking me and keeping me out of my natural state",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/the/chapter-8.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -220,9 +220,9 @@
   "text_checked": "god or enlightenment is the ultimate pleasure uninterrupted happiness no such thing exists",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -232,9 +232,9 @@
   "text_checked": "i am not anti rational just unrational you may infer a rational meaning in what i say or do but it is your doing",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/no/No_Way_Out_Chapter_1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "no",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -244,9 +244,9 @@
   "text_checked": "your traditions are choking you",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -256,9 +256,9 @@
   "text_checked": "nobody knows anything about life",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/thought/chapter-7.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -268,9 +268,9 @@
   "text_checked": "thought has interfered and tried to suppress control and moralize about desire to the detriment of mankind",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -280,9 +280,9 @@
   "text_checked": "transformation moksha and all that stuff are just variations of the same theme permanent happiness",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/no/No_Way_Out_Chapter_1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "no",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -292,9 +292,9 @@
   "text_checked": "everything you are doing to be at peace with yourself is what is destroying the peace that is already there",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/part-i.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -304,9 +304,9 @@
   "text_checked": "the fear of losing what we have and what we know",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -316,9 +316,9 @@
   "text_checked": "a real guru if there is one frees you from himself",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/ALifeU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_ugbio_ugbio2.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -328,9 +328,9 @@
   "text_checked": "i still maintain that it is not love compassion humanism or brotherly sentiments that will save mankind no not at",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -340,9 +340,9 @@
   "text_checked": "the plain fact is that if you don t have a problem you create one",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_Final_Remembering.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -352,9 +352,9 @@
   "text_checked": "the fact is that we don t want to be free what is responsible for our problems is the fear of losing what we have and what we know",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -364,9 +364,9 @@
   "text_checked": "fear is the very thing that you do not want to be free from",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -376,9 +376,9 @@
   "text_checked": "what you call yourself is fear the you is born out of fear it lives in fear functions in fear and dies in fear",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -388,9 +388,9 @@
   "text_checked": "the body cannot be afraid of death the movement that is created by society or culture is what does not want to come to an end",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -400,9 +400,9 @@
   "text_checked": "what you are afraid of is not death",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -448,9 +448,9 @@
   "text_checked": "it has to dawn on you that it is not leading you anywhere",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/part-i.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -460,9 +460,9 @@
   "text_checked": "there seems to be no way out",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -484,9 +484,9 @@
   "text_checked": "my teaching if that is the word you want to use has no copyright you are free to reproduce distribute interpret misinterpret distort garble do what you like",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/foreword.txt"
+   "local:texts/stopped/my-teaching-if-that-is-the-word-you-want-to-use-has-no-cop.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "stopped",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -496,9 +496,9 @@
   "text_checked": "there is no such thing as spiritual or psychological enlightenment because there is no such thing as spirit or psyche",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -508,9 +508,9 @@
   "text_checked": "thinking about and struggling against sorrow is sorrow since you can t stop thinking and thinking is sorrow you will always suffer",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -520,9 +520,9 @@
   "text_checked": "you hook up each thought with the next creating a false continuity it is that continuity that is the problem",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/mind/Mind_is_a_Myth_III.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "mind",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -532,9 +532,9 @@
   "text_checked": "it is not an illusion only your experience of it is an illusion",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -544,9 +544,9 @@
   "text_checked": "you arrive seeking understanding while i am only interested in making it crystal clear that there is nothing to understand",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -556,9 +556,9 @@
   "text_checked": "it is the mind that has created god out of fear",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -568,9 +568,9 @@
   "text_checked": "the stopping of doing is courage",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -580,9 +580,9 @@
   "text_checked": "the same old nonsense repeating itself",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/mind/Mind_is_a_Myth_III.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "mind",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -592,9 +592,9 @@
   "text_checked": "there is no individual there at all",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-8.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -604,9 +604,9 @@
   "text_checked": "all i can guarantee you is that as long as you are searching for happiness you will remain unhappy",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -616,9 +616,9 @@
   "text_checked": "there is no such thing as truth the only thing",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -628,9 +628,9 @@
   "text_checked": "we never look at anything",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -664,9 +664,9 @@
   "text_checked": "fear that makes you believe that you are living and that you will be dead what we do not want is the fear to come to an end",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 93% of the quote's words",
   "searched": true
@@ -676,9 +676,9 @@
   "text_checked": "the you is born out of fear it lives in fear functions in fear and dies in fear",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -688,9 +688,9 @@
   "text_checked": "life has to be described in pure and simple physical and physiological terms",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -700,9 +700,9 @@
   "text_checked": "thought always interferes with sex it has become a pleasure movement",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -712,9 +712,9 @@
   "text_checked": "the pleasure of sex for instance is by nature temporary the body can t take uninterrupted pleasure for long it would be destroyed",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -724,9 +724,9 @@
   "text_checked": "i have wasted seven years listening to you",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/ALifeU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_ugbio_ugbio4.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -736,9 +736,9 @@
   "text_checked": "this is the way you stripped of the machinations of thought are also functioning",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -748,9 +748,9 @@
   "text_checked": "man has created god out of fear so the problem is fear and not god",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -760,9 +760,9 @@
   "text_checked": "we are not created for any grander purpose than the ants that are there or the flies that are hovering around you or the mosquitoes that are sucking your blood",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -772,9 +772,9 @@
   "text_checked": "i have nothing to say and what i am saying is not born out of my thinking",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -784,9 +784,9 @@
   "text_checked": "anything you superimpose on that all the cultural input is responsible for the boredom of man",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -796,9 +796,9 @@
   "text_checked": "you draw lines on this planet",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -820,9 +820,9 @@
   "text_checked": "knew without doubt that i had made the biggest mistake of my life",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/ALifeU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_ugbio_ugbio4.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 93% of the quote's words",
   "searched": true
@@ -832,9 +832,9 @@
   "text_checked": "there is no such thing as your mind and my mind mind is everywhere sort of like the air we breathe",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/pdf/o-meditation.com_wp-content_uploads_2011_05_krishnamurti-u-g-mind-is-a-myth.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -856,9 +856,9 @@
   "text_checked": "is not yours it is something which you and your ancestors have accumulated over a long time",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/mind/Mind_is_a_Myth_III.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "mind",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -880,9 +880,9 @@
   "text_checked": "my teaching if that is the word you want to use has no copyright",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/foreword.txt"
+   "local:texts/stopped/my-teaching-if-that-is-the-word-you-want-to-use-has-no-cop.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "stopped",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -892,9 +892,9 @@
   "text_checked": "we have invented reality otherwise you have no way of experiencing the reality of anything",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -904,9 +904,9 @@
   "text_checked": "the basic question which we have to ask for ourselves is what kind of a human being do you want but unfortunately we have placed before ourselves the model of a perfect being",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -928,9 +928,9 @@
   "text_checked": "in the natural state the continuity of thought is absent what is present is a disjoined series of independent interactions",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -952,9 +952,9 @@
   "text_checked": "i call it calamity because from the point of view of one who thinks this is something fantastic blissful and full of beatitude love or ecstasy this is physical torture",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/ALifeU.G.Krishnamurti.txt"
+   "local:texts/pdf/u-g-k.fr_wp-content_uploads_2025_07_428954400-ug-krishanmurthy-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -964,9 +964,9 @@
   "text_checked": "not a calamity to me but a calamity to those who have an image that something marvelous is going to happen",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -976,9 +976,9 @@
   "text_checked": "the pleasure of sex for instance is by nature temporary",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -988,9 +988,9 @@
   "text_checked": "the body does not know that it is healthy or unhealthy",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/pdf/file.true-dhamma.com__E5_AE_9E_E7_9B_B8_E4_B8_8E_E8_A7_A3_E6_9E_84_U.G._E5_85_8B_E9_87_8C_E5_B8_8C_E9_82_A3_E7_A9_86_E6_.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "pdf",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1000,9 +1000,9 @@
   "text_checked": "the body cannot be afraid of death",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1024,9 +1024,9 @@
   "text_checked": "anything that is born out of thought is destructive in its nature",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1036,9 +1036,9 @@
   "text_checked": "there is no entity called self independent of the thought process",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/no/No_Way_Out_Chapter_1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "no",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1048,9 +1048,9 @@
   "text_checked": "you don t have to do a thing",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/courage/part-iii.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "courage",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1060,9 +1060,9 @@
   "text_checked": "time and space apart from the ideas of time and space do not exist at all",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1072,9 +1072,9 @@
   "text_checked": "there is no power outside of man",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_Three.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1084,9 +1084,9 @@
   "text_checked": "man has created religion because it gives him a cover",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1096,9 +1096,9 @@
   "text_checked": "it is the ones who believe in god who preach peace and talk of love who have created the human jungle",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1108,9 +1108,9 @@
   "text_checked": "it would be more interesting to learn from children than try to teach them how to behave how to live and how to function",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_Final_Remembering.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1132,9 +1132,9 @@
   "text_checked": "i awoke the morning after my wedding night and knew without doubt that i had made the biggest mistake of my life",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/ALifeU.G.Krishnamurti.txt"
+   "local:texts/well/people.well.com_user_jct_ugbio_ugbio4.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "well",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1144,9 +1144,9 @@
   "text_checked": "i am not anti rational just unrational you may infer a rational meaning in what i say or do but it is your doing not mine",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/no/No_Way_Out_Chapter_1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "no",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1156,9 +1156,9 @@
   "text_checked": "what i am saying is outside the field of teachability it is simply a description of the way i am functioning",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1180,9 +1180,9 @@
   "text_checked": "transformation moksha liberation and all that stuff are just variations on the same theme permanent happiness",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1192,9 +1192,9 @@
   "text_checked": "that is to say all that is born out of thought is destructive irrespective of its nature whether it be religious scientific or political",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1204,9 +1204,9 @@
   "text_checked": "the body or organism is not interested in spiritual matters",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1216,9 +1216,9 @@
   "text_checked": "this can also lead to self destruction for the sake of even a silly idea as witnessed in wars",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1228,9 +1228,9 @@
   "text_checked": "the body changes from one state into another as recycling of matter",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiOnU.G185p.txt"
+   "local:texts/science/Science_and_U.G.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "science",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1240,9 +1240,9 @@
   "text_checked": "the body does not exist except as a thought",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1252,9 +1252,9 @@
   "text_checked": "making love is war",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/NoWayOutU.G.Krishnamurti.txt"
+   "local:texts/no/No_Way_Out_Chapter_1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "no",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1264,9 +1264,9 @@
   "text_checked": "i am not trying to sell anything here",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1420,9 +1420,9 @@
   "text_checked": "can you give me what you have",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1432,9 +1432,9 @@
   "text_checked": "you have to liberate yourself",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1444,9 +1444,9 @@
   "text_checked": "my body had gone away and it has never come back the points of contact are all that is there for the body",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_One.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1492,9 +1492,9 @@
   "text_checked": "i am only interested in describing this state in clearing away the occultation and mystification in which those people in the holy business have shrouded the whole thing",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/thought/part-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1540,9 +1540,9 @@
   "text_checked": "there is no moksha no jivanmukti and no atman and there is no such thing as self realization",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiStoppedInOurTracks227p.txt"
+   "local:texts/stopped/part-iv.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "stopped",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1552,9 +1552,9 @@
   "text_checked": "to be yourself requires extraordinary intelligence you are blessed with that intelligence",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1564,9 +1564,9 @@
   "text_checked": "nature had been allowed to go on in its own way everybody would have become a unique flower",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1600,9 +1600,9 @@
   "text_checked": "this state is a physical condition of your being it is not some kind of psychological mutation",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1624,9 +1624,9 @@
   "text_checked": "if anyone thinks he can help you he will inevitably mislead you",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1636,9 +1636,9 @@
   "text_checked": "the demand to be prepared for all future actions and all situations is the cause of our problems every situation is so different",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-8.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1648,9 +1648,9 @@
   "text_checked": "society or culture or whatever you might want to call it has created us all solely and wholly for the purpose of maintaining its continuity and status quo",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-2.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1660,9 +1660,9 @@
   "text_checked": "blind acceptance of authority all secondhand stuff",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1672,9 +1672,9 @@
   "text_checked": "a guru is one who tells you to throw away all the crutches that we have been made to believe are essential for our survival",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-2.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1684,9 +1684,9 @@
   "text_checked": "as long as you depend upon somebody for solving your problems so long you remain helpless",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-2.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1696,9 +1696,9 @@
   "text_checked": "this state is a state of not knowing",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1720,9 +1720,9 @@
   "text_checked": "india will not be that country",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_Three.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1732,9 +1732,9 @@
   "text_checked": "your beliefs are the result of blind acceptance of authority all secondhand stuff",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/wikisource/chapter-1.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "wikisource",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1744,9 +1744,9 @@
   "text_checked": "anything you touch is always translated as hard soft warm cold wet dry and so on",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1768,9 +1768,9 @@
   "text_checked": "man who supposedly has achieved so much progress in the scientific field cannot even predict precisely when an earthquake is going to occur",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/UGKrishnamurtiStoppedInOurTracks227p.txt"
+   "local:texts/stopped/part-iv.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "stopped",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1780,9 +1780,9 @@
   "text_checked": "wherever there is division there can t be love",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-10.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1792,9 +1792,9 @@
   "text_checked": "love compassion ahimsa understanding bliss all these things which religion and psychology have placed before man are only adding to the strain of the body",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/mind/Mind_is_a_Myth_III.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "mind",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1804,9 +1804,9 @@
   "text_checked": "there is nothing to understand that is the understanding i am talking about",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1816,9 +1816,9 @@
   "text_checked": "it is a business it has become a holy business to people",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheBookOfPassages.txt"
+   "local:texts/thought/chapter-2.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "thought",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1828,9 +1828,9 @@
   "text_checked": "i have nothing to give you have nothing to take",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Natural_State.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1840,9 +1840,9 @@
   "text_checked": "each individual has now the responsibility not any particular nation india or america or russia",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_Three.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1852,9 +1852,9 @@
   "text_checked": "it has to come and it will come from the west",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/the/The_Mystique_of_Enlightenment_Part_Three.txt"
   ],
-  "book_per_sources": "archive_org",
+  "book_per_sources": "the",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
@@ -1912,7 +1912,7 @@
   "text_checked": "to realize that there is no enlightenment at all is enlightenment",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -1936,7 +1936,7 @@
   "text_checked": "enlightenment if there is any such thing as enlightenment is not an experience at all",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -1948,7 +1948,7 @@
   "text_checked": "unquestioned action is morality",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -1960,7 +1960,7 @@
   "text_checked": "what is morality it is not the following of enjoined",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -1972,7 +1972,7 @@
   "text_checked": "the natural state is acausal it just happens",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -1996,7 +1996,7 @@
   "text_checked": "there is no such thing as experience here you seem",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -2032,7 +2032,7 @@
   "text_checked": "your teacher must go it doesn t matter who the teacher is",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -2056,7 +2056,7 @@
   "text_checked": "what is morality it is not the following of enjoined rules of conduct",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -2092,7 +2092,7 @@
   "text_checked": "there is nothing there no soul there is only this question about after death",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/archive_org/TheMystiqueOfEnlightenmentU.G.Krishnamurti.txt"
+   "local:texts/archive_org/TheBookOfPassages.txt"
   ],
   "book_per_sources": "archive_org",
   "wording_variants": [],
@@ -2164,9 +2164,9 @@
   "text_checked": "i don t know what happiness is",
   "verdict": "corroborated-primary",
   "confirming_sources": [
-   "local:texts/transcripts/U.G Krishnamurti - Snap Out of It_ [1exoQ3W-6E4].en-orig.txt"
+   "local:texts/archive_org/julie-thayer-get-lost-and-stay-lost-travels-with-ug-krishnamurti-ug-krishnamurti.txt"
   ],
-  "book_per_sources": "transcripts",
+  "book_per_sources": "archive_org",
   "wording_variants": [],
   "note": "local text match 100% of the quote's words",
   "searched": true
