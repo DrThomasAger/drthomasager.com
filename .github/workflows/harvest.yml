@@ -11,6 +11,11 @@ name: Harvest the U.G. Krishnamurti media
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Kinds to fetch, comma separated (empty: all)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -63,6 +68,7 @@ jobs:
       - name: The release that holds this kind
         run: gh release view "${{ matrix.tag }}" >/dev/null 2>&1 || gh release create "${{ matrix.tag }}" --title "U.G. Krishnamurti media, ${{ matrix.tag }}" --notes "Fetched by the harvest workflow from the addresses in hanjopurebuddha.com/teachers/ug-krishnamurti/download-manifest.json. holdings.json maps every asset to its archive item." || true
       - name: Fetch, upload each file as it arrives (stops itself before the job limit)
+        if: inputs.only == '' || contains(format(',{0},', inputs.only), format(',{0},', matrix.kind))
         run: timeout 320m python fetch.py --only "${{ matrix.kind }}" --shard "${{ matrix.shard }}" --release "${{ matrix.tag }}" --skip-held --give-up-after 15 || true
       - run: python extract-text.py || true
       - run: python find-quotes.py || true
