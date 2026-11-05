@@ -6,7 +6,8 @@ For each quote, searches texts/ for the longest exact run of its words
 (case- and punctuation-insensitive). Reports the file, the match length as
 a fraction of the quote, and the surrounding sentence. Output is in the
 verification schema, so `python3 merge.py <dir-containing-local-verification.json>`
-upgrades verdicts to corroborated-primary where the text itself carries the line.
+upgrades verdicts to corroborated-primary where a downloaded text carries at
+least nine tenths of the quote's words in one run. It never lowers a verdict.
 """
 import json, pathlib, re
 HERE = pathlib.Path(__file__).resolve().parent
@@ -36,8 +37,8 @@ for q in quotes:
         if found and found[0] > best[0]:
             best = (found[0], path, " ".join(words[found[1]:found[1] + found[0]]))
     frac = best[0] / len(words) if words else 0
-    if best[1]:
-        out.append({"id": q["id"], "text_checked": best[2][:200], "verdict": "corroborated-primary" if frac >= 0.6 else "single-source",
+    if best[1] and frac >= 0.9:  # it only ever confirms; a partial match leaves the quote as the research left it
+        out.append({"id": q["id"], "text_checked": best[2][:200], "verdict": "corroborated-primary",
                     "confirming_sources": [f"local:{best[1]}"], "book_per_sources": best[1].split("/")[1] if "/" in best[1] else best[1],
                     "wording_variants": [], "note": f"local text match {frac:.0%} of the quote's words", "searched": True})
 (HERE / "local-verification.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
