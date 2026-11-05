@@ -87,6 +87,24 @@ def duration(p):
         return None
 
 
+def upload(tag, p, name):
+    """One file to a GitHub release, as an asset under the given name; returns its download address."""
+    import os, subprocess
+    tmp = p.with_name(name)
+    if tmp != p:
+        p.rename(tmp)
+    try:
+        r = subprocess.run(["gh", "release", "upload", tag, str(tmp), "--clobber"], capture_output=True, text=True, timeout=1800)
+        ok = r.returncode == 0
+        if not ok:
+            log({"asset": name, "ok": False, "error": (r.stderr or "")[:300]})
+    finally:
+        if tmp.exists() and tmp != p:
+            tmp.rename(p)
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    return f"https://github.com/{repo}/releases/download/{tag}/{name}" if ok else None
+
+
 def session():
     import requests
     s = requests.Session()
@@ -232,6 +250,9 @@ def main():
     ap.add_argument("--list", action="store_true")
     ap.add_argument("--ia-glob", default="", help="archive.org files to take, e.g. '*.mp3|*.pdf' (default all)")
     ap.add_argument("--ia-originals", action="store_true", help="archive.org: only the files as uploaded, not the derived copies")
+    ap.add_argument("--skip-held", action="store_true", help="leave out items holdings.json already holds files for")
+    ap.add_argument("--release", default="", help="a GitHub release tag: each file is uploaded to it as an asset "
+                    "with the gh CLI as soon as it comes down (needs GH_TOKEN), then removed from disk")
     ap.add_argument("--discard-media", action="store_true",
                     help="after hashing and measuring, delete recordings and images and keep only texts, subtitles and "
                          "metadata (for a machine that verifies and transcribes but keeps nothing)")
@@ -247,6 +268,8 @@ def main():
         print(dict(Counter(k for k, _ in todo)), dict(Counter(r.get("medium") for _, r in todo)))
         return
     hold = json.loads(HOLD.read_text(encoding="utf-8")) if HOLD.exists() else {}
+    if args.skip_held:
+        todo = [(k, r) for k, r in todo if not hold.get(r["id"], {}).get("files")]
     s = session()
     ok = fail = 0
     for n, (k, r) in enumerate(todo, 1):
@@ -270,6 +293,14 @@ def main():
                         d = duration(p)
                         if d:
                             h["files"][f]["seconds"] = d
+                    if args.release and p.is_file() and not h["files"][f].get("asset"):
+                        name = safe(f"{r['id']}__{f.replace('/', '__')}", 240).replace(' ', '_')
+                        u = upload(args.release, p, name)
+                        if u:
+                            h["files"][f]["asset"] = u
+                            h["files"][f]["kept"] = "release"
+                            if p.suffix.lower() in MEDIA_BIN:  # texts stay for extract-text.py and find-quotes.py
+                                p.unlink()
                     if args.discard_media and p.is_file() and p.suffix.lower() in MEDIA_BIN:
                         p.unlink()
                         h["files"][f]["kept"] = False
