@@ -126,8 +126,20 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 ### Media files
 
-- Listed for download by fetch.sh: 709 addresses (71 archive_org, 123 youtube, 17 soundcloud, 13 wikisource, 10 pdf, 28 well, 447 other_pages).
-- Held in the repository: none, by rule; media files never go into git. fetch.sh downloads them on a machine whose network reaches the hosts.
+- Listed for download by fetch.py: 732 addresses, items and the media among their sources.
+
+| kind | listed | held |
+|---|---|---|
+| archive_org | 71 | 0 |
+| youtube | 131 | 0 |
+| soundcloud | 17 | 0 |
+| wikisource | 21 | 0 |
+| pdf | 18 | 0 |
+| well | 28 | 0 |
+| other_pages | 446 | 0 |
+
+- Held: 0 files, 0.00 GB, each with its sha256 in holdings.json. The files stay in downloads/, outside git.
+- Not yet held: every listed address above without a held count. `python fetch.py` fetches them on a machine whose network reaches the hosts, and running it again continues.
 
 ### Integrity
 
