@@ -1,0 +1,274 @@
+<title>The Body Cannot Be Afraid of Death · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>The Body Cannot Be Afraid of Death</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">Six Temples, 1, Shiva: death and the body</span><span class="note">2026-11-14 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-14-suno-the-body-cannot-be-afraid-of-death.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">1,111 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">damaru hand drum rolls, rudra veena low strings, shankh conch blasts, Kashmiri santoor hammered shimmer, Tandava rhythm, fierce cosmic dance percussion, ash-dark tanpura drone, cremation ground ambience, crackling pyre fire, Shiva Ratri night, Kashmir Shaivism devotional, raga Bhairav, raga Malkauns midnight, rudra taal, jhaptaal cycles, pakhawaj thunder, temple bells, manjira cymbals, trishul metal clangs, nagaswaram distant, sarangi moan, bansuri breath low, harmonium bed, deep throat drone, Om drone, sub-bass rumble, 808 sub-bass, hard 808, blown out kicks, deep bass beats, recurring theme melody, upright bass, hypnotic dreamy layers, complex mixtures, rich samples, lush dark synth pads, chanting chorus texture, mantra pulse, kirtan build, slow 60 bpm opening, accelerating to 140 bpm Tandava climax, tribal frame drums, stomping footfalls, ankle bells ghungroo, reverse cymbals, cavernous reverb, Himalayan cave echo, wide stereo drones, dark ritual mood, fearless, austere, ecstatic destruction, cinematic build, heavy low end, minor key, sparse then thunderous, bass drop, festival anthem energy</pre>
+<h2>Lyrics <span class="note">4,444 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+[Intro]
+[Shankh conch, three long calls]
+[Damaru roll]
+[Ash-dark drone rising, Shiva Ratri night, burning ash]
+[Male deep]
+The body cannot be afraid of death.
+[Whispered]
+The body cannot be afraid of death.
+
+[Verse 1]
+[Rudra veena alone]
+[Male deep]
+What you call &#x27;yourself&#x27; is fear.
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+[Spoken]
+What you are afraid of is not death.
+
+[Pre-Chorus]
+[Damaru roll]
+[Woman]
+You see, you love fear.
+The ending of fear is death,
+and you don&#x27;t want THAT to happen.
+
+[Chorus]
+[Chorus of women Sing together]
+[Tandava rhythm, full drums]
+[Music stays loud]
+The body cannot be afraid of death.
+The movement that is created by society or culture
+is what does not want to come to an end.
+The body cannot be afraid of death.
+in that sense the body is immortal
+
+[Verse 2]
+[Kashmiri santoor, cold and slow]
+[Male deep]
+the hands and feet become cold,
+the body becomes stiff,
+the heartbeat slows down
+[Said kindly]
+a clinical death will occur,
+and it is not the near-death experience
+of those &#x27;near death&#x27; scoundrels
+[Woman]
+My body had gone away
+and it has never come back.
+The points of contact are all that is there for the body.
+
+[Pre-Chorus]
+[Damaru roll]
+[Woman]
+You see, you love fear.
+The ending of fear is death,
+and you don&#x27;t want THAT to happen.
+
+[Chorus]
+[Chorus of women Sing together]
+[Tandava rhythm, full drums]
+[Music stays loud]
+The body cannot be afraid of death.
+The movement that is created by society or culture
+is what does not want to come to an end.
+The body cannot be afraid of death.
+in that sense the body is immortal
+
+[Bridge]
+[Bass drop]
+[Damaru roll]
+[Male deep]
+I call these events a calamity
+because from the point of view of one who thinks
+this is something fantastic, blissful, full of love, ecstasy
+and all that kind of a thing,
+this is physical torture.
+[Spoken]
+Not a calamity to me
+but a calamity to those who have an image
+that something marvelous is going to happen.
+[Whispered]
+is like a nuclear explosion
+
+[Verse 3]
+[Rudra veena alone]
+[Male deep]
+There is nothing there - no soul -
+there is only this question about after death.
+The belief in reincarnation will only help us to look the other side.
+[Woman]
+It is fear that makes you believe
+that you are living and that you will be dead.
+[Said kindly]
+The body changes from one state into another
+as recycling of matter.
+
+[Pre-Chorus]
+[Damaru roll]
+[Woman]
+You see, you love fear.
+The ending of fear is death,
+and you don&#x27;t want THAT to happen.
+
+[Chorus]
+[Chorus of women Sing together]
+[Tandava rhythm, full drums]
+[Music stays loud]
+The body cannot be afraid of death.
+The movement that is created by society or culture
+is what does not want to come to an end.
+The body cannot be afraid of death.
+in that sense the body is immortal
+
+[Verse 4]
+[Kashmiri santoor and rudra veena together]
+[Male deep]
+This state is a physical condition of your being.
+It is not some kind of psychological mutation.
+[Woman]
+Love, compassion, ahimsa, understanding, bliss,
+all these things which religion and psychology have placed before man,
+are only adding to the strain of the body.
+[Said kindly]
+Life has to be described in pure and simple physical and physiological terms.
+
+[Bridge 2]
+[Tandava rhythm, half time]
+[Male deep]
+Each cell of a living organism cooperates with the cell next to it.
+[Woman]
+The cells stick together not out of brotherhood, love and that kind of thing,
+but out of the urgent drive to survive.
+[Spoken]
+The body can&#x27;t take uninterrupted pleasure for long, it would be destroyed.
+[Whispered]
+How I got into this state I will never be able to tell.
+
+[Final Chorus]
+[Chorus of women Sing together]
+[Tandava rhythm, full drums]
+[Shankh conch over the drums]
+[Music stays loud]
+The body cannot be afraid of death.
+The movement that is created by society or culture
+is what does not want to come to an end.
+The body cannot be afraid of death.
+in that sense the body is immortal
+[Male deep]
+Not a calamity to me
+but a calamity to those who have an image
+that something marvelous is going to happen.
+
+[Outro]
+[Shankh conch]
+[Damaru roll fading]
+[Male deep]
+The body or organism is not interested in spiritual matters.
+[Woman]
+the body does not know that it is healthy or unhealthy
+[Chorus of women Sing together]
+in that sense the body is immortal
+[Whispered]
+The body cannot be afraid of death.
+[Ash-dark drone alone, then silence]</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">The body cannot be afraid of death. (intro, every chorus, outro): q08218f4e
+What you call &#x27;yourself&#x27; is fear. / The &#x27;you&#x27; is born out of fear; / it lives in fear, / functions in fear / and dies in fear.: qc774741b
+What you are afraid of is not death.: qbd6fe67c
+You see, you love fear. / The ending of fear is death, / and you don&#x27;t want THAT to happen. (pre-chorus, three times): qd70eb646
+The body cannot be afraid of death. / The movement that is created by society or culture / is what does not want to come to an end. (chorus): q6fe326b5
+in that sense the body is immortal (chorus, outro): q1a68f39e
+the hands and feet become cold, / the body becomes stiff, / the heartbeat slows down: qc0edce3e
+a clinical death will occur, / and it is not the near-death experience / of those &#x27;near death&#x27; scoundrels: q41a1cd4e
+My body had gone away / and it has never come back. / The points of contact are all that is there for the body.: q4b30cd75
+I call these events a calamity / because from the point of view of one who thinks / this is something fantastic, blissful, full of love, ecstasy / and all that kind of a thing, / this is physical torture.: q37d40528
+Not a calamity to me / but a calamity to those who have an image / that something marvelous is going to happen. (bridge, final chorus): q1fb36c86
+is like a nuclear explosion: q02c3e502
+There is nothing there - no soul - / there is only this question about after death.: q25e43852
+The belief in reincarnation will only help us to look the other side.: q190abbe4
+It is fear that makes you believe / that you are living and that you will be dead.: q1676a73f
+The body changes from one state into another / as recycling of matter.: qbb683516
+This state is a physical condition of your being. / It is not some kind of psychological mutation.: qe646b0ed
+Love, compassion, ahimsa, understanding, bliss, / all these things which religion and psychology have placed before man, / are only adding to the strain of the body.: q39067cd0
+Life has to be described in pure and simple physical and physiological terms.: qacfbd56d
+Each cell of a living organism cooperates with the cell next to it. / The cells stick together not out of brotherhood, love and that kind of thing, / but out of the urgent drive to survive.: q0997ce6d
+The body can&#x27;t take uninterrupted pleasure for long, it would be destroyed.: q59326449
+How I got into this state I will never be able to tell.: q76f1764e
+The body or organism is not interested in spiritual matters.: q7f2ee6c3
+the body does not know that it is healthy or unhealthy: qcc9c525e
+No line is mine. Album: Six Temples, song 1, Shiva.</pre>
+<h2>Count</h2><pre class="song" id="song-count">Lyrics 4444 characters. Style 1111 characters.</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

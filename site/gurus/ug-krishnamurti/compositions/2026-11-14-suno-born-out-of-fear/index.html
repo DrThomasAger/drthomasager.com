@@ -1,0 +1,307 @@
+<title>Born Out of Fear · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>Born Out of Fear</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">Six Temples, 2, Kali: fear</span><span class="note">2026-11-14 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-14-suno-born-out-of-fear.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">1,111 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">Shakta Tantra ritual trance, Bengali shyama sangeet, Kali puja night, Kalighat temple drone, Tarapith cremation ground atmosphere, thundering dhak drums, massed dhak ensemble, rolling dhak polyrhythm, frenzied dhunuchi dance rhythm, accelerating dhunuchi tempo, kasar gong crashes, bronze kasar clangs, shankh conch blasts, long conch calls, Bengali hand pumped harmonium, shyama sangeet harmonium drone, minor raga harmonium phrases, iron temple bells, clanging iron bells, ghanta hand bells, jhanjh cymbals, kartal, khol drum, dhol accents, tanpura drone, ektara pulse, dark industrial bass, distorted sub bass, 808 sub bass pressure, blown out kicks, industrial metal percussion, clanking chains texture, metallic hits, low brass drones, ominous drone pads, ecstatic devotional frenzy, call and response female choir, deep male chant, women&#x27;s chorus chanting, mantra chant layers, kirtan build, hypnotic repetition, relentless drive, tribal tom rolls, cinematic risers, sudden bass drops, loud wall of drums, dark temple reverb, raw percussive mix, midnight ritual climax, trance escalation, fierce crescendo</pre>
+<h2>Lyrics <span class="note">4,444 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+[Intro]
+[Conch blasts]
+[Kasar gongs]
+[Iron bells]
+[Whispered]
+What you call &#x27;yourself&#x27; is fear.
+[Male deep]
+What you call &#x27;yourself&#x27; is fear.
+[Dhak drums]
+
+[Verse 1]
+[Woman]
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+[Male deep]
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+
+[Pre-Chorus]
+[Said kindly]
+What you are afraid of is not death.
+The body cannot be afraid of death.
+[Woman]
+The body cannot be afraid of death.
+[Spoken]
+The movement that is created by society or culture
+is what does not want to come to an end.
+
+[Chorus]
+[Chorus of women Sing together]
+[Music stays loud]
+You love fear.
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+You love fear.
+You love fear.
+Fear is the very thing that you do not want to be free from.
+
+[Dhak drums]
+[Bass drop]
+
+[Interlude]
+[Male deep]
+What you call &#x27;yourself&#x27; is fear.
+What you call &#x27;yourself&#x27; is fear.
+[Chorus of women Sing together]
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+
+[Verse 2]
+[Male deep]
+Man has created God out of fear.
+So the problem is fear and not God.
+[Woman]
+There is no power outside of man.
+Man has created God out of fear.
+[Whispered]
+it is the mind that has created God out of fear
+[Male deep]
+So the problem is fear and not God.
+
+[Pre-Chorus]
+[Said kindly]
+What you are afraid of is not death.
+The body cannot be afraid of death.
+[Woman]
+What you are afraid of is not death.
+
+[Bridge]
+[Spoken]
+We don&#x27;t want to be free from fear.
+All that we want to do is to play games with it
+and talk about freeing ourselves from fear.
+[Said kindly]
+The fact is that we don&#x27;t want to be free.
+What is responsible for our problems
+is the fear of losing what we have and what we know.
+
+[Chorus]
+[Chorus of women Sing together]
+[Music stays loud]
+You love fear.
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+You love fear.
+You love fear.
+Fear is the very thing that you do not want to be free from.
+
+[Conch blast]
+[Kasar gong]
+
+[Verse 3]
+[Woman]
+It is fear that makes you believe that you are living
+and that you will be dead.
+[Male deep]
+the very birth of thought creates fear
+Thought is you.
+[Spoken]
+there is no entity called &#x27;self&#x27; independent of the thought process
+…the constant use of thought to give continuity to your separate self.
+
+[Dhunuchi dance]
+[Dhak drums]
+[Chorus of women Sing together]
+the fear of losing what we have and what we know
+the fear of losing what we have and what we know
+[Male deep]
+the fear of losing what we have and what we know
+is responsible for our problems
+[Screamed]
+You love fear.
+You love fear.
+[Whispered]
+Thought is you.
+Thought is you.
+
+[Breakdown]
+[Iron bells]
+[Whispered]
+there is no self to realize
+there is no individual there at all
+[Said kindly]
+You are not a &quot;person&quot;, not a &quot;thing&quot;,
+not a discrete entity surrounded by &quot;other&quot; things.
+
+[Frenzy]
+[Dhak drums]
+[Screamed]
+whatever you do to be free from the self
+also is a self-centred activity
+[Chorus of women Sing together]
+All your experiences, all your meditations,
+all your prayer, all that you do, is self-centred.
+[Screamed]
+There is no moksha, no jivanmukti and no atman.
+And there is no such thing as self-realization.
+
+[Bass drop]
+[Music stays loud]
+
+[Verse 4]
+[Male deep]
+The courage to be on your own,
+to stand on your two solid feet,
+is something which cannot be given by somebody.
+[Woman]
+You cannot free yourself of that burden
+by trying to develop that courage.
+[Said kindly]
+If you are freed from the entire burden of the entire past of mankind,
+then what is left there is the courage.
+
+[Final Chorus]
+[Chorus of women Sing together]
+You see, you love fear.
+You love fear.
+You love fear.
+The ending of fear is death,
+and you don&#x27;t want that to happen.
+[Male deep]
+What you call &#x27;yourself&#x27; is fear.
+The &#x27;you&#x27; is born out of fear;
+it lives in fear,
+functions in fear
+and dies in fear.
+
+[Outro]
+[Said kindly]
+…the beyond can never be experienced by you;
+it is when the &#x27;you&#x27; is not there.
+[Woman]
+everything you are doing to be at peace with yourself
+is what is destroying the peace that is already there.
+[Said kindly]
+To be yourself requires extraordinary intelligence.
+You are blessed with that intelligence…
+[Male deep]
+You have to liberate yourself.
+[Whispered]
+What you call &#x27;yourself&#x27; is fear.
+[Conch blasts]
+[Kasar gong]
+[End]</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">What you call &#x27;yourself&#x27; is fear. (intro, interlude, final chorus, outro): qc774741b
+The &#x27;you&#x27; is born out of fear; it lives in fear, functions in fear and dies in fear. (verse 1, interlude, final chorus): qb1981622 (also in qc774741b)
+What you are afraid of is not death. (pre-choruses): qbd6fe67c
+The body cannot be afraid of death. (pre-choruses): q08218f4e
+The movement that is created by society or culture / is what does not want to come to an end.: q6fe326b5
+You love fear. / The ending of fear is death, / and you don&#x27;t want that to happen. (choruses, dhunuchi dance): qa52816a8
+You see, you love fear. (final chorus): qd70eb646
+Fear is the very thing that you do not want to be free from. (choruses): q086ab55c
+There is no power outside of man. / Man has created God out of fear. / So the problem is fear and not God. (verse 2): q5f1205b6 (also in qbddfe57f)
+it is the mind that has created God out of fear (verse 2): qbdce9d7f
+We don&#x27;t want to be free from fear. / All that we want to do is to play games with it / and talk about freeing ourselves from fear. (bridge): q3148c69a
+The fact is that we don&#x27;t want to be free. / What is responsible for our problems / is the fear of losing what we have and what we know. (bridge): qe06bf8ca
+the fear of losing what we have and what we know (dhunuchi dance): qf69919b2
+the fear of losing what we have and what we know / is responsible for our problems (dhunuchi dance): q104a81af
+It is fear that makes you believe that you are living / and that you will be dead. (verse 3): q1676a73f
+the very birth of thought creates fear (verse 3): q4f2c81d1
+Thought is you. (verse 3, dhunuchi dance): q00193fb7
+there is no entity called &#x27;self&#x27; independent of the thought process (verse 3): q1c8788f6
+…the constant use of thought to give continuity to your separate self. (verse 3): q95f072f5
+there is no self to realize (breakdown): qd28dac6d
+there is no individual there at all (breakdown): q05850b19
+You are not a &quot;person&quot;, not a &quot;thing&quot;, / not a discrete entity surrounded by &quot;other&quot; things. (breakdown): qcb7d8a47
+whatever you do to be free from the self / also is a self-centred activity (frenzy): q07528773
+All your experiences, all your meditations, / all your prayer, all that you do, is self-centred. (frenzy): q62dd75b6
+There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization. (frenzy): qd829349e
+The courage to be on your own, ... then what is left there is the courage. (verse 4): q77f34910
+…the beyond can never be experienced by you; / it is when the &#x27;you&#x27; is not there. (outro): q39483a5d
+everything you are doing to be at peace with yourself / is what is destroying the peace that is already there. (outro): q7fad3985
+To be yourself requires extraordinary intelligence. / You are blessed with that intelligence… (outro): qbe66ba38
+You have to liberate yourself. (outro): qd39fb8fe
+
+No line is mine. Album: Six Temples, song 2, Kali.</pre>
+<h2>Count</h2><pre class="song" id="song-count">Lyrics 4444 characters. Style 1111 characters.</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

@@ -164,8 +164,9 @@ def main():
     slug, topic = split_args(a.rest)
     topic = topic or a.topic
     meta, quotes = teacher_data(slug)
-    qs = sc.pick(quotes, topic, [s for s in a.select.split(",") if s.strip()], a.book, a.include_single,
-                 a.max or f.get("default_max_quotes", 30))
+    sel = [s.strip() for s in a.select.split(",") if s.strip()]
+    qs = sc.pick(quotes, topic, sel, a.book, a.include_single,
+                 a.max or (len(sel) if sel else f.get("default_max_quotes", 30)))  # a selection keeps every id given
     if a.action == "quotes":
         print(sc.face(f"{meta.get('name')}, the quotations given, {len(qs)} of them", "\n".join(sc.quote_line(q) for q in qs)))
         return

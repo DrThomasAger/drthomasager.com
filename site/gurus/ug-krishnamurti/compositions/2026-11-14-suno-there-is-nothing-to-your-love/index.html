@@ -1,0 +1,264 @@
+<title>There Is Nothing to Your Love · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>There Is Nothing to Your Love</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">Six Temples, 3, Krishna: love</span><span class="note">2026-11-14 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-14-suno-there-is-nothing-to-your-love.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">1,111 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">Gaudiya kirtan, Vrindavan bhakti, devotional festival anthem, bansuri bamboo flute lead, breathy bansuri ornaments, meend glides, mridanga khol drum, deep khol bass strokes, rolling khol patterns, brass kartal cymbals, jhanj clashes, manjira shimmer, hand pumped harmonium drone, harmonium chords, tanpura drone, swarmandal sparkle, ektara pluck, dotara strum, swelling call and response kirtan, accelerating kirtan tempo, ecstatic sankirtan build, massed chanting chorus, pakhawaj accents, tabla tihais, Holi celebration, color festival energy, dhol bursts, nagara drums, handclaps, temple bells, conch shell blast, warm sub-bass, 808 sub-bass, deep bass beats, hard kicks, recurring flute theme melody, flowing melodies, rasa lila dance groove, circular dance rhythm, keherwa taal, dadra swing, yamuna riverside ambience, peacock calls, cowbells, forest night, hypnotic dreamy layers, lush synth pads, sitar shimmer, santoor cascades, sarangi longing, mantra, chanting, kirtan, joyful longing, sweet devotion, divine romance mood, call and response swells, crowd singing, tempo rising to frenzy, euphoric drop</pre>
+<h2>Lyrics <span class="note">4,444 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+[Intro]
+[Bansuri alone]
+[Harmonium drone, khol enters softly]
+[Said kindly]
+If you want to call it that.
+
+[Verse 1]
+[Woman]
+There is nothing to your love:
+if you don&#x27;t get what you want,
+what happens to your, &quot;I love you darling…&quot;
+There is nothing to your love:
+if you don&#x27;t get what you want,
+what happens to your, &quot;I love you darling…&quot;
+
+[Pre-Chorus]
+[Woman]
+Because you cannot face the impermanence of all relationships,
+you invent sentiments, romance, and dramatic emotions
+to give them certainty.
+
+[Chorus]
+[Chorus of women Sing together]
+[Khol and kartal]
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+
+[Verse 2]
+[Male deep]
+We are trying to bridge this gap…
+with this fancy idea
+that there must be love between these two individuals.
+We are trying to bridge this gap…
+with this fancy idea
+that there must be love between these two individuals.
+
+[Call and response]
+[Male deep]
+You love fear.
+[Chorus of women Sing together]
+You love fear.
+[Male deep]
+The ending of fear is death,
+[Chorus of women Sing together]
+and you don&#x27;t want that to happen.
+[Male deep]
+Fear is the very thing
+[Chorus of women Sing together]
+that you do not want to be free from.
+[Male deep]
+The fact is that we don&#x27;t want to be free.
+[Chorus of women Sing together]
+The fact is that we don&#x27;t want to be free.
+
+[Chorus]
+[Chorus of women Sing together]
+[Khol and kartal]
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+
+[Verse 3]
+[Bansuri alone]
+[Woman]
+the demand for permanence…
+permanent relationships, permanent happiness, and permanent bliss…
+is the cause of human misery
+What is responsible for our problems
+is the fear of losing what we have and what we know.
+
+[Pre-Chorus]
+[Woman]
+Because you cannot face the impermanence of all relationships,
+you invent sentiments, romance, and dramatic emotions
+to give them certainty.
+
+[Bridge]
+[Bass drop]
+[Holi, the kirtan swells]
+[Male deep]
+Thought always interferes with sex.
+It has become a pleasure movement.
+You draw lines on this planet.
+You draw lines on this planet.
+[Woman]
+what kind of a human being do you want?
+what kind of a human being do you want?
+
+[Call and response]
+[Music stays loud]
+[Male deep]
+Love, compassion, ahimsa, understanding, bliss,
+[Chorus of women Sing together]
+are only adding to the strain of the body.
+[Male deep]
+fantastic, blissful, full of love, ecstasy
+[Chorus of women Sing together]
+this is physical torture.
+[Male deep]
+We don&#x27;t want to be free from fear.
+[Chorus of women Sing together]
+All that we want to do is to play games with it
+[Male deep]
+The body cannot be afraid of death.
+
+[Spoken]
+[Harmonium alone]
+[Said kindly]
+Don&#x27;t forget that in the name of &quot;Love thy neighbor as thyself&quot;
+millions and millions of people have died,
+It is the ones who believe in God, who preach peace and talk of love,
+who have created the human jungle.
+
+[Final Chorus]
+[Chorus of women Sing together]
+[Khol and kartal]
+[Music stays loud]
+It is not love, compassion, humanism, or brotherly sentiments that will save mankind.
+It is the sheer terror of extinction that can save us, if anything can.
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+
+[Kirtan]
+[Call and response]
+[Khol and kartal]
+[Woman]
+There is nothing to your love
+[Chorus of women Sing together]
+There is nothing to your love
+[Male deep]
+if you don&#x27;t get what you want,
+[Chorus of women Sing together]
+if you don&#x27;t get what you want,
+[Woman]
+what happens to your, &quot;I love you darling…&quot;
+[Chorus of women Sing together]
+what happens to your, &quot;I love you darling…&quot;
+[Male deep]
+Wherever there is division, there can&#x27;t be love.
+[Chorus of women Sing together]
+Wherever there is division, there can&#x27;t be love.
+
+[Outro]
+[Rasa lila, the dancers circle]
+[Woman]
+Each cell of a living organism cooperates with the cell next to it.
+The cells stick together not out of brotherhood, love and that kind of thing,
+but out of the urgent drive to survive.
+[Chorus of women Sing together]
+Love implies division, separation.
+Wherever there is division, there can&#x27;t be love.
+[Bansuri alone]
+[Said kindly]
+There is nothing to your love</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">Title: &quot;There is nothing to your love&quot;, q3646651d.
+&quot;If you want to call it that.&quot; qbd194c2e
+&quot;There is nothing to your love: / if you don&#x27;t get what you want, / what happens to your, &quot;I love you darling…&quot;&quot; and the kirtan and closing lines of it: q3646651d
+&quot;Because you cannot face the impermanence of all relationships, / you invent sentiments, romance, and dramatic emotions / to give them certainty.&quot; q21e36727
+&quot;Love implies division, separation. / Wherever there is division, there can&#x27;t be love.&quot; qc032db3b
+&quot;We are trying to bridge this gap… / with this fancy idea / that there must be love between these two individuals.&quot; q9a924078
+&quot;You love fear. / The ending of fear is death, / and you don&#x27;t want that to happen.&quot; qa52816a8
+&quot;Fear is the very thing / that you do not want to be free from.&quot; q086ab55c
+&quot;The fact is that we don&#x27;t want to be free.&quot; / &quot;What is responsible for our problems / is the fear of losing what we have and what we know.&quot; qe06bf8ca
+&quot;the demand for permanence… / permanent relationships, permanent happiness, and permanent bliss… / is the cause of human misery&quot; qa86cd51d
+&quot;Thought always interferes with sex. / It has become a pleasure movement.&quot; qc70b22b1
+&quot;You draw lines on this planet.&quot; qbc15d529
+&quot;what kind of a human being do you want?&quot; qb4eaccd2
+&quot;Love, compassion, ahimsa, understanding, bliss, / are only adding to the strain of the body.&quot; q39067cd0
+&quot;fantastic, blissful, full of love, ecstasy / this is physical torture.&quot; q37d40528
+&quot;We don&#x27;t want to be free from fear. / All that we want to do is to play games with it&quot; q3148c69a
+&quot;The body cannot be afraid of death.&quot; q6fe326b5
+&quot;Don&#x27;t forget that in the name of &quot;Love thy neighbor as thyself&quot; / millions and millions of people have died,&quot; q3814bcc6
+&quot;It is the ones who believe in God, who preach peace and talk of love, / who have created the human jungle.&quot; qba7b8f15
+&quot;It is not love, compassion, humanism, or brotherly sentiments that will save mankind. / It is the sheer terror of extinction that can save us, if anything can.&quot; qa56a998d
+&quot;Each cell of a living organism cooperates with the cell next to it. / The cells stick together not out of brotherhood, love and that kind of thing, / but out of the urgent drive to survive.&quot; q0997ce6d
+No line is mine. Album: Six Temples, song 3, Krishna.</pre>
+<h2>Count</h2><pre class="song" id="song-count">Lyrics 4444 characters. Style 1111 characters.</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>

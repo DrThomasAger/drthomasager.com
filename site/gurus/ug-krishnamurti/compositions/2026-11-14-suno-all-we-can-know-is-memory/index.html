@@ -1,0 +1,276 @@
+<title>All We Can Know Is Memory · U.G. Krishnamurti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root {
+  --bg: #f2f4f6; --surface: #ffffff; --surface-2: #e8ecf0; --line: #d2d9df;
+  --fg: #16202a; --fg-2: #4d5b68; --fg-3: #7b8894; --accent: #0f5f6b; --accent-fg: #ffffff;
+  --v: #2a78d6; --a: #eb6834; --t: #1baf7a; --i: #eda100; --r: #e87ba4; --c: #008300;
+  --display: "Newsreader", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #121820; --surface: #1a222b; --surface-2: #232d38; --line: #34414d; --fg: #eef2f5; --fg-2: #b4c0cb; --fg-3: #84929f; --accent: #5fc3cf; --accent-fg: #0b1317;
+  --v: #3987e5; --a: #d95926; --t: #199e70; --i: #c98500; --r: #d55181; --c: #008300; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; max-width: 100%; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 56px; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.08; margin: 6px 0 6px; }
+h2 { font-size: 19px; margin: 18px 0 8px; }
+.wrap { max-width: 1180px; margin: 0 auto; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); padding-top: 18px; }
+.eyebrow a { color: inherit; }
+.lede { color: var(--fg-2); max-width: 72ch; margin: 4px 0 18px; }
+.cols { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--fg-2); min-width: 0; }
+label.inline { flex-direction: row; align-items: center; gap: 8px; font-size: 13.5px; color: var(--fg); }
+input, select, textarea { font: inherit; font-size: 14px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 0; width: 100%; }
+label.inline input { width: auto; }
+textarea { resize: vertical; }
+textarea.big { min-height: 420px; font-family: var(--body); line-height: 1.55; }
+textarea.mono { font-family: var(--mono); font-size: 12.5px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; padding: 8px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-decoration: none; }
+.btn.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.note { font-size: 12.5px; color: var(--fg-3); }
+.warn { font-size: 13px; color: var(--fg); background: var(--surface-2); border-left: 3px solid var(--i); padding: 8px 10px; border-radius: 4px; }
+.pill { font-family: var(--mono); font-size: 11px; padding: 1px 7px; border-radius: 4px; background: var(--surface-2); color: var(--fg-2); }
+.status { font-family: var(--mono); font-size: 12px; color: var(--fg-3); }
+.list { max-height: 360px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+.list .li { display: flex; gap: 8px; padding: 7px 9px; border-bottom: 1px solid var(--line); font-size: 13px; align-items: flex-start; }
+.list .li:last-child { border-bottom: 0; }
+.list .li .t { min-width: 0; overflow-wrap: anywhere; }
+.list .li .s { font-family: var(--mono); font-size: 11px; color: var(--fg-3); }
+.list .li.on { background: var(--surface-2); }
+nav.tools { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; margin: 6px 0 16px; }
+</style>
+<style>
+.prose { max-width: 70ch; font-size: 16.5px; line-height: 1.65; }
+.prose h1, .prose h2, .prose h3 { margin: 1.4em 0 .5em; }
+.prose h2 { font-size: 24px; } .prose h3 { font-size: 19px; }
+.prose blockquote { margin: 1em 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--accent); font-family: var(--display); font-size: 19px; }
+.prose p { margin: .7em 0; }
+.prose pre.song { white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--mono); font-size: 13.5px; line-height: 1.6; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+.prose h2 .note { font-family: var(--body); font-size: 12.5px; margin-left: 6px; }
+.prose h2 .btn { margin-left: 8px; vertical-align: middle; font-size: 12.5px; padding: 5px 11px; }
+.prose blockquote + p { color: var(--fg-3); font-size: 13.5px; margin-top: -.3em; }
+</style>
+<div class="wrap">
+  <div class="eyebrow"><a href="../../../">gurus</a> · <a href="../../">U.G. Krishnamurti</a> · composition</div>
+  <h1>All We Can Know Is Memory</h1>
+  <div class="row" style="margin:8px 0 18px"><span class="pill">Suno song</span><span class="note">Six Temples, 5, the Buddha: thought</span><span class="note">2026-11-14 · composed with claude-opus-5-5 from the verified quotations</span><a class="note" href="https://github.com/DrThomasAger/drthomasager.com/edit/main/hanjopurebuddha.com/teachers/ug-krishnamurti/compositions/2026-11-14-suno-all-we-can-know-is-memory.md" target="_blank" rel="noopener">Edit this page</a></div>
+  <div class="prose"><h2>Style <span class="note">1,111 characters</span> <button class="btn copy" type="button" data-copy="style">Copy style for Suno</button></h2><pre class="song" id="song-style">Pali chant drone, low monastic chanting drone, Theravada sutta recitation drone, Bodh Gaya temple gong, large bronze temple gong swells, Tibetan singing bowls struck, bronze bowls rubbed rim tones, singing bowl harmonic overtones, Nalanda monastery bells, distant bell tower, rain on stone courtyard, soft rain on temple steps, dripping water on granite, sarod, slow sarod alap, sarod meend glides, sarod sympathetic strings, slow tabla, sparse tabla theka, deep tabla bayan bends, tanpura drone, harmonium drone pads, conch shell call, temple drums, deep ambient bass, sub bass swells, long sustained low pads, minimal techno pulse, soft four on the floor kick, slow 70 bpm pulse, hypnotic repetition, meditative ambient techno, warm analog synth pads, reverb drenched stone hall, cavernous cathedral reverb, wide stereo field, slow builds, bass drop, heavy sub drop, music stays loud, rising drone crescendos, recurring theme melody, flowing melodies, nature field recording, bodhi tree leaves rustling, mantra chorus pads, chanting chorus texture, deep male choir drone, sacred minimalism, devotional ambient</pre>
+<h2>Lyrics <span class="note">4,444 characters</span> <button class="btn copy" type="button" data-copy="lyrics">Copy lyrics for Suno</button></h2><pre class="song" id="song-lyrics">[ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
+[Intro: rain on stone, monastery bells, Pali chant drone]
+[Temple gong]
+[Bowls ringing]
+[Chorus of monks low]
+all we can know is memory
+and memory is thought
+[Whispered]
+Thought is you.
+Thought is you.
+
+[Verse 1]
+[Male deep]
+Thought can never capture the movement of life,
+it is much too slow.
+It is like lightning and thunder.
+They occur simultaneously,
+but sound, traveling slower than light,
+reaches you later,
+creating the illusion of two separate events.
+[Temple gong]
+You hook up each thought with the next,
+creating a false continuity.
+It is that continuity that is the problem.
+
+[Pre-Chorus]
+[Woman]
+there is no entity called &#x27;self&#x27;
+independent of the thought process
+[Said kindly]
+You are not a &quot;person&quot;, not a &quot;thing&quot;,
+not a discrete entity surrounded by &quot;other&quot; things.
+
+[Chorus]
+[Chorus of monks low]
+[Bass drop]
+[Music stays loud]
+all we can know is memory
+and memory is thought
+There is no such thing as your mind and my mind.
+… mind is everywhere, sort of like the air we breathe.
+all we can know is memory
+and memory is thought
+Thought is you.
+
+[Interlude: bronze bowls struck and rubbed, sarod, slow tabla]
+[Bowls ringing]
+
+[Verse 2]
+[Male deep]
+Sorrow is there for you as long as you think.
+There is actually no sorrow there to be free from.
+Thinking about and struggling against &#x27;sorrow&#x27; is sorrow.
+Since you can&#x27;t stop thinking,
+and thinking is sorrow,
+you will always suffer.
+[Whispered]
+Your thinking endlessly about being free from sorrow
+is only more material for sorrow.
+It (thinking) does not put an end to sorrow.
+
+[Pre-Chorus]
+[Woman]
+the very birth of thought creates fear
+You see, you love fear.
+The ending of fear is death,
+and you don&#x27;t want THAT to happen.
+
+[Chorus]
+[Chorus of monks low]
+[Bass drop]
+[Music stays loud]
+all we can know is memory
+and memory is thought
+There is no such thing as your mind and my mind.
+… mind is everywhere, sort of like the air we breathe.
+all we can know is memory
+and memory is thought
+Thought is you.
+
+[Verse: Nalanda, sarod and slow tabla]
+[Male deep]
+Your beliefs are the result of blind acceptance of authority,
+all secondhand stuff.
+[Woman]
+is not yours; it is something which you and your ancestors
+have accumulated over a long time
+[Male deep]
+belief is an extension of the survival mechanism
+which has operated for millions of years
+[Chorus of monks low]
+everything you stand for, believe in, experience and aspire to
+is the result of thought.
+And thought is destructive
+because it is nothing more than a protective mechanism.
+
+[Bridge: under the bodhi tree, temple gong, deep ambient bass]
+[Said kindly]
+There is no such thing as spiritual or psychological enlightenment
+because there is no such thing as spirit or psyche at all.
+[Male deep]
+God or Enlightenment is the ultimate pleasure,
+uninterrupted happiness.
+No such thing exists.
+[Woman]
+transformation, moksha, and all that stuff
+are just variations of the same theme:
+permanent happiness
+[Temple gong]
+I have had to search
+and it is the search itself which has been choking me
+and keeping me out of my natural state.
+
+[Verse 3]
+[Male deep]
+The body does not exist except as a thought.
+Time and space, apart from the ideas of &#x27;time&#x27; and &#x27;space&#x27;,
+do not exist at all.
+[Whispered]
+everything you are doing to be at peace with yourself
+is what is destroying the peace that is already there.
+[Said kindly]
+Thinking is a poor alternative to acting.
+Your thinking is consuming all your energy.
+Act, don&#x27;t think!
+
+[Breakdown: minimal techno pulse, rain on stone]
+[Woman]
+There is nothing to understand —
+that is the understanding I am talking about.
+The understanding that there is nothing to understand
+is all there is.
+
+[Final Chorus]
+[Chorus of monks low]
+[Bass drop]
+[Music stays loud]
+all we can know is memory
+and memory is thought
+There is no such thing as your mind and my mind.
+… mind is everywhere, sort of like the air we breathe.
+If you have the courage to touch life for the first time,
+you will never know what hit you.
+Everything man has thought, felt and experienced is gone,
+and nothing is put in its place.
+
+[Outro: dusk]
+[Male deep]
+Only if you reject all the other paths
+can you discover your own path.
+You have to liberate yourself.
+[Said kindly]
+Don&#x27;t follow me, I&#x27;m lost.
+[Whispered]
+Don&#x27;t follow me, I&#x27;m lost.
+[Chorus of monks low]
+all we can know is memory
+and memory is thought
+[Monastery bells, bowls ringing, rain fading]
+[Temple gong]
+[End]</pre>
+<h2>Sources</h2><pre class="song" id="song-sources">Intro and choruses, &quot;all we can know is memory / and memory is thought&quot;: q6a9a1403
+&quot;Thought is you.&quot;: q00193fb7
+Verse 1, &quot;Thought can never capture the movement of life …&quot;: q7a1ee58c
+&quot;You hook up each thought with the next …&quot;: qe27976db
+Pre-Chorus 1, &quot;there is no entity called &#x27;self&#x27; …&quot;: q1c8788f6
+&quot;You are not a &quot;person&quot;, not a &quot;thing&quot; …&quot;: qcb7d8a47
+Choruses, &quot;There is no such thing as your mind and my mind. … mind is everywhere …&quot;: q6bc8c471
+Verse 2, &quot;Sorrow is there for you as long as you think …&quot;: qd2169deb
+&quot;Thinking about and struggling against &#x27;sorrow&#x27; is sorrow …&quot;: q1c893a18
+&quot;Your thinking endlessly about being free from sorrow …&quot;: q64b3e681
+&quot;It (thinking) does not put an end to sorrow.&quot;: q118b8994
+Pre-Chorus 2, &quot;the very birth of thought creates fear&quot;: q4f2c81d1
+&quot;You see, you love fear …&quot;: qd70eb646
+Nalanda verse, &quot;Your beliefs are the result of blind acceptance of authority …&quot;: q8282292e
+&quot;is not yours; it is something which you and your ancestors …&quot;: q9c3dac12
+&quot;belief is an extension of the survival mechanism …&quot;: q4895987b
+&quot;everything you stand for, believe in, experience and aspire to …&quot;: q989dde8c
+Bridge, &quot;There is no such thing as spiritual or psychological enlightenment …&quot;: q69f83f72
+&quot;God or Enlightenment is the ultimate pleasure …&quot;: q4fd55d91
+&quot;transformation, moksha, and all that stuff …&quot;: q3b41db6a
+&quot;I have had to search …&quot;: q2c9515a2
+Verse 3, &quot;The body does not exist except as a thought.&quot;: qb4728a46
+&quot;Time and space, apart from the ideas of &#x27;time&#x27; and &#x27;space&#x27; …&quot;: q4c3e36cf
+&quot;everything you are doing to be at peace with yourself …&quot;: q7fad3985
+&quot;Thinking is a poor alternative to acting. / Your thinking is consuming all your energy. / Act, don&#x27;t think!&quot;: q7f620b02
+Breakdown, &quot;There is nothing to understand — …&quot;: q03c8d952
+&quot;The understanding that there is nothing to understand …&quot;: q9c460863
+Final Chorus, &quot;If you have the courage to touch life for the first time …&quot;: qc94ba81d
+Outro, &quot;Only if you reject all the other paths …&quot;: qe6277a45
+&quot;You have to liberate yourself.&quot;: qd39fb8fe
+&quot;Don&#x27;t follow me, I&#x27;m lost.&quot;: q406d4a93
+
+No line is mine. Album: Six Temples, song 5, the Buddha.</pre>
+<h2>Count</h2><pre class="song" id="song-count">Lyrics 4444 characters. Style 1111 characters.</pre></div>
+  <script>
+  document.querySelectorAll('button[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const pre = document.getElementById('song-' + b.dataset.copy); const was = b.textContent;
+    try { await navigator.clipboard.writeText(pre.textContent); b.textContent = 'Copied'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Selected, copy it'; }
+    setTimeout(() => b.textContent = was, 1600);
+  }));
+  </script>
+  <p class="note" style="margin-top:28px"><a href="../../compose/">Compose another</a> · <a href="../../quotes/">All quotes</a></p>
+</div>
