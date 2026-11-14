@@ -6,7 +6,7 @@ topic: Six Temples, 5, the Buddha: thought
 date: 2026-11-14
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q6a9a1403, q00193fb7, q7a1ee58c, qe27976db, q1c8788f6, qcb7d8a47, q6bc8c471, qd2169deb, q1c893a18, q64b3e681, q118b8994, q4f2c81d1, qd70eb646, q8282292e, q9c3dac12, q4895987b, q989dde8c, q69f83f72, q4fd55d91, q3b41db6a, q2c9515a2, qb4728a46, q4c3e36cf, q7fad3985, q7f620b02, q03c8d952, q9c460863, qc94ba81d, qe6277a45, qd39fb8fe, q406d4a93
+quotes: q6a9a1403, q00193fb7, qe27976db, qf69919b2, qd42e2a22, q7a1ee58c, q1c8788f6, q6f33cc13, q7fad3985, q6bc8c471, q77f34910, q62dd75b6, q07528773, qd2169deb, q1c893a18, q64b3e681, qd05c2db1, q4f2c81d1, qbdce9d7f, q989dde8c, q8282292e, q69f83f72, q4fd55d91, q39d01d99, q2c9515a2, qd39fb8fe, qb4728a46, q4c3e36cf, qc94ba81d, q01ae8cf2, q406d4a93
 ---
 
 # All We Can Know Is Memory
@@ -18,35 +18,31 @@ LYRICS
 [ALL LYRICS MUST BE SAID CORRECTLY AT ALL TIMES]
 [Intro: rain on stone, monastery bells, Pali chant drone]
 [Temple gong]
-[Bowls ringing]
 [Chorus of monks low]
 all we can know is memory
 and memory is thought
 [Whispered]
 Thought is you.
-Thought is you.
 
 [Verse 1]
 [Male deep]
-Thought can never capture the movement of life,
-it is much too slow.
-It is like lightning and thunder.
-They occur simultaneously,
-but sound, traveling slower than light,
-reaches you later,
-creating the illusion of two separate events.
-[Temple gong]
-You hook up each thought with the next,
-creating a false continuity.
+You hook up each thought with the next, creating a false continuity.
 It is that continuity that is the problem.
+the fear of losing what we have and what we know
+Society or culture or whatever you might want to call it, has created us all
+solely and wholly for the purpose of maintaining its continuity and status quo.
+Thought can never capture the movement of life, it is much too slow.
+It is like lightning and thunder.
+They occur simultaneously, but sound, traveling slower than light,
+reaches you later, creating the illusion of two separate events.
 
 [Pre-Chorus]
 [Woman]
 there is no entity called 'self'
 independent of the thought process
-[Said kindly]
-You are not a "person", not a "thing",
-not a discrete entity surrounded by "other" things.
+the same old nonsense repeating itself
+everything you are doing to be at peace with yourself
+is what is destroying the peace that is already there.
 
 [Chorus]
 [Chorus of monks low]
@@ -55,33 +51,37 @@ not a discrete entity surrounded by "other" things.
 all we can know is memory
 and memory is thought
 There is no such thing as your mind and my mind.
-… mind is everywhere, sort of like the air we breathe.
-all we can know is memory
-and memory is thought
-Thought is you.
+… mind is everywhere, sort of like the air
+the entire past of mankind
+All your experiences, all your meditations, all your prayer,
+all that you do,
 
-[Interlude: bronze bowls struck and rubbed, sarod, slow tabla]
-[Bowls ringing]
+[Mantra chorus]
+[Monks chant in unison]
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
 
 [Verse 2]
 [Male deep]
-Sorrow is there for you as long as you think.
+whatever you do
+to be free from the self also is a self-centred activity.
 There is actually no sorrow there to be free from.
 Thinking about and struggling against 'sorrow' is sorrow.
-Since you can't stop thinking,
-and thinking is sorrow,
-you will always suffer.
+Since you can't stop thinking, and thinking is sorrow, you will always suffer.
 [Whispered]
-Your thinking endlessly about being free from sorrow
-is only more material for sorrow.
-It (thinking) does not put an end to sorrow.
+Your thinking endlessly about being free from sorrow is only more material for sorrow.
 
 [Pre-Chorus]
 [Woman]
+you arrive seeking understanding,
+while I am only interested in making it crystal clear
+that there is nothing to understand.
 the very birth of thought creates fear
-You see, you love fear.
-The ending of fear is death,
-and you don't want THAT to happen.
+it is the mind that has created God out of fear
 
 [Chorus]
 [Chorus of monks low]
@@ -90,63 +90,55 @@ and you don't want THAT to happen.
 all we can know is memory
 and memory is thought
 There is no such thing as your mind and my mind.
-… mind is everywhere, sort of like the air we breathe.
-all we can know is memory
-and memory is thought
+… mind is everywhere, sort of like the air
+the entire past of mankind
+All your experiences, all your meditations, all your prayer,
+all that you do,
+
+[Mantra chorus]
+[Monks chant in unison]
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
 Thought is you.
 
-[Verse: Nalanda, sarod and slow tabla]
-[Male deep]
-Your beliefs are the result of blind acceptance of authority,
-all secondhand stuff.
-[Woman]
-is not yours; it is something which you and your ancestors
-have accumulated over a long time
-[Male deep]
-belief is an extension of the survival mechanism
-which has operated for millions of years
+[Verse: Nalanda, sarod, slow tabla]
 [Chorus of monks low]
 everything you stand for, believe in, experience and aspire to
 is the result of thought.
 And thought is destructive
 because it is nothing more than a protective mechanism.
+[Woman]
+Your beliefs are the result of blind
+acceptance of authority, all secondhand stuff.
 
 [Bridge: under the bodhi tree, temple gong, deep ambient bass]
 [Said kindly]
 There is no such thing as spiritual or psychological enlightenment
 because there is no such thing as spirit or psyche at all.
 [Male deep]
-God or Enlightenment is the ultimate pleasure,
-uninterrupted happiness.
+God or Enlightenment is the ultimate pleasure, uninterrupted happiness.
 No such thing exists.
 [Woman]
-transformation, moksha, and all that stuff
-are just variations of the same theme:
-permanent happiness
+Transformation, moksha, liberation, and all that stuff are just variations on the same theme: permanent happiness.
 [Temple gong]
 I have had to search
-and it is the search itself which has been choking me
+and it is the search itself
+which has been choking me
 and keeping me out of my natural state.
+You have to liberate yourself.
 
 [Verse 3]
 [Male deep]
 The body does not exist except as a thought.
 Time and space, apart from the ideas of 'time' and 'space',
 do not exist at all.
-[Whispered]
-everything you are doing to be at peace with yourself
-is what is destroying the peace that is already there.
-[Said kindly]
-Thinking is a poor alternative to acting.
-Your thinking is consuming all your energy.
-Act, don't think!
+Everything man has thought, felt and experienced is gone,
+and nothing is put in its place.
 
 [Breakdown: minimal techno pulse, rain on stone]
-[Woman]
-There is nothing to understand —
-that is the understanding I am talking about.
-The understanding that there is nothing to understand
-is all there is.
 
 [Final Chorus]
 [Chorus of monks low]
@@ -155,62 +147,113 @@ is all there is.
 all we can know is memory
 and memory is thought
 There is no such thing as your mind and my mind.
-… mind is everywhere, sort of like the air we breathe.
-If you have the courage to touch life for the first time,
-you will never know what hit you.
-Everything man has thought, felt and experienced is gone,
-and nothing is put in its place.
+… mind is everywhere, sort of like the air
+the entire past of mankind
+All your experiences, all your meditations, all your prayer,
+all that you do,
+
+[Mantra chorus]
+[Monks chant in unison]
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
+Thought is you.
 
 [Outro: dusk]
 [Male deep]
-Only if you reject all the other paths
-can you discover your own path.
-You have to liberate yourself.
-[Said kindly]
-Don't follow me, I'm lost.
-[Whispered]
+You may infer a rational meaning in what I say or do,
+but it is your doing, not mine.
 Don't follow me, I'm lost.
 [Chorus of monks low]
 all we can know is memory
 and memory is thought
-[Monastery bells, bowls ringing, rain fading]
-[Temple gong]
+[Monastery bells, rain fading]
 [End]
 
 SOURCES
-Intro and choruses, "all we can know is memory / and memory is thought": q6a9a1403
-"Thought is you.": q00193fb7
-Verse 1, "Thought can never capture the movement of life …": q7a1ee58c
-"You hook up each thought with the next …": qe27976db
-Pre-Chorus 1, "there is no entity called 'self' …": q1c8788f6
-"You are not a "person", not a "thing" …": qcb7d8a47
-Choruses, "There is no such thing as your mind and my mind. … mind is everywhere …": q6bc8c471
-Verse 2, "Sorrow is there for you as long as you think …": qd2169deb
-"Thinking about and struggling against 'sorrow' is sorrow …": q1c893a18
-"Your thinking endlessly about being free from sorrow …": q64b3e681
-"It (thinking) does not put an end to sorrow.": q118b8994
-Pre-Chorus 2, "the very birth of thought creates fear": q4f2c81d1
-"You see, you love fear …": qd70eb646
-Nalanda verse, "Your beliefs are the result of blind acceptance of authority …": q8282292e
-"is not yours; it is something which you and your ancestors …": q9c3dac12
-"belief is an extension of the survival mechanism …": q4895987b
-"everything you stand for, believe in, experience and aspire to …": q989dde8c
-Bridge, "There is no such thing as spiritual or psychological enlightenment …": q69f83f72
-"God or Enlightenment is the ultimate pleasure …": q4fd55d91
-"transformation, moksha, and all that stuff …": q3b41db6a
-"I have had to search …": q2c9515a2
-Verse 3, "The body does not exist except as a thought.": qb4728a46
-"Time and space, apart from the ideas of 'time' and 'space' …": q4c3e36cf
-"everything you are doing to be at peace with yourself …": q7fad3985
-"Thinking is a poor alternative to acting. / Your thinking is consuming all your energy. / Act, don't think!": q7f620b02
-Breakdown, "There is nothing to understand — …": q03c8d952
-"The understanding that there is nothing to understand …": q9c460863
-Final Chorus, "If you have the courage to touch life for the first time …": qc94ba81d
-Outro, "Only if you reject all the other paths …": qe6277a45
+Intro, choruses, outro, "all we can know is memory / and memory is thought": q6a9a1403
+Intro and mantra chorus, "Thought is you.": q00193fb7
+Verse 1, "You hook up each thought with the next, creating a false continuity. / It is that continuity that is the problem.": qe27976db
+"the fear of losing what we have and what we know": qf69919b2
+"Society or culture or whatever you might want to call it, has created us all / solely and wholly … status quo.": qd42e2a22
+"Thought can never capture the movement of life, it is much too slow. / It is like lightning and thunder. / They occur simultaneously … two separate events.": q7a1ee58c
+Pre-Chorus 1, "there is no entity called 'self' / independent of the thought process": q1c8788f6
+"the same old nonsense repeating itself": q6f33cc13
+"everything you are doing to be at peace with yourself / is what is destroying the peace that is already there.": q7fad3985
+Choruses, "There is no such thing as your mind and my mind. / … mind is everywhere, sort of like the air": q6bc8c471
+"the entire past of mankind": q77f34910
+"All your experiences, all your meditations, all your prayer, / all that you do,": q62dd75b6
+Verse 2, "whatever you do / to be free from the self also is a self-centred activity.": q07528773
+"There is actually no sorrow there to be free from.": qd2169deb
+"Thinking about and struggling against 'sorrow' is sorrow. / Since you can't stop thinking, and thinking is sorrow, you will always suffer.": q1c893a18
+"Your thinking endlessly about being free from sorrow is only more material for sorrow.": q64b3e681
+Pre-Chorus 2, "you arrive seeking understanding, / while I am only interested in making it crystal clear / that there is nothing to understand.": qd05c2db1
+"the very birth of thought creates fear": q4f2c81d1
+"it is the mind that has created God out of fear": qbdce9d7f
+Nalanda verse, "everything you stand for, believe in, experience and aspire to / is the result of thought. / And thought is destructive / because it is nothing more than a protective mechanism.": q989dde8c
+"Your beliefs are the result of blind / acceptance of authority, all secondhand stuff.": q8282292e
+Bridge, "There is no such thing as spiritual or psychological enlightenment / because there is no such thing as spirit or psyche at all.": q69f83f72
+"God or Enlightenment is the ultimate pleasure, uninterrupted happiness. / No such thing exists.": q4fd55d91
+"Transformation, moksha, liberation, and all that stuff are just variations on the same theme: permanent happiness.": q39d01d99
+"I have had to search / and it is the search itself / which has been choking me / and keeping me out of my natural state.": q2c9515a2
 "You have to liberate yourself.": qd39fb8fe
+Verse 3, "The body does not exist except as a thought.": qb4728a46
+"Time and space, apart from the ideas of 'time' and 'space', / do not exist at all.": q4c3e36cf
+"Everything man has thought, felt and experienced is gone, / and nothing is put in its place.": qc94ba81d
+Outro, "You may infer a rational meaning in what I say or do, / but it is your doing, not mine.": q01ae8cf2
 "Don't follow me, I'm lost.": q406d4a93
 
 No line is mine. Album: Six Temples, song 5, the Buddha.
+
+RHYMES
+scheme ABCDEFGFFHIJKLKKMABNMNMCCCCCCCCOPQRQSTUTTABNMNMCCCCCCCCBVWNXYGZAZBKCDKBEGFEABNMNMCCCCCCCCGHAB
+end     6-8   know / quo
+end     6-9   know / slow
+end     8-9   quo / slow
+end    13-15  'self' / itself
+end    13-16  'self' / yourself
+end    15-16  itself / yourself
+end    20-22  mind / mankind
+end    21-23  air / prayer
+end    24-25  do / you
+end    24-26  do / you
+end    24-27  do / you
+end    28-31  you / do
+end    29-31  you / do
+end    30-31  you / do
+end    38-40  clear / fear
+end    38-41  clear / fear
+end    44-46  mind / mankind
+end    45-47  air / prayer
+end    48-49  do / you
+end    48-50  do / you
+end    48-51  do / you
+end    52-55  you / to
+end    53-55  you / to
+end    54-55  you / to
+end    67-70  itself / yourself
+end    72-75  'space' / place
+end    78-80  mind / mankind
+end    79-81  air / prayer
+end    82-83  do / you
+end    82-84  do / you
+end    82-85  do / you
+end    86-89  you / do
+end    87-89  you / do
+end    88-89  you / do
+inner   7     call / all   (Society or culture or whatever you might want to call it, has created )
+inner  12     you / two   (reaches you later, creating the illusion of two separate events.)
+inner  34     'sorrow' / sorrow   (Thinking about and struggling against 'sorrow' is sorrow.)
+inner  36     Your / more   (Your thinking endlessly about being free from sorrow is only more mate)
+inner  36     Your / for   (Your thinking endlessly about being free from sorrow is only more mate)
+inner  36     more / for   (Your thinking endlessly about being free from sorrow is only more mate)
+inner  65     Transformation / liberation   (Transformation, moksha, liberation, and all that stuff are just variat)
+inner  72     Time / 'time'   (Time and space, apart from the ideas of 'time' and 'space',)
+inner  72     space / 'space'   (Time and space, apart from the ideas of 'time' and 'space',)
+inner  89     may / say   (You may infer a rational meaning in what I say or do,)
+SCORE before 4, after 44 (distinct rhyme pairs before 4, after 22); mantra chorus "Thought is you." (q00193fb7), chanted six times after each of the three choruses, rhyming with "all that you do," before it and "whatever you do", "aspire to", "say or do," after it.
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
