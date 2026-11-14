@@ -6,7 +6,7 @@ topic: Six Temples, 6, Dakshinamurti: the natural state
 date: 2026-11-14
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q03c8d952, q55b7359d, q9cf31b1c, qfb105fa5, q76f1764e, q2878603e, q39483a5d, qd28dac6d, qf440d043, qc6b6c3b1, q2c9515a2, q07528773, q7fad3985, q1c8788f6, q6a9a1403, q00193fb7, q4b30cd75, qc0edce3e, qe646b0ed, q7a1ee58c, q9aa9e10b, q69f83f72, q39d01d99, qb7fe3c01, qbb683516, qd829349e, q45036753, q85310fad, qcb7d8a47, q6bc8c471, qfc6d0e49, qbe66ba38, qde44a012, q05850b19
+quotes: q03c8d952, q76f1764e, q8305f222, q55b7359d, q9cf31b1c, q2878603e, q39483a5d, q6bc8c471, qd28dac6d, qd829349e, qe646b0ed, q39d01d99, qfc6d0e49, q2c9515a2, q07528773, q7fad3985, q45036753, q62dd75b6, q1c8788f6, q00193fb7, q4b30cd75, q7a1ee58c, qcc9c525e, q08a43a02, qde44a012, qa1859f82, q05850b19, qf440d043
 ---
 
 # A State of Not Knowing
@@ -24,17 +24,17 @@ LYRICS
 [Said kindly]
 There is nothing to understand
 that is the understanding I am talking about.
-[Silence]
 
 [Verse 1]
 [Male deep]
 [Mridangam soft, silence between notes]
+How I got into this state
+I will never be able to tell.
+I am not trying to sell
+anything here.
 I have nothing to give;
 you have nothing to take.
 This state is a state of not knowing.
-There is no such thing as experience here.
-How I got into this state
-I will never be able to tell.
 The natural state is acausal:
 it just happens.
 
@@ -43,19 +43,26 @@ it just happens.
 [Nadaswaram call]
 the beyond can never be experienced by you;
 it is when the 'you' is not there.
-it is when the 'you' is not there.
+There is no such thing as your mind and my mind. … mind is everywhere, sort of like the air
+we breathe.
 
 [Chorus]
 [Chorus of women Sing together]
-[Thavil and mridangam]
 [Music stays loud]
 there is no self to realize
-there is no self to realize
-You don't have to do a thing.
-You don't have to do a thing.
-To realize that there is no enlightenment at all is enlightenment.
-There is nothing to understand
-that is the understanding I am talking about.
+There is no moksha, no jivanmukti and no atman.
+And there is no such thing as self-realization.
+It is not some kind of psychological mutation.
+[Mantra chorus]
+[Chanted low, at dawn]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+The search ends with the realization
+that there is no such thing as enlightenment.
 
 [Verse 2]
 [Male deep]
@@ -68,72 +75,58 @@ whatever you do to be free from the self
 also is a self-centred activity
 everything you are doing to be at peace with yourself
 is what is destroying the peace that is already there.
+A real guru, if there is one, frees you from himself.
 
 [Pre-Chorus]
 [Woman]
-[Ghatam]
+[Ghatam and kanjira]
+all your prayer,
+all that you do,
+is self-centred.
 there is no entity called 'self' independent of the thought process
-all we can know is memory and memory is thought
 Thought is you.
 
 [Chorus]
 [Chorus of women Sing together]
-[Thavil and mridangam]
 [Music stays loud]
 there is no self to realize
-there is no self to realize
-You don't have to do a thing.
-You don't have to do a thing.
-To realize that there is no enlightenment at all is enlightenment.
-There is nothing to understand
-that is the understanding I am talking about.
+There is no moksha, no jivanmukti and no atman.
+And there is no such thing as self-realization.
+It is not some kind of psychological mutation.
+[Mantra chorus]
+[Chanted at dawn]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+The search ends with the realization
+that there is no such thing as enlightenment.
 
 [Bridge]
 [Said kindly]
 [Silence]
 My body had gone away and it has never come back.
 The points of contact are all that is there for the body.
-the hands and feet become cold, the body becomes stiff, the heartbeat slows down
-This state is a physical condition of your being.
-It is not some kind of psychological mutation.
-[Bass drop]
 Thought can never capture the movement of life,
 it is much too slow.
-It is like lightning and thunder.
-They occur simultaneously,
-but sound, traveling slower than light, reaches you later,
-creating the illusion of two separate events.
+the body does not know
+that it is healthy or unhealthy
 
 [Interlude]
 [Veena alone]
 [Tanpura drone]
 [Silence]
 
-[Verse 4]
+[Verse 3]
 [Male deep]
 [Ghatam and mridangam]
 [Bass drop]
-The things that had astonished me that week
-had become permanent fixtures.
-There is no such thing as spiritual or psychological enlightenment
-because there is no such thing as spirit or psyche at all.
+I am only interested in describing this state,
+in clearing away the occultation and mystification
 Transformation, moksha, liberation, and all that stuff
 are just variations on the same theme: permanent happiness.
-If anyone thinks he can help you, he will inevitably mislead you
-The body changes from one state into another as recycling of matter.
-
-[Verse 3]
-[Male deep]
-[Nadaswaram call]
-There is no moksha, no jivanmukti and no atman.
-And there is no such thing as self-realization.
-A real guru, if there is one, frees you from himself.
-A guru is one who tells you to throw away all the crutches
-that we have been made to believe are essential for our survival.
-You are not a "person", not a "thing",
-not a discrete entity surrounded by "other" things.
-There is no such thing as your mind and my mind.
-mind is everywhere, sort of like the air we breathe.
 
 [Final Chorus]
 [Chorus of women Sing together]
@@ -142,29 +135,44 @@ mind is everywhere, sort of like the air we breathe.
 [Bass drop]
 [Music stays loud]
 there is no self to realize
-there is no self to realize
-You don't have to do a thing.
-You don't have to do a thing.
-To realize that there is no enlightenment at all is enlightenment.
-The search ends with the realization that there is no such thing as enlightenment.
+There is no moksha, no jivanmukti and no atman.
+And there is no such thing as self-realization.
+It is not some kind of psychological mutation.
+[Mantra chorus]
+[Chanted at dawn, rising]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+The search ends with the realization
+that there is no such thing as enlightenment.
 There is nothing to understand
 that is the understanding I am talking about.
 
 [Outro]
 [Woman]
 [Veena alone]
-To be yourself requires extraordinary intelligence.
-You are blessed with that intelligence
 nature had been allowed to go on in its own way,
 everybody would have become a unique flower.
+there is no power
+outside of man
 [Said kindly]
 I have nothing to give;
 you have nothing to take.
-[Silence]
 there is no individual there at all
 This state is a state of not knowing.
-The natural state is acausal:
-it just happens.
+It is not some kind of psychological mutation.
+[Mantra chorus]
+[Whispered chant]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+And there is no such thing as self-realization.
 [Woman]
 You don't have to do a thing.
 [Temple bells at dawn]
@@ -172,42 +180,110 @@ You don't have to do a thing.
 [End]
 
 SOURCES
-"There is nothing to understand / that is the understanding I am talking about." (intro and every chorus): q03c8d952
+"There is nothing to understand / that is the understanding I am talking about." (intro, final chorus): q03c8d952
+"How I got into this state / I will never be able to tell." (verse 1): q76f1764e
+"I am not trying to sell / anything here." (verse 1): q8305f222
 "I have nothing to give; / you have nothing to take." (verse 1, outro): q55b7359d
 "This state is a state of not knowing." (verse 1, outro): q9cf31b1c
-"There is no such thing as experience here.": qfb105fa5
-"How I got into this state / I will never be able to tell.": q76f1764e
-"The natural state is acausal: / it just happens." (verse 1, outro): q2878603e
-"the beyond can never be experienced by you; / it is when the 'you' is not there.": q39483a5d
-"there is no self to realize" (chorus): qd28dac6d
-"You don't have to do a thing." (chorus, outro): qf440d043
-"To realize that there is no enlightenment at all is enlightenment." (chorus): qc6b6c3b1
-"I have had to search / … / and keeping me out of my natural state.": q2c9515a2
-"whatever you do to be free from the self / also is a self-centred activity": q07528773
-"everything you are doing to be at peace with yourself / is what is destroying the peace that is already there.": q7fad3985
-"there is no entity called 'self' independent of the thought process": q1c8788f6
-"all we can know is memory and memory is thought": q6a9a1403
-"Thought is you.": q00193fb7
-"My body had gone away … / The points of contact are all that is there for the body.": q4b30cd75
-"the hands and feet become cold, the body becomes stiff, the heartbeat slows down": qc0edce3e
-"This state is a physical condition of your being. / It is not some kind of psychological mutation.": qe646b0ed
-"Thought can never capture the movement of life, / … / creating the illusion of two separate events.": q7a1ee58c
-"The things that had astonished me that week / had become permanent fixtures.": q9aa9e10b
-"There is no such thing as spiritual or psychological enlightenment / because there is no such thing as spirit or psyche at all.": q69f83f72
-"Transformation, moksha, liberation, and all that stuff / are just variations on the same theme: permanent happiness.": q39d01d99
-"If anyone thinks he can help you, he will inevitably mislead you": qb7fe3c01
-"The body changes from one state into another as recycling of matter.": qbb683516
-"There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization.": qd829349e
-"A real guru, if there is one, frees you from himself.": q45036753
-"A guru is one who tells you to throw away all the crutches / that we have been made to believe are essential for our survival.": q85310fad
-"You are not a "person", not a "thing", / not a discrete entity surrounded by "other" things.": qcb7d8a47
-"There is no such thing as your mind and my mind. / mind is everywhere, sort of like the air we breathe.": q6bc8c471
-"The search ends with the realization that there is no such thing as enlightenment." (final chorus): qfc6d0e49
-"To be yourself requires extraordinary intelligence. / You are blessed with that intelligence": qbe66ba38
-"nature had been allowed to go on in its own way, / everybody would have become a unique flower.": qde44a012
-"there is no individual there at all": q05850b19
+"The natural state is acausal: / it just happens." (verse 1): q2878603e
+"the beyond can never be experienced by you; / it is when the 'you' is not there." (pre-chorus 1): q39483a5d
+"There is no such thing as your mind and my mind. … mind is everywhere, sort of like the air / we breathe." (pre-chorus 1): q6bc8c471
+"there is no self to realize" (every chorus): qd28dac6d
+"There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization." (every chorus, outro): qd829349e
+"It is not some kind of psychological mutation." (every chorus, outro): qe646b0ed
+"Transformation, moksha, liberation," (the mantra chorus, every chorus and outro) and "Transformation, moksha, liberation, and all that stuff / are just variations on the same theme: permanent happiness." (verse 3): q39d01d99
+"The search ends with the realization / that there is no such thing as enlightenment." (every chorus): qfc6d0e49
+"I have had to search / and it is the search itself / which has been choking me / and keeping me out of my natural state." (verse 2): q2c9515a2
+"whatever you do to be free from the self / also is a self-centred activity" (verse 2): q07528773
+"everything you are doing to be at peace with yourself / is what is destroying the peace that is already there." (verse 2): q7fad3985
+"A real guru, if there is one, frees you from himself." (verse 2): q45036753
+"all your prayer, / all that you do, / is self-centred." (pre-chorus 2): q62dd75b6
+"there is no entity called 'self' independent of the thought process" (pre-chorus 2): q1c8788f6
+"Thought is you." (pre-chorus 2): q00193fb7
+"My body had gone away and it has never come back. / The points of contact are all that is there for the body." (bridge): q4b30cd75
+"Thought can never capture the movement of life, / it is much too slow." (bridge): q7a1ee58c
+"the body does not know / that it is healthy or unhealthy" (bridge): qcc9c525e
+"I am only interested in describing this state, / in clearing away the occultation and mystification" (verse 3): q08a43a02
+"nature had been allowed to go on in its own way, / everybody would have become a unique flower." (outro): qde44a012
+"there is no power / outside of man" (outro): qa1859f82
+"there is no individual there at all" (outro): q05850b19
+"You don't have to do a thing." (outro): qf440d043
 Every quotation used is corroborated-primary, except q76f1764e, corroborated-secondary.
 No line is mine. Album: Six Temples, song 6, Dakshinamurti.
+
+RHYMES
+scheme ABCDDEFGHIJKLLMNOPPPPPPPPPQRSTCSUSLSLKVWKNOPPPPPPPPPQXYZAABCCDENOPPPPPPPPPPPQABFGGHFGIHPPPPPPJ
+end     4-5   tell / sell
+end    13-14  there / air
+end    18-19  realization / mutation
+end    18-20  realization / liberation
+end    18-21  realization / liberation
+end    19-20  mutation / liberation
+end    19-21  mutation / liberation
+end    19-22  mutation / liberation
+end    23-26  liberation / realization
+end    24-26  liberation / realization
+end    25-26  liberation / realization
+end    29-32  itself / self
+end    32-34  self / yourself
+end    34-36  yourself / himself
+end    35-37  there / prayer
+end    38-41  do / you
+end    44-45  realization / mutation
+end    44-46  realization / liberation
+end    44-47  realization / liberation
+end    45-46  mutation / liberation
+end    45-47  mutation / liberation
+end    45-48  mutation / liberation
+end    49-52  liberation / realization
+end    50-52  liberation / realization
+end    51-52  liberation / realization
+end    57-58  slow / know
+end    66-67  realization / mutation
+end    66-68  realization / liberation
+end    66-69  realization / liberation
+end    67-68  mutation / liberation
+end    67-69  mutation / liberation
+end    67-70  mutation / liberation
+end    73-76  liberation / realization
+end    74-76  liberation / realization
+end    75-76  liberation / realization
+end    81-82  flower / power
+end    88-89  mutation / liberation
+end    88-90  mutation / liberation
+end    88-91  mutation / liberation
+end    90-93  liberation / realization
+end    91-93  liberation / realization
+end    92-93  liberation / realization
+inner  14     There / air
+inner  20     Transformation / liberation
+inner  21     Transformation / liberation
+inner  22     Transformation / liberation
+inner  23     Transformation / liberation
+inner  24     Transformation / liberation
+inner  25     Transformation / liberation
+inner  46     Transformation / liberation
+inner  47     Transformation / liberation
+inner  48     Transformation / liberation
+inner  49     Transformation / liberation
+inner  50     Transformation / liberation
+inner  51     Transformation / liberation
+inner  59     healthy / unhealthy
+inner  61     occultation / mystification
+inner  62     Transformation / liberation
+inner  68     Transformation / liberation
+inner  69     Transformation / liberation
+inner  70     Transformation / liberation
+inner  71     Transformation / liberation
+inner  72     Transformation / liberation
+inner  73     Transformation / liberation
+inner  74     Transformation / liberation
+inner  75     Transformation / liberation
+inner  89     Transformation / liberation
+inner  90     Transformation / liberation
+inner  91     Transformation / liberation
+inner  92     Transformation / liberation
+SCORE before 4, after 70; mantra chorus "Transformation, moksha, liberation," (q39d01d99)
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
