@@ -45,27 +45,25 @@ to give them certainty.
 [Khol and kartal]
 Love implies division, separation.
 Wherever there is division, there can't be love.
-The cells stick together not out of brotherhood, love and that kind of thing,
-but out of
 
 [Mantra chorus]
 [Chant, call and response, kirtan]
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 
 [Call and response]
 [Male deep]
@@ -90,27 +88,25 @@ upon somebody for solving your problems, so long you remain helpless
 [Khol and kartal]
 Love implies division, separation.
 Wherever there is division, there can't be love.
-The cells stick together not out of brotherhood, love and that kind of thing,
-but out of
 
 [Mantra chorus]
-[Chant, call and response, fast]
+[Chant, call and response, swift]
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 
 [Verse 3]
 [Woman]
@@ -160,43 +156,50 @@ There is no such thing as your mind and my mind.
 It is the sheer terror of extinction that can save us, if anything can.
 Love implies division, separation.
 Wherever there is division, there can't be love.
-The cells stick together not out of brotherhood, love and that kind of thing,
-but out of
 
 [Mantra chorus]
-[Chant, call and response, rising to frenzy]
+[Chant, call and response, to frenzy]
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Woman]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
 [Male deep]
-the urgent drive to survive
+There is nothing to your love
 [All]
-the urgent drive to survive
+Don't forget that in the name of
+[Woman]
+There is nothing to your love
+[All]
+Don't forget that in the name of
+[Male deep]
+There is nothing to your love
+[All]
+Don't forget that in the name of
 
 [Outro]
 [Bansuri alone]
 [Said kindly]
+"Love thy neighbor as thyself"
 There is nothing to your love
 
 SOURCES
 Title: "There is nothing to your love", q3646651d.
 "If you want to call it that." qbd194c2e
-"There is nothing to your love: / if you don't get what you want, / what happens to your, "I love you…"" and the closing line "There is nothing to your love": q3646651d
+"There is nothing to your love: / if you don't get what you want, / what happens to your, "I love you…"", the mantra chorus "There is nothing to your love" and the closing line: q3646651d
 "We are trying to bridge this gap… / with this fancy idea / that there must be love between these two" q9a924078
 "I awoke the morning after my wedding night and knew / without doubt that I had made the biggest mistake" q7660d023
 "I have nothing to give; you have nothing to take." q55b7359d
 "Because you cannot face the impermanence of all relationships, / you invent sentiments, romance, and dramatic emotions / to give them certainty." q21e36727
 "Love implies division, separation. / Wherever there is division, there can't be love." qc032db3b
-"The cells stick together not out of brotherhood, love and that kind of thing, / but out of", the mantra chorus "the urgent drive to survive", and "Each cell of a living organism / cooperates with the cell next to it." q0997ce6d
+"Each cell of a living organism / cooperates with the cell next to it." q0997ce6d
 "You love fear. / The ending of fear is death, / and you don't want that to happen." qa52816a8
 "Fear is the very thing that you do not want to be free from." q086ab55c
 "The movement that is created by society or culture is what does not want to come / to an end." q6fe326b5
@@ -212,7 +215,7 @@ Title: "There is nothing to your love", q3646651d.
 "You draw lines on this planet." qbc15d529
 "what kind of a human being do you want?" qb4eaccd2
 "It is the ones who believe in God, who preach peace and talk of love," qba7b8f15
-"Don't forget that in the name of / "Love thy neighbor as thyself" / millions and millions of people have died," q3814bcc6
+"Don't forget that in the name of / "Love thy neighbor as thyself" / millions and millions of people have died,", the mantra's answering line "Don't forget that in the name of" and the outro's "Love thy neighbor as thyself": q3814bcc6
 "the same old nonsense repeating itself" q6f33cc13
 "The belief in reincarnation will only help us to look the other side." q190abbe4
 "You have to liberate yourself." qd39fb8fe
@@ -221,10 +224,10 @@ Title: "There is nothing to your love", q3646651d.
 No line is mine. Album: Six Temples, song 3, Krishna.
 
 RHYMES
-Scheme ABCDEFDDGGHIJKBLBMMMMMMMMNOPQQRRSKBLBMMMMMMMMTUVWWXYZABBCCDECBBFGFGFHIHJIKKBLBMMMMMMMMB
-End rhymes (17): you / two (lines 4-7), two / knew (7-8), mistake / take (9-10), love / of (15-17), from / come (29-30), end / depend (31-32), love / of (35-37), strain / pain (49-50), temporary / necessary (55-56), today / way (57-58), love / of (62-63), thyself / itself (64-66), died / side (65-67), itself / yourself (66-68), humanism / organism (69-71), mankind / mind (70-73), love / of (76-78).
-Internal rhymes (26): without / doubt (line 9, "without doubt that I had made the biggest mistake"); for / your (line 33, "upon somebody for solving your problems, so long you remain helpless"); drive / survive in each of the 24 chants of "the urgent drive to survive" (lines 18-25, 38-45, 79-86).
-SCORE before 1, after 43; mantra chorus "the urgent drive to survive" (q0997ce6d), chanted call and response eight times in each of its three returns, each time launched by "but out of", which rhymes with "love" two lines above.
+Scheme ABCDEFDDGGHIJKBBBBBBBBBLMNOOPPQKBBBBBBBBBRSTUUVWXYZZAABCCBBDEDEDFGFHGIKBBBBBBBBBBBBBDB
+End rhymes (62): you / two (4-7), two / knew (7-8), mistake / take (9-10), love / of (15-17), love / of (16-17), love / of (16-19), of / love (17-18), of / love (17-20), love / of (18-19), love / of (18-21), of / love (19-20), of / love (19-22), love / of (20-21), love / of (20-23), of / love (21-22), love / of (22-23), from / come (27-28), end / depend (29-30), love / of (33-35), love / of (34-35), love / of (34-37), of / love (35-36), of / love (35-38), love / of (36-37), love / of (36-39), of / love (37-38), of / love (37-40), love / of (38-39), love / of (38-41), of / love (39-40), love / of (40-41), strain / pain (45-46), temporary / necessary (51-52), today / way (53-54), love / of (58-59), thyself / itself (60-62), died / side (61-63), itself / yourself (62-64), humanism / organism (65-67), mankind / mind (66-69), love / of (72-74), love / of (73-74), love / of (73-76), of / love (74-75), of / love (74-77), love / of (75-76), love / of (75-78), of / love (76-77), of / love (76-79), love / of (77-78), love / of (77-80), of / love (78-79), of / love (78-81), love / of (79-80), love / of (79-82), of / love (80-81), of / love (80-83), love / of (81-82), love / of (81-84), of / love (82-83), love / of (83-84), of / love (84-86).
+Internal rhymes (2): without / doubt (line 9, "without doubt that I had made the biggest mistake"); for / your (line 31, "upon somebody for solving your problems, so long you remain helpless").
+SCORE before 1, after 64; mantra chorus "There is nothing to your love" (q3646651d), chanted call and response, the lead calling it and all answering "Don't forget that in the name of" (q3814bcc6), of rhyming with love: four times in the first and second returns, six in the last, each return opened by "Wherever there is division, there can't be love." two lines above an answering "of".
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
