@@ -170,7 +170,8 @@ for f in sorted((HERE / "compositions").glob("*.md")) if (HERE / "compositions")
         lines += [l.strip().strip('"\u201c\u201d') for l in qb.splitlines() if l.strip()]
     compositions_checked += 1
     for l in lines:
-        parts = [norm(x) for x in re.split(r"\s*(?:\u2026|\.\.\.)\s*", l) if norm(x).strip(" .,;:'\"")]
+        # punctuation at the end of a part (a sung line's closing full stop) changes no word; the words must match
+        parts = [norm(x).strip(" .,;:!?'\"") for x in re.split(r"\s*(?:\u2026|\.\.\.)\s*", l) if norm(x).strip(" .,;:!?'\"")]
         if parts and not any(all(p in q for p in parts) for q in pool):
             issues["composition_line_not_in_its_quotes"].append((f.name, l[:120]))
         if meta.get("rights") == "reserved" and len(l.split()) > 50:
