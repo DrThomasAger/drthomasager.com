@@ -6,7 +6,7 @@ topic: Six Temples, 2, Kali: fear
 date: 2026-11-14
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: qc774741b, qb1981622, qbd6fe67c, q08218f4e, q6fe326b5, qa52816a8, qd70eb646, q086ab55c, q5f1205b6, qbddfe57f, qbdce9d7f, q3148c69a, qe06bf8ca, qf69919b2, q104a81af, q1676a73f, q4f2c81d1, q00193fb7, q1c8788f6, q95f072f5, qd28dac6d, q05850b19, qcb7d8a47, q07528773, q62dd75b6, qd829349e, q77f34910, q39483a5d, q7fad3985, qbe66ba38, qd39fb8fe
+quotes: qc774741b, qb1981622, qa56a998d, qd05c2db1, qbd6fe67c, q08218f4e, q6fe326b5, qa52816a8, qd70eb646, q39d01d99, qd829349e, qfc6d0e49, q5f1205b6, q3148c69a, qe06bf8ca, q7a1ee58c, qf69919b2, q4f2c81d1, q00193fb7, q07528773, q6f33cc13, q95f072f5, qd39fb8fe, qd28dac6d, q05850b19, q7fad3985, q6bc8c471, q62dd75b6
 ---
 
 # Born Out of Fear
@@ -24,6 +24,9 @@ LYRICS
 What you call 'yourself' is fear.
 [Male deep]
 What you call 'yourself' is fear.
+[Woman]
+It is the sheer
+terror of extinction that can save us, if anything can.
 [Dhak drums]
 
 [Verse 1]
@@ -33,16 +36,12 @@ it lives in fear,
 functions in fear
 and dies in fear.
 [Male deep]
-The 'you' is born out of fear;
-it lives in fear,
-functions in fear
-and dies in fear.
+I am only interested in making it crystal clear
+that there is nothing to understand.
 
 [Pre-Chorus]
 [Said kindly]
 What you are afraid of is not death.
-The body cannot be afraid of death.
-[Woman]
 The body cannot be afraid of death.
 [Spoken]
 The movement that is created by society or culture
@@ -55,51 +54,45 @@ You love fear.
 You love fear.
 The ending of fear is death,
 and you don't want that to happen.
-You love fear.
-You love fear.
-Fear is the very thing that you do not want to be free from.
+You see, you love fear.
+It is the sheer
+terror of extinction that can save us, if anything can.
 
-[Dhak drums]
-[Bass drop]
-
-[Interlude]
-[Male deep]
-What you call 'yourself' is fear.
-What you call 'yourself' is fear.
-[Chorus of women Sing together]
-The 'you' is born out of fear;
-it lives in fear,
-functions in fear
-and dies in fear.
+[Mantra chorus]
+[Chant, call and response, hypnotic repetition]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+[Screamed]
+And there is no such thing as self-realization.
 
 [Verse 2]
 [Male deep]
-Man has created God out of fear.
-So the problem is fear and not God.
-[Woman]
 There is no power outside of man.
 Man has created God out of fear.
-[Whispered]
-it is the mind that has created God out of fear
-[Male deep]
 So the problem is fear and not God.
-
-[Pre-Chorus]
-[Said kindly]
-What you are afraid of is not death.
-The body cannot be afraid of death.
 [Woman]
-What you are afraid of is not death.
+I am only interested in making it crystal clear
+that there is nothing to understand.
 
 [Bridge]
 [Spoken]
 We don't want to be free from fear.
-All that we want to do is to play games with it
-and talk about freeing ourselves from fear.
-[Said kindly]
 The fact is that we don't want to be free.
+You see,
+you love fear.
+It is the sheer
+terror of extinction that can save us, if anything can.
+[Said kindly]
 What is responsible for our problems
 is the fear of losing what we have and what we know.
+Thought can never capture the movement of life,
+it is much too slow.
 
 [Chorus]
 [Chorus of women Sing together]
@@ -108,23 +101,25 @@ You love fear.
 You love fear.
 The ending of fear is death,
 and you don't want that to happen.
-You love fear.
-You love fear.
-Fear is the very thing that you do not want to be free from.
+You see, you love fear.
+It is the sheer
+terror of extinction that can save us, if anything can.
 
-[Conch blast]
-[Kasar gong]
-
-[Verse 3]
-[Woman]
-It is fear that makes you believe that you are living
-and that you will be dead.
+[Mantra chorus]
+[Chant, call and response, hypnotic repetition]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+[Screamed]
+And there is no such thing as self-realization.
 [Male deep]
-the very birth of thought creates fear
-Thought is you.
-[Spoken]
-there is no entity called 'self' independent of the thought process
-…the constant use of thought to give continuity to your separate self.
+The search ends with the realization
+that there is no such thing as enlightenment.
 
 [Dhunuchi dance]
 [Dhak drums]
@@ -132,116 +127,170 @@ there is no entity called 'self' independent of the thought process
 the fear of losing what we have and what we know
 the fear of losing what we have and what we know
 [Male deep]
-the fear of losing what we have and what we know
-is responsible for our problems
-[Screamed]
-You love fear.
-You love fear.
-[Whispered]
+Thought can never capture the movement of life,
+it is much too slow.
+It is like lightning and thunder.
+
+[Verse 3]
+[Male deep]
+the very birth of thought creates fear
 Thought is you.
-Thought is you.
+[Woman]
+whatever you do
+to be free from the self
+also is a self-centred activity
+[Spoken]
+the same old nonsense repeating itself
+…the constant use of thought to give continuity to your separate self.
+[Male deep]
+You have to liberate yourself.
 
 [Breakdown]
 [Iron bells]
 [Whispered]
 there is no self to realize
 there is no individual there at all
+What you call
+'yourself' is fear.
 [Said kindly]
-You are not a "person", not a "thing",
-not a discrete entity surrounded by "other" things.
-
-[Frenzy]
-[Dhak drums]
-[Screamed]
-whatever you do to be free from the self
-also is a self-centred activity
-[Chorus of women Sing together]
-All your experiences, all your meditations,
-all your prayer, all that you do, is self-centred.
-[Screamed]
-There is no moksha, no jivanmukti and no atman.
-And there is no such thing as self-realization.
-
-[Bass drop]
-[Music stays loud]
-
-[Verse 4]
-[Male deep]
-The courage to be on your own,
-to stand on your two solid feet,
-is something which cannot be given by somebody.
-[Woman]
-You cannot free yourself of that burden
-by trying to develop that courage.
-[Said kindly]
-If you are freed from the entire burden of the entire past of mankind,
-then what is left there is the courage.
-
-[Final Chorus]
-[Chorus of women Sing together]
-You see, you love fear.
-You love fear.
-You love fear.
-The ending of fear is death,
-and you don't want that to happen.
-[Male deep]
-What you call 'yourself' is fear.
-The 'you' is born out of fear;
-it lives in fear,
-functions in fear
-and dies in fear.
-
-[Outro]
-[Said kindly]
-…the beyond can never be experienced by you;
-it is when the 'you' is not there.
-[Woman]
 everything you are doing to be at peace with yourself
 is what is destroying the peace that is already there.
-[Said kindly]
-To be yourself requires extraordinary intelligence.
-You are blessed with that intelligence…
+… mind is everywhere, sort of like the air
+[Screamed]
+All your experiences, all your meditations, all your prayer,
+all that you do, is self-centred.
+
+[Final Mantra chorus]
+[Chant, dhak drums, accelerating]
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+Transformation, moksha, liberation,
+[Screamed]
+And there is no such thing as self-realization.
 [Male deep]
-You have to liberate yourself.
-[Whispered]
+The search ends with the realization
+that there is no such thing as enlightenment.
+
+[Outro]
+[Male deep]
 What you call 'yourself' is fear.
-[Conch blasts]
+[Woman]
+It is the sheer
+terror of extinction that can save us, if anything can.
+[Whispered]
+You have to liberate yourself.
+[Conch blast]
 [Kasar gong]
 [End]
 
+
+
 SOURCES
-What you call 'yourself' is fear. (intro, interlude, final chorus, outro): qc774741b
-The 'you' is born out of fear; it lives in fear, functions in fear and dies in fear. (verse 1, interlude, final chorus): qb1981622 (also in qc774741b)
-What you are afraid of is not death. (pre-choruses): qbd6fe67c
-The body cannot be afraid of death. (pre-choruses): q08218f4e
-The movement that is created by society or culture / is what does not want to come to an end.: q6fe326b5
-You love fear. / The ending of fear is death, / and you don't want that to happen. (choruses, dhunuchi dance): qa52816a8
-You see, you love fear. (final chorus): qd70eb646
-Fear is the very thing that you do not want to be free from. (choruses): q086ab55c
-There is no power outside of man. / Man has created God out of fear. / So the problem is fear and not God. (verse 2): q5f1205b6 (also in qbddfe57f)
-it is the mind that has created God out of fear (verse 2): qbdce9d7f
-We don't want to be free from fear. / All that we want to do is to play games with it / and talk about freeing ourselves from fear. (bridge): q3148c69a
+What you call 'yourself' is fear. / What you call / 'yourself' is fear. (intro, breakdown, outro): qc774741b
+The 'you' is born out of fear; / it lives in fear, / functions in fear / and dies in fear. (verse 1): qb1981622 (also in qc774741b)
+It is the sheer / terror of extinction that can save us, if anything can. (intro, choruses, bridge, outro): qa56a998d
+I am only interested in making it crystal clear / that there is nothing to understand. (verse 1, verse 2): qd05c2db1
+What you are afraid of is not death. (pre-chorus): qbd6fe67c
+The body cannot be afraid of death. (pre-chorus): q08218f4e
+The movement that is created by society or culture / is what does not want to come to an end. (pre-chorus): q6fe326b5
+You love fear. / The ending of fear is death, / and you don't want that to happen. (choruses): qa52816a8
+You see, you love fear. / You see, / you love fear. (choruses, bridge): qd70eb646
+Transformation, moksha, liberation, (mantra choruses, 8, 8 and 9 times): q39d01d99
+And there is no such thing as self-realization. (mantra choruses): qd829349e
+The search ends with the realization / that there is no such thing as enlightenment. (second and final mantra choruses): qfc6d0e49
+There is no power outside of man. / Man has created God out of fear. / So the problem is fear and not God. (verse 2): q5f1205b6
+We don't want to be free from fear. (bridge): q3148c69a
 The fact is that we don't want to be free. / What is responsible for our problems / is the fear of losing what we have and what we know. (bridge): qe06bf8ca
+Thought can never capture the movement of life, / it is much too slow. / It is like lightning and thunder. (bridge, dhunuchi dance): q7a1ee58c
 the fear of losing what we have and what we know (dhunuchi dance): qf69919b2
-the fear of losing what we have and what we know / is responsible for our problems (dhunuchi dance): q104a81af
-It is fear that makes you believe that you are living / and that you will be dead. (verse 3): q1676a73f
 the very birth of thought creates fear (verse 3): q4f2c81d1
-Thought is you. (verse 3, dhunuchi dance): q00193fb7
-there is no entity called 'self' independent of the thought process (verse 3): q1c8788f6
+Thought is you. (verse 3): q00193fb7
+whatever you do / to be free from the self / also is a self-centred activity (verse 3): q07528773
+the same old nonsense repeating itself (verse 3): q6f33cc13
 …the constant use of thought to give continuity to your separate self. (verse 3): q95f072f5
+You have to liberate yourself. (verse 3, outro): qd39fb8fe
 there is no self to realize (breakdown): qd28dac6d
 there is no individual there at all (breakdown): q05850b19
-You are not a "person", not a "thing", / not a discrete entity surrounded by "other" things. (breakdown): qcb7d8a47
-whatever you do to be free from the self / also is a self-centred activity (frenzy): q07528773
-All your experiences, all your meditations, / all your prayer, all that you do, is self-centred. (frenzy): q62dd75b6
-There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization. (frenzy): qd829349e
-The courage to be on your own, ... then what is left there is the courage. (verse 4): q77f34910
-…the beyond can never be experienced by you; / it is when the 'you' is not there. (outro): q39483a5d
-everything you are doing to be at peace with yourself / is what is destroying the peace that is already there. (outro): q7fad3985
-To be yourself requires extraordinary intelligence. / You are blessed with that intelligence… (outro): qbe66ba38
-You have to liberate yourself. (outro): qd39fb8fe
+everything you are doing to be at peace with yourself / is what is destroying the peace that is already there. (breakdown): q7fad3985
+… mind is everywhere, sort of like the air (breakdown): q6bc8c471
+All your experiences, all your meditations, all your prayer, / all that you do, is self-centred. (breakdown): q62dd75b6
 
 No line is mine. Album: Six Temples, song 2, Kali.
+
+RHYMES
+scheme AAABAAAAACDDEFAADGAABHHHHHHHHHBAIACAJJAABKLMLAADGAABHHHHHHHHHHNLLMLOAPPQRQQQSTTAQUUUVHHHHHHHHHHHNAABQ
+  end     1-3   fear / sheer
+  end     2-3   fear / sheer
+  end     3-5   sheer / fear
+  end     3-6   sheer / fear
+  end     6-9   fear / clear
+  end     7-9   fear / clear
+  end     8-9   fear / clear
+  end    19-20  fear / sheer
+  end    27-30  liberation / realization
+  end    28-30  liberation / realization
+  end    29-30  liberation / realization
+  end    32-34  fear / clear
+  end    34-36  clear / fear
+  end    37-38  free / see
+  end    39-40  fear / sheer
+  end    43-45  know / slow
+  end    50-51  fear / sheer
+  end    58-61  liberation / realization
+  end    59-61  liberation / realization
+  end    59-62  liberation / realization
+  end    60-61  liberation / realization
+  end    60-62  liberation / realization
+  end    64-67  know / slow
+  end    65-67  know / slow
+  end    70-71  you / do
+  end    72-74  self / itself
+  end    74-75  itself / self
+  end    74-76  itself / yourself
+  end    75-76  self / yourself
+  end    78-79  all / call
+  end    82-83  there / air
+  end    82-84  there / prayer
+  end    83-84  air / prayer
+  end    92-95  liberation / realization
+  end    93-95  liberation / realization
+  end    93-96  liberation / realization
+  end    94-95  liberation / realization
+  end    94-96  liberation / realization
+  end    98-99  fear / sheer
+  inner  22     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  23     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  24     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  25     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  26     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  27     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  28     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  29     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  53     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  54     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  55     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  56     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  57     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  58     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  59     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  60     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  86     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  87     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  88     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  89     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  90     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  91     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  92     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  93     Transformation / liberation   (Transformation, moksha, liberation,)
+  inner  94     Transformation / liberation   (Transformation, moksha, liberation,)
+lines 101  end-rhyme pairs 39  internal rhymes 25  SCORE 64
+SCORE before 0, after 64; mantra chorus "Transformation, moksha, liberation" (q39d01d99)
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
