@@ -6,7 +6,7 @@ topic: Six Temples, 1, Shiva: death and the body
 date: 2026-11-14
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q08218f4e, qc774741b, qbd6fe67c, qd70eb646, q6fe326b5, q1a68f39e, qc0edce3e, q41a1cd4e, q4b30cd75, q37d40528, q1fb36c86, q02c3e502, q25e43852, q190abbe4, q1676a73f, qbb683516, qe646b0ed, q39067cd0, qacfbd56d, q0997ce6d, q59326449, q76f1764e, q7f2ee6c3, qcc9c525e
+quotes: q08218f4e, q0997ce6d, qc774741b, qa56a998d, q5f1205b6, qd05c2db1, qd70eb646, qe06bf8ca, q1a68f39e, qc0edce3e, q41a1cd4e, q4b30cd75, q93a61f20, q71efd67f, qde44a012, q37d40528, q1fb36c86, q25e43852, q190abbe4, q39d01d99, q1676a73f, q39067cd0, qc852ca7b, q59326449, qb87a576d, q76f1764e, qcc9c525e, q7a1ee58c
 ---
 
 # The Body Cannot Be Afraid of Death
@@ -19,11 +19,12 @@ LYRICS
 [Intro]
 [Shankh conch, three long calls]
 [Damaru roll]
-[Ash-dark drone rising, Shiva Ratri night, burning ash]
+[Ash-dark drone rising, Shiva Ratri night]
 [Male deep]
 The body cannot be afraid of death.
 [Whispered]
-The body cannot be afraid of death.
+the urgent drive to survive
+the urgent drive to survive
 
 [Verse 1]
 [Rudra veena alone]
@@ -34,54 +35,68 @@ it lives in fear,
 functions in fear
 and dies in fear.
 [Spoken]
-What you are afraid of is not death.
+It is the sheer
+terror of extinction that can save us, if anything can.
+There is no power outside of man.
+Man has created God out of fear.
+I am only interested in making it crystal clear
+that there is nothing to understand.
 
 [Pre-Chorus]
 [Damaru roll]
 [Woman]
-You see, you love fear.
+You see,
+you love fear.
+The fact is that we don't want to be free.
 The ending of fear is death,
 and you don't want THAT to happen.
 
-[Chorus]
-[Chorus of women Sing together]
+[Mantra chorus]
+[Chant, call and response]
 [Tandava rhythm, full drums]
-[Music stays loud]
-The body cannot be afraid of death.
-The movement that is created by society or culture
-is what does not want to come to an end.
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+[Chorus of women Sing together]
 The body cannot be afraid of death.
 in that sense the body is immortal
 
 [Verse 2]
-[Kashmiri santoor, cold and slow]
+[Santoor, cold and slow]
 [Male deep]
 the hands and feet become cold,
 the body becomes stiff,
 the heartbeat slows down
 [Said kindly]
 a clinical death will occur,
-and it is not the near-death experience
-of those 'near death' scoundrels
 [Woman]
 My body had gone away
-and it has never come back.
-The points of contact are all that is there for the body.
+I have nothing to say
+Hope is necessary for tomorrow, not for today.
+nature had been allowed to go on in its own way,
 
 [Pre-Chorus]
 [Damaru roll]
 [Woman]
-You see, you love fear.
+You see,
+you love fear.
+The fact is that we don't want to be free.
 The ending of fear is death,
 and you don't want THAT to happen.
 
-[Chorus]
-[Chorus of women Sing together]
+[Mantra chorus]
+[Chant, call and response]
 [Tandava rhythm, full drums]
-[Music stays loud]
-The body cannot be afraid of death.
-The movement that is created by society or culture
-is what does not want to come to an end.
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+[Chorus of women Sing together]
 The body cannot be afraid of death.
 in that sense the body is immortal
 
@@ -98,117 +113,141 @@ this is physical torture.
 Not a calamity to me
 but a calamity to those who have an image
 that something marvelous is going to happen.
-[Whispered]
-is like a nuclear explosion
 
 [Verse 3]
 [Rudra veena alone]
 [Male deep]
 There is nothing there - no soul -
 there is only this question about after death.
-The belief in reincarnation will only help us to look the other side.
+The belief in reincarnation
+will only help us to look the other side.
+Transformation, moksha, liberation,
 [Woman]
 It is fear that makes you believe
 that you are living and that you will be dead.
-[Said kindly]
-The body changes from one state into another
-as recycling of matter.
 
-[Pre-Chorus]
-[Damaru roll]
-[Woman]
-You see, you love fear.
-The ending of fear is death,
-and you don't want THAT to happen.
-
-[Chorus]
-[Chorus of women Sing together]
+[Mantra chorus]
+[Chant, call and response]
 [Tandava rhythm, full drums]
-[Music stays loud]
-The body cannot be afraid of death.
-The movement that is created by society or culture
-is what does not want to come to an end.
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+[Chorus of women Sing together]
 The body cannot be afraid of death.
 in that sense the body is immortal
 
 [Verse 4]
-[Kashmiri santoor and rudra veena together]
-[Male deep]
-This state is a physical condition of your being.
-It is not some kind of psychological mutation.
+[Santoor and rudra veena]
 [Woman]
 Love, compassion, ahimsa, understanding, bliss,
 all these things which religion and psychology have placed before man,
-are only adding to the strain of the body.
+are only adding to the strain
+of the body.
 [Said kindly]
-Life has to be described in pure and simple physical and physiological terms.
+pleasure without pain,
 
 [Bridge 2]
 [Tandava rhythm, half time]
-[Male deep]
-Each cell of a living organism cooperates with the cell next to it.
 [Woman]
 The cells stick together not out of brotherhood, love and that kind of thing,
 but out of the urgent drive to survive.
-[Spoken]
-The body can't take uninterrupted pleasure for long, it would be destroyed.
+[Male deep]
+The body can't take uninterrupted pleasure for long,
+it would be destroyed.
+I don't know what I will do
+if I am in a situation where I want to prolong
+my life a little longer.
 [Whispered]
 How I got into this state I will never be able to tell.
 
-[Final Chorus]
-[Chorus of women Sing together]
-[Tandava rhythm, full drums]
+[Final Mantra chorus]
+[Chant, call and response]
 [Shankh conch over the drums]
-[Music stays loud]
-The body cannot be afraid of death.
-The movement that is created by society or culture
-is what does not want to come to an end.
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+the urgent drive to survive
+[Chorus of women Sing together]
 The body cannot be afraid of death.
 in that sense the body is immortal
-[Male deep]
-Not a calamity to me
-but a calamity to those who have an image
-that something marvelous is going to happen.
 
 [Outro]
-[Shankh conch]
-[Damaru roll fading]
-[Male deep]
-The body or organism is not interested in spiritual matters.
+[Damaru roll fading out]
 [Woman]
-the body does not know that it is healthy or unhealthy
+the body does not know
+that it is healthy or unhealthy
+Thought can never capture the movement of life, it is much too slow.
 [Chorus of women Sing together]
 in that sense the body is immortal
 [Whispered]
+the urgent drive to survive
 The body cannot be afraid of death.
 [Ash-dark drone alone, then silence]
 
 SOURCES
 The body cannot be afraid of death. (intro, every chorus, outro): q08218f4e
+the urgent drive to survive (mantra chorus, four times; intro; outro) / The cells stick together not out of brotherhood, love and that kind of thing, / but out of the urgent drive to survive.: q0997ce6d
 What you call 'yourself' is fear. / The 'you' is born out of fear; / it lives in fear, / functions in fear / and dies in fear.: qc774741b
-What you are afraid of is not death.: qbd6fe67c
-You see, you love fear. / The ending of fear is death, / and you don't want THAT to happen. (pre-chorus, three times): qd70eb646
-The body cannot be afraid of death. / The movement that is created by society or culture / is what does not want to come to an end. (chorus): q6fe326b5
-in that sense the body is immortal (chorus, outro): q1a68f39e
+It is the sheer / terror of extinction that can save us, if anything can.: qa56a998d
+There is no power outside of man. / Man has created God out of fear.: q5f1205b6
+I am only interested in making it crystal clear / that there is nothing to understand.: qd05c2db1
+You see, / you love fear. / The ending of fear is death, / and you don't want THAT to happen. (pre-chorus, twice): qd70eb646
+The fact is that we don't want to be free. (pre-chorus, twice): qe06bf8ca
+in that sense the body is immortal (every chorus, outro): q1a68f39e
 the hands and feet become cold, / the body becomes stiff, / the heartbeat slows down: qc0edce3e
-a clinical death will occur, / and it is not the near-death experience / of those 'near death' scoundrels: q41a1cd4e
-My body had gone away / and it has never come back. / The points of contact are all that is there for the body.: q4b30cd75
+a clinical death will occur,: q41a1cd4e
+My body had gone away: q4b30cd75
+I have nothing to say: q93a61f20
+Hope is necessary for tomorrow, not for today.: q71efd67f
+nature had been allowed to go on in its own way,: qde44a012
 I call these events a calamity / because from the point of view of one who thinks / this is something fantastic, blissful, full of love, ecstasy / and all that kind of a thing, / this is physical torture.: q37d40528
-Not a calamity to me / but a calamity to those who have an image / that something marvelous is going to happen. (bridge, final chorus): q1fb36c86
-is like a nuclear explosion: q02c3e502
+Not a calamity to me / but a calamity to those who have an image / that something marvelous is going to happen.: q1fb36c86
 There is nothing there - no soul - / there is only this question about after death.: q25e43852
-The belief in reincarnation will only help us to look the other side.: q190abbe4
+The belief in reincarnation / will only help us to look the other side.: q190abbe4
+Transformation, moksha, liberation,: q39d01d99
 It is fear that makes you believe / that you are living and that you will be dead.: q1676a73f
-The body changes from one state into another / as recycling of matter.: qbb683516
-This state is a physical condition of your being. / It is not some kind of psychological mutation.: qe646b0ed
-Love, compassion, ahimsa, understanding, bliss, / all these things which religion and psychology have placed before man, / are only adding to the strain of the body.: q39067cd0
-Life has to be described in pure and simple physical and physiological terms.: qacfbd56d
-Each cell of a living organism cooperates with the cell next to it. / The cells stick together not out of brotherhood, love and that kind of thing, / but out of the urgent drive to survive.: q0997ce6d
-The body can't take uninterrupted pleasure for long, it would be destroyed.: q59326449
+Love, compassion, ahimsa, understanding, bliss, / all these things which religion and psychology have placed before man, / are only adding to the strain / of the body.: q39067cd0
+pleasure without pain,: qc852ca7b
+The body can't take uninterrupted pleasure for long, / it would be destroyed.: q59326449
+I don't know what I will do / if I am in a situation where I want to prolong / my life a little longer.: qb87a576d
 How I got into this state I will never be able to tell.: q76f1764e
-The body or organism is not interested in spiritual matters.: q7f2ee6c3
-the body does not know that it is healthy or unhealthy: qcc9c525e
+the body does not know / that it is healthy or unhealthy: qcc9c525e
+Thought can never capture the movement of life, it is much too slow.: q7a1ee58c
 No line is mine. Album: Six Temples, song 1, Shiva.
+
+RHYMES
+scheme ABBCCCCCCDDCCEFCFAGBBBBBBAHIJKLMMMMFCFAGBBBBBBAHNOPQRFSGTAUVUWXBBBBBBAHYDZAZQBBCDBEFBBBBBBBBAHGHGHBA
+end 6-9   fear / sheer
+end 7-9   fear / sheer
+end 8-9   fear / sheer
+end 9-12  sheer / fear
+end 10-11  can / man
+end 12-13  fear / clear
+end 13-16  clear / fear
+end 15-17  see / free
+end 32-33  away / say
+end 32-34  away / today
+end 32-35  away / way
+end 33-34  say / today
+end 33-35  say / way
+end 34-35  today / way
+end 36-38  see / free
+end 59-61  reincarnation / liberation
+end 74-76  strain / pain
+end 79-82  long / prolong
+end 95-97  know / slow
+inner drive / survive, on lines 2, 3, 20, 21, 22, 23, 24, 25, 41, 42, 43, 44, 45, 46, 64, 65, 66, 67, 68, 69, 78, 85, 86, 87, 88, 89, 90, 91, 92, 99 (30 times: the mantra chorus, its whispers, and its source line)
+inner 50     view / who   (because from the point of view of one who thinks)
+inner 61     Transformation / liberation   (Transformation, moksha, liberation,)
+inner 96     healthy / unhealthy   (that it is healthy or unhealthy)
+SCORE before 3, after 52; mantra chorus "the urgent drive to survive" (q0997ce6d)
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
