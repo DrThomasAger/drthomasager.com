@@ -6,7 +6,7 @@ topic: Six Temples, 6, Dakshinamurti: the natural state
 date: 2026-11-14
 model: claude-opus-5-5
 authorship: model: claude-opus-5-5
-quotes: q03c8d952, q76f1764e, q8305f222, q55b7359d, q9cf31b1c, q2878603e, q39483a5d, q6bc8c471, qd28dac6d, qd829349e, qe646b0ed, q39d01d99, qfc6d0e49, q2c9515a2, q07528773, q7fad3985, q45036753, q62dd75b6, q1c8788f6, q00193fb7, q4b30cd75, q7a1ee58c, qcc9c525e, q08a43a02, qde44a012, qa1859f82, q05850b19, qf440d043
+quotes: q03c8d952, q76f1764e, q8305f222, q55b7359d, q9cf31b1c, q2878603e, q39483a5d, q6bc8c471, qd28dac6d, qd829349e, qe646b0ed, q45036753, qd39fb8fe, q2c9515a2, qfc6d0e49, q406d4a93, q07528773, q7fad3985, qb5941095, q62dd75b6, q1c8788f6, q00193fb7, q64b3e681, q85310fad, q4b30cd75, q7a1ee58c, qcc9c525e, q08a43a02, q39d01d99, q241d3a5e, qde44a012, qa1859f82, q05850b19, qbe66ba38, qf440d043
 ---
 
 # A State of Not Knowing
@@ -53,38 +53,41 @@ there is no self to realize
 There is no moksha, no jivanmukti and no atman.
 And there is no such thing as self-realization.
 It is not some kind of psychological mutation.
+A real guru, if there is one, frees you from himself.
 [Mantra chorus]
-[Chanted low, at dawn]
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
+[Chanted low at dawn]
+there is no self
+there is no self
+there is no self
+there is no self
+You have to liberate yourself.
+and it is the search itself
+which has been choking me
 The search ends with the realization
 that there is no such thing as enlightenment.
 
 [Verse 2]
 [Male deep]
 [Veena alone]
-I have had to search
-and it is the search itself
-which has been choking me
-and keeping me out of my natural state.
-whatever you do to be free from the self
+Don't follow me,
+I'm lost.
+whatever you do to be free
+from the self
 also is a self-centred activity
 everything you are doing to be at peace with yourself
 is what is destroying the peace that is already there.
-A real guru, if there is one, frees you from himself.
+You are trying to enforce peace through violence.
+all your prayer,
+all that you do,
+is self-centred.
 
 [Pre-Chorus]
 [Woman]
 [Ghatam and kanjira]
-all your prayer,
-all that you do,
-is self-centred.
 there is no entity called 'self' independent of the thought process
 Thought is you.
+Your thinking endlessly about being free from sorrow is only more material for sorrow.
+A guru is one who tells you to throw away all the crutches
 
 [Chorus]
 [Chorus of women Sing together]
@@ -93,14 +96,16 @@ there is no self to realize
 There is no moksha, no jivanmukti and no atman.
 And there is no such thing as self-realization.
 It is not some kind of psychological mutation.
+A real guru, if there is one, frees you from himself.
 [Mantra chorus]
 [Chanted at dawn]
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
+there is no self
+there is no self
+there is no self
+there is no self
+You have to liberate yourself.
+and it is the search itself
+which has been choking me
 The search ends with the realization
 that there is no such thing as enlightenment.
 
@@ -127,6 +132,7 @@ I am only interested in describing this state,
 in clearing away the occultation and mystification
 Transformation, moksha, liberation, and all that stuff
 are just variations on the same theme: permanent happiness.
+as long as you depend upon somebody for solving your problems, so long you remain helpless
 
 [Final Chorus]
 [Chorus of women Sing together]
@@ -138,16 +144,18 @@ there is no self to realize
 There is no moksha, no jivanmukti and no atman.
 And there is no such thing as self-realization.
 It is not some kind of psychological mutation.
+A real guru, if there is one, frees you from himself.
 [Mantra chorus]
 [Chanted at dawn, rising]
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
+there is no self
+there is no self
+there is no self
+there is no self
+there is no self
+there is no self
+You have to liberate yourself.
+and it is the search itself
+which has been choking me
 The search ends with the realization
 that there is no such thing as enlightenment.
 There is nothing to understand
@@ -160,19 +168,19 @@ nature had been allowed to go on in its own way,
 everybody would have become a unique flower.
 there is no power
 outside of man
-[Said kindly]
 I have nothing to give;
 you have nothing to take.
 there is no individual there at all
 This state is a state of not knowing.
-It is not some kind of psychological mutation.
+A real guru, if there is one, frees you from himself.
 [Mantra chorus]
 [Whispered chant]
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-Transformation, moksha, liberation,
-And there is no such thing as self-realization.
+there is no self
+there is no self
+there is no self
+there is no self
+To be yourself
+requires extraordinary intelligence.
 [Woman]
 You don't have to do a thing.
 [Temple bells at dawn]
@@ -188,102 +196,93 @@ SOURCES
 "The natural state is acausal: / it just happens." (verse 1): q2878603e
 "the beyond can never be experienced by you; / it is when the 'you' is not there." (pre-chorus 1): q39483a5d
 "There is no such thing as your mind and my mind. … mind is everywhere, sort of like the air / we breathe." (pre-chorus 1): q6bc8c471
-"there is no self to realize" (every chorus): qd28dac6d
-"There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization." (every chorus, outro): qd829349e
-"It is not some kind of psychological mutation." (every chorus, outro): qe646b0ed
-"Transformation, moksha, liberation," (the mantra chorus, every chorus and outro) and "Transformation, moksha, liberation, and all that stuff / are just variations on the same theme: permanent happiness." (verse 3): q39d01d99
+"there is no self to realize" (every chorus) and "there is no self" (the mantra chorus, every chorus and outro): qd28dac6d
+"There is no moksha, no jivanmukti and no atman. / And there is no such thing as self-realization." (every chorus): qd829349e
+"It is not some kind of psychological mutation." (every chorus): qe646b0ed
+"A real guru, if there is one, frees you from himself." (every chorus, outro): q45036753
+"You have to liberate yourself." (every chorus): qd39fb8fe
+"and it is the search itself / which has been choking me" (every chorus): q2c9515a2
 "The search ends with the realization / that there is no such thing as enlightenment." (every chorus): qfc6d0e49
-"I have had to search / and it is the search itself / which has been choking me / and keeping me out of my natural state." (verse 2): q2c9515a2
-"whatever you do to be free from the self / also is a self-centred activity" (verse 2): q07528773
+"Don't follow me, / I'm lost." (verse 2): q406d4a93
+"whatever you do to be free / from the self / also is a self-centred activity" (verse 2): q07528773
 "everything you are doing to be at peace with yourself / is what is destroying the peace that is already there." (verse 2): q7fad3985
-"A real guru, if there is one, frees you from himself." (verse 2): q45036753
-"all your prayer, / all that you do, / is self-centred." (pre-chorus 2): q62dd75b6
+"You are trying to enforce peace through violence." (verse 2): qb5941095
+"all your prayer, / all that you do, / is self-centred." (verse 2): q62dd75b6
 "there is no entity called 'self' independent of the thought process" (pre-chorus 2): q1c8788f6
 "Thought is you." (pre-chorus 2): q00193fb7
+"Your thinking endlessly about being free from sorrow is only more material for sorrow." (pre-chorus 2): q64b3e681
+"A guru is one who tells you to throw away all the crutches" (pre-chorus 2): q85310fad
 "My body had gone away and it has never come back. / The points of contact are all that is there for the body." (bridge): q4b30cd75
 "Thought can never capture the movement of life, / it is much too slow." (bridge): q7a1ee58c
 "the body does not know / that it is healthy or unhealthy" (bridge): qcc9c525e
 "I am only interested in describing this state, / in clearing away the occultation and mystification" (verse 3): q08a43a02
+"Transformation, moksha, liberation, and all that stuff / are just variations on the same theme: permanent happiness." (verse 3): q39d01d99
+"as long as you depend upon somebody for solving your problems, so long you remain helpless" (verse 3): q241d3a5e
 "nature had been allowed to go on in its own way, / everybody would have become a unique flower." (outro): qde44a012
 "there is no power / outside of man" (outro): qa1859f82
 "there is no individual there at all" (outro): q05850b19
+"To be yourself / requires extraordinary intelligence." (outro): qbe66ba38
 "You don't have to do a thing." (outro): qf440d043
-Every quotation used is corroborated-primary, except q76f1764e, corroborated-secondary.
+Every quotation used is corroborated-primary, except q76f1764e, q406d4a93 and qb5941095, corroborated-secondary.
 No line is mine. Album: Six Temples, song 6, Dakshinamurti.
 
 RHYMES
-scheme ABCDDEFGHIJKLLMNOPPPPPPPPPQRSTCSUSLSLKVWKNOPPPPPPPPPQXYZAABCCDENOPPPPPPPPPPPQABFGGHFGIHPPPPPPJ
+scheme ABCDDEFGHIJKLLMNOPPQQQQQQQRPSRTRQUQLVLKWXKYZNOPPQQQQQQQRPSABCDDECFGHINOPPQQQQQQQQQRPSABJKKLFGMHQQQQQQNO
 end     4-5   tell / sell
 end    13-14  there / air
 end    18-19  realization / mutation
-end    18-20  realization / liberation
-end    18-21  realization / liberation
-end    19-20  mutation / liberation
-end    19-21  mutation / liberation
-end    19-22  mutation / liberation
-end    23-26  liberation / realization
-end    24-26  liberation / realization
-end    25-26  liberation / realization
-end    29-32  itself / self
-end    32-34  self / yourself
-end    34-36  yourself / himself
-end    35-37  there / prayer
-end    38-41  do / you
-end    44-45  realization / mutation
-end    44-46  realization / liberation
-end    44-47  realization / liberation
-end    45-46  mutation / liberation
-end    45-47  mutation / liberation
-end    45-48  mutation / liberation
-end    49-52  liberation / realization
-end    50-52  liberation / realization
-end    51-52  liberation / realization
-end    57-58  slow / know
-end    66-67  realization / mutation
-end    66-68  realization / liberation
-end    66-69  realization / liberation
-end    67-68  mutation / liberation
-end    67-69  mutation / liberation
-end    67-70  mutation / liberation
-end    73-76  liberation / realization
-end    74-76  liberation / realization
-end    75-76  liberation / realization
-end    81-82  flower / power
-end    88-89  mutation / liberation
-end    88-90  mutation / liberation
-end    88-91  mutation / liberation
-end    90-93  liberation / realization
-end    91-93  liberation / realization
-end    92-93  liberation / realization
+end    20-21  himself / self
+end    20-22  himself / self
+end    20-23  himself / self
+end    22-25  self / yourself
+end    23-25  self / yourself
+end    23-26  self / itself
+end    24-25  self / yourself
+end    24-26  self / itself
+end    25-26  yourself / itself
+end    30-32  me / free
+end    33-35  self / yourself
+end    36-38  there / prayer
+end    39-42  do / you
+end    47-48  realization / mutation
+end    49-50  himself / self
+end    49-51  himself / self
+end    49-52  himself / self
+end    51-54  self / yourself
+end    52-54  self / yourself
+end    52-55  self / itself
+end    53-54  self / yourself
+end    53-55  self / itself
+end    54-55  yourself / itself
+end    62-63  slow / know
+end    72-73  realization / mutation
+end    74-75  himself / self
+end    74-76  himself / self
+end    74-77  himself / self
+end    78-81  self / yourself
+end    79-81  self / yourself
+end    79-82  self / itself
+end    80-81  self / yourself
+end    80-82  self / itself
+end    81-82  yourself / itself
+end    89-90  flower / power
+end    96-97  himself / self
+end    96-98  himself / self
+end    96-99  himself / self
+end    98-101 self / yourself
+end    99-101 self / yourself
+end   100-101 self / yourself
 inner  14     There / air
-inner  20     Transformation / liberation
-inner  21     Transformation / liberation
-inner  22     Transformation / liberation
-inner  23     Transformation / liberation
-inner  24     Transformation / liberation
-inner  25     Transformation / liberation
-inner  46     Transformation / liberation
-inner  47     Transformation / liberation
-inner  48     Transformation / liberation
-inner  49     Transformation / liberation
-inner  50     Transformation / liberation
-inner  51     Transformation / liberation
-inner  59     healthy / unhealthy
-inner  61     occultation / mystification
-inner  62     Transformation / liberation
-inner  68     Transformation / liberation
-inner  69     Transformation / liberation
-inner  70     Transformation / liberation
-inner  71     Transformation / liberation
-inner  72     Transformation / liberation
-inner  73     Transformation / liberation
-inner  74     Transformation / liberation
-inner  75     Transformation / liberation
-inner  89     Transformation / liberation
-inner  90     Transformation / liberation
-inner  91     Transformation / liberation
-inner  92     Transformation / liberation
-SCORE before 4, after 70; mantra chorus "Transformation, moksha, liberation," (q39d01d99)
+inner  37     You / through
+inner  43     Your / more
+inner  43     Your / for
+inner  43     more / for
+inner  44     who / you
+inner  64     healthy / unhealthy
+inner  66     occultation / mystification
+inner  67     Transformation / liberation
+inner  69     for / your
+SCORE before 4, after 54 (distinct rhyme pairs before 4, after 20); mantra chorus "there is no self" (qd28dac6d), answered by "frees you from himself" before it and "liberate yourself", "the search itself", "To be yourself" after it
 
 COUNT
 Lyrics 4444 characters. Style 1111 characters.
