@@ -57,7 +57,7 @@
   "distinct_source_hosts": 381,
   "items_self_sourced_only": 342,
   "items_with_second_source": 384,
-  "compositions_checked": 6,
+  "compositions_checked": 13,
   "events_with_recorded_date_conflict": 7,
   "quotes_marked_duplicate": 8,
   "issue_counts": {

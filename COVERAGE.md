@@ -114,14 +114,14 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | form | made | titles |
 |---|---|---|
-| Suno song | 1 | You Love Fear |
+| Suno song | 7 | You Love Fear; A State of Not Knowing; All We Can Know Is Memory; Born Out of Fear; The Body Cannot Be Afraid of Death; The Search Ends; There Is Nothing to Your Love |
 | Collection on a topic | 1 | Born of Fear |
 | Book with chapters | 1 | Nothing Is Put in Its Place |
 | Blog post | 1 | What Did U.G. Krishnamurti Mean by the Intelligence of the Body? |
 | Instagram post | 1 | Instagram post on fear |
 | Custom | 1 | Questions of a Seeker |
 
-- Compositions whose every quoted line is checked against their quotations: 6. Lines not found: 0.
+- Compositions whose every quoted line is checked against their quotations: 13. Lines not found: 0.
 
 ### Media files
 
