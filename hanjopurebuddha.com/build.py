@@ -49,10 +49,10 @@ def read_events(p):
 
 
 
-SONG_PARTS = ("STYLE", "LYRICS", "SOURCES", "COUNT")
+SONG_PARTS = ("STYLE", "LYRICS", "SOURCES", "RHYMES", "COUNT")
 POST_PARTS = ("QUOTE", "CAPTION", "SOURCE", "LINK", "TAGS")
 PART_NAMES = {"STYLE": "Style", "LYRICS": "Lyrics", "SOURCES": "Sources", "COUNT": "Count",
-              "QUOTE": "Quotation", "CAPTION": "Caption", "SOURCE": "Source", "LINK": "Link", "TAGS": "Hashtags"}
+              "RHYMES": "Rhymes", "QUOTE": "Quotation", "CAPTION": "Caption", "SOURCE": "Source", "LINK": "Link", "TAGS": "Hashtags"}
 COPYABLE = {"STYLE": "Copy style for Suno", "LYRICS": "Copy lyrics for Suno", "QUOTE": "Copy the quotation",
             "CAPTION": "Copy the caption", "TAGS": "Copy the hashtags"}
 
