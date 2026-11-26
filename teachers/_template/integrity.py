@@ -64,13 +64,13 @@ for it in items:
     blob = " ".join(str(it.get(k) or "") for k in ("title", "description", "url")).lower()
     if "jk-contamination" not in (it.get("reviewed") or []) and any(m in blob for m in JK_MARKERS) and "not jiddu" not in blob and "u.g." not in blob and "ug " not in blob:
         issues["item-possible-jk-contamination"].append((it["id"], it["title"]))
-    if it.get("url"):
-        urls[it["url"]] += 1
+    if it.get("url"):  # the same address in the same kind of record; distinct works may share a listing page
+        urls[(it["url"], (it.get("format") or "").lower(), key(it["title"])[:40])] += 1
     if not it.get("duplicate_of") and "duplicate-title" not in (it.get("reviewed") or []):
         titles[key(it["title"])] += 1
 for u, n in urls.items():
     if n > 1:
-        issues["item-duplicate-url"].append((u, n))
+        issues["item-duplicate-url"].append((u[0], u[1], n))
 for t, n in titles.items():
     if n > 1:
         issues["item-duplicate-title"].append((t[:60], n))

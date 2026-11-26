@@ -16,13 +16,13 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 | medium | items | confirmed | lead or likely | dated | no source |
 |---|---|---|---|---|---|
-| archive | 32 | 30 | 2 | 20 | 0 |
-| audio | 7 | 6 | 1 | 4 | 0 |
+| archive | 32 | 30 | 2 | 21 | 0 |
+| audio | 10 | 8 | 2 | 7 | 0 |
 | community | 14 | 14 | 0 | 4 | 0 |
-| image | 16 | 16 | 0 | 11 | 0 |
-| text | 46 | 38 | 8 | 38 | 0 |
-| video | 20 | 18 | 2 | 1 | 0 |
-| all | 135 | 122 | 13 | 78 | 0 |
+| image | 17 | 17 | 0 | 12 | 0 |
+| text | 141 | 88 | 53 | 101 | 0 |
+| video | 22 | 19 | 3 | 2 | 0 |
+| all | 236 | 176 | 60 | 147 | 0 |
 
 ### Quotations
 
@@ -72,8 +72,8 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 - 31 quotations rest on one source and wait for a second.
 - 19 disputed and 2 not found, never quoted.
-- 13 archive items are leads or likely, not yet confirmed by a source.
-- 57 archive items have no year (websites and accounts among them, which take none).
+- 60 archive items are leads or likely, not yet confirmed by a source.
+- 89 archive items have no year (websites and accounts among them, which take none).
 
 ## U.G. Krishnamurti
 
@@ -82,12 +82,12 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 | medium | items | confirmed | lead or likely | dated | no source |
 |---|---|---|---|---|---|
 | archive | 95 | 90 | 5 | 57 | 0 |
-| audio | 94 | 87 | 7 | 63 | 0 |
+| audio | 96 | 89 | 7 | 63 | 0 |
 | community | 66 | 56 | 10 | 17 | 0 |
-| image | 113 | 97 | 16 | 62 | 0 |
-| text | 204 | 187 | 17 | 157 | 0 |
-| video | 154 | 144 | 10 | 56 | 0 |
-| all | 726 | 661 | 65 | 412 | 0 |
+| image | 113 | 96 | 17 | 62 | 0 |
+| text | 218 | 199 | 19 | 168 | 0 |
+| video | 157 | 146 | 11 | 56 | 0 |
+| all | 745 | 676 | 69 | 423 | 0 |
 
 ### Quotations
 
@@ -148,6 +148,6 @@ Every set the archive holds, its count, and what is not yet reached, counted fro
 
 - 10 quotations rest on one source and wait for a second.
 - 20 disputed and 3 not found, never quoted.
-- 65 archive items are leads or likely, not yet confirmed by a source.
-- 314 archive items have no year (websites and accounts among them, which take none).
+- 69 archive items are leads or likely, not yet confirmed by a source.
+- 322 archive items have no year (websites and accounts among them, which take none).
 - The hosts the gathering network could not reach, and the briefs waiting for them, are in catalogue/NEXT-WAVE.md.
