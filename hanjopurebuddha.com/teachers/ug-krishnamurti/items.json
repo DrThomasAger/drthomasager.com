@@ -308,8 +308,6 @@
    "place-bangalore",
    "place-usa",
    "place-uk",
-   "press",
-   "format-obituary",
    "about-ug",
    "photos",
    "format-site-page",
@@ -329,7 +327,6 @@
    "ugkrishnamurti.in 'About UG' and 'Key Events' (pages carry photos)",
    "Machilipatnam / Gudivada - birthplace; no memorial or memorial house found",
    "Mukunda Rao obituary / 'About UG' on ugkrishnamurti.in",
-   "Obituary of U.G. Krishnamurti by Mukunda Rao (official site)",
    "About UG / Life Background (biography; obituary account by Mukunda Rao)"
   ],
   "origins": [
@@ -337,7 +334,6 @@
    "images",
    "wave2-img-arch",
    "wave2-text",
-   "wave5-press",
    "wave5-ugkin"
   ]
  },
@@ -1149,10 +1145,6 @@
    "short-clip",
    "saanen",
    "place-saanen",
-   "patriot",
-   "delhi",
-   "host-the-patriot",
-   "format-interview",
    "texts",
    "moorty",
    "operator-unknown",
@@ -1167,8 +1159,6 @@
    "https://people.well.com/user/jct/lists.html",
    "https://people.well.com/user/jct/display.htm",
    "https://people.well.com/user/jct/Final_Remembering.htm",
-   "http://remembering-ug.blogspot.com/2012/04/talks-110612_10.html",
-   "http://travelswithug.blogspot.com/2006/03/new-delhi-december-14-flight-was_26.html",
    "https://people.well.com/user/jct/science.html",
    "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Krishnamurti,+U.+G.+(Uppaluri+Gopala)"
   ],
@@ -1214,7 +1204,6 @@
    "Sorrow (6 mins)",
    "UG in Mill Valley (5 mins)",
    "Saanen Talk Part 1 / Part 2 (ugkrishnamurti.in 'Essential Audios')",
-   "The Patriot (New Delhi) interview with U.G., 1989",
    "The WELL 'jct' UG pages (people.well.com/user/jct)"
   ],
   "origins": [
@@ -1227,7 +1216,6 @@
    "wave2-img-arch",
    "wave3-items",
    "wave5-archive-items",
-   "wave5-press",
    "wave6-communities"
   ]
  },
@@ -1317,17 +1305,16 @@
   "title": "WELL: Mahesh Bhatt, U.G. Krishnamurti: A Life, online chapters (ugbio/)",
   "date": "1992",
   "year": 1992,
-  "place": "Adyar, Madras",
+  "place": null,
   "people": [
-   "Mahesh Bhatt",
-   "U.G. Krishnamurti"
+   "Mahesh Bhatt"
   ],
   "format": "website",
   "language": "English",
   "duration": null,
   "host": "people.well.com",
   "url": "https://people.well.com/user/jct/ugbio/ugbio4.htm",
-  "description": "Chapter of Bhatt's biography on the WELL covering UG's seven years lecturing for the Theosophical Society (1947-53) in India, Europe and America; the main online source on the TS-era lectures. No primary lecture texts located.",
+  "description": "Bhatt's biography in HTML chapters, e.g. ugbio4.htm 'Locking of Horns', ugbio8.htm 'Calamity'.",
   "tags": [
    "website",
    "well",
@@ -1342,30 +1329,14 @@
    "host-people-well-com",
    "format-website",
    "lang-english",
-   "confidence-s",
-   "ug-krishnamurti-a-life",
-   "theosophical-society",
-   "1940s",
-   "text",
-   "person-krishnamurti",
-   "format-html-book-chapter",
-   "lang-en",
-   "place-madras",
-   "place-india"
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
    "https://people.well.com/user/jct/ugbio/ugbio4.htm",
    "https://people.well.com/user/jct/ugbio/ugbio8.htm"
   ],
-  "origin": "archives",
-  "also_titled": [
-   "WELL: ugbio/ugbio4.htm 'Locking of Horns' (A Life, ch. 4 - Theosophical Society years 1947-53)"
-  ],
-  "origins": [
-   "archives",
-   "wave2-text"
-  ]
+  "origin": "archives"
  },
  {
   "id": "i0dcb0822",
@@ -3738,9 +3709,9 @@
   "year": 1918,
   "place": "Machilipatnam, Andhra Pradesh, India",
   "people": [
-   "U.G. Krishnamurti",
    "Gautami",
-   "Soumya Bollapragada"
+   "Soumya Bollapragada",
+   "U.G. Krishnamurti"
   ],
   "format": "wiki",
   "language": "English",
@@ -3775,32 +3746,22 @@
    "biography",
    "text",
    "format-website-page",
-   "letter",
-   "1960s",
-   "london",
-   "ramakrishna-mission",
-   "lead",
-   "1961",
-   "person-krishnamurti",
-   "format-letter",
-   "lang-en",
-   "place-london",
-   "place-new-york",
-   "confidence-lead",
    "telugu",
    "film",
    "family",
+   "lead",
    "person-gautami",
    "person-bollapragada",
+   "person-krishnamurti",
    "host-en-wikipedia-org-te-wikipedia-org",
-   "format-wikipedia-note"
+   "format-wikipedia-note",
+   "confidence-lead"
   ],
   "confidence": "S",
   "sources": [
    "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
    "https://en.wikipedia.org/wiki/Talk:U._G._Krishnamurti/Archive_1",
    "https://en-academic.com/dic.nsf/enwiki/262193",
-   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf",
    "https://te.wikipedia.org/wiki/%E0%B0%89%E0%B0%AA%E0%B1%8D%E0%B0%AA%E0%B1%81%E0%B0%B2%E0%B1%82%E0%B0%B0%E0%B0%BF_%E0%B0%97%E0%B1%8B%E0%B0%AA%E0%B0%BE%E0%B0%B2%E0%B0%95%E0%B1%83%E0%B0%B7%E0%B1%8D%E0%B0%A3_%E0%B0%AE%E0%B1%82%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF"
   ],
   "origin": "archives",
@@ -3808,14 +3769,12 @@
    "Machilipatnam (Masulipatnam) and Gudivada — birthplace and upbringing",
    "English Wikipedia article (infobox image UGKrishnamurti.jpg)",
    "Wikipedia — U. G. Krishnamurti",
-   "Wikipedia note: UG's 1961 letter to the Swami at the London Ramakrishna Mission",
    "Telugu/Tamil film-world kin: actresses Gautami and Soumya Bollapragada as U.G.'s close relatives"
   ],
   "origins": [
    "archives",
    "images",
    "text",
-   "wave2-text",
    "wave4-indian-languages"
   ]
  },
@@ -7505,10 +7464,10 @@
   "place": "Saanen / Gstaad, Switzerland",
   "people": [
    "ugkrishnamurti.in",
-   "KQED",
-   "Susan Dean",
    "U.G. Krishnamurti",
+   "Susan Dean",
    "Willem de Ridder",
+   "KQED",
    "KHFM",
    "Donald Ingram Smith",
    "Barbara Schuler",
@@ -7551,16 +7510,6 @@
    "format-talk",
    "place-gstaad",
    "place-switzerland",
-   "radio",
-   "interview",
-   "california",
-   "usa",
-   "person-kqed",
-   "format-radio-interview",
-   "place-california",
-   "dean",
-   "person-dean",
-   "format-interview",
    "australia",
    "1990s",
    "1994",
@@ -7568,9 +7517,11 @@
    "index",
    "susan-dean",
    "person-krishnamurti",
+   "person-dean",
    "person-ridder",
    "format-streaming-audio-index",
    "format-streaming-audio",
+   "interview",
    "ug-krishnamurti",
    "format-mp3-stream",
    "lang-en",
@@ -7581,6 +7532,8 @@
    "1980s",
    "1984",
    "1992",
+   "person-kqed",
+   "place-california",
    "confidence-lead",
    "1991",
    "person-khfm",
@@ -7614,8 +7567,6 @@
   "origin": "audio",
   "also_titled": [
    "Saanen talks, parts 1 and 2 — 'The Myth of Enlightenment' / 'The Misery of Enlightenment'",
-   "KQED interview",
-   "Susan Dean interview",
    "Sydney 1994 talk",
    "Essential Audios - UG Speaks (ugkrishnamurti.in)",
    "'Sydney 1994' audio (ugkrishnamurti.in Essential Audios)",
@@ -7651,6 +7602,78 @@
    "wave3-items",
    "wave5-ugkin"
   ]
+ },
+ {
+  "id": "i84fbd54b",
+  "medium": "audio",
+  "title": "KQED interview",
+  "date": null,
+  "year": null,
+  "place": "San Francisco, California, USA",
+  "people": [
+   "KQED"
+  ],
+  "format": "radio interview (ugkrishnamurti.in listing)",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://ugkrishnamurti.in/ug-speaks/audios",
+  "description": "KQED (San Francisco public radio/TV) interview listed on ugkrishnamurti.in Essential Audios.",
+  "tags": [
+   "radio",
+   "interview",
+   "kqed",
+   "california",
+   "usa",
+   "ugkrishnamurti-in",
+   "audio",
+   "person-kqed",
+   "host-ugkrishnamurti-in",
+   "format-radio-interview",
+   "lang-english",
+   "place-california",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ugkrishnamurti.in/ug-speaks/audios"
+  ],
+  "origin": "audio"
+ },
+ {
+  "id": "i8c2cd945",
+  "medium": "audio",
+  "title": "Susan Dean interview",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Susan Dean"
+  ],
+  "format": "interview (ugkrishnamurti.in listing)",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://ugkrishnamurti.in/ug-speaks/audios",
+  "description": "Interview by Susan Dean listed on ugkrishnamurti.in Essential Audios.",
+  "tags": [
+   "interview",
+   "dean",
+   "ugkrishnamurti-in",
+   "audio",
+   "person-dean",
+   "host-ugkrishnamurti-in",
+   "format-interview",
+   "lang-english",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ugkrishnamurti.in/ug-speaks/audios"
+  ],
+  "origin": "audio"
  },
  {
   "id": "iebb1559a",
@@ -9241,29 +9264,23 @@
    "2022",
    "person-krishnamurti",
    "format-interview-article",
-   "lang-en",
-   "press",
-   "host-medium-com",
-   "format-interview"
+   "lang-en"
   ],
   "confidence": "S",
   "sources": [
    "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
    "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d",
-   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html",
-   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-4-cab1a90ea0b1"
+   "https://dokumen.pub/ug-krishnamurti-14-days-in-palm-springs-with-ug-krishnamurti.html"
   ],
   "origin": "images",
   "also_titled": [
    "Palm Springs 2003 visit with Ram Dass (Mark Whitwell account)",
-   "Mark Whitwell, 'Understanding U.G. Krishnamurti' interview, Parts 1-2 (Medium, 2022)",
-   "Understanding U.G. Krishnamurti: an interview with Mark Whitwell, parts 1, 2 and 4"
+   "Mark Whitwell, 'Understanding U.G. Krishnamurti' interview, Parts 1-2 (Medium, 2022)"
   ],
   "origins": [
    "images",
    "video",
-   "wave2-text",
-   "wave5-press"
+   "wave2-text"
   ]
  },
  {
@@ -12667,17 +12684,14 @@
   "title": "No Way Out — full text on Wikisource",
   "date": "1991",
   "year": 1991,
-  "place": "McMaster University, Hamilton",
-  "people": [
-   "T.R. Raghunath",
-   "J.S.R.L. Narayana Moorty"
-  ],
+  "place": null,
+  "people": [],
   "format": "full text (wikisource)",
   "language": "English",
   "duration": null,
   "host": "en.wikisource.org",
   "url": "https://en.wikisource.org/wiki/No_Way_Out",
-  "description": "Essay by T.R. Raghunath (McMaster Dept. of Philosophy) printed in No Way Out (1991) alongside Moorty's introduction dated August 1991; full text on Wikisource and scribd.",
+  "description": "Complete text, chapters at /Chapter_1 onward.",
   "tags": [
    "book",
    "no-way-out",
@@ -12690,29 +12704,14 @@
    "host-en-wikisource-org",
    "format-full-text",
    "lang-english",
-   "confidence-s",
-   "academic",
-   "raghunath",
-   "essay",
-   "person-raghunath",
-   "person-moorty",
-   "format-book-chapter-essay",
-   "lang-en"
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
    "https://en.wikisource.org/wiki/No_Way_Out",
-   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_1",
-   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti"
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_1"
   ],
-  "origin": "text",
-  "also_titled": [
-   "T.R. Raghunath, 'The Unrational Philosophy of U.G. Krishnamurti' (chapter in No Way Out)"
-  ],
-  "origins": [
-   "text",
-   "wave2-text"
-  ]
+  "origin": "text"
  },
  {
   "id": "i5dae9686",
@@ -12720,10 +12719,8 @@
   "title": "No Way Out, chapter 1 — on the WELL (nwo1.htm)",
   "date": "1991",
   "year": 1991,
-  "place": "Seaside, California, USA",
+  "place": null,
   "people": [
-   "T.R. Raghunath",
-   "J.S.R.L. Narayana Moorty",
    "U.G. Krishnamurti"
   ],
   "format": "full text (html)",
@@ -12745,17 +12742,6 @@
    "format-full-text",
    "lang-english",
    "confidence-s",
-   "essay",
-   "moorty",
-   "raghunath",
-   "philosophy",
-   "copyright",
-   "person-raghunath",
-   "person-moorty",
-   "format-essay",
-   "place-seaside",
-   "place-california",
-   "place-usa",
    "html-edition",
    "file-inventory",
    "person-krishnamurti",
@@ -12765,7 +12751,6 @@
   "confidence": "S",
   "sources": [
    "https://people.well.com/user/jct/nwo1.htm",
-   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_1",
    "https://actualfreedom.com.au/richard/selectedcorrespondence/sc-ug2.htm",
    "https://people.well.com/user/jct/ThoughtG.html",
    "https://people.well.com/user/jct/ugbio/ugbio4.htm",
@@ -12773,7 +12758,6 @@
   ],
   "origin": "text",
   "also_titled": [
-   "The Unrational Philosophy of U.G. Krishnamurti — T.R. Raghunath and J.S.R.L. Narayana Moorty (1991)",
    "WELL: No Way Out chapter files (nwo1.htm ...)"
   ],
   "origins": [
@@ -14451,7 +14435,7 @@
   "id": "ic373b97e",
   "medium": "text",
   "title": "ugkrishnamurti.in — Books about UG",
-  "date": "1995-06",
+  "date": "1986",
   "year": 1996,
   "place": "Bangalore",
   "people": [
@@ -14461,7 +14445,6 @@
    "Sabyasachi Guha (author)",
    "Sabyasachi Guha (translator)",
    "Nannu Mahbub (translator)",
-   "Larry Morris",
    "Alexandra Gabrielli",
    "Robert C. Smit",
    "Paule Salvan",
@@ -14530,14 +14513,6 @@
    "format-web-bibliography",
    "lang-multilingual",
    "place-india",
-   "press",
-   "mountain-path",
-   "1995",
-   "review",
-   "person-morris",
-   "host-the-mountain-path",
-   "format-review",
-   "1991",
    "books-about-ug",
    "resources-archive",
    "format-site-page",
@@ -14585,8 +14560,6 @@
    "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
    "https://hi.wikipedia.org/wiki/%E0%A4%A8_%E0%A4%96%E0%A4%A4%E0%A5%8D%E0%A4%AE_%E0%A4%B9%E0%A5%8B%E0%A4%A8%E0%A5%87_%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80_%E0%A4%95%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A5%80",
    "https://people.well.com/user/jct/lists.html",
-   "https://realization.org/down/mountain-path/32-3.1995-Jayanthi.pdf",
-   "http://thenaturalman.blogspot.com/2005/07/about-author.html",
    "https://www.casadellibro.com/libro-la-mente-es-un-mito/9788478088959/2085884",
    "https://www.ugkrishnamurti.in/about-ug/key-events",
    "https://epustakalay.com/writer/2489-u-g-krishnamurti/",
@@ -14601,8 +14574,6 @@
    "ইউ জি কৃষ্ণমূর্তি – এক জীবন্ত কাহিনী (U.G. Krishnamurti – Ek Jibanto Kahini; Bengali translation of Mahesh Bhatt's biography)",
    "নো ওয়ে আউট (No Way Out – Bengali translation, Dhaka)",
    "ugkrishnamurti.in – Books About UG / Translations list (Indian-language editions)",
-   "The Mountain Path, June 1995 — review of Larry Morris's poems on U.G. (The Natural Man: Poems on U.G.)",
-   "The Mountain Path, January 1991 — review of a book on U.G.",
    "Books about UG (bibliography page, with translations list)",
    "Dutch: 'The Mystique of Enlightenment' translated by Alexandra Gabrielli, Mirananda",
    "Dutch: book on UG by Robert C. Smit",
@@ -14626,7 +14597,6 @@
    "text",
    "wave2-text",
    "wave4-indian-languages",
-   "wave5-press",
    "wave5-ugkin",
    "wave6-communities",
    "wave6-images"
@@ -14966,6 +14936,50 @@
    "text",
    "wave6-text"
   ]
+ },
+ {
+  "id": "id4f2d60d",
+  "medium": "text",
+  "title": "The Unrational Philosophy of U.G. Krishnamurti — T.R. Raghunath and J.S.R.L. Narayana Moorty (1991)",
+  "date": "1991-08-19",
+  "year": 1991,
+  "place": "Seaside, California, USA",
+  "people": [
+   "T.R. Raghunath",
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "essay",
+  "language": "English",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/nwo1.htm",
+  "description": "Essay printed as chapter 1 of No Way Out; dated Seaside CA, 19 Aug 1991. Observes that U.G. does not claim copyright over these books.",
+  "tags": [
+   "essay",
+   "no-way-out",
+   "moorty",
+   "raghunath",
+   "philosophy",
+   "1990s",
+   "copyright",
+   "text",
+   "1991",
+   "person-raghunath",
+   "person-moorty",
+   "host-people-well-com",
+   "format-essay",
+   "lang-english",
+   "place-seaside",
+   "place-california",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/nwo1.htm",
+   "https://en.wikisource.org/wiki/No_Way_Out/Chapter_1"
+  ],
+  "origin": "text"
  },
  {
   "id": "ia006d246",
@@ -17416,15 +17430,14 @@
    "lang-hindi",
    "place-india",
    "confidence-s",
-   "person-krishnamurti",
-   "host-youtube",
-   "format-youtube",
    "secondary",
    "ug-krishnamurti",
    "format-stream",
    "lang-hi",
    "confidence-lead",
    "biography",
+   "person-krishnamurti",
+   "host-youtube",
    "format-youtube-video"
   ],
   "confidence": "S",
@@ -17433,14 +17446,12 @@
   ],
   "origin": "video",
   "also_titled": [
-   "यूजी कृष्णमूर्ति (Hindi YouTube upload)",
    "यूजी कृष्णमूर्ति (Hindi overview episode)",
    "यूजी कृष्णमूर्ति (U.G. Krishnamurti – Hindi-titled YouTube episode on his life and philosophy)",
    "यूजी कृष्णमूर्ति (Hindi video)"
   ],
   "origins": [
    "video",
-   "wave2-av",
    "wave3-items",
    "wave4-indian-languages",
    "wave6-av"
@@ -17925,6 +17936,38 @@
   "origin": "wave2-av"
  },
  {
+  "id": "idb335824",
+  "medium": "video",
+  "title": "यूजी कृष्णमूर्ति (Hindi YouTube upload)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=j8MZEhRTXjU",
+  "description": "Hindi-titled YouTube video about/with U.G. Krishnamurti.",
+  "tags": [
+   "youtube",
+   "hindi",
+   "video",
+   "person-krishnamurti",
+   "host-youtube",
+   "format-youtube",
+   "lang-hindi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.youtube.com/watch?v=j8MZEhRTXjU"
+  ],
+  "origin": "wave2-av"
+ },
+ {
   "id": "id35f1c8e",
   "medium": "video",
   "title": "UG Krishnamurti & Willem de Ridder (Talk Radio - part 1), 1997",
@@ -18381,8 +18424,7 @@
    "Dr. Desiraju",
    "K. Chandrasekhar (author, Telugu)",
    "J.S.R.L. Narayana Moorty (translator/editor)",
-   "Chandrasekhar",
-   "Deepak Vohra"
+   "Chandrasekhar"
   ],
   "format": "audio and video tapes, photos, files",
   "language": "English",
@@ -18432,14 +18474,7 @@
    "custodian",
    "person-chandrasekhar",
    "host-en-wikisource-org",
-   "format-audio-and-video-tapes-files-photos",
-   "doordarshan",
-   "tv",
-   "vohra",
-   "video",
-   "person-vohra",
-   "host-doordarshan",
-   "format-tv-interview"
+   "format-audio-and-video-tapes-files-photos"
   ],
   "confidence": "S",
   "sources": [
@@ -18457,8 +18492,7 @@
   "also_titled": [
    "Poornakutee, Bangalore - UG's residence; Valentine de Kerven died there; no photos found",
    "Stopped in Our Tracks: Stories of U.G. in India – from the Telugu notebooks of K. Chandrasekhar",
-   "Chandrasekhar's UG files, photos, video and audio tapes moved to Yercaud",
-   "Deepak Vohra Doordarshan interview with U.G. (date unknown)"
+   "Chandrasekhar's UG files, photos, video and audio tapes moved to Yercaud"
   ],
   "origins": [
    "wave2-av",
@@ -18773,7 +18807,6 @@
   "place": "India",
   "people": [
    "U.G. Krishnamurti",
-   "Khushwant Singh",
    "Mahesh Bhatt",
    "Chandra Shekhar",
    "J. Krishnamurti",
@@ -18785,6 +18818,7 @@
    "Sunday Observer",
    "Society magazine",
    "Bombay: The City Magazine",
+   "Khushwant Singh",
    "Hindustan Times",
    "Shanta Kelker"
   ],
@@ -18820,12 +18854,6 @@
    "1990s",
    "1990",
    "host-deccanherald-com",
-   "sunday-observer",
-   "1982",
-   "review",
-   "person-singh",
-   "host-sunday-observer",
-   "format-review",
    "city-magazine",
    "1987",
    "person-bhatt",
@@ -18856,9 +18884,11 @@
    "clipping",
    "1981",
    "person-herald",
+   "1982",
    "person-magazine",
    "person-observer",
    "1989",
+   "person-singh",
    "1991",
    "1992",
    "1993",
@@ -18885,7 +18915,6 @@
    "ugkrishnamurti.in Resources & Archive: press clippings 1970-2000 (Deccan Herald 1981-1993 etc.)",
    "Resources & Archive: press clippings about U.G., 1970–2000 (index)",
    "Deccan Herald pieces on U.G. Krishnamurti (5 Feb 1990; 12 Sep 1993)",
-   "Sunday Observer items on U.G. (4 Jul 1982 review; 7 Jan 1990; 14–20 Mar 1993)",
    "Bombay City Magazine feature on U.G. (1987)",
    "Illustrated Weekly of India, 25 May 1986 — Mahesh Bhatt on U.G. ('He is my friend, philosopher and guide'); known in the catalogue as 'Two Seers'",
    "Illustrated Weekly of India, 31 Mar–6 Apr 1985 — 'Tempestuous association' (Mahesh Bhatt on the 'raging guru')",
@@ -19626,13 +19655,7 @@
    "host-substack-com-medium-com",
    "format-newsletter-essays",
    "lang-en",
-   "confidence-s",
-   "press",
-   "essay",
-   "text",
-   "host-substack-com",
-   "format-essay",
-   "lang-english"
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
@@ -19642,14 +19665,7 @@
    "https://markwhitwell.medium.com/my-life-with-u-g-krishnamurti-mark-whitwell-f596037e9fbf",
    "https://theobservingi.com/"
   ],
-  "origin": "wave2-img-arch",
-  "also_titled": [
-   "U.G.'s referents: The Mystique of Enlightenment (professordeino, Substack)"
-  ],
-  "origins": [
-   "wave2-img-arch",
-   "wave5-press"
-  ]
+  "origin": "wave2-img-arch"
  },
  {
   "id": "i5a659157",
@@ -20094,12 +20110,11 @@
   "id": "ibf6d96fd",
   "medium": "text",
   "title": "What the Press and Others Say About U.G. (WELL, ntbook3.htm)",
-  "date": "1988-12-11",
-  "year": 1988,
-  "place": "Bombay",
+  "date": null,
+  "year": null,
+  "place": null,
   "people": [
-   "U.G. Krishnamurti",
-   "Mahesh Bhatt"
+   "U.G. Krishnamurti"
   ],
   "format": "web page / press-quote compilation",
   "language": "en",
@@ -20117,36 +20132,13 @@
    "format-web-page-press-quote-compilation",
    "lang-en",
    "place-bombay",
-   "confidence-s",
-   "illustrated-weekly",
-   "1988",
-   "interview",
-   "1980s",
-   "host-the-illustrated-weekly-of-india",
-   "format-interview",
-   "lang-english",
-   "place-india",
-   "1992",
-   "review",
-   "mahesh-bhatt",
-   "1990s",
-   "person-bhatt",
-   "format-review"
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
-   "https://people.well.com/user/jct/ntbook3.htm",
-   "https://www.ugkrishnamurti.in/resources-and-archive"
+   "https://people.well.com/user/jct/ntbook3.htm"
   ],
-  "origin": "wave2-text",
-  "also_titled": [
-   "Illustrated Weekly of India, 11 Dec 1988 — 'The how is absent for me'",
-   "Illustrated Weekly of India, 12–18 Dec 1992 — 'Man has to be saved from God' / 'Offers no hope' (review of Bhatt's U.G. Krishnamurti: A Life)"
-  ],
-  "origins": [
-   "wave2-text",
-   "wave5-press"
-  ]
+  "origin": "wave2-text"
  },
  {
   "id": "id0667122",
@@ -20181,6 +20173,45 @@
   "sources": [
    "http://ug-krishnamurti.blogspot.com/2010/09/science-and-spirituality-any-points-of.html",
    "https://narayanamoorty.net/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "i435721f2",
+  "medium": "text",
+  "title": "T.R. Raghunath, 'The Unrational Philosophy of U.G. Krishnamurti' (chapter in No Way Out)",
+  "date": "1991",
+  "year": 1991,
+  "place": "McMaster University, Hamilton",
+  "people": [
+   "T.R. Raghunath",
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "book chapter / essay",
+  "language": "en",
+  "duration": null,
+  "host": "en.wikisource.org",
+  "url": "https://en.wikisource.org/wiki/No_Way_Out",
+  "description": "Essay by T.R. Raghunath (McMaster Dept. of Philosophy) printed in No Way Out (1991) alongside Moorty's introduction dated August 1991; full text on Wikisource and scribd.",
+  "tags": [
+   "academic",
+   "no-way-out",
+   "raghunath",
+   "essay",
+   "text",
+   "1990s",
+   "1991",
+   "person-raghunath",
+   "person-moorty",
+   "host-en-wikisource-org",
+   "format-book-chapter-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://en.wikisource.org/wiki/No_Way_Out",
+   "https://www.scribd.com/document/111395488/No-Way-Out-UG-Krishnamurti"
   ],
   "origin": "wave2-text"
  },
@@ -21109,6 +21140,44 @@
   ]
  },
  {
+  "id": "ie06efb81",
+  "medium": "text",
+  "title": "WELL: ugbio/ugbio4.htm 'Locking of Horns' (A Life, ch. 4 - Theosophical Society years 1947-53)",
+  "date": null,
+  "year": null,
+  "place": "Adyar, Madras",
+  "people": [
+   "Mahesh Bhatt",
+   "U.G. Krishnamurti"
+  ],
+  "format": "HTML book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "people.well.com",
+  "url": "https://people.well.com/user/jct/ugbio/ugbio4.htm",
+  "description": "Chapter of Bhatt's biography on the WELL covering UG's seven years lecturing for the Theosophical Society (1947-53) in India, Europe and America; the main online source on the TS-era lectures. No primary lecture texts located.",
+  "tags": [
+   "well",
+   "ug-krishnamurti-a-life",
+   "theosophical-society",
+   "1940s",
+   "text",
+   "person-bhatt",
+   "person-krishnamurti",
+   "host-people-well-com",
+   "format-html-book-chapter",
+   "lang-en",
+   "place-madras",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ugbio/ugbio4.htm"
+  ],
+  "origin": "wave2-text"
+ },
+ {
   "id": "i407952a5",
   "medium": "text",
   "title": "Larry Morris, U.G. Krishnamurti: Dangerous Friend (2015)",
@@ -21749,6 +21818,45 @@
    "https://www.isbn.de/verlag/Noumenon-Verlag?seite=3&autor=U.G.+Krishnamurti",
    "https://www.amazon.de/Mythos-Mind-M%C3%A4rchenhafter-Beunruhigende-beunruhigenden/dp/3941973010",
    "https://www.zvab.com/buch-suchen/verlag/noumenon-verlag/"
+  ],
+  "origin": "wave2-text"
+ },
+ {
+  "id": "ia27d53a1",
+  "medium": "text",
+  "title": "Wikipedia note: UG's 1961 letter to the Swami at the London Ramakrishna Mission",
+  "date": "1961",
+  "year": 1961,
+  "place": "London",
+  "people": [
+   "U.G. Krishnamurti"
+  ],
+  "format": "letter (referenced)",
+  "language": "en",
+  "duration": null,
+  "host": "en.wikipedia.org",
+  "url": "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+  "description": "Before leaving the Ramakrishna Mission (where he worked three months in 1961) UG left a letter for the resident Swamiji; whereabouts unknown. Only item in UG's own hand referenced by search for the 1960s London/New York years.",
+  "tags": [
+   "letter",
+   "1960s",
+   "london",
+   "ramakrishna-mission",
+   "lead",
+   "text",
+   "1961",
+   "person-krishnamurti",
+   "host-en-wikipedia-org",
+   "format-letter",
+   "lang-en",
+   "place-london",
+   "place-new-york",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://en.wikipedia.org/wiki/U._G._Krishnamurti",
+   "https://dn721509.ca.archive.org/0/items/ALifeU.G.Krishnamurti/A%20Life%20-%20U.%20G.%20Krishnamurti.pdf"
   ],
   "origin": "wave2-text"
  },
@@ -24194,6 +24302,46 @@
   "origin": "wave5-archive-items"
  },
  {
+  "id": "id4efc274",
+  "medium": "text",
+  "title": "Obituary of U.G. Krishnamurti by Mukunda Rao (official site)",
+  "date": "2007-03",
+  "year": 2007,
+  "place": "Bangalore",
+  "people": [
+   "Mukunda Rao",
+   "Mahesh Bhatt"
+  ],
+  "format": "obituary",
+  "language": "English",
+  "duration": null,
+  "host": "ugkrishnamurti.in",
+  "url": "https://www.ugkrishnamurti.in/about-ug",
+  "description": "Mukunda Rao's obituary account on the official site: fall seven weeks before death, death 2.30 pm 22 March 2007 in the apartment built for him by friends Lucia, Anita and Giovanni at Vallecrosia; cremation by Mahesh Bhatt at 2.45 pm the next day, no rites.",
+  "tags": [
+   "press",
+   "obituary",
+   "2007",
+   "ugkrishnamurti-in",
+   "text",
+   "2000s",
+   "person-rao",
+   "person-bhatt",
+   "host-ugkrishnamurti-in",
+   "format-obituary",
+   "lang-english",
+   "place-bangalore",
+   "place-vallecrosia",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/about-ug"
+  ],
+  "origin": "wave5-press"
+ },
+ {
   "id": "i71595a7a",
   "medium": "text",
   "title": "U.G. Krishnamurti R.I.P. (Thomas Ligotti Online thread)",
@@ -24294,6 +24442,115 @@
   "origin": "wave5-press"
  },
  {
+  "id": "i2fe5d835",
+  "medium": "text",
+  "title": "Sunday Observer items on U.G. (4 Jul 1982 review; 7 Jan 1990; 14–20 Mar 1993)",
+  "date": "1982-07-04",
+  "year": 1982,
+  "place": "Bombay",
+  "people": [
+   "Khushwant Singh"
+  ],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "Sunday Observer",
+  "url": "https://www.ugkrishnamurti.in/resources-and-archive",
+  "description": "Sunday Observer (Bombay) clippings on the official press page: 4 Jul 1982 review calling UG 'an honest, muddled, minor voice, for whom we must be thankful' (The Mystique of Enlightenment); 7 Jan 1990 item carrying a Khushwant Singh quote; 14–20 Mar 1993 piece on UG and self-discovery.",
+  "tags": [
+   "press",
+   "sunday-observer",
+   "1982",
+   "review",
+   "text",
+   "1980s",
+   "person-singh",
+   "host-sunday-observer",
+   "format-review",
+   "lang-english",
+   "place-bombay",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "i75b044df",
+  "medium": "text",
+  "title": "The Patriot (New Delhi) interview with U.G., 1989",
+  "date": "1989",
+  "year": 1989,
+  "place": "New Delhi",
+  "people": [],
+  "format": "interview",
+  "language": "English",
+  "duration": null,
+  "host": "The Patriot",
+  "url": "https://people.well.com/user/jct/index_main.html",
+  "description": "Listed on the WELL archive index as 'Delhi 1989 Patriot'; the brief attributes it to Khushwant Singh (unverified). Related: the Remembering UG talks index lists two audio recordings 'Kushwant Singh in India, 1989', and the Travels with UG blog (post dated Dec 2005/06) describes an afternoon interview with Khushwant Singh in New Delhi — so Singh interviewed UG at least twice; no Singh column text found.",
+  "tags": [
+   "press",
+   "patriot",
+   "1989",
+   "delhi",
+   "text",
+   "1980s",
+   "host-the-patriot",
+   "format-interview",
+   "lang-english",
+   "place-delhi",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/index_main.html",
+   "http://remembering-ug.blogspot.com/2012/04/talks-110612_10.html",
+   "http://travelswithug.blogspot.com/2006/03/new-delhi-december-14-flight-was_26.html"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ic999846a",
+  "medium": "text",
+  "title": "The Mountain Path, June 1995 — review of Larry Morris's poems on U.G. (The Natural Man: Poems on U.G.)",
+  "date": "1995-06",
+  "year": 1995,
+  "place": "Tiruvannamalai",
+  "people": [
+   "Larry Morris"
+  ],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "The Mountain Path",
+  "url": "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+  "description": "Ramanasramam journal The Mountain Path, June 1995: 'a delightful collection of so-called poems (epiphanies would be a better description)' about Morris's relationship with UG, 'an iconoclast extraordinaire and unabashed scoundrel'. Listed on the official 'books about UG' page; the Jayanthi 1995 issue PDF is on realization.org. The snippet does not name the title, so the match to The Natural Man is probable, not certain.",
+  "tags": [
+   "press",
+   "mountain-path",
+   "1995",
+   "review",
+   "text",
+   "1990s",
+   "person-morris",
+   "host-the-mountain-path",
+   "format-review",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+   "https://realization.org/down/mountain-path/32-3.1995-Jayanthi.pdf",
+   "http://thenaturalman.blogspot.com/2005/07/about-author.html"
+  ],
+  "origin": "wave5-press"
+ },
+ {
   "id": "i08f2afdf",
   "medium": "text",
   "title": "A Taste of Life: The Last Days of U.G. Krishnamurti (review, Journal of Cancer Research and Therapeutics)",
@@ -24366,6 +24623,74 @@
   "confidence": "S",
   "sources": [
    "https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ib07d61d2",
+  "medium": "text",
+  "title": "Understanding U.G. Krishnamurti: an interview with Mark Whitwell, parts 1, 2 and 4",
+  "date": "2022",
+  "year": 2022,
+  "place": "Waiheke Island",
+  "people": [
+   "Mark Whitwell"
+  ],
+  "format": "interview",
+  "language": "English",
+  "duration": null,
+  "host": "medium.com",
+  "url": "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+  "description": "Multi-part Medium interview series with yoga teacher Mark Whitwell on his years with UG (2000–07); part 1 describes a suitcase of photographs.",
+  "tags": [
+   "press",
+   "medium",
+   "interview",
+   "whitwell",
+   "2022",
+   "text",
+   "2020s",
+   "person-whitwell",
+   "host-medium-com",
+   "format-interview",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-1-fb280a479192",
+   "https://markwhitwell.medium.com/understanding-ug-krishnamurti-an-interview-with-mark-whitwell-part-2-66862b03336d",
+   "https://markwhitwell.medium.com/understanding-u-g-krishnamurti-an-interview-with-mark-whitwell-part-4-cab1a90ea0b1"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "ia53cc39a",
+  "medium": "text",
+  "title": "U.G.'s referents: The Mystique of Enlightenment (professordeino, Substack)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [],
+  "format": "essay",
+  "language": "English",
+  "duration": null,
+  "host": "substack.com",
+  "url": "https://professordeino.substack.com/p/u-g-s-referents-the-mystique-of-enlightenment",
+  "description": "Substack close-reading essay on The Mystique of Enlightenment.",
+  "tags": [
+   "press",
+   "substack",
+   "essay",
+   "text",
+   "host-substack-com",
+   "format-essay",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://professordeino.substack.com/p/u-g-s-referents-the-mystique-of-enlightenment"
   ],
   "origin": "wave5-press"
  },
@@ -24539,7 +24864,7 @@
   "duration": null,
   "host": "hammertonail.com",
   "url": "https://www.hammertonail.com/interviews/matthew-dougherty/",
-  "description": "Dougherty found Thayer's footage and journals online while researching UG, she gave permission; work began 2008 (18 years in the making); premiere Telluride; EPs Campion and Bhatt; tape format (Hi8/VHS/Video8) and who digitised NOT found",
+  "description": "Hammer to Nail interview with the director on digitising Thayer's 'hundreds of hours' of lo-fi home video.",
   "tags": [
    "press",
    "film",
@@ -24554,29 +24879,13 @@
    "host-hammertonail-com",
    "format-interview",
    "lang-english",
-   "confidence-s",
-   "thayer",
-   "dougherty",
-   "tapes",
-   "custodian",
-   "natural-state",
-   "video",
-   "format-camcorder-footage-1989-2007-hundreds-of-hours-described-by-reviewers-as-unpolished-and-degraded"
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
-   "https://www.hammertonail.com/interviews/matthew-dougherty/",
-   "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/",
-   "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti"
+   "https://www.hammertonail.com/interviews/matthew-dougherty/"
   ],
-  "origin": "wave5-press",
-  "also_titled": [
-   "The Natural State (2026) - source tape facts"
-  ],
-  "origins": [
-   "wave5-press",
-   "wave6-av"
-  ]
+  "origin": "wave5-press"
  },
  {
   "id": "ie52c2048",
@@ -24749,6 +25058,111 @@
   "confidence": "S",
   "sources": [
    "http://www.arivista.org/riviste/Arivista/337/99.htm"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "iab406eb5",
+  "medium": "text",
+  "title": "Illustrated Weekly of India, 11 Dec 1988 — 'The how is absent for me'",
+  "date": "1988-12-11",
+  "year": 1988,
+  "place": "Bombay",
+  "people": [],
+  "format": "interview",
+  "language": "English",
+  "duration": null,
+  "host": "The Illustrated Weekly of India",
+  "url": "https://people.well.com/user/jct/ntbook3.htm",
+  "description": "Interview/feature quoted in the WELL press compilation; not visible in the ugkrishnamurti.in snippet.",
+  "tags": [
+   "press",
+   "illustrated-weekly",
+   "1988",
+   "interview",
+   "text",
+   "1980s",
+   "host-the-illustrated-weekly-of-india",
+   "format-interview",
+   "lang-english",
+   "place-bombay",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ntbook3.htm"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "id4405f20",
+  "medium": "text",
+  "title": "Illustrated Weekly of India, 12–18 Dec 1992 — 'Man has to be saved from God' / 'Offers no hope' (review of Bhatt's U.G. Krishnamurti: A Life)",
+  "date": "1992-12-12",
+  "year": 1992,
+  "place": "Bombay",
+  "people": [
+   "Mahesh Bhatt"
+  ],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "The Illustrated Weekly of India",
+  "url": "https://people.well.com/user/jct/ntbook3.htm",
+  "description": "Review of the Viking 1992 biography, with a companion Bhatt piece; the official press page's reviewer found the biography disappointing.",
+  "tags": [
+   "press",
+   "illustrated-weekly",
+   "1992",
+   "review",
+   "mahesh-bhatt",
+   "text",
+   "1990s",
+   "person-bhatt",
+   "host-the-illustrated-weekly-of-india",
+   "format-review",
+   "lang-english",
+   "place-bombay",
+   "place-india",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://people.well.com/user/jct/ntbook3.htm",
+   "https://www.ugkrishnamurti.in/resources-and-archive"
+  ],
+  "origin": "wave5-press"
+ },
+ {
+  "id": "iddef72d4",
+  "medium": "text",
+  "title": "The Mountain Path, January 1991 — review of a book on U.G.",
+  "date": "1991-01",
+  "year": 1991,
+  "place": "Tiruvannamalai",
+  "people": [],
+  "format": "review",
+  "language": "English",
+  "duration": null,
+  "host": "The Mountain Path",
+  "url": "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug",
+  "description": "Listed on the official 'books about UG' page; title of the book reviewed not shown in snippet (candidates: Mind is a Myth 1988 or Mystique reprint).",
+  "tags": [
+   "press",
+   "mountain-path",
+   "1991",
+   "review",
+   "text",
+   "1990s",
+   "host-the-mountain-path",
+   "format-review",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.ugkrishnamurti.in/resources-and-archive/book-about-ug"
   ],
   "origin": "wave5-press"
  },
@@ -26513,6 +26927,40 @@
   "origin": "wave6-av"
  },
  {
+  "id": "i69b3dc7e",
+  "medium": "video",
+  "title": "Deepak Vohra Doordarshan interview with U.G. (date unknown)",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Deepak Vohra"
+  ],
+  "format": "TV interview",
+  "language": "English",
+  "duration": "",
+  "host": "Doordarshan",
+  "url": "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India",
+  "description": "Stopped in Our Tracks recounts a Doordarshan interview in which Vohra asked how the world should remember UG in 500 years; no video located; candidate for the '1986 first TV interview' alongside Mehrotra and Shashi Kumar",
+  "tags": [
+   "doordarshan",
+   "tv",
+   "vohra",
+   "lead",
+   "video",
+   "person-vohra",
+   "host-doordarshan",
+   "format-tv-interview",
+   "lang-english",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://en.wikisource.org/wiki/Stopped_in_Our_Tracks:_Stories_of_U.G._in_India"
+  ],
+  "origin": "wave6-av"
+ },
+ {
   "id": "i7a92898f",
   "medium": "audio",
   "title": "Kleurnet (Amsterdam local TV 1997-2001, aka Myster) - Kleurnet-Myster-Sala collection",
@@ -26546,6 +26994,45 @@
    "https://www.facebook.com/kleurnet/",
    "https://www.lucsala.nl/video.htm",
    "https://windowsforum.com/the-water-cooler.88/ug-krishnamurti-met-luc-sala-in-2002-in-amsterdam-full-interview.217999/"
+  ],
+  "origin": "wave6-av"
+ },
+ {
+  "id": "i07738a03",
+  "medium": "video",
+  "title": "The Natural State (2026) - source tape facts",
+  "date": "",
+  "year": null,
+  "place": "",
+  "people": [
+   "Julie Thayer",
+   "Matthew Dougherty"
+  ],
+  "format": "camcorder footage 1989-2007, 'hundreds of hours', described by reviewers as unpolished and degraded",
+  "language": "English",
+  "duration": "",
+  "host": "",
+  "url": "https://www.hammertonail.com/interviews/matthew-dougherty/",
+  "description": "Dougherty found Thayer's footage and journals online while researching UG, she gave permission; work began 2008 (18 years in the making); premiere Telluride; EPs Campion and Bhatt; tape format (Hi8/VHS/Video8) and who digitised NOT found",
+  "tags": [
+   "thayer",
+   "dougherty",
+   "tapes",
+   "custodian",
+   "natural-state",
+   "video",
+   "person-thayer",
+   "person-dougherty",
+   "host-hammertonail-com",
+   "format-camcorder-footage-1989-2007-hundreds-of-hours-described-by-reviewers-as-unpolished-and-degraded",
+   "lang-english",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.hammertonail.com/interviews/matthew-dougherty/",
+   "https://theoverlooknews.com/a-film-18-years-in-the-making-found-its-footing-in-a-hudson-valley-whatsapp-group/",
+   "https://www.tribuneindia.com/news/entertainment/ug-threw-me-back-into-life-mahesh-bhatt-on-the-brutal-beautiful-mystery-of-ug-krishnamurti"
   ],
   "origin": "wave6-av"
  },
@@ -28162,8 +28649,7 @@
   "people": [
    "U.G. Krishnamurti",
    "Narayana Moorty",
-   "Wendy Moorty",
-   "J.S.R.L. Narayana Moorty"
+   "Wendy Moorty"
   ],
   "format": "gallery page",
   "language": "en",
@@ -28188,35 +28674,14 @@
    "place-bangalore",
    "place-carmel",
    "place-usa",
-   "confidence-lead",
-   "english",
-   "journal-article",
-   "moorty",
-   "jicpr",
-   "academic",
-   "text",
-   "1980s",
-   "1988",
-   "host-journal-of-indian-council-of-philosophical-research",
-   "format-journal-article",
-   "place-delhi",
-   "confidence-s"
+   "confidence-lead"
   ],
-  "confidence": "S",
+  "confidence": "lead",
   "sources": [
    "https://moortysblog.blogspot.com/2009/03/",
-   "https://people.well.com/user/jct/bphotos/ug_1.htm",
-   "https://narayanamoorty.net/",
-   "http://www.alpheus.org/krishnamurti-bibliography/"
+   "https://people.well.com/user/jct/bphotos/ug_1.htm"
   ],
-  "origin": "wave6-images",
-  "also_titled": [
-   "J.S.R.L. Narayana Moorty, 'Fragmentation, Meditation and Transformation', JICPR V.2 (Jan–Apr 1988)"
-  ],
-  "origins": [
-   "wave6-images",
-   "wave6-text"
-  ]
+  "origin": "wave6-images"
  },
  {
   "id": "i0060a626",
@@ -29619,6 +30084,46 @@
    "https://theprint.in/pageturner/excerpt/mahesh-bhatt-ug-krishnamurti/2915666/",
    "https://www.freepressjournal.in/lifestyle/book-review-mahesh-bhatts-the-ashes-are-warm-is-a-deeply-personal-exploration-of-truth-and-presence",
    "https://x.com/sunitapb/status/2038250592112660596"
+  ],
+  "origin": "wave6-text"
+ },
+ {
+  "id": "i842fe3ac",
+  "medium": "text",
+  "title": "J.S.R.L. Narayana Moorty, 'Fragmentation, Meditation and Transformation', JICPR V.2 (Jan–Apr 1988)",
+  "date": "1988-01",
+  "year": 1988,
+  "place": "New Delhi",
+  "people": [
+   "J.S.R.L. Narayana Moorty"
+  ],
+  "format": "journal-article",
+  "language": "en",
+  "duration": null,
+  "host": "Journal of Indian Council of Philosophical Research",
+  "url": "https://moortysblog.blogspot.com/2009/03/",
+  "description": "Article on J. Krishnamurti's thought in JICPR Vol. V No. 2 (1988). UG connection: Moorty showed it to UG, whose only comment was that it clarified difficulties readers have with JK. Moorty's site also lists his 1991 introduction to No Way Out and the 1995 'Science and Spirituality' centennial paper (WELL science.html).",
+  "tags": [
+   "english",
+   "journal-article",
+   "moorty",
+   "jicpr",
+   "academic",
+   "text",
+   "1980s",
+   "1988",
+   "person-moorty",
+   "host-journal-of-indian-council-of-philosophical-research",
+   "format-journal-article",
+   "lang-en",
+   "place-delhi",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://moortysblog.blogspot.com/2009/03/",
+   "https://narayanamoorty.net/",
+   "http://www.alpheus.org/krishnamurti-bibliography/"
   ],
   "origin": "wave6-text"
  },

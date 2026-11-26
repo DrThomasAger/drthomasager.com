@@ -1,4 +1,4 @@
-# Bernadette Roberts, everything she published
+# Bernadette Roberts, everything she made and everything about her
 
 Asked for by Hanjo, in his words, 2026-11-14 and 2026-11-26.
 
@@ -6,66 +6,526 @@ Asked for by Hanjo, in his words, 2026-11-14 and 2026-11-26.
 
 > Make sure this is comperhensive
 
-Gathered from this archive's items.json and events.json, each entry confirmed by the sources listed there unless marked otherwise. Her books and recordings are under ordinary copyright; this archive links to them and holds none of them.
+> we need everything
 
-## Books
+Her books and recordings are under ordinary copyright and her estate asks that copies not circulate, so this archive links to each work and holds none of them.
 
-### The Experience of No-Self: A Contemplative Journey
-- 1982, Iroquois House, the first printing.
-- 1982 and 1984, Shambhala Publications, Boston (ISBN 0-87773-289-2); some catalogues give 1984 for the Boston and London printing.
-- 1993, SUNY Press, revised edition, also as an e-book.
-- 2017, Dev Publishers and Distributors, New Delhi, Indian reprint.
-- What it covers: the two years after the falling away of self, the passage she called the second movement.
+Her seven books, in the order they first appeared: The Experience of No-Self (1982), The Path to No-Self (1985), What Is Self? (1989), Essays on the Christian Contemplative Journey (2007), The Real Christ (2012 by one account; 2016 Sentient Publications; 2017 ContemplativeChristians.com), The Christian Contemplative Journey: Essays on the Path (2017), Contemplative: Autobiography of the Early Years (2018).
 
-### The Path to No-Self: Life at the Center
-- 1985, Shambhala Publications, Boston (ISBN 0-87773-306-6).
-- 1991, SUNY Press, paperback.
-- 2017, Dev Publishers and Distributors, New Delhi, Indian reprint.
-- What it covers: her life from entering the cloister, the unitive state as a path of its own.
+236 works, written from the archive's records by `bibliography.py`; 176 confirmed by a source, 38 likely, 22 leads not yet confirmed.
 
-### What Is Self? A Study of the Spiritual Journey in Terms of Consciousness
-- 1989, first edition, published in Austin, Texas, by Mary Botsford Goens.
-- 2005, Sentient Publications, with a foreword by Jeff Shore; also a library e-book.
-- What it covers: self as consciousness, and the end of self as the end of consciousness.
+| Section | Works |
+|---|---|
+| The contents of each book | 6 |
+| Editions | 33 |
+| Translations | 19 |
+| Bernadette Roberts's own writings: essays, papers, chapters, letters | 21 |
+| Recordings: talks, retreats, radio, video | 31 |
+| Interviews | 8 |
+| Written about Bernadette Roberts | 33 |
+| Other texts, pages and full-text copies | 24 |
+| Sites, archives and communities | 44 |
+| Images | 17 |
 
-### The Real Christ
-- Dates are contested. Wikipedia and a 2015 blog date the work to 2012, in a self-published form.
-- 2016, Sentient Publications, paperback, 7 March 2016 (ISBN 978-1591812821), 512 pages, later withdrawn.
-- 2016, a CreateSpace printing (ISBN 978-1539770466), listed but not confirmed by any other source.
-- 2017, ContemplativeChristians.com Publishing, 19 February 2017 (ISBN 978-0692851159), 524 pages, the edition her site sells.
-- What it covers: Christ as distinct from the man Jesus, and Christianity as she saw it.
+## The contents of each book
 
-### Essays on the Christian Contemplative Journey
-- 2007, self-published, 161 pages (listed on Google Books; not confirmed elsewhere).
-- Its essays include "The spiritual journey recapitulates the history of religion", "Cessation of self", "Nonduality", "Mystical theology and no-self", "Image and likeness" and "Apatheia".
+- **The Path to No-Self: Life at the Center - contents (table of contents, SUNY Press, 1991; Shambhala 1985)** · 1991 · confirmed [link](https://sunypress.edu/Books/T/The-Path-to-No-Self)
+  Table of contents of The Path to No-Self: Life at the Center (Shambhala 1985; SUNY Press 1991, 232 pp), per the SUNY Press listing: Preface; Introduction; Phases of the Unitive Life; Dichotomy of Experience; Phase I; Preface to Phase II; Phase II; Phase III; Between Phases III and IV; Phase IV; Phase V; Phase VI; Conclusion (some SUNY copies add Endnotes). Shambhala 1985 pagination differs.
+- **The Experience of No-Self: A Contemplative Journey - contents (table of contents, SUNY Press revised edition, 1993; Iroquois House 1982)** · 1993 · confirmed [link](https://sunypress.edu/Books/T/The-Experience-of-No-Self)
+  Table of contents of The Experience of No-Self (Iroquois House 1982; Shambhala 1984; SUNY Press revised edition 1993, 212 pp): Introduction; Part I The Journey: Chapter 1; Chapter 2; Chapter 3; Chapter 4; Chapter 5; Chapter 6; Compendium of the Journey; The Silent Mind; Part II A Closer Look: Questions and Comments; Where is Christ?; Self; Conclusion. SUNY/De Gruyter pagination: Introduction p. 9, Chapter 1 p. 19, Chapter 6 p. 72, Questions and Comments p. 109, Where is Christ? p. 127, Self p. 164. The 1982 edition (archive.org full text) has Questions and Comments p. 99, Where is Christ? p. 114, Self p. 167. The six journey chapters are numbered, not titled, in the listings.
+- **What Is Self? A Study of the Spiritual Journey in Terms of Consciousness - contents (table of contents, Sentient Publications, 2005; Mary Botsford Goens 1989)** · 2005 · likely [link](https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness)
+  Contents of What Is Self? (Mary Botsford Goens 1989; Sentient Publications 2005, 208 pp), as shown in the e-book preview and the archive.org PDF: Foreword (Jeff Shore); Foreword (Ric Williams); Introduction; Part I What Is Self?: Definition of Terms; Consciousness and the Senses; The Function of Consciousness; the Knowing-Self; the Feeling-Self; Unity of Consciousness; Ego; The Critical Turning Point; No-Self Experience; Conclusion; Appendix: The Divine Experienced by Consciousness; Appendix: True Nature of Death and Resurrection; Appendix: Compendium of the Self Experience. Part II Three Views of Consciousness: Three Views of Consciousness or Self; Three Views of Ego; the Unconscious; the Archetypes; One Way to View the Passage; Appendix: Essence of the Divine; Appendix: Personal Discovery of Buddhism. Part III The Christian Passage: An Overview; Steps in My Christian Passage; Appendix: How Christ differs from ourselves (Introduction; Two Sides of the Incarnation; Experience and Manifestation; Summary); Postscript. Exact order and wording of minor headings differ between listings and editions (Google Books shows a shorter list for one edition).
+- **The Christian Contemplative Journey: Essays on the Path - contents (table of contents, ContemplativeChristians.com Publishing, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay list for The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017; ISBN 9780692987216; c. 305 pp; Kindle B07KRHFHVS), as listed on her Books page and on Bernadette's Friends, in order: The Spiritual Journey Recapitulates the History of Religion; Cessation of Self; Nonduality; Mystical Theology and No-Self; Image and Likeness; Apatheia; Means-End; The Ox Herding Pictures; The Eucharist: A Christian Path; "What is Self?" - a Research Paper; Christ as the Definition of "Non-duality". Publisher blurb also names 'Ten Ox-herding Pictures' (her Christian commentary, originally a 21-page booklet) and 'The Nature of Self' as two of her most recent essays included; the blog list may not show every title. Archive.org scan: roberts.christian-contemplative-journey.
+- **The Real Christ - contents (table of contents, ContemplativeChristians.com, 2017)** · 2017 · confirmed [link](https://www.barnesandnoble.com/w/the-real-christ-bernadette-roberts/1122510515)
+  Table of contents of The Real Christ (ContemplativeChristians.com, 2017, 524 pp; ISBN 9780692851159; Kindle B07DVQ4YRH), as shown by Barnes & Noble, Amazon.in and the archive.org PDF (chapter numbering reconstructed from the listing order; listings differ slightly by printing, and spellings vary Nicea/Nicaea): Warning; Reason for Writing; Thesis; 1 Early Fathers; 2 Philosophical Background; 3 Logos; 4 Monotheism; 5 The Man Jesus; 6 Preface to the Trinity; 7 Trinity; 8 The Father-Son Problem; 9 Nicaea and Chalcedon; 10 The Person Problem; 11 Person as Self; 12 Person vs. Individual; 13 Cyril's Christology; 14 Monophysitism; 15 Communication of Properties; 16 The Problem of Christ; 17 Summary So Far; 18 Preface and Incarnation (one listing: Incarnation); 19 Kenosis; 20 Incarnation II; 21 Hypostatic Union; 22 Death of Christ; 23 Resurrection; 24 Ascension; 25 Deification; 26 God Will Be All in All; 27 A New Christology (one listing numbers it 28); Eucharist; Appendix I - Christian Ontology; Appendix II - Theology of No-Self; Appendix III - Theotokos; Acknowledgements; Bibliography.
+- **Contemplative: Autobiography of the Early Years - contents (table of contents, ContemplativeChristians.com, 2018)** · 2018 · likely [link](https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf)
+  Contents of Contemplative: Autobiography of the Early Years (ContemplativeChristians.com, 2018, 316 pp; ISBN 9780692125175; Kindle B07KV3FQYK), covering birth to age seventeen, where The Path to No-Self begins. Sections are by age, each with short titled chapters: Introduction; Birth through Age Two (incl. 'Home by the Sea'); Ages 3 & 4 (incl. 'God in the Sea'); Ages 5 & 6 (incl. 'God Everywhere'); Ages 7 & 8 (incl. 'A Jesus Problem'); Age 9; Age 10; Ages 11 & 12; later age sections to seventeen. Only these chapter titles were visible in search results; the full list of chapter titles is in the archive.org PDF.
 
-### The Christian Contemplative Journey: Essays on the Path
-- 2017, ContemplativeChristians.com Publishing, published after her death in December 2017 (ISBN 978-0692987216), about 306 pages.
-- The expanded essay collection, including "Cessation of Self", "Nonduality", "Mystical Theology and No-Self", "Apatheia", "The Eucharist, A Christian Path", "What is Self? (research paper)", "Ten Ox-herding Pictures" and "The Nature of Self".
+## Editions
 
-### Contemplative: Autobiography of the Early Years
-- 2018, ContemplativeChristians.com, published after her death (ISBN 978-0692125175); Kindle edition November 2018.
-- What it covers: her life from birth to seventeen, before the cloister.
+- **The Experience of No-Self: A Contemplative Journey (Iroquois House, 1982)** · 1982 · confirmed [link](https://www.abebooks.co.uk/9780931980077/experience-no-self-contemplative-journey-Roberts-0931980070/plp)
+  First edition, self-published through Iroquois House (not Shambhala, as often stated). ISBN 0-931980-07-0 / 978-0931980077. 204 pp (AbeBooks) or 213 pp (Goodreads). The 1982 scan on archive.org (roberts.experience-of-no-self) is this edition.
+- **The Experience of No-Self: editions (Goodreads work 345092, 12 editions)** · 1982 · confirmed [link](https://www.goodreads.com/author/list/197971.Bernadette_Roberts)
+  Goodreads: published 1982, 12 editions, 194 ratings, 4.27. Editions: Iroquois House 1982 ISBN 0931980070 (Open Library OL1741268M); Shambhala Aug 1984 ISBN 0877732892 (204 pp; Random House distribution ISBN 9780394726939); SUNY Press revised edition Mar 1993 ISBN 9780791416945 (213 pp); SUNY e-book 9781438417462; Kindle B08XN3P55C; Dev Publishers (India) 2017 ISBN 9789381406731 (212 pp).
+- **The Experience of No-Self: A Contemplative Journey (Shambhala, 1984, ISBN 0-87773-289-2)** · 1984 · confirmed [link](https://openlibrary.org/books/OL1741268M/The_experience_of_no-self)
+  Second Shambhala ISBN for the 1984 edition: 0-87773-289-2 / 978-0877732891 (Shambhala's own prefix; the 0-394 number is the Random House distribution ISBN). Open Library record OL1741268M.
+- **The Experience of No-Self: A Contemplative Journey (Shambhala, 1984, paperback)** · 1984 · confirmed [link](https://www.amazon.com/Experience-No-Self-Bernadette-Roberts/dp/0394726936)
+  Shambhala Publications trade paperback, 12 August 1984 (distributed by Random House, hence the 0-394 prefix). ISBN 0-394-72693-6 / 978-0394726939. 208 pp.
+- **The Path to No-Self: Life at the Center (Shambhala, 1985)** · 1985 · confirmed [link](https://www.abebooks.com/9780394729992/Path-No-Self-Life-Center-Roberts-0394729994/plp)
+  First edition, Shambhala 1985 (Random House distribution ISBN 0-394-72999-4 / 978-0394729992). The 1985 scan on archive.org (roberts.path-to-no-self) is this edition.
+- **The Path to No-Self: Life at the Center (Shambhala, 1985, ISBN 0-87773-306-6)** · 1985 · confirmed [link](https://www.amazon.com/Path-No-Self-Bernadette-Roberts/dp/0877733066)
+  Shambhala's own-prefix ISBN for the 1985 first edition: 0-87773-306-6 / 978-0877733065 (the 0-394-72999-4 number is the Random House distribution ISBN). Google Books record id H1IsAQAAMAAJ.
+- **What Is Self? A Study of the Spiritual Journey in Terms of Consciousness (Mary Botsford Goens, 1989)** · 1989 · confirmed [link](https://www.alibris.com/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness-Bernadette-Roberts/book/7179965)
+  First edition, published by Mary Botsford Goens (Mary Goens Publishing, Marina del Rey, CA), 1989. ISBN 0-9623993-0-X / 978-0962399305 (Alibris lists it as a '2nd edition' 1989 record). The archive.org scan roberts.what-is-self is dated 1989 and is this text. [Checked: Confirmed by CiNii library record: Mary Botsford Goens, c1989, Austin, Tex., xiii + 216 p., ISBN 0962399302 / 9780962399305. Note …
+- **What Is Self? A Study of the Spiritual Journey in Terms of Consciousness (Mary Botsford Goens, 1989, English)** · 1989 · confirmed [link](https://ci.nii.ac.jp/ncid/BA62305703)
+  First edition, Mary Botsford Goens (Mary Goens Publishing), Austin, Texas, 1989; ISBN 0-9623993-0-2; xiii, 216 pp. (CiNii and Open Library records). Adds ISBN/pages to the already-known 1989 edition.
+- **The Path to No-Self: Life at the Center (SUNY Press, 1991, hardback, English)** · 1991 · likely [link](https://www.abebooks.com/9780791411414/Path-Life-Center-Roberts-Bernadette-0791411419/plp)
+  SUNY Press hardcover, October 1991; ISBN 0-7914-1141-9 (978-0-7914-1141-4); 232 pp. Foreword by Thomas Keating. Companion paperback ISBN 0-7914-1142-7 (978-0-7914-1142-1).
+- **The Path to No-Self: Life at the Center (SUNY Press, 1991, paperback)** · 1991 · confirmed [link](https://www.sunypress.edu/p-1445-the-path-to-no-self.aspx)
+  State University of New York Press, new edition October 1991. Paperback ISBN 0-7914-1142-7 / 978-0791411421, 232 pp (SUNY) or 214 pp (Google Books). Hardcover ISBN 0-7914-1141-9 / 978-0791411414. E-book ISBN 9781438417509 (VitalSource). Google Books id 04ry5d6qtNYC.
+- **The Path to No-Self: Life at the Center (SUNY Press, 1991, paperback, English)** · 1991 · confirmed [link](https://www.abebooks.co.uk/9780791411421/Path-No-Self-Life-Center-Roberts-0791411427/plp)
+  SUNY Press paperback, 18 Oct 1991; ISBN 0-7914-1142-7 (978-0-7914-1142-1); 232 pp. Reissue of the Shambhala 1985 edition. (Adds ISBN to the already-known SUNY page.)
+- **The Experience of No-Self: A Contemplative Journey, Revised Edition (SUNY Press, 1993, Kindle, English)** · 1993 · confirmed [link](https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised-ebook/dp/B08XN3P55C)
+  Kindle e-book (ASIN B08XN3P55C) of the SUNY Press revised edition (print paperback ISBN 0-7914-1694-1 / 978-0-7914-1694-5, 26 Mar 1993, 212-213 pp.). SUNY digital ISBN 978-1-4384-1746-2 (Perlego/library records).
+- **Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (German edition)** · 1997 · confirmed [link](https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht/dp/3924195277)
+  Arbor Verlag, 15 Oct 1997, ISBN 3924195277 / 978-3924195274, 186 pp; EPUB new edition 2018 ISBN 9783867812221. Google Books lists Lienhard Valentin as contributor (probably translator). Which English title it renders is not stated (186 pp suggests The Experience of No-Self).
+- **What Is Self? (Sentient Publications / Open Road Integrated Media, e-book, English)** · 2005 · confirmed [link](https://openroadmedia.com/ebook/what-is-self/9781591812258)
+  E-book ISBN 978-1-59181-225-8, published by Sentient Publications and distributed by Open Road Integrated Media (Apple Books id1579632687, Hoopla, Storytel, OverDrive); c. 258 pp. Storytel gives e-book release 15 Jan 2005; Ex Libris gives 4 Aug 2021 (likely Open Road redistribution date).
+- **What Is Self? A Study of the Spiritual Journey in Terms of Consciousness (Sentient Publications, 2005, paperback, English)** · 2005 · confirmed [link](https://sentientpublications.com/products/9781591810261_what-is-self)
+  Sentient Publications paperback, ISBN 1-59181-026-X (978-1-59181-026-1); 208 pp.; dated 25 Jan 2005 (some listings 1 Dec 2004). Foreword by Jeff Shore.
+- **Essays on the Christian Contemplative Journey (2007)** · 2007 · likely [link](https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ)
+  Contents of the first, self-published essay collection Essays on the Christian Contemplative Journey (Bernadette Roberts, 2007; Google Books gives 161 pp). Google Books' contents snippet names (order beyond the first not fully shown): The Spiritual Journey Recapitulates the History of Religion (first); Cessation of Self; Nonduality; Mystical Theology and No-Self; Image and Likeness; Apatheia; Mean…
+- **The Real Christ (CreateSpace, 2016)** · 2016 · likely [link](https://www.abebooks.com/9781539770466/Real-Christ-Roberts-Bernadette-153977046X/plp)
+  CreateSpace Independent Publishing Platform printing, 2016. ISBN 1-5397-7046-X / 978-1539770466. Listed as unavailable. [Checked: ISBN 9781539770466 / 153977046X not found in any search result, so the 2016 CreateSpace printing is unconfirmed (year left null). The confirmed edition is Contemplative Christians, released 19 Feb 2017, ISBN 9780692851159 (0692851151), 522-524 pp; Wikipedia dates the wo…
+- **The Real Christ (Sentient Publications, 2016)** · 2016 · confirmed [link](https://www.amazon.co.uk/Real-Christ-Bernadette-Roberts/dp/1591812828)
+  Sentient Publications paperback, 7 March 2016. ISBN 1-59181-282-8 / 978-1591812821. 512 pp. Listed as unavailable on AbeBooks (superseded by the 2017 Contemplativechristians.com edition).
+- **Phoenix Kennedy's books on Bernadette Roberts** · 2017 · confirmed [link](https://www.goodreads.com/author/list/16570706.Phoenix_Kennedy)
+  Titles: 'Bernadette Roberts is not my guru! An introduction to, and exploration of, her amazing writings' (Goodreads 34570077); 'Bernadette Roberts - God's Big Experiment' (ASIN B07BVJHDCL; 2020 re-issue B0848S946N); 'The Essential Bernadette Roberts: in her own words' (B0965QM3MY, chronological excerpt anthology); 'A Study Guide for The Real Christ'; 'The Unofficial Study Guide to ...'. Amazon re…
+- **The Christian Contemplative Journey: Essays on the Path (Contemplativechristians.com Publishing, 2017)** · 2017 · confirmed [link](https://www.amazon.com/Christian-Contemplative-Journey-Essays-Path/dp/0692987215)
+  Expanded essay collection, Contemplativechristians.com Publishing, 2017. ISBN 0-692-98721-5 / 978-0692987216. c. 305-306 pp. Includes essays such as 'Ten Ox-herding Pictures' and 'The Nature of Self'. Scanned on archive.org as roberts.christian-contemplative-journey.
+- **The Experience of No-Self (Dev Publishers & Distributors, New Delhi, 2017 Indian reprint)** · 2017 · confirmed [link](https://www.abebooks.com/9789381406731/Experience-No-Self-Contemplative-Journey-Roberts-9381406731/plp)
+  Indian reprint, Dev Publishers & Distributors, 2017. ISBN 9381406731 / 978-9381406731. Listed as currently unavailable on AbeBooks. [Checked: Confirmed by Exotic India (revised edition, ISBN 9789381406731, c. 211 pp) and Vedams Books (Dev Publishers, 2017 paperback, 212 pp). Year is the publication year of this reprint.]
+- **The Path to No-Self (Dev Publishers & Distributors, New Delhi, 2017 Indian reprint)** · 2017 · confirmed [link](https://www.abebooks.com/9789381406748/Path-No-Self-Bernadette-Roberts-938140674X/plp)
+  Indian reprint, Dev Publishers & Distributors, 2017. ISBN 938140674X / 978-9381406748. Also listed on amazon.de. [Checked: Confirmed by Exotic India listing: Dev Publishers and Distributors, edition year 2017, ISBN 9789381406748, 226 pp. Publication year of reprint.]
+- **The Real Christ (ContemplativeChristians.com Publishing, 2017, paperback, English)** · 2017 · confirmed [link](https://catalog.carnegiestout.org/Record/245168)
+  ContemplativeChristians.com Publishing, Austin, TX, February 2017; ISBN 0-692-85115-1 (978-0-692-85115-9); 516 pp. per library record (524 pp. per a bookseller). Adds publisher/pages to the already-known Amazon listing.
+- **Contemplative: Autobiography of the Early Years (Contemplativechristians.com, 2018)** · 2018 · confirmed [link](https://www.amazon.com/Contemplative-Autobiography-Early-Bernadette-Roberts/dp/0692125175)
+  Posthumous, Contemplativechristians.com, 2018. ISBN 0-692-12517-5 / 978-0692125175. 316 pp. Covers her life from birth to age seventeen (entry into Carmel). Google Books id BBRntwEACAAJ. PDF scan on archive.org.
+- **Contemplative: Autobiography of the Early Years (ContemplativeChristians.com, 2018, Kindle, English)** · 2018 · confirmed [link](https://www.amazon.com/Contemplative-Autobiography-Early-Bernadette-Roberts-ebook/dp/B07KV3FQYK)
+  Kindle e-book, ASIN B07KV3FQYK, 23 Nov 2018; autobiography from birth to age seventeen. Print paperback ISBN 0-692-12517-5 (978-0-692-12517-5).
+- **The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com, 2018, Kindle, English)** · 2018 · confirmed [link](https://www.amazon.com/Christian-Contemplative-Journey-Essays-Path-ebook/dp/B07KRHFHVS)
+  Kindle e-book, ASIN B07KRHFHVS, publisher ContemplativeChristians.com, 20 Nov 2018. Print paperback: ISBN 0-692-98721-5 (978-0-692-98721-6), c. 305-306 pp., 2 Dec 2017.
+- **The Real Christ (ContemplativeChristians.com, 2018, Kindle, English)** · 2018 · confirmed [link](https://www.amazon.ca/Real-Christ-Bernadette-Roberts-ebook/dp/B07DVQ4YRH)
+  Kindle e-book, ASIN B07DVQ4YRH, publisher ContemplativeChristians.com, 18 Jun 2018.
+- **The Experience of No-Self: A Contemplative Journey (SUNY Press / netLibrary, e-book, English)** · undated · likely [link](https://ebooks.jgu.edu.in/Record/jstor_dda_ocm42855348/Description?lng=en)
+  Library e-book record (OCLC 42855348) of the 1993 SUNY revised edition; records also carry an earlier electronic ISBN 0-585-05951-9 (netLibrary-era e-book) alongside 978-1-4384-1746-2. Available via JSTOR/EBSCO academic collections.
+- **The Experience of No-Self: A Contemplative Journey, Revised Edition (Bookshare accessible edition, English)** · undated · confirmed [link](https://www.bookshare.org/browse/book/5448169)
+  Bookshare accessible-format e-book (DAISY/EPUB/audio via TTS) of the SUNY Press revised edition, for readers with print disabilities.
+- **The Path to No-Self: Life at the Center (Bookshare accessible edition, English)** · undated · confirmed [link](https://www.bookshare.org/browse/book/5450063)
+  Bookshare accessible-format e-book of the SUNY Press edition (ISBN 978-1-4384-1750-9; related ISBN 978-0-7914-1141-4), 232 pp.
+- **The Path to No-Self: Life at the Center (SUNY Press, e-book, English)** · undated · confirmed [link](https://www.vitalsource.com/jp/products/path-to-no-self-the-bernadette-roberts-v9781438417509)
+  SUNY Press e-book, ISBN 978-1-4384-1750-9 (VitalSource, RedShelf, Adlibris). Kindle edition ASIN B08XN14GMX.
+- **What Is Self? (Bookshare accessible edition, English)** · undated · confirmed [link](https://www.bookshare.org/browse/book/6392493)
+  Bookshare accessible-format e-book of the Sentient Publications edition.
+- **What Is Self? (Logos Bible Software edition, English)** · undated · confirmed [link](https://www.logos.com/product/322168/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness)
+  Logos Bible Software digital edition of the Sentient Publications text.
 
 ## Translations
-- German, *Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise*, Arbor Verlag, Freiamt, 1993 and 1997 (ISBN 3924195277), 186 pages, EPUB 2018 (ISBN 9783867812221); a translation of The Experience of No-Self.
-- German, *Der Weg zum Nicht-Selbst: Das Leben im Zentrum*, a translation of The Path to No-Self, seen only in one listing; publisher and year not yet found.
-- Spanish, the 1986 Bodian interview as *La Experiencia del No-Yo*, on nodualidad.info; Spanish book titles are named there but no Spanish edition was found.
 
-## Papers
-- "What Is Self? A Research Paper", written at the request of Dr Nini Praetorius, University of Copenhagen, published in the Journal of Consciousness Studies, volume 23, numbers 1 and 2, January and February 2016, page 80; also on her site's papers page.
-- "Non-duality as a Definition of Christ", a paper given at the Science and Nonduality conference, San Jose, 22 October 2015; reworked as the essay "Christ as the Definition of Non-duality".
+- **La Experiencia del No-Yo: Una Entrevista con Bernadette Roberts (Spanish translation of the Bodian interview)** · 1986 · confirmed [link](https://www.nodualidad.info/entrevistas/la-experiencia-del-no-yo.html)
+  Spanish translation of the 1986 Yoga Journal interview on nodualidad.info. The site's author page gives Spanish titles 'La experiencia del no-yo' (Shambhala 1982) and 'El camino hacia el no-yo' / 'El Sendero al No-Yo: La Vida en el Centro' but no evidence of a printed Spanish edition was found. [Checked: The year is the original interview's: Stephan Bodian, Yoga Journal, Nov/Dec 1986 (reprinted in…
+- **L'Esperienza del Non-Sé (Astrolabio, 1987, Italian) - Goodreads edition record** · 1987 · confirmed [link](https://www.goodreads.com/book/show/93282148-l-esperienza-del-non-se-the-experience-of-no-self-l-affascinante-resoc)
+  Goodreads record of the Italian paperback, ISBN 978-88-340-0887-4, 1987, 166 pp. + index; subtitle 'L'affascinante resoconto del solitario viaggio spirituale di una donna che ha raggiunto uno dei massimi livelli di realizzazione noti in ogni religione: il trascendimento dell'io'. Same edition as the Hoepli/Astrolabio record; translator not named.
+- **L'esperienza del non-sé (Astrolabio-Ubaldini, 1987, Italian)** · 1987 · confirmed [link](https://www.hoepli.it/libro/l-esperienza-del-non-se/9788834008874.html)
+  Astrolabio-Ubaldini, Rome, collana Ulisse, May 1987; ISBN 88-340-0887-1 (978-88-340-0887-4); paperback (brossura), 168 pp. Renders The Experience of No-Self. Translator not named in retail listings found.
+- **自己喪失の体験 (紀伊國屋書店, 1989, Japanese)** · 1989 · confirmed [link](https://calil.jp/book/4314005181)
+  Jiko sōshitsu no taiken. Kinokuniya Shoten, 1989; ISBN 4-314-00518-1 (978-4-314-00518-0); 182 pp., 20 cm. Translated by Amemiya Ichirō and Shiga Michi. Renders The Experience of No-Self. A later printing (c. 2005, 184 pp.) is reported by second-hand sellers.
+- **Vie unitive: aventure dans les profondeurs silencieuses de l'inconnu (Les Deux Océans, 1991, French)** · 1991 · confirmed [link](https://www.amazon.fr/Vie-unitive-aventure-profondeurs-silencieuses/dp/2866810333)
+  Éditions Les Deux Océans, Paris, January 1991 (one listing gives 1990); ISBN 2-86681-033-3 (978-2-86681-033-7). Translated by Jacques Gontier. Renders The Experience of No-Self. Les Deux Océans titles are now handled by Dervy/Trédaniel.
+- **Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (Arbor Verlag, 1997, German)** · 1997 · confirmed [link](https://www.booklooker.de/B%C3%BCcher/Bernadette-Roberts+Jenseits-von-Ego-und-Selbst-Erfahrungsbericht-einer-spirituellen-Reise/isbn/3924195277)
+  Arbor Verlag, Freiamt im Schwarzwald, 15 Oct 1997; ISBN 3-924195-27-7 (978-3-924195-27-4); hardback (gebunden), 186 pp. 'Übersetzung aus dem Amerikanischen: Franz Loschnigg und Karin Hein' (seller listing). No evidence found for a 1993 printing (the 1993 date on an already-known image record appears wrong). Renders The Experience of No-Self (inferred). Adds translator/date details to the already-k…
+- **L'esperienza del non sè (Mondadori?, 1998, Italian) - library catalogue record** · 1998 · lead, not yet confirmed [link](https://www.istitutobeck.com/biblioteca/lesperienza-del-non-se)
+  Istituto A.T. Beck library catalogue lists L'esperienza del non sè with publisher Mondadori, 1998. Not corroborated elsewhere; may be a cataloguing error for the Astrolabio 1987 edition or an unrecorded reprint.
+- **Au centre de soi-même: L'expérience unitive (Les Deux Océans, 1994/2000, French)** · 2000 · confirmed [link](https://www.fnac.com/a1022135/Bernadette-Roberts-Au-centre-de-soi-meme-L-experience-unitive)
+  Éditions Les Deux Océans, Paris; ISBN 2-86681-050-3 (978-2-86681-050-4); paperback (broché), 206 pp. Fnac gives May 2000; the French sages wiki gives 1994 (possibly first printing). Translated by Jacques Gontier. Renders The Path to No-Self: Life at the Center.
+- **無我の体験 (ナチュラルスピリット, 2014, Japanese)** · 2014 · confirmed [link](https://www.amazon.co.jp/%E7%84%A1%E6%88%91%E3%81%AE%E4%BD%93%E9%A8%93-%E8%A6%9A%E9%86%92%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84/dp/4864511403)
+  Muga no taiken (Kakusei Books series). Natural Spirit, 23 Oct 2014; ISBN 4-86451-140-3 (978-4-86451-140-7). New translation by Tachibana Arimi of The Experience of No-Self.
+- **Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (Arbor Verlag, 2018, German, e-book)** · 2018 · likely [link](https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht-ebook/dp/B07FVPMCN7)
+  Arbor Verlag e-book, 25 Jul 2018; ISBN 978-3-86781-222-1; 216 pp. (Amazon.de Kindle ASIN B07FVPMCN7). Translated from the American by Franz Loschnigg and Karin Hein. German translation of The Experience of No-Self (mapping inferred from subtitle and content; not stated by a source).
+- **De ervaring van het niet-zelf (Samsara, 2021, Dutch, e-book)** · 2021 · confirmed [link](https://www.managementboek.nl/boek/9789493228085)
+  EPUB edition, Samsara Uitgeverij b.v., 2021; ISBN 978-94-93228-08-5. Dutch translation of The Experience of No-Self.
+- **De ervaring van het niet-zelf: Een contemplatieve tocht (Samsara, 2021, Dutch)** · 2021 · confirmed [link](https://www.jongbloed.nl/boek/9789492995919/de-ervaring-van-het-niet-zelf-bernadette-roberts)
+  Uitgeverij Samsara, Amsterdam, 2021, 1st printing; ISBN 978-94-92995-91-9; hardback, 272 pp. Renders The Experience of No-Self: A Contemplative Journey. Translator given as Maurice Jacobs by the ongrond.nl review; retailers list Hester van Toorenburg as co-contributor (role unclear).
+- **無自己の体験 (ナチュラルスピリット, 2021, Japanese)** · 2021 · likely [link](https://sessendo.hatenablog.jp/entry/2024/12/11/190542)
+  Mu-jiko no taiken: retitled reissue (2021) of 無我の体験 (2014), tr. Tachibana Arimi, Natural Spirit; list price 1,800 yen + tax. ISBN not found in this pass. Renders The Experience of No-Self. URL is a 2024 review blog post; publisher page not surfaced.
+- **自己とは何か (ナチュラルスピリット, 2021, Japanese)** · 2021 · confirmed [link](https://www.naturalspirit.co.jp/book/b595060.html)
+  Jiko to wa nanika (Kakusei Books). Natural Spirit, November 2021; ISBN 978-4-86451-382-1; 392 pp.; 2,100 yen + tax. Translated by Fukuda Karen. Renders What Is Self? A Study of the Spiritual Journey in Terms of Consciousness.
+- **De l'État Unitif au Non-Soi: une interview de Bernadette Roberts (Revue 3e Millénaire, French)** · undated · likely [link](https://www.revue3emillenaire.com/blog/de-letat-unitif-au-non-soi-une-interview-de-bernadette-roberts/)
+  French translation of an interview with Roberts (likely the Bodian 1986 interview) published by Revue 3e Millénaire. Not a book; link only.
+- **Der Weg zum Nicht-Selbst: Das Leben im Zentrum (German translation of The Path to No-Self)** · undated · lead, not yet confirmed [link](https://www.ebay.de/itm/267428261678)
+  Listed as a German 'Taschenbuch' rendering of The Path to No-Self: Life at the Center. German-language Wikipedia mirrors (de.mgwiki.top, deutsch.wikibrief.org) list 'Der Weg zum Nicht-Selbst: Das Leben im Zentrum (1985)' with the SUNY 1991 reissue ISBN 0-7914-1142-7, i.e. a German gloss of the English title in a works list, not a German edition. No German publisher, year, ISBN or translator was fo…
+- **Jenseits von Ego und Selbst: Leseprobe / front matter (Arbor Verlag, German)** · undated · confirmed [link](https://www.arbor-verlag.de/file-download/download/public/1277)
+  Publisher-hosted sample PDF (title page, contents, opening) of the Arbor Verlag German edition, ISBN 3-924195-27-7. Link only.
+- **Jiko Sōshitsu no Taiken (Kinokuniya, Japanese) - Goodreads edition record** · undated · likely [link](https://www.goodreads.com/book/show/6682658-jiko-s-shitsu-no-taiken)
+  Goodreads record (tankobon hardcover) of 自己喪失の体験, the 1989 Kinokuniya Shoten translation by Amemiya Ichirō and Shiga Michi of The Experience of No-Self.
+- **L'esperienza del non sè (il trascendimento dell'Io) - Italian online excerpts (riflessioni.it)** · undated · likely [link](https://www.riflessioni.it/testi/bernadette_roberts.htm)
+  Italian-language excerpt pages (three parts) from L'esperienza del non-sé on riflessioni.it. Link only.
+
+## Bernadette Roberts's own writings: essays, papers, chapters, letters
+
+- **Jeff Shore foreword to What Is Self? (Sentient Publications, 2005)** · 2005 · confirmed [link](https://beingwithoutself.org/publications/)
+  Front matter: Foreword by Jeff Shore, followed by a foreword by Ric Williams. Shore's publications page (beingwithoutself.org) confirms the credit. The Path to No-Self has a foreword by Thomas Keating instead.
+- **Forcing the Fit (manuscript, self-published, 2008)** · 2008 · confirmed [link](http://bernadetteroberts.blogspot.com/p/self-published-works.html)
+  Spiral-bound manuscript, 122 pp (2008), in which she answers erroneous interpretations of her work by A.H. Almaas, James Marion and Jim Arraj; listed on her 'Other Writings' page (marked not currently available, though a PayPal mail-order note also appears). A critic quotes its Foreword defining 'forcing the fit'.
+- **Reply to James Arraj's comments (letter, Bernadette's Friends blog)** · 2008 · confirmed [link](http://bernadettesfriends.blogspot.com/2006/02/reply-to-james-arrajs-comments-on.html)
+  Her written reply to James Arraj's Inner Explorations essay 'Bernadette Roberts and the Experience of No-Self'; argues Arraj equates her no-self with the Buddhist an-atman doctrine and assumes St John of the Cross wrote down all he knew. Inner Explorations says she responded in June 2008; the blog URL carries 2006/02. Discussed in the Shalom Place thread 'Bernadette Roberts responds to Jim Arraj'.
+- **Non-duality as a Definition of Christ (paper presented at SAND, San Jose, 22 Oct 2015)** · 2015 · confirmed [link](https://o-meditation.com/wp-content/uploads/2019/12/non-duality-as-a-definition-of-christ-3.pdf)
+  Title page: 'Paper Presented at the SAND Conference - Science and Nonduality - San Jose, California'. Argues the unitive state is not nondual and man's oneness with God does not make him God. Reworked as the essay 'Christ as the Definition of Non-duality' in The Christian Contemplative Journey (2017). No SAND video of the session surfaced; SAND archive has a speaker page for her.
+- **What is Self? A Research Paper — Journal of Consciousness Studies 23(1-2), Jan/Feb 2016, p. 80** · 2016 · confirmed [link](https://www.imprint.co.uk/jcs-vol-23-no-1-2-januaryfebruary-2016/)
+  Published in JCS vol. 23 no. 1-2 (2016) at p. 80 in the section of 'target papers by spiritual masters'. Preface: written at the request of Dr Nini Praetorius, Docent Professor, University of Copenhagen, for her research project on a new approach to the self; thesis: 'self is the cause of individuation'. Free PDF on her blog and on o-meditation.com.
+- **"What is Self?" - a Research Paper (book chapter, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  The research paper written for Nini Praetorius's University of Copenhagen project on the true nature of Self ('Self as the cause of individuation'; JCS 23(1-2), 2016) reprinted as an essay in The Christian Contemplative Journey: Essays on the Path (2017), per her Books page. The o-meditation.com listing says chapters on self are also in her 'Essays on the Christian Spiritual Journey'.
+- **Apatheia (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.
+- **Cessation of Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed second on her Books page; also in the 2007 collection per Google Books.
+- **Christ as the Definition of "Non-duality" (book chapter, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Her SAND 2015 paper 'Non-duality as a Definition of Christ' (San Jose, 22 Oct 2015) collected as the closing essay, titled 'Christ as the Definition of "Non-duality"', in The Christian Contemplative Journey: Essays on the Path (2017), per her Books page.
+- **Image and Likeness (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.
+- **Means-End (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.
+- **Mystical Theology and No-Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.
+- **Nonduality (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection. awakeningtoreality.com cites it as 'Nondualism' from Essays on the Christian Contemplative Journey (2007).
+- **The Eucharist: A Christian Path (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page ('The Eucharist, A Christian Path'); Google Books lists 'the eucharist as a Christian path' in the 2007 collection.
+- **The Nature of Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](https://www.abebooks.de/Christian-Contemplative-Journey-Essays-Path-Paperback/30172379029/bd)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Named in the publisher/bookseller blurb as one of 'two of Bernadette's most recent essays' included in the 2017 collection; not shown in the blog's essay list (possibly the 'What is Self?' research paper under another title - not confirmed).
+- **The Ox Herding Pictures (Christian Commentary on the Ten Ox Herding Pictures) (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page as 'The Ox Herding Pictures'; publisher blurb calls it 'Ten Ox-herding Pictures', one of her most recent essays. Originally the self-published 21-page booklet written at Jeff Shore's request.
+- **The Spiritual Journey Recapitulates the History of Religion (essay, The Christian Contemplative Journey: Essays on the Path, 2017)** · 2017 · confirmed [link](https://dn721605.ca.archive.org/0/items/roberts.christian-contemplative-journey/roberts.christian-contemplative-journey.pdf)
+  Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). First essay of the collection (also first in the 2007 Essays on the Christian Contemplative Journey). Argues that the individual's inner journey mirrors the historical development of religious revelation. Discussed by Kim de Beus and quoted in a Contemplative Outre…
+- **From Bernadette (letter, bernadetteroberts.blogspot.com, 2018 repost)** · 2018 · confirmed [link](http://bernadetteroberts.blogspot.com/2018/03/from-bernadette.html)
+  Her standing note to readers: apart from her annual retreat she does not see people individually, talk on the phone or carry on correspondence; she is not a spiritual director, counselor or teacher; suggests finding a group, monastery or church. Also on bernadettesfriends.blogspot.com home page together with her warning note on The Real Christ ('Those who believe the man Jesus ... was God, should …
+- **Christian Commentary on the Ten Ox Herding Pictures (booklet, self-published)** · undated · confirmed [link](http://bernadetteroberts.blogspot.com/p/self-published-works.html)
+  Self-published 21-page booklet written at the request of Jeff Shore, a Buddhist friend; listed on her 'Other Writings' page and later included in The Christian Contemplative Journey: Essays on the Path (2017). Date not shown.
+- **No Bull: Zen Oxherding Pictures for the Modern World with a Catholic Contemplative's Commentary (book chapter, with Jeff Shore)** · undated · confirmed [link](https://terebess.hu/english/no-bull.pdf)
+  Jeff Shore's presentation of the Zen Oxherding Pictures with Bernadette Roberts's commentary as 'a Catholic contemplative'; terebess.hu lists it as 'by Jeff Shore with Bernadette Roberts'. German version 'Kein Ochse: Die Ochsenbilder des Zen' (beingwithoutself.org PDF, 2015) credits 'Jeff Shore und Bernadette Roberts'; a Spanish version 'El No-Toro' is mentioned. Year of the English edition not sh…
+- **Saving Christianity from the Christians: a free-for-all with Bernadette Roberts (manuscript, transcript ed. Phoenix Kennedy)** · undated · lead, not yet confirmed [link](https://www.amazon.com/Saving-Christianity-Christians-free-all-ebook/dp/B0848XDK8G)
+  Kindle book by Phoenix Kennedy described as a transcription of one of her last weekend discussions with close friends; her spoken words, not a text she wrote. Listed as a lead only.
+
+## Recordings: talks, retreats, radio, video
+
+- **A Passage Through Self (talk on DVD, students of Bernadette / Center for Sacred Sciences library, 1987)** · 1987 · confirmed [link](https://www.librarycat.org/lib/CtrSacredSciences/item/202838521)
+  Her talk illustrating the spiritual journey in terms of consciousness with a series of circles (paper circles with partly punched-out centres: 'the circles course'), first given after The Experience of No-Self was published, when she was invited to speak around the country. Covers the falling away of the ego, dark night of the spirit, unitive state, the 'marketplace' stage and the final falling aw…
+- **Interview with Bernadette Roberts (CD sound recording, Center for Sacred Sciences library, 1987)** · 1987 · likely [link](https://www.librarycat.org/lib/CtrSacredSciences/search/author/66757)
+  Interview recording catalogued in the Center for Sacred Sciences (Eugene, Oregon) library as 'Interview with Bernadette Roberts [sound recording]', CD, 1987, barcode CD-0931, shelved at the front desk. Interviewer not shown in search results. Lending copy only.
+- **Sat Sangha Salon (o-meditation.com): Bernadette Roberts audio downloads** · 1991 · confirmed [link](https://o-meditation.com/downloadable-books/bernadette-roberts-books/)
+  Page says 'a few audio files of interviews available for download' (left-click to listen / right-click save-as); the listed item is The Passion of Grace (New Dimensions Radio). Also hosts the 1986 Bodian interview text and PDFs of the two papers. [Checked: Year is that of the listed recording, The Passion of Grace (New Dimensions Radio program 2276, with Michael Toms), given as 1991 by Hoopla - th…
+- **The Passion of Grace (New Dimensions Foundation, 1991, English, audiobook retail editions)** · 1991 · confirmed [link](https://www.kobo.com/us/en/audiobook/passion-of-grace-the)
+  Unabridged digital audio edition of the New Dimensions radio dialogue (host Michael Toms), c. 58 min, released Aug 1991, sold on Kobo, Google Play and Scribd. The only Roberts audiobook found; no audiobook of any of her seven books was found on Audible or elsewhere. Adds retail editions to the already-known New Dimensions program.
+- **The Essence of Christian Mysticism (recorded retreat, DVD set)** · 1994 · confirmed [link](https://bernadetteroberts.blogspot.com/p/dvdcd.html)
+  Recording of the retreat Roberts gave annually for about 30 years, presenting the essence of Christian mysticism as Trinity, Christ and Faith; nine hours of talks in four files with handouts, offered as a DVD set (Wikipedia also lists a CD) through her site. She regarded it as a prerequisite for The Real Christ; the nine-hour series ends with questions and answers. Dates conflict: Wikipedia biblio…
+- **Bernadette Roberts on How it Works - diving into the Unmanifested (Journals of Spiritual Discovery, spiritualteachers.org)** · 2021 · confirmed [link](https://www.spiritualteachers.org/podcast/bernadette-roberts-on-how-it-works/)
+  Reading and discussion of her essay 'How it Works' (unmanifested, manifesting, manifested) from The Experience of No-Self, on the spiritualteachers.org podcast Journals of Spiritual Discovery (Apple id 1166016137, episode 1000521944436, 2021). The host notes she insisted on being read as a Christian writer. Not her voice.
+- **Bernadette Roberts | The Path To No Self (podcast excerpt, Dancing Paradox, 2023)** · 2023 · confirmed [link](https://dancingparadox.podbean.com/e/bernadette-roberts-the-path-to-no-self)
+  Episode 156 of Dancing Paradox, dated 2023-01-21: an excerpt of Roberts herself speaking about the experience of no-self, taken from a YouTube video that the episode notes link to. Free podcast; Audible listings B0BSRR9KL7 (US) and B0BSRYZ5ZP (UK).
+- **Dancing Paradox: Bernadette Roberts | Why Christ Is Not In Christianity** · 2023 · confirmed [link](https://www.listennotes.com/podcasts/dancing-paradox-alex-hickman-STq4MX-d605/)
+  Dancing Paradox episode, 'a passage by Bernadette Roberts', excerpting the retreat recording; links youtu.be/eObqnWn-ppQ as the full video. Same release date as ep. 156.
+- **Audible author page: Bernadette Roberts (B001HCXWTQ)** · undated · likely [link](https://www.audible.com/author/Bernadette-Roberts/B001HCXWTQ)
+  Audible author page under the same Amazon author id as her books. The only audio title traceable to it is the New Dimensions 'Passion of Grace' program; no narrated edition of any book was found. Better World Books advertises an AudiobooksNow option for The Experience of No-Self and The Path to No-Self but with empty placeholder fields; Everand's '9 hours' for What Is Self? is an ebook reading-tim…
+- **Bernadette Roberts (untitled upload)** · undated · confirmed [link](https://www.youtube.com/watch?v=KLEGj0HEUV8)
+  YouTube id KLEGj0HEUV8, titled only with her name; surfaced alongside the DVD excerpts. Content unseen. [Checked: Not returned by any search (KLEGj0HEUV8); nothing new.]
+- **Bernadette Roberts (untitled)** · undated · likely [link](https://www.youtube.com/watch?v=6I0hgKYIEO8)
+  Surfaced alongside the series; content not described in snippets. [Checked: Search confirms youtube.com/watch?v=6I0hgKYIEO8 exists with the bare title 'Bernadette Roberts', returned with the DVD-excerpt series, but no description or date in the snippet; content still unseen.]
+- **Bernadette Roberts - A Path to No-Self: Life at The Center** · undated · lead, not yet confirmed [link](https://www.youtube.com/watch?v=eD7Z2Z58Kbg)
+  YouTube id eD7Z2Z58Kbg. Title suggests a reading from or presentation of The Path to No-Self; uploader and whether it is a narration or a DVD excerpt unverified. [Checked: Two searches (open web and youtube.com-restricted) did not return eD7Z2Z58Kbg or this title. Related items surfaced instead: 'Bernadette Roberts' Path to No-Self Phase 1' (youtube bPfxSLRnqtA), Shawn Ellison's 'The Path to No-Se…
+- **Bernadette Roberts on being transformed into the Eucharist** · undated · confirmed [link](https://www.youtube.com/watch?v=DsuWkp8TCgM)
+  YouTube id DsuWkp8TCgM. Same 'Bernadette Roberts on ...' upload series as eObqnWn-ppQ; an excerpt from the recorded retreat on the Eucharist. [Checked: Existence confirmed: search returns youtube.com/watch?v=DsuWkp8TCgM titled 'Bernadette Roberts on being transformed into the Eucharist', alongside the same uploader's clips (playlist PLni-GlNUOJfZQx47wittRX-i63CvNV2E8). Sister clips say they are ex…
+- **Bernadette Roberts on God in Nature** · undated · confirmed [link](https://www.youtube.com/watch?v=ExnJrvMrbdg)
+  Same series; description links bernadetterobertsisnotmyguru.com. [Checked: Existence confirmed in YouTube search results (same uploader series). No recording or upload date shown; parent DVD probably 'The Essence of Christian Mysticism' (series of clips), whose date is uncertain (2004 per one Wikipedia revision).] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): cli…
+- **Bernadette Roberts on Heaven** · undated · confirmed [link](https://www.youtube.com/watch?v=rpxp25Y4aTA)
+  Description points to www.bernadetterobertsisnotmyguru.com. [Checked: Existence confirmed in YouTube results. No recording or upload date shown; same DVD-excerpt series.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-hour DVD series …
+- **Bernadette Roberts on how Christianity turned into a Jesus cult** · undated · confirmed [link](https://www.youtube.com/watch?v=GEOkuAmGDs4)
+  Defines anthropolatry as worship of a man as God / God as a man, and calls it paganism. [Checked: Existence confirmed in youtube.com search results (anthropolatry = paganism). No recording or upload date shown; same DVD-excerpt series.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', …
+- **Bernadette Roberts on how Jesus still had a ways to go and how Christianity is monophysitic** · undated · confirmed [link](https://www.youtube.com/watch?v=B-Pgjk4GWF8)
+  Same series; description links bernadetterobertsisnotmyguru.com. [Checked: Existence confirmed in youtube.com search results. No recording or upload date shown; same DVD-excerpt series.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-…
+- **Bernadette Roberts on Kenosis** · undated · confirmed [link](https://www.youtube.com/watch?v=Cd51CBt3Hyc)
+  'Kenosis or Self-emptying'; description points to www.bernadetterobertsisnotmyguru.com. [Checked: Existence confirmed in YouTube search results (title 'Bernadette Roberts on Kenosis or Self-emptying'). No recording or upload date shown; same DVD-excerpt series.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence…
+- **Bernadette Roberts on the Death of Christ (not Jesus)** · undated · confirmed [link](https://www.youtube.com/watch?v=18-Bj7xvHj0)
+  Explains what it means to say 'God left the man' on the Cross. [Checked: Existence confirmed in youtube.com search results (description: 'Jesus died, and Christ rose'). No recording or upload date shown; DVD-excerpt series (parent DVD probably 'The Essence of Christian Mysticism', date uncertain).] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions c…
+- **Bernadette Roberts on the Eucharist** · undated · confirmed [link](https://www.youtube.com/watch?v=irGOg8urye8)
+  Excerpt on the Eucharist; the video carries the watermark www.bernadetterobertsisnotmyguru.com. Companion clip 'on being transformed into the Eucharist' (DsuWkp8TCgM) continues the discussion with a personal story. [Checked: Existence confirmed: search returns youtube.com/watch?v=irGOg8urye8 titled 'Bernadette Roberts on the Eucharist' in the same uploader's series of DVD excerpts. No recording or…
+- **Bernadette Roberts on the Logos** · undated · confirmed [link](https://www.youtube.com/watch?v=wjdV_hdlssc)
+  Same series; description links bernadetterobertsisnotmyguru.com. [Checked: Existence confirmed in YouTube results. A related clip from the same uploader, klp_AN3y2TM 'Bernadette Roberts on the Logos, Cosmic Christ, and blood/spirit/soul', is described as part of 'The Essence of Christian Mysticism' series (not yet in the archive). No dates shown.] [Checked: Searched the DVD-excerpt series as a gro…
+- **Bernadette Roberts on the Logos, Cosmic Christ, and blood/spirit/soul (DVD excerpt, YouTube, The Essence of Christian Mysticism)** · undated · likely [link](https://www.youtube.com/watch?v=klp_AN3y2TM)
+  Third-party YouTube excerpt from her recorded retreat DVD series 'The Essence of Christian Mysticism', on the Logos and its connection to the Cosmic Christ, and on blood, spirit and soul. Her official site states no YouTube recordings of her are authorized.
+- **Bernadette Roberts on the Resurrection and Ascension speaking from experience** · undated · confirmed [link](https://www.youtube.com/watch?v=29wjxzg8GSQ)
+  Her reply to a question at the end of the nine-hour 'Essence of Christian Mysticism' retreat series, on the Resurrection and Ascension, speaking from experience. Third-party upload; unauthorized per her official site. [Checked: Snippet confirms: her reply to a question asked at the end of the nine-hour DVD series, on the Ascension. The nine-hour retreat recording is undated in snippets (Wikipedia …
+- **Bernadette Roberts on the theological gem of all time - Hilary's three states of Christ** · undated · confirmed [link](https://www.youtube.com/watch?v=K7mfU0UbGq0)
+  On Hilary of Poitiers' three states of Christ. [Checked: Existence confirmed in youtube.com search results; description ties it to her research for The Real Christ (book released Feb 2017; Wikipedia dates the work 2012), so the talk probably postdates that research, but no date shown.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the paren…
+- **Bernadette Roberts on what God gave her to reveal about Christ** · undated · confirmed [link](https://www.youtube.com/watch?v=V-3UXm55nTs)
+  'Bombarded by Grace, yet very little of what God gave her to know fit in with the Party Line presentation of Christianity'; asks whether reform is needed. [Checked: Existence confirmed in youtube.com search results. No recording or upload date shown; same DVD-excerpt series.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recordin…
+- **Bernadette Roberts on why Christ is not in Christianity** · undated · confirmed [link](https://www.youtube.com/watch?v=eObqnWn-ppQ)
+  Video excerpt of Roberts speaking (apparently from the recorded retreat); linked as 'Full Video' by the Dancing Paradox podcast episode 'Bernadette Roberts | The Path To No Self' (Alex Hickman), which uses a frame as its thumbnail. Unauthorised per the friends' blog; copyright the recording's owners. [Checked: Video description (search snippet): a 41-minute excerpt from her four-hour DVDs 'The Ess…
+- **Bernadette Roberts: How it Works** · undated · confirmed [link](https://www.youtube.com/watch?v=ot5Ncae6zs0)
+  Reading of the 'How it Works' passage from The Experience of No-Self (matches the spiritualteachers.org podcast episode). [Checked: Existence confirmed in youtube.com search results. A reading of her text; the text is from The Experience of No-Self (first published 1982) but the video's own date is not shown.]
+- **Journey From Self-Centered Consciousness to No-Self (Susanne Marie)** · undated · confirmed [link](https://www.youtube.com/watch?v=xO7KKKaxBwo)
+  YouTube id xO7KKKaxBwo. Teacher Susanne Marie uses Bernadette Roberts's map of the journey to explain the move from self-centred consciousness to no-self. About her, not her voice. [Checked: Existence confirmed in youtube.com results (title 'Journey From Self-Centered Consciousness to No-Self'). A search pairing Susanne Marie with Roberts returned nothing more; upload date unknown.]
+- **L'esperienza del non-sé: un viaggio contemplativo di Bernadette Roberts (ai Podcast)** · undated · confirmed [link](https://open.spotify.com/episode/6uxU5OTlnD1qehiPGYteJn)
+  Italian AI-generated podcast summary of The Experience of No-Self on Spotify.
+- **No Self ~ Bernadette Roberts ~ Christian Mystics (Wisdom of the Masters)** · undated · confirmed [link](https://www.youtube.com/watch?v=xJcnEBoKEWs)
+  Third-party YouTube video on Roberts (likely readings over images of her); thumbnail may reuse the spiritualteachers.org portrait. Also: Shawn Ellison's 'Beyond Unitive Consciousness: The Path to No Self with Bernadette Roberts' (Qoqfir9czOY) and Susanne Marie's commentary video (xO7KKKaxBwo). Unauthorised / fan uploads. [Checked: Existence confirmed in youtube.com results (title styled 'No Self ~…
+- **Read What Is Self? ... Book Overview (Spotify AI summary)** · undated · confirmed [link](https://open.spotify.com/episode/6lXoaXoEMB8xOfsWPl2tPI)
+  Spam-style AI 'book overview' episode on What Is Self?. Listed for completeness.
 
 ## Interviews
-- Stephan Bodian, Yoga Journal, November and December 1986, answered in writing; they never met. Reprinted in *Timeless Visions, Healing Voices* and online.
-- Michael Toms, New Dimensions Radio, program 2276, "The Passion of Grace", recorded 1 August 1991, sold as MP3 and audiobook.
-- Her own autobiographical sketch in *Mystics, Masters, Saints and Sages* (2001).
 
-## Recordings
-- "A Passage Through Self", the talk she gave from about 1983 on, built on a series of circle diagrams of the journey; a 1987 recording is held by at least one library.
-- "The Essence of Christian Mysticism", the retreat she gave for about thirty years, recorded once and issued as a DVD set (dated 1994 here; other sources give 2004 or 2012); its excerpts circulate online, and her site calls those excerpts unauthorised.
-- Her recorded retreat talks, announced as free to view in 2021.
+- **Bernadette Roberts Interview (Bodian interview, Yoga Journal Nov/Dec 1986, original spiritualteachers.org page)** · 1986 · confirmed [link](https://www.spiritualteachers.org/b_roberts_interview.htm)
+  Older static URL of the spiritualteachers.org copy of the 1986 Yoga Journal interview: Roberts on the purgative/illuminative/unitive 'way of travel', the disappearance of the divine centre some 25 years after the transforming union, and why the Christian passage to no-self is not 'the falling away of the ego'. Conducted in writing.
+- **Stephan Bodian interview reprint (Timeless Visions, Healing Voices)** · 1986 · confirmed [link](https://standinginanopenfield.wordpress.com/2012/05/26/bernadette-roberts-interviewed-by-stephan-bodian/)
+  The most-reprinted interview: Bodian for Yoga Journal Nov/Dec 1986, reprinted in Timeless Visions, Healing Voices (1991); copies also at awakeningtoreality.com (2007), spiritualteachers.org, twoplustwo forum.
+- **The Passion of Grace: New Dimensions Radio program 2276 with Bernadette Roberts** · 1991 · confirmed [link](https://programs.newdimensions.org/products/the-passion-of-grace-with-bernadette-roberts)
+  New Dimensions program 2276, interview with Michael Toms dated 1991-08-01, on allowing grace into one's life despite its surprising consequences. Sold as an MP3 download ($1.99) from the New Dimensions archive store (also mirrored at reach.dog); streamed on TuneIn; distributed as an audiobook (ISBN 9781987138269) via Everand, Hoopla, Libro.fm and Storytel. Featured in the New Dimensions 'Networks …
+- **Bernadette Roberts interview (Bodian interview reposted, Awakening to Reality blog, 2007)** · 2007 · likely [link](https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html)
+  Blog repost of the 1986 Yoga Journal interview by Stephan Bodian; the blog also has a label page collecting posts on Roberts (https://www.awakeningtoreality.com/search/label/Bernadette%20Roberts).
+- **Bernadette Roberts Interview with Stephan Bodian (repost, rob-being blog, 2014)** · 2014 · likely [link](http://rob-being.blogspot.com/2014/03/bernadette-roberts-interview-with.html)
+  Blog repost of the 1986 Bodian interview.
+- **Reseo Conference 2017: Interview with Bernadette Roberts (YouTube video, 2017)** · 2017 · lead, not yet confirmed [link](https://www.youtube.com/watch?v=EVXCC56e2do)
+  YouTube video so titled; results do not show content, and it is unconfirmed that the interviewee is the contemplative (she was ill with ALS in 2017). Verify before listing.
+- **SpiritualTeachers.org: Bernadette Roberts pages** · 2017 · confirmed [link](https://www.spiritualteachers.org/bernadette-roberts/)
+  Headshot on the profile 'Bernadette Roberts: A Christian Mystic for Our Time' (and companion Bodian-interview page). The Institute for Mystical Experience Research and Education (imere.org) reproduces the same photograph with the credit 'photo: www.spiritualteachers.org', confirming the image exists there. Original photographer and licence unknown; treat as all-rights-reserved.
+- **Bernadette Roberts Interview (Bodian interview copy, Scribd)** · undated · likely [link](https://www.scribd.com/document/514068864/Bernadette-Roberts-Interview)
+  Uploaded document copy of the Bodian interview (Yoga Journal Nov/Dec 1986; reprinted in Timeless Visions, Healing Voices, 1991).
 
-## Her own sites
-- Her official site, now kept by her friends, sells the books and recordings and lists her papers.
-- ContemplativeChristians.com Publishing, the imprint of her later books.
+## Written about Bernadette Roberts
+
+- **The Eastern Buddhist 24(2) article surfaced for Roberts and no-self (Otani University repository)** · 1991 · lead, not yet confirmed [link](https://otani.repo.nii.ac.jp/record/8729/files/EB24-2-05.pdf)
+  Article in The Eastern Buddhist vol. 24 no. 2 returned for 'Bernadette Roberts' Jeff Shore no-self; whether it discusses or reviews Roberts is not shown. Year of vol. 24 inferred (1991).
+- **Timeless Visions, Healing Voices: Conversations with Men and Women of the Spirit (book reprinting the Roberts interview, Stephan Bodian, Crossing Press, 1991)** · 1991 · confirmed [link](https://biblio.co.uk/9780895944818)
+  Bodian's 1991 anthology of interviews (c. 200 pp., ISBN 0895944812 / 9780895944818) reprinting his written-questions interview with Roberts first published in Yoga Journal Nov/Dec 1986; Bodian notes he never met her face to face. Chapter pages not shown.
+- **Mystics, Masters, Saints, and Sages: Stories of Enlightenment (book with a chapter on Roberts, Robert Ullman and Judyth Reichenberg-Ullman, Conari Press, 2001)** · 2001 · likely [link](https://publishersweekly.com/978-1-57324-507-4)
+  Anthology of enlightenment stories arranged chronologically; includes a short biography of Roberts and an excerpt from The Path to No-Self (per PaperbackSwap author listing). Pages not shown.
+- **Insight at Rock Bottom (paper, Barbara Schaefer, Cambridge Open Engage, 2003)** · 2003 · likely [link](https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/5fa57fbd92220e0012555d1a/original/insight-at-rockbottom.pdf)
+  Paper (dated Wales, April 2003) citing The Experience of No Self (SUNY, 1993) and describing Roberts's path from childhood stillness through Carmelite life to the 'loss of self'.
+- **Fall/Winter Religion Books (trade announcement listing What Is Self?, Publishers Weekly, 12 July 2004)** · 2004 · likely [link](https://www.publishersweekly.com/pw/print/20040712/30593-fall-winter-religion-books.html)
+  PW seasonal religion-books announcement listing the reissue of What Is Self? by Bernadette Roberts (Nov., $19.95 paper). A listing, not a full review.
+- **Bernadette Roberts Retreat (retreat report, Kiffy Purvis and Doug White, TAT Forum, October 2006)** · 2006 · likely [link](https://TATFoundation.org/forum2006-10.htm)
+  TAT Forum October 2006 article 'Bernadette Roberts Retreat' by Kiffy Purvis and Doug White, with Q-and-A items apparently drawn from her retreat teaching. Distinct from the August 2006 TAT Forum item already catalogued.
+- **The Gnostic Narratives of Bernadette Roberts (journal article, Arthur Versluis, Studies in Spirituality 16, 2006)** · 2006 · confirmed [link](https://poj.peeters-leuven.be/content.php?id=2017799&url=article)
+  Studies in Spirituality vol. 16 (2006), pp. 205-213. Treats Roberts as a rare modern exponent of the via negativa in Christian mysticism; her writings chronicle progressive realizations she calls 'no-self'; notes her multi-volume commentaries on her own experience and that she sees herself as a pioneer.
+- **One: Essential Writings on Nonduality (anthology including Roberts, ed. Jerry Katz, Sentient Publications, 2007)** · 2007 · confirmed [link](https://www.nonduality.com/one.htm)
+  Nonduality anthology edited by Jerry Katz; publisher description names Bernadette Roberts among contemporary contributors (with John Prendergast, Steven Harrison); placed in the nondual Christianity section. Specific Roberts text and pages not shown.
+- **Thusness/Wei Yu discussions of Bernadette Roberts (Awakening to Reality blog label page)** · 2008 · likely [link](https://www.awakeningtoreality.com/search/label/Bernadette%20Roberts)
+  Label page collecting Awakening to Reality posts on Roberts, including Thusness's 2008 chat comments assessing her no-self against Buddhist anatta.
+- **Indistinct Union: An Integral Introduction to Nonduality in Christianity (journal article, Christopher Dierkes, Journal of Integral Theory and Practice 5(3), 2010)** · 2010 · likely [link](https://integrallife.com/wp-content/uploads/2022/09/JITP-050309-NondualChristianity.pdf)
+  Explores the work of Bernadette Roberts, 'a little-known contemporary Catholic Christian mystic', as the basis for a renewed Christian map of mystical consciousness; argues her state beyond union supplies a missing nondual stage ('indistinct union') in Christian maps. JITP vol. 5 no. 3, pp. 137-156. Year of the issue not shown in results (vol. 5 = 2010).
+- **Christian experience of nonduality (blog post, Spirit Rambler, 2011)** · 2011 · lead, not yet confirmed [link](https://spiritrambler.blogspot.com/2011/08/christian-experience-of-nonduality.html)
+  Blog post on Roberts as a former nun and mother of four whose experience exemplifies Christian nonduality.
+- **Pengalaman Tanpa-Diri (Indonesian article on Roberts, Kriya Yoga Nusantara, 2016)** · 2016 · lead, not yet confirmed [link](https://archive.org/download/articles-gnosis/ARTICLES%20GNOSIS.rar/ARTICLES%20GNOSIS%2FINA%2FKRIYA%20YOGA%2FARTICLE%2F2016%2005%2FPengalaman%20Tanpa-Diri%20_%20Kriya%20Yoga%20Nusantara.pdf)
+  Indonesian-language article 'The Experience of No-Self' (May 2016) from Kriya Yoga Nusantara, preserved as a PDF in an archive.org bundle.
+- **Garrison Institute post on Centering Prayer and Bernadette Roberts's The Real Christ (essay, Garrison Institute, c. 2017)** · 2017 · likely [link](https://garrisoninstitute.org/?p=2917)
+  Post in the Garrison Institute's Centering Prayer/contemplative series noting that many in Centering Prayer have resonated with Roberts's writing on Trinity, Christ and the spiritual journey, that she had just published The Real Christ, and quoting a reader calling it the 'most important work on Christian mystical theology' written. Date inferred (c. 2017).
+- **Unexpected side effects: A cautionary note on challenges of persistent self-transcendence (journal article, Elizabeth D. Stephens and Harris L. Friedman, International Journal of Transpersonal Studies 41(2), 2022)** · 2022 · likely [link](https://digitalcommons.ciis.edu/ijts-transpersonalstudies/vol41/iss2/4)
+  IJTS vol. 41 no. 2 (2022). Per search excerpt, uses Roberts's account in The Experience of No-Self (1993) as a case of persistent self-transcendence, distinguishing her transient union experiences from the permanent no-self, and raises the possibility that some features resemble a clinical condition while stating this does not invalidate her interpretation.
+- **Blog review of The Experience of No-Self (Capitalist Axiomatic blog, May 2024)** · 2024 · likely [link](https://capitalistaxiomatic.blogspot.com/2024/05)
+  Blog post (24 May 2024) reading The Experience of No-Self as spiritual autobiography and noting the long late chapter in which Roberts reinterprets her experience.
+- **Bernadette Roberts (バーナデット・ロバーツ) 1931~ (Japanese blog series, akibus, goo blog)** · undated · likely [link](https://blog.goo.ne.jp/akibus/e/3884fc6f3f168770ac7667e37e70e279)
+  Multi-part Japanese-language blog series on Roberts and the interview (parts 06-2, 06-3-3 seen; e.g. https://blog.goo.ne.jp/akibus/e/4067e463331c6117a72a9339c7d1f209). Language ja.
+- **Bernadette Roberts' new book, The Real Christ, page 2 (forum thread, Shalom Place)** · undated · likely [link](https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/2)
+  Second page of the Shalom Place thread on The Real Christ: Catholic readers' criticism of her Christology as outside mainstream Catholicism versus praise of the book as historic; note that the book was self-published at little profit. Supplements the page-1 print view already catalogued.
+- **Christian Nondual Approach of Bernadette Roberts (wiki article, P2P Foundation)** · undated · likely [link](https://wiki.p2pfoundation.net/Christian_Nondual_Approach_of_Bernadette_Roberts)
+  Wiki page summarising Roberts's Christian nondual approach, drawing on Dierkes's 'Indistinct Union' article.
+- **Introspective disputes deflated: the case for phenomenal variation (journal article citing Roberts, ResearchGate)** · undated · lead, not yet confirmed [link](https://www.researchgate.net/publication/320883600_Introspective_disputes_deflated_the_case_for_phenomenal_variation)
+  Philosophy-of-mind paper citing the revised edition of The Experience of No-Self in discussing non-egoic experience; citation only.
+- **Korean Daum Cafe post on Bernadette Roberts (forum post, Daum Cafe 'vandalism')** · undated · lead, not yet confirmed [link](https://m.cafe.daum.net/vandalism/KL02/2742)
+  Unofficial, uncredited Korean rendering of the opening and part of chapter 1 of The Experience of No-Self, posted in a Daum cafe with the English alongside. No published Korean edition was found.
+- **Mystical Experiences, Neuroscience, and the Nature of Reality (thesis citing Roberts, Bowling Green State University, OhioLINK ETD)** · undated · lead, not yet confirmed [link](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=bgsu1174405835&disposition=inline)
+  BGSU thesis surfaced for Roberts and no-self; may contain the discussion of her 'second contemplative movement' (p. 105 of her book) from union to no self. Extent of discussion not confirmed.
+- **Nondual Christianity – Seriously? (essay, Christopher Dierkes, Kosmos Journal / Science and Nonduality)** · undated · likely [link](https://www.kosmosjournal.org/?p=18615)
+  Essay arguing for Christian nondual teachers; names Bernadette Roberts among the figures usually cited as Western Christian nondualists. Also posted at scienceandnonduality.com. Author attribution inferred from results (author of The Heart of Centering Prayer).
+- **Nonduality Salon Highlights #1962 (newsletter issue featuring Roberts, nonduality.com)** · undated · lead, not yet confirmed [link](https://www.nonduality.com/hl1962.htm)
+  Nonduality Highlights issue in which Roberts is discussed; results describe her as one of the 'vigorously protesting' Western nondual figures. Content as shown in search only.
+- **nonduality.com Highlights #1941 (newsletter issue featuring Roberts, nonduality.com)** · undated · lead, not yet confirmed [link](https://nonduality.com/hl1941.htm)
+  Nonduality Highlights issue surfacing in searches for the Roberts no-self interview; content as shown in results only.
+- **Reader essay on What Is Self? (review, Joseph Conti, ThriftBooks)** · undated · likely [link](https://www.thriftbooks.com/w/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness_bernadette-roberts/522646)
+  Reader review-essay by Joseph Conti, Ph.D., arguing Roberts's paradigm in What Is Self? is completely different from 'nondualism'.
+- **Realization: Bernadette Roberts (PDF essay/compilation, Search Within)** · undated · lead, not yet confirmed [link](https://www.searchwithin.org/download/realization_bernadette_roberts.pdf)
+  PDF on Roberts's realization hosted by Search Within (Self-Realization/TAT-related site); content and author not shown in results.
+- **Review of One: Essential Writings on Nonduality (review mentioning Roberts, Advaita Vision)** · undated · likely [link](https://www.advaita.org.uk/discourses/teachers/nonduality_katz.htm)
+  Review of Katz's anthology; describes the nondual-Christianity material as challenging and extreme and presents Roberts as a Christian apophatic contemplative.
+- **The Experience of No-self by Bernadette Roberts (blog page, Real Truth Life)** · undated · lead, not yet confirmed [link](https://realtruthlife.blogspot.com/p/experience-of-no-self.html)
+  Blog page on The Experience of No-Self; content as shown in search only.
+- **Thomas Keating endorsements of Roberts's books (blurbs, Thomas Keating, publisher listings)** · undated · likely [link](https://www.goodreads.com/book/show/398752)
+  Keating's published endorsements: her account is 'unique among the works of spiritual writers'; 'Bernadette Roberts' books are not easy reading but are unique and important to those interested in the path to God'; praise of her 'capacity to articulate the ineffable' (What Is Self? listing).
+- **Three Women Mystics (UPDATED) (document, Scribd)** · undated · lead, not yet confirmed [link](https://www.scribd.com/document/544622892/Three-Women-Mystics-UPDATED)
+  Scribd document returned for Roberts compared with Vedanta/Buddhist no-self; apparently treats Roberts as one of three women mystics. Author and contents not shown in results.
+- **Transpersonal phenomenology: The cosmological and spiritual dimensions of the Husserlian epoché (journal article citing Roberts, ResearchGate)** · undated · lead, not yet confirmed [link](https://www.researchgate.net/publication/358011821_Transpersonal_phenomenology_The_cosmological_and_spiritual_dimensions_of_the_Husserlian_epoche)
+  Cites Roberts's The Experience of No-Self (1993) on the falling away of the illusory permanent ego. Citation-level discussion; author and venue not shown in results.
+- **UC Berkeley dissertation surfaced for Roberts and no-self (eScholarship qt9nj481th)** · undated · lead, not yet confirmed [link](https://escholarship.org/content/qt9nj481th/qt9nj481th.pdf)
+  UC Berkeley dissertation returned for 'Bernadette Roberts no-self transpersonal'; title and extent of discussion not shown in results.
+- **University of Ottawa thesis surfaced for Roberts and Kripal (uO Research)** · undated · lead, not yet confirmed [link](https://ruor.uottawa.ca/bitstreams/fc810bef-d7bf-4144-9043-97d46671ba2f/download)
+  Thesis returned for 'Bernadette Roberts' with Jeffrey Kripal; title and treatment of Roberts not shown in results.
+
+## Other texts, pages and full-text copies
+
+- **The Path to No-Self (1985 Shambhala edition) - archive.org scan** · 1985 · confirmed [link](https://archive.org/details/roberts.path-to-no-self)
+  User-uploaded scan with full-text download. Not shown as authorised.
+- **Bernadette Roberts Interview (Bodian) - spiritualteachers.org copy** · 1986 · confirmed [link](https://www.spiritualteachers.org/bernadette-roberts-interview/)
+  Most complete online copy of the 1986 Bodian interview; the site also carries a profile 'Bernadette Roberts: A Christian Mystic for Our Time'.
+- **What Is Self? (1989 edition) - archive.org scan** · 1989 · confirmed [link](https://archive.org/details/roberts.what-is-self)
+  User-uploaded scan; direct PDF at archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf. Not shown as authorised.
+- **What Is Self? (1989 edition) - direct PDF on archive.org** · 1989 · confirmed [link](https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf)
+  Direct PDF download of the user-uploaded 1989 scan.
+- **The Path to No-Self - Google Books preview** · 1991 · confirmed [link](https://books.google.com/books/about/The_Path_to_No_Self.html?id=04ry5d6qtNYC)
+  Google Books record (214 pp listed) with limited preview of the SUNY 1991 edition.
+- **The Path to No-Self - pdfcoffee.com copy** · 1991 · likely [link](https://pdfcoffee.com/the-path-to-no-self-life-at-the-center-by-bernadette-roberts-pdf-free.html)
+  Unauthorised user-uploaded PDF of the SUNY edition on a file-sharing site; the copyright page in it reads '(c) 1991 State University of New York. All rights reserved'.
+- **The experience of no-self (1993 SUNY edition) - archive.org lending copy** · 1993 · confirmed [link](https://archive.org/details/experienceofnose00robe)
+  Internet Archive library scan of the SUNY 1993 edition; access-restricted (controlled digital lending, borrow with free account).
+- **The Experience of No-Self, Revised Edition - Google Books preview** · 1993 · confirmed [link](https://books.google.com/books/about/The_Experience_of_No_Self.html?id=TNiurgHbID4C)
+  Google Books record with limited preview of the SUNY 1993 edition.
+- **The Experience of No-Self, Revised Edition - Perlego e-book** · 1993 · confirmed [link](https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-revised-edition-pdf)
+  Licensed subscription e-book (PDF/EPUB) of the SUNY revised edition on Perlego.
+- **The Experience of No-Self, Revised Edition - SUNY e-book (Google Play / Google Books id hWxGAAAAQBAJ)** · 1993 · confirmed [link](https://books.google.com/books/about/The_Experience_of_No_Self.html?id=hWxGAAAAQBAJ)
+  Google Books e-book record of the SUNY revised edition (preview available).
+- **What Is Self? - OverDrive library e-book** · 2005 · confirmed [link](https://www.overdrive.com/media/6467516/what-is-self)
+  Library-lending e-book of the Sentient 2005 edition.
+- **Bernadette Roberts (enlightened-people.com, 2014)** · 2014 · likely [link](https://enlightened-people.com/2014/07/bernadette-roberts/)
+  Profile post; a reader comment records her death (27 Nov 2017, ALS diagnosed a year earlier). [Checked: Search did not return the enlightened-people.com post; year/month kept from the URL path (publication date). Not independently confirmed.]
+- **Bernadette Roberts (westernmystics.wordpress.com, 2015)** · 2015 · likely [link](https://westernmystics.wordpress.com/2015/04/26/bernadette-roberts/)
+  Profile post with excerpts. [Checked: Search did not return the westernmystics.wordpress.com post; date kept from the URL path (2015/04/26 = publication date). Not independently confirmed.] [Checked: A domain-named search again did not return the westernmystics.wordpress.com post. The date is still from the URL path (2015/04/26) and not independently confirmed.]
+- **The Christian Contemplative Journey: Essays on the Path - archive.org scan** · 2017 · confirmed [link](https://archive.org/details/roberts.christian-contemplative-journey)
+  User-uploaded scan of the 2017 essay collection. Not shown as authorised.
+- **The Real Christ - direct PDF on archive.org** · 2017 · confirmed [link](https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf)
+  Direct PDF download of the user-uploaded scan.
+- **Contemplative: Autobiography of the Early Years - archive.org scan** · 2018 · confirmed [link](https://archive.org/details/roberts.contemplative-autobiography-of-the-early-years)
+  User-uploaded PDF scan; copyright page visible in the scan shows ISBN 978-0-692-12517-5. Not shown as authorised.
+- **From Bernadette's Friends (bernadetteroberts.blogspot.com, March 2018) - death announcement** · 2018 · confirmed [link](http://bernadetteroberts.blogspot.com/2018/03/from-bernadettes-friends.html)
+  Post by her friends announcing that she 'passed away on November 27, 2017 at her home in Southern California, in her sleep'. The nearest thing to an official obituary found.
+- **Bernadette Roberts - nodualidad.info author page (Spanish)** · undated · confirmed [link](https://www.nodualidad.info/maestros/bernadette-roberts.html)
+  Spanish-language profile and bibliography with translated titles.
+- **Bernadette Roberts archive - Sat Sangha Salon (o-meditation.com)** · undated · confirmed [link](https://o-meditation.com/category/bernadette-roberts/)
+  Category of reposted excerpts from her books and the Bodian interview ('From the Unitive State to No-Self', 2009).
+- **Bernadette Roberts: A Passage through Self (shalomplace.org forum topic)** · undated · confirmed [link](https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148)
+  Forum discussion of her talk 'A Passage Through Self' (the 'circles course', a series of circles illustrating the journey); a poster describes ordering a three-hour recording of it. [Checked: Recording discussed: the Center for Sacred Sciences library holds a 55-minute DVD (imprint 'United States: students of Bernadette, 1987') whose description says the talk uses a series of circles to map the jo…
+- **Ken Wilber: direct citations of Roberts — negative result** · undated · lead, not yet confirmed [link](https://www.integralworld.net/bibliography.html)
+  Two searches across One Taste, Sex Ecology Spirituality, Integral Spirituality, Grace and Grit, Integral Psychology, The Eye of Spirit, A Brief History of Everything and Transformations of Consciousness found no indexed Wilber passage naming her; only a bookseller blurb on What Is Self? and a Shalom Place poster claiming Wilber 'adopted her testimony as an example of Christian nonduality'. Indexes…
+- **Selected Correspondence: Ms. Bernadette Roberts (Richard, actualfreedom.com.au)** · undated · confirmed [link](https://www.actualfreedom.com.au/richard/selectedcorrespondence/sc-bernadetteroberts.htm)
+  Correspondence page on the Actual Freedom site in which 'Richard' discusses Roberts's no-self account with correspondents; quotes her books at length. [Checked: A search for the Actual Freedom correspondence page returned nothing from actualfreedom.com.au; dates unknown.]
+- **Tentang pengalaman 'no self' Bernadette Roberts (katolisitas.org, Indonesian)** · undated · confirmed [link](https://katolisitas.org/tentang-pengalaman-no-self-bernadette-roberts/)
+  Indonesian Catholic apologetics site discussing her no-self experience (critical/Q&A piece). [Checked: Confirmed: backup.katolisitas.org/?p=6712 is the Indonesian Q&A in which readers David and Bernardus Aan ask (answered by Ingrid, katolisitas) about Roberts's 'no self' experience, which had shaken a reader's Catholic faith. Publication date not shown in snippets.] [Checked: Search again returned…
+- **The Experience of No-Self - Goodreads quotes page** · undated · likely [link](https://www.goodreads.com/work/quotes/335418)
+  Reader-posted quotations from the book (useful to the quote researchers; unverified wording).
+
+## Sites, archives and communities
+
+- **Internet Archive: Bernadette Roberts texts (roberts.* items)** · 1982 · confirmed [link](https://archive.org/details/roberts.experience-of-no-self)
+  archive.org holds: The Experience of No-Self (1982 scan, roberts.experience-of-no-self; also experienceofnose00robe lending copy), The Path to No-Self (roberts.path-to-no-self), What Is Self? PDF (roberts.what-is-self), and 'The Christian Contemplative Journey' (roberts.christian-contemplative-journey). Uploader unknown; likely unauthorized per the Friends blog notice.
+- **Shambhala Publications (original editions)** · 1984 · confirmed [link](https://www.abebooks.com/9780877732891/Experience-0877732892/plp)
+  Shambhala issued The Experience of No-Self (1982/1984, ISBNs 0877732892 / 0394726936 via Random House) and The Path to No-Self (1985, ISBN 0394729994). Now out of print at Shambhala; rights passed to SUNY. No current Shambhala author page found.
+- **SUNY Press author/book pages** · 1993 · confirmed [link](https://sunypress.edu/Books/T/The-Experience-of-No-Self)
+  Publisher catalogue page for the revised edition (SUNY Press, March 1993, 212-213 pp., ISBN 0791416941 / 9780791416945). Cover image on SUNY page, Amazon, Goodreads (345092) and Google Books (id TNiurgHbID4C). SUNY Press contributor page lists Roberts without a photo.
+- **Sentient Publications: Bernadette Roberts collection** · 2005 · confirmed [link](https://sentientpublications.com/collections/bernadette-roberts)
+  Sentient Publications (Boulder, publisher Connie Shaw) publishes What Is Self? (2005, ISBN 978-1-59181-026-1) and carries her other titles; The Real Christ (2012) publisher to confirm (likely self-published via her site).
+- **TAT Forum (TAT Foundation) 2006 retreat report** · 2006 · confirmed [link](https://tatfoundation.org/tat-forum-archives/forum2006-08.htm)
+  Retreat held at Grailville (300-acre retreat centre near Cincinnati) in early May 2006; article describes six double-sided handout sheets. Search returned no photographer credit for the retreat photo; copyright TAT Foundation by default. The TAT notes were reposted on indiadivine.org.
+- **Julian Jaynes Society forum: 'Bernadette Roberts - What is Self?'** · 2010 · confirmed [link](https://www.julianjaynes.org/jjsforum/viewtopic.php?t=414)
+  2010 thread asking whether her later state resembles the bicameral mind.
+- **Blog essays on Roberts (Joseph Bray, No Mind's Land, Anamchara, IMERE)** · 2012 · confirmed [link](https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/)
+  Joseph Bray 2012 'What is self? A journey with...'; nomindsland.blogspot.com 2018 review; Carl McColman's anamchara.com 'The Nondual Writers of Footnote #45' listing her with Wilber; imere.org third-party account of her mystical experience.
+- **Bernadette Roberts (official site, Blogspot)** · 2013 · confirmed [link](http://bernadetteroberts.blogspot.com/)
+  The home page thanks Ramesh Balakrishnan for setting the site up and says Pat Masters manages it; a later note says Patricia Masters, who managed the site for many years, died peacefully on 31 May 2024. The site was created by friends who knew Roberts since the early 1980s; reports her death 27 Nov 2017 at home in Southern California after an ALS diagnosis a year earlier. Who now holds the DVD mas…
+- **Bernadette's Friends (Blogspot)** · 2013 · confirmed [link](http://bernadettesfriends.blogspot.com/)
+  Companion blog run by friends/students; 'Dear Friend' letter in her voice, 'Latest Book' note for The Real Christ, retreat listing for October 2013 at a Catholic retreat center in Fullerton CA (limited to 13 practising Christian contemplatives); carries the statement that there are NO authorized YouTube or online audio/video of Bernadette and that circulating recordings are unauthorized or falsely…
+- **bernadetteroberts.blogspot.com: Papers for Download page** · 2015 · confirmed [link](http://bernadetteroberts.blogspot.com/p/research-paper.html)
+  Hosts 'Non-duality as a definition of Christ' (paper presented at SAND, San Jose, 22 Oct 2015) and 'What Is Self? A Research Paper' for download. [Checked: Year/date are those of the paper 'Non-duality as a definition of Christ' as stated on the blog (SAND, San Jose, 22 Oct 2015). Search confirms SAND 2015 ran 21-25 Oct 2015 at the Dolce Hayes Mansion, San Jose, but no SAND programme naming her su…
+- **SAND archive speaker page: Bernadette Roberts** · 2015 · confirmed [link](https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/)
+  Roberts presented the paper 'Nonduality as a Definition of Christ' at the SAND conference in San Jose on 22 October 2015 (paper text offered on her Papers for Download page). An attendee recalls seeing her present in person. No audio or video recording of the session was found in search results; SAND's archive and YouTube channel are where a recording would be. [Checked: Speaker page confirmed on …
+- **ContemplativeChristians.com Publishing** · 2016 · confirmed [link](https://contemplativechristians.com/)
+  Imprint and order site named on her Blogspot books page ('to order go to contemplativechristians.com'); publisher of record for The Real Christ (Feb 2017 printing, ISBN 978-0692851159; earlier CreateSpace Oct 2016 ISBN 978-1539770466), The Christian Contemplative Journey: Essays on the Path (Dec 2017, ISBN 978-0692987216; Kindle Nov 2018) and Contemplative: Autobiography of the Early Years (2018 e…
+- **Bernadette Roberts: Books page (Blogspot) — essay table of contents** · 2017 · confirmed [link](http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html)
+  Lists her books and the essays collected in The Christian Contemplative Journey: 'Cessation of Self', 'Nonduality', 'Mystical Theology and No-Self', 'Apatheia', 'The Eucharist, A Christian Path', 'What is Self? (research paper)', 'Ten Ox-herding Pictures', 'The Nature of Self'. Death announcement (27 Nov 2017, ALS diagnosed a year earlier; 'she asked us to notify her friends') is on the blog front…
+- **ContemplativeChristians.com Publishing (imprint)** · 2017 · confirmed [link](https://www.abebooks.com/9780692987216/Christian-Contemplative-Journey-Essays-Path-0692987215/plp)
+  Copyright pages: 'Published by ContemplativeChristians.com, June 2018 / November 2018, P.O. Box 164202, Austin, TX 78716' (Contemplative: Autobiography of the Early Years; The Christian Contemplative Journey). The Real Christ: first printing Feb 2017, ISBN 978-0-692-85115-9. No operator name, email or Wayback capture surfaced.
+- **Dharma Overground memorial thread 'Bernadette Roberts (1931–2017)'** · 2017 · confirmed [link](https://www.dharmaoverground.org/discussion/-/message_boards/message/7049212)
+  Forum thread announcing her death; sources online give 27 November 2017, in her sleep at her home in Southern California (Laguna Beach per Wikipedia), after an ALS diagnosis about a year earlier. No formal newspaper obituary found.
+- **Internet Archive: later texts (The Real Christ; Contemplative autobiography)** · 2017 · confirmed [link](https://archive.org/details/roberts.real-christ)
+  The Real Christ PDF (572 pp scan vs 524 print) uploaded by 'Manonasha' on 30 May 2020; same uploader series roberts.* (what-is-self, path-to-no-self, christian-contemplative-journey, contemplative-autobiography). Unauthorised per her site.
+- **Wikipedia: Bernadette Roberts** · 2017 · confirmed [link](https://en.wikipedia.org/wiki/Bernadette_Roberts)
+  English Wikipedia article (1931-2017, died in her sleep at home, Laguna Beach; earlier Santa Monica). Gives family: former husband Ron Danko (left 1976, annulment), four children Mark, Marcel, Melanie, Michaela 'Kayla', seven grandchildren; forty years of retreats with the Camaldolese monks at Big Sur; bibliography. Listed in Category:Carmelite mystics. Talk page not yet checked.
+- **Douglas Lockhart: 'Bernadette Roberts & the No-Self' (PDF)** · 2019 · confirmed [link](https://www.douglaslockhart.com/wp-content/uploads/Bernadette-Roberts-and-the-No-Self.pdf)
+  Copyright 2019 Douglas Lockhart; listed on his Religion page as 'a new essay'; has a section 'The Jesus Problem'; calls her stage writings among the most original contributions in a Christian context. Not part of Jesus the Heretic or The Dark Side of God as far as search shows.
+- **Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available'** · 2021 · confirmed [link](https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available)
+  Notice that the recorded retreat talks Roberts gave over her lifetime 'are now available to view at no cost', linking to the viewing site (URL not exposed in search snippets) and warning that the talks are long; recommends re-watching and taking notes. The retreat named is 'The Essence of Christian Mysticism' (Trinity, Christ, Faith).
+- **Contemplative Enrichment Day: 'The Astounding Bernadette Roberts: Insights & Experiences of a Modern Christian Mystic' (Fr Michael K. Holleran)** · 2022 · confirmed [link](https://www.contemplativeoutreach.org/event/the-astounding-bernadette-roberts-insights-and-experiences-of-a-modern-christian-mystic/)
+  Day on The Experience of No-Self with two Centering Prayer sessions; quotes Keating calling the book one of the best since St John of the Cross.
+- **Apple Podcasts episode: 'Bernadette Roberts: The Path to No-Self'** · 2023 · confirmed [link](https://podcasts.apple.com/us/podcast/bernadette-roberts-the-path-to-no-self/id1326902050?i=1000595862178)
+  Alex Hickman's Dancing Paradox podcast (Apple id 1326902050; also Podbean, podtail, tunein); a 14-minute excerpt of Bernadette Roberts speaking about the experience of no-self, lifted from the retreat recordings and linked to an 'original video' on YouTube.
+- **Dancing Paradox podcast: 'Bernadette Roberts: The Path to No-Self'** · 2023 · confirmed [link](https://podtail.com/en/podcast/dancing-paradox/bernadette-roberts-the-path-to-no-self/)
+  c.14-minute excerpt of Roberts speaking on no-self, lifted from a YouTube upload; per the Friends blog any such audio is unauthorized.
+- **YouTube: 'The Path to No-Self: Beyond Unitive Consciousness with Bernadette Roberts' (Shawn Ellison)** · 2023 · confirmed [link](https://www.youtube.com/watch?v=Qoqfir9czOY)
+  YouTube id Qoqfir9czOY. A presentation of her teaching by Shawn Ellison, not a recording of her (search summaries wrongly call it a conversation with her).
+- **'What Is Self? — A Research Paper' PDF (written for Nini Praetorius)** · undated · confirmed [link](https://o-meditation.com/wp-content/uploads/2019/12/what-is-self-a-research-paper-by-bernadette-roberts-5.pdf)
+  Research paper whose preface says it was written at the request of Dr Nini Praetorius, University of Copenhagen; refers to the DVD 'A Passage Through Self' and the collection Essays on the Christian Spiritual Journey. Hosted by Sat Sangha Salon. [Checked: Scribd copy confirms the title and the preface (prepared for Nini Praetorius, University of Copenhagen, for her project on the self). Praetorius…
+- **Actualized.org forum threads** · undated · confirmed [link](https://www.actualized.org/forum/topic/112427-the-great-bernadette-roberts/)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued. [Checked: Searched the thread title 'The Great Bernadette Roberts': no actualized.org hit; date unknown.]
+- **bernadetterobertsisnotmyguru.com (Phoenix Kennedy)** · undated · confirmed [link](http://www.bernadetterobertsisnotmyguru.com)
+  Site 'devoted to her work' linked from the YouTube clip descriptions and recommended by spiritualteachers.org; a commenter says the first half of all of Kennedy's books about her can be downloaded free there. Own pages did not surface in search; operator affiliation with her estate: none (her friends' site disowns all online recordings). [Checked: Search for the site and Phoenix Kennedy returned n…
+- **freddieyam.com: 'Bernadette Roberts's assessment of Anadi (Kristof Aziz)'** · undated · confirmed [link](https://freddieyam.com/wordpress/bernadette-robertss-assessment-of-anadi-kristof-aziz/)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued. [Checked: Search returned nothing on the page or on Roberts and Anadi; nothing new.]
+- **Goodreads author page** · undated · confirmed [link](https://www.goodreads.com/author/show/197971.Bernadette_Roberts)
+  Goodreads author profile (13 books, 31 followers) shows a small author image; search snippets confirm an image slot but not its content. Probably the same widely circulated headshot. Licence unknown.
+- **Goodreads quotes page / Citatis quotes** · undated · confirmed [link](https://www.goodreads.com/author/quotes/197971.Bernadette_Roberts)
+  User-contributed quotations; stands in for a Wikiquote page (none exists).
+- **Hridaya Yoga: 'Bernadette Roberts: A Way of Seeing and Knowing'** · undated · confirmed [link](https://hridaya-yoga.com/knowledge/mystics/bernadette-roberts-a-way-of-seeing-and-knowing/)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued. [Checked: Search confirms the Hridaya Yoga 'mystics' page 'Bernadette Roberts - A Way of Seeing and Knowing' (opens with a Jung epigraph and quotes her account of a lasting change of perception); a second Hridaya page (?p=113248) quotes the same piece. No publication date shown.]
+- **Inner Explorations: 'Bernadette Roberts and the Experience of No-Self' (James Arraj)** · undated · confirmed [link](https://www.innerexplorations.com/ewtext/br.htm)
+  Online chapter by James Arraj (Inner Explorations) arguing that her account's 'inner structure and language' is 'much closer to Buddhist enlightenment than Christian mystical union'; believed to be from his book on East-West dialogue (title unconfirmed). [Checked: The same argument appears as 'Chapter 6: Christian Enlightenment?' in an Arraj book hosted at innerexplorations.org/catchspmys/ (looks …
+- **Medium (J. Kowall): 'No-Self is True Self'** · undated · confirmed [link](https://medium.com/@jkowall031/no-self-is-true-self-60acba043307)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued. [Checked: Search did not return the Medium article; nothing new.]
+- **New Camaldoli Hermitage (Big Sur) — audio archive** · undated · lead, not yet confirmed [link](https://newcamaldoli.engagewisdom.com/location/new-camaldoli-hermitage)
+  Searches for New Camaldoli + Roberts returned only tourism pages and a DBpedia backlink from her Wikipedia article; no hermitage talk, audio or memoir mention surfaced. [Checked: Search confirms only the biographical link (Wikipedia: annual extended retreats with the Camaldolese monks at Big Sur for her last forty years; she called it her 'home on earth'). The engagewisdom 'New Camaldoli Hermitage…
+- **nonduality.com page (Jerry Katz)** · undated · confirmed [link](https://www.nonduality.com/berna.htm)
+  Katz's outline of The Experience of No-Self; a 26-page PDF print of the page (dated 23 Dec 2011) is mirrored at kundaliniandcelltowers.com. No Wayback capture confirmed by search. Katz's anthology 'One: Essential Writings on Nonduality' includes her and a reader's comment that she 'misses the essential insights of Advaita'.
+- **Secondary profile pages (Sat Sangha Salon, Western Mystics, Enlightened People, Awakening to Reality)** · undated · confirmed [link](https://o-meditation.com/more-masters-mystics-and-misfits/bernadette-roberts/)
+  The Sat Sangha Salon teacher page says it offers downloadable books and audios of Bernadette Roberts; which audio files, and whether they are the DVD soundtrack, is unverified.
+- **Shalom Place forum threads (Phil St. Romain)** · undated · confirmed [link](https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/1804097238)
+  Catholic contemplative forum run by Phil St. Romain; threads 'Bernadette Roberts on Buddhism, No-Ego, and No-Self' and 'A Passage through Self'. [Checked: A search on the thread titles returned nothing from shalomplace (forum not indexed); thread dates still unknown.]
+- **Shalom Place thread: Bernadette Roberts responds to Jim Arraj** · undated · confirmed [link](https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506)
+  Multi-page thread (18+ pages) arguing her unitive-state and no-self views from a Catholic perspective ('No-Self is not even meant for this world'). [Checked: A search of the thread titles on shalomplace returned nothing (forum not indexed). Inner Explorations' Arraj page reportedly includes 'a 2008 response from Roberts' to Arraj's critique, which the thread probably discusses, but the thread's ow…
+- **Shalom Place thread: Bernadette Roberts' new book, The Real Christ** · undated · confirmed [link](https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/1/xsl/print_topic)
+  Discussion including the criticism that she splits the humanity of Jesus from 'Christ'. [Checked: The shalomplace thread-title search returned nothing. 'New book' places the thread around the book's release (19 Feb 2017, ContemplativeChristians.com), but its date is not confirmed, so the year stays null.]
+- **Shalom Place: Jim Marion / Philip St. Romain dialogue (PDF)** · undated · confirmed [link](https://shalomplace.com/res/psr-marion.pdf)
+  Marion: he wrote about 'the American Catholic contemplative Bernadette Roberts, a former nun' in Putting on the Mind of Christ, regards her no-self experience as authentic; St. Romain: 'I know her and we've corresponded extensively', and mentions a theology-forum thread he featured on her. A Goodreads review says Marion references Roberts and disagrees where he thinks she has not explained herself…
+- **spiritualteachers.proboards: 'On why Bernadette Roberts is not a non-dualist'** · undated · confirmed [link](https://spiritualteachers.proboards.com/thread/1735/why-bernadette-roberts-non-dualist)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued.
+- **Two Plus Two forum: 'Christian Mysticism: an interview with Bernadette Roberts'** · undated · confirmed [link](https://forumserver.twoplustwo.com/137/religion-god-theology/christian-mysticism-interview-christian-contemplative-bernadette-roberts-1364245/)
+  Discussion page about Roberts surfaced during this pass; not previously catalogued. [Checked: The forum thread itself did not surface (forums poorly indexed). Its title matches the Stephan Bodian interview, first published in Yoga Journal Nov/Dec 1986 and reprinted in Bodian's Timeless Visions, Healing Voices (c) 1991, hosted at spiritualteachers.org. Thread date unknown.] [Checked: Searched the e…
+- **Unexplained Mysteries forum thread** · undated · confirmed [link](https://www.unexplained-mysteries.com/forum/topic/370876-bernadette-roberts-on-the-experience-of-no-self/)
+  Shares the nonduality.com essay with comments. [Checked: Searched the thread title: no unexplained-mysteries.com hit; date unknown. Other discussions that surfaced and are not in the archive: Julian Jaynes forum thread 'Bernadette Roberts - What is Self?' (2010, https://forum.julianjaynes.org/viewtopic.php?p=942); awakeningtoreality.com Bodian-interview repost (2007/07, https://www.awakeningtoreal…
+- **Wikidata Q4892809** · undated · confirmed [link](https://www.wikidata.org/wiki/Q4892809)
+  Wikidata item; thin: 'American writer', born 1931, died 2017, religion Catholicism. No Wikiquote page found.
+- **Wikipedia article, talk page and history; Wikidata Q4892809** · undated · lead, not yet confirmed [link](https://en.wikipedia.org/wiki/Talk:Bernadette_Roberts)
+  Talk page and revision history are not indexed by search; need a direct fetch (https://en.wikipedia.org/w/index.php?title=Bernadette_Roberts&action=history). Wikidata item Q4892809 (thin). No German/Spanish/Italian Wikipedia article surfaced.
+
+## Images
+
+- **The Path to No-Self: Life at the Center — Shambhala first edition cover (1985)** · 1985 · confirmed [link](https://archive.org/details/pathtonoselflif00robe)
+  Internet Archive lending-library scan of the Shambhala 1985 edition (ISBN 0877733066 / 9780877733065; Random House-distributed variant 0394729994 / 9780394729992; 214 pp.) with cover. First-edition cover photographed in eBay listing 165048954853; also on Amazon, AbeBooks, ThriftBooks and a second archive.org upload (roberts.path-to-no-self).
+- **Stephan Bodian interview, Yoga Journal Nov/Dec 1986 — magazine layout / photo (scan)** · 1986 · confirmed [link](https://realization.org/p/bernadette-roberts/bodian.roberts-interview.html)
+  Interview by Stephan Bodian, published in Yoga Journal Nov/Dec 1986; reprinted in Bodian (ed.), Timeless Visions, Healing Voices (Crossing Press, 1991, copyright Stephan Bodian). Covers the move from the unitive state to no-self, some 20-25 years after the transforming union. Online copies: realization.org, spiritualteachers.org (most complete), awakeningtoreality.com (2007), rob-being.blogspot.co…
+- **What Is Self? — Mary Botsford Goens first/second edition cover (1989)** · 1989 · confirmed [link](https://archive.org/details/whatisselfstudyo00robe)
+  Self-published 1989 edition (publisher given variously as Mary Botsford Goens, Austin TX, or Mary Goens Publishing, Marina Del Rey CA; some listings call it '2nd edition'). Internet Archive lending scan includes the cover; used-copy photos on AbeBooks/Alibris. Cover designer unknown.
+- **The Path to No-Self: Life at the Center — SUNY Press edition cover (1991)** · 1991 · confirmed [link](https://openlibrary.org/books/OL1551075M/The_path_to_no-self)
+  SUNY Press 1991 reissue (ISBN 0791411419 hb / 0791411427 pb, 214 pp., new introduction; Roberts's preface thanks Bill Eastman of SUNY Press). Cover image on Open Library, Goodreads (6266081) and Google Books (id 04ry5d6qtNYC).
+- **Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise — German edition cover (Arbor, 1993)** · 1993 · confirmed [link](https://www.eurobuch.at/buch/isbn/3924195277.html)
+  German translation of The Experience of No-Self, Arbor Verlag, Freiamt 1993, ISBN 3924195277, translated by Franz Loschnigg and Karin Hein. Cover image on Eurobuch / ZVAB listings. Cover artist unknown. The only non-English edition found.
+- **What Is Self? A Study of the Spiritual Journey in Terms of Consciousness — Sentient Publications cover (2005)** · 2005 · confirmed [link](https://www.simonandschuster.com/books/What-is-Self/Bernadette-Roberts/9781591810261)
+  Sentient Publications 2005 trade paperback (ISBN 9781591810261, 208-256 pp. per listing). Cover design credited to Nick Cummings, book design Timm Bryson (front matter, archive.org scan roberts.what-is-self). Cover shown on Simon & Schuster distributor page, Strand, AbeBooks, ThriftBooks, Theosophical Society review.
+- **What Is Self? — Sentient / Open Road Integrated Media ebook cover** · 2005 · confirmed [link](https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness)
+  Ebook edition (ISBN 9781591812258, Sentient+ORM / Open Road Integrated Media, 258 pp.) cover shown on Everand, ebooks.com, OverDrive and Google Books (id BH08EAAAQBAJ). Same Nick Cummings artwork as the print edition.
+- **Bernadette Roberts at Loveland OH retreat, May 2006** · 2006 · confirmed [link](https://tatfoundation.org/tat-forum-archives/forum2006-08.htm)
+  Photograph captioned 'Bernadette Roberts at Loveland OH retreat, May 2006', embedded in the TAT Forum (August 2006 issue) report on her retreat; the article also cites the May 2006 retreat brochure. Photographer uncredited (a TAT Foundation attendee); copyright TAT Foundation / photographer, no open licence stated. The only dated, captioned retreat photograph of her found online.
+- **The Real Christ — ContemplativeChristians.com cover (2017)** · 2017 · confirmed [link](https://www.amazon.com/Real-Christ-Bernadette-Roberts/dp/0692851151)
+  Self-published via ContemplativeChristians.com, Feb 2017, 524 pp., ISBN 9780692851159. Cover image: an engraving from an old Catholic Encyclopedia volume that Roberts copied, enlarged and coloured because it reminded her of the Trinity (centre evokes a monstrance); cover design Brian Burrowes (front matter). Full scan with cover on archive.org (roberts.real-christ); cover also on Books-A-Million, …
+- **Contemplative: Autobiography of the Early Years — cover (2018)** · 2018 · confirmed [link](https://www.abebooks.com/9780692125175/Contemplative-Autobiography-Early-Years-Roberts-0692125175/plp)
+  Posthumous autobiography published by ContemplativeChristians.com, 2018, ISBN 9780692125175, c.306-316 pp. The archive.org scan carries an 'About the Cover' note (cover likely uses a photograph of the young Roberts; the note sits beside the headings 'The Monk', 'Age 17', 'Happiest Day in my Life'). Cover on AbeBooks, Amazon, Books-A-Million, Tertulia, Google Books (BBRntwEACAAJ) and the Bernadette…
+- **YouTube playlist 'Bernadette Roberts' — retreat-talk video stills** · 2021 · confirmed [link](https://www.youtube.com/playlist?list=PLni-GlNUOJfZQx47wittRX-i63CvNV2E8)
+  Best available identification of the 2021 release: no Google Drive, Vimeo or blog-hosted copy surfaced, and bernadetteroberts.blogspot.com still lists the DVD set (Talk #1-#4) for sale and still states that no online recordings are authorised. The only free viewing route found is the YouTube series of 'Bernadette Roberts on ...' clips cut from the 4-hour/9-hour 'Essence of Christian Mysticism' DVD…
+- **CCE-Bernadette-Roberts.png — event graphic, 'The Astounding Bernadette Roberts' workshop (Holy Family Passionist Retreat Center, 19 Feb 2022)** · 2022 · confirmed [link](https://www.holyfamilyretreat.org/calendar/cce-enrichment-feb2022)
+  Promotional image file 'CCE-Bernadette-Roberts.png' on the event page for Fr. Michael K. Holleran's day workshop 'The Astounding Bernadette Roberts: Insights & Experiences of a Modern Christian Mystic' (also listed by Contemplative Outreach). Likely a flyer graphic incorporating her portrait and/or book cover. Copyright Holy Family Retreat Center.
+- **Bernadette Roberts contributor page, Open Road Media** · undated · confirmed [link](https://openroadmedia.com/contributor/bernadette-roberts)
+  Open Road Integrated Media (ebook publisher of What Is Self? for Sentient Publications) contributor page with bio; Open Road contributor pages normally carry an author photo but the search index shows only text. Unverified. [Checked: Contributor page confirmed live in search (openroadmedia.com/contributor/bernadette-roberts, also an ?amp=1 copy; sister page earlybirdbooks.com/contributor/bernadett…
+- **Carmel of Saint Teresa, Alhambra, California — the Discalced Carmelite monastery Roberts entered in January 1949** · undated · confirmed [link](https://issuu.com/aroundalhambra/docs/aa_dec_1222_web/s/17478054)
+  Around Alhambra (Dec 2022) feature 'Only in Alhambra: The Cloistered Discalced Carmelite Nuns of the Monastery of Saint Teresa' with photographs of the 1922 monastery building and community (founded 1913); further photos on cloisteredlife.com directory and the monastery site carmelteresa.org. Roberts entered at 17 and stayed c. 8.5-9 years. No Wikimedia Commons file found. Photos copyright Around …
+- **IMERE portrait credit: 'Bernadette Roberts from www.spiritualteachers.org'** · undated · confirmed [link](https://imere.org/third-party-story/mystical-experience-bernadette-roberts/)
+  The only photo credit found anywhere: IMERE credits its image to 'Bernadette Roberts from www.spiritualteachers.org'; no photographer, date or licence. spiritualteachers.org pages show no credit in snippets.
+- **New Camaldoli Hermitage, Big Sur — site of Roberts's annual extended retreats for forty years** · undated · confirmed [link](https://en.wikipedia.org/wiki/New_Camaldoli_Hermitage)
+  Wikipedia article (with Commons-hosted photographs, free licences) on the Camaldolese hermitage (Immaculate Heart Hermitage) in the Santa Lucia Mountains where Roberts made retreats annually for the last forty years of her life, and where (per one account) the deepening of the no-self experience occurred. Additional photos: Flickr 'View from New Camaldoli Hermitage, Big Sur' by Heather Polley, 1 J…
+- **Self-published works and manuscripts listed on the Bernadette Roberts blog ('Other Writings' page)** · undated · confirmed [link](http://bernadetteroberts.blogspot.com/p/self-published-works.html)
+  The friends' blog (set up at Roberts's request; successor to bernadettesfriends.blogspot.com) has a 'Books' page and an 'Other Writings / self-published works' page that display covers of her self-published booklets and manuscripts. Titles and cover images not enumerated by search; needs direct inspection.
+

@@ -1,21 +1,21 @@
 {
  "summary": {
-  "items": 135,
+  "items": 236,
   "quotes": 151,
   "events": 37,
   "people": 22,
   "items_by_medium": {
    "archive": 32,
    "community": 14,
-   "video": 20,
-   "audio": 7,
-   "image": 16,
-   "text": 46
+   "video": 22,
+   "audio": 10,
+   "image": 17,
+   "text": 141
   },
   "items_by_confidence": {
-   "S": 122,
-   "lead": 5,
-   "T": 8
+   "S": 176,
+   "lead": 22,
+   "T": 38
   },
   "quotes_by_confidence": {
    "S": 68,
@@ -52,9 +52,9 @@
    "essay/blog post: Reply to James Arraj's comments (June 2008)": 1,
    "Forcing the Fit (self-published manuscript, 2008)": 1
   },
-  "distinct_source_hosts": 128,
-  "items_self_sourced_only": 44,
-  "items_with_second_source": 91,
+  "distinct_source_hosts": 222,
+  "items_self_sourced_only": 85,
+  "items_with_second_source": 151,
   "compositions_checked": 6,
   "events_with_recorded_date_conflict": 5,
   "quotes_marked_duplicate": 0,
@@ -111,34 +111,42 @@
  "hosts": [
   [
    "archive.org",
-   50
-  ],
-  [
-   "goodreads.com",
-   44
-  ],
-  [
-   "spiritualteachers.org",
-   44
-  ],
-  [
-   "youtube.com",
-   31
+   56
   ],
   [
    "bernadetteroberts.blogspot.com",
-   30
+   52
+  ],
+  [
+   "goodreads.com",
+   49
+  ],
+  [
+   "spiritualteachers.org",
+   48
+  ],
+  [
+   "youtube.com",
+   34
   ],
   [
    "o-meditation.com",
-   27
+   29
   ],
   [
    "awakeningtoreality.com",
-   24
+   27
   ],
   [
    "amazon.com",
+   25
+  ],
+  [
+   "books.google.com",
+   24
+  ],
+  [
+   "abebooks.com",
    18
   ],
   [
@@ -146,32 +154,32 @@
    18
   ],
   [
-   "abebooks.com",
-   17
-  ],
-  [
    "innerexplorations.com",
-   14
+   16
   ],
   [
-   "books.google.com",
+   "bernadettesfriends.blogspot.com",
+   15
+  ],
+  [
+   "shalomplace.org",
+   15
+  ],
+  [
+   "en.wikipedia.org",
+   13
+  ],
+  [
+   "sunypress.edu",
+   13
+  ],
+  [
+   "everand.com",
    13
   ],
   [
    "pdfcoffee.com",
    13
-  ],
-  [
-   "en.wikipedia.org",
-   12
-  ],
-  [
-   "shalomplace.org",
-   12
-  ],
-  [
-   "everand.com",
-   12
   ],
   [
    "realization.org",
@@ -182,12 +190,12 @@
    11
   ],
   [
-   "sunypress.edu",
-   10
-  ],
-  [
    "westernmystics.wordpress.com",
    8
+  ],
+  [
+   "openlibrary.org",
+   6
   ],
   [
    "nomindsland.blogspot.com",
@@ -198,15 +206,27 @@
    6
   ],
   [
-   "openlibrary.org",
-   5
-  ],
-  [
    "standinginanopenfield.wordpress.com",
    5
   ],
   [
+   "scribd.com",
+   5
+  ],
+  [
    "citatis.com",
+   5
+  ],
+  [
+   "barnesandnoble.com",
+   5
+  ],
+  [
+   "perlego.com",
+   5
+  ],
+  [
+   "bookshare.org",
    5
   ],
   [
@@ -218,6 +238,10 @@
    4
   ],
   [
+   "nonduality.com",
+   4
+  ],
+  [
    "douglaslockhart.com",
    4
   ],
@@ -226,12 +250,28 @@
    4
   ],
   [
-   "perlego.com",
+   "podtail.com",
    4
   ],
   [
-   "bernadettesfriends.blogspot.com",
-   3
+   "hoopladigital.com",
+   4
+  ],
+  [
+   "amazon.de",
+   4
+  ],
+  [
+   "librarycat.org",
+   4
+  ],
+  [
+   "scienceandnonduality.com",
+   4
+  ],
+  [
+   "abebooks.de",
+   4
   ],
   [
    "wikidata.org",
@@ -246,7 +286,7 @@
    3
   ],
   [
-   "podtail.com",
+   "dancingparadox.podbean.com",
    3
   ],
   [
@@ -262,7 +302,7 @@
    3
   ],
   [
-   "barnesandnoble.com",
+   "play.google.com",
    3
   ],
   [
@@ -270,7 +310,23 @@
    3
   ],
   [
+   "openroadmedia.com",
+   3
+  ],
+  [
+   "abebooks.co.uk",
+   3
+  ],
+  [
    "overdrive.com",
+   3
+  ],
+  [
+   "vitalsource.com",
+   3
+  ],
+  [
+   "tertulia.com",
    3
   ],
   [
@@ -278,7 +334,19 @@
    3
   ],
   [
-   "scienceandnonduality.com",
+   "digitalcommons.ciis.edu",
+   3
+  ],
+  [
+   "amazon.co.jp",
+   3
+  ],
+  [
+   "ja.wikipedia.org",
+   3
+  ],
+  [
+   "riflessioni.it",
    3
   ],
   [
@@ -286,7 +354,15 @@
    3
   ],
   [
+   "sentientpublications.com",
+   2
+  ],
+  [
    "unexplained-mysteries.com",
+   2
+  ],
+  [
+   "advaita.org.uk",
    2
   ],
   [
@@ -294,15 +370,11 @@
    2
   ],
   [
-   "dancingparadox.podbean.com",
-   2
-  ],
-  [
    "actualized.org",
    2
   ],
   [
-   "scribd.com",
+   "tatfoundation.org",
    2
   ],
   [
@@ -310,19 +382,15 @@
    2
   ],
   [
-   "play.google.com",
-   2
-  ],
-  [
    "listennotes.com",
    2
   ],
   [
-   "hoopladigital.com",
+   "audible.com",
    2
   ],
   [
-   "openroadmedia.com",
+   "storytel.com",
    2
   ],
   [
@@ -342,11 +410,11 @@
    2
   ],
   [
-   "abebooks.co.uk",
+   "theosophical.org",
    2
   ],
   [
-   "theosophical.org",
+   "eurobuch.at",
    2
   ],
   [
@@ -354,19 +422,39 @@
    2
   ],
   [
+   "rob-being.blogspot.com",
+   2
+  ],
+  [
    "exoticindia.com",
    2
   ],
   [
-   "vitalsource.com",
+   "ci.nii.ac.jp",
    2
   ],
   [
-   "amazon.de",
+   "amazon.co.uk",
+   2
+  ],
+  [
+   "dn721605.ca.archive.org",
    2
   ],
   [
    "archive.scienceandnonduality.com",
+   2
+  ],
+  [
+   "thriftbooks.com",
+   2
+  ],
+  [
+   "integrallife.com",
+   2
+  ],
+  [
+   "beingwithoutself.org",
    2
   ],
   [
@@ -386,6 +474,62 @@
    2
   ],
   [
+   "blog.goo.ne.jp",
+   2
+  ],
+  [
+   "researchgate.net",
+   2
+  ],
+  [
+   "publishersweekly.com",
+   2
+  ],
+  [
+   "logos.com",
+   2
+  ],
+  [
+   "arbor-verlag.de",
+   2
+  ],
+  [
+   "naturalspirit.co.jp",
+   2
+  ],
+  [
+   "managementboek.nl",
+   2
+  ],
+  [
+   "amazon.fr",
+   2
+  ],
+  [
+   "dervy-medicis.fr",
+   2
+  ],
+  [
+   "sages.fandom.com",
+   2
+  ],
+  [
+   "ebooks.jgu.edu.in",
+   2
+  ],
+  [
+   "booksrun.com",
+   2
+  ],
+  [
+   "amazon.in",
+   2
+  ],
+  [
+   "terebess.hu",
+   2
+  ],
+  [
    "thedaobums.com",
    2
   ],
@@ -398,27 +542,11 @@
    1
   ],
   [
-   "sentientpublications.com",
-   1
-  ],
-  [
-   "nonduality.com",
-   1
-  ],
-  [
    "kundaliniandcelltowers.com",
    1
   ],
   [
-   "advaita.org.uk",
-   1
-  ],
-  [
    "forumserver.twoplustwo.com",
-   1
-  ],
-  [
-   "tatfoundation.org",
    1
   ],
   [
@@ -446,7 +574,27 @@
    1
   ],
   [
+   "us.amazon.com",
+   1
+  ],
+  [
    "programs.newdimensions.org",
+   1
+  ],
+  [
+   "tunein.com",
+   1
+  ],
+  [
+   "libro.fm",
+   1
+  ],
+  [
+   "newdimensions.org",
+   1
+  ],
+  [
+   "purl.stanford.edu",
    1
   ],
   [
@@ -454,15 +602,7 @@
    1
   ],
   [
-   "audible.com",
-   1
-  ],
-  [
    "betterworldbooks.com",
-   1
-  ],
-  [
-   "storytel.com",
    1
   ],
   [
@@ -490,10 +630,6 @@
    1
   ],
   [
-   "eurobuch.at",
-   1
-  ],
-  [
    "spirituelle-krisen.net",
    1
   ],
@@ -514,19 +650,7 @@
    1
   ],
   [
-   "rob-being.blogspot.com",
-   1
-  ],
-  [
    "vedamsbooks.com",
-   1
-  ],
-  [
-   "ci.nii.ac.jp",
-   1
-  ],
-  [
-   "amazon.co.uk",
    1
   ],
   [
@@ -534,11 +658,15 @@
    1
   ],
   [
-   "tertulia.com",
+   "ebay.de",
    1
   ],
   [
-   "ebay.de",
+   "de.mgwiki.top",
+   1
+  ],
+  [
+   "deutsch.wikibrief.org",
    1
   ],
   [
@@ -551,10 +679,6 @@
   ],
   [
    "actualfreedom.com.au",
-   1
-  ],
-  [
-   "librarycat.org",
    1
   ],
   [
@@ -574,19 +698,275 @@
    1
   ],
   [
-   "thriftbooks.com",
-   1
-  ],
-  [
-   "integrallife.com",
-   1
-  ],
-  [
-   "beingwithoutself.org",
-   1
-  ],
-  [
    "reach.dog",
+   1
+  ],
+  [
+   "community.integrallife.com",
+   1
+  ],
+  [
+   "p2pfoundation.net",
+   1
+  ],
+  [
+   "poj.peeters-leuven.be",
+   1
+  ],
+  [
+   "cambridge.org",
+   1
+  ],
+  [
+   "paperbackswap.com",
+   1
+  ],
+  [
+   "stafforini.com",
+   1
+  ],
+  [
+   "searchwithin.org",
+   1
+  ],
+  [
+   "biblio.co.uk",
+   1
+  ],
+  [
+   "TATFoundation.org",
+   1
+  ],
+  [
+   "realtruthlife.blogspot.com",
+   1
+  ],
+  [
+   "kosmosjournal.org",
+   1
+  ],
+  [
+   "spiritrambler.blogspot.com",
+   1
+  ],
+  [
+   "capitalistaxiomatic.blogspot.com",
+   1
+  ],
+  [
+   "etd.ohiolink.edu",
+   1
+  ],
+  [
+   "escholarship.org",
+   1
+  ],
+  [
+   "ruor.uottawa.ca",
+   1
+  ],
+  [
+   "garrisoninstitute.org",
+   1
+  ],
+  [
+   "otani.repo.nii.ac.jp",
+   1
+  ],
+  [
+   "m.cafe.daum.net",
+   1
+  ],
+  [
+   "calil.jp",
+   1
+  ],
+  [
+   "kosho.or.jp",
+   1
+  ],
+  [
+   "bookmeter.com",
+   1
+  ],
+  [
+   "sessendo.hatenablog.jp",
+   1
+  ],
+  [
+   "hanmoto.com",
+   1
+  ],
+  [
+   "kinokuniya.co.jp",
+   1
+  ],
+  [
+   "books.rakuten.co.jp",
+   1
+  ],
+  [
+   "honto.jp",
+   1
+  ],
+  [
+   "hoepli.it",
+   1
+  ],
+  [
+   "amazon.it",
+   1
+  ],
+  [
+   "mondadoristore.it",
+   1
+  ],
+  [
+   "abebooks.it",
+   1
+  ],
+  [
+   "libraccio.it",
+   1
+  ],
+  [
+   "unilibro.it",
+   1
+  ],
+  [
+   "istitutobeck.com",
+   1
+  ],
+  [
+   "jongbloed.nl",
+   1
+  ],
+  [
+   "ongrond.nl",
+   1
+  ],
+  [
+   "bruna.nl",
+   1
+  ],
+  [
+   "prd-boekdb.s3.eu-central-1.amazonaws.com",
+   1
+  ],
+  [
+   "bol.com",
+   1
+  ],
+  [
+   "actualitte.com",
+   1
+  ],
+  [
+   "gibert.com",
+   1
+  ],
+  [
+   "editions-tredaniel.com",
+   1
+  ],
+  [
+   "fnac.com",
+   1
+  ],
+  [
+   "chez-mon-libraire.fr",
+   1
+  ],
+  [
+   "decitre.fr",
+   1
+  ],
+  [
+   "revue3emillenaire.com",
+   1
+  ],
+  [
+   "libcat.library.tamu.edu",
+   1
+  ],
+  [
+   "theportobellobookshop.com",
+   1
+  ],
+  [
+   "lehmanns.de",
+   1
+  ],
+  [
+   "redshelf.com",
+   1
+  ],
+  [
+   "adlibris.com",
+   1
+  ],
+  [
+   "valsec.barnesandnoble.com",
+   1
+  ],
+  [
+   "tatteredcover.com",
+   1
+  ],
+  [
+   "akademibokhandeln.se",
+   1
+  ],
+  [
+   "books.apple.com",
+   1
+  ],
+  [
+   "ereader.exlibris.ch",
+   1
+  ],
+  [
+   "catalog.carnegiestout.org",
+   1
+  ],
+  [
+   "eden.co.uk",
+   1
+  ],
+  [
+   "sureshotbooks.com",
+   1
+  ],
+  [
+   "amazon.ca",
+   1
+  ],
+  [
+   "booklooker.de",
+   1
+  ],
+  [
+   "medimops.de",
+   1
+  ],
+  [
+   "kobo.com",
+   1
+  ],
+  [
+   "metacast.app",
+   1
+  ],
+  [
+   "degruyterbrill.com",
+   1
+  ],
+  [
+   "jstor.org",
+   1
+  ],
+  [
+   "kimdebeus.com",
    1
   ],
   [
@@ -615,10 +995,6 @@
   ],
   [
    "tesli.org",
-   1
-  ],
-  [
-   "amazon.in",
    1
   ]
  ]

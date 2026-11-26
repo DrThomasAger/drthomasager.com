@@ -103,22 +103,27 @@
    "dvd-orders",
    "host-blogspot",
    "format-web-site",
-   "place-california"
+   "place-california",
+   "note",
+   "format-article"
   ],
   "confidence": "S",
   "sources": [
    "http://bernadettesfriends.blogspot.com/",
-   "https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/"
+   "https://josephbray.wordpress.com/2012/10/16/what-is-self-a-journey-with-the-christian-mystic-bernadette-roberts/",
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html"
   ],
   "origin": "archives",
   "also_titled": [
    "BERNADETTE'S FRIENDS (bernadettesfriends.blogspot.com)",
-   "bernadettesfriends.blogspot.com (Bernadette's Friends)"
+   "bernadettesfriends.blogspot.com (Bernadette's Friends)",
+   "Warning note on The Real Christ (blog essay, Bernadette's Friends blog)"
   ],
   "origins": [
    "archives",
    "text",
-   "wave2-gaps"
+   "wave2-gaps",
+   "wave3-writings"
   ]
  },
  {
@@ -743,7 +748,13 @@
    "2020s",
    "2021",
    "format-blog-post",
-   "confidence-s"
+   "confidence-s",
+   "retreat",
+   "free-streaming",
+   "announcement",
+   "video",
+   "host-unnamed-website-announced-by-the-aquarian-catholic-spiritual-community",
+   "format-retreat"
   ],
   "confidence": "S",
   "sources": [
@@ -751,11 +762,13 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available' (notice, Sept 2021)"
+   "Aquarian Catholic Spiritual Community: 'Bernadette Roberts Talks Available' (notice, Sept 2021)",
+   "Bernadette Roberts retreat talks free to view (retreat videos, announced by Aquarian Catholic Spiritual Community, 2021)"
   ],
   "origins": [
    "archives",
-   "wave2-gaps"
+   "wave2-gaps",
+   "wave3-recordings"
   ]
  },
  {
@@ -1053,7 +1066,7 @@
   "title": "TAT Forum (TAT Foundation) 2006 retreat report",
   "date": "2006-08",
   "year": 2006,
-  "place": "Loveland, Ohio, USA",
+  "place": "Grailville, Loveland, Ohio",
   "people": [
    "Dan Garmat",
    "Heidi Munn",
@@ -1064,7 +1077,7 @@
   "duration": null,
   "host": "tatfoundation.org",
   "url": "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm",
-  "description": "Photograph captioned 'Bernadette Roberts at Loveland OH retreat, May 2006', embedded in the TAT Forum (August 2006 issue) report on her retreat; the article also cites the May 2006 retreat brochure. Photographer uncredited (a TAT Foundation attendee); copyright TAT Foundation / photographer, no open licence stated. The only dated, captioned retreat photograph of her found online.",
+  "description": "Retreat held at Grailville (300-acre retreat centre near Cincinnati) in early May 2006; article describes six double-sided handout sheets. Search returned no photographer credit for the retreat photo; copyright TAT Foundation by default. The TAT notes were reposted on indiadivine.org.",
   "tags": [
    "retreat-report",
    "tat-foundation",
@@ -1077,17 +1090,12 @@
    "format-magazine-article",
    "lang-en",
    "confidence-s",
-   "photograph",
-   "retreat",
-   "ohio",
-   "image",
-   "person-roberts",
-   "format-photograph",
-   "place-usa",
    "photo",
    "grailville",
    "2006-retreat",
    "licence-unknown",
+   "image",
+   "person-roberts",
    "format-web-article-with-photo",
    "place-india"
   ],
@@ -1098,12 +1106,10 @@
   ],
   "origin": "archives",
   "also_titled": [
-   "Bernadette Roberts at Loveland OH retreat, May 2006",
    "TAT Forum Aug 2006: 'The Essence of Christian Mysticism: Reflections on a weekend retreat with Bernadette Roberts — part 1' (Dan Garmat & Heidi Munn)"
   ],
   "origins": [
    "archives",
-   "images",
    "wave2-gaps"
   ]
  },
@@ -1631,14 +1637,15 @@
   "year": 1994,
   "place": "California, USA",
   "people": [
-   "Bernadette Roberts"
+   "Bernadette Roberts",
+   "Pat Masters"
   ],
   "format": "DVD set, 4 files, with handouts",
   "language": "en",
   "duration": "approx. 9 hours",
   "host": "bernadetteroberts.blogspot.com",
   "url": "https://bernadetteroberts.blogspot.com/p/dvdcd.html",
-  "description": "The annual retreat she gave for about thirty years (for practising Christian contemplatives who had read her first three books), recorded once so that it could be distributed as a DVD set, after which she stopped giving it live. She regarded it as a prerequisite for reading The Real Christ. Nine hours of talks in four files plus handouts. Sold through the friends-run blog; masters held by Bernadette's Friends (her student circle) / her estate. One of only two authorized recordings of her; the blog states that no video or audio of her on YouTube or elsewhere is authorized.",
+  "description": "Recording of the retreat Roberts gave annually for about 30 years, presenting the essence of Christian mysticism as Trinity, Christ and Faith; nine hours of talks in four files with handouts, offered as a DVD set (Wikipedia also lists a CD) through her site. She regarded it as a prerequisite for The Real Christ; the nine-hour series ends with questions and answers. Dates conflict: Wikipedia bibliography 2004 (CD) and 2012 (DVD) in different versions; 1994 elsewhere. The site states there are no authorized videos or audio of her on YouTube or any other site. Phoenix Kennedy's Kindle 'Commentary on The Essence of Christian Mysticism' is written to accompany the videos.",
   "tags": [
    "retreat",
    "dvd",
@@ -1678,7 +1685,15 @@
    "masters",
    "archive",
    "host-blogspot",
-   "format-web-page"
+   "format-web-page",
+   "cd",
+   "trinity",
+   "christ",
+   "faith",
+   "official",
+   "person-masters",
+   "host-bernadette-roberts-official-site-recorded-talks-page-managed-by-pat-masters-for-bernadette-s-friends",
+   "format-dvd-set"
   ],
   "confidence": "S",
   "sources": [
@@ -1687,20 +1702,23 @@
    "http://bernadettesfriends.blogspot.com/",
    "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148",
    "https://www.aquariancatholicspiritualcommunity.net/devotional/bernadette-roberts-talks-available",
-   "http://bernadetteroberts.blogspot.com/"
+   "http://bernadetteroberts.blogspot.com/",
+   "https://us.amazon.com/Commentary-Essence-Christian-Mysticism-exploration-ebook/dp/B0965QSXW8"
   ],
   "origin": "av",
   "also_titled": [
    "A Passage Through Self (recorded talk, 2-DVD set)",
    "A Passage Through Self / The Essence of Christian Mysticism — DVD set packaging (recorded retreat)",
    "BERNADETTE ROBERTS: RECORDED TALKS (DVD/CD page)",
-   "bernadetteroberts.blogspot.com: Recorded Talks page (DVD/CD)"
+   "bernadetteroberts.blogspot.com: Recorded Talks page (DVD/CD)",
+   "The Essence of Christian Mysticism (retreat DVD set, Bernadette's Friends / bernadetteroberts.blogspot.com, 2004 or 2012)"
   ],
   "origins": [
    "av",
    "images",
    "text",
-   "wave2-gaps"
+   "wave2-gaps",
+   "wave3-recordings"
   ]
  },
  {
@@ -1719,7 +1737,7 @@
   "duration": "58 min",
   "host": "newdimensions.org",
   "url": "https://programs.newdimensions.org/products/the-passion-of-grace-with-bernadette-roberts",
-  "description": "Public-radio interview, host Michael Toms, interview date 1 August 1991, program number 2276. She discusses the nature of self and its relation to God, grace, the spiritual value of suffering, the Virgin Mary and prayer. Sold as MP3 by New Dimensions Foundation (who hold the master) and distributed as a 58-minute unabridged audiobook on Google Play, Barnes & Noble and Everand. The only broadcast interview of her found.",
+  "description": "New Dimensions program 2276, interview with Michael Toms dated 1991-08-01, on allowing grace into one's life despite its surprising consequences. Sold as an MP3 download ($1.99) from the New Dimensions archive store (also mirrored at reach.dog); streamed on TuneIn; distributed as an audiobook (ISBN 9781987138269) via Everand, Hoopla, Libro.fm and Storytel. Featured in the New Dimensions 'Networks of Grace' spotlight of 2019-11-06 (and later 'Networks of Grace' spotlights, 2022). The New Dimensions Media records (incl. master tapes) are held at Stanford Special Collections.",
   "tags": [
    "radio",
    "interview",
@@ -1736,16 +1754,31 @@
    "lang-en",
    "has-duration",
    "place-usa",
-   "confidence-s"
+   "confidence-s",
+   "mp3",
+   "host-new-dimensions-radio-new-dimensions-foundation-ukiah-california",
+   "format-radio-interview"
   ],
   "confidence": "S",
   "sources": [
    "https://programs.newdimensions.org/products/the-passion-of-grace-with-bernadette-roberts",
    "https://www.barnesandnoble.com/w/the-passion-of-grace-bernadette-roberts/1133703349",
    "https://play.google.com/store/audiobooks/details/The_Passion_of_Grace?id=AQAAAEAs1TWVCM&hl=en_US&gl=US",
-   "https://www.everand.com/audiobook/712554085/The-Passion-of-Grace"
+   "https://www.everand.com/audiobook/712554085/The-Passion-of-Grace",
+   "https://tunein.com/podcasts/Education/The-Passion-of-Grace-p3618644",
+   "https://www.hoopladigital.com/audiobook/the-passion-of-grace-bernadette-roberts/13745133",
+   "https://libro.fm/audiobooks/9781987138269-the-passion-of-grace",
+   "https://newdimensions.org/spotlight-2019-11-06-networks-of-grace/",
+   "https://purl.stanford.edu/bj250ww9882"
   ],
-  "origin": "av"
+  "origin": "av",
+  "also_titled": [
+   "The Passion of Grace (radio interview, New Dimensions Radio, 1991)"
+  ],
+  "origins": [
+   "av",
+   "wave3-recordings"
+  ]
  },
  {
   "id": "i81c52dfa",
@@ -1781,7 +1814,11 @@
    "dancing-paradox",
    "unauthorised",
    "image",
-   "format-still"
+   "format-still",
+   "dvd-excerpt",
+   "unauthorized-upload",
+   "host-youtube-third-party-upload",
+   "format-video"
   ],
   "confidence": "S",
   "sources": [
@@ -1789,15 +1826,18 @@
    "https://www.listennotes.com/podcasts/dancing-paradox-alex-hickman-STq4MX-d605/",
    "https://podtail.com/en/podcast/dancing-paradox/bernadette-roberts-the-path-to-no-self/",
    "https://podcasts.apple.com/us/podcast/bernadette-roberts-the-path-to-no-self/id1326902050?i=1000595862178",
+   "https://podtail.com/en/podcast/dancing-paradox/",
    "https://en.wikipedia.org/wiki/Bernadette_Roberts"
   ],
   "origin": "av",
   "also_titled": [
-   "'Bernadette Roberts on why Christ is not in Christianity' — YouTube video of Roberts speaking (still)"
+   "'Bernadette Roberts on why Christ is not in Christianity' — YouTube video of Roberts speaking (still)",
+   "Bernadette Roberts on why Christ is not in Christianity (DVD excerpt, YouTube, The Essence of Christian Mysticism)"
   ],
   "origins": [
    "av",
-   "images"
+   "images",
+   "wave3-recordings"
   ]
  },
  {
@@ -1852,7 +1892,7 @@
   "duration": null,
   "host": "youtube.com",
   "url": "https://www.youtube.com/watch?v=irGOg8urye8",
-  "description": "YouTube id irGOg8urye8. Excerpt from the recorded retreat, on the Eucharist. Same series. [Checked: Existence confirmed: search returns youtube.com/watch?v=irGOg8urye8 titled 'Bernadette Roberts on the Eucharist' in the same uploader's series of DVD excerpts. No recording or upload date in snippets.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-hour DVD series in another. Wikipedia says she gave annual retreats under that title for about thirty years; one revision of its bibliography dates the title 2004 and another 2012. Neither is a confirmed recording year, and no upload date shows in snippets, so the year stays null.]",
+  "description": "Excerpt on the Eucharist; the video carries the watermark www.bernadetterobertsisnotmyguru.com. Companion clip 'on being transformed into the Eucharist' (DsuWkp8TCgM) continues the discussion with a personal story. [Checked: Existence confirmed: search returns youtube.com/watch?v=irGOg8urye8 titled 'Bernadette Roberts on the Eucharist' in the same uploader's series of DVD excerpts. No recording or upload date in snippets.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-hour DVD series in another. Wikipedia says she gave annual retreats under that title for about thirty years; one revision of its bibliography dates the title 2004 and another 2012. Neither is a confirmed recording year, and no upload date shows in snippets, so the year stays null.]",
   "tags": [
    "excerpt",
    "dvd-rip",
@@ -1865,14 +1905,26 @@
    "host-youtube-com",
    "format-youtube-video",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "dvd-excerpt",
+   "host-youtube-upload-watermarked-www-bernadetterobertsisnotmyguru-com-i-e-phoenix-kennedy",
+   "format-video",
+   "confidence-s"
   ],
   "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=irGOg8urye8",
+   "https://www.youtube.com/watch?v=DsuWkp8TCgM",
    "https://www.youtube.com/playlist?list=PLni-GlNUOJfZQx47wittRX-i63CvNV2E8"
   ],
-  "origin": "av"
+  "origin": "av",
+  "also_titled": [
+   "Bernadette Roberts on the Eucharist (DVD excerpt, YouTube, bernadetterobertsisnotmyguru.com)"
+  ],
+  "origins": [
+   "av",
+   "wave3-recordings"
+  ]
  },
  {
   "id": "i9da5f574",
@@ -2225,6 +2277,43 @@
    "https://static.audiobooksnow.com/audiobook/the-passion-of-grace/7233955/"
   ],
   "origin": "av"
+ },
+ {
+  "id": "i66f3635b",
+  "medium": "image",
+  "title": "Bernadette Roberts at Loveland OH retreat, May 2006",
+  "date": "2006-05",
+  "year": 2006,
+  "place": "Loveland, Ohio, USA",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "photograph",
+  "language": "en",
+  "duration": null,
+  "host": "tatfoundation.org",
+  "url": "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm",
+  "description": "Photograph captioned 'Bernadette Roberts at Loveland OH retreat, May 2006', embedded in the TAT Forum (August 2006 issue) report on her retreat; the article also cites the May 2006 retreat brochure. Photographer uncredited (a TAT Foundation attendee); copyright TAT Foundation / photographer, no open licence stated. The only dated, captioned retreat photograph of her found online.",
+  "tags": [
+   "photograph",
+   "retreat",
+   "2006",
+   "ohio",
+   "tat-foundation",
+   "image",
+   "2000s",
+   "person-roberts",
+   "host-tatfoundation-org",
+   "format-photograph",
+   "lang-en",
+   "place-usa",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://tatfoundation.org/tat-forum-archives/forum2006-08.htm"
+  ],
+  "origin": "images"
  },
  {
   "id": "ia50e7d76",
@@ -3282,7 +3371,7 @@
   "duration": null,
   "host": "books.google.com",
   "url": "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ",
-  "description": "Earlier self-published essay collection, 2007, 161 pp (Google Books id 4Cey0AEACAAJ). Contents include: The spiritual journey recapitulates the history of religion; Cessation of self; Nonduality; Mystical theology and no-self; Image and likeness; Apatheia; Means-end; The eucharist, a Christian path. Publisher/ISBN not shown in search results. [Checked: Not confirmed. Search snippets show Wikipedia listing a self-published 'Essays on the Christian Contemplative Journey' dated 2012 (not 2007), and the later published form 'The Christian Contemplative Journey: Essays on the Path' (ContemplativeChristians.com Publishing, 2 Dec 2017, ISBN 9780692987216, 306 pp). The 2007 Google Books record did not surface; year left null pending direct check (2007 vs 2012 conflict).] [Checked: Searched again: Wikipedia's bibliography dates 'Essays on the Christian Contemplative Journey' to 2012 (and Contemplative: Autobiography of the Early Years to 2007). The published successor is The Christian Contemplative Journey: Essays on the Path, ContemplativeChristians.com Publishing, 2 Dec 2017, 306 pp., ISBN 9780692987216, with the same essay titles. The 2007 date rests only on the Google Books record 4Cey0AEACAAJ and conflicts with Wikipedia's 2012. Kept T.]",
+  "description": "Contents of the first, self-published essay collection Essays on the Christian Contemplative Journey (Bernadette Roberts, 2007; Google Books gives 161 pp). Google Books' contents snippet names (order beyond the first not fully shown): The Spiritual Journey Recapitulates the History of Religion (first); Cessation of Self; Nonduality; Mystical Theology and No-Self; Image and Likeness; Apatheia; Means-End; Interview; Women and Mysticism; The Eucharist: A Christian Path. The 2017 PDF's front matter says it was first published in 2007 as Essays on the Christian Contemplative Journey. Wikipedia dates a self-published edition to 2012. [Checked: Not confirmed. Search snippets show Wikipedia listing a self-published 'Essays on the Christian Contemplative Journey' dated 2012 (not 2007), and the later published form 'The Christian Contemplative Journey: Essays on the Path' (ContemplativeChristians.com Publishing, 2 Dec 2017, ISBN 9780692987216, 306 pp). The 2007 Google Books record did not surface; year left null pending direct check (2007 vs 2012 conflict).] [Checked: Searched again: Wikipedia's bibliography dates 'Essays on the Christian Contemplative Journey' to 2012 (and Contemplative: Autobiography of the Early Years to 2007). The published successor is The Christian Contemplative Journey: Essays on the Path, ContemplativeChristians.com Publishing, 2 Dec 2017, 306 pp., ISBN 9780692987216, with the same essay titles. The 2007 date rests only on the Google Books record 4Cey0AEACAAJ and conflicts with Wikipedia's 2012. Kept T.]",
   "tags": [
    "essays-christian-contemplative-journey",
    "2007",
@@ -3294,15 +3383,32 @@
    "format-book-edition",
    "lang-en",
    "place-usa",
-   "confidence-t"
+   "confidence-t",
+   "table-of-contents",
+   "essay-collection",
+   "format-table-of-contents",
+   "essay",
+   "2007-collection",
+   "format-book-chapter",
+   "format-essay"
   ],
   "confidence": "T",
   "sources": [
    "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ",
+   "https://dn721605.ca.archive.org/0/items/roberts.christian-contemplative-journey/roberts.christian-contemplative-journey.pdf",
    "https://en.wikipedia.org/wiki/Bernadette_Roberts",
    "https://tertulia.com/book/the-christian-contemplative-journey-essays-on-the-path-bernadette-roberts/9780692987216"
   ],
-  "origin": "text"
+  "origin": "text",
+  "also_titled": [
+   "Essays on the Christian Contemplative Journey - contents (table of contents, self-published, 2007)",
+   "Interview (book chapter, Essays on the Christian Contemplative Journey, 2007)",
+   "Women and Mysticism (essay, Essays on the Christian Contemplative Journey, 2007)"
+  ],
+  "origins": [
+   "text",
+   "wave3-writings"
+  ]
  },
  {
   "id": "i862f0990",
@@ -3978,7 +4084,7 @@
   "duration": null,
   "host": "ebay.de",
   "url": "https://www.ebay.de/itm/267428261678",
-  "description": "German paperback (Taschenbuch) edition of The Path to No-Self seen only as an eBay.de listing; publisher, translator, year and ISBN not retrieved. A German 'Das Erlebnis des Nicht-Selbst' (Experience of No-Self) was NOT found in any listing; wants a DNB/ZVAB check. [Checked: Search for the German title with Verlag/ISBN returned only the eBay.de listing itself; the snippet attached to it gives SUNY Press ISBN 0791411427 / 9780791411421, 1991, 232 pp, i.e. the listing may be the English SUNY paperback under a German-translated title rather than a real German translation. No German edition confirmed; DNB check still needed.] [Checked: A second search with the German title plus Verlag returned only the eBay.de listing; its snippet carries the SUNY 1991 data, which may be the English book listed under a German title. No German publisher, translator or ISBN found. Still a lead. A Dutch translation of The Experience of No-Self, 'De ervaring van het niet-zelf', did surface in the Dutch library catalogue (https://www.bibliotheek.nl/catalogus/titel.431688184.html/de-ervaring-van-het-niet-zelf); it is a separate item, not yet in the archive.]",
+  "description": "Listed as a German 'Taschenbuch' rendering of The Path to No-Self: Life at the Center. German-language Wikipedia mirrors (de.mgwiki.top, deutsch.wikibrief.org) list 'Der Weg zum Nicht-Selbst: Das Leben im Zentrum (1985)' with the SUNY 1991 reissue ISBN 0-7914-1142-7, i.e. a German gloss of the English title in a works list, not a German edition. No German publisher, year, ISBN or translator was found in Amazon.de, ZVAB, booklooker, eurobuch, medimops or Arbor results; the only German book translation found is Jenseits von Ego und Selbst (Arbor, 1997). Most likely the eBay item is the English SUNY/Shambhala paperback under a translated title. Update to an already-known lead. [Checked: Search for the German title with Verlag/ISBN returned only the eBay.de listing itself; the snippet attached to it gives SUNY Press ISBN 0791411427 / 9780791411421, 1991, 232 pp, i.e. the listing may be the English SUNY paperback under a German-translated title rather than a real German translation. No German edition confirmed; DNB check still needed.] [Checked: A second search with the German title plus Verlag returned only the eBay.de listing; its snippet carries the SUNY 1991 data, which may be the English book listed under a German title. No German publisher, translator or ISBN found. Still a lead. A Dutch translation of The Experience of No-Self, 'De ervaring van het niet-zelf', did surface in the Dutch library catalogue (https://www.bibliotheek.nl/catalogus/titel.431688184.html/de-ervaring-van-het-niet-zelf); it is a separate item, not yet in the archive.]",
   "tags": [
    "translation",
    "german",
@@ -3988,14 +4094,27 @@
    "host-ebay-de",
    "format-translation",
    "lang-de",
-   "confidence-lead"
+   "confidence-lead",
+   "the-path-to-no-self",
+   "update-of-known",
+   "probably-not-a-translation",
+   "host-www-ebay-de"
   ],
   "confidence": "lead",
   "sources": [
    "https://www.ebay.de/itm/267428261678",
-   "https://www.zvab.com/buch-suchen/textsuche/bernadette-roberts/buch/"
+   "https://www.zvab.com/buch-suchen/textsuche/bernadette-roberts/buch/",
+   "https://de.mgwiki.top/wiki/Bernadette_Roberts",
+   "https://deutsch.wikibrief.org/wiki/Bernadette_Roberts"
   ],
-  "origin": "text"
+  "origin": "text",
+  "also_titled": [
+   "Der Weg zum Nicht-Selbst: Das Leben im Zentrum (publisher unconfirmed, year unconfirmed, German)"
+  ],
+  "origins": [
+   "text",
+   "wave3-editions"
+  ]
  },
  {
   "id": "i0fef65d2",
@@ -4546,7 +4665,7 @@
   "duration": "",
   "host": "YouTube",
   "url": "https://www.youtube.com/watch?v=29wjxzg8GSQ",
-  "description": "Her reply to a question at the end of the 9-hour DVD series. [Checked: Snippet confirms: her reply to a question asked at the end of the nine-hour DVD series, on the Ascension. The nine-hour retreat recording is undated in snippets (Wikipedia footnote mentions 'a nine-hour recording of this retreat' but is cut off); upload date not shown.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-hour DVD series in another. Wikipedia says she gave annual retreats under that title for about thirty years; one revision of its bibliography dates the title 2004 and another 2012. Neither is a confirmed recording year, and no upload date shows in snippets, so the year stays null. This clip's description: 'a reply to a question at the end of her 9 hour long DVD series called The Essence of Christian Mysticism'.]",
+  "description": "Her reply to a question at the end of the nine-hour 'Essence of Christian Mysticism' retreat series, on the Resurrection and Ascension, speaking from experience. Third-party upload; unauthorized per her official site. [Checked: Snippet confirms: her reply to a question asked at the end of the nine-hour DVD series, on the Ascension. The nine-hour retreat recording is undated in snippets (Wikipedia footnote mentions 'a nine-hour recording of this retreat' but is cut off); upload date not shown.] [Checked: Searched the DVD-excerpt series as a group (open web and youtube.com): clip descriptions call the parent recording 'The Essence of Christian Mysticism', a four-hour DVD set in one description and a nine-hour DVD series in another. Wikipedia says she gave annual retreats under that title for about thirty years; one revision of its bibliography dates the title 2004 and another 2012. Neither is a confirmed recording year, and no upload date shows in snippets, so the year stays null. This clip's description: 'a reply to a question at the end of her 9 hour long DVD series called The Essence of Christian Mysticism'.]",
   "tags": [
    "dvd-excerpt",
    "essence-of-christian-mysticism",
@@ -4557,13 +4676,25 @@
    "host-youtube",
    "format-youtube-clip",
    "lang-en",
-   "confidence-s"
+   "confidence-s",
+   "q-a",
+   "resurrection",
+   "ascension",
+   "host-youtube-third-party-upload",
+   "format-video"
   ],
   "confidence": "S",
   "sources": [
    "https://www.youtube.com/watch?v=29wjxzg8GSQ"
   ],
-  "origin": "wave2-gaps"
+  "origin": "wave2-gaps",
+  "also_titled": [
+   "Bernadette Roberts on the Resurrection and Ascension speaking from experience (DVD excerpt, YouTube, The Essence of Christian Mysticism)"
+  ],
+  "origins": [
+   "wave2-gaps",
+   "wave3-recordings"
+  ]
  },
  {
   "id": "i836bebbe",
@@ -4884,9 +5015,9 @@
   "id": "if55e553e",
   "medium": "archive",
   "title": "SAND archive speaker page: Bernadette Roberts",
-  "date": "",
-  "year": null,
-  "place": "",
+  "date": "2015-10-22",
+  "year": 2015,
+  "place": "San Jose, California",
   "people": [
    "Bernadette Roberts"
   ],
@@ -4895,7 +5026,7 @@
   "duration": "",
   "host": "archive.scienceandnonduality.com",
   "url": "https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/",
-  "description": "Speaker page exists on the SAND archive site; whether it carries a session video is not shown in snippets (SAND YouTube channel returned nothing for her). [Checked: Speaker page confirmed on both scienceandnonduality.com and the archive subdomain (no bio text in snippet). The SAND 'Anthology Vol. 7' video page lists an in-depth interview with Bernadette Roberts (with Chopra, Wallace, Kiloby, Tollifson et al.) - likely the SAND session/interview; anthology year not found. Her paper 'Non-duality as a definition of Christ' is dated by her blog to SAND San Jose, 22 Oct 2015 (SAND 2015 ran 21-25 Oct, Dolce Hayes Mansion), but no SAND page tying her to 2015 surfaced, so year left null.] [Checked: Search confirms SAND Anthology Vol. 7 lists 'an in-depth interview with Bernadette Roberts' among its conversations (with Chopra, Alan Wallace, Joan Tollifson and others). The interview's recording year and length are not shown; the year stays null.]",
+  "description": "Roberts presented the paper 'Nonduality as a Definition of Christ' at the SAND conference in San Jose on 22 October 2015 (paper text offered on her Papers for Download page). An attendee recalls seeing her present in person. No audio or video recording of the session was found in search results; SAND's archive and YouTube channel are where a recording would be. [Checked: Speaker page confirmed on both scienceandnonduality.com and the archive subdomain (no bio text in snippet). The SAND 'Anthology Vol. 7' video page lists an in-depth interview with Bernadette Roberts (with Chopra, Wallace, Kiloby, Tollifson et al.) - likely the SAND session/interview; anthology year not found. Her paper 'Non-duality as a definition of Christ' is dated by her blog to SAND San Jose, 22 Oct 2015 (SAND 2015 ran 21-25 Oct, Dolce Hayes Mansion), but no SAND page tying her to 2015 surfaced, so year left null.] [Checked: Search confirms SAND Anthology Vol. 7 lists 'an in-depth interview with Bernadette Roberts' among its conversations (with Chopra, Alan Wallace, Joan Tollifson and others). The interview's recording year and length are not shown; the year stays null.]",
   "tags": [
    "sand",
    "speaker-page",
@@ -4905,16 +5036,36 @@
    "host-archive-scienceandnonduality-com",
    "format-web-page",
    "lang-en",
-   "confidence-lead"
+   "confidence-lead",
+   "conference",
+   "christ",
+   "nonduality",
+   "recording-unconfirmed",
+   "video",
+   "2010s",
+   "2015",
+   "host-science-and-nonduality-sand-conference-sand15-us",
+   "format-conference-talk",
+   "place-california"
   ],
   "confidence": "S",
   "sources": [
    "https://www.archive.scienceandnonduality.com/speakers/bernadette-roberts/",
+   "http://bernadetteroberts.blogspot.com/p/research-paper.html",
+   "https://o-meditation.com/wp-content/uploads/2019/12/non-duality-as-a-definition-of-christ-3.pdf",
+   "https://www.spiritualteachers.org/bernadette-roberts/",
    "https://www.scienceandnonduality.com/speakers/bernadette-roberts/",
    "https://www.scienceandnonduality.com/video/watch-the-full-sand-anthology-vol-7",
    "https://scienceandnonduality.com/article/nondual-christianity-seriously/"
   ],
-  "origin": "wave2-gaps"
+  "origin": "wave2-gaps",
+  "also_titled": [
+   "Nonduality as a Definition of Christ (conference talk, Science and Nonduality (SAND), San Jose, 2015)"
+  ],
+  "origins": [
+   "wave2-gaps",
+   "wave3-recordings"
+  ]
  },
  {
   "id": "i505e962f",
@@ -5539,5 +5690,3707 @@
    "https://freddieyam.com/wordpress/bernadette-robertss-assessment-of-anadi-kristof-aziz/"
   ],
   "origin": "wave2-gaps"
+ },
+ {
+  "id": "iea6deb9c",
+  "medium": "text",
+  "title": "Indistinct Union: An Integral Introduction to Nonduality in Christianity (journal article, Christopher Dierkes, Journal of Integral Theory and Practice 5(3), 2010)",
+  "date": "2010",
+  "year": 2010,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Christopher Dierkes"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "Integral Life",
+  "url": "https://integrallife.com/wp-content/uploads/2022/09/JITP-050309-NondualChristianity.pdf",
+  "description": "Explores the work of Bernadette Roberts, 'a little-known contemporary Catholic Christian mystic', as the basis for a renewed Christian map of mystical consciousness; argues her state beyond union supplies a missing nondual stage ('indistinct union') in Christian maps. JITP vol. 5 no. 3, pp. 137-156. Year of the issue not shown in results (vol. 5 = 2010).",
+  "tags": [
+   "academic",
+   "integral-theory",
+   "nonduality",
+   "christian-mysticism",
+   "text",
+   "2010s",
+   "2010",
+   "person-roberts",
+   "person-dierkes",
+   "host-integral-life",
+   "format-journal-article",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://integrallife.com/wp-content/uploads/2022/09/JITP-050309-NondualChristianity.pdf",
+   "https://community.integrallife.com/t/indistinct-union-an-integral-introduction-to-nonduality-in-christianity/31061"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i970d491f",
+  "medium": "text",
+  "title": "Christian Nondual Approach of Bernadette Roberts (wiki article, P2P Foundation)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "P2P Foundation",
+  "url": "https://wiki.p2pfoundation.net/Christian_Nondual_Approach_of_Bernadette_Roberts",
+  "description": "Wiki page summarising Roberts's Christian nondual approach, drawing on Dierkes's 'Indistinct Union' article.",
+  "tags": [
+   "nonduality",
+   "summary",
+   "text",
+   "person-roberts",
+   "host-p2p-foundation",
+   "format-essay",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.p2pfoundation.net/Christian_Nondual_Approach_of_Bernadette_Roberts"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i54789869",
+  "medium": "text",
+  "title": "Bernadette Roberts interview (Bodian interview reposted, Awakening to Reality blog, 2007)",
+  "date": "2007",
+  "year": 2007,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Stephan Bodian"
+  ],
+  "format": "interview",
+  "language": "en",
+  "duration": null,
+  "host": "awakeningtoreality.com",
+  "url": "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html",
+  "description": "Blog repost of the 1986 Yoga Journal interview by Stephan Bodian; the blog also has a label page collecting posts on Roberts (https://www.awakeningtoreality.com/search/label/Bernadette%20Roberts).",
+  "tags": [
+   "interview",
+   "repost",
+   "buddhist-blog",
+   "text",
+   "2000s",
+   "2007",
+   "person-roberts",
+   "person-bodian",
+   "host-awakeningtoreality-com",
+   "format-interview",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i65cbcc87",
+  "medium": "text",
+  "title": "Bernadette Roberts Interview (Bodian interview copy, Scribd)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Stephan Bodian"
+  ],
+  "format": "interview",
+  "language": "en",
+  "duration": null,
+  "host": "Scribd",
+  "url": "https://www.scribd.com/document/514068864/Bernadette-Roberts-Interview",
+  "description": "Uploaded document copy of the Bodian interview (Yoga Journal Nov/Dec 1986; reprinted in Timeless Visions, Healing Voices, 1991).",
+  "tags": [
+   "interview",
+   "copy",
+   "text",
+   "person-roberts",
+   "person-bodian",
+   "host-scribd",
+   "format-interview",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.scribd.com/document/514068864/Bernadette-Roberts-Interview"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i190c0504",
+  "medium": "text",
+  "title": "Bernadette Roberts (バーナデット・ロバーツ) 1931~ (Japanese blog series, akibus, goo blog)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "akibus"
+  ],
+  "format": "essay",
+  "language": "ja",
+  "duration": null,
+  "host": "blog.goo.ne.jp",
+  "url": "https://blog.goo.ne.jp/akibus/e/3884fc6f3f168770ac7667e37e70e279",
+  "description": "Multi-part Japanese-language blog series on Roberts and the interview (parts 06-2, 06-3-3 seen; e.g. https://blog.goo.ne.jp/akibus/e/4067e463331c6117a72a9339c7d1f209). Language ja.",
+  "tags": [
+   "japanese",
+   "blog",
+   "translation",
+   "text",
+   "person-roberts",
+   "person-akibus",
+   "host-blog-goo-ne-jp",
+   "format-essay",
+   "lang-ja",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://blog.goo.ne.jp/akibus/e/3884fc6f3f168770ac7667e37e70e279",
+   "https://blog.goo.ne.jp/akibus/e/4067e463331c6117a72a9339c7d1f209"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i3d2bde90",
+  "medium": "text",
+  "title": "nonduality.com Highlights #1941 (newsletter issue featuring Roberts, nonduality.com)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Jerry Katz"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "nonduality.com",
+  "url": "https://nonduality.com/hl1941.htm",
+  "description": "Nonduality Highlights issue surfacing in searches for the Roberts no-self interview; content as shown in results only.",
+  "tags": [
+   "nonduality-com",
+   "newsletter",
+   "text",
+   "person-roberts",
+   "person-katz",
+   "host-nonduality-com",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://nonduality.com/hl1941.htm"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i890149b6",
+  "medium": "text",
+  "title": "The Gnostic Narratives of Bernadette Roberts (journal article, Arthur Versluis, Studies in Spirituality 16, 2006)",
+  "date": "2006",
+  "year": 2006,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Arthur Versluis"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "Peeters Online Journals",
+  "url": "https://poj.peeters-leuven.be/content.php?id=2017799&url=article",
+  "description": "Studies in Spirituality vol. 16 (2006), pp. 205-213. Treats Roberts as a rare modern exponent of the via negativa in Christian mysticism; her writings chronicle progressive realizations she calls 'no-self'; notes her multi-volume commentaries on her own experience and that she sees herself as a pioneer.",
+  "tags": [
+   "academic",
+   "gnosis",
+   "via-negativa",
+   "studies-in-spirituality",
+   "text",
+   "2000s",
+   "2006",
+   "person-roberts",
+   "person-versluis",
+   "host-peeters-online-journals",
+   "format-journal-article",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://poj.peeters-leuven.be/content.php?id=2017799&url=article"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i2baa329b",
+  "medium": "text",
+  "title": "Insight at Rock Bottom (paper, Barbara Schaefer, Cambridge Open Engage, 2003)",
+  "date": "2003",
+  "year": 2003,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Barbara Schaefer"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "Cambridge University Press (Open Engage)",
+  "url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/5fa57fbd92220e0012555d1a/original/insight-at-rockbottom.pdf",
+  "description": "Paper (dated Wales, April 2003) citing The Experience of No Self (SUNY, 1993) and describing Roberts's path from childhood stillness through Carmelite life to the 'loss of self'.",
+  "tags": [
+   "academic",
+   "preprint",
+   "loss-of-self",
+   "text",
+   "2000s",
+   "2003",
+   "person-roberts",
+   "person-schaefer",
+   "host-cambridge-university-press-open-engage",
+   "format-essay",
+   "lang-en",
+   "place-carmel",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/5fa57fbd92220e0012555d1a/original/insight-at-rockbottom.pdf"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i2399b7cf",
+  "medium": "text",
+  "title": "Transpersonal phenomenology: The cosmological and spiritual dimensions of the Husserlian epoché (journal article citing Roberts, ResearchGate)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "ResearchGate",
+  "url": "https://www.researchgate.net/publication/358011821_Transpersonal_phenomenology_The_cosmological_and_spiritual_dimensions_of_the_Husserlian_epoche",
+  "description": "Cites Roberts's The Experience of No-Self (1993) on the falling away of the illusory permanent ego. Citation-level discussion; author and venue not shown in results.",
+  "tags": [
+   "academic",
+   "phenomenology",
+   "citation",
+   "text",
+   "person-roberts",
+   "host-researchgate",
+   "format-journal-article",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.researchgate.net/publication/358011821_Transpersonal_phenomenology_The_cosmological_and_spiritual_dimensions_of_the_Husserlian_epoche"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "ia8ee70c8",
+  "medium": "text",
+  "title": "Introspective disputes deflated: the case for phenomenal variation (journal article citing Roberts, ResearchGate)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "ResearchGate",
+  "url": "https://www.researchgate.net/publication/320883600_Introspective_disputes_deflated_the_case_for_phenomenal_variation",
+  "description": "Philosophy-of-mind paper citing the revised edition of The Experience of No-Self in discussing non-egoic experience; citation only.",
+  "tags": [
+   "academic",
+   "philosophy-of-mind",
+   "citation",
+   "text",
+   "person-roberts",
+   "host-researchgate",
+   "format-journal-article",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.researchgate.net/publication/320883600_Introspective_disputes_deflated_the_case_for_phenomenal_variation"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i52f2fe47",
+  "medium": "text",
+  "title": "Mystics, Masters, Saints, and Sages: Stories of Enlightenment (book with a chapter on Roberts, Robert Ullman and Judyth Reichenberg-Ullman, Conari Press, 2001)",
+  "date": "2001",
+  "year": 2001,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Robert Ullman",
+   "Judyth Reichenberg-Ullman"
+  ],
+  "format": "book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "Publishers Weekly",
+  "url": "https://publishersweekly.com/978-1-57324-507-4",
+  "description": "Anthology of enlightenment stories arranged chronologically; includes a short biography of Roberts and an excerpt from The Path to No-Self (per PaperbackSwap author listing). Pages not shown.",
+  "tags": [
+   "anthology",
+   "enlightenment-stories",
+   "biography",
+   "text",
+   "2000s",
+   "2001",
+   "person-roberts",
+   "person-ullman",
+   "person-reichenberg-ullman",
+   "host-publishers-weekly",
+   "format-book-chapter",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://publishersweekly.com/978-1-57324-507-4",
+   "https://www.paperbackswap.com/Bernadette-Roberts/author/?t=al",
+   "https://stafforini.com/works/ullman-2001-mystics-masters-saints/"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i971a52b5",
+  "medium": "text",
+  "title": "Realization: Bernadette Roberts (PDF essay/compilation, Search Within)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "searchwithin.org",
+  "url": "https://www.searchwithin.org/download/realization_bernadette_roberts.pdf",
+  "description": "PDF on Roberts's realization hosted by Search Within (Self-Realization/TAT-related site); content and author not shown in results.",
+  "tags": [
+   "pdf",
+   "realization",
+   "text",
+   "person-roberts",
+   "host-searchwithin-org",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.searchwithin.org/download/realization_bernadette_roberts.pdf"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i980c71c4",
+  "medium": "text",
+  "title": "Timeless Visions, Healing Voices: Conversations with Men and Women of the Spirit (book reprinting the Roberts interview, Stephan Bodian, Crossing Press, 1991)",
+  "date": "1991",
+  "year": 1991,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Stephan Bodian"
+  ],
+  "format": "book",
+  "language": "en",
+  "duration": null,
+  "host": "biblio.co.uk",
+  "url": "https://biblio.co.uk/9780895944818",
+  "description": "Bodian's 1991 anthology of interviews (c. 200 pp., ISBN 0895944812 / 9780895944818) reprinting his written-questions interview with Roberts first published in Yoga Journal Nov/Dec 1986; Bodian notes he never met her face to face. Chapter pages not shown.",
+  "tags": [
+   "anthology",
+   "interview",
+   "yoga-journal",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "person-bodian",
+   "host-biblio-co-uk",
+   "format-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://biblio.co.uk/9780895944818",
+   "https://www.spiritualteachers.org/b_roberts_interview.htm"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i42a36e17",
+  "medium": "text",
+  "title": "Bernadette Roberts Interview (Bodian interview, Yoga Journal Nov/Dec 1986, original spiritualteachers.org page)",
+  "date": "1986",
+  "year": 1986,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Stephan Bodian"
+  ],
+  "format": "interview",
+  "language": "en",
+  "duration": null,
+  "host": "spiritualteachers.org",
+  "url": "https://www.spiritualteachers.org/b_roberts_interview.htm",
+  "description": "Older static URL of the spiritualteachers.org copy of the 1986 Yoga Journal interview: Roberts on the purgative/illuminative/unitive 'way of travel', the disappearance of the divine centre some 25 years after the transforming union, and why the Christian passage to no-self is not 'the falling away of the ego'. Conducted in writing.",
+  "tags": [
+   "interview",
+   "yoga-journal",
+   "no-self",
+   "written-interview",
+   "text",
+   "1980s",
+   "1986",
+   "person-roberts",
+   "person-bodian",
+   "host-spiritualteachers-org",
+   "format-interview",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.spiritualteachers.org/b_roberts_interview.htm",
+   "https://www.spiritualteachers.org/?p=727"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "ia4a66307",
+  "medium": "text",
+  "title": "Bernadette Roberts Interview with Stephan Bodian (repost, rob-being blog, 2014)",
+  "date": "2014",
+  "year": 2014,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Stephan Bodian"
+  ],
+  "format": "interview",
+  "language": "en",
+  "duration": null,
+  "host": "rob-being.blogspot.com",
+  "url": "http://rob-being.blogspot.com/2014/03/bernadette-roberts-interview-with.html",
+  "description": "Blog repost of the 1986 Bodian interview.",
+  "tags": [
+   "interview",
+   "repost",
+   "text",
+   "2010s",
+   "2014",
+   "person-roberts",
+   "person-bodian",
+   "host-rob-being-blogspot-com",
+   "format-interview",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "http://rob-being.blogspot.com/2014/03/bernadette-roberts-interview-with.html"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i581da10c",
+  "medium": "text",
+  "title": "Bernadette Roberts Retreat (retreat report, Kiffy Purvis and Doug White, TAT Forum, October 2006)",
+  "date": "2006",
+  "year": 2006,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Kiffy Purvis",
+   "Doug White"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "TAT Foundation",
+  "url": "https://TATFoundation.org/forum2006-10.htm",
+  "description": "TAT Forum October 2006 article 'Bernadette Roberts Retreat' by Kiffy Purvis and Doug White, with Q-and-A items apparently drawn from her retreat teaching. Distinct from the August 2006 TAT Forum item already catalogued.",
+  "tags": [
+   "retreat-report",
+   "tat-foundation",
+   "q-a",
+   "text",
+   "2000s",
+   "2006",
+   "person-roberts",
+   "person-purvis",
+   "person-white",
+   "host-tat-foundation",
+   "format-essay",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://TATFoundation.org/forum2006-10.htm"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i04092bb3",
+  "medium": "text",
+  "title": "Reseo Conference 2017: Interview with Bernadette Roberts (YouTube video, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "interview",
+  "language": "en",
+  "duration": null,
+  "host": "YouTube",
+  "url": "https://www.youtube.com/watch?v=EVXCC56e2do",
+  "description": "YouTube video so titled; results do not show content, and it is unconfirmed that the interviewee is the contemplative (she was ill with ALS in 2017). Verify before listing.",
+  "tags": [
+   "video",
+   "unverified-identity",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-youtube",
+   "format-interview",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.youtube.com/watch?v=EVXCC56e2do"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i9f3a4e6b",
+  "medium": "text",
+  "title": "The Experience of No-self by Bernadette Roberts (blog page, Real Truth Life)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "realtruthlife.blogspot.com",
+  "url": "https://realtruthlife.blogspot.com/p/experience-of-no-self.html",
+  "description": "Blog page on The Experience of No-Self; content as shown in search only.",
+  "tags": [
+   "blog",
+   "book-discussion",
+   "text",
+   "person-roberts",
+   "host-realtruthlife-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://realtruthlife.blogspot.com/p/experience-of-no-self.html"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i2d355982",
+  "medium": "text",
+  "title": "Pengalaman Tanpa-Diri (Indonesian article on Roberts, Kriya Yoga Nusantara, 2016)",
+  "date": "2016",
+  "year": 2016,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "id",
+  "duration": null,
+  "host": "Internet Archive",
+  "url": "https://archive.org/download/articles-gnosis/ARTICLES%20GNOSIS.rar/ARTICLES%20GNOSIS%2FINA%2FKRIYA%20YOGA%2FARTICLE%2F2016%2005%2FPengalaman%20Tanpa-Diri%20_%20Kriya%20Yoga%20Nusantara.pdf",
+  "description": "Indonesian-language article 'The Experience of No-Self' (May 2016) from Kriya Yoga Nusantara, preserved as a PDF in an archive.org bundle.",
+  "tags": [
+   "indonesian",
+   "translation",
+   "essay",
+   "text",
+   "2010s",
+   "2016",
+   "person-roberts",
+   "host-internet-archive",
+   "format-essay",
+   "lang-id",
+   "place-usa",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://archive.org/download/articles-gnosis/ARTICLES%20GNOSIS.rar/ARTICLES%20GNOSIS%2FINA%2FKRIYA%20YOGA%2FARTICLE%2F2016%2005%2FPengalaman%20Tanpa-Diri%20_%20Kriya%20Yoga%20Nusantara.pdf"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i607d3132",
+  "medium": "text",
+  "title": "Thusness/Wei Yu discussions of Bernadette Roberts (Awakening to Reality blog label page)",
+  "date": "2008",
+  "year": 2008,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Wei Yu (Soh)"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "awakeningtoreality.com",
+  "url": "https://www.awakeningtoreality.com/search/label/Bernadette%20Roberts",
+  "description": "Label page collecting Awakening to Reality posts on Roberts, including Thusness's 2008 chat comments assessing her no-self against Buddhist anatta.",
+  "tags": [
+   "buddhism",
+   "anatta",
+   "comparison",
+   "text",
+   "2000s",
+   "2008",
+   "person-roberts",
+   "person-soh",
+   "host-awakeningtoreality-com",
+   "format-essay",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.awakeningtoreality.com/search/label/Bernadette%20Roberts"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i425dac65",
+  "medium": "text",
+  "title": "One: Essential Writings on Nonduality (anthology including Roberts, ed. Jerry Katz, Sentient Publications, 2007)",
+  "date": "2007",
+  "year": 2007,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Jerry Katz"
+  ],
+  "format": "book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "nonduality.com",
+  "url": "https://www.nonduality.com/one.htm",
+  "description": "Nonduality anthology edited by Jerry Katz; publisher description names Bernadette Roberts among contemporary contributors (with John Prendergast, Steven Harrison); placed in the nondual Christianity section. Specific Roberts text and pages not shown.",
+  "tags": [
+   "anthology",
+   "nonduality",
+   "christian",
+   "text",
+   "2000s",
+   "2007",
+   "person-roberts",
+   "person-katz",
+   "host-nonduality-com",
+   "format-book-chapter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.nonduality.com/one.htm",
+   "https://www.librarycat.org/lib/CtrSacredSciences/item/197101501",
+   "https://www.bookshare.org/browse/book/6768873"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "ie92e55d5",
+  "medium": "text",
+  "title": "Review of One: Essential Writings on Nonduality (review mentioning Roberts, Advaita Vision)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "review",
+  "language": "en",
+  "duration": null,
+  "host": "advaita.org.uk",
+  "url": "https://www.advaita.org.uk/discourses/teachers/nonduality_katz.htm",
+  "description": "Review of Katz's anthology; describes the nondual-Christianity material as challenging and extreme and presents Roberts as a Christian apophatic contemplative.",
+  "tags": [
+   "review",
+   "nonduality",
+   "apophatic",
+   "text",
+   "person-roberts",
+   "host-advaita-org-uk",
+   "format-review",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.advaita.org.uk/discourses/teachers/nonduality_katz.htm"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i45de4800",
+  "medium": "text",
+  "title": "Nondual Christianity – Seriously? (essay, Christopher Dierkes, Kosmos Journal / Science and Nonduality)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Christopher Dierkes"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "Kosmos Journal",
+  "url": "https://www.kosmosjournal.org/?p=18615",
+  "description": "Essay arguing for Christian nondual teachers; names Bernadette Roberts among the figures usually cited as Western Christian nondualists. Also posted at scienceandnonduality.com. Author attribution inferred from results (author of The Heart of Centering Prayer).",
+  "tags": [
+   "nonduality",
+   "christian",
+   "essay",
+   "text",
+   "person-roberts",
+   "person-dierkes",
+   "host-kosmos-journal",
+   "format-essay",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.kosmosjournal.org/?p=18615",
+   "https://scienceandnonduality.com/article/nondual-christianity-seriously/"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i0943b497",
+  "medium": "text",
+  "title": "Nonduality Salon Highlights #1962 (newsletter issue featuring Roberts, nonduality.com)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Jerry Katz"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "nonduality.com",
+  "url": "https://www.nonduality.com/hl1962.htm",
+  "description": "Nonduality Highlights issue in which Roberts is discussed; results describe her as one of the 'vigorously protesting' Western nondual figures. Content as shown in search only.",
+  "tags": [
+   "nonduality-com",
+   "newsletter",
+   "text",
+   "person-roberts",
+   "person-katz",
+   "host-nonduality-com",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.nonduality.com/hl1962.htm"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i2c278380",
+  "medium": "text",
+  "title": "Christian experience of nonduality (blog post, Spirit Rambler, 2011)",
+  "date": "2011",
+  "year": 2011,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "spiritrambler.blogspot.com",
+  "url": "https://spiritrambler.blogspot.com/2011/08/christian-experience-of-nonduality.html",
+  "description": "Blog post on Roberts as a former nun and mother of four whose experience exemplifies Christian nonduality.",
+  "tags": [
+   "blog",
+   "nonduality",
+   "text",
+   "2010s",
+   "2011",
+   "person-roberts",
+   "host-spiritrambler-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://spiritrambler.blogspot.com/2011/08/christian-experience-of-nonduality.html"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "iea750453",
+  "medium": "text",
+  "title": "Bernadette Roberts' new book, The Real Christ, page 2 (forum thread, Shalom Place)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Philip St. Romain"
+  ],
+  "format": "forum thread",
+  "language": "en",
+  "duration": null,
+  "host": "shalomplace.org",
+  "url": "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/2",
+  "description": "Second page of the Shalom Place thread on The Real Christ: Catholic readers' criticism of her Christology as outside mainstream Catholicism versus praise of the book as historic; note that the book was self-published at little profit. Supplements the page-1 print view already catalogued.",
+  "tags": [
+   "forum",
+   "the-real-christ",
+   "christology",
+   "text",
+   "person-roberts",
+   "person-romain",
+   "host-shalomplace-org",
+   "format-forum-thread",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/4104023728/p/2"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "ia256acd1",
+  "medium": "text",
+  "title": "Blog review of The Experience of No-Self (Capitalist Axiomatic blog, May 2024)",
+  "date": "2024",
+  "year": 2024,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "review",
+  "language": "en",
+  "duration": null,
+  "host": "capitalistaxiomatic.blogspot.com",
+  "url": "https://capitalistaxiomatic.blogspot.com/2024/05",
+  "description": "Blog post (24 May 2024) reading The Experience of No-Self as spiritual autobiography and noting the long late chapter in which Roberts reinterprets her experience.",
+  "tags": [
+   "blog",
+   "review",
+   "text",
+   "2020s",
+   "2024",
+   "person-roberts",
+   "host-capitalistaxiomatic-blogspot-com",
+   "format-review",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://capitalistaxiomatic.blogspot.com/2024/05"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i6d3c22ed",
+  "medium": "text",
+  "title": "Reader essay on What Is Self? (review, Joseph Conti, ThriftBooks)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Joseph Conti"
+  ],
+  "format": "review",
+  "language": "en",
+  "duration": null,
+  "host": "thriftbooks.com",
+  "url": "https://www.thriftbooks.com/w/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness_bernadette-roberts/522646",
+  "description": "Reader review-essay by Joseph Conti, Ph.D., arguing Roberts's paradigm in What Is Self? is completely different from 'nondualism'.",
+  "tags": [
+   "reader-review",
+   "nondualism",
+   "text",
+   "person-roberts",
+   "person-conti",
+   "host-thriftbooks-com",
+   "format-review",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.thriftbooks.com/w/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness_bernadette-roberts/522646"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "ia3ab8600",
+  "medium": "text",
+  "title": "Thomas Keating endorsements of Roberts's books (blurbs, Thomas Keating, publisher listings)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Thomas Keating"
+  ],
+  "format": "review",
+  "language": "en",
+  "duration": null,
+  "host": "Goodreads; Logos",
+  "url": "https://www.goodreads.com/book/show/398752",
+  "description": "Keating's published endorsements: her account is 'unique among the works of spiritual writers'; 'Bernadette Roberts' books are not easy reading but are unique and important to those interested in the path to God'; praise of her 'capacity to articulate the ineffable' (What Is Self? listing).",
+  "tags": [
+   "endorsement",
+   "thomas-keating",
+   "centering-prayer",
+   "text",
+   "person-roberts",
+   "person-keating",
+   "host-goodreads-logos",
+   "format-review",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.goodreads.com/book/show/398752",
+   "https://www.logos.com/product/322168/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i782d6f7b",
+  "medium": "text",
+  "title": "Unexpected side effects: A cautionary note on challenges of persistent self-transcendence (journal article, Elizabeth D. Stephens and Harris L. Friedman, International Journal of Transpersonal Studies 41(2), 2022)",
+  "date": "2022",
+  "year": 2022,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Elizabeth D. Stephens",
+   "Harris L. Friedman"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "Digital Commons @ CIIS",
+  "url": "https://digitalcommons.ciis.edu/ijts-transpersonalstudies/vol41/iss2/4",
+  "description": "IJTS vol. 41 no. 2 (2022). Per search excerpt, uses Roberts's account in The Experience of No-Self (1993) as a case of persistent self-transcendence, distinguishing her transient union experiences from the permanent no-self, and raises the possibility that some features resemble a clinical condition while stating this does not invalidate her interpretation.",
+  "tags": [
+   "academic",
+   "transpersonal-psychology",
+   "self-transcendence",
+   "case-study",
+   "text",
+   "2020s",
+   "2022",
+   "person-roberts",
+   "person-stephens",
+   "person-friedman",
+   "host-digital-commons-ciis",
+   "format-journal-article",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://digitalcommons.ciis.edu/ijts-transpersonalstudies/vol41/iss2/4",
+   "https://digitalcommons.ciis.edu/cgi/viewcontent.cgi?article=1787&context=ijts-transpersonalstudies",
+   "https://digitalcommons.ciis.edu/advance-archive/60"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "iac11e721",
+  "medium": "text",
+  "title": "Mystical Experiences, Neuroscience, and the Nature of Reality (thesis citing Roberts, Bowling Green State University, OhioLINK ETD)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "thesis",
+  "language": "en",
+  "duration": null,
+  "host": "OhioLINK ETD",
+  "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=bgsu1174405835&disposition=inline",
+  "description": "BGSU thesis surfaced for Roberts and no-self; may contain the discussion of her 'second contemplative movement' (p. 105 of her book) from union to no self. Extent of discussion not confirmed.",
+  "tags": [
+   "thesis",
+   "neuroscience",
+   "mysticism",
+   "text",
+   "person-roberts",
+   "host-ohiolink-etd",
+   "format-thesis",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=bgsu1174405835&disposition=inline"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i229b95dd",
+  "medium": "text",
+  "title": "UC Berkeley dissertation surfaced for Roberts and no-self (eScholarship qt9nj481th)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "thesis",
+  "language": "en",
+  "duration": null,
+  "host": "eScholarship",
+  "url": "https://escholarship.org/content/qt9nj481th/qt9nj481th.pdf",
+  "description": "UC Berkeley dissertation returned for 'Bernadette Roberts no-self transpersonal'; title and extent of discussion not shown in results.",
+  "tags": [
+   "dissertation",
+   "unverified",
+   "text",
+   "person-roberts",
+   "host-escholarship",
+   "format-thesis",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://escholarship.org/content/qt9nj481th/qt9nj481th.pdf"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i286296d4",
+  "medium": "text",
+  "title": "University of Ottawa thesis surfaced for Roberts and Kripal (uO Research)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "thesis",
+  "language": "en",
+  "duration": null,
+  "host": "uO Research (ruor.uottawa.ca)",
+  "url": "https://ruor.uottawa.ca/bitstreams/fc810bef-d7bf-4144-9043-97d46671ba2f/download",
+  "description": "Thesis returned for 'Bernadette Roberts' with Jeffrey Kripal; title and treatment of Roberts not shown in results.",
+  "tags": [
+   "thesis",
+   "unverified",
+   "text",
+   "person-roberts",
+   "host-uo-research-ruor-uottawa-ca",
+   "format-thesis",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://ruor.uottawa.ca/bitstreams/fc810bef-d7bf-4144-9043-97d46671ba2f/download"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i9408db9c",
+  "medium": "text",
+  "title": "Garrison Institute post on Centering Prayer and Bernadette Roberts's The Real Christ (essay, Garrison Institute, c. 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "Garrison Institute",
+  "url": "https://garrisoninstitute.org/?p=2917",
+  "description": "Post in the Garrison Institute's Centering Prayer/contemplative series noting that many in Centering Prayer have resonated with Roberts's writing on Trinity, Christ and the spiritual journey, that she had just published The Real Christ, and quoting a reader calling it the 'most important work on Christian mystical theology' written. Date inferred (c. 2017).",
+  "tags": [
+   "centering-prayer",
+   "the-real-christ",
+   "cynthia-bourgeault-circle",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-garrison-institute",
+   "format-essay",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://garrisoninstitute.org/?p=2917"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i5595f1e9",
+  "medium": "text",
+  "title": "Fall/Winter Religion Books (trade announcement listing What Is Self?, Publishers Weekly, 12 July 2004)",
+  "date": "2004",
+  "year": 2004,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "review",
+  "language": "en",
+  "duration": null,
+  "host": "Publishers Weekly",
+  "url": "https://www.publishersweekly.com/pw/print/20040712/30593-fall-winter-religion-books.html",
+  "description": "PW seasonal religion-books announcement listing the reissue of What Is Self? by Bernadette Roberts (Nov., $19.95 paper). A listing, not a full review.",
+  "tags": [
+   "trade-press",
+   "announcement",
+   "what-is-self",
+   "text",
+   "2000s",
+   "2004",
+   "person-roberts",
+   "host-publishers-weekly",
+   "format-review",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.publishersweekly.com/pw/print/20040712/30593-fall-winter-religion-books.html"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i6848d950",
+  "medium": "text",
+  "title": "The Eastern Buddhist 24(2) article surfaced for Roberts and no-self (Otani University repository)",
+  "date": "1991",
+  "year": 1991,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "journal article",
+  "language": "en",
+  "duration": null,
+  "host": "Otani University Repository",
+  "url": "https://otani.repo.nii.ac.jp/record/8729/files/EB24-2-05.pdf",
+  "description": "Article in The Eastern Buddhist vol. 24 no. 2 returned for 'Bernadette Roberts' Jeff Shore no-self; whether it discusses or reviews Roberts is not shown. Year of vol. 24 inferred (1991).",
+  "tags": [
+   "buddhism",
+   "zen",
+   "unverified",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "host-otani-university-repository",
+   "format-journal-article",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://otani.repo.nii.ac.jp/record/8729/files/EB24-2-05.pdf"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i342b1c3e",
+  "medium": "text",
+  "title": "Three Women Mystics (UPDATED) (document, Scribd)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "Scribd",
+  "url": "https://www.scribd.com/document/544622892/Three-Women-Mystics-UPDATED",
+  "description": "Scribd document returned for Roberts compared with Vedanta/Buddhist no-self; apparently treats Roberts as one of three women mystics. Author and contents not shown in results.",
+  "tags": [
+   "comparative-mysticism",
+   "women-mystics",
+   "unverified",
+   "text",
+   "person-roberts",
+   "host-scribd",
+   "format-essay",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.scribd.com/document/544622892/Three-Women-Mystics-UPDATED"
+  ],
+  "origin": "wave3-about"
+ },
+ {
+  "id": "i4beeed61",
+  "medium": "text",
+  "title": "Korean Daum Cafe post on Bernadette Roberts (forum post, Daum Cafe 'vandalism')",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "forum thread",
+  "language": "ko",
+  "duration": null,
+  "host": "m.cafe.daum.net",
+  "url": "https://m.cafe.daum.net/vandalism/KL02/2742",
+  "description": "Unofficial, uncredited Korean rendering of the opening and part of chapter 1 of The Experience of No-Self, posted in a Daum cafe with the English alongside. No published Korean edition was found.",
+  "tags": [
+   "korean",
+   "forum",
+   "unverified",
+   "text",
+   "person-roberts",
+   "host-m-cafe-daum-net",
+   "format-forum-thread",
+   "lang-ko",
+   "confidence-lead",
+   "partial-translation",
+   "unofficial",
+   "the-experience-of-no-self",
+   "format-translation"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://m.cafe.daum.net/vandalism/KL02/2742"
+  ],
+  "origin": "wave3-about",
+  "also_titled": [
+   "무아의 경험 (unofficial partial translation, Daum cafe, Korean)"
+  ],
+  "origins": [
+   "wave3-about",
+   "wave3-editions"
+  ]
+ },
+ {
+  "id": "i9b75d67f",
+  "medium": "text",
+  "title": "Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (Arbor Verlag, 2018, German, e-book)",
+  "date": "2018-07-25",
+  "year": 2018,
+  "place": "Freiamt im Schwarzwald",
+  "people": [
+   "Bernadette Roberts",
+   "Franz Loschnigg",
+   "Karin Hein"
+  ],
+  "format": "e-book",
+  "language": "de",
+  "duration": null,
+  "host": "www.amazon.de",
+  "url": "https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht-ebook/dp/B07FVPMCN7",
+  "description": "Arbor Verlag e-book, 25 Jul 2018; ISBN 978-3-86781-222-1; 216 pp. (Amazon.de Kindle ASIN B07FVPMCN7). Translated from the American by Franz Loschnigg and Karin Hein. German translation of The Experience of No-Self (mapping inferred from subtitle and content; not stated by a source).",
+  "tags": [
+   "german",
+   "translation",
+   "e-book",
+   "arbor-verlag",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "person-loschnigg",
+   "person-hein",
+   "host-www-amazon-de",
+   "format-e-book",
+   "lang-de",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht-ebook/dp/B07FVPMCN7",
+   "https://www.eurobuch.at/buch/isbn/3924195277.html",
+   "https://www.arbor-verlag.de/file-download/download/public/1277"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i0e92f6fb",
+  "medium": "text",
+  "title": "Jenseits von Ego und Selbst: Leseprobe / front matter (Arbor Verlag, German)",
+  "date": null,
+  "year": null,
+  "place": "Freiamt im Schwarzwald",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "de",
+  "duration": null,
+  "host": "www.arbor-verlag.de",
+  "url": "https://www.arbor-verlag.de/file-download/download/public/1277",
+  "description": "Publisher-hosted sample PDF (title page, contents, opening) of the Arbor Verlag German edition, ISBN 3-924195-27-7. Link only.",
+  "tags": [
+   "german",
+   "translation",
+   "publisher-sample",
+   "arbor-verlag",
+   "text",
+   "person-roberts",
+   "host-www-arbor-verlag-de",
+   "format-translation",
+   "lang-de",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.arbor-verlag.de/file-download/download/public/1277"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ifbca5cdc",
+  "medium": "text",
+  "title": "自己喪失の体験 (紀伊國屋書店, 1989, Japanese)",
+  "date": "1989",
+  "year": 1989,
+  "place": "Tokyo",
+  "people": [
+   "Bernadette Roberts",
+   "雨宮一郎 (Amemiya Ichirō)",
+   "志賀ミチ (Shiga Michi)"
+  ],
+  "format": "translation",
+  "language": "ja",
+  "duration": null,
+  "host": "calil.jp",
+  "url": "https://calil.jp/book/4314005181",
+  "description": "Jiko sōshitsu no taiken. Kinokuniya Shoten, 1989; ISBN 4-314-00518-1 (978-4-314-00518-0); 182 pp., 20 cm. Translated by Amemiya Ichirō and Shiga Michi. Renders The Experience of No-Self. A later printing (c. 2005, 184 pp.) is reported by second-hand sellers.",
+  "tags": [
+   "japanese",
+   "translation",
+   "the-experience-of-no-self",
+   "kinokuniya",
+   "text",
+   "1980s",
+   "1989",
+   "person-roberts",
+   "person-ichir",
+   "person-michi",
+   "host-calil-jp",
+   "format-translation",
+   "lang-ja",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://calil.jp/book/4314005181",
+   "https://www.amazon.co.jp/%E8%87%AA%E5%B7%B1%E5%96%AA%E5%A4%B1%E3%81%AE%E4%BD%93%E9%A8%93-%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88-%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84/dp/4314005181",
+   "https://www.kosho.or.jp/products/detail.php?product_id=253128460",
+   "https://bookmeter.com/books/415040",
+   "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%B7%B1%E5%96%AA%E5%A4%B1%E3%81%AE%E4%BD%93%E9%A8%93"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i3ee67397",
+  "medium": "text",
+  "title": "無我の体験 (ナチュラルスピリット, 2014, Japanese)",
+  "date": "2014-10-23",
+  "year": 2014,
+  "place": "Tokyo",
+  "people": [
+   "Bernadette Roberts",
+   "立花ありみ (Tachibana Arimi)"
+  ],
+  "format": "translation",
+  "language": "ja",
+  "duration": null,
+  "host": "www.amazon.co.jp",
+  "url": "https://www.amazon.co.jp/%E7%84%A1%E6%88%91%E3%81%AE%E4%BD%93%E9%A8%93-%E8%A6%9A%E9%86%92%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84/dp/4864511403",
+  "description": "Muga no taiken (Kakusei Books series). Natural Spirit, 23 Oct 2014; ISBN 4-86451-140-3 (978-4-86451-140-7). New translation by Tachibana Arimi of The Experience of No-Self.",
+  "tags": [
+   "japanese",
+   "translation",
+   "the-experience-of-no-self",
+   "natural-spirit",
+   "text",
+   "2010s",
+   "2014",
+   "person-roberts",
+   "person-arimi",
+   "host-www-amazon-co-jp",
+   "format-translation",
+   "lang-ja",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.co.jp/%E7%84%A1%E6%88%91%E3%81%AE%E4%BD%93%E9%A8%93-%E8%A6%9A%E9%86%92%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84/dp/4864511403",
+   "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i6a72eca7",
+  "medium": "text",
+  "title": "無自己の体験 (ナチュラルスピリット, 2021, Japanese)",
+  "date": "2021",
+  "year": 2021,
+  "place": "Tokyo",
+  "people": [
+   "Bernadette Roberts",
+   "立花ありみ (Tachibana Arimi)"
+  ],
+  "format": "translation",
+  "language": "ja",
+  "duration": null,
+  "host": "sessendo.hatenablog.jp",
+  "url": "https://sessendo.hatenablog.jp/entry/2024/12/11/190542",
+  "description": "Mu-jiko no taiken: retitled reissue (2021) of 無我の体験 (2014), tr. Tachibana Arimi, Natural Spirit; list price 1,800 yen + tax. ISBN not found in this pass. Renders The Experience of No-Self. URL is a 2024 review blog post; publisher page not surfaced.",
+  "tags": [
+   "japanese",
+   "translation",
+   "the-experience-of-no-self",
+   "natural-spirit",
+   "retitled",
+   "text",
+   "2020s",
+   "2021",
+   "person-roberts",
+   "person-arimi",
+   "host-sessendo-hatenablog-jp",
+   "format-translation",
+   "lang-ja",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://sessendo.hatenablog.jp/entry/2024/12/11/190542",
+   "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84",
+   "https://www.naturalspirit.co.jp/book/b595060.html"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i6e319f8d",
+  "medium": "text",
+  "title": "自己とは何か (ナチュラルスピリット, 2021, Japanese)",
+  "date": "2021-11",
+  "year": 2021,
+  "place": "Tokyo",
+  "people": [
+   "Bernadette Roberts",
+   "福田カレン (Fukuda Karen)"
+  ],
+  "format": "translation",
+  "language": "ja",
+  "duration": null,
+  "host": "www.naturalspirit.co.jp",
+  "url": "https://www.naturalspirit.co.jp/book/b595060.html",
+  "description": "Jiko to wa nanika (Kakusei Books). Natural Spirit, November 2021; ISBN 978-4-86451-382-1; 392 pp.; 2,100 yen + tax. Translated by Fukuda Karen. Renders What Is Self? A Study of the Spiritual Journey in Terms of Consciousness.",
+  "tags": [
+   "japanese",
+   "translation",
+   "what-is-self",
+   "natural-spirit",
+   "text",
+   "2020s",
+   "2021",
+   "person-roberts",
+   "person-karen",
+   "host-www-naturalspirit-co-jp",
+   "format-translation",
+   "lang-ja",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.naturalspirit.co.jp/book/b595060.html",
+   "https://www.hanmoto.com/bd/isbn/9784864513821",
+   "https://www.kinokuniya.co.jp/f/dsg-01-9784864513821",
+   "https://books.rakuten.co.jp/rb/16948203/",
+   "https://honto.jp/netstore/pd-book_31316972.html",
+   "https://www.amazon.co.jp/%E8%87%AA%E5%B7%B1%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B-%E8%A6%9A%E9%86%92%E3%83%96%E3%83%83%E3%82%AF%E3%82%B9-%E3%83%90%E3%83%BC%E3%83%8A%E3%83%87%E3%83%83%E3%83%88%E3%83%BB%E3%83%AD%E3%83%90%E3%83%BC%E3%83%84-Bernadette-Roberts/dp/4864513821"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i949d3997",
+  "medium": "text",
+  "title": "L'esperienza del non-sé (Astrolabio-Ubaldini, 1987, Italian)",
+  "date": "1987-05-27",
+  "year": 1987,
+  "place": "Roma",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "it",
+  "duration": null,
+  "host": "www.hoepli.it",
+  "url": "https://www.hoepli.it/libro/l-esperienza-del-non-se/9788834008874.html",
+  "description": "Astrolabio-Ubaldini, Rome, collana Ulisse, May 1987; ISBN 88-340-0887-1 (978-88-340-0887-4); paperback (brossura), 168 pp. Renders The Experience of No-Self. Translator not named in retail listings found.",
+  "tags": [
+   "italian",
+   "translation",
+   "the-experience-of-no-self",
+   "astrolabio",
+   "ulisse",
+   "text",
+   "1980s",
+   "1987",
+   "person-roberts",
+   "host-www-hoepli-it",
+   "format-translation",
+   "lang-it",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.hoepli.it/libro/l-esperienza-del-non-se/9788834008874.html",
+   "https://www.amazon.it/Lesperienza-del-non-s%C3%A9-Bernadette-Roberts/dp/8834008871",
+   "https://www.mondadoristore.it/L-esperienza-del-non-se-Bernadette-Roberts/eai978883400887/",
+   "https://www.abebooks.it/9788834008874/Lesperienza-non-s%C3%A9-Roberts-Bernadette-8834008871/plp",
+   "https://www.libraccio.it/libro/9788834008874/bernadette-roberts/esperienza-del-non-se.html",
+   "https://www.unilibro.it/libri/f/autore/roberts_bernadette"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i3513989a",
+  "medium": "text",
+  "title": "L'esperienza del non sè (Mondadori?, 1998, Italian) - library catalogue record",
+  "date": "1998",
+  "year": 1998,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "it",
+  "duration": null,
+  "host": "www.istitutobeck.com",
+  "url": "https://www.istitutobeck.com/biblioteca/lesperienza-del-non-se",
+  "description": "Istituto A.T. Beck library catalogue lists L'esperienza del non sè with publisher Mondadori, 1998. Not corroborated elsewhere; may be a cataloguing error for the Astrolabio 1987 edition or an unrecorded reprint.",
+  "tags": [
+   "italian",
+   "translation",
+   "the-experience-of-no-self",
+   "unverified",
+   "text",
+   "1990s",
+   "1998",
+   "person-roberts",
+   "host-www-istitutobeck-com",
+   "format-translation",
+   "lang-it",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.istitutobeck.com/biblioteca/lesperienza-del-non-se"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i5c1df8e6",
+  "medium": "text",
+  "title": "De ervaring van het niet-zelf: Een contemplatieve tocht (Samsara, 2021, Dutch)",
+  "date": "2021",
+  "year": 2021,
+  "place": "Amsterdam",
+  "people": [
+   "Bernadette Roberts",
+   "Maurice Jacobs",
+   "Hester van Toorenburg"
+  ],
+  "format": "translation",
+  "language": "nl",
+  "duration": null,
+  "host": "www.jongbloed.nl",
+  "url": "https://www.jongbloed.nl/boek/9789492995919/de-ervaring-van-het-niet-zelf-bernadette-roberts",
+  "description": "Uitgeverij Samsara, Amsterdam, 2021, 1st printing; ISBN 978-94-92995-91-9; hardback, 272 pp. Renders The Experience of No-Self: A Contemplative Journey. Translator given as Maurice Jacobs by the ongrond.nl review; retailers list Hester van Toorenburg as co-contributor (role unclear).",
+  "tags": [
+   "dutch",
+   "translation",
+   "the-experience-of-no-self",
+   "samsara",
+   "text",
+   "2020s",
+   "2021",
+   "person-roberts",
+   "person-jacobs",
+   "person-toorenburg",
+   "host-www-jongbloed-nl",
+   "format-translation",
+   "lang-nl",
+   "place-amsterdam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.jongbloed.nl/boek/9789492995919/de-ervaring-van-het-niet-zelf-bernadette-roberts",
+   "https://ongrond.nl/2021/02/de-ervaring-van-het-niet-zelf-een-contemplatieve-tocht/",
+   "https://www.bruna.nl/boeken/de-ervaring-van-het-niet-zelf-9789492995919",
+   "https://www.managementboek.nl/boek/9789492995919/de-ervaring-van-het-niet-zelf-bernadette-roberts",
+   "https://prd-boekdb.s3.eu-central-1.amazonaws.com/5c490ea0-542c-4fc7-ac55-10c381e231cd"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i040c69eb",
+  "medium": "text",
+  "title": "De ervaring van het niet-zelf (Samsara, 2021, Dutch, e-book)",
+  "date": "2021",
+  "year": 2021,
+  "place": "Amsterdam",
+  "people": [
+   "Bernadette Roberts",
+   "Maurice Jacobs"
+  ],
+  "format": "e-book",
+  "language": "nl",
+  "duration": null,
+  "host": "www.managementboek.nl",
+  "url": "https://www.managementboek.nl/boek/9789493228085",
+  "description": "EPUB edition, Samsara Uitgeverij b.v., 2021; ISBN 978-94-93228-08-5. Dutch translation of The Experience of No-Self.",
+  "tags": [
+   "dutch",
+   "translation",
+   "e-book",
+   "samsara",
+   "text",
+   "2020s",
+   "2021",
+   "person-roberts",
+   "person-jacobs",
+   "host-www-managementboek-nl",
+   "format-e-book",
+   "lang-nl",
+   "place-amsterdam",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.managementboek.nl/boek/9789493228085",
+   "https://www.bol.com/nl/nl/f/de-ervaring-van-het-niet-zelf/9300000020465730/"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "if0213758",
+  "medium": "text",
+  "title": "L'esperienza del non sè (il trascendimento dell'Io) - Italian online excerpts (riflessioni.it)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "it",
+  "duration": null,
+  "host": "www.riflessioni.it",
+  "url": "https://www.riflessioni.it/testi/bernadette_roberts.htm",
+  "description": "Italian-language excerpt pages (three parts) from L'esperienza del non-sé on riflessioni.it. Link only.",
+  "tags": [
+   "italian",
+   "excerpt",
+   "the-experience-of-no-self",
+   "text",
+   "person-roberts",
+   "host-www-riflessioni-it",
+   "format-translation",
+   "lang-it",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.riflessioni.it/testi/bernadette_roberts.htm",
+   "https://www.riflessioni.it/testi/bernadette_roberts_2.htm",
+   "https://www.riflessioni.it/testi/bernadette_roberts_3.htm"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ie7c94ef3",
+  "medium": "text",
+  "title": "Vie unitive: aventure dans les profondeurs silencieuses de l'inconnu (Les Deux Océans, 1991, French)",
+  "date": "1991-01",
+  "year": 1991,
+  "place": "Paris",
+  "people": [
+   "Bernadette Roberts",
+   "Jacques Gontier"
+  ],
+  "format": "translation",
+  "language": "fr",
+  "duration": null,
+  "host": "www.amazon.fr",
+  "url": "https://www.amazon.fr/Vie-unitive-aventure-profondeurs-silencieuses/dp/2866810333",
+  "description": "Éditions Les Deux Océans, Paris, January 1991 (one listing gives 1990); ISBN 2-86681-033-3 (978-2-86681-033-7). Translated by Jacques Gontier. Renders The Experience of No-Self. Les Deux Océans titles are now handled by Dervy/Trédaniel.",
+  "tags": [
+   "french",
+   "translation",
+   "the-experience-of-no-self",
+   "les-deux-oc-ans",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "person-gontier",
+   "host-www-amazon-fr",
+   "format-translation",
+   "lang-fr",
+   "place-paris",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.fr/Vie-unitive-aventure-profondeurs-silencieuses/dp/2866810333",
+   "https://actualitte.com/livres/453354/extraits/vie-unitive-aventure-dans-les-profondeurs-silencieuses-de-l-inconnu-bernadette-roberts-9782866810337",
+   "https://www.gibert.com/vie-unitive-8669453.html",
+   "https://www.dervy-medicis.fr/vie-unitive-p-6582.html",
+   "https://sages.fandom.com/fr/wiki/Bernadette_Roberts",
+   "https://www.editions-tredaniel.com/bernadette-roberts-auteur-3314.html"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i10b5b8fe",
+  "medium": "text",
+  "title": "Au centre de soi-même: L'expérience unitive (Les Deux Océans, 1994/2000, French)",
+  "date": "2000-05",
+  "year": 2000,
+  "place": "Paris",
+  "people": [
+   "Bernadette Roberts",
+   "Jacques Gontier"
+  ],
+  "format": "translation",
+  "language": "fr",
+  "duration": null,
+  "host": "www.fnac.com",
+  "url": "https://www.fnac.com/a1022135/Bernadette-Roberts-Au-centre-de-soi-meme-L-experience-unitive",
+  "description": "Éditions Les Deux Océans, Paris; ISBN 2-86681-050-3 (978-2-86681-050-4); paperback (broché), 206 pp. Fnac gives May 2000; the French sages wiki gives 1994 (possibly first printing). Translated by Jacques Gontier. Renders The Path to No-Self: Life at the Center.",
+  "tags": [
+   "french",
+   "translation",
+   "the-path-to-no-self",
+   "les-deux-oc-ans",
+   "text",
+   "2000s",
+   "2000",
+   "person-roberts",
+   "person-gontier",
+   "host-www-fnac-com",
+   "format-translation",
+   "lang-fr",
+   "place-paris",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.fnac.com/a1022135/Bernadette-Roberts-Au-centre-de-soi-meme-L-experience-unitive",
+   "https://www.amazon.fr/Au-centre-soi-m%C3%AAme-Lexp%C3%A9rience-unitive/dp/2866810503",
+   "https://www.chez-mon-libraire.fr/livre/9782866810504-au-centre-de-soi-meme-l-experience-unitive-bernadette-roberts/",
+   "http://www.dervy-medicis.fr/au-centre-de-soi-meme-p-6702.html",
+   "https://sages.fandom.com/fr/wiki/Bernadette_Roberts",
+   "https://www.decitre.fr/auteur/243020/Bernadette+Roberts"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i2549d21d",
+  "medium": "text",
+  "title": "De l'État Unitif au Non-Soi: une interview de Bernadette Roberts (Revue 3e Millénaire, French)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "fr",
+  "duration": null,
+  "host": "www.revue3emillenaire.com",
+  "url": "https://www.revue3emillenaire.com/blog/de-letat-unitif-au-non-soi-une-interview-de-bernadette-roberts/",
+  "description": "French translation of an interview with Roberts (likely the Bodian 1986 interview) published by Revue 3e Millénaire. Not a book; link only.",
+  "tags": [
+   "french",
+   "translation",
+   "interview",
+   "text",
+   "person-roberts",
+   "host-www-revue3emillenaire-com",
+   "format-translation",
+   "lang-fr",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.revue3emillenaire.com/blog/de-letat-unitif-au-non-soi-une-interview-de-bernadette-roberts/"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "id71a1970",
+  "medium": "text",
+  "title": "The Experience of No-Self: A Contemplative Journey, Revised Edition (SUNY Press, 1993, Kindle, English)",
+  "date": "1993",
+  "year": 1993,
+  "place": "Albany, NY",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.amazon.com",
+  "url": "https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised-ebook/dp/B08XN3P55C",
+  "description": "Kindle e-book (ASIN B08XN3P55C) of the SUNY Press revised edition (print paperback ISBN 0-7914-1694-1 / 978-0-7914-1694-5, 26 Mar 1993, 212-213 pp.). SUNY digital ISBN 978-1-4384-1746-2 (Perlego/library records).",
+  "tags": [
+   "english",
+   "e-book",
+   "kindle",
+   "suny-press",
+   "the-experience-of-no-self",
+   "text",
+   "1990s",
+   "1993",
+   "person-roberts",
+   "host-www-amazon-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised-ebook/dp/B08XN3P55C",
+   "https://www.amazon.com/Experience-No-Self-Contemplative-Journey-Revised/dp/0791416941",
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://www.perlego.com/book/2673242/the-experience-of-noself-a-contemplative-journey-pdf"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "iedc99e38",
+  "medium": "text",
+  "title": "The Experience of No-Self: A Contemplative Journey (SUNY Press / netLibrary, e-book, English)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "ebooks.jgu.edu.in",
+  "url": "https://ebooks.jgu.edu.in/Record/jstor_dda_ocm42855348/Description?lng=en",
+  "description": "Library e-book record (OCLC 42855348) of the 1993 SUNY revised edition; records also carry an earlier electronic ISBN 0-585-05951-9 (netLibrary-era e-book) alongside 978-1-4384-1746-2. Available via JSTOR/EBSCO academic collections.",
+  "tags": [
+   "english",
+   "e-book",
+   "library-e-book",
+   "suny-press",
+   "the-experience-of-no-self",
+   "text",
+   "person-roberts",
+   "host-ebooks-jgu-edu-in",
+   "format-e-book",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://ebooks.jgu.edu.in/Record/jstor_dda_ocm42855348/Description?lng=en",
+   "https://ebooks.jgu.edu.in/Record/ebsco_acadsubs_ocm42855348/Description?print=1",
+   "https://libcat.library.tamu.edu/Record/in00001578148"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ib6d3a666",
+  "medium": "text",
+  "title": "The Experience of No-Self: A Contemplative Journey, Revised Edition (Bookshare accessible edition, English)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.bookshare.org",
+  "url": "https://www.bookshare.org/browse/book/5448169",
+  "description": "Bookshare accessible-format e-book (DAISY/EPUB/audio via TTS) of the SUNY Press revised edition, for readers with print disabilities.",
+  "tags": [
+   "english",
+   "e-book",
+   "accessible",
+   "bookshare",
+   "the-experience-of-no-self",
+   "text",
+   "person-roberts",
+   "host-www-bookshare-org",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.bookshare.org/browse/book/5448169"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ib28697d6",
+  "medium": "text",
+  "title": "The Path to No-Self: Life at the Center (SUNY Press, 1991, hardback, English)",
+  "date": "1991-10",
+  "year": 1991,
+  "place": "Albany, NY",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book edition",
+  "language": "en",
+  "duration": null,
+  "host": "www.abebooks.com",
+  "url": "https://www.abebooks.com/9780791411414/Path-Life-Center-Roberts-Bernadette-0791411419/plp",
+  "description": "SUNY Press hardcover, October 1991; ISBN 0-7914-1141-9 (978-0-7914-1141-4); 232 pp. Foreword by Thomas Keating. Companion paperback ISBN 0-7914-1142-7 (978-0-7914-1142-1).",
+  "tags": [
+   "english",
+   "hardback",
+   "suny-press",
+   "the-path-to-no-self",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "host-www-abebooks-com",
+   "format-book-edition",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.abebooks.com/9780791411414/Path-Life-Center-Roberts-Bernadette-0791411419/plp",
+   "https://www.abebooks.de/9780791411414/Path-No-Self-Life-Center-Roberts-0791411419/plp",
+   "https://www.amazon.com/-/es/Bernadette-Roberts/dp/0791411419",
+   "https://www.bookshare.org/browse/book/5450063"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "idec89586",
+  "medium": "text",
+  "title": "The Path to No-Self: Life at the Center (SUNY Press, 1991, paperback, English)",
+  "date": "1991-10-18",
+  "year": 1991,
+  "place": "Albany, NY",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book edition",
+  "language": "en",
+  "duration": null,
+  "host": "www.abebooks.co.uk",
+  "url": "https://www.abebooks.co.uk/9780791411421/Path-No-Self-Life-Center-Roberts-0791411427/plp",
+  "description": "SUNY Press paperback, 18 Oct 1991; ISBN 0-7914-1142-7 (978-0-7914-1142-1); 232 pp. Reissue of the Shambhala 1985 edition. (Adds ISBN to the already-known SUNY page.)",
+  "tags": [
+   "english",
+   "paperback",
+   "suny-press",
+   "the-path-to-no-self",
+   "update-of-known",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "host-www-abebooks-co-uk",
+   "format-book-edition",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.abebooks.co.uk/9780791411421/Path-No-Self-Life-Center-Roberts-0791411427/plp",
+   "https://www.theportobellobookshop.com/9780791411421",
+   "https://www.lehmanns.de/shop/geisteswissenschaften/3195932-9780791411421-the-path-to-no-self"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i9e5cbf1b",
+  "medium": "text",
+  "title": "The Path to No-Self: Life at the Center (SUNY Press, e-book, English)",
+  "date": null,
+  "year": null,
+  "place": "Albany, NY",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.vitalsource.com",
+  "url": "https://www.vitalsource.com/jp/products/path-to-no-self-the-bernadette-roberts-v9781438417509",
+  "description": "SUNY Press e-book, ISBN 978-1-4384-1750-9 (VitalSource, RedShelf, Adlibris). Kindle edition ASIN B08XN14GMX.",
+  "tags": [
+   "english",
+   "e-book",
+   "suny-press",
+   "the-path-to-no-self",
+   "text",
+   "person-roberts",
+   "host-www-vitalsource-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.vitalsource.com/jp/products/path-to-no-self-the-bernadette-roberts-v9781438417509",
+   "https://www.amazon.com/Path-No-Self-Life-at-Center-ebook/dp/B08XN14GMX",
+   "https://redshelf.com/book/1753675",
+   "https://www.adlibris.com/fi/kirja/path-to-no-self-9781438417509"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i056f753c",
+  "medium": "text",
+  "title": "The Path to No-Self: Life at the Center (Bookshare accessible edition, English)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.bookshare.org",
+  "url": "https://www.bookshare.org/browse/book/5450063",
+  "description": "Bookshare accessible-format e-book of the SUNY Press edition (ISBN 978-1-4384-1750-9; related ISBN 978-0-7914-1141-4), 232 pp.",
+  "tags": [
+   "english",
+   "e-book",
+   "accessible",
+   "bookshare",
+   "the-path-to-no-self",
+   "text",
+   "person-roberts",
+   "host-www-bookshare-org",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.bookshare.org/browse/book/5450063"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i1cae41c9",
+  "medium": "text",
+  "title": "What Is Self? A Study of the Spiritual Journey in Terms of Consciousness (Mary Botsford Goens, 1989, English)",
+  "date": "1989",
+  "year": 1989,
+  "place": "Austin, TX",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book edition",
+  "language": "en",
+  "duration": null,
+  "host": "ci.nii.ac.jp",
+  "url": "https://ci.nii.ac.jp/ncid/BA62305703",
+  "description": "First edition, Mary Botsford Goens (Mary Goens Publishing), Austin, Texas, 1989; ISBN 0-9623993-0-2; xiii, 216 pp. (CiNii and Open Library records). Adds ISBN/pages to the already-known 1989 edition.",
+  "tags": [
+   "english",
+   "first-edition",
+   "what-is-self",
+   "update-of-known",
+   "text",
+   "1980s",
+   "1989",
+   "person-roberts",
+   "host-ci-nii-ac-jp",
+   "format-book-edition",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://ci.nii.ac.jp/ncid/BA62305703",
+   "https://openlibrary.org/books/OL24223676M"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i27873c99",
+  "medium": "text",
+  "title": "What Is Self? A Study of the Spiritual Journey in Terms of Consciousness (Sentient Publications, 2005, paperback, English)",
+  "date": "2005-01-25",
+  "year": 2005,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book edition",
+  "language": "en",
+  "duration": null,
+  "host": "sentientpublications.com",
+  "url": "https://sentientpublications.com/products/9781591810261_what-is-self",
+  "description": "Sentient Publications paperback, ISBN 1-59181-026-X (978-1-59181-026-1); 208 pp.; dated 25 Jan 2005 (some listings 1 Dec 2004). Foreword by Jeff Shore.",
+  "tags": [
+   "english",
+   "paperback",
+   "sentient-publications",
+   "what-is-self",
+   "text",
+   "2000s",
+   "2005",
+   "person-roberts",
+   "host-sentientpublications-com",
+   "format-book-edition",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://sentientpublications.com/products/9781591810261_what-is-self",
+   "https://valsec.barnesandnoble.com/w/what-is-self-bernadette-roberts/1111920984",
+   "https://www.tatteredcover.com/products/9781591810261",
+   "https://akademibokhandeln.se/bok/what-is-self/9781591810261"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i904d059f",
+  "medium": "text",
+  "title": "What Is Self? (Sentient Publications / Open Road Integrated Media, e-book, English)",
+  "date": "2005",
+  "year": 2005,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "openroadmedia.com",
+  "url": "https://openroadmedia.com/ebook/what-is-self/9781591812258",
+  "description": "E-book ISBN 978-1-59181-225-8, published by Sentient Publications and distributed by Open Road Integrated Media (Apple Books id1579632687, Hoopla, Storytel, OverDrive); c. 258 pp. Storytel gives e-book release 15 Jan 2005; Ex Libris gives 4 Aug 2021 (likely Open Road redistribution date).",
+  "tags": [
+   "english",
+   "e-book",
+   "sentient-publications",
+   "open-road",
+   "what-is-self",
+   "text",
+   "2000s",
+   "2005",
+   "person-roberts",
+   "host-openroadmedia-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://openroadmedia.com/ebook/what-is-self/9781591812258",
+   "https://books.apple.com/us/book/id1579632687",
+   "https://www.hoopladigital.com/ebook/What-Is-Self-Bernadette-Roberts/14435107",
+   "https://storytel.com/in/books/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness-1345164",
+   "https://ereader.exlibris.ch/de/buecher-buch/englische-ebooks/bernadette-roberts/what-is-self/id/9781591812258"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "iba3ad873",
+  "medium": "text",
+  "title": "What Is Self? (Logos Bible Software edition, English)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.logos.com",
+  "url": "https://www.logos.com/product/322168/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness",
+  "description": "Logos Bible Software digital edition of the Sentient Publications text.",
+  "tags": [
+   "english",
+   "e-book",
+   "logos",
+   "what-is-self",
+   "text",
+   "person-roberts",
+   "host-www-logos-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.logos.com/product/322168/what-is-self-a-study-of-the-spiritual-journey-in-terms-of-consciousness"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i82b903a9",
+  "medium": "text",
+  "title": "What Is Self? (Bookshare accessible edition, English)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.bookshare.org",
+  "url": "https://www.bookshare.org/browse/book/6392493",
+  "description": "Bookshare accessible-format e-book of the Sentient Publications edition.",
+  "tags": [
+   "english",
+   "e-book",
+   "accessible",
+   "bookshare",
+   "what-is-self",
+   "text",
+   "person-roberts",
+   "host-www-bookshare-org",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.bookshare.org/browse/book/6392493"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "idd622a58",
+  "medium": "text",
+  "title": "The Real Christ (ContemplativeChristians.com Publishing, 2017, paperback, English)",
+  "date": "2017-02-19",
+  "year": 2017,
+  "place": "Austin, TX",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book edition",
+  "language": "en",
+  "duration": null,
+  "host": "catalog.carnegiestout.org",
+  "url": "https://catalog.carnegiestout.org/Record/245168",
+  "description": "ContemplativeChristians.com Publishing, Austin, TX, February 2017; ISBN 0-692-85115-1 (978-0-692-85115-9); 516 pp. per library record (524 pp. per a bookseller). Adds publisher/pages to the already-known Amazon listing.",
+  "tags": [
+   "english",
+   "paperback",
+   "contemplativechristians-com",
+   "the-real-christ",
+   "update-of-known",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-catalog-carnegiestout-org",
+   "format-book-edition",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://catalog.carnegiestout.org/Record/245168",
+   "https://www.eden.co.uk/christian-books/theological-studies/christology/the-real-christ/",
+   "https://tertulia.com/book/the-real-christ-bernadette-roberts/9780692851159",
+   "https://sureshotbooks.com/products/the-real-christ-9780692851159"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i45ae7deb",
+  "medium": "text",
+  "title": "The Real Christ (ContemplativeChristians.com, 2018, Kindle, English)",
+  "date": "2018-06-18",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.amazon.ca",
+  "url": "https://www.amazon.ca/Real-Christ-Bernadette-Roberts-ebook/dp/B07DVQ4YRH",
+  "description": "Kindle e-book, ASIN B07DVQ4YRH, publisher ContemplativeChristians.com, 18 Jun 2018.",
+  "tags": [
+   "english",
+   "e-book",
+   "kindle",
+   "the-real-christ",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "host-www-amazon-ca",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.ca/Real-Christ-Bernadette-Roberts-ebook/dp/B07DVQ4YRH",
+   "https://www.amazon.co.uk/Real-Christ-Bernadette-Roberts-ebook/dp/B07DVQ4YRH",
+   "https://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i81d5101b",
+  "medium": "text",
+  "title": "The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com, 2018, Kindle, English)",
+  "date": "2018-11-20",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.amazon.com",
+  "url": "https://www.amazon.com/Christian-Contemplative-Journey-Essays-Path-ebook/dp/B07KRHFHVS",
+  "description": "Kindle e-book, ASIN B07KRHFHVS, publisher ContemplativeChristians.com, 20 Nov 2018. Print paperback: ISBN 0-692-98721-5 (978-0-692-98721-6), c. 305-306 pp., 2 Dec 2017.",
+  "tags": [
+   "english",
+   "e-book",
+   "kindle",
+   "the-christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "host-www-amazon-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.com/Christian-Contemplative-Journey-Essays-Path-ebook/dp/B07KRHFHVS",
+   "https://booksrun.com/9780692987216-the-christian-contemplative-journey-essays-on-the-path",
+   "https://tertulia.com/book/the-christian-contemplative-journey-essays-on-the-path-bernadette-roberts/9780692987216"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "iafcb3d5e",
+  "medium": "text",
+  "title": "Contemplative: Autobiography of the Early Years (ContemplativeChristians.com, 2018, Kindle, English)",
+  "date": "2018-11-23",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "e-book",
+  "language": "en",
+  "duration": null,
+  "host": "www.amazon.com",
+  "url": "https://www.amazon.com/Contemplative-Autobiography-Early-Bernadette-Roberts-ebook/dp/B07KV3FQYK",
+  "description": "Kindle e-book, ASIN B07KV3FQYK, 23 Nov 2018; autobiography from birth to age seventeen. Print paperback ISBN 0-692-12517-5 (978-0-692-12517-5).",
+  "tags": [
+   "english",
+   "e-book",
+   "kindle",
+   "contemplative",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "host-www-amazon-com",
+   "format-e-book",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.amazon.com/Contemplative-Autobiography-Early-Bernadette-Roberts-ebook/dp/B07KV3FQYK"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "if865da0e",
+  "medium": "text",
+  "title": "Jenseits von Ego und Selbst: Erfahrungsbericht einer spirituellen Reise (Arbor Verlag, 1997, German)",
+  "date": "1997-10-15",
+  "year": 1997,
+  "place": "Freiamt im Schwarzwald",
+  "people": [
+   "Bernadette Roberts",
+   "Franz Loschnigg",
+   "Karin Hein"
+  ],
+  "format": "translation",
+  "language": "de",
+  "duration": null,
+  "host": "www.booklooker.de",
+  "url": "https://www.booklooker.de/B%C3%BCcher/Bernadette-Roberts+Jenseits-von-Ego-und-Selbst-Erfahrungsbericht-einer-spirituellen-Reise/isbn/3924195277",
+  "description": "Arbor Verlag, Freiamt im Schwarzwald, 15 Oct 1997; ISBN 3-924195-27-7 (978-3-924195-27-4); hardback (gebunden), 186 pp. 'Übersetzung aus dem Amerikanischen: Franz Loschnigg und Karin Hein' (seller listing). No evidence found for a 1993 printing (the 1993 date on an already-known image record appears wrong). Renders The Experience of No-Self (inferred). Adds translator/date details to the already-known Amazon.de record.",
+  "tags": [
+   "german",
+   "translation",
+   "hardback",
+   "arbor-verlag",
+   "the-experience-of-no-self",
+   "update-of-known",
+   "text",
+   "1990s",
+   "1997",
+   "person-roberts",
+   "person-loschnigg",
+   "person-hein",
+   "host-www-booklooker-de",
+   "format-translation",
+   "lang-de",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.booklooker.de/B%C3%BCcher/Bernadette-Roberts+Jenseits-von-Ego-und-Selbst-Erfahrungsbericht-einer-spirituellen-Reise/isbn/3924195277",
+   "https://www.medimops.de/bernadette-roberts-jenseits-von-ego-und-selbst-erfahrungsbericht-einer-spirituellen-reise-gebundene-ausgabe-M03924195277.html",
+   "https://www.amazon.de/Jenseits-von-Ego-Selbst-Erfahrungsbericht/dp/3924195277",
+   "https://www.goodreads.com/author/show/197971.Bernadette_Roberts"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i982e6465",
+  "medium": "text",
+  "title": "L'Esperienza del Non-Sé (Astrolabio, 1987, Italian) - Goodreads edition record",
+  "date": "1987",
+  "year": 1987,
+  "place": "Roma",
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "it",
+  "duration": null,
+  "host": "www.goodreads.com",
+  "url": "https://www.goodreads.com/book/show/93282148-l-esperienza-del-non-se-the-experience-of-no-self-l-affascinante-resoc",
+  "description": "Goodreads record of the Italian paperback, ISBN 978-88-340-0887-4, 1987, 166 pp. + index; subtitle 'L'affascinante resoconto del solitario viaggio spirituale di una donna che ha raggiunto uno dei massimi livelli di realizzazione noti in ogni religione: il trascendimento dell'io'. Same edition as the Hoepli/Astrolabio record; translator not named.",
+  "tags": [
+   "italian",
+   "translation",
+   "the-experience-of-no-self",
+   "goodreads",
+   "text",
+   "1980s",
+   "1987",
+   "person-roberts",
+   "host-www-goodreads-com",
+   "format-translation",
+   "lang-it",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.goodreads.com/book/show/93282148-l-esperienza-del-non-se-the-experience-of-no-self-l-affascinante-resoc"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "i48cecead",
+  "medium": "text",
+  "title": "Jiko Sōshitsu no Taiken (Kinokuniya, Japanese) - Goodreads edition record",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "translation",
+  "language": "ja",
+  "duration": null,
+  "host": "www.goodreads.com",
+  "url": "https://www.goodreads.com/book/show/6682658-jiko-s-shitsu-no-taiken",
+  "description": "Goodreads record (tankobon hardcover) of 自己喪失の体験, the 1989 Kinokuniya Shoten translation by Amemiya Ichirō and Shiga Michi of The Experience of No-Self.",
+  "tags": [
+   "japanese",
+   "translation",
+   "the-experience-of-no-self",
+   "goodreads",
+   "text",
+   "person-roberts",
+   "host-www-goodreads-com",
+   "format-translation",
+   "lang-ja",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.goodreads.com/book/show/6682658-jiko-s-shitsu-no-taiken"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ia4597863",
+  "medium": "audio",
+  "title": "The Passion of Grace (New Dimensions Foundation, 1991, English, audiobook retail editions)",
+  "date": "1991-08",
+  "year": 1991,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Michael Toms"
+  ],
+  "format": "audiobook",
+  "language": "en",
+  "duration": "PT58M",
+  "host": "www.kobo.com",
+  "url": "https://www.kobo.com/us/en/audiobook/passion-of-grace-the",
+  "description": "Unabridged digital audio edition of the New Dimensions radio dialogue (host Michael Toms), c. 58 min, released Aug 1991, sold on Kobo, Google Play and Scribd. The only Roberts audiobook found; no audiobook of any of her seven books was found on Audible or elsewhere. Adds retail editions to the already-known New Dimensions program.",
+  "tags": [
+   "english",
+   "audiobook",
+   "new-dimensions",
+   "interview",
+   "update-of-known",
+   "audio",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "person-toms",
+   "host-www-kobo-com",
+   "format-audiobook",
+   "lang-en",
+   "has-duration",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.kobo.com/us/en/audiobook/passion-of-grace-the",
+   "https://play.google.com/store/audiobooks/details/The_Passion_of_Grace?id=AQAAAEAs1TWVCM&hl=en_US&gl=US",
+   "https://www.scribd.com/audiobook/414810276/The-Passion-of-Grace"
+  ],
+  "origin": "wave3-editions"
+ },
+ {
+  "id": "ib4f143ed",
+  "medium": "video",
+  "title": "A Passage Through Self (talk on DVD, students of Bernadette / Center for Sacred Sciences library, 1987)",
+  "date": "1987",
+  "year": 1987,
+  "place": "United States",
+  "people": [
+   "Bernadette Roberts",
+   "Pat Masters"
+  ],
+  "format": "talk",
+  "language": "en",
+  "duration": "55 minutes (CSS library copy); the two-DVD set sold from her site is described by a viewer as a three-hour talk",
+  "host": "Center for Sacred Sciences library (CSS Library, TinyCat); DVD also offered on bernadetteroberts.blogspot.com Recorded Talks page",
+  "url": "https://www.librarycat.org/lib/CtrSacredSciences/item/202838521",
+  "description": "Her talk illustrating the spiritual journey in terms of consciousness with a series of circles (paper circles with partly punched-out centres: 'the circles course'), first given after The Experience of No-Self was published, when she was invited to speak around the country. Covers the falling away of the ego, dark night of the spirit, unitive state, the 'marketplace' stage and the final falling away of self. CSS library record: 1 video recording, 55 min, imprint 'United States: students of Bernadette, 1987'; the record notes several recordings are available online courtesy of Pat Masters and other students. A Shalom Place member reviewed a two-DVD set ordered from her website (about three hours). Wikipedia dates the DVD 2012 in one version of its list, 1987 in another. Required viewing for her Fullerton retreats (e.g. 2014).",
+  "tags": [
+   "talk",
+   "dvd",
+   "circle-diagrams",
+   "consciousness",
+   "library-holding",
+   "official",
+   "video",
+   "1980s",
+   "1987",
+   "person-roberts",
+   "person-masters",
+   "host-center-for-sacred-sciences-library-css-library-tinycat-dvd-also-offered-on-bernadetteroberts-blogspot-com-recorded-talks-page",
+   "format-talk",
+   "lang-en",
+   "has-duration",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.librarycat.org/lib/CtrSacredSciences/item/202838521",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html",
+   "https://shalomplace.org/eve/forums/a/tpc/f/43110765/m/8054046148",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://en.wikipedia.org/wiki/Bernadette_Roberts"
+  ],
+  "origin": "wave3-recordings"
+ },
+ {
+  "id": "i5ffdd8a8",
+  "medium": "audio",
+  "title": "Interview with Bernadette Roberts (CD sound recording, Center for Sacred Sciences library, 1987)",
+  "date": "1987",
+  "year": 1987,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "CD",
+  "language": "en",
+  "duration": null,
+  "host": "Center for Sacred Sciences library (CSS Library, TinyCat)",
+  "url": "https://www.librarycat.org/lib/CtrSacredSciences/search/author/66757",
+  "description": "Interview recording catalogued in the Center for Sacred Sciences (Eugene, Oregon) library as 'Interview with Bernadette Roberts [sound recording]', CD, 1987, barcode CD-0931, shelved at the front desk. Interviewer not shown in search results. Lending copy only.",
+  "tags": [
+   "interview",
+   "cd",
+   "library-holding",
+   "audio",
+   "1980s",
+   "1987",
+   "person-roberts",
+   "host-center-for-sacred-sciences-library-css-library-tinycat",
+   "format-cd",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.librarycat.org/lib/CtrSacredSciences/search/author/66757"
+  ],
+  "origin": "wave3-recordings"
+ },
+ {
+  "id": "id77dc05b",
+  "medium": "video",
+  "title": "Bernadette Roberts on the Logos, Cosmic Christ, and blood/spirit/soul (DVD excerpt, YouTube, The Essence of Christian Mysticism)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "video",
+  "language": "en",
+  "duration": null,
+  "host": "YouTube (third-party upload)",
+  "url": "https://www.youtube.com/watch?v=klp_AN3y2TM",
+  "description": "Third-party YouTube excerpt from her recorded retreat DVD series 'The Essence of Christian Mysticism', on the Logos and its connection to the Cosmic Christ, and on blood, spirit and soul. Her official site states no YouTube recordings of her are authorized.",
+  "tags": [
+   "youtube",
+   "dvd-excerpt",
+   "logos",
+   "cosmic-christ",
+   "unauthorized-upload",
+   "video",
+   "person-roberts",
+   "host-youtube-third-party-upload",
+   "format-video",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.youtube.com/watch?v=klp_AN3y2TM",
+   "https://bernadetteroberts.blogspot.com/p/dvdcd.html"
+  ],
+  "origin": "wave3-recordings"
+ },
+ {
+  "id": "ieadaa4fe",
+  "medium": "audio",
+  "title": "Bernadette Roberts | The Path To No Self (podcast excerpt, Dancing Paradox, 2023)",
+  "date": "2023-01-21",
+  "year": 2023,
+  "place": null,
+  "people": [
+   "Bernadette Roberts",
+   "Alex Hickman"
+  ],
+  "format": "podcast",
+  "language": "en",
+  "duration": "about 14 minutes",
+  "host": "Dancing Paradox podcast (Alex Hickman), Podbean; also Apple Podcasts, Audible, Metacast, Podtail",
+  "url": "https://dancingparadox.podbean.com/e/bernadette-roberts-the-path-to-no-self",
+  "description": "Episode 156 of Dancing Paradox, dated 2023-01-21: an excerpt of Roberts herself speaking about the experience of no-self, taken from a YouTube video that the episode notes link to. Free podcast; Audible listings B0BSRR9KL7 (US) and B0BSRYZ5ZP (UK).",
+  "tags": [
+   "podcast",
+   "excerpt",
+   "no-self",
+   "dancing-paradox",
+   "audio",
+   "2020s",
+   "2023",
+   "person-roberts",
+   "person-hickman",
+   "host-dancing-paradox-podcast-alex-hickman-podbean-also-apple-podcasts-audible-metacast-podtail",
+   "format-podcast",
+   "lang-en",
+   "has-duration",
+   "place-uk",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://dancingparadox.podbean.com/e/bernadette-roberts-the-path-to-no-self",
+   "https://metacast.app/podcast/dancing-paradox/bGqMPxD3/bernadette-roberts-the-path-to-no-self/OpGNE5k2",
+   "https://www.audible.com/podcast/Bernadette-Roberts-The-Path-To-No-Self/B0BSRR9KL7"
+  ],
+  "origin": "wave3-recordings"
+ },
+ {
+  "id": "i8966f0e1",
+  "medium": "text",
+  "title": "The Christian Contemplative Journey: Essays on the Path - contents (table of contents, ContemplativeChristians.com Publishing, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay list for The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017; ISBN 9780692987216; c. 305 pp; Kindle B07KRHFHVS), as listed on her Books page and on Bernadette's Friends, in order: The Spiritual Journey Recapitulates the History of Religion; Cessation of Self; Nonduality; Mystical Theology and No-Self; Image and Likeness; Apatheia; Means-End; The Ox Herding Pictures; The Eucharist: A Christian Path; \"What is Self?\" - a Research Paper; Christ as the Definition of \"Non-duality\". Publisher blurb also names 'Ten Ox-herding Pictures' (her Christian commentary, originally a 21-page booklet) and 'The Nature of Self' as two of her most recent essays included; the blog list may not show every title. Archive.org scan: roberts.christian-contemplative-journey.",
+  "tags": [
+   "table-of-contents",
+   "essay-collection",
+   "christian-contemplative",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://www.abebooks.de/Christian-Contemplative-Journey-Essays-Path-Paperback/30172379029/bd",
+   "https://archive.org/details/roberts.christian-contemplative-journey"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ief66abed",
+  "medium": "text",
+  "title": "The Real Christ - contents (table of contents, ContemplativeChristians.com, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "www.barnesandnoble.com",
+  "url": "https://www.barnesandnoble.com/w/the-real-christ-bernadette-roberts/1122510515",
+  "description": "Table of contents of The Real Christ (ContemplativeChristians.com, 2017, 524 pp; ISBN 9780692851159; Kindle B07DVQ4YRH), as shown by Barnes & Noble, Amazon.in and the archive.org PDF (chapter numbering reconstructed from the listing order; listings differ slightly by printing, and spellings vary Nicea/Nicaea): Warning; Reason for Writing; Thesis; 1 Early Fathers; 2 Philosophical Background; 3 Logos; 4 Monotheism; 5 The Man Jesus; 6 Preface to the Trinity; 7 Trinity; 8 The Father-Son Problem; 9 Nicaea and Chalcedon; 10 The Person Problem; 11 Person as Self; 12 Person vs. Individual; 13 Cyril's Christology; 14 Monophysitism; 15 Communication of Properties; 16 The Problem of Christ; 17 Summary So Far; 18 Preface and Incarnation (one listing: Incarnation); 19 Kenosis; 20 Incarnation II; 21 Hypostatic Union; 22 Death of Christ; 23 Resurrection; 24 Ascension; 25 Deification; 26 God Will Be All in All; 27 A New Christology (one listing numbers it 28); Eucharist; Appendix I - Christian Ontology; Appendix II - Theology of No-Self; Appendix III - Theotokos; Acknowledgements; Bibliography.",
+  "tags": [
+   "table-of-contents",
+   "christology",
+   "book",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-www-barnesandnoble-com",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.barnesandnoble.com/w/the-real-christ-bernadette-roberts/1122510515",
+   "https://www.amazon.in/Real-Christ-Bernadette-Roberts-ebook/dp/B07DVQ4YRH",
+   "https://archive.org/download/roberts.real-christ/roberts.real-christ.pdf"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "if4758302",
+  "medium": "text",
+  "title": "The Experience of No-Self: A Contemplative Journey - contents (table of contents, SUNY Press revised edition, 1993; Iroquois House 1982)",
+  "date": "1993",
+  "year": 1993,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "sunypress.edu",
+  "url": "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+  "description": "Table of contents of The Experience of No-Self (Iroquois House 1982; Shambhala 1984; SUNY Press revised edition 1993, 212 pp): Introduction; Part I The Journey: Chapter 1; Chapter 2; Chapter 3; Chapter 4; Chapter 5; Chapter 6; Compendium of the Journey; The Silent Mind; Part II A Closer Look: Questions and Comments; Where is Christ?; Self; Conclusion. SUNY/De Gruyter pagination: Introduction p. 9, Chapter 1 p. 19, Chapter 6 p. 72, Questions and Comments p. 109, Where is Christ? p. 127, Self p. 164. The 1982 edition (archive.org full text) has Questions and Comments p. 99, Where is Christ? p. 114, Self p. 167. The six journey chapters are numbered, not titled, in the listings.",
+  "tags": [
+   "table-of-contents",
+   "no-self",
+   "book",
+   "text",
+   "1990s",
+   "1993",
+   "person-roberts",
+   "host-sunypress-edu",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Experience-of-No-Self",
+   "https://www.degruyterbrill.com/document/doi/10.1515/9781438417462/html",
+   "https://www.barnesandnoble.com/w/the-experience-of-no-self-bernadette-roberts/1147010039",
+   "https://archive.org/stream/roberts.experience-of-no-self/roberts.experience-of-no-self_djvu.txt"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ia73311db",
+  "medium": "text",
+  "title": "The Path to No-Self: Life at the Center - contents (table of contents, SUNY Press, 1991; Shambhala 1985)",
+  "date": "1991",
+  "year": 1991,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "sunypress.edu",
+  "url": "https://sunypress.edu/Books/T/The-Path-to-No-Self",
+  "description": "Table of contents of The Path to No-Self: Life at the Center (Shambhala 1985; SUNY Press 1991, 232 pp), per the SUNY Press listing: Preface; Introduction; Phases of the Unitive Life; Dichotomy of Experience; Phase I; Preface to Phase II; Phase II; Phase III; Between Phases III and IV; Phase IV; Phase V; Phase VI; Conclusion (some SUNY copies add Endnotes). Shambhala 1985 pagination differs.",
+  "tags": [
+   "table-of-contents",
+   "unitive-life",
+   "book",
+   "text",
+   "1990s",
+   "1991",
+   "person-roberts",
+   "host-sunypress-edu",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://sunypress.edu/Books/T/The-Path-to-No-Self",
+   "https://www.jstor.org/stable/jj.18255523",
+   "https://books.google.com/books/about/The_Path_to_No_Self.html?id=XpJFAgAAQBAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ib35a650b",
+  "medium": "text",
+  "title": "What Is Self? A Study of the Spiritual Journey in Terms of Consciousness - contents (table of contents, Sentient Publications, 2005; Mary Botsford Goens 1989)",
+  "date": "2005",
+  "year": 2005,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "www.everand.com",
+  "url": "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
+  "description": "Contents of What Is Self? (Mary Botsford Goens 1989; Sentient Publications 2005, 208 pp), as shown in the e-book preview and the archive.org PDF: Foreword (Jeff Shore); Foreword (Ric Williams); Introduction; Part I What Is Self?: Definition of Terms; Consciousness and the Senses; The Function of Consciousness; the Knowing-Self; the Feeling-Self; Unity of Consciousness; Ego; The Critical Turning Point; No-Self Experience; Conclusion; Appendix: The Divine Experienced by Consciousness; Appendix: True Nature of Death and Resurrection; Appendix: Compendium of the Self Experience. Part II Three Views of Consciousness: Three Views of Consciousness or Self; Three Views of Ego; the Unconscious; the Archetypes; One Way to View the Passage; Appendix: Essence of the Divine; Appendix: Personal Discovery of Buddhism. Part III The Christian Passage: An Overview; Steps in My Christian Passage; Appendix: How Christ differs from ourselves (Introduction; Two Sides of the Incarnation; Experience and Manifestation; Summary); Postscript. Exact order and wording of minor headings differ between listings and editions (Google Books shows a shorter list for one edition).",
+  "tags": [
+   "table-of-contents",
+   "consciousness",
+   "book",
+   "text",
+   "2000s",
+   "2005",
+   "person-roberts",
+   "host-www-everand-com",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://www.everand.com/book/518734047/What-Is-Self-A-Study-of-the-Spiritual-Journey-in-Terms-of-Consciousness",
+   "https://archive.org/download/roberts.what-is-self/roberts.what-is-self.pdf",
+   "https://books.google.com/books/about/What_Is_Self.html?id=BH08EAAAQBAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i24d3a773",
+  "medium": "text",
+  "title": "Contemplative: Autobiography of the Early Years - contents (table of contents, ContemplativeChristians.com, 2018)",
+  "date": "2018",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "table of contents",
+  "language": "en",
+  "duration": null,
+  "host": "archive.org",
+  "url": "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf",
+  "description": "Contents of Contemplative: Autobiography of the Early Years (ContemplativeChristians.com, 2018, 316 pp; ISBN 9780692125175; Kindle B07KV3FQYK), covering birth to age seventeen, where The Path to No-Self begins. Sections are by age, each with short titled chapters: Introduction; Birth through Age Two (incl. 'Home by the Sea'); Ages 3 & 4 (incl. 'God in the Sea'); Ages 5 & 6 (incl. 'God Everywhere'); Ages 7 & 8 (incl. 'A Jesus Problem'); Age 9; Age 10; Ages 11 & 12; later age sections to seventeen. Only these chapter titles were visible in search results; the full list of chapter titles is in the archive.org PDF.",
+  "tags": [
+   "table-of-contents",
+   "autobiography",
+   "book",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "host-archive-org",
+   "format-table-of-contents",
+   "lang-en",
+   "confidence-t"
+  ],
+  "confidence": "T",
+  "sources": [
+   "https://archive.org/download/roberts.contemplative-autobiography-of-the-early-years/roberts.contemplative-autobiography-of-the-early-years.pdf",
+   "https://books.google.com/books/about/Contemplative.html?id=BBRntwEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i1d533535",
+  "medium": "text",
+  "title": "The Spiritual Journey Recapitulates the History of Religion (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "dn721605.ca.archive.org",
+  "url": "https://dn721605.ca.archive.org/0/items/roberts.christian-contemplative-journey/roberts.christian-contemplative-journey.pdf",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). First essay of the collection (also first in the 2007 Essays on the Christian Contemplative Journey). Argues that the individual's inner journey mirrors the historical development of religious revelation. Discussed by Kim de Beus and quoted in a Contemplative Outreach course.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-dn721605-ca-archive-org",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://dn721605.ca.archive.org/0/items/roberts.christian-contemplative-journey/roberts.christian-contemplative-journey.pdf",
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "https://www.kimdebeus.com/reflections/first-essay-from-the-christian-contemplative-journey-by-bernadette-roberts-1-5xs8n",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ib48212e6",
+  "medium": "text",
+  "title": "Cessation of Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed second on her Books page; also in the 2007 collection per Google Books.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ifccfa546",
+  "medium": "text",
+  "title": "Nonduality (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection. awakeningtoreality.com cites it as 'Nondualism' from Essays on the Christian Contemplative Journey (2007).",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ",
+   "https://www.awakeningtoreality.com/2007/07/bernadette-roberts-interview.html"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i9fb5561b",
+  "medium": "text",
+  "title": "Mystical Theology and No-Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i073c58f0",
+  "medium": "text",
+  "title": "Image and Likeness (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i1c5878de",
+  "medium": "text",
+  "title": "Apatheia (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i33f7ff80",
+  "medium": "text",
+  "title": "Means-End (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page; also in the 2007 collection.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i41ddcc47",
+  "medium": "text",
+  "title": "The Ox Herding Pictures (Christian Commentary on the Ten Ox Herding Pictures) (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page as 'The Ox Herding Pictures'; publisher blurb calls it 'Ten Ox-herding Pictures', one of her most recent essays. Originally the self-published 21-page booklet written at Jeff Shore's request.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+   "https://www.abebooks.de/Christian-Contemplative-Journey-Essays-Path-Paperback/30172379029/bd"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i44d6672c",
+  "medium": "text",
+  "title": "The Eucharist: A Christian Path (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Essay listed on her Books page ('The Eucharist, A Christian Path'); Google Books lists 'the eucharist as a Christian path' in the 2007 collection.",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://books.google.com/books/about/Essays_on_the_Christian_Contemplative_Jo.html?id=4Cey0AEACAAJ"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ib003ba13",
+  "medium": "text",
+  "title": "The Nature of Self (essay, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "essay",
+  "language": "en",
+  "duration": null,
+  "host": "www.abebooks.de",
+  "url": "https://www.abebooks.de/Christian-Contemplative-Journey-Essays-Path-Paperback/30172379029/bd",
+  "description": "Essay by Bernadette Roberts in The Christian Contemplative Journey: Essays on the Path (ContemplativeChristians.com Publishing, 2017). Named in the publisher/bookseller blurb as one of 'two of Bernadette's most recent essays' included in the 2017 collection; not shown in the blog's essay list (possibly the 'What is Self?' research paper under another title - not confirmed).",
+  "tags": [
+   "essay",
+   "christian-contemplative-journey",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-www-abebooks-de",
+   "format-essay",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.abebooks.de/Christian-Contemplative-Journey-Essays-Path-Paperback/30172379029/bd",
+   "https://booksrun.com/9780692987216-the-christian-contemplative-journey-essays-on-the-path"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i560da409",
+  "medium": "text",
+  "title": "\"What is Self?\" - a Research Paper (book chapter, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "The research paper written for Nini Praetorius's University of Copenhagen project on the true nature of Self ('Self as the cause of individuation'; JCS 23(1-2), 2016) reprinted as an essay in The Christian Contemplative Journey: Essays on the Path (2017), per her Books page. The o-meditation.com listing says chapters on self are also in her 'Essays on the Christian Spiritual Journey'.",
+  "tags": [
+   "essay",
+   "research-paper",
+   "self",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-book-chapter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "https://o-meditation.com/downloadable-books/bernadette-roberts-books/"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "icc296d80",
+  "medium": "text",
+  "title": "Christ as the Definition of \"Non-duality\" (book chapter, The Christian Contemplative Journey: Essays on the Path, 2017)",
+  "date": "2017",
+  "year": 2017,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+  "description": "Her SAND 2015 paper 'Non-duality as a Definition of Christ' (San Jose, 22 Oct 2015) collected as the closing essay, titled 'Christ as the Definition of \"Non-duality\"', in The Christian Contemplative Journey: Essays on the Path (2017), per her Books page.",
+  "tags": [
+   "essay",
+   "nonduality",
+   "christ",
+   "text",
+   "2010s",
+   "2017",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-book-chapter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/booksmanuscripts_22.html",
+   "http://bernadettesfriends.blogspot.com/",
+   "http://bernadetteroberts.blogspot.com/p/research-paper.html"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "id6ac287b",
+  "medium": "text",
+  "title": "Christian Commentary on the Ten Ox Herding Pictures (booklet, self-published)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "booklet",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+  "description": "Self-published 21-page booklet written at the request of Jeff Shore, a Buddhist friend; listed on her 'Other Writings' page and later included in The Christian Contemplative Journey: Essays on the Path (2017). Date not shown.",
+  "tags": [
+   "booklet",
+   "zen",
+   "ox-herding-pictures",
+   "jeff-shore",
+   "text",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-booklet",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i8b65e5e5",
+  "medium": "text",
+  "title": "No Bull: Zen Oxherding Pictures for the Modern World with a Catholic Contemplative's Commentary (book chapter, with Jeff Shore)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "book chapter",
+  "language": "en",
+  "duration": null,
+  "host": "terebess.hu",
+  "url": "https://terebess.hu/english/no-bull.pdf",
+  "description": "Jeff Shore's presentation of the Zen Oxherding Pictures with Bernadette Roberts's commentary as 'a Catholic contemplative'; terebess.hu lists it as 'by Jeff Shore with Bernadette Roberts'. German version 'Kein Ochse: Die Ochsenbilder des Zen' (beingwithoutself.org PDF, 2015) credits 'Jeff Shore und Bernadette Roberts'; a Spanish version 'El No-Toro' is mentioned. Year of the English edition not shown.",
+  "tags": [
+   "commentary",
+   "zen",
+   "ox-herding-pictures",
+   "jeff-shore",
+   "text",
+   "person-roberts",
+   "host-terebess-hu",
+   "format-book-chapter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://terebess.hu/english/no-bull.pdf",
+   "https://terebess.hu/english/oxindex.html",
+   "https://beingwithoutself.org/wp-content/uploads/2015/03/oxpics-german-2015-02-19.pdf"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i2257f3a5",
+  "medium": "text",
+  "title": "Forcing the Fit (manuscript, self-published, 2008)",
+  "date": "2008",
+  "year": 2008,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "manuscript",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+  "description": "Spiral-bound manuscript, 122 pp (2008), in which she answers erroneous interpretations of her work by A.H. Almaas, James Marion and Jim Arraj; listed on her 'Other Writings' page (marked not currently available, though a PayPal mail-order note also appears). A critic quotes its Foreword defining 'forcing the fit'.",
+  "tags": [
+   "manuscript",
+   "almaas",
+   "jim-marion",
+   "jim-arraj",
+   "text",
+   "2000s",
+   "2008",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-manuscript",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/p/self-published-works.html",
+   "https://www.innerexplorations.com/ewtext/br.htm"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i9e7af0f2",
+  "medium": "text",
+  "title": "Reply to James Arraj's comments (letter, Bernadette's Friends blog)",
+  "date": "2008",
+  "year": 2008,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "letter",
+  "language": "en",
+  "duration": null,
+  "host": "bernadettesfriends.blogspot.com",
+  "url": "http://bernadettesfriends.blogspot.com/2006/02/reply-to-james-arrajs-comments-on.html",
+  "description": "Her written reply to James Arraj's Inner Explorations essay 'Bernadette Roberts and the Experience of No-Self'; argues Arraj equates her no-self with the Buddhist an-atman doctrine and assumes St John of the Cross wrote down all he knew. Inner Explorations says she responded in June 2008; the blog URL carries 2006/02. Discussed in the Shalom Place thread 'Bernadette Roberts responds to Jim Arraj'.",
+  "tags": [
+   "letter",
+   "reply",
+   "jim-arraj",
+   "no-self",
+   "text",
+   "2000s",
+   "2008",
+   "person-roberts",
+   "host-bernadettesfriends-blogspot-com",
+   "format-letter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "https://www.innerexplorations.com/ewtext/br.htm",
+   "https://shalomplace.org/eve/forums/a/tpc/f/18910625/m/86510506/p/1"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "ibf6afccd",
+  "medium": "text",
+  "title": "From Bernadette (letter, bernadetteroberts.blogspot.com, 2018 repost)",
+  "date": "2018-03",
+  "year": 2018,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "letter",
+  "language": "en",
+  "duration": null,
+  "host": "bernadetteroberts.blogspot.com",
+  "url": "http://bernadetteroberts.blogspot.com/2018/03/from-bernadette.html",
+  "description": "Her standing note to readers: apart from her annual retreat she does not see people individually, talk on the phone or carry on correspondence; she is not a spiritual director, counselor or teacher; suggests finding a group, monastery or church. Also on bernadettesfriends.blogspot.com home page together with her warning note on The Real Christ ('Those who believe the man Jesus ... was God, should read no further'). Posted on the official blog March 2018 (after her death); original date not shown.",
+  "tags": [
+   "letter",
+   "note-to-readers",
+   "text",
+   "2010s",
+   "2018",
+   "person-roberts",
+   "host-bernadetteroberts-blogspot-com",
+   "format-letter",
+   "lang-en",
+   "confidence-s"
+  ],
+  "confidence": "S",
+  "sources": [
+   "http://bernadetteroberts.blogspot.com/2018/03/from-bernadette.html",
+   "http://bernadettesfriends.blogspot.com/"
+  ],
+  "origin": "wave3-writings"
+ },
+ {
+  "id": "i46814d44",
+  "medium": "text",
+  "title": "Saving Christianity from the Christians: a free-for-all with Bernadette Roberts (manuscript, transcript ed. Phoenix Kennedy)",
+  "date": null,
+  "year": null,
+  "place": null,
+  "people": [
+   "Bernadette Roberts"
+  ],
+  "format": "manuscript",
+  "language": "en",
+  "duration": null,
+  "host": "www.amazon.com",
+  "url": "https://www.amazon.com/Saving-Christianity-Christians-free-all-ebook/dp/B0848XDK8G",
+  "description": "Kindle book by Phoenix Kennedy described as a transcription of one of her last weekend discussions with close friends; her spoken words, not a text she wrote. Listed as a lead only.",
+  "tags": [
+   "transcript",
+   "lead",
+   "text",
+   "person-roberts",
+   "host-www-amazon-com",
+   "format-manuscript",
+   "lang-en",
+   "confidence-lead"
+  ],
+  "confidence": "lead",
+  "sources": [
+   "https://www.amazon.com/Saving-Christianity-Christians-free-all-ebook/dp/B0848XDK8G",
+   "https://www.goodreads.com/author/list/16570706.Phoenix_Kennedy"
+  ],
+  "origin": "wave3-writings"
  }
 ]

@@ -150,9 +150,28 @@ for f in sorted(src.glob("*.json")):
 # Items that share a URL are one item: keep the richest, union the rest.
 by_url = {}
 merged = []
+WORKS = ("table of contents", "essay", "paper", "article", "book chapter", "letter", "booklet", "manuscript", "foreword",
+         "interview", "review", "thesis", "journal article", "obituary", "commentary")
+
+
+def same_title(a, b):
+    """Two titles name the same work when they share at least half their words."""
+    wa, wb = (set(re.findall(r"[a-z0-9]{3,}", s.lower())) for s in (a, b))
+    return bool(wa and wb) and len(wa & wb) / min(len(wa), len(wb)) >= 0.5
+
+
+def is_work(x):
+    f = (x.get("format") or "").lower()
+    return any(w in f for w in WORKS)
+
+
 for it in items:
     u = it.get("url")
     if not u:
+        merged.append(it); continue
+    # a distinct work listed on a page (an essay on a contents page) is its own item, not a copy of the page
+    if u in by_url and (is_work(it) or is_work(by_url[u])) and (it.get("format") or "").lower() != (by_url[u].get("format") or "").lower() \
+            and not same_title(it["title"], by_url[u]["title"]):
         merged.append(it); continue
     if u in by_url:
         keep = by_url[u]

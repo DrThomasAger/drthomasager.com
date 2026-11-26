@@ -1,21 +1,21 @@
 {
  "summary": {
-  "items": 726,
+  "items": 745,
   "quotes": 282,
   "events": 84,
   "people": 87,
   "items_by_medium": {
    "archive": 95,
    "community": 66,
-   "audio": 94,
+   "audio": 96,
    "image": 113,
-   "text": 204,
-   "video": 154
+   "text": 218,
+   "video": 157
   },
   "items_by_confidence": {
-   "S": 661,
+   "S": 676,
    "T": 15,
-   "lead": 50
+   "lead": 54
   },
   "quotes_by_confidence": {
    "S": 188,
@@ -55,8 +55,8 @@
    "talk: First and Last Public Talk of U.G. after his Calamity (Bangalore 1972)": 1
   },
   "distinct_source_hosts": 381,
-  "items_self_sourced_only": 342,
-  "items_with_second_source": 384,
+  "items_self_sourced_only": 354,
+  "items_with_second_source": 391,
   "compositions_checked": 13,
   "events_with_recorded_date_conflict": 7,
   "quotes_marked_duplicate": 8,
@@ -113,11 +113,11 @@
  "hosts": [
   [
    "people.well.com",
-   188
+   193
   ],
   [
    "youtube.com",
-   151
+   152
   ],
   [
    "archive.org",
@@ -125,7 +125,7 @@
   ],
   [
    "en.wikisource.org",
-   101
+   103
   ],
   [
    "goodreads.com",
@@ -133,7 +133,7 @@
   ],
   [
    "ugkrishnamurti.in",
-   73
+   79
   ],
   [
    "amazon.com",
@@ -192,12 +192,12 @@
    16
   ],
   [
-   "facebook.com",
+   "en.wikipedia.org",
    15
   ],
   [
-   "en.wikipedia.org",
-   14
+   "facebook.com",
+   15
   ],
   [
    "holybooks.com",
@@ -220,6 +220,10 @@
    12
   ],
   [
+   "markwhitwell.medium.com",
+   12
+  ],
+  [
    "bitchute.com",
    12
   ],
@@ -237,10 +241,6 @@
   ],
   [
    "x.com",
-   10
-  ],
-  [
-   "markwhitwell.medium.com",
    10
   ],
   [
@@ -280,6 +280,10 @@
    8
   ],
   [
+   "hammertonail.com",
+   8
+  ],
+  [
    "tribuneindia.com",
    8
   ],
@@ -301,10 +305,6 @@
   ],
   [
    "dokumen.pub",
-   7
-  ],
-  [
-   "hammertonail.com",
    7
   ],
   [
@@ -624,6 +624,10 @@
    3
   ],
   [
+   "moortysblog.blogspot.com",
+   3
+  ],
+  [
    "44books.com",
    3
   ],
@@ -784,10 +788,6 @@
    2
   ],
   [
-   "moortysblog.blogspot.com",
-   2
-  ],
-  [
    "epustakalay.com",
    2
   ],
@@ -805,6 +805,10 @@
   ],
   [
    "oneindia.com",
+   2
+  ],
+  [
+   "professordeino.substack.com",
    2
   ],
   [
@@ -1188,10 +1192,6 @@
    1
   ],
   [
-   "professordeino.substack.com",
-   1
-  ],
-  [
    "thehindu.com",
    1
   ],
@@ -1480,10 +1480,6 @@
    1
   ],
   [
-   "alpheus.org",
-   1
-  ],
-  [
    "waterstones.com",
    1
   ],
@@ -1561,6 +1557,10 @@
   ],
   [
    "rupapublications.co.in",
+   1
+  ],
+  [
+   "alpheus.org",
    1
   ],
   [
