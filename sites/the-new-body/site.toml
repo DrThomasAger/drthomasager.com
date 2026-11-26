@@ -17,7 +17,7 @@ kind = "blog"                            # blog, signup or blog-with-logins; TEM
 name = "The New Body"                    # the brand, top left, and the page titles
 author = "Ananda Purebuddha"             # the person
 url = "https://thenewbody.example/"      # the published address, ending in /; waits on hers
-tagline = "EDS Insight with Ananda Purebuddha."
+tagline = "EDS insight, everything about MCAS, and the spiritual body and the physical body, with Ananda Purebuddha."
 year = "2026"
 lang = "en"
 body_class = "theme-ink"                 # a theme block in assets/themes.css
@@ -25,7 +25,7 @@ brand_mark = "❀"                        # beside the name, top left
 accent_project = "The New Body"          # whose colour the mailing-list eyebrows wear
 default_glyph = "❀"                     # a post with no glyph of its own
 author_initials = "AP"
-author_bio = "Ananda Purebuddha writes The New Body: EDS Insight."
+author_bio = "Ananda Purebuddha writes The New Body on EDS, MCAS, and the meeting of the spiritual body and the physical body."
 signup_thanks = "Welcome. Your first email is on its way."   # shown after joining
 # extra_css = ["assets/site.css"]        # a file placed in site-assets/site.css
 
@@ -41,19 +41,66 @@ nav = [["The Supplement Stack", "shop.html"]]   # extra links after the categori
 join_button = "Join the List"
 
 # The main groupings, side by side in the header, each gathering
-# categories below. One is enough.
+# categories below.
 [roots]
-"EDS Insight" = ["EDS Insight"]
+"The Physical Body" = ["EDS Insight", "Everything About MCAS", "Supplements"]
+"The Spiritual Body" = ["The Spiritual Body and the Physical Body", "Living With Illness"]
 
 [categories."EDS Insight"]
 slug = "eds-insight"
-blurb = "EDS insight, from Ananda Purebuddha."
-[categories."EDS Insight".subs."Insight"]
+blurb = "Ehlers-Danlos syndrome from the inside: joints, connective tissue and daily life."
+[categories."EDS Insight".subs."Understanding EDS"]
 children = []
-blurb = "Insight into the body with EDS."
-[categories."EDS Insight".subs."Supplements"]
+blurb = "What EDS is, how it shows up, and how it is diagnosed."
+[categories."EDS Insight".subs."Joints and Movement"]
 children = []
+blurb = "Hypermobility, subluxations, pain and moving safely."
+[categories."EDS Insight".subs."POTS and Dysautonomia"]
+children = []
+blurb = "The nervous system companions that often travel with EDS."
+
+[categories."Everything About MCAS"]
+slug = "everything-about-mcas"
+blurb = "Mast cell activation syndrome: triggers, reactions and calm."
+[categories."Everything About MCAS".subs."MCAS Basics"]
+children = []
+blurb = "What mast cells do and what happens when they activate too easily."
+[categories."Everything About MCAS".subs."Triggers and Diet"]
+children = []
+blurb = "Food, histamine, environment and finding your own triggers."
+[categories."Everything About MCAS".subs."Medication and Treatment"]
+children = []
+blurb = "Antihistamines, stabilisers and the paths people take."
+
+[categories."Supplements"]
+slug = "supplements"
 blurb = "The supplement stack, and each part of it."
+[categories."Supplements".subs."The Stack"]
+children = []
+blurb = "The Ultimate Supplement Stack, explained one part at a time."
+[categories."Supplements".subs."Nutrition"]
+children = []
+blurb = "Eating to nourish connective tissue and calm the body."
+
+[categories."The Spiritual Body and the Physical Body"]
+slug = "the-spiritual-body-and-the-physical-body"
+blurb = "Where the subtle body and the physical body meet."
+[categories."The Spiritual Body and the Physical Body".subs."Energy and Embodiment"]
+children = []
+blurb = "Prana, the subtle channels and the felt sense of the body."
+[categories."The Spiritual Body and the Physical Body".subs."Meditation and the Body"]
+children = []
+blurb = "Practices for resting in a body that hurts."
+
+[categories."Living With Illness"]
+slug = "living-with-illness"
+blurb = "Chronic illness as a path: rest, relationships, grief and joy."
+[categories."Living With Illness".subs."Daily Life"]
+children = []
+blurb = "Pacing, rest, and the small rhythms that hold a day."
+[categories."Living With Illness".subs."Heart and Mind"]
+children = []
+blurb = "The emotional and spiritual life of a body that is unwell."
 
 # A child is a page one level deeper than a subcategory:
 #   [categories."First Category".subs."First Subcategory"]
