@@ -1,5 +1,9 @@
 # hanjopurebuddha.com
 
+> The articles, signup pages and blogs of drthomasager.com are made with
+> no code from its template: see HOW-TO.md in
+> https://github.com/DrThomasAger/drthomasager.com
+
 A guru browsing section. Enlightened people, each with their own words,
 their recordings, their films and television, their photographs, their
 books and transcripts, the archives and communities around them, and
