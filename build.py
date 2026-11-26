@@ -6,6 +6,8 @@
                                          copies template/ to start a new site
     python build.py --new-article "Title" [site folder]
                                          a new gold-letterhead article, as a draft
+    python build.py --make answer.json [folder]
+                                         a whole site from the Site Maker's answer
     python build.py --export sites/<name> <folder>
                                          writes that site as a standalone
                                          repository: engine + its files at the root
@@ -42,7 +44,7 @@ def configure(folder=ROOT):
     SITE = FOLDER / "site"
     s = CONF["site"]
     SITE_NAME, SITE_URL, TAGLINE = s["name"], s["url"], s["tagline"]
-    AUTHOR = s.get("author", SITE_NAME)   # the person, when the site has its own name
+    AUTHOR = s.get("author") or SITE_NAME   # the person, when the site has its own name
     ROOTS = CONF.get("roots", {})
     MAILING_ENDPOINT = CONF.get("mailing", {}).get("endpoint", "")
     CATEGORIES = CONF.get("categories", {})
@@ -784,7 +786,9 @@ def article_page(p, posts):
             f'<h1>{p["title"]}</h1><p class="lede">{p["description"]}</p>'
             f'<div class="byline"><span class="who">{", ".join(p["authors"])}</span>'
             f'<span class="dot"></span><span>{p["date"]}</span><span class="dot"></span>'
-            f'<span>{p["readtime"]} min read</span></div></header>'
+            f'<span>{p["readtime"]} min read</span></div>'
+            + (f'<p class="authorship">({p["authorship"]})</p>' if p.get("authorship") else '')
+            + '</header>'
             f'{toc}<div class="article-body">{p["body"]}</div>{tags}'
             f'<div class="author"><span class="avatar">{C("site", "author_initials")}</span>'
             f'<div><div class="name">{AUTHOR}</div>{C("site", "author_bio")}</div></div>'
@@ -966,6 +970,130 @@ def new_article(title, folder="."):
     dest.write_text(text, encoding="utf-8")
     print(f"New article at {dest}. Write it, delete the line `draft: yes`, and build.")
 
+# ---- The Site Maker: a whole site from one description ----
+# A model reads a person's words, template/site.toml and HOW-TO.md, and
+# answers one JSON object (the role is roles/Site Maker.smile in the Smile
+# Client). `python build.py --make answer.json [folder]` turns that answer
+# into a site folder and builds it. Asked again with the same folder, it
+# changes that site.
+
+REPLACED = {"roots", "categories", "child_info", "projects", "products"}
+
+def _merge(base, over):
+    """over laid onto base. The tables that list a site's own things are
+    taken whole from over, so none of the template's examples remain."""
+    out = dict(base)
+    for k, v in over.items():
+        if isinstance(v, dict) and isinstance(out.get(k), dict) and k not in REPLACED:
+            out[k] = _merge(out[k], v)
+        else:
+            out[k] = v
+    return out
+
+def _tkey(k):
+    return k if re.fullmatch(r"[A-Za-z0-9_-]+", k) else json.dumps(k, ensure_ascii=False)
+
+def _tval(v):
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    if isinstance(v, (int, float)):
+        return str(v)
+    if isinstance(v, list):
+        return "[" + ", ".join(_tval(x) for x in v) + "]"
+    return json.dumps(str(v), ensure_ascii=False)
+
+def dump_toml(d, path=()):
+    """A site's settings written back as site.toml."""
+    plain = [f"{_tkey(k)} = {_tval(v)}" for k, v in d.items()
+             if not isinstance(v, dict)
+             and not (isinstance(v, list) and v and all(isinstance(x, dict) for x in v))]
+    out = "\n".join(plain)
+    for k, v in d.items():
+        here = path + (k,)
+        if isinstance(v, dict):
+            out += f"\n\n[{'.'.join(_tkey(x) for x in here)}]\n" + dump_toml(v, here)
+        elif isinstance(v, list) and v and all(isinstance(x, dict) for x in v):
+            for item in v:
+                out += f"\n\n[[{'.'.join(_tkey(x) for x in here)}]]\n" + dump_toml(item, here)
+    return out.strip("\n")
+
+def make_site(answer_file, target=None):
+    """One model answer -> a built site. Prints one line of JSON naming
+    the folder, the page to open and what was written."""
+    spec = json.loads(Path(answer_file).read_text(encoding="utf-8"))
+    settings = spec.get("settings", {})
+    name = spec.get("name") or settings.get("site", {}).get("name", "new-site")
+    target = Path(target) if target else ROOT / "sites" / slugify(name)
+    kind = spec.get("kind", "blog") if spec.get("kind") in KINDS else "blog"
+    if not (target / "site.toml").exists():
+        new_site(target, kind)
+    conf = _merge(tomllib.loads((TEMPLATE / "site.toml").read_text(encoding="utf-8")),
+                  settings)
+    conf.setdefault("site", {})["kind"] = kind
+    # the design: tokens of the site's own stylesheet
+    if spec.get("css", "").strip():
+        (target / "site-assets").mkdir(exist_ok=True)
+        (target / "site-assets" / "site.css").write_text(spec["css"], encoding="utf-8")
+        conf["site"]["extra_css"] = ["assets/site.css"]
+    # the free gift for joining
+    fb = spec.get("freebie") or {}
+    if fb.get("title"):
+        key = slugify(fb["title"])
+        (target / "freebie").mkdir(exist_ok=True)
+        (target / "freebie" / f"{key}.md").write_text(
+            f'# {fb["title"]}\n\n{fb.get("body", "").strip()}\n', encoding="utf-8")
+        products = [pr for pr in conf.get("products", []) if pr.get("key") != key]
+        products.append({"key": key, "glyph": fb.get("glyph", "✦"), "price": "Free",
+                         "title": fb["title"],
+                         "text": fb.get("text", "Arrives with the welcome email when you join the "
+                                                "mailing list, and is yours to keep.")})
+        conf["products"] = products
+        conf["freebie"] = {"product": key, "file": f"freebie/{key}.md"}
+        stale = target / "freebie" / "the-free-thing.md"
+        if stale.exists() and key != "the-free-thing":
+            stale.unlink()
+    if spec.get("welcome", "").strip():
+        (target / "mailing").mkdir(exist_ok=True)
+        (target / "mailing" / "intro-email.md").write_text(spec["welcome"].strip() + "\n",
+                                                         encoding="utf-8")
+    words = [l for l in str(spec.get("prompt", "")).splitlines() if l.strip()]
+    head = ("# Made by the Site Maker from these words:\n"
+            + "".join(f"#   {l}\n" for l in words)
+            + "# Every setting is explained in template/site.toml of the engine.\n\n")
+    (target / "site.toml").write_text(head + dump_toml(conf) + "\n", encoding="utf-8")
+    configure(target)          # a setting the engine cannot read stops here, before anything is built
+    # the article, written where the maker wrote its last one
+    record = target / "site-maker.json"
+    before = json.loads(record.read_text(encoding="utf-8")) if record.exists() else {}
+    art, article_file = spec.get("article") or {}, None
+    if art.get("title") and kind != "signup":
+        subs = [sub for c in CATEGORIES.values() for sub in c["subs"]]
+        children = [ch for c in CATEGORIES.values() for s in c["subs"].values() for ch in s["children"]]
+        sub = art.get("subcategory") if art.get("subcategory") in subs + children else (subs or [""])[0]
+        proj = art.get("project") if art.get("project") in PROJECTS else next(iter(PROJECTS), "")
+        import datetime
+        front = {"title": art["title"], "description": art.get("description", ""),
+                 "subcategory": sub, "date": str(datetime.date.today()),
+                 "readtime": str(art.get("readtime") or max(1, len(art.get("body", "").split()) // 230)),
+                 "glyph": art.get("glyph", C("site", "default_glyph", "✦")), "project": proj,
+                 "tags": ", ".join(art.get("tags", [])), "style": "article",
+                 "authorship": art.get("authorship", "co-created with AI from the author's words")}
+        article_file = POSTS / f'{slugify(art["title"])}.md'
+        POSTS.mkdir(exist_ok=True)
+        old = before.get("article_file")
+        if old and Path(old) != article_file and Path(old).exists():
+            Path(old).unlink()
+        article_file.write_text(
+            "---\n" + "".join(f"{k}: {str(v).replace(chr(10), ' ')}\n" for k, v in front.items() if v != "")
+            + "---\n" + art.get("body", "").strip() + "\n", encoding="utf-8")
+    record.write_text(json.dumps({**spec, "article_file": str(article_file) if article_file else None},
+                                 ensure_ascii=False, indent=1), encoding="utf-8")
+    main([str(target)])
+    page = SITE / (f"{slugify(art['title'])}.html" if article_file else "index.html")
+    print(json.dumps({"folder": str(target), "site": str(SITE), "page": str(page),
+                      "kind": kind, "name": SITE_NAME,
+                      "article": str(article_file) if article_file else None}, ensure_ascii=False))
+
 ENGINE_FILES = ["build.py", "assets", "template", "TEMPLATE.md", "HOW-TO.md", "docs/how-to",
                 "tools/ghost_one.py", ".github/workflows/publish.yml",
                 ".github/workflows/new-article.yml", ".github/workflows/new-site.yml",
@@ -1004,6 +1132,8 @@ def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if argv[:1] == ["--new"]:
         return new_site(argv[1], argv[3] if argv[2:3] == ["--kind"] else "blog")
+    if argv[:1] == ["--make"]:
+        return make_site(argv[1], argv[2] if len(argv) > 2 else None)
     if argv[:1] == ["--new-article"]:
         return new_article(argv[1], argv[2] if len(argv) > 2 else ".")
     if argv[:1] == ["--export"]:

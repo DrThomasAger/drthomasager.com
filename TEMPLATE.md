@@ -85,3 +85,13 @@ made there.
   site is to have sign-in and a library of what a person has unlocked.
 - **The ontology and explore page** (`ontology/`) are DrThomasAger's own
   tree. A new site starts without them.
+
+## The Site Maker (2026-11-26)
+
+`python build.py --make answer.json [folder]` makes a whole site from one
+JSON answer of a model: the settings laid over `template/site.toml`, the
+site's own stylesheet, its freebie, its welcome email and an article in
+the gold-letterhead style, then builds it. Asked again with the same
+folder it changes that site. The Smile Client's Site Maker app writes the
+answer from a person's words through its role `roles/Site Maker.smile`.
+An article page now shows an `authorship:` line from its front-matter.
