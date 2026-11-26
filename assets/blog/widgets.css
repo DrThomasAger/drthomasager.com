@@ -39,3 +39,5 @@ li.check input:checked+*,li.check label:has(input:checked){color:var(--ink-2)}
 .signup-only .page{padding-top:var(--sp5)}
 .signup-only .legal{margin-top:var(--sp4);font:400 var(--s-1)/1.5 var(--sans);color:var(--ink-2)}
 @media(max-width:600px){.post-join,.post-shop{padding:var(--sp2)}}
+.letterhead .authorship{font:italic 400 var(--s0)/1.4 var(--serif);color:var(--ink-2);margin:calc(-1*var(--sp2)) 0 var(--sp3)}
+.signup-only .callout.key{--wash:var(--accent-soft);--tone:var(--gold,var(--accent))}

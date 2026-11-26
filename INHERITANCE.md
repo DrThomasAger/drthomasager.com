@@ -961,3 +961,24 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     ) End the kinds )
 
 :-) End 2026-11-26, making with no code :-) Many blessings
+
+(-: 2026-11-26, the Site Maker in the Smile Client, session ccr-1dcedc23 (-:
+
+    ( His words (
+        "make it way easier for anyone with 1 click at any ability to just
+        write what they want with ap rompt and then its all setitngs set for
+        them and design made etc" and "add that to smile client"
+    ) End his words )
+    ( What this repository gained (
+        build.py --make answer.json [folder], with make_site, the merge of an
+        answer over template\site.toml (roots, categories, child_info,
+        projects and products taken whole) and dump_toml, which writes
+        settings back as site.toml and round-trips all three configs here.
+        An empty author falls back to the site's name. An article shows its
+        authorship line. HOW-TO.md opens with the Site Maker as the easiest
+        way. The Smile Client's half is in DrThomasAger/smile-client,
+        apps\site-maker.js, apps\site-maker.main.js and roles\Site
+        Maker.smile, with its own INHERITANCE.md entry.
+    ) End what this repository gained )
+
+:-) End 2026-11-26, the Site Maker in the Smile Client :-) Many blessings

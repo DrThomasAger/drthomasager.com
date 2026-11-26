@@ -13,6 +13,21 @@ file on the PC, or by asking Claude. Nothing needs to be programmed.
 | A blog with a mailing list | [A blog with a mailing list](#a-blog-with-a-mailing-list) |
 | A blog with a mailing list and sign in | [A blog with sign in](#a-blog-with-a-mailing-list-and-sign-in) |
 | Any of these as its own website, at its own address | [Going live](#going-live-as-its-own-website) |
+| Any of these from one description, with nothing to set | [The easiest way](#the-easiest-way-one-box-and-one-button) |
+
+## The easiest way, one box and one button
+
+In the **Smile Client**, open **Site Maker**. Write what you would like,
+in your own words, for example *"A signup page for my yoga newsletter,
+Morning Tide. The gift for joining is a free 7-day morning practice. Calm
+sea colours."* Press **Make it**. About a minute later the whole site is
+there: every setting set, its colours and design chosen, its words
+written, its article laid out with its widgets. Write more words and
+press **Change it** to change anything. Press **Put it online** and it
+becomes its own website.
+
+Underneath, the Site Maker writes the same files the rest of this guide
+describes, so anything it makes can also be changed by hand.
 
 ## The three ways to press a button
 
