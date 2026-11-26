@@ -1,0 +1,161 @@
+# The New Body: EDS Insight with Ananda Purebuddha, as one config.
+# Made from template/ with `python build.py --new sites/the-new-body`.
+#
+# Placed here by Agent Of Reciprocity on 2026-11-26 from Hanjo's words
+# "The New Body: EDS Insight with Ananda Purebuddha" and "Her freebie is
+# the ultimate supplement stack". Every other choice below (the
+# categories, the colours, the symbols, the button words) is a starting
+# place for Ananda to make her own. `url` waits on the address she
+# publishes at.
+# TEMPLATE.md at the repository root tells the whole of it.
+#
+# Values may hold HTML (a <br>, an &mdash;). Order matters wherever a list
+# or a table of tables is shown on the page: it is the order on the page.
+
+[site]
+name = "The New Body"                    # the brand, top left, and the page titles
+author = "Ananda Purebuddha"             # the person
+url = "https://thenewbody.example/"      # the published address, ending in /; waits on hers
+tagline = "EDS Insight with Ananda Purebuddha."
+year = "2026"
+lang = "en"
+body_class = "theme-ink"                 # a theme block in assets/themes.css
+brand_mark = "❀"                        # beside the name, top left
+accent_project = "The New Body"          # whose colour the mailing-list eyebrows wear
+default_glyph = "❀"                     # a post with no glyph of its own
+author_initials = "AP"
+author_bio = "Ananda Purebuddha writes The New Body: EDS Insight."
+signup_thanks = "Welcome. Your first email is on its way."   # shown after joining
+# extra_css = ["assets/site.css"]        # a file placed in site-assets/site.css
+
+[mailing]
+# The provider's form address. Empty means the forms complete on the page
+# and send nowhere, for a site not yet live. mailing/README.md says how.
+endpoint = ""
+reassure = "We'll never share your info with anyone."
+interests_summary = "Choose what you receive"
+
+[header]
+nav = [["The Supplement Stack", "shop.html"]]   # extra links after the categories
+join_button = "Join the List"
+
+# The main groupings, side by side in the header, each gathering
+# categories below. One is enough.
+[roots]
+"EDS Insight" = ["EDS Insight"]
+
+[categories."EDS Insight"]
+slug = "eds-insight"
+blurb = "EDS insight, from Ananda Purebuddha."
+[categories."EDS Insight".subs."Insight"]
+children = []
+blurb = "Insight into the body with EDS."
+[categories."EDS Insight".subs."Supplements"]
+children = []
+blurb = "The supplement stack, and each part of it."
+
+# A child is a page one level deeper than a subcategory:
+#   [categories."First Category".subs."First Subcategory"]
+#   children = ["A Child"]
+#   [child_info."A Child"]
+#   blurb = "Its words."
+#   note = "shown beside its checkbox in the signup form"
+
+# ---- Projects: each a coloured stream in the woven rope across the dark
+# bands, with its own symbols. A post names its project in front-matter.
+[weave]
+thread = []                              # colours for a strand whose hue is "url(#dta-thread)"
+
+[projects."The New Body"]
+color = "#e8a0b4"
+hues = ["#e8a0b4", "#8fc1a9"]            # the stream's two strands
+symbols = ["❀", "✿", "❁", "☽", "☀", "♡", "∞", "◯", "✧", "❋", "☘", "✺"]
+
+# ---- The home page
+[home]
+hero_title = "The New Body"
+hero_sub = "EDS Insight with Ananda Purebuddha. Join the list and The Ultimate Supplement Stack arrives with your welcome email."
+hero_button = "Send Me the Supplement Stack"
+hero_art = "❀"
+ornament = "(:❀:)"
+trust_heading = "What Is Here"
+# {posts} is the number of posts, {symbols} the number of weave symbols
+stats = [["✎", "{posts}", "Pieces of Writing"], ["❀", "1", "Author"]]
+articles_heading = "Articles"
+empty_text = "The first posts are being written."   # shown while a grid has no posts
+
+# A feature band. Leave the whole table out for none. Its button opens
+# href, or the newest post of project when href is empty.
+[home.feature]
+eyebrow = "The freebie"
+heading = "The Ultimate Supplement Stack."
+text = "Join the mailing list and it arrives with the welcome email, yours to keep."
+button = "Send Me the Stack"
+href = "shop.html#the-ultimate-supplement-stack"
+project = "The New Body"
+
+# A dark band with the woven rope and a second invitation. Leave it out for none.
+[home.midband]
+eyebrow = "The mailing list"
+heading = "New posts arrive by email."
+text = "Join once and each new piece is sent when it is published, after The Ultimate Supplement Stack."
+button = "Join the Mailing List"
+art = "❀"
+
+[popup]
+heading = "Receive The Ultimate Supplement Stack."
+button = "Send It"
+art = "❀"
+
+[footer]
+cta_eyebrow = "The mailing list"
+cta_heading = "New posts arrive by email."
+cta_text = "Join once and each new piece is sent when it is published."
+cta_button = "Join the Mailing List"
+cta_art = "❀"
+projects_heading = "Projects"
+site_heading = "Site"
+links = [["Home", "index.html"], ["The Supplement Stack", "shop.html"]]
+image = "assets/buddha_eyes.webp"        # the Buddha eyes; empty for no image
+image_alt = "Buddha eyes"
+legal = "May this writing benefit all beings."
+# scripture = ""                         # a long text set small at the foot, e.g. a sutra
+# scripture_lang = "zh"
+# scripture_label = "What it is, for screen readers"
+
+# ---- The shop. Leave out every [[products]] for no shop page.
+[shop]
+title = "The Supplement Stack"
+blurb = "The Ultimate Supplement Stack, free with the welcome email."
+glyph_project = "The New Body"
+signup_tag = "supplement-stack"
+signup_heading = "Receive The Ultimate Supplement Stack"
+signup_button = "Send Me the Stack"
+block_heading = "The Ultimate Supplement Stack"   # the block a post places with [[shop]]
+block_text = "Free with the welcome email when you join the list."
+block_button = "Receive the Stack"
+
+[[products]]
+key = "the-ultimate-supplement-stack"
+glyph = "❀"
+price = "Free"
+title = "The Ultimate Supplement Stack"
+text = "Arrives with the welcome email when you join the mailing list, and is yours to keep."
+
+# ---- The freebie: the free thing a person receives for joining. It is a
+# product above (price "Free"), its file lives in freebie/, and the
+# welcome email delivers it. The engine never publishes the file.
+[freebie]
+product = "the-ultimate-supplement-stack"
+file = "freebie/the-ultimate-supplement-stack.md"
+
+# ---- Ghost, when posts are carried over with tools/ghost_one.py
+[ghost]
+author_name = "Ananda Purebuddha"
+author_slug = "ananda"
+author_email = ""
+canonical_base = "https://thenewbody.example/"
+
+[sections]
+gurus = ""                               # a section built from another folder; empty for none
+sitemap_folders = []                     # HTML posts published under site/<folder>/

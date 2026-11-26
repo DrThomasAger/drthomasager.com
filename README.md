@@ -51,6 +51,16 @@ The personal writing home of Dr Thomas Ager. Markdown in, static site out.
   teacher is gathered, checked and added, and how to lift the folder out
   into its own repository for the hanjopurebuddha.com domain.
 
+## The template
+
+`site.toml` holds everything that makes this site his: names, address,
+categories, colours, mailing list, shop, freebie and words. `build.py`
+is the engine and holds none of it. Another person's site is a copy of
+`template/` with its own `site.toml`. The first is Ananda's, The New
+Body: EDS Insight with Ananda Purebuddha, in `sites/the-new-body/`, with
+The Ultimate Supplement Stack as its freebie. `TEMPLATE.md` tells the
+whole of it.
+
 ## Use
 
 - Double-click `Build DrThomasAger.bat`, or run `python build.py`.

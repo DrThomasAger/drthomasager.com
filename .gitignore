@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 mailing/steward/key.txt
 mailing/steward/state.json
+
+# each site folder builds into its own site/; only the root site/ is published here
+sites/*/site/
+template/site/

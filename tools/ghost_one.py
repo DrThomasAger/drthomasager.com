@@ -1,8 +1,18 @@
-"""Ghost 5 JSON import for one post: python tools/ghost_one.py posts/<slug>.md -> ghost/<slug>.ghost.json"""
-import sys, os, re, json, hashlib, datetime
+"""Ghost 5 JSON import for one post.
+
+    python tools/ghost_one.py posts/<slug>.md                 -> ghost/<slug>.ghost.json
+    python tools/ghost_one.py sites/<name>/posts/<slug>.md sites/<name>
+                                                           -> sites/<name>/ghost/<slug>.ghost.json
+
+The author and the canonical address come from the site's site.toml,
+table [ghost]. Without a site folder the repository root's site.toml is read.
+"""
+import sys, os, re, json, hashlib, datetime, tomllib
 import yaml, markdown
 
 src = sys.argv[1]
+site_dir = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+G = tomllib.load(open(os.path.join(site_dir, 'site.toml'), 'rb'))['ghost']
 text = open(src, encoding='utf-8').read()
 _, fm_raw, body = text.split('---', 2)
 fm = yaml.safe_load(fm_raw)
@@ -19,12 +29,12 @@ html = markdown.markdown(body, extensions=['tables', 'fenced_code', 'sane_lists'
 now = datetime.datetime.strptime(str(fm['date']), '%Y-%m-%d')
 ts = now.strftime('%Y-%m-%dT09:00:00.000Z')
 slug = fm['slug']
-user = {'id': oid('user:thomas'), 'name': 'Dr. Thomas Ager', 'slug': 'thomas', 'email': 'hanjoyoutaku@gmail.com'}
+user = {'id': oid('user:' + G['author_slug']), 'name': G['author_name'], 'slug': G['author_slug'], 'email': G['author_email']}
 pid = oid('post:' + slug)
 desc = fm['description']
 post = {'id': pid, 'title': fm['title'], 'slug': slug, 'html': html, 'feature_image': None, 'featured': False,
         'type': 'post', 'status': 'draft', 'visibility': 'public', 'custom_excerpt': desc[:300],
-        'canonical_url': f'https://drthomasager.com/{slug}/', 'meta_title': fm['title'][:60], 'meta_description': desc[:160],
+        'canonical_url': f"{G['canonical_base']}{slug}/", 'meta_title': fm['title'][:60], 'meta_description': desc[:160],
         'og_title': fm['title'], 'og_description': desc[:160], 'twitter_title': fm['title'], 'twitter_description': desc[:160],
         'created_at': ts, 'updated_at': ts, 'published_at': None, 'author_id': user['id']}
 tags, posts_tags = [], []
@@ -36,10 +46,11 @@ for k, t in enumerate([fm.get('subcategory')] + [x.strip() for x in str(fm['tags
 out = {'db': [{'meta': {'exported_on': int(now.timestamp() * 1000), 'version': '5.0.0'},
                'data': {'posts': [post], 'tags': tags, 'posts_tags': posts_tags, 'users': [user],
                         'posts_authors': [{'id': oid('pa:' + slug), 'post_id': pid, 'author_id': user['id'], 'sort_order': 0}]}}]}
-os.makedirs('ghost', exist_ok=True)
-dst = os.path.join('ghost', slug + '.ghost.json')
+out_dir = os.path.join(site_dir, 'ghost') if len(sys.argv) > 2 else 'ghost'
+os.makedirs(out_dir, exist_ok=True)
+dst = os.path.join(out_dir, slug + '.ghost.json')
 json.dump(out, open(dst, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-open(os.path.join('ghost', slug + '.html'), 'w', encoding='utf-8').write(
+open(os.path.join(out_dir, slug + '.html'), 'w', encoding='utf-8').write(
     '<!doctype html><meta charset="utf-8"><title>' + fm['title'] + '</title><body style="max-width:720px;margin:40px auto;font:18px/1.6 Georgia,serif">'
     '<h1>' + fm['title'] + '</h1>' + html)
 print(dst)

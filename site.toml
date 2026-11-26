@@ -1,0 +1,224 @@
+# The DrThomasAger site, as one config.
+#
+# Everything that makes this site his and not someone else's lives here:
+# names, address, tagline, mailing list, categories, projects and their
+# colours, the shop, the home page words, the footer. build.py is the
+# engine and holds none of it. A new site is a copy of template/ with its
+# own site.toml; TEMPLATE.md says how.
+#
+# Values may hold HTML (a <br>, an &mdash;). Order matters wherever a list
+# or a table of tables is shown on the page: it is the order on the page.
+
+[site]
+name = "Dr Thomas Ager"
+url = "https://drthomasager.github.io/drthomasager.com/"
+tagline = "Ethical, Bodhisattva and Shambhala AI brought into local communities with local LLMs, for business owners and people building such projects."
+year = "2026"
+lang = "en"
+body_class = "theme-ink"           # a theme block in assets/themes.css
+brand_mark = "(-:"                 # beside the name, top left
+accent_project = "Smile"           # whose colour the mailing-list eyebrows and shop glyphs wear
+default_glyph = "☀"                # a post with no glyph of its own
+author_initials = "TA"
+author_bio = "Dr Thomas Ager holds a Ph.D in Artificial Intelligence and writes on prompt engineering and spirituality. His current research is the Smile Prompt Language."
+# signup_thanks = ""               # the line shown after joining; unset keeps the engine's own
+# extra_css = []                   # more stylesheets after themes.css, e.g. ["assets/site.css"]
+
+[mailing]
+# The one line that receives the provider's form address. Empty means the
+# forms complete on the page and send nowhere, for a site not yet live.
+endpoint = "https://buttondown.com/api/emails/embed-subscribe/drthomasager"
+reassure = "We'll never share your info with anyone."
+interests_summary = "Choose which projects you receive"
+
+[header]
+nav = [["Gurus", "gurus/"], ["Shop", "shop.html"]]
+join_button = "Join the List"
+
+# The two main categories, side by side in the header, each gathering the
+# categories below that belong to it.
+[roots]
+"Community AI" = ["AI Agents", "Prompt Engineering"]
+"Bodhisattva Practice" = ["Buddhism"]
+
+[categories."AI Agents"]
+slug = "ai-agents"
+blurb = "What an AI agent is, where its boundary sits, and how to build with that knowledge."
+[categories."AI Agents".subs."Agent Definitions"]
+children = []
+blurb = "What an agent is, what agency is, and what agentiality is."
+[categories."AI Agents".subs."Agent Engineering"]
+children = []
+blurb = "Harness, scaffold, memory, and subagents, read through the definition."
+
+[categories."Prompt Engineering"]
+slug = "prompt-engineering"
+blurb = "The craft of speaking with language models — languages, prompts, and teachings."
+[categories."Prompt Engineering".subs."Prompt Language Development"]
+children = ["Smile"]
+blurb = "Building languages for speaking with AI."
+[categories."Prompt Engineering".subs."Free Prompts"]
+children = []
+blurb = "Prompts to take, use, and make your own."
+[categories."Prompt Engineering".subs."Tutorial"]
+children = []
+blurb = "Step-by-step introductions, from the beginning."
+
+[categories."Buddhism"]
+slug = "buddhism"
+blurb = "The dharma as lived, translated, and walked into."
+[categories."Buddhism".subs."Sacred Geometry"]
+children = []
+blurb = "The forms beneath the forms — drawn, built, and walked into."
+[categories."Buddhism".subs."Translations"]
+children = []
+blurb = "Ancient texts carried into English."
+[categories."Buddhism".subs."Monastic Life"]
+children = []
+blurb = "Ordination, robes, and the monastery day."
+[categories."Buddhism".subs."Commentaries"]
+children = []
+blurb = "Commentaries on contemplation and the nature of mind."
+
+# Child pages (the deepest level) carry their own words. The note shows
+# beside the child's checkbox in the signup form's interests.
+[child_info.Smile]
+blurb = "The Smile Prompt Language and Smile Chat, written up as they grow."
+note = "the Smile Prompt Language and Smile Chat"
+
+# ---- The projects: each a stream in the woven rope across the dark
+# bands, with its own colour and symbols. The colour also marks the
+# project's posts, chips and card glyphs everywhere. The arrangement is
+# the Five Buddha Families of the Vajradhatu mandala; INHERITANCE.md
+# tells the whole of it. A project not named here wears white.
+[weave]
+thread = ["#6f9ce4", "#f5c542", "#ff7f8d", "#62d194"]   # the centre's thin strand, sunwise
+
+[projects.Buddhism]
+color = "#ffffff"
+hues = ["#ffffff", "url(#dta-thread)"]
+symbols = ["☸", "◯", "無", "空", "禪", "心", "佛", "法", "慈", "悲", "定", "慧", "ॐ", "戒"]
+
+[projects.Smile]
+color = "#f5c542"
+hues = ["#f5c542", "#4ca373"]
+symbols = ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }", "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"]
+
+[projects."Sacred Travel"]
+color = "#ff7f8d"
+hues = ["#ff7f8d", "#577ab2"]
+symbols = ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙", "៚", "𓊽", "𓁹"]
+
+[projects."Machine Learning"]
+color = "#6f9ce4"
+hues = ["#6f9ce4", "#c7636e"]
+symbols = ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π", "≈", "∞", "⊕", "01", "110"]
+
+# ---- The home page
+[home]
+hero_title = "The Writing of<br>Dr Thomas Ager"
+hero_sub = "Ethical, Bodhisattva and Shambhala AI brought into local communities with local LLMs, for business owners and people building such projects. New posts go out by email when they are written."
+hero_button = "Join the Mailing List"
+hero_art = "(-:"
+ornament = "(:☸:)"
+trust_heading = "What Is Here"
+# {posts} is the number of posts, {symbols} the number of weave symbols
+stats = [["☸", "5", "Writing Projects"], ["✎", "{posts}", "Pieces of Writing"], ["✳", "{symbols}", "Symbols in the Weave"], ["(-:", "1", "Author"]]
+articles_heading = "Articles"
+
+[home.feature]
+eyebrow = "The Smile Prompt Language"
+heading = "A prompt language written in emoticons."
+text = "Smile is a prompt language for speaking with language models. It is developed here, alongside Smile Chat, the local conversation rig it runs in. Posts document the language as it develops."
+button = "Read About Smile"
+project = "Smile"            # the button opens the newest post of this project
+
+[home.midband]
+eyebrow = "The Smile mailing list"
+heading = "Smile has its own sub-mailing-list."
+text = "It runs on this same mailing engine. Choose Smile when you join and Smile posts arrive on their own."
+button = "Join the Smile List"
+art = "(-:"
+
+# ---- The popup, after 33 seconds, 55% scroll or exit intent
+[popup]
+heading = "Join the mailing list."
+button = "Join"
+art = "(-:"
+
+# ---- The footer
+[footer]
+cta_eyebrow = "The mailing list"
+cta_heading = "New posts arrive by email."
+cta_text = "Join once, choose your projects, and each new piece is sent when it is published."
+cta_button = "Join the Mailing List"
+cta_art = "(-:"
+projects_heading = "Projects"
+site_heading = "Site"
+links = [["Home", "index.html"], ["Shop", "shop.html"], ["Crystallization Culture", "https://crystallizationculture.com"]]
+image = "assets/buddha_eyes.webp"
+image_alt = "Buddha eyes"
+legal = "May this writing benefit all beings."
+scripture_lang = "zh"
+scripture_label = "Hsin Hsin Ming, the original Chinese"
+scripture = "信心銘 至道無難 唯嫌揀擇 但莫憎愛 洞然明白 毫釐有差 天地懸隔 欲得現前 莫存順逆 違順相爭 是為心病 不識玄旨 徒勞念靜 圓同太虛 無欠無餘 良由取捨 所以不如 莫逐有緣 勿住空忍 一種平懷 泯然自盡 止動歸止 止更彌動 唯滯兩邊 寧知一種 一種不通 兩處失功 遣有沒有 從空背空 多言多慮 轉不相應 絕言絕慮 無處不通 歸根得旨 隨照失宗 須臾返照 勝卻前空 前空轉變 皆由妄見 不用求真 唯須息見 二見不住 慎莫追尋 纔有是非 紛然失心 二由一有 一亦莫守 一心不生 萬法無咎 無咎無法 不生不心 能隨境滅 境逐能沈 境由能境 能由境能 欲知兩段 元是一空 一空同兩 齊含萬象 不見精麁 寧有偏黨 大道體寬 無易無難 小見狐疑 轉急轉遲 執之失度 必入邪路 放之自然 體無去住 任性合道 逍遙絕惱 繫念乖真 昏沈不好 不好勞神 何用疏親 欲取一乘 勿惡六塵 六塵不惡 還同正覺 智者無為 愚人自縛 法無異法 妄自愛著 將心用心 豈非大錯 迷生寂亂 悟無好惡 一切二邊 良由斟酌 夢幻空華 何勞把捉 得失是非 一時放卻 眼若不睡 諸夢自除 心若不異 萬法一如 一如體玄 兀爾忘緣 萬法齊觀 歸復自然 泯其所以 不可方比 止動無動 動止無止 兩既不成 一何有爾 究竟窮極 不存軌則 契心平等 所作俱息 狐疑盡淨 正信調直 一切不留 無可記憶 虛明自照 不勞心力 非思量處 識情難測 真如法界 無他無自 要急相應 唯言不二 不二皆同 無不包容 十方智者 皆入此宗 宗非促延 一念萬年 無在不在 十方目前 極小同大 忘絕境界 極大同小 不見邊表 有即是無 無即是有 若不如是 必不須守 一即一切 一切即一 但能如是 何慮不畢 信心不二 不二信心 言語道斷 非去來今"
+
+# ---- The shop, and the block a post places with [[shop]]
+[shop]
+title = "Shop"
+blurb = "The prompt packs and the free guide. Every pack updates in perpetuity."
+glyph_project = "Smile"
+signup_tag = "prompt-pack-updates"
+signup_heading = "Payment opens here when the shop goes live"
+signup_button = "Send Me the Opening"
+block_heading = "The prompt packs"
+block_text = "The prompts these agents are built with are gathered in the shop."
+block_button = "Visit the Shop"
+
+[[products]]
+key = "professional-prompt-pack"
+glyph = "[= =]"
+price = "$33"
+title = "The Professional Tier Prompt Pack"
+text = "The complete professional-tier prompt pack, with prompts for research, writing, and agentic work, refined in daily use and growing with every update."
+
+[[products]]
+key = "smile-prompt-pack"
+glyph = "(-:"
+price = "$22"
+title = "The Smile Prompt Pack"
+text = "Complete prompts written in the Smile Prompt Language, from first sections to full harnesses, growing with the language."
+
+[[products]]
+key = "both-packs-lifetime"
+glyph = "(:"
+price = "$22.28"
+title = "Both Packs, Lifetime"
+text = "Both prompt packs together as one lifetime membership."
+
+[[products]]
+key = "smile-guide"
+glyph = ":)"
+price = "Free"
+title = "The Free Guide for Using Smile"
+text = "Arrives with the welcome email when you join the mailing list, and is yours to keep."
+
+# ---- The freebie: the free thing a person receives for joining. It is a
+# product above (price "Free") and the welcome email delivers it. The
+# engine never publishes the file, so it stays a gift for joining.
+[freebie]
+product = "smile-guide"
+file = ""        # his guide lives on the PC at platform\accounts\library\smile-guide.md
+
+# ---- Ghost, when posts are carried over with tools/ghost_one.py
+[ghost]
+author_name = "Dr. Thomas Ager"
+author_slug = "thomas"
+author_email = "hanjoyoutaku@gmail.com"
+canonical_base = "https://drthomasager.com/"
+
+# ---- Sections built from elsewhere in this repository
+[sections]
+gurus = "hanjopurebuddha.com"     # built into site/gurus/; leave empty for none
+# HTML posts published outside posts/, one folder each under site/, listed in the sitemap
+sitemap_folders = ["history-of-smile", "cybernetic-buddhism-smile-portal"]
