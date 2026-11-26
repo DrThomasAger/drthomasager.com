@@ -14,7 +14,7 @@
       }));
       form.classList.add("signup-done");
       var note = form.querySelector(".reassure");
-      if (note) note.textContent =
+      if (note) note.textContent = document.body.getAttribute("data-thanks") ||
         "Welcome. Your first email is on its way. (-:";
       var pop = document.getElementById("popup");
       if (pop && pop.contains(form)) {

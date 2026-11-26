@@ -873,3 +873,51 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     ) End the notebook )
 
 :-) End 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead :-) Many blessings
+
+(-: 2026-11-26, the template, and The New Body as its first copy, session ccr-1dcedc23 (-:
+
+    ( His words (
+        "Make sure that all of the DrThomasAger work can be absolutely
+        copied as a template e.g. for Ananda in her "The New Body: EDS
+        Insight with Ananda Purebuddha" blog mailing list etc. Her freebie
+        is the ultimate supplement stack"
+    ) End his words )
+    ( The split (
+        site.toml at the root holds everything that was written into
+        build.py: names, address, tagline, roots, categories, child info,
+        projects and the thread, home page, popup, footer with the Hsin
+        Hsin Ming, shop and products, the freebie, the Ghost author, the
+        gurus section and the sitemap folders. build.py reads a site
+        folder's site.toml, the root's on import, so ribbons\weave.py and
+        review-site\build_consensus.py, which import build, still work.
+        python build.py rewrote every file of site\ byte for byte as
+        before; the one difference is assets\site.js, which now takes a
+        site's own thank-you line from body data-thanks.
+        tools\ghost_one.py reads its author from [ghost] and reproduced
+        the existing Ghost export exactly.
+    ) End the split )
+    ( The template and the first copy (
+        template\ is a whole site folder with every key explained.
+        python build.py --new sites\<name> copies it, python build.py
+        sites\<name> builds it into its own site\ (gitignored), and
+        python build.py --export sites\<name> <folder> writes it as its
+        own repository with the engine and the publish workflow; that
+        export was built on its own and works. sites\the-new-body\ is
+        Ananda's, The New Body: EDS Insight with Ananda Purebuddha, with
+        The Ultimate Supplement Stack as its freebie in
+        freebie\the-ultimate-supplement-stack.md, which holds only a
+        heading for her words. Its categories (EDS Insight, with Insight
+        and Supplements), its rose and sage colours, its symbols, its
+        button words and its welcome text are starting places for her.
+        Its url waits on the address she publishes at, and its mailing
+        endpoint waits on her own Buttondown account.
+    ) End the template and the first copy )
+    ( What stays on the PC (
+        The Mailing Steward (steward.py, key.txt, the scheduled task) was
+        never in the repository and was not seen in this session. Her list
+        needs a copy of the steward folder with her key, her feed and her
+        welcome carrying the stack, and a second scheduled task.
+        TEMPLATE.md and template\mailing\README.md say the same.
+    ) End what stays on the PC )
+
+:-) End 2026-11-26, the template, and The New Body as its first copy :-) Many blessings

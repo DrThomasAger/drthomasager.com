@@ -1,114 +1,63 @@
-"""Build drthomasager.com — markdown posts -> static site.
+"""The site engine — markdown posts + one site.toml -> a static site.
 
-Structure lives here; all appearance lives in assets/themes.css tokens.
+    python build.py                      builds the DrThomasAger site from ./site.toml
+    python build.py sites/the-new-body   builds that site folder into its own site/
+    python build.py --new sites/<name>   copies template/ to start a new site
+    python build.py --export sites/<name> <folder>
+                                         writes that site as a standalone
+                                         repository: engine + its files at the root
+
+Everything that belongs to one person (names, colours, categories, the
+mailing list, the shop, the home page and footer words) lives in that
+site's site.toml. Structure lives here; appearance lives in the theme
+tokens of assets/themes.css. TEMPLATE.md tells the whole of it.
 """
-import html, itertools, json, math, re, shutil
+import html, itertools, json, math, re, shutil, sys, tomllib
 from pathlib import Path
 import markdown
 
 ROOT = Path(__file__).parent
-POSTS = ROOT / "posts"
-ASSETS = ROOT / "assets"
-SITE = ROOT / "site"
+ENGINE_ASSETS = ROOT / "assets"
+TEMPLATE = ROOT / "template"
 
-SITE_NAME = "Dr Thomas Ager"
-SITE_URL = "https://drthomasager.github.io/drthomasager.com/"
-TAGLINE = ("Ethical, Bodhisattva and Shambhala AI brought into local "
-           "communities with local LLMs, for business owners and people "
-           "building such projects.")
 
-# The two main categories, shown side by side in the header the way
-# Swim University shows Pool Care and Hot Tub Care. Each gathers the
-# CATEGORIES that belong to it, named as the ontology's two roots.
-ROOTS = {
-    "Community AI": ["AI Agents", "Prompt Engineering"],
-    "Bodhisattva Practice": ["Buddhism"],
-}
+def configure(folder=ROOT):
+    """Read one site folder's site.toml into the names the engine uses.
+    The DrThomasAger site at the repository root is read on import, so
+    scripts that `import build` keep working as before."""
+    global FOLDER, CONF, POSTS, ASSETS, OVERLAY, SITE, SITE_NAME, SITE_URL
+    global AUTHOR, TAGLINE, ROOTS, MAILING_ENDPOINT, CATEGORIES, CHILD_INFO
+    global PRODUCTS, PROJECTS, THREAD, HSIN_HSIN_MING
+    FOLDER = Path(folder).resolve()
+    CONF = tomllib.loads((FOLDER / "site.toml").read_text(encoding="utf-8"))
+    POSTS = FOLDER / "posts"
+    ASSETS = ENGINE_ASSETS
+    # a site's own images, favicon and stylesheets, copied over the
+    # engine's assets/ in the built site
+    OVERLAY = (FOLDER / "site-assets"
+               if (FOLDER / "site-assets").is_dir() else None)
+    SITE = FOLDER / "site"
+    s = CONF["site"]
+    SITE_NAME, SITE_URL, TAGLINE = s["name"], s["url"], s["tagline"]
+    AUTHOR = s.get("author", SITE_NAME)   # the person, when the site has its own name
+    ROOTS = CONF.get("roots", {})
+    MAILING_ENDPOINT = CONF.get("mailing", {}).get("endpoint", "")
+    CATEGORIES = CONF.get("categories", {})
+    for c in CATEGORIES.values():
+        c.setdefault("subs", {})
+        for sub in c["subs"].values():
+            sub.setdefault("children", [])
+    CHILD_INFO = CONF.get("child_info", {})
+    PRODUCTS = CONF.get("products", [])
+    PROJECTS = CONF.get("projects", {})
+    THREAD = CONF.get("weave", {}).get("thread", [])
+    HSIN_HSIN_MING = CONF.get("footer", {}).get("scripture", "")
 
-# ---------------------------------------------------------------
-# MAILING LIST ENDPOINT — the one line that receives the real
-# provider URL (form POST target) when a provider is chosen.
-MAILING_ENDPOINT = "https://buttondown.com/api/emails/embed-subscribe/drthomasager"
-# ---------------------------------------------------------------
 
-CATEGORIES = {
-    "AI Agents": {
-        "slug": "ai-agents",
-        "blurb": "What an AI agent is, where its boundary sits, and how "
-                 "to build with that knowledge.",
-        "subs": {
-            "Agent Definitions": {
-                "children": [],
-                "blurb": "What an agent is, what agency is, and what "
-                         "agentiality is."},
-            "Agent Engineering": {
-                "children": [],
-                "blurb": "Harness, scaffold, memory, and subagents, "
-                         "read through the definition."},
-        },
-    },
-    "Prompt Engineering": {
-        "slug": "prompt-engineering",
-        "blurb": "The craft of speaking with language models — languages, prompts, and teachings.",
-        "subs": {
-            "Prompt Language Development": {
-                "children": ["Smile"],
-                "blurb": "Building languages for speaking with AI."},
-            "Free Prompts": {
-                "children": [],
-                "blurb": "Prompts to take, use, and make your own."},
-            "Tutorial": {
-                "children": [],
-                "blurb": "Step-by-step introductions, from the beginning."},
-        },
-    },
-    "Buddhism": {
-        "slug": "buddhism",
-        "blurb": "The dharma as lived, translated, and walked into.",
-        "subs": {
-            "Sacred Geometry": {
-                "children": [],
-                "blurb": "The forms beneath the forms — drawn, built, "
-                         "and walked into."},
-            "Translations": {
-                "children": [],
-                "blurb": "Ancient texts carried into English."},
-            "Monastic Life": {
-                "children": [],
-                "blurb": "Ordination, robes, and the monastery day."},
-            "Commentaries": {
-                "children": [],
-                "blurb": "Commentaries on contemplation and the "
-                         "nature of mind."},
-        },
-    },
-}
+def C(section, key, default=""):
+    """One value from site.toml, e.g. C("home", "hero_title")."""
+    return CONF.get(section, {}).get(key, default)
 
-# Child pages (deepest level) carry their own words
-CHILD_INFO = {
-    "Smile": {"blurb": "The Smile Prompt Language and Smile Chat, "
-                       "written up as they grow."},
-}
-
-PRODUCTS = [
-    {"key": "professional-prompt-pack", "glyph": "[= =]", "price": "$33",
-     "title": "The Professional Tier Prompt Pack",
-     "text": "The complete professional-tier prompt pack, with prompts "
-             "for research, writing, and agentic work, refined in daily "
-             "use and growing with every update."},
-    {"key": "smile-prompt-pack", "glyph": "(-:", "price": "$22",
-     "title": "The Smile Prompt Pack",
-     "text": "Complete prompts written in the Smile Prompt Language, "
-             "from first sections to full harnesses, growing with the "
-             "language."},
-    {"key": "both-packs-lifetime", "glyph": "(:", "price": "$22.28",
-     "title": "Both Packs, Lifetime",
-     "text": "Both prompt packs together as one lifetime membership."},
-    {"key": "smile-guide", "glyph": ":)", "price": "Free",
-     "title": "The Free Guide for Using Smile",
-     "text": "Arrives with the welcome email when you join the mailing "
-             "list, and is yours to keep."},
-]
 
 def slugify(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
@@ -136,18 +85,16 @@ def inline_signup(idp, tag, heading, button_text):
             f'<input type="email" name="email" placeholder="Email" '
             f'aria-label="Email" required>'
             f'<button type="submit" class="btn">{button_text}</button>'
-            f'<p class="reassure">We\'ll never share your info with '
-            f'anyone.</p></form></aside>')
+            f'<p class="reassure">{C("mailing", "reassure")}</p></form></aside>')
 
 def shop_block():
     packs = "".join(
         f'<li><a href="shop.html#{pr["key"]}">{pr["title"]}</a> '
         f'<span class="price">{pr["price"]}</span></li>'
         for pr in PRODUCTS)
-    return (f'<aside class="post-shop"><h2>The prompt packs</h2>'
-            f'<p>The prompts these agents are built with are gathered '
-            f'in the shop.</p><ul>{packs}</ul>'
-            f'<a class="btn" href="shop.html">Visit the Shop</a></aside>')
+    return (f'<aside class="post-shop"><h2>{C("shop", "block_heading")}</h2>'
+            f'<p>{C("shop", "block_text")}</p><ul>{packs}</ul>'
+            f'<a class="btn" href="shop.html">{C("shop", "block_button")}</a></aside>')
 
 def shortcodes(body, stem):
     """[[join: tag | heading | button]] becomes a sign-up form and
@@ -162,11 +109,15 @@ def shortcodes(body, stem):
     return body
 
 def load_posts():
+    """Every posts/*.md, newest first. A post whose front-matter says
+    `draft: yes` stays out of the site, the feed and the sitemap."""
     posts = []
     for f in sorted(POSTS.glob("*.md")):
         raw = f.read_text(encoding="utf-8")
         m = re.match(r"^---\n(.*?)\n---\n(.*)$", raw, re.S)
         meta = dict(re.findall(r"^(\w+):\s*(.+)$", m.group(1), re.M))
+        if meta.get("draft", "").strip().lower() in ("yes", "true"):
+            continue
         body = markdown.markdown(m.group(2), extensions=["extra"])
         body = shortcodes(body, f.stem)
         cat, sub, child = sub_lineage(meta["subcategory"])
@@ -175,7 +126,7 @@ def load_posts():
             "pill": child or sub,
             "slug": meta.get("slug") or slugify(meta["title"]),
             "authors": [a.strip() for a in
-                        meta.get("authors", SITE_NAME).split(",") if a.strip()],
+                        meta.get("authors", AUTHOR).split(",") if a.strip()],
             "tags": [t.strip() for t in meta.get("tags", "").split(",") if t.strip()],
             "body": body,
         })
@@ -183,63 +134,10 @@ def load_posts():
     return posts
 
 # ---- Streams of consciousness ----
-# Four streams pour forth across the black sections: each a project of
-# the one hand, in its own constant color, carrying its own small
-# symbols all along its length. The same color speaks everywhere the
-# project appears: ribbon, project chip, card glyph.
-PROJECTS = {
-    # The rainbow, in order across its arc — each project one band of it,
-    # each with its own symbols and no symbol shared between streams.
-    "Buddhism": {
-        # Vairocana, center, Buddha family. Space; dharmadhatu wisdom;
-        # transforms ignorance. White light in black space — the
-        # source the other four emanate from, barest of the five.
-        "color": "#ffffff",   # Vairocana white
-        # thin strand: the thread of all four directions, sunwise
-        # (sapphire, gold, ruby, jade) — the center contains them
-        "hues": ["#ffffff", "url(#dta-thread)"],
-        "symbols": ["☸", "◯", "無", "空", "禪", "心", "佛", "法", "慈",
-                    "悲", "定", "慧", "ॐ", "戒"],
-    },
-    "Smile": {
-        # Ratnasambhava, south, Jewel family. Earth; wisdom of
-        # equanimity; transforms pride. Gold — the open giving hand,
-        # generosity and dignity; second tone gold toward the light.
-        "color": "#f5c542",   # Ratnasambhava gold, quieted into the band
-        # secondary: the Buddha across the center — Amoghasiddhi's
-        # jade, a step quieter (the giving hand met by the fearless)
-        "hues": ["#f5c542", "#4ca373"],
-        "symbols": ["(-:", ":-)", "(:", ":)", ";-)", ":o)", "{ }",
-                    "[= =]", "‹ ›", "(^:", "=)", "(-;", ":-P", "8-)"],
-    },
-    "Sacred Travel": {
-        # Amitabha, west, Lotus family. Fire; discriminating wisdom —
-        # seeing each place as this place; transforms craving. The
-        # western Pure Land, destination of pilgrimage; luminous ruby
-        # on the black ground; second tone ruby toward the light.
-        "color": "#ff7f8d",   # Amitabha ruby, lifted into the band
-        # secondary: Akshobhya's sapphire across the center, a step
-        # quieter (the pilgrim's longing met by the mirror)
-        "hues": ["#ff7f8d", "#577ab2"],
-        "symbols": ["☥", "𓂀", "𓆣", "𓉴", "𓋹", "𓅓", "✈", "✦", "៙",
-                    "៚", "𓊽", "𓁹"],
-    },
-    "Machine Learning": {
-        # Akshobhya, east, Vajra family. Water; mirror-like wisdom —
-        # a trained model reflects without holding; transforms
-        # aversion. Sapphire lifted to be read on black; second tone
-        # sapphire toward the light.
-        "color": "#6f9ce4",   # Akshobhya sapphire, lifted into the band
-        # secondary: Amitabha's ruby across the center, a step
-        # quieter (clarity met by warmth and the particular)
-        "hues": ["#6f9ce4", "#c7636e"],
-        "symbols": ["∇", "Σ", "λ", "⊗", "∂", "θ", "ε", "σ", "π",
-                    "≈", "∞", "⊕", "01", "110"],
-    },
-}
-# No sixth seat exists to be reserved: an unknown project wears the
-# center's white until it is truly seated.
-THREAD = ["#6f9ce4", "#f5c542", "#ff7f8d", "#62d194"]  # sunwise
+# Each project of site.toml pours forth across the dark sections as a
+# stream in its own constant colour, carrying its own small symbols all
+# along its length. The same colour speaks everywhere the project
+# appears: ribbon, project chip, card glyph.
 
 def _hx(c):
     return tuple(int(c[i:i+2], 16) for i in (1, 3, 5))
@@ -271,8 +169,8 @@ def _sm(u):
 
 def stream_svg(h=320):
     """The Great Rope (weaving v9, chosen 2026-08-25): one wandering
-    course crosses the whole sky, and all ten strands — two hues per
-    stream — twist around it as a single cable, evenly phased. Large
+    course crosses the whole sky, and every strand — two hues per
+    stream — twists around it as a single cable, evenly phased. Large
     scale: the course. Middle: the coiling strands. Small: the glyphs
     riding each strand. Where the rope tightens the hues stack into
     jewels; where it loosens the strands breathe apart to the black."""
@@ -284,8 +182,8 @@ def stream_svg(h=320):
     n = len(strands)
     pts = 240
     coils = 3.3
-    # the thread of four: the sunwise cycle repeated, so any visible
-    # crop of the center's thin strand carries all four directions
+    # the thread: the sunwise cycle repeated, so any visible crop of a
+    # strand coloured url(#dta-thread) carries all of it
     cycle = THREAD + THREAD
     stops = "".join(
         f'<stop offset="{i / (len(cycle) - 1):.3f}" stop-color="{c}"/>'
@@ -336,28 +234,6 @@ def stream_svg(h=320):
     return (f'<svg class="planes" viewBox="0 0 {w} {h}" '
             f'preserveAspectRatio="none" aria-hidden="true">{content}</svg>')
 
-HSIN_HSIN_MING = (
-    "信心銘 "
-    "至道無難 唯嫌揀擇 但莫憎愛 洞然明白 毫釐有差 天地懸隔 欲得現前 莫存順逆 "
-    "違順相爭 是為心病 不識玄旨 徒勞念靜 圓同太虛 無欠無餘 良由取捨 所以不如 "
-    "莫逐有緣 勿住空忍 一種平懷 泯然自盡 止動歸止 止更彌動 唯滯兩邊 寧知一種 "
-    "一種不通 兩處失功 遣有沒有 從空背空 多言多慮 轉不相應 絕言絕慮 無處不通 "
-    "歸根得旨 隨照失宗 須臾返照 勝卻前空 前空轉變 皆由妄見 不用求真 唯須息見 "
-    "二見不住 慎莫追尋 纔有是非 紛然失心 二由一有 一亦莫守 一心不生 萬法無咎 "
-    "無咎無法 不生不心 能隨境滅 境逐能沈 境由能境 能由境能 欲知兩段 元是一空 "
-    "一空同兩 齊含萬象 不見精麁 寧有偏黨 大道體寬 無易無難 小見狐疑 轉急轉遲 "
-    "執之失度 必入邪路 放之自然 體無去住 任性合道 逍遙絕惱 繫念乖真 昏沈不好 "
-    "不好勞神 何用疏親 欲取一乘 勿惡六塵 六塵不惡 還同正覺 智者無為 愚人自縛 "
-    "法無異法 妄自愛著 將心用心 豈非大錯 迷生寂亂 悟無好惡 一切二邊 良由斟酌 "
-    "夢幻空華 何勞把捉 得失是非 一時放卻 眼若不睡 諸夢自除 心若不異 萬法一如 "
-    "一如體玄 兀爾忘緣 萬法齊觀 歸復自然 泯其所以 不可方比 止動無動 動止無止 "
-    "兩既不成 一何有爾 究竟窮極 不存軌則 契心平等 所作俱息 狐疑盡淨 正信調直 "
-    "一切不留 無可記憶 虛明自照 不勞心力 非思量處 識情難測 真如法界 無他無自 "
-    "要急相應 唯言不二 不二皆同 無不包容 十方智者 皆入此宗 宗非促延 一念萬年 "
-    "無在不在 十方目前 極小同大 忘絕境界 極大同小 不見邊表 有即是無 無即是有 "
-    "若不如是 必不須守 一即一切 一切即一 但能如是 何慮不畢 信心不二 不二信心 "
-    "言語道斷 非去來今")
-
 WAVE = ('<div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 44" '
         'preserveAspectRatio="none"><path d="M0,22 C120,44 240,0 360,22 '
         'C480,44 600,0 720,22 C840,44 960,0 1080,22 C1200,44 1320,0 1440,22 '
@@ -372,13 +248,15 @@ def dropdown(idp):
             boxes += (f'<label class="sub-choice"><input type="checkbox" '
                       f'name="tag" value="{slugify(sub)}" checked> {sub}</label>')
             for ch in s["children"]:
+                note = CHILD_INFO.get(ch, {}).get("note", "")
                 boxes += (f'<label class="sub-choice child-choice">'
                           f'<input type="checkbox" name="tag" '
                           f'value="{slugify(ch)}" checked> {ch} '
-                          f'<span class="choice-note">the Smile Prompt '
-                          f'Language and Smile Chat</span></label>')
+                          + (f'<span class="choice-note">{note}</span>'
+                             if note else '')
+                          + '</label>')
     return (f'<details class="interests" id="{idp}-interests">'
-            f'<summary>Choose which projects you receive</summary>'
+            f'<summary>{C("mailing", "interests_summary")}</summary>'
             f'<div class="interest-grid">{boxes}</div></details>')
 
 def signup_form(idp, button_text):
@@ -389,21 +267,23 @@ def signup_form(idp, button_text):
             f'<input type="email" name="email" placeholder="Email" aria-label="Email" required>'
             f'{dropdown(idp)}'
             f'<button type="submit" class="btn">{button_text}</button>'
-            f'<p class="reassure">We\'ll never share your info with anyone.</p></form>')
+            f'<p class="reassure">{C("mailing", "reassure")}</p></form>')
 
 def header():
-    # the two roots side by side, each opening onto its own categories
+    # the roots side by side, each opening onto its own categories
     nav = "".join(
         f'<div class="root"><a class="root-link" href="{CATEGORIES[cats[0]]["slug"]}.html">{root}</a>'
         f'<div class="root-menu">'
         + "".join(f'<a href="{CATEGORIES[c]["slug"]}.html">{c}</a>' for c in cats if c in CATEGORIES)
         + '</div></div>'
         for root, cats in ROOTS.items())
+    nav += "".join(f'<a href="{href}">{label}</a>'
+                   for label, href in C("header", "nav", []))
     return (f'<header class="top"><a class="brand" href="index.html">'
-            f'<span class="brand-mark">(-:</span> {SITE_NAME}</a>'
-            f'<nav>{nav}<a href="gurus/">Gurus</a><a href="shop.html">Shop</a></nav>'
+            f'<span class="brand-mark">{C("site", "brand_mark")}</span> {SITE_NAME}</a>'
+            f'<nav>{nav}</nav>'
             f'<button class="btn btn-small" type="button" data-open-popup>'
-            f'Join the List</button></header>')
+            f'{C("header", "join_button", "Join the List")}</button></header>')
 
 def footer():
     cols = ""
@@ -415,55 +295,62 @@ def footer():
                 links += (f'<a class="child-link" '
                           f'href="{slugify(ch)}.html">{ch}</a>')
         cols += f'<div><h3>{cat}</h3>{links}</div>'
-    projects = "".join(
-        f'<a class="ptx-shadow" style="--pc:{st["color"]}" '
-        f'href="index.html">{name}</a>'
-        for name, st in PROJECTS.items())
-    cols += f'<div><h3>Projects</h3>{projects}</div>'
-    cols += ('<div><h3>Site</h3><a href="index.html">Home</a>'
-             '<a href="shop.html">Shop</a>'
-             '<a href="https://crystallizationculture.com">'
-             'Crystallization Culture</a></div>')
+    if PROJECTS:
+        projects = "".join(
+            f'<a class="ptx-shadow" style="--pc:{st["color"]}" '
+            f'href="index.html">{name}</a>'
+            for name, st in PROJECTS.items())
+        cols += f'<div><h3>{C("footer", "projects_heading", "Projects")}</h3>{projects}</div>'
+    cols += (f'<div><h3>{C("footer", "site_heading", "Site")}</h3>'
+             + "".join(f'<a href="{href}">{label}</a>'
+                       for label, href in C("footer", "links", []))
+             + '</div>')
+    image = (f'<img class="buddha-eyes" src="{C("footer", "image")}" '
+             f'width="256" height="256" loading="lazy" decoding="async" '
+             f'alt="{C("footer", "image_alt")}">' if C("footer", "image") else '')
+    scripture = (f'<div class="hhm notranslate" translate="no" '
+                 f'lang="{C("footer", "scripture_lang")}" '
+                 f'aria-label="{C("footer", "scripture_label")}">'
+                 f'{HSIN_HSIN_MING}</div>' if HSIN_HSIN_MING else '')
+    accent = project_color(C("site", "accent_project"))
     return (f'<footer class="deep">{WAVE}<div class="foot-inner">{FOOT_SVG[0]}'
             f'<div class="foot-cta">'
             f'<div><p class="eyebrow" '
-            f'style="color:{PROJECTS["Smile"]["color"]}">The mailing list</p>'
-            f'<h2>New posts arrive by email.</h2>'
-            f'<p>Join once, choose your projects, and each new piece is sent '
-            f'when it is published.</p>'
+            f'style="color:{accent}">{C("footer", "cta_eyebrow")}</p>'
+            f'<h2>{C("footer", "cta_heading")}</h2>'
+            f'<p>{C("footer", "cta_text")}</p>'
             f'<button class="btn" type="button" data-open-popup>'
-            f'Join the Mailing List</button></div>'
-            f'<div class="foot-cta-art" aria-hidden="true">(-:</div></div>'
+            f'{C("footer", "cta_button")}</button></div>'
+            f'<div class="foot-cta-art" aria-hidden="true">{C("footer", "cta_art")}</div></div>'
             f'<div class="foot-grid">{cols}</div>'
-            f'<div class="foot-close">'
-            f'<img class="buddha-eyes" src="assets/buddha_eyes.webp" '
-            f'width="256" height="256" loading="lazy" decoding="async" '
-            f'alt="Buddha eyes">'
-            f'<div class="hhm notranslate" translate="no" lang="zh" '
-            f'aria-label="Hsin Hsin Ming, '
-            f'the original Chinese">{HSIN_HSIN_MING}</div>'
-            f'</div></div>'
-            f'<div class="foot-legal">&copy; 2026 {SITE_NAME}. May this '
-            f'writing benefit all beings.</div></footer>')
+            f'<div class="foot-close">{image}{scripture}</div></div>'
+            f'<div class="foot-legal">&copy; {C("site", "year")} {AUTHOR}. '
+            f'{C("footer", "legal")}</div></footer>')
 
 def popup():
     return (f'<div class="popup-veil" id="popup" hidden><div class="popup-card">'
             f'<button class="popup-close" id="popup-close" aria-label="Close">&times;</button>'
-            f'<div class="popup-art" aria-hidden="true"><span>(-:</span></div>'
-            f'<div class="popup-body"><h2>Join the mailing list.</h2>'
-            f'{signup_form("popup-form", "Join")}'
+            f'<div class="popup-art" aria-hidden="true"><span>{C("popup", "art")}</span></div>'
+            f'<div class="popup-body"><h2>{C("popup", "heading")}</h2>'
+            f'{signup_form("popup-form", C("popup", "button", "Join"))}'
             f'</div></div></div>')
 
-def page(title, body, desc=TAGLINE, path="index.html", kind="website",
+def page(title, body, desc=None, path="index.html", kind="website",
          data=None):
     """Every page names its own canonical address, carries the preview
     tags social sites read, and carries structured data for search."""
+    desc = TAGLINE if desc is None else desc
     url = SITE_URL + ("" if path == "index.html" else path)
     t, d = html.escape(title, quote=True), html.escape(desc, quote=True)
     data = data or {"@context": "https://schema.org", "@type": "WebPage",
                     "name": title, "description": desc, "url": url}
     ld = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
-    return (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
+    extra_css = "".join(f'<link rel="stylesheet" href="{h}">'
+                        for h in C("site", "extra_css", []))
+    thanks = C("site", "signup_thanks")
+    body_attrs = (f' data-thanks="{html.escape(thanks, quote=True)}"'
+                  if thanks else '')
+    return (f'<!DOCTYPE html><html lang="{C("site", "lang", "en")}"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{t}</title><meta name="description" content="{d}">'
             f'<meta name="google" content="notranslate">'
@@ -483,8 +370,9 @@ def page(title, body, desc=TAGLINE, path="index.html", kind="website",
             f'<meta name="twitter:description" content="{d}">'
             f'<script type="application/ld+json">{ld}</script>'
             f'<link rel="stylesheet" href="assets/base.css">'
-            f'<link rel="stylesheet" href="assets/themes.css">'
-            f'</head><body class="theme-ink">{header()}{body}{footer()}{popup()}'
+            f'<link rel="stylesheet" href="assets/themes.css">{extra_css}'
+            f'</head><body class="{C("site", "body_class", "theme-ink")}"{body_attrs}>'
+            f'{header()}{body}{footer()}{popup()}'
             f'<script src="assets/site.js" defer></script></body></html>')
 
 def card(p, level="h3"):
@@ -492,18 +380,25 @@ def card(p, level="h3"):
     return (f'<a class="card" href="{p["slug"]}.html">'
             f'<div class="card-art" aria-hidden="true" style="color:'
             f'{deep(project_color(proj))}">'
-            f'<span>{p.get("glyph","☀")}</span></div>'
+            f'<span>{p.get("glyph", C("site", "default_glyph", "☀"))}</span></div>'
             f'<{level} class="ptx-shadow card-title" '
             f'style="--pc:{shadow_color(proj)}">'
             f'{p["title"]}</{level}><p>{p["description"]}</p></a>')
+
+def grid(cards_html, cls="grid"):
+    """A card grid. An empty one says so, in the site's own words, when
+    site.toml gives home.empty_text."""
+    if not cards_html and C("home", "empty_text"):
+        return f'<p class="empty-note">{C("home", "empty_text")}</p>'
+    return f'<div class="{cls}">{cards_html}</div>'
 
 def hero(title_html, sub_text, form_id, svg=""):
     return (f'<section class="hero">{svg}<div class="hero-inner"><div class="hero-copy">'
             f'<h1>{title_html}</h1><p class="hero-sub">{sub_text}</p>'
             f'<button class="btn btn-hero" type="button" data-open-popup>'
-            f'Join the Mailing List</button></div>'
-            f'<div class="hero-art" aria-hidden="true"><span>(-:</span></div>'
-            f'</div><div class="ornament" aria-hidden="true">(:☸:)</div>'
+            f'{C("home", "hero_button")}</button></div>'
+            f'<div class="hero-art" aria-hidden="true"><span>{C("home", "hero_art")}</span></div>'
+            f'</div><div class="ornament" aria-hidden="true">{C("home", "ornament")}</div>'
             f'{WAVE}</section>')
 
 def index_body(posts, svg_fn=None):
@@ -512,36 +407,35 @@ def index_body(posts, svg_fn=None):
     Articles grid. (Footer and popup arrive through page().)"""
     svg_fn = svg_fn or stream_svg
     n_symbols = sum(len(p["symbols"]) for p in PROJECTS.values())
-    stats = [
-        ("☸", "5", "Writing Projects"),
-        ("✎", str(len(posts)), "Pieces of Writing"),
-        ("✳", str(n_symbols), "Symbols in the Weave"),
-        ("(-:", "1", "Author"),
-    ]
-    trust = ('<section class="trust"><h2>What Is Here</h2>'
+    stats = [(ico, num.format(posts=len(posts), symbols=n_symbols), lab)
+             for ico, num, lab in C("home", "stats", [])]
+    trust = (f'<section class="trust"><h2>{C("home", "trust_heading")}</h2>'
              '<div class="trust-grid">'
              + "".join(
                  f'<div><div class="stat-num"><span class="stat-ico">{ico}'
                  f'</span>{num}</div><div class="stat-label">{lab}</div></div>'
                  for ico, num, lab in stats)
-             + '</div></section>')
-    # feature — the Smile Prompt Language, spoken as Smile speaks
-    collage = "".join(
-        f'<span style="color:{deep(st["color"])}">{s}</span>'
-        for st in PROJECTS.values() for s in st["symbols"][:6])
-    smile_post = next((p for p in posts if p.get("project") == "Smile"), None)
-    feature = (
-        f'<section class="feature"><div class="feature-art" aria-hidden="true">'
-        f'{collage}</div><div class="feature-copy">'
-        f'<p class="eyebrow">The Smile Prompt Language</p>'
-        f'<h2>A prompt language written in emoticons.</h2>'
-        f'<p>Smile is a prompt language for speaking with language models. '
-        f'It is developed here, alongside Smile Chat, the local '
-        f'conversation rig it runs in. Posts document the language as it '
-        f'develops.</p>'
-        + (f'<a class="btn" href="{smile_post["slug"]}.html">'
-           f'Read About Smile</a>' if smile_post else '')
-        + '</div></section>')
+             + '</div></section>') if stats else ''
+    # the feature: one project spoken in its own voice
+    feature = ''
+    f = CONF.get("home", {}).get("feature")
+    if f:
+        collage = "".join(
+            f'<span style="color:{deep(st["color"])}">{s}</span>'
+            for st in PROJECTS.values() for s in st["symbols"][:6])
+        first = next((p for p in posts if p.get("project") == f.get("project")),
+                     None)
+        feature = (
+            f'<section class="feature"><div class="feature-art" aria-hidden="true">'
+            f'{collage}</div><div class="feature-copy">'
+            f'<p class="eyebrow">{f["eyebrow"]}</p>'
+            f'<h2>{f["heading"]}</h2>'
+            f'<p>{f["text"]}</p>'
+            # the button opens f["href"] when given, else the newest
+            # post of f["project"]
+            + (f'<a class="btn" href="{f.get("href") or first["slug"] + ".html"}">'
+               f'{f["button"]}</a>' if f.get("href") or first else '')
+            + '</div></section>')
     featured = []
     seen_subs = set()
     for p in posts:
@@ -550,35 +444,32 @@ def index_body(posts, svg_fn=None):
             seen_subs.add(p["pill"])
         if len(featured) == 4:
             break
-    feature_cards = ('<div class="grid grid-4">'
-                     + "".join(card(p) for p in featured) + '</div>')
-    # dark mid band — Smile's own list, on this same engine
-    midband = (
-        f'<section class="midband">{WAVE.replace("wave", "wave wave-top", 1)}'
-        f'{svg_fn(h=260)}'
-        f'<div class="midband-inner"><div class="midband-copy">'
-        f'<p class="eyebrow" style="color:{PROJECTS["Smile"]["color"]}">'
-        f'The Smile mailing list</p>'
-        f'<h2>Smile has its own sub-mailing-list.</h2>'
-        f'<p>It runs on this same mailing engine. Choose Smile when you '
-        f'join and Smile posts arrive on their own.</p>'
-        f'<button class="btn" type="button" data-open-popup>'
-        f'Join the Smile List</button></div>'
-        f'<div class="midband-art" aria-hidden="true"><span>(-:</span></div>'
-        f'</div>{WAVE}</section>')
+    feature_cards = grid("".join(card(p) for p in featured), "grid grid-4")
+    # the dark mid band, a second invitation to the list
+    midband = ''
+    mb = CONF.get("home", {}).get("midband")
+    if mb:
+        midband = (
+            f'<section class="midband">{WAVE.replace("wave", "wave wave-top", 1)}'
+            f'{svg_fn(h=260)}'
+            f'<div class="midband-inner"><div class="midband-copy">'
+            f'<p class="eyebrow" style="color:{project_color(C("site", "accent_project"))}">'
+            f'{mb["eyebrow"]}</p>'
+            f'<h2>{mb["heading"]}</h2>'
+            f'<p>{mb["text"]}</p>'
+            f'<button class="btn" type="button" data-open-popup>'
+            f'{mb["button"]}</button></div>'
+            f'<div class="midband-art" aria-hidden="true"><span>{mb.get("art", "")}</span></div>'
+            f'</div>{WAVE}</section>')
     # Articles — heading left, see-all right, three-column grid
     cat_links = " or ".join(f'<a href="{c["slug"]}.html">{cat}</a>'
                             for cat, c in CATEGORIES.items())
     articles = (f'<section class="band"><div class="band-head">'
-                f'<h2>Articles</h2><span class="see-in">See all in '
+                f'<h2>{C("home", "articles_heading", "Articles")}</h2>'
+                f'<span class="see-in">See all in '
                 f'{cat_links}</span></div>'
-                f'<div class="grid">'
-                + "".join(card(p) for p in posts[:6]) + '</div></section>')
-    return (hero("The Writing of<br>Dr Thomas Ager",
-                 "Ethical, Bodhisattva and Shambhala AI brought into "
-                 "local communities with local LLMs, for business owners "
-                 "and people building such projects. New posts go out "
-                 "by email when they are written.", "hero-form",
+                + grid("".join(card(p) for p in posts[:6])) + '</section>')
+    return (hero(C("home", "hero_title"), C("home", "hero_sub"), "hero-form",
                  svg_fn(h=320))
             + trust
             + f'<main>{feature}{feature_cards}</main>'
@@ -611,6 +502,8 @@ def build_categories(posts):
                           f'</div><div class="grid">{cards}</div>')
             if inner:
                 secs += f'<section class="band">{inner}</section>'
+        if not secs and C("home", "empty_text"):
+            secs = f'<section class="band">{grid("")}</section>'
         body = (f'<section class="hero hero-lite">'
                 f'{stream_svg(h=180)}'
                 f'<div class="hero-inner">'
@@ -641,7 +534,7 @@ def build_subcategories(posts):
                 f'<div class="hero-copy"><h1>{name}</h1>'
                 f'<p class="hero-sub">{blurb}</p></div></div>{WAVE}</section>'
                 f'<main><section class="band">'
-                f'<div class="grid">{cards}</div></section></main>')
+                f'{grid(cards)}</section></main>')
         (SITE / f'{slugify(name)}.html').write_text(
             page(f"{name} — {SITE_NAME}", body, blurb or TAGLINE,
                  path=f"{slugify(name)}.html"),
@@ -649,6 +542,7 @@ def build_subcategories(posts):
     return len(pages)
 
 def build_posts(posts):
+    initials = C("site", "author_initials")
     for p in posts:
         more = [q for q in posts if q["category"] == p["category"]
                 and q is not p][:3]
@@ -660,7 +554,7 @@ def build_posts(posts):
             f'<main class="article"><h1 class="post-title ptx-shadow" '
             f'style="--pc:{shadow_color(p.get("project", SITE_NAME))}">'
             f'{p["title"]}</h1>'
-            f'<div class="byline"><span class="avatar" aria-hidden="true">TA</span>'
+            f'<div class="byline"><span class="avatar" aria-hidden="true">{initials}</span>'
             f'<strong>{", ".join(p["authors"])}</strong>'
             f'<span class="dot">|</span>'
             f'<span>Updated {p["date"]}</span><span class="dot">|</span>'
@@ -677,10 +571,8 @@ def build_posts(posts):
                 f'{deep(tag_color(p.get("project", SITE_NAME), t))}">{t}</span>'
                 for t in p["tags"]) +
             f'<div class="author-card"><span class="avatar avatar-big" '
-            f'aria-hidden="true">TA</span><div><h2>{SITE_NAME}</h2>'
-            f'<p>Dr Thomas Ager holds a Ph.D in Artificial Intelligence and '
-            f'writes on prompt engineering and spirituality. His current '
-            f'research is the Smile Prompt Language.</p></div></div>'
+            f'aria-hidden="true">{initials}</span><div><h2>{AUTHOR}</h2>'
+            f'<p>{C("site", "author_bio")}</p></div></div>'
             f'<section class="band"><div class="band-head"><h2>More Reading</h2>'
             f'<span class="see-in">See more in '
             f'<a href="{slugify(p["pill"])}.html">{p["pill"]}</a></span></div>'
@@ -699,7 +591,7 @@ def article_data(p):
         "datePublished": p["date"],
         "dateModified": p.get("updated", p["date"]),
         "author": [{"@type": "Person", "name": a} for a in p["authors"]],
-        "publisher": {"@type": "Person", "name": SITE_NAME, "url": SITE_URL},
+        "publisher": {"@type": "Person", "name": AUTHOR, "url": SITE_URL},
         "mainEntityOfPage": url, "url": url,
         "articleSection": p["pill"], "keywords": ", ".join(p["tags"]),
         "inLanguage": "en",
@@ -708,9 +600,9 @@ def article_data(p):
 FOOT_SVG = [""]
 
 def build_feed(posts):
-    """atom.xml — the door Buttondown's RSS-to-email automation
-    watches. Each entry carries its category lineage as atom
-    categories so per-tag sending stays possible."""
+    """atom.xml — the door the mailing list's RSS-to-email automation
+    (or the Mailing Steward) watches. Each entry carries its category
+    lineage as atom categories so per-tag sending stays possible."""
     def esc(t):
         return (t.replace("&", "&amp;").replace("<", "&lt;")
                  .replace(">", "&gt;"))
@@ -732,32 +624,38 @@ def build_feed(posts):
             f'<link href="{SITE_URL}"/>'
             f'<link rel="self" href="{SITE_URL}atom.xml"/>'
             f'<id>{SITE_URL}</id><updated>{updated}</updated>'
-            f'<author><name>{SITE_NAME}</name></author>{entries}</feed>')
+            f'<author><name>{AUTHOR}</name></author>{entries}</feed>')
     (SITE / "atom.xml").write_text(feed, encoding="utf-8")
 
 def build_shop():
+    """The shop page, when site.toml lists products. Returns whether
+    one was built."""
+    if not PRODUCTS:
+        return False
+    gp = C("shop", "glyph_project", C("site", "accent_project"))
     items = "".join(
         f'<div class="card shop-item" id="{pr["key"]}">'
         f'<div class="card-art" aria-hidden="true" style="color:'
-        f'{deep(project_color("Smile"))}"><span>{pr["glyph"]}</span></div>'
+        f'{deep(project_color(gp))}"><span>{pr["glyph"]}</span></div>'
         f'<h2 class="ptx-shadow card-title" '
-        f'style="--pc:{shadow_color("Smile")}">{pr["title"]}</h2>'
+        f'style="--pc:{shadow_color(gp)}">{pr["title"]}</h2>'
         f'<p class="price">{pr["price"]}</p><p>{pr["text"]}</p></div>'
         for pr in PRODUCTS)
-    blurb = ("The prompt packs and the free guide. Every pack updates "
-             "in perpetuity.")
+    blurb = C("shop", "blurb")
     body = (f'<section class="hero hero-lite">{stream_svg(h=180)}'
-            f'<div class="hero-inner"><div class="hero-copy"><h1>Shop</h1>'
+            f'<div class="hero-inner"><div class="hero-copy"><h1>{C("shop", "title", "Shop")}</h1>'
             f'<p class="hero-sub">{blurb}</p></div></div>{WAVE}</section>'
             f'<main><section class="band"><div class="grid">{items}</div>'
             f'</section><section class="band">'
-            + inline_signup("shop-join", "prompt-pack-updates",
-                            "Payment opens here when the shop goes live",
-                            "Send Me the Opening")
+            + inline_signup("shop-join", C("shop", "signup_tag"),
+                            C("shop", "signup_heading"),
+                            C("shop", "signup_button"))
             + '</section></main>')
     (SITE / "shop.html").write_text(
-        page(f"Shop — {SITE_NAME}", body, blurb, path="shop.html"),
+        page(f"{C('shop', 'title', 'Shop')} — {SITE_NAME}", body, blurb,
+             path="shop.html"),
         encoding="utf-8")
+    return True
 
 def build_sitemap(posts, names):
     """sitemap.xml lists every page with its last change, and
@@ -765,11 +663,9 @@ def build_sitemap(posts, names):
     latest = posts[0]["date"] if posts else "2026-08-30"
     rows = [("", latest)] + [(f"{n}.html", latest) for n in names]
     rows += [(f'{p["slug"]}.html', p.get("updated", p["date"])) for p in posts]
-    # HTML posts outside posts/ and the feed: the history of Smile, released
-    # one page a day into site/history-of-smile by
-    # drafts/the-history-of-smile/stage.clj, and the standalone pages in the
-    # Blog Template, one folder each
-    for folder in ("history-of-smile", "cybernetic-buddhism-smile-portal"):
+    # HTML posts published outside posts/, one folder each under site/,
+    # named in site.toml's sections.sitemap_folders
+    for folder in C("sections", "sitemap_folders", []):
         here = SITE / folder
         if here.exists():
             rows += [(f.parent.relative_to(SITE).as_posix() + "/", latest)
@@ -795,10 +691,14 @@ def page_names():
 
 def build_gurus():
     """The guru browsing section, built by hanjopurebuddha.com/build.py into
-    site/gurus/. That folder is a self-contained site of its own (one
-    teacher per folder under its teachers/); here it renders as a section."""
+    site/gurus/, when site.toml names it in sections.gurus. That folder is
+    a self-contained site of its own (one teacher per folder under its
+    teachers/); here it renders as a section."""
     import importlib.util
-    src = ROOT / "hanjopurebuddha.com" / "build.py"
+    name = C("sections", "gurus")
+    if not name:
+        return 0
+    src = ROOT / name / "build.py"
     if not src.exists():
         return 0
     spec = importlib.util.spec_from_file_location("gurus_build", src)
@@ -812,12 +712,62 @@ def build_gurus():
     mod.build_index(cards, mod.SITE / "index.html", prefix="")
     return len(cards)
 
-def main():
+def new_site(target):
+    """Copy template/ to start a new site. Refuses to touch a folder
+    that already exists."""
+    target = Path(target)
+    if target.exists():
+        sys.exit(f"{target} already exists; nothing was copied.")
+    shutil.copytree(TEMPLATE, target)
+    print(f"New site at {target}. Fill in {target / 'site.toml'}, then "
+          f"run: python build.py {target}")
+
+ENGINE_FILES = ["build.py", "assets", "template", "TEMPLATE.md",
+                "tools/ghost_one.py", ".github/workflows/publish.yml"]
+
+def export_site(folder, dest):
+    """Write one site as a standalone repository: the engine files, and
+    the site folder's own files at the root, where build.py reads them.
+    The new folder builds with `python build.py` and publishes with the
+    GitHub Pages workflow it carries."""
+    folder, dest = Path(folder), Path(dest)
+    if dest.exists():
+        sys.exit(f"{dest} already exists; nothing was written.")
+    dest.mkdir(parents=True)
+    for name in ENGINE_FILES:
+        src = ROOT / name
+        if src.is_dir():
+            shutil.copytree(src, dest / name)
+        elif src.exists():
+            (dest / name).parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src, dest / name)
+    for item in folder.iterdir():
+        if item.name in ("site", "__pycache__"):
+            continue
+        if item.is_dir():
+            shutil.copytree(item, dest / item.name, dirs_exist_ok=True)
+        else:
+            shutil.copy2(item, dest / item.name)
+    (dest / ".gitignore").write_text(
+        "__pycache__/\n*.pyc\nmailing/steward/key.txt\n"
+        "mailing/steward/state.json\n", encoding="utf-8")
+    print(f"Standalone repository written to {dest}. Inside it: python build.py")
+
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ["--new"]:
+        return new_site(argv[1])
+    if argv[:1] == ["--export"]:
+        return export_site(argv[1], argv[2])
+    if argv:
+        configure(argv[0])
     SITE.mkdir(exist_ok=True)
     out_assets = SITE / "assets"
     if out_assets.exists():
         shutil.rmtree(out_assets)
     shutil.copytree(ASSETS, out_assets)
+    if OVERLAY:
+        shutil.copytree(OVERLAY, out_assets, dirs_exist_ok=True)
     posts = load_posts()
     FOOT_SVG[0] = stream_svg(h=280)
     build_index(posts)
@@ -825,12 +775,15 @@ def main():
     n_subs = build_subcategories(posts)
     build_posts(posts)
     build_feed(posts)
-    build_shop()
+    shop = build_shop()
     n_gurus = build_gurus()
-    build_sitemap(posts, page_names() + ["shop"])
-    print(f"Guru section: {n_gurus} teacher page(s) in {SITE / 'gurus'}")
+    build_sitemap(posts, page_names() + (["shop"] if shop else []))
+    if C("sections", "gurus"):
+        print(f"Guru section: {n_gurus} teacher page(s) in {SITE / 'gurus'}")
     print(f"Built {1 + len(CATEGORIES) + n_subs + len(posts)} "
           f"pages into {SITE}")
+
+configure(ROOT)
 
 if __name__ == "__main__":
     main()
