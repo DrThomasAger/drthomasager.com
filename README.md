@@ -1,5 +1,11 @@
 # drthomasager.com
 
+> **Make your own, with no code.** A new article full of widgets, a
+> one-page mailing list signup, a blog with a mailing list, or a blog
+> with sign in: each is a button in the **Actions** tab, a double-click
+> file on the PC, or a sentence to Claude. **[HOW-TO.md](HOW-TO.md)**
+> shows every step, with pictures.
+
 The personal writing home of Dr Thomas Ager. Markdown in, static site out.
 
 ## The thought that went into this folder

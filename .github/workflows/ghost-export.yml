@@ -1,0 +1,38 @@
+name: Export a post to Ghost
+# Actions -> Export a post to Ghost -> Run workflow. Give the post's file,
+# press Run, download the file it leaves, and import it in Ghost Admin
+# (Settings -> Advanced -> Import/Export -> Import content).
+
+on:
+  workflow_dispatch:
+    inputs:
+      post:
+        description: "The post's file, e.g. posts/what-is-smile.md"
+        required: true
+      site:
+        description: "Which site (leave . for this one, or e.g. sites/the-new-body)"
+        required: true
+        default: "."
+
+jobs:
+  ghost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown pyyaml
+      - name: Write the Ghost file
+        env:
+          POST: ${{ inputs.post }}
+          SITE: ${{ inputs.site }}
+        run: |
+          mkdir -p out && cd out
+          python ../tools/ghost_one.py "../$POST" "../$SITE"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ghost-import
+          path: |
+            out/ghost
+            ${{ inputs.site }}/ghost

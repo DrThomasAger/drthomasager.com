@@ -1,0 +1,52 @@
+name: New site
+# Actions -> New site -> Run workflow. Name it, choose what kind, press Run.
+# A whole new site folder appears under sites/, copied from template/.
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "A short name for the folder, e.g. the-new-body"
+        required: true
+      kind:
+        description: "What kind of site"
+        required: true
+        type: choice
+        default: blog
+        options:
+          - blog
+          - signup
+          - blog-with-logins
+
+permissions:
+  contents: write
+
+jobs:
+  new-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown
+      - name: Copy the template
+        env:
+          NAME: ${{ inputs.name }}
+          KIND: ${{ inputs.kind }}
+        run: |
+          FOLDER="sites/$(python -c 'import sys, build; print(build.slugify(sys.argv[1]))' "$NAME")"
+          python build.py --new "$FOLDER" --kind "$KIND"
+          python build.py "$FOLDER"
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add "$FOLDER"
+          git commit -m "New site: $FOLDER ($KIND)"
+          git push
+          {
+            echo "## Your new site is ready to fill in"
+            echo ""
+            echo "1. [Open its settings and fill them in](https://github.com/${GITHUB_REPOSITORY}/edit/${GITHUB_REF_NAME}/${FOLDER}/site.toml)"
+            echo "2. Write articles with the New article button, giving the site as $FOLDER"
+            echo "3. When it is ready to go live, run Export a site and follow its summary."
+          } >> "$GITHUB_STEP_SUMMARY"

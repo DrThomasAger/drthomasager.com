@@ -1,0 +1,44 @@
+name: Export a site
+# Actions -> Export a site -> Run workflow. Give the site folder, press Run.
+# The run leaves a zip to download: a whole repository for that one site,
+# with this engine, its publish button and its own front page.
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "The site folder, e.g. sites/the-new-body"
+        required: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown
+      - name: Write the repository
+        env:
+          SITE: ${{ inputs.site }}
+        run: |
+          python build.py --export "$SITE" export
+          (cd export && python build.py)
+          rm -rf export/site
+          echo "NAME=$(basename "$SITE")" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.NAME }}-repository
+          path: export
+          include-hidden-files: true
+      - name: What to do next
+        run: |
+          {
+            echo "## The repository for ${NAME} is ready"
+            echo ""
+            echo "1. Scroll down to Artifacts on this page and download ${NAME}-repository. Unzip it."
+            echo "2. On GitHub, press + (top right), New repository, give it a name, Create repository."
+            echo "3. On the new repository's page, press uploading an existing file, drag in everything from the unzipped folder, Commit changes."
+            echo "4. Settings, Pages, Source: GitHub Actions. The site publishes itself on every change from then on."
+          } >> "$GITHUB_STEP_SUMMARY"

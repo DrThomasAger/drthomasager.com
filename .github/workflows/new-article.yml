@@ -1,0 +1,48 @@
+name: New article
+# Actions -> New article -> Run workflow. Type a title, press Run.
+# A new article in the gold letterhead style appears in posts/, with every
+# widget shown, as a draft. The run's summary links straight to it.
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "The article's title"
+        required: true
+      site:
+        description: "Which site (leave . for this one, or e.g. sites/the-new-body)"
+        required: true
+        default: "."
+
+permissions:
+  contents: write
+
+jobs:
+  new-article:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown
+      - name: Write the article
+        env:
+          TITLE: ${{ inputs.title }}
+          SITE: ${{ inputs.site }}
+        run: |
+          python build.py --new-article "$TITLE" "$SITE"
+          SLUG=$(python -c 'import sys, build; print(build.slugify(sys.argv[1]))' "$TITLE")
+          FILE=$(python -c 'import sys, os; print(os.path.normpath(os.path.join(sys.argv[1], "posts", sys.argv[2] + ".md")))' "$SITE" "$SLUG")
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "New article: $TITLE (a draft)"
+          git push
+          {
+            echo "## Your new article is ready to write"
+            echo ""
+            echo "[Open it and write it here](https://github.com/${GITHUB_REPOSITORY}/edit/${GITHUB_REF_NAME}/${FILE})"
+            echo ""
+            echo "Press the pencil, write, and delete the line draft: yes when it is ready. Commit, and it is published."
+          } >> "$GITHUB_STEP_SUMMARY"
