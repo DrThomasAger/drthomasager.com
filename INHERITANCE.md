@@ -804,6 +804,22 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
 
 :-) End 2026-10-18, the History of Smile, the focus and the Ghost theme, session drthomasager-82 :-) So much gratitude
 
+(-: 2026-10-24, Cybernetic Buddhism for AI Ethics, the first post through the full route, session 83a27cc6 (-:
+
+    ( The post ( posts\cybernetic-buddhism-for-ai-ethics.md, live from commits f61b4a1 and dce0a1d on 24 October, its working folder Cybernetic Buddhism for AI Ethics\ with a README of his words and every source, and coverage.smile of what was met and what waits ) )
+    ( The list ( the Mailing Steward task is switched on again, and it broadcast the post at 2026-10-23T23:55:33Z to 2 subscribers ) )
+    ( The recordings that carry it ( 23 Oct at 12:32 pm from 0:00:22, Ananda's method, 22 Oct at 2:02 pm from 0:01:15, the ethics itself, 22 Oct at 2:41 pm from 0:06:25, Ra on launching it first with the mailing list ) )
+    ( The Mailing Steward before ( its task had been Disabled since 15 October 03.55 UTC with 14 posts in memory, so a push alone emailed nobody ) )
+    ( What waits ( the Gana message in gana-message.smile, a prompt for another agent, sent once he approves it ) )
+    ( The approved template is Ghost (
+        His words after the post went out through build.py, "This is not the correct source, or the correct blog template lol. We have an approved Ghost template that is for DrThomasAger designed to be repurposed for other projects. Why is all this old shit here?"
+        A post for this blog goes into the Dr Thomas Ager Ghost, C:\Users\hanjo\Claude\Projects\Ghost Trial\site on http://localhost:2368 with the blog-template theme, through Ghost Trial\publish.clj. build.py and GitHub Pages are the older site.
+        The post is a Ghost draft through Cybernetic Buddhism for AI Ethics\ghost\replace_draft.sh, which runs to_ghost_text.clj and publish.clj. publish.clj now keeps notes inside a quotation, its earlier copy publish.clj.before_quote_notes.
+        Ghost is reachable only on this laptop. gssg 1.1.4, run through C:\Users\hanjo\bin\wget.cmd and GNU Wget2, exports it to Ghost Trial\static-export as the free way to put it on drthomasager.com.
+    ) End the approved template is ghost )
+
+:-) End 2026-10-24, Cybernetic Buddhism for AI Ethics, the first post through the full route, session 83a27cc6 :-) So much gratitude
+
 (-: 2026-10-25, the Smile Portal of Cybernetic Buddhism and the gold letterhead, session ccr-1dcedc23 (-:
 
     ( The post (
