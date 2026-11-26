@@ -158,6 +158,16 @@ def embed(payload):
 
 SECTIONS = ["archive", "quotes", "timeline", "people", "copyright", "sources", "about"]
 SITE_CONF = read_json(ROOT / "site.json", {}) if (ROOT / "site.json").exists() else {}
+
+
+def github_links(slug=None):
+    """Where the archive is open on GitHub: the code and data, the teacher's folder, the media releases."""
+    repo, branch, prefix = SITE_CONF.get("repo", ""), SITE_CONF.get("branch", "main"), SITE_CONF.get("prefix", "")
+    if not repo:
+        return {}
+    base = f"https://github.com/{repo}"
+    return {"code": f"{base}/tree/{branch}/{prefix}".rstrip("/"), "teacher": f"{base}/tree/{branch}/{prefix}teachers/{slug}" if slug else "",
+            "releases": f"{base}/releases", "repo": base}
 FORMATS = read_json(ROOT / "formats.json", {"formats": []}) if (ROOT / "formats.json").exists() else {"formats": []}
 
 
@@ -378,10 +388,21 @@ def build_teacher(folder, out_root=None):
                 .replace("__FEATURED__", feat_html or "<p>Quotes are being gathered.</p>").replace("__EVENTS__", ev_html or "<p>The chronology is being gathered.</p>")
                 .replace("__INSTAGRAM_BTN__", f'<a class="btn primary" href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)} on Instagram</a>' if insta else "")
                 .replace("__COMPOSITIONS__", ("<h2>Compositions</h2><div class=\"quotes\">" + "".join(f'<a class="q" href="compositions/{c["name"]}/"><blockquote>{esc(c["title"])}</blockquote><div class="meta"><span>{esc(c["format"])}</span><span>{esc(c["topic"])}</span><span>{esc(c["date"])}</span></div></a>' for c in comps) + "</div>") if comps else "")
-                .replace("__INSTAGRAM_FOOT__", f'Daily quotes at <a href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)}</a>.' if insta else ""))
+                .replace("__INSTAGRAM_FOOT__", f'Daily quotes at <a href="{insta_url}" target="_blank" rel="noopener">@{esc(insta)}</a>.' if insta else "")
+                .replace("__GITHUB_FOOT__", gh_foot(slug, meta)))
     (out / "index.html").write_text(html, encoding="utf-8")
 
     return {"slug": slug, "meta": {k: v for k, v in meta.items() if k != "events"}, "counts": counts, "items": len(items), "quotes": len(quotes), "people": len(people), "events": len(events) or len(meta["events"]), "pages": 1 + len(SECTIONS) + len(quotes)}
+
+
+def gh_foot(slug, meta):
+    g = github_links(slug)
+    if not g:
+        return ""
+    held = (TEACHERS / slug / "holdings.json").exists() and meta.get("fetch") is not False
+    media = f' {esc(meta.get("name", ""))}\'s recordings, scans and photographs can be downloaded from the <a href="{g["releases"]}" target="_blank" rel="noopener">releases</a>.' if held else ""
+    return (f'This archive is open source on GitHub: <a href="{g["teacher"]}" target="_blank" rel="noopener">its data and compositions</a> '
+            f'and <a href="{g["code"]}" target="_blank" rel="noopener">the code that builds it</a>, free to copy for any teacher.{media}')
 
 
 def build_index(cards, out_path=None, prefix="gurus/"):
@@ -390,7 +411,10 @@ def build_index(cards, out_path=None, prefix="gurus/"):
     sits inside the gurus folder itself)."""
     out_path = out_path or (SITE / "index.html")
     tpl = (TPL / "index.html").read_text(encoding="utf-8")
-    html = tpl.replace("/*__CARDS__*/", embed(cards)).replace("__PREFIX__", prefix)
+    g = github_links()
+    gh = (f'<a class="gh" href="{g["code"]}" target="_blank" rel="noopener">Open source on GitHub</a> · the code, every teacher\'s data, '
+          f'and <a href="{g["releases"]}" target="_blank" rel="noopener">U.G. Krishnamurti\'s recordings and scans to download</a>') if g else ""
+    html = tpl.replace("/*__CARDS__*/", embed(cards)).replace("__PREFIX__", prefix).replace("__GITHUB__", gh)
     out_path.write_text(html, encoding="utf-8")
 
 

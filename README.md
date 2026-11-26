@@ -71,3 +71,7 @@ whole of it.
 
 - Double-click `Build DrThomasAger.bat`, or run `python build.py`.
 - Write in `posts/`, rebuild, refresh.
+
+## Gurus, open archives of enlightened teachers
+
+The `hanjopurebuddha.com/` folder is an open archive of U.G. Krishnamurti and Bernadette Roberts: every quotation checked against its sources, every recording and text catalogued, U.G.'s recordings and scans free to download from this repository's releases, and new work recomposed from their words. Browse it at https://drthomasager.github.io/drthomasager.com/gurus/ and read how it works in `hanjopurebuddha.com/README.md`.

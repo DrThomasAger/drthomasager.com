@@ -1,4 +1,22 @@
-# hanjopurebuddha.com
+# hanjopurebuddha.com, open archives of enlightened teachers
+
+**Browse it live:** https://drthomasager.github.io/drthomasager.com/gurus/
+**Open source on GitHub:** https://github.com/DrThomasAger/drthomasager.com/tree/main/hanjopurebuddha.com
+**Download U.G. Krishnamurti's recordings, scans and photographs:** https://github.com/DrThomasAger/drthomasager.com/releases
+
+Everything located of a teacher, in one place, every line traced to where it was found.
+
+| Teacher | Works catalogued | Quotations | Held to download |
+|---|---|---|---|
+| U.G. Krishnamurti | 745 | 282, each with how it was confirmed | 2,957 files, 16.5 GB, 208 hours of recordings |
+| Bernadette Roberts | 236 | 151 brief quotations | none; her estate holds the copyright, so her works are linked |
+
+- **Every quotation traced.** Each carries its book, chapter and how far it is confirmed, from a primary text to a single source or disputed; words that are an editor's, an interviewer's or a reviewer's are marked and never quoted as the teacher's.
+- **Every recording, text and image catalogued**, with dates, places and sources, on a timeline of the teacher's life.
+- **Recomposed into new work.** 19 compositions so far, among them the album *Six Temples*, six Suno songs made only of U.G.'s words: collections, books, blog posts, Instagram posts and songs, each checked word for word against the quotations.
+- **Usable from anywhere.** The /C-guru commands bring a teacher's words into Claude Code, Pi and THE MAP Viewer's composer.
+- **A template.** Copy `teachers/_template` to add any teacher; the same pages, checks and compositions follow.
+- **Free to copy.** U.G. gave his words to everyone, and this archive's code and data are open.
 
 > The articles, signup pages and blogs of drthomasager.com are made with
 > no code from its template: see HOW-TO.md in
