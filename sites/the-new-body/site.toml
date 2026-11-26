@@ -13,6 +13,7 @@
 # or a table of tables is shown on the page: it is the order on the page.
 
 [site]
+kind = "blog"                            # blog, signup or blog-with-logins; TEMPLATE.md
 name = "The New Body"                    # the brand, top left, and the page titles
 author = "Ananda Purebuddha"             # the person
 url = "https://thenewbody.example/"      # the published address, ending in /; waits on hers

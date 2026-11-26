@@ -6,6 +6,11 @@
 # or a table of tables is shown on the page: it is the order on the page.
 
 [site]
+# What this site is:
+#   "blog"              a blog with a mailing list
+#   "signup"            one short signup page, nothing else (uses [signup] below)
+#   "blog-with-logins"  a blog with a mailing list and a Sign in link (uses [logins] below)
+kind = "blog"
 name = "Site Name"                       # the brand, top left, and the page titles
 author = "Author Name"                   # the person; leave out when it equals name
 url = "https://example.com/"             # the published address, ending in /
@@ -112,6 +117,24 @@ legal = "May this writing benefit all beings."
 # scripture = ""                         # a long text set small at the foot, e.g. a sutra
 # scripture_lang = "zh"
 # scripture_label = "What it is, for screen readers"
+
+# ---- For kind = "signup": the one page
+[signup]
+kicker = "The mailing list"
+heading = "Join the list."
+text = "One or two sentences on what arrives, and how often."
+form_heading = ""                        # a line above the form; empty for none
+button = "Join"
+tag = "signup"
+
+# ---- For kind = "blog-with-logins": where sign-in lives. A static site
+# cannot hold accounts itself, so this links to the service that does.
+# HOW-TO.md names the ways to have one.
+[logins]
+url = ""                                 # e.g. https://accounts.example.com/login
+label = "Sign in"
+library_url = ""                         # what a signed-in person has unlocked
+library_label = "Library"
 
 # ---- The shop. Leave out every [[products]] for no shop page.
 [shop]

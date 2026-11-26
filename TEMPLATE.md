@@ -1,5 +1,8 @@
 # The template — making another site like DrThomasAger
 
+For making things with no code, read **[HOW-TO.md](HOW-TO.md)** first.
+This file is the design underneath it.
+
 Everything that makes drthomasager.com one person's site lives in one
 file, `site.toml`. `build.py` is the engine and holds none of it. Any
 person's site is the engine and their own `site.toml`, posts, freebie
@@ -15,7 +18,9 @@ of `assets/site.js` that lets a site give its own thank-you text.
 
 ```
 python build.py                                   the DrThomasAger site, as always
-python build.py --new sites/<name>                copy template/ to start a new site
+python build.py --new sites/<name> --kind <kind>  copy template/ to start a new site;
+                                                  kind is blog, signup or blog-with-logins
+python build.py --new-article "Title" [site]      a new gold-letterhead article, as a draft
 python build.py sites/<name>                      build that site into sites/<name>/site/
 python build.py --export sites/<name> <folder>    write that site as its own repository
 ```

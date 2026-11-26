@@ -2,7 +2,10 @@
 
     python build.py                      builds the DrThomasAger site from ./site.toml
     python build.py sites/the-new-body   builds that site folder into its own site/
-    python build.py --new sites/<name>   copies template/ to start a new site
+    python build.py --new sites/<name> [--kind blog|signup|blog-with-logins]
+                                         copies template/ to start a new site
+    python build.py --new-article "Title" [site folder]
+                                         a new gold-letterhead article, as a draft
     python build.py --export sites/<name> <folder>
                                          writes that site as a standalone
                                          repository: engine + its files at the root
@@ -118,8 +121,11 @@ def load_posts():
         meta = dict(re.findall(r"^(\w+):\s*(.+)$", m.group(1), re.M))
         if meta.get("draft", "").strip().lower() in ("yes", "true"):
             continue
-        body = markdown.markdown(m.group(2), extensions=["extra"])
-        body = shortcodes(body, f.stem)
+        if meta.get("style", "").strip() == "article":
+            body = render_article(m.group(2), f.stem)
+        else:
+            body = markdown.markdown(m.group(2), extensions=["extra"])
+            body = shortcodes(body, f.stem)
         cat, sub, child = sub_lineage(meta["subcategory"])
         posts.append({
             **meta, "category": cat, "sub": sub, "child": child,
@@ -279,6 +285,12 @@ def header():
         for root, cats in ROOTS.items())
     nav += "".join(f'<a href="{href}">{label}</a>'
                    for label, href in C("header", "nav", []))
+    lg = CONF.get("logins", {})
+    if C("site", "kind") == "blog-with-logins" and lg.get("url"):
+        nav += f'<a href="{lg["url"]}">{lg.get("label", "Sign in")}</a>'
+        if lg.get("library_url"):
+            nav += f'<a href="{lg["library_url"]}">{lg.get("library_label", "Library")}</a>'
+
     return (f'<header class="top"><a class="brand" href="index.html">'
             f'<span class="brand-mark">{C("site", "brand_mark")}</span> {SITE_NAME}</a>'
             f'<nav>{nav}</nav>'
@@ -544,6 +556,10 @@ def build_subcategories(posts):
 def build_posts(posts):
     initials = C("site", "author_initials")
     for p in posts:
+        if p.get("style") == "article":
+            (SITE / f'{p["slug"]}.html').write_text(article_page(p, posts),
+                                                    encoding="utf-8")
+            continue
         more = [q for q in posts if q["category"] == p["category"]
                 and q is not p][:3]
         more_html = "".join(card(q) for q in more)
@@ -598,6 +614,207 @@ def article_data(p):
     }
 
 FOOT_SVG = [""]
+
+# ---- Articles in the Blog Template, with the gold letterhead ----
+# A post whose front-matter says `style: article` is written as a reading
+# page in assets/blog/ (the Blog Template of the Smile Portal post), its
+# widgets written in plain words. template/posts/every-widget.md shows
+# every one of them.
+
+CALLOUTS = {"key": "Key idea", "learn": "Learn more", "caveat": "Caveat",
+            "vision": "Vision", "aside": "Aside"}
+
+def _blocks(md):
+    """The ::: blocks. `:::key Label` ... `:::` and its kin."""
+    def one(m):
+        kind, label, body = m.group(1), m.group(2).strip(), m.group(3)
+        if kind in CALLOUTS:
+            return (f'<div class="callout {kind}" markdown="1">\n'
+                    f'<div class="label">{label or CALLOUTS[kind]}</div>\n\n'
+                    f'{body}\n\n</div>')
+        if kind == "more":
+            return (f'<details class="more" markdown="1">\n'
+                    f'<summary>{label or "Read more"}</summary>\n'
+                    f'<div class="body" markdown="1">\n\n{body}\n\n</div>\n</details>')
+        if kind == "quote":
+            cite = f'<cite>{label}</cite>' if label else ''
+            return (f'<blockquote class="pull" markdown="1">\n\n{body}\n\n'
+                    f'{cite}</blockquote>')
+        if kind == "math":
+            return f'<div class="math">{body.strip()}</div>'
+        if kind == "terms":
+            rows = "".join(
+                f'<div class="term">{t.strip()}</div><div>{d.strip()}</div>'
+                for t, d in (line.split(":", 1) for line in body.splitlines()
+                             if ":" in line))
+            head = f'<div class="label">{label}</div>' if label else ''
+            return f'<div class="callout aside">{head}<div class="terms">{rows}</div></div>'
+        return m.group(0)
+    return re.sub(r"^:::(\w+)[ \t]*(.*?)\n(.*?)\n:::[ \t]*$", one, md,
+                  flags=re.M | re.S)
+
+def _video(url):
+    m = re.search(r"(?:youtu\.be/|v=|embed/)([\w-]{6,})", url)
+    if m:
+        return f"https://www.youtube-nocookie.com/embed/{m.group(1)}"
+    m = re.search(r"vimeo\.com/(\d+)", url)
+    return f"https://player.vimeo.com/video/{m.group(1)}" if m else url
+
+def render_article(md, stem):
+    """Markdown with the article widgets -> the article's HTML."""
+    md = _blocks(md)
+    body = markdown.markdown(md, extensions=["extra", "toc"])
+    body = shortcodes(body, stem)
+    # [[video: address | caption]]
+    def video(m):
+        url, _, cap = m.group(1).partition("|")
+        cap = f'<figcaption>{cap.strip()}</figcaption>' if cap.strip() else ''
+        return (f'<figure class="video"><iframe src="{_video(url.strip())}" '
+                f'title="{html.escape(cap and cap or "Video", quote=True)}" loading="lazy" '
+                f'allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" '
+                f'allowfullscreen></iframe>{cap}</figure>')
+    body = re.sub(r"<p>\[\[video:(.*?)\]\]</p>", video, body)
+    # [[button: words | address]]
+    body = re.sub(r"<p>\[\[button:(.*?)\|(.*?)\]\]</p>",
+                  lambda m: f'<p class="btn-row"><a class="btn-link" href="{m.group(2).strip()}">'
+                            f'{m.group(1).strip()}</a></p>', body)
+    # a picture alone in its paragraph becomes a figure, its words the caption
+    body = re.sub(r'<p><img alt="([^"]*)" src="([^"]*)" ?/?></p>',
+                  lambda m: f'<figure><img src="{m.group(2)}" alt="{m.group(1)}" loading="lazy">'
+                            + (f'<figcaption>{m.group(1)}</figcaption>' if m.group(1) else '')
+                            + '</figure>', body)
+    # - [ ] a checklist a reader ticks, remembered in their browser
+    body = re.sub(r"<li>\[( |x|X)\] ?",
+                  lambda m: '<li class="check"><label><input type="checkbox"'
+                            + (' checked' if m.group(1) != ' ' else '') + '> ', body)
+    body = re.sub(r'(<li class="check"><label>.*?)</li>', r"\1</label></li>", body,
+                  flags=re.S)
+    # a list right after a Sources or Notes heading is set as sources
+    body = re.sub(r'(<h2 id="[^"]*">(?:Sources|Notes|References)</h2>\s*)<(ol|ul)>',
+                  r'\1<\2 class="sources">', body)
+    # --- is the ornament
+    body = body.replace("<hr />", '<hr class="ornament">')
+    # the first paragraph opens with a drop capital
+    body = body.replace("<p>", '<p class="drop">', 1)
+    # [[note: words]] beside its line on a wide screen, opened in place on a phone
+    n = itertools.count(1)
+    def para(m):
+        notes = []
+        def note(k):
+            i = next(n)
+            notes.append(f'<p class="sn" id="n-{stem}-{i}"><span class="n">{i}</span>'
+                         f'{k.group(1).strip()}</p>')
+            return f'<sup class="fn"><a href="#n-{stem}-{i}">{i}</a></sup>'
+        inner = re.sub(r"\[\[note:((?:(?!\[\[|<code>).)*?)\]\]", note, m.group(0))
+        return inner + "".join(notes)
+    body = re.sub(r"<(p|li)[^>]*>.*?</\1>", para, body, flags=re.S)
+    return body
+
+def _fonts():
+    return ('<link rel="preconnect" href="https://fonts.googleapis.com">'
+            '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+            '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">')
+
+def _reading_head(title, desc, path, kind="article", data=None):
+    url = SITE_URL + ("" if path == "index.html" else path)
+    t, d = html.escape(title, quote=True), html.escape(desc, quote=True)
+    data = data or {"@context": "https://schema.org", "@type": "WebPage",
+                    "name": title, "description": desc, "url": url}
+    ld = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    extra_css = "".join(f'<link rel="stylesheet" href="{h}">'
+                        for h in C("site", "extra_css", []))
+    return (f'<!DOCTYPE html><html lang="{C("site", "lang", "en")}"><head><meta charset="utf-8">'
+            f'<meta name="viewport" content="width=device-width, initial-scale=1">'
+            f'<title>{t}</title><meta name="description" content="{d}">'
+            f'<link rel="canonical" href="{url}">'
+            f'<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">'
+            f'<link rel="alternate" type="application/atom+xml" title="{SITE_NAME}" href="{SITE_URL}atom.xml">'
+            f'<meta property="og:type" content="{kind}"><meta property="og:site_name" content="{SITE_NAME}">'
+            f'<meta property="og:title" content="{t}"><meta property="og:description" content="{d}">'
+            f'<meta property="og:url" content="{url}"><meta name="twitter:card" content="summary">'
+            f'<script type="application/ld+json">{ld}</script>{_fonts()}'
+            f'<link rel="stylesheet" href="assets/blog/blog.css">'
+            f'<link rel="stylesheet" href="assets/blog/letterhead-gold.css">'
+            f'<link rel="stylesheet" href="assets/blog/widgets.css">{extra_css}</head>')
+
+def _reading_tail():
+    eyes = (f'<a class="buddha-eyes" href="index.html" aria-label="{SITE_NAME}">'
+            f'<img src="{C("footer", "image")}" width="256" height="256" '
+            f'loading="lazy" decoding="async" alt="{C("footer", "image_alt")}"></a>'
+            if C("footer", "image") else '')
+    thanks = C("site", "signup_thanks")
+    return (f'<div class="toolbar"><button id="restore" type="button" hidden>Restore removed</button>'
+            f'<button id="theme" type="button">☾ Night</button></div>{eyes}'
+            f'<script src="assets/blog/blog.js"></script>'
+            f'<script src="assets/blog/letterhead-gold.js"></script>'
+            f'<script src="assets/blog/widgets.js"></script>'
+            f'<script src="assets/site.js" defer></script>'
+            + (f'<script>document.body.dataset.thanks={json.dumps(thanks)}</script>' if thanks else '')
+            + '</body></html>')
+
+def _top_links():
+    links = [(f'&larr; {SITE_NAME}', "index.html")]
+    lg = CONF.get("logins", {})
+    if C("site", "kind") == "blog-with-logins" and lg.get("url"):
+        links.append((lg.get("label", "Sign in"), lg["url"]))
+    return ('<nav class="home-link">'
+            + "".join(f'<a href="{h}">{l}</a>' for l, h in links) + '</nav>')
+
+def article_page(p, posts):
+    lineage = " › ".join(x for x in (p["category"], p["sub"], p["child"]) if x)
+    toc_items = re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', p["body"])
+    toc = ('<nav class="toc" aria-label="Contents"><div class="label">Contents</div><ol>'
+           + "".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in toc_items)
+           + '</ol></nav>') if len(toc_items) >= 3 else ''
+    more = [q for q in posts if q["category"] == p["category"] and q is not p][:3]
+    more_html = ('<section class="more-reading"><h2>More reading</h2><ul>'
+                 + "".join(f'<li><a href="{q["slug"]}.html">{q["title"]}</a>'
+                           f'<span>{q["description"]}</span></li>' for q in more)
+                 + '</ul></section>') if more else ''
+    tags = ('<p class="tag-row">' + "".join(f'<span class="tag">{t}</span>' for t in p["tags"])
+            + '</p>') if p["tags"] else ''
+    join = ''
+    if MAILING_ENDPOINT is not None and C("mailing", "reassure"):
+        join = inline_signup(f'join-{p["slug"]}-end', p["slug"],
+                             C("footer", "cta_heading", "New posts arrive by email."),
+                             C("footer", "cta_button", "Join the Mailing List"))
+    body = (f'<body><div class="progress"></div><div class="page"><article>'
+            f'{_top_links()}'
+            f'<header class="letterhead"><p class="kicker">{lineage}</p>'
+            f'<h1>{p["title"]}</h1><p class="lede">{p["description"]}</p>'
+            f'<div class="byline"><span class="who">{", ".join(p["authors"])}</span>'
+            f'<span class="dot"></span><span>{p["date"]}</span><span class="dot"></span>'
+            f'<span>{p["readtime"]} min read</span></div></header>'
+            f'{toc}<div class="article-body">{p["body"]}</div>{tags}'
+            f'<div class="author"><span class="avatar">{C("site", "author_initials")}</span>'
+            f'<div><div class="name">{AUTHOR}</div>{C("site", "author_bio")}</div></div>'
+            f'{join}{more_html}</article></div>')
+    return (_reading_head(f'{p["title"]} — {SITE_NAME}', p["description"],
+                          f'{p["slug"]}.html', data=article_data(p))
+            + body + _reading_tail())
+
+def build_signup():
+    """A mailing-list-only site: one short page, its words from the
+    [signup] table of site.toml."""
+    su = CONF.get("signup", {})
+    fb = next((pr for pr in PRODUCTS
+               if pr["key"] == C("freebie", "product")), None)
+    gift = (f'<div class="callout key"><div class="label">Free for joining</div>'
+            f'<p><strong>{fb["title"]}</strong>. {fb["text"]}</p></div>') if fb else ''
+    form = inline_signup("signup-join", su.get("tag", "signup"),
+                         su.get("form_heading", ""),
+                         su.get("button", C("home", "hero_button", "Join")))
+    body = (f'<body class="signup-only"><div class="page"><article>'
+            f'<header class="letterhead"><p class="kicker">{su.get("kicker", SITE_NAME)}</p>'
+            f'<h1>{su.get("heading", SITE_NAME)}</h1>'
+            f'<p class="lede">{su.get("text", TAGLINE)}</p></header>'
+            f'{gift}{form}'
+            f'<p class="legal">&copy; {C("site", "year")} {AUTHOR}. {C("footer", "legal")}</p>'
+            f'</article></div>')
+    (SITE / "index.html").write_text(
+        _reading_head(f"{SITE_NAME} — {TAGLINE}", TAGLINE, "index.html",
+                      kind="website") + body + _reading_tail(),
+        encoding="utf-8")
 
 def build_feed(posts):
     """atom.xml — the door the mailing list's RSS-to-email automation
@@ -712,18 +929,48 @@ def build_gurus():
     mod.build_index(cards, mod.SITE / "index.html", prefix="")
     return len(cards)
 
-def new_site(target):
-    """Copy template/ to start a new site. Refuses to touch a folder
-    that already exists."""
+KINDS = ("blog", "signup", "blog-with-logins")
+
+def new_site(target, kind="blog"):
+    """Copy template/ to start a new site of one kind: blog (a blog with
+    a mailing list), signup (one signup page), or blog-with-logins.
+    Refuses to touch a folder that already exists."""
     target = Path(target)
+    if kind not in KINDS:
+        sys.exit(f"The kind is one of {', '.join(KINDS)}.")
     if target.exists():
         sys.exit(f"{target} already exists; nothing was copied.")
     shutil.copytree(TEMPLATE, target)
+    toml = target / "site.toml"
+    toml.write_text(toml.read_text(encoding="utf-8").replace(
+        'kind = "blog"', f'kind = "{kind}"', 1), encoding="utf-8")
     print(f"New site at {target}. Fill in {target / 'site.toml'}, then "
           f"run: python build.py {target}")
 
-ENGINE_FILES = ["build.py", "assets", "template", "TEMPLATE.md",
-                "tools/ghost_one.py", ".github/workflows/publish.yml"]
+def new_article(title, folder="."):
+    """A new article in posts/, in the gold-letterhead style with every
+    widget shown, held back as a draft until `draft: yes` is deleted."""
+    configure(folder)
+    import datetime
+    slug = slugify(title)
+    dest = POSTS / f"{slug}.md"
+    if dest.exists():
+        sys.exit(f"{dest} already exists; nothing was written.")
+    first_sub = next((sub for c in CATEGORIES.values() for sub in c["subs"]), "")
+    text = (TEMPLATE / "posts" / "every-widget.md").read_text(encoding="utf-8")
+    text = re.sub(r"^title: .*$", f"title: {title}", text, count=1, flags=re.M)
+    text = re.sub(r"^subcategory: .*$", f"subcategory: {first_sub}", text, count=1, flags=re.M)
+    text = re.sub(r"^date: .*$", f"date: {datetime.date.today()}", text, count=1, flags=re.M)
+    text = re.sub(r"^project: .*$", f"project: {next(iter(PROJECTS), '')}", text, count=1, flags=re.M)
+    POSTS.mkdir(exist_ok=True)
+    dest.write_text(text, encoding="utf-8")
+    print(f"New article at {dest}. Write it, delete the line `draft: yes`, and build.")
+
+ENGINE_FILES = ["build.py", "assets", "template", "TEMPLATE.md", "HOW-TO.md", "docs/how-to",
+                "tools/ghost_one.py", ".github/workflows/publish.yml",
+                ".github/workflows/new-article.yml", ".github/workflows/new-site.yml",
+                ".github/workflows/export-site.yml", ".github/workflows/ghost-export.yml",
+                "New Article.bat", "New Site.bat", "Build a Site.bat"]
 
 def export_site(folder, dest):
     """Write one site as a standalone repository: the engine files, and
@@ -756,7 +1003,9 @@ def export_site(folder, dest):
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if argv[:1] == ["--new"]:
-        return new_site(argv[1])
+        return new_site(argv[1], argv[3] if argv[2:3] == ["--kind"] else "blog")
+    if argv[:1] == ["--new-article"]:
+        return new_article(argv[1], argv[2] if len(argv) > 2 else ".")
     if argv[:1] == ["--export"]:
         return export_site(argv[1], argv[2])
     if argv:
@@ -768,6 +1017,11 @@ def main(argv=None):
     shutil.copytree(ASSETS, out_assets)
     if OVERLAY:
         shutil.copytree(OVERLAY, out_assets, dirs_exist_ok=True)
+    if C("site", "kind") == "signup":
+        build_signup()
+        build_sitemap([], [])
+        print(f"Built the signup page into {SITE}")
+        return
     posts = load_posts()
     FOOT_SVG[0] = stream_svg(h=280)
     build_index(posts)

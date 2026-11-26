@@ -921,3 +921,43 @@ Session smile-ef, from the Smile project, under /C-auto. His words, verbatim, ar
     ) End what stays on the PC )
 
 :-) End 2026-11-26, the template, and The New Body as its first copy :-) Many blessings
+
+(-: 2026-11-26, making with no code, session ccr-1dcedc23 (-:
+
+    ( His words (
+        "make sure anyone who sees any repo knows how to extremely easily
+        without nay coding make a new article in this style full of
+        widgets nad features, or a mailing list only site (just a sign up
+        one page no length), or a full blog/mailing list with logins, or
+        just a blog with mailing list etc"
+    ) End his words )
+    ( What was made (
+        HOW-TO.md is the front door, pointed to from the top of README.md,
+        template\README.md, sites\the-new-body\README.md and
+        hanjopurebuddha.com\README.md, with pictures in docs\how-to\.
+        Four buttons in GitHub's Actions tab: New article, New site (kind
+        blog, signup or blog-with-logins), Export a site (a zip that is a
+        whole repository) and Export a post to Ghost. On the PC, New
+        Article.bat, New Site.bat and Build a Site.bat. All of these, the
+        guide and its pictures travel with every exported repository.
+    ) End what was made )
+    ( The article style (
+        A post with style: article is written as a Blog Template page with
+        the gold letterhead, its widgets in plain words: :::key, :::learn,
+        :::caveat, :::vision, :::aside, :::quote, :::terms, :::math and
+        :::more blocks, [[note: ]], [[video: ]], [[button: ]], pictures
+        with captions, checklists remembered per reader, tables, ---, and
+        [[join: ]] and [[shop]]. template\posts\every-widget.md shows every
+        one and is what New article copies. assets\blog\widgets.css and
+        widgets.js carry them. Posts without style: article are untouched,
+        so drthomasager.com's own pages build exactly as before.
+    ) End the article style )
+    ( The kinds (
+        kind = "signup" builds one page from the [signup] table, with the
+        freebie as its gift. kind = "blog-with-logins" adds Sign in and
+        Library to the menu from [logins]; a static site holds no accounts,
+        so HOW-TO.md names Ghost, and the account service on the PC, as
+        where sign in lives.
+    ) End the kinds )
+
+:-) End 2026-11-26, making with no code :-) Many blessings
